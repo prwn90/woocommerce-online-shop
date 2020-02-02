@@ -1,0 +1,239 @@
+.wplc-chat-alert {
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #373737;
+  border-radius: 15px;
+}
+
+.wplc-chat-alert--theme-3 {
+  background-color: #5a0031;
+}
+
+.wplc-chat-alert.is-active {
+  display: inline-block;
+}
+
+.wplc-chat-alert:after {
+  content: '\f0a2';
+  position: absolute;
+  left: 7px;
+  font-family: "Font Awesome 5 Free";
+  color: #fff;
+  line-height: 30px;
+}
+
+.tcx-edit-message {
+  display: none;
+  cursor: pointer;
+  margin-left: 10px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+
+/**
+ * Mobile Responsiveness (Jarek)
+ */
+
+@media (max-width: 767px) {
+  #wp-live-chat-2 {
+    min-height: 420px;
+    top: 2px;
+  }
+  #wp-live-chat.classic {
+    right: 30px !important;
+  }
+  #wp-live-chat.classic.wplc_right {
+    right: 0 !important;
+  }
+  #wp-live-chat.classic.wplc_left {
+    right: auto !important;
+  }
+  #wp-live-chat.classic.is-active {
+    top: 2px;
+  }
+  #wp-live-chat.mobile-active #wp-live-chat-2 {
+    min-height: auto;
+    top: auto;
+  }
+  #wp-live-chat-inner {
+    overflow-y: auto;
+  }
+  #wp-live-chat-4 {
+    top: 40px !important;
+    bottom: 150px !important;
+  }
+  .wplc_left #wp-live-chat-4 {
+    bottom: 80px !important;
+  }
+  #wp-live-chat-4.is-full-height {
+    bottom: 70px !important;
+  }
+  #wp-live-chat.is-full-height.classic {
+    top: -40px;
+  }
+  .wplc_left #wp-live-chat-4 {
+    width: 225px;
+  }
+  .modern[original_pos="bottom_left"] #wp-live-chat-4 {
+    width: 310px;
+  }
+}
+
+
+/* Gutenberg styles */
+
+#wplc-chat-box.disabled {
+  display: none;
+}
+
+.wplc_live_chat_support_shortcode .wp-live-chat-wraper {
+  position: relative;
+  z-index: 0;
+  display: block;
+}
+
+.wplc_live_chat_support_shortcode #wp-live-chat-4 {
+  position: relative;
+  height: 500px;
+  z-index: 0;
+  bottom: unset;
+  right: unset;
+  left: 70px;
+  top: -80px;
+}
+
+.wplc_live_chat_support_shortcode #wplc_hovercard {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  bottom: unset;
+  z-index: 0;
+}
+
+.wplc_live_chat_support_shortcode #wp-live-chat {
+  position: relative;
+  z-index: 0;
+}
+
+.wplc_live_chat_support_shortcode {
+  position: relative;
+  transition: all .3s ease-in-out;
+  z-index: 10;
+}
+
+.wplc_live_chat_support_shortcode #wp-live-chat-2 {
+  position: relative;
+  left: 70px;
+  z-index: 5;
+}
+
+@media screen and (max-width: 500px) {
+  .wplc_live_chat_support_shortcode #wp-live-chat-4 {
+    max-width: 280px;
+  }
+  .wplc_live_chat_support_shortcode #wp-live-chat-2 {
+    left: 0px !important;
+  }
+  .wplc_live_chat_support_shortcode #wplc_hovercard {
+    top: 80px !important;
+    left: -20px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wplc_live_chat_support_shortcode #wp-live-chat-4 {
+    max-width: 240px;
+  }
+}
+
+.wplc_live_chat_support_shortcode #wp-live-chat-4 {
+  margin-bottom: 65px !important;
+}
+
+
+/* WPLC Gutenberg style: Wide */
+
+.wplc_live_chat_support_shortcode.wplc_wide #wp-live-chat-4 {
+  width: 100%;
+  left: 0;
+  top: 0px;
+}
+
+.wplc_live_chat_support_shortcode.wplc_wide #wplc_hovercard {
+  top: 0px;
+  left: 0;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.wplc_live_chat_support_shortcode.wplc_wide #wp-live-chat-2 {
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+
+/* WPLC Gutenberg style: Center */
+
+.wplc_live_chat_support_shortcode.wplc_center #wp-live-chat-header {
+  margin: 0 auto;
+  left: 0;
+  top: 0px;
+  margin-bottom: 10px;
+}
+
+.wplc_live_chat_support_shortcode.wplc_center #wp-live-chat-4 {
+  margin: 0 auto;
+  left: 0;
+  top: 0px;
+}
+
+.wplc_live_chat_support_shortcode.wplc_center #wplc_hovercard {
+  left: 0;
+  margin: 0 auto;
+  top: 75px;
+}
+
+.wplc_live_chat_support_shortcode.wplc_center #wp-live-chat-2 {
+  left: 0px;
+  margin: 0px auto;
+  top: 0px;
+}
+
+
+/* Link override */
+
+#wplc_chatbox .wplc-user-message a,
+#wplc_chatbox .wplc-admin-message a {
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+#wp-live-chat-inner .wpcf_wrapper {
+  position: inherit;
+  padding: 25px;
+  max-height: 400px;
+  margin-bottom: 20px;
+}
+
+input#wplc_chat_gdpr_opt_in.incomplete+label {
+  border-left: 1px solid #bd0000 !important;
+  background: none !important;
+  padding: 4px;
+}
+
+@media screen and (max-width:510px) {
+  #wp-live-chat.modern #wp-live-chat-2,
+  #wp-live-chat.modern #wp-live-chat-4 {
+    bottom: 100px;
+  }
+}
+
+.wplc_uploaded_file span {
+  padding-left: 8px;
+}

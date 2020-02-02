@@ -1,0 +1,436 @@
+	#P24FormAreaHolder {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.5);
+		z-index: 10000;
+	}
+
+	#P24FormAreaHolder > #P24FormArea.popup {
+		float: none;
+		box-shadow: 0 0 40px #000;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -100px;
+		margin-left: -175px;
+        padding: 14px;
+	}
+
+	#P24FormArea {
+		border-radius: 0px;
+		background: #ffffff;
+		padding: 1.5em;
+		margin-bottom: 0.5em;
+		position: absolute;
+	}
+
+	#P24_cardHolder, #P24_cardNumber {
+		padding-left: 0.3em;
+	}
+
+	#P24FormContainer {
+		background-image: url(../images/logo_small.png);
+		background-repeat: no-repeat;
+		padding-top: 2em;
+		background-position: right 10px top;
+		background-size: 80px;
+	}
+
+	#P24FormContainer a {
+		border-top: 1px solid #a9a8a8;
+		padding-top: 1.5em;
+		display: block;
+		color: #000000;
+		-webkit-transition: color 0.25s;
+		-moz-transition: color 0.25s;
+		-ms-transition: color 0.25s;
+		-o-transition: color 0.25s;
+		transition: color 0.25s;
+	}
+
+	#P24FormContainer a:hover,
+	#P24FormContainer a:active,
+	#P24FormContainer a:focus {
+		color: #a9a8a8;
+		text-underline: none;
+		text-decoration: none;
+	}
+
+	#P24FormContainer #register-text {
+		cursor: pointer;
+		margin-top: 3px !important;
+	}
+
+	#P24FormContainer #P24_registerCard {
+		height: 15px;
+		width: 15px !important;
+		margin-top: 8px;
+		cursor: pointer;
+	}
+
+	#P24FormContainer form .loading {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		z-index: 1000000;
+		background-color: #ffffff;
+		background-image: url('../images/loader.gif');
+	}
+
+	#p24-card-alert {
+		position: absolute;
+		top: 25%;
+		left: 30%;
+		right: 30%;
+	}
+
+	#P24FormContainer form button {
+		display: inline-block;
+		font-weight: 400;
+		line-height: 1.25;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		user-select: none;
+		border: 1px solid transparent;
+		padding: .5rem 1rem;
+		font-size: 1rem;
+		border-radius: 0;
+		color: #fff;
+		background-color: #2fb5d2;
+		border-color: transparent;
+		width: 100%;
+		margin-top: 1.5em;
+		margin-left: 0px;
+		text-transform: uppercase;
+	}
+
+	#P24FormContainer form button:hover {
+		color: #fff;
+		background-color: #2592a9;
+		border-color: transparent;
+	}
+
+	#P24FormContainer form label {
+		text-align: left;
+		margin-bottom: 0px;
+		width: 44%;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: .700rem;
+		vertical-align: middle;
+		cursor: auto;
+	}
+
+	#P24FormContainer p input.P24_input_error {
+		border: 1px dashed #f03737;
+	}
+
+	#p24-card-loader {
+		width: 150px;
+		height: 150px;
+		background-color: #ffffff;
+		background-image: url('../images/loader.gif');
+		background-repeat: no-repeat;
+		background-position: center center;
+		float: none;
+		box-shadow: 0 0 40px #000;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -75px;
+		margin-left: -75px;
+		z-index: 100;
+	}
+
+	#P24_cardNumber,
+	#P24_cardHolder {
+		max-width: 200px;
+	}
+
+	#P24_cardCVV {
+		max-width: 73px;
+	}
+
+	#P24FormContainer form p:not(:last-of-type) {
+		margin-bottom: 10px;
+	}
+
+	#P24FormContainer form p:last-of-type {
+		margin-bottom: 0px;
+	}
+
+	#P24FormContainer form p.italic {
+		color: #000000;
+		font-style: italic;
+		margin-bottom: 1.5em !important;
+		padding-left: 0px !important;
+		font-size: 1rem;
+		font-weight: 700;
+		border-bottom: 1px solid #a9a8a8;
+		padding-bottom: 1.5em;
+	}
+
+	#P24FormContainer form input {
+		padding-left: 10px;
+		padding-right: 20px;
+		color: #555555;
+		width: 56%;
+		font-size: 0.750rem;
+		background: #ffffff;
+		border: 1px dashed #afafaf;
+	}
+
+	#P24FormContainer form input:focus {
+		box-shadow: 0 0 5px #000;
+		border: 1px dashed transparent;
+	}
+
+	#P24FormContainer label {
+		cursor: none;
+	}
+
+	#P24FormContainer input {
+		border: none;
+		height: 23px;
+	}
+
+	#P24FormArea span.info {
+		margin: 3em 0;
+		display: block;
+		text-align: center;
+	}
+
+	.p24-register-card-wrapper, .p24-register-card-row {
+		position: relative;
+		min-height: 55px;
+	}
+
+	.p24-register-card-row form {
+		padding: 8px;
+		border-radius: 4px;
+		background: #fff;
+	}
+
+	.p24-register-card-form {
+		display: none;
+	}
+
+	.p24-register-card-row form label {
+		width: 100%;
+		text-align: left;
+	}
+
+	#P24_expMonth {
+		margin-right: 5px;
+	}
+
+	#P24_expYear {
+		margin-left: 5px;
+	}
+
+	.p24-register-card-row form #P24_cardCVV, #P24_expMonth, #P24_expYear {
+		max-width: 67px;
+		display: inline-block;
+	}
+
+    #uniform-p24_regulation_accept {
+        display: inline-block;
+    }
+
+	#przelewy24lastmethod_img.inactive, a.bank-box.inactive, .inactive {
+		opacity: 0.5;
+		-webkit-filter: grayscale(1);
+		-moz-filter: grayscale(1);
+		-ms-filter: grayscale(1);
+		-o-filter: grayscale(1);
+		filter: grayscale(1);
+		filter: gray;
+  	}
+
+    label {
+        cursor: pointer;
+        cursor: hand;
+    }
+
+	a.bank-box.selected:before {
+		font-family: FontAwesome;
+		content: "\f00c";
+		font-size: 4em;
+		color: #db2032;
+		margin: -18px 0 0 30px;
+		position: absolute;
+		z-index: 2;
+	}
+	@font-face {
+		font-family: 'FontAwesome';
+		src: url("../fonts/fontawesome-webfont.eot?v=4.1.0");
+		src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"),
+		     url("../fonts/fontawesome-webfont.woff?v=4.1.0") format("woff"),
+		     url("../fonts/fontawesome-webfont.ttf?v=4.1.0") format("truetype"),
+		     url("../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+		font-weight: normal;
+		font-style: normal
+	}
+	.payMethodList li {
+		display: inline-block;
+		width: 49%;
+	}
+
+    .bank-box.recurring .bank-logo {
+        background: transparent url(../images/cc_empty.png) center 8px no-repeat;
+    }
+
+    .bank-box.recurring .bank-logo > span {
+        top: 27px;
+        position: relative;
+        background-color: #fff;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 0 2px;
+    }
+
+    .bank-box.recurring .bank-logo-visa, .bank-box.recurring .bank-logo-93d207a5540aa38f404ae593385a7b64 { /* VISA */
+        background: transparent url(../images/cc_visa.png) center 2px no-repeat;
+    }
+
+    .bank-box.recurring .bank-logo-ecmc, .bank-box.recurring .bank-logo-b05c23fab98df11c755ba516f5df83c0 { /* ECMC */
+        background: transparent url(../images/cc_mastercard.png) center 2px no-repeat;
+    }
+
+    .bank-box.recurring .bank-logo-maestro, .bank-box.recurring .bank-logo-b4d6cac88f89a1862d9068f831eef183 { /* Maestro-Intl.*/
+        background: transparent url(../images/cc_maestro.png) center 2px no-repeat;
+    }
+
+    .bank-box.recurring .bank-logo-dc, .bank-box.recurring .bank-logo-8cf5364c4259be0f1a5010e052991c0e { /* Diners Club  */
+        background: transparent url(../images/cc_dinersclub.png) center 2px no-repeat;
+    }
+
+	.moreStuff {
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+		width: 100%;
+		max-width: 600px;
+		margin-bottom: 2em;
+		cursor: pointer;
+		cursor: hand;
+	}
+	.moreStuff:before {
+		font-family: FontAwesome;
+		content: "\f078    więcej metod płatności    \f078";
+		text-align: center;
+		color: #fff;
+		border: 2px solid #ccc;
+		padding: 0.1em;
+		border-radius: 3px;
+		position: relative;
+		top: 8px;
+		cursor: pointer;
+		cursor: hand;
+		background: #ccc;
+	}
+	.moreStuff:hover {
+		border-color: #bbb;
+	}
+	.moreStuff:hover:before {
+		border-color: #bbb;
+		background: #bbb;
+	}
+
+	.bank-placeholder {
+		opacity: 0.6;
+	}
+
+	.sortable.available .bank-box:last-child {
+		clear: both;
+	}
+
+	.sortable.selected .bank-box {
+		position: relative;
+		z-index: 2;
+	}
+
+	.bank-box.ui-sortable-helper {
+		transform: rotate(10deg);
+		box-shadow: 10px 10px 10px lightgray;
+	}
+
+	.ui-helper-unrotate {
+		transform: rotate(0deg) !important;
+		box-shadow: 0 0 0 lightgray !important;
+	}
+
+	.bank-box {
+		transition: transform 0.2s ease, box-shadow 0.2s ease;
+	}
+
+	a.bank-box {
+		text-decoration: none;
+	}
+
+	.removecc:before {
+		content: "\f014";
+		font-family: FontAwesome;
+		color: gray;
+	}
+
+	.bank-box.bank-item.recurring {
+		position: relative;
+	}
+
+	.bank-box.bank-item .removecc {
+		position: absolute;
+		right: 3px;
+		visibility: hidden;
+	}
+
+	.bank-box.bank-item.recurring:hover .removecc {
+		visibility: visible;
+	}
+
+	.input-box.bank-item .removecc {
+		margin-left: 0.5em;
+		cursor: pointer;
+	}
+
+	.mobile a.bank-box.selected:before {
+		margin-left: -15px;
+	}
+
+	.loading {
+		background: transparent url(../images/loadingAnimation.gif) center center no-repeat;
+		min-height: 60px;
+	}
+
+	.input-box.bank-item input {
+		margin: 0 0.5em 0 0;
+		display: inline-block;
+	}
+
+	.checkoutView.payMethodList {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.payMethodList {
+		margin-bottom: 10px;
+	}
+
+#my-stored-cards .ccbox {
+    background: #fbfbfb;
+    border: 1px solid #d6d4d4;
+    padding: 1em;
+    margin: 1em;
+    width: 40%;
+    display: inline-block;
+}
+
+#my-stored-cards .ccbox:nth-child(odd) {
+    margin-left: 1%;
+}

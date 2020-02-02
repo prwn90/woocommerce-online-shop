@@ -1,0 +1,63 @@
+.wplc-color-1 {
+  color: #B97B9D !important;
+}
+
+.wplc-color-2 {
+  color: #FFF !important;
+}
+
+.wplc-color-3 {
+  color: #EEE !important;
+}
+
+.wplc-color-4 {
+  color: #5A0031 !important;
+}
+
+.wplc-color-bg-1 {
+  background-color: #B97B9D !important;
+}
+
+.wplc-color-bg-2 {
+  background-color: #FFF !important;
+}
+
+.wplc-color-bg-3 {
+  background-color: #EEE !important;
+}
+
+.wplc-color-bg-4 {
+  background-color: #5A0031 !important;
+}
+
+.wplc-color-border-1 {
+  border-color: #B97B9D !important;
+}
+
+.wplc-color-border-2 {
+  border-color: #FFF !important;
+}
+
+.wplc-color-border-3 {
+  border-color: #EEE !important;
+}
+
+.wplc-color-border-4 {
+  border-color: #5A0031 !important;
+}
+
+.wplc-color-border-1:before {
+  border-color: transparent #B97B9D !important;
+}
+
+.wplc-color-border-2:before {
+  border-color: transparent #FFF !important;
+}
+
+.wplc-color-border-3:before {
+  border-color: transparent #EEE !important;
+}
+
+.wplc-color-border-4:before {
+  border-color: transparent #5A0031 !important;
+}

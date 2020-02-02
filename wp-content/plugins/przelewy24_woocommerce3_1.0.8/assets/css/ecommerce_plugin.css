@@ -1,0 +1,366 @@
+.bank-box {
+	float: left;
+	width: 135px;
+	height: 71px;
+	margin-left: 4px;
+	margin-top: 5px;
+	padding: 0px 0;
+	text-align: center;
+	border: 1px solid #eee;
+	cursor: pointer;
+	cursor: hand;
+	background: white;
+}
+.bank-box:hover {
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.27);
+	text-decoration: none !important;
+}
+
+.bank-logo {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto 35px;
+	width: 137px;
+	height: 50px;
+	font-size: 9px;
+}
+.bank-name {
+	color: gray;
+	height: 30px;
+	font-size: 9px;
+}.bank-logo-3 { background-image: url("../images/banks/logo_3.gif"); }
+.bank-logo-5 { background-image: url("../images/banks/logo_5.gif"); }
+.bank-logo-7 { background-image: url("../images/banks/logo_7.gif"); }
+.bank-logo-15 { background-image: url("../images/banks/logo_15.gif"); }
+.bank-logo-16 { background-image: url("../images/banks/logo_16.gif"); }
+.bank-logo-19 { background-image: url("../images/banks/logo_19.gif"); }
+.bank-logo-27 { background-image: url("../images/banks/logo_27.gif"); }
+.bank-logo-30 { background-image: url("../images/banks/logo_30.gif"); }
+.bank-logo-32 { background-image: url("../images/banks/logo_32.gif"); }
+.bank-logo-34 { background-image: url("../images/banks/logo_34.gif"); }
+.bank-logo-35 { background-image: url("../images/banks/logo_35.gif"); }
+.bank-logo-37 { background-image: url("../images/banks/logo_37.gif"); }
+.bank-logo-39 { background-image: url("../images/banks/logo_39.gif"); }
+.bank-logo-44 { background-image: url("../images/banks/logo_44.gif"); }
+.bank-logo-47 { background-image: url("../images/banks/logo_47.gif"); }
+.bank-logo-51 { background-image: url("../images/banks/logo_51.gif"); }
+.bank-logo-55 { background-image: url("../images/banks/logo_55.gif"); }
+.bank-logo-56 { background-image: url("../images/banks/logo_56.gif"); }
+.bank-logo-61 { background-image: url("../images/banks/logo_61.gif"); }
+.bank-logo-68 { background-image: url("../images/banks/logo_68.gif"); }
+.bank-logo-70 { background-image: url("../images/banks/logo_70.gif"); }
+.bank-logo-71 { background-image: url("../images/banks/logo_71.gif"); }
+.bank-logo-79 { background-image: url("../images/banks/logo_79.gif"); }
+.bank-logo-82 { background-image: url("../images/banks/logo_82.gif"); }
+.bank-logo-89 { background-image: url("../images/banks/logo_89.gif"); }
+.bank-logo-91 { background-image: url("../images/banks/logo_91.gif"); }
+.bank-logo-97 { background-image: url("../images/banks/logo_97.gif"); }
+.bank-logo-98 { background-image: url("../images/banks/logo_98.gif"); }
+.bank-logo-99 { background-image: url("../images/banks/logo_99.gif"); }
+.bank-logo-101 { background-image: url("../images/banks/logo_101.gif"); }
+.bank-logo-105 { background-image: url("../images/banks/logo_105.gif"); }
+.bank-logo-106 { background-image: url("../images/banks/logo_106.gif"); }
+.bank-logo-109 { background-image: url("../images/banks/logo_109.gif"); }
+.bank-logo-113 { background-image: url("../images/banks/logo_113.gif"); }
+.bank-logo-114 { background-image: url("../images/banks/logo_114.gif"); }
+.bank-logo-118 { background-image: url("../images/banks/logo_118.gif"); }
+.bank-logo-134 { background-image: url("../images/banks/logo_134.gif"); }
+.bank-logo-135 { background-image: url("../images/banks/logo_135.gif"); }
+.bank-logo-137 { background-image: url("../images/banks/logo_137.gif"); }
+.bank-logo-149 { background-image: url("../images/banks/logo_149.gif"); }
+.bank-logo-150 { background-image: url("../images/banks/logo_150.gif"); }
+.bank-logo-159 { background-image: url("../images/banks/logo_159.gif"); }
+.bank-logo-160 { background-image: url("../images/banks/logo_160.gif"); }
+.bank-logo-162 { background-image: url("../images/banks/logo_162.gif"); }
+.bank-logo-169 { background-image: url("../images/banks/logo_169.gif"); }
+.bank-logo-171 { background-image: url("../images/banks/logo_171.gif"); }
+.bank-logo-1 { background-image: url("../images/banks/logo_1.gif"); }
+.bank-logo-2 { background-image: url("../images/banks/logo_2.gif"); }
+.bank-logo-4 { background-image: url("../images/banks/logo_4.gif"); }
+.bank-logo-6 { background-image: url("../images/banks/logo_6.gif"); }
+.bank-logo-14 { background-image: url("../images/banks/logo_14.gif"); }
+.bank-logo-17 { background-image: url("../images/banks/logo_17.gif"); }
+.bank-logo-18 { background-image: url("../images/banks/logo_18.gif"); }
+.bank-logo-20 { background-image: url("../images/banks/logo_20.gif"); }
+.bank-logo-22 { background-image: url("../images/banks/logo_22.gif"); }
+.bank-logo-25 { background-image: url("../images/banks/logo_25.gif"); }
+.bank-logo-26 { background-image: url("../images/banks/logo_26.gif"); }
+.bank-logo-28 { background-image: url("../images/banks/logo_28.gif"); }
+.bank-logo-29 { background-image: url("../images/banks/logo_29.gif"); }
+.bank-logo-31 { background-image: url("../images/banks/logo_31.gif"); }
+.bank-logo-33 { background-image: url("../images/banks/logo_33.gif"); }
+.bank-logo-36 { background-image: url("../images/banks/logo_36.gif"); }
+.bank-logo-41 { background-image: url("../images/banks/logo_41.gif"); }
+.bank-logo-42 { background-image: url("../images/banks/logo_42.gif"); }
+.bank-logo-43 { background-image: url("../images/banks/logo_43.gif"); }
+.bank-logo-45 { background-image: url("../images/banks/logo_45.gif"); }
+.bank-logo-46 { background-image: url("../images/banks/logo_46.gif"); }
+.bank-logo-48 { background-image: url("../images/banks/logo_48.gif"); }
+.bank-logo-49 { background-image: url("../images/banks/logo_49.gif"); }
+.bank-logo-50 { background-image: url("../images/banks/logo_50.gif"); }
+.bank-logo-52 { background-image: url("../images/banks/logo_52.gif"); }
+.bank-logo-53 { background-image: url("../images/banks/logo_53.gif"); }
+.bank-logo-54 { background-image: url("../images/banks/logo_54.gif"); }
+.bank-logo-58 { background-image: url("../images/banks/logo_58.gif"); }
+.bank-logo-59 { background-image: url("../images/banks/logo_59.gif"); }
+.bank-logo-62 { background-image: url("../images/banks/logo_62.gif"); }
+.bank-logo-64 { background-image: url("../images/banks/logo_64.gif"); }
+.bank-logo-65 { background-image: url("../images/banks/logo_65.gif"); }
+.bank-logo-66 { background-image: url("../images/banks/logo_66.gif"); }
+.bank-logo-67 { background-image: url("../images/banks/logo_67.gif"); }
+.bank-logo-69 { background-image: url("../images/banks/logo_69.gif"); }
+.bank-logo-72 { background-image: url("../images/banks/logo_72.gif"); }
+.bank-logo-75 { background-image: url("../images/banks/logo_75.gif"); }
+.bank-logo-76 { background-image: url("../images/banks/logo_76.gif"); }
+.bank-logo-84 { background-image: url("../images/banks/logo_84.gif"); }
+.bank-logo-85 { background-image: url("../images/banks/logo_85.gif"); }
+.bank-logo-87 { background-image: url("../images/banks/logo_87.gif"); }
+.bank-logo-88 { background-image: url("../images/banks/logo_88.gif"); }
+.bank-logo-90 { background-image: url("../images/banks/logo_90.gif"); }
+.bank-logo-92 { background-image: url("../images/banks/logo_92.gif"); }
+.bank-logo-94 { background-image: url("../images/banks/logo_94.gif"); }
+.bank-logo-95 { background-image: url("../images/banks/logo_95.gif"); }
+.bank-logo-100 { background-image: url("../images/banks/logo_100.gif"); }
+.bank-logo-102 { background-image: url("../images/banks/logo_102.gif"); }
+.bank-logo-103 { background-image: url("../images/banks/logo_103.gif"); }
+.bank-logo-107 { background-image: url("../images/banks/logo_107.gif"); }
+.bank-logo-108 { background-image: url("../images/banks/logo_108.gif"); }
+.bank-logo-110 { background-image: url("../images/banks/logo_110.gif"); }
+.bank-logo-111 { background-image: url("../images/banks/logo_111.gif"); }
+.bank-logo-112 { background-image: url("../images/banks/logo_112.gif"); }
+.bank-logo-117 { background-image: url("../images/banks/logo_117.gif"); }
+.bank-logo-119 { background-image: url("../images/banks/logo_119.gif"); }
+.bank-logo-120 { background-image: url("../images/banks/logo_120.gif"); }
+.bank-logo-121 { background-image: url("../images/banks/logo_121.gif"); }
+.bank-logo-123 { background-image: url("../images/banks/logo_123.gif"); }
+.bank-logo-124 { background-image: url("../images/banks/logo_124.gif"); }
+.bank-logo-129 { background-image: url("../images/banks/logo_129.gif"); }
+.bank-logo-130 { background-image: url("../images/banks/logo_130.gif"); }
+.bank-logo-131 { background-image: url("../images/banks/logo_131.gif"); }
+.bank-logo-136 { background-image: url("../images/banks/logo_136.gif"); }
+.bank-logo-140 { background-image: url("../images/banks/logo_140.gif"); }
+.bank-logo-141 { background-image: url("../images/banks/logo_141.gif"); }
+.bank-logo-142 { background-image: url("../images/banks/logo_142.gif"); }
+.bank-logo-143 { background-image: url("../images/banks/logo_143.gif"); }
+.bank-logo-144 { background-image: url("../images/banks/logo_144.gif"); }
+.bank-logo-145 { background-image: url("../images/banks/logo_145.gif"); }
+.bank-logo-146 { background-image: url("../images/banks/logo_146.gif"); }
+.bank-logo-147 { background-image: url("../images/banks/logo_147.gif"); }
+.bank-logo-151 { background-image: url("../images/banks/logo_151.gif"); }
+.bank-logo-152 { background-image: url("../images/banks/logo_152.gif"); }
+.bank-logo-153 { background-image: url("../images/banks/logo_153.gif"); }
+.bank-logo-154 { background-image: url("../images/banks/logo_154.gif"); }
+.bank-logo-156 { background-image: url("../images/banks/logo_156.gif"); }
+.bank-logo-157 { background-image: url("../images/banks/logo_157.gif"); }
+.bank-logo-158 { background-image: url("../images/banks/logo_158.gif"); }
+.bank-logo-161 { background-image: url("../images/banks/logo_161.gif"); }
+.bank-logo-163 { background-image: url("../images/banks/logo_163.gif"); }
+.bank-logo-164 { background-image: url("../images/banks/logo_164.gif"); }
+.bank-logo-170 { background-image: url("../images/banks/logo_170.gif"); }
+.bank-logo-172 { background-image: url("../images/banks/logo_172.gif"); }
+.bank-logo-173 { background-image: url("../images/banks/logo_173.gif"); }
+.bank-logo-174 { background-image: url("../images/banks/logo_174.gif"); }
+.bank-logo-175 { background-image: url("../images/banks/logo_175.gif"); }
+.bank-logo-176 { background-image: url("../images/banks/logo_176.gif"); }
+.bank-logo-177 { background-image: url("../images/banks/logo_177.gif"); }
+.bank-logo-178 { background-image: url("../images/banks/logo_178.gif"); }
+.bank-logo-181 { background-image: url("../images/banks/logo_181.gif"); }
+.bank-logo-185 { background-image: url("../images/banks/logo_185.gif"); }
+.bank-logo-186 { background-image: url("../images/banks/logo_186.gif"); }
+.bank-logo-187 { background-image: url("../images/banks/logo_187.gif"); }
+.bank-logo-188 { background-image: url("../images/banks/logo_188.gif"); }
+.bank-logo-189 { background-image: url("../images/banks/logo_189.gif"); }
+.bank-logo-190 { background-image: url("../images/banks/logo_190.gif"); }
+.bank-logo-191 { background-image: url("../images/banks/logo_191.gif"); }
+.bank-logo-192 { background-image: url("../images/banks/logo_192.gif"); }
+.bank-logo-193 { background-image: url("../images/banks/logo_193.gif"); }
+.bank-logo-194 { background-image: url("../images/banks/logo_194.gif"); }
+.bank-logo-195 { background-image: url("../images/banks/logo_195.gif"); }
+.bank-logo-196 { background-image: url("../images/banks/logo_196.gif"); }
+.bank-logo-197 { background-image: url("../images/banks/logo_197.gif"); }
+.bank-logo-198 { background-image: url("../images/banks/logo_198.gif"); }
+.bank-logo-199 { background-image: url("../images/banks/logo_199.gif"); }
+.bank-logo-200 { background-image: url("../images/banks/logo_200.gif"); }
+.bank-logo-201 { background-image: url("../images/banks/logo_201.gif"); }
+.bank-logo-202 { background-image: url("../images/banks/logo_202.gif"); }
+.bank-logo-203 { background-image: url("../images/banks/logo_203.gif"); }
+.bank-logo-204 { background-image: url("../images/banks/logo_204.gif"); }
+.bank-logo-205 { background-image: url("../images/banks/logo_205.gif"); }
+.bank-logo-206 { background-image: url("../images/banks/logo_206.gif"); }
+.bank-logo-207 { background-image: url("../images/banks/logo_207.gif"); }
+.bank-logo-208 { background-image: url("../images/banks/logo_208.gif"); }
+.bank-logo-209 { background-image: url("../images/banks/logo_209.gif"); }
+.bank-logo-210 { background-image: url("../images/banks/logo_210.gif"); }
+.bank-logo-211 { background-image: url("../images/banks/logo_211.gif"); }
+.bank-logo-212 { background-image: url("../images/banks/logo_212.gif"); }
+.bank-logo-213 { background-image: url("../images/banks/logo_213.gif"); }
+.bank-logo-214 { background-image: url("../images/banks/logo_214.gif"); }
+.bank-logo-215 { background-image: url("../images/banks/logo_215.gif"); }
+.bank-logo-216 { background-image: url("../images/banks/logo_216.gif"); }
+.bank-logo-217 { background-image: url("../images/banks/logo_217.gif"); }
+.bank-logo-218 { background-image: url("../images/banks/logo_218.gif"); }
+.bank-logo-219 { background-image: url("../images/banks/logo_219.gif"); }
+.bank-logo-220 { background-image: url("../images/banks/logo_220.gif"); }
+.bank-logo-222 { background-image: url("../images/banks/logo_222.gif"); }
+.bank-logo-1000 { background-image: url("../images/banks/logo_2000.gif"); }
+.bank-logo-2000 { background-image: url("../images/banks/logo_1000.gif"); }
+.mobile .bank-box {
+	width: 66px;
+	height: 70px;
+	margin-left: 4px;
+	margin-top: 12px;
+	background: none;
+	border: none;
+}
+.mobile .bank-box:hover {
+	box-shadow: none;
+}
+.mobile .bank-logo {
+	background-size: cover;
+	width: 56px;
+	height: 60px;
+}
+.mobile .bank-name {
+	display: none;
+}
+.mobile .bank-logo-27 { background-image: url("../images/method/pf_27.png"); }
+.mobile .bank-logo-32 { background-image: url("../images/method/pf_32.png"); }
+.mobile .bank-logo-34 { background-image: url("../images/method/pf_34.png"); }
+.mobile .bank-logo-35 { background-image: url("../images/method/pf_35.png"); }
+.mobile .bank-logo-37 { background-image: url("../images/method/pf_37.png"); }
+.mobile .bank-logo-44 { background-image: url("../images/method/pf_44.png"); }
+.mobile .bank-logo-47 { background-image: url("../images/method/pf_47.png"); }
+.mobile .bank-logo-51 { background-image: url("../images/method/pf_51.png"); }
+.mobile .bank-logo-55 { background-image: url("../images/method/pf_55.png"); }
+.mobile .bank-logo-56 { background-image: url("../images/method/pf_56.png"); }
+.mobile .bank-logo-61 { background-image: url("../images/method/pf_61.png"); }
+.mobile .bank-logo-68 { background-image: url("../images/method/pf_68.png"); }
+.mobile .bank-logo-71 { background-image: url("../images/method/pf_71.png"); }
+.mobile .bank-logo-79 { background-image: url("../images/method/pf_79.png"); }
+.mobile .bank-logo-82 { background-image: url("../images/method/pf_82.png"); }
+.mobile .bank-logo-89 { background-image: url("../images/method/pf_89.png"); }
+.mobile .bank-logo-97 { background-image: url("../images/method/pf_97.png"); }
+.mobile .bank-logo-99 { background-image: url("../images/method/pf_99.png"); }
+.mobile .bank-logo-101 { background-image: url("../images/method/pf_101.png"); }
+.mobile .bank-logo-105 { background-image: url("../images/method/pf_105.png"); }
+.mobile .bank-logo-109 { background-image: url("../images/method/pf_109.png"); }
+.mobile .bank-logo-113 { background-image: url("../images/method/pf_113.png"); }
+.mobile .bank-logo-114 { background-image: url("../images/method/pf_114.png"); }
+.mobile .bank-logo-134 { background-image: url("../images/method/pf_134.png"); }
+.mobile .bank-logo-135 { background-image: url("../images/method/pf_135.png"); }
+.mobile .bank-logo-137 { background-image: url("../images/method/pf_137.png"); }
+.mobile .bank-logo-149 { background-image: url("../images/method/pf_149.png"); }
+.mobile .bank-logo-150 { background-image: url("../images/method/pf_150.png"); }
+.mobile .bank-logo-159 { background-image: url("../images/method/pf_159.png"); }
+.mobile .bank-logo-160 { background-image: url("../images/method/pf_160.png"); }
+.mobile .bank-logo-1 { background-image: url("../images/method/pf_1.png"); }
+.mobile .bank-logo-18 { background-image: url("../images/method/pf_18.png"); }
+.mobile .bank-logo-20 { background-image: url("../images/method/pf_20.png"); }
+.mobile .bank-logo-25 { background-image: url("../images/method/pf_25.png"); }
+.mobile .bank-logo-26 { background-image: url("../images/method/pf_26.png"); }
+.mobile .bank-logo-31 { background-image: url("../images/method/pf_31.png"); }
+.mobile .bank-logo-33 { background-image: url("../images/method/pf_33.png"); }
+.mobile .bank-logo-36 { background-image: url("../images/method/pf_36.png"); }
+.mobile .bank-logo-41 { background-image: url("../images/method/pf_41.png"); }
+.mobile .bank-logo-42 { background-image: url("../images/method/pf_42.png"); }
+.mobile .bank-logo-43 { background-image: url("../images/method/pf_43.png"); }
+.mobile .bank-logo-45 { background-image: url("../images/method/pf_45.png"); }
+.mobile .bank-logo-46 { background-image: url("../images/method/pf_46.png"); }
+.mobile .bank-logo-48 { background-image: url("../images/method/pf_48.png"); }
+.mobile .bank-logo-49 { background-image: url("../images/method/pf_49.png"); }
+.mobile .bank-logo-50 { background-image: url("../images/method/pf_50.png"); }
+.mobile .bank-logo-52 { background-image: url("../images/method/pf_52.png"); }
+.mobile .bank-logo-53 { background-image: url("../images/method/pf_53.png"); }
+.mobile .bank-logo-54 { background-image: url("../images/method/pf_54.png"); }
+.mobile .bank-logo-58 { background-image: url("../images/method/pf_58.png"); }
+.mobile .bank-logo-59 { background-image: url("../images/method/pf_59.png"); }
+.mobile .bank-logo-62 { background-image: url("../images/method/pf_62.png"); }
+.mobile .bank-logo-64 { background-image: url("../images/method/pf_64.png"); }
+.mobile .bank-logo-65 { background-image: url("../images/method/pf_65.png"); }
+.mobile .bank-logo-66 { background-image: url("../images/method/pf_66.png"); }
+.mobile .bank-logo-67 { background-image: url("../images/method/pf_67.png"); }
+.mobile .bank-logo-69 { background-image: url("../images/method/pf_69.png"); }
+.mobile .bank-logo-72 { background-image: url("../images/method/pf_72.png"); }
+.mobile .bank-logo-75 { background-image: url("../images/method/pf_75.png"); }
+.mobile .bank-logo-76 { background-image: url("../images/method/pf_76.png"); }
+.mobile .bank-logo-84 { background-image: url("../images/method/pf_84.png"); }
+.mobile .bank-logo-85 { background-image: url("../images/method/pf_85.png"); }
+.mobile .bank-logo-87 { background-image: url("../images/method/pf_87.png"); }
+.mobile .bank-logo-88 { background-image: url("../images/method/pf_88.png"); }
+.mobile .bank-logo-90 { background-image: url("../images/method/pf_90.png"); }
+.mobile .bank-logo-92 { background-image: url("../images/method/pf_92.png"); }
+.mobile .bank-logo-94 { background-image: url("../images/method/pf_94.png"); }
+.mobile .bank-logo-95 { background-image: url("../images/method/pf_95.png"); }
+.mobile .bank-logo-102 { background-image: url("../images/method/pf_102.png"); }
+.mobile .bank-logo-103 { background-image: url("../images/method/pf_103.png"); }
+.mobile .bank-logo-108 { background-image: url("../images/method/pf_108.png"); }
+.mobile .bank-logo-110 { background-image: url("../images/method/pf_110.png"); }
+.mobile .bank-logo-111 { background-image: url("../images/method/pf_111.png"); }
+.mobile .bank-logo-112 { background-image: url("../images/method/pf_112.png"); }
+.mobile .bank-logo-117 { background-image: url("../images/method/pf_117.png"); }
+.mobile .bank-logo-119 { background-image: url("../images/method/pf_119.png"); }
+.mobile .bank-logo-120 { background-image: url("../images/method/pf_120.png"); }
+.mobile .bank-logo-121 { background-image: url("../images/method/pf_121.png"); }
+.mobile .bank-logo-124 { background-image: url("../images/method/pf_124.png"); }
+.mobile .bank-logo-129 { background-image: url("../images/method/pf_129.png"); }
+.mobile .bank-logo-131 { background-image: url("../images/method/pf_131.png"); }
+.mobile .bank-logo-136 { background-image: url("../images/method/pf_136.png"); }
+.mobile .bank-logo-140 { background-image: url("../images/method/pf_140.png"); }
+.mobile .bank-logo-141 { background-image: url("../images/method/pf_141.png"); }
+.mobile .bank-logo-143 { background-image: url("../images/method/pf_143.png"); }
+.mobile .bank-logo-144 { background-image: url("../images/method/pf_144.png"); }
+.mobile .bank-logo-145 { background-image: url("../images/method/pf_145.png"); }
+.mobile .bank-logo-146 { background-image: url("../images/method/pf_146.png"); }
+.mobile .bank-logo-147 { background-image: url("../images/method/pf_147.png"); }
+.mobile .bank-logo-151 { background-image: url("../images/method/pf_151.png"); }
+.mobile .bank-logo-152 { background-image: url("../images/method/pf_152.png"); }
+.mobile .bank-logo-153 { background-image: url("../images/method/pf_153.png"); }
+.mobile .bank-logo-154 { background-image: url("../images/method/pf_154.png"); }
+.mobile .bank-logo-156 { background-image: url("../images/method/pf_156.png"); }
+.mobile .bank-logo-157 { background-image: url("../images/method/pf_157.png"); }
+.mobile .bank-logo-158 { background-image: url("../images/method/pf_158.png"); }
+.mobile .bank-logo-161 { background-image: url("../images/method/pf_161.png"); }
+.mobile .bank-logo-174 { background-image: url("../images/method/pf_174.png"); }
+.mobile .bank-logo-175 { background-image: url("../images/method/pf_175.png"); }
+.mobile .bank-logo-176 { background-image: url("../images/method/pf_176.png"); }
+.mobile .bank-logo-177 { background-image: url("../images/method/pf_177.png"); }
+.mobile .bank-logo-178 { background-image: url("../images/method/pf_178.png"); }
+.mobile .bank-logo-185 { background-image: url("../images/method/pf_185.png"); }
+.mobile .bank-logo-186 { background-image: url("../images/method/pf_186.png"); }
+.mobile .bank-logo-187 { background-image: url("../images/method/pf_187.png"); }
+.mobile .bank-logo-188 { background-image: url("../images/method/pf_188.png"); }
+.mobile .bank-logo-189 { background-image: url("../images/method/pf_189.png"); }
+.mobile .bank-logo-190 { background-image: url("../images/method/pf_190.png"); }
+.mobile .bank-logo-191 { background-image: url("../images/method/pf_191.png"); }
+.mobile .bank-logo-192 { background-image: url("../images/method/pf_192.png"); }
+.mobile .bank-logo-193 { background-image: url("../images/method/pf_193.png"); }
+.mobile .bank-logo-194 { background-image: url("../images/method/pf_194.png"); }
+.mobile .bank-logo-195 { background-image: url("../images/method/pf_195.png"); }
+.mobile .bank-logo-196 { background-image: url("../images/method/pf_196.png"); }
+.mobile .bank-logo-197 { background-image: url("../images/method/pf_197.png"); }
+.mobile .bank-logo-198 { background-image: url("../images/method/pf_198.png"); }
+.mobile .bank-logo-199 { background-image: url("../images/method/pf_199.png"); }
+.mobile .bank-logo-200 { background-image: url("../images/method/pf_200.png"); }
+.mobile .bank-logo-201 { background-image: url("../images/method/pf_201.png"); }
+.mobile .bank-logo-202 { background-image: url("../images/method/pf_202.png"); }
+.mobile .bank-logo-203 { background-image: url("../images/method/pf_203.png"); }
+.mobile .bank-logo-204 { background-image: url("../images/method/pf_204.png"); }
+.mobile .bank-logo-205 { background-image: url("../images/method/pf_205.png"); }
+.mobile .bank-logo-206 { background-image: url("../images/method/pf_206.png"); }
+.mobile .bank-logo-207 { background-image: url("../images/method/pf_207.png"); }
+.mobile .bank-logo-208 { background-image: url("../images/method/pf_208.png"); }
+.mobile .bank-logo-209 { background-image: url("../images/method/pf_209.png"); }
+.mobile .bank-logo-210 { background-image: url("../images/method/pf_210.png"); }
+.mobile .bank-logo-211 { background-image: url("../images/method/pf_211.png"); }
+.mobile .bank-logo-212 { background-image: url("../images/method/pf_212.png"); }
+.mobile .bank-logo-213 { background-image: url("../images/method/pf_213.png"); }
+.mobile .bank-logo-214 { background-image: url("../images/method/pf_214.png"); }
+.mobile .bank-logo-215 { background-image: url("../images/method/pf_215.png"); }
+.mobile .bank-logo-216 { background-image: url("../images/method/pf_216.png"); }
+.mobile .bank-logo-217 { background-image: url("../images/method/pf_217.png"); }
+.mobile .bank-logo-218 { background-image: url("../images/method/pf_218.png"); }
+.mobile .bank-logo-219 { background-image: url("../images/method/pf_219.png"); }
+.mobile .bank-logo-220 { background-image: url("../images/method/pf_220.png"); }
+.mobile .bank-logo-222 { background-image: url("../images/method/pf_222.png"); }
+.mobile .bank-logo-1000 { background-image: url("../images/method/pf_2000.png"); }
+.mobile .bank-logo-2000 { background-image: url("../images/method/pf_1000.png"); }

@@ -1,0 +1,101 @@
+#wplc_chatbox .wplc-user-message-audio {
+  height: 30px;
+  top: 4px;
+  padding: 0 10px 0 0 !important;
+  border-radius: 13px !important;
+  background-color: #e0e0e0 !important;
+  border: none !important;
+}
+
+#wplc_chatbox .wplc-admin-message.wplc-user-message-audio {
+  padding-right: 35px !important;
+  padding-left: 10px !important;
+}
+
+.wplc-user-message-audio:before {
+  content: none !important;
+}
+
+#wplc_chatbox .wplc-user-message-audio .messageBody a {
+  outline: 0;
+  color: #333 !important;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none !important;
+}
+
+#wplc_chatbox .wplc-user-message-audio .messageBody a:hover,
+#wplc_chatbox .wplc-user-message-audio .messageBody a:focus,
+#wplc_chatbox .wplc-user-message-audio .messageBody a:active {
+  outline: 0;
+}
+
+.wplc-msg-content-audio-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-right: 5px;
+  background-color: #0776b8;
+  border-radius: 30px;
+  font-family: "Font Awesome 5 Free";
+  cursor: pointer;
+}
+
+.wplc-msg-content-audio-icon:after {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  content: '\f04b';
+  font-size: 13px;
+}
+
+.wplc-admin-message .wplc-msg-content-audio-icon {
+  position: absolute;
+  right: 0;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.wplc-msg-content-audio .messageBody {
+  float: right;
+  vertical-align: middle;
+}
+
+.wplc-voice-note-toggle {
+  position: absolute;
+  z-index: 99;
+  width: 22px;
+  height: 22px;
+  border-radius: 30px;
+  font-size: 13px !important;
+  line-height: 23px !important;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+#wp-live-chat.classic .wplc-voice-note-toggle {
+  margin-top: 45px;
+}
+
+.wplc-voice-note-toggle.recording {
+  animation-name: recording_fade;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.wplc-msg-content.wplc-msg-content-audio .messageBody {
+  width: 150px !important;
+}
+
+@keyframes recording_fade {
+  to {
+    background: inherit;
+  }
+  from {
+    background: #cc0e0e;
+  }
+}

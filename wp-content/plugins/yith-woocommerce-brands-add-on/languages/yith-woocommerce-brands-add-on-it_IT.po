@@ -1,0 +1,1426 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Brands Add-On\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-09 15:13+0200\n"
+"PO-Revision-Date: 2019-08-09 15:13+0200\n"
+"Last-Translator: Antonio Mercurio <antonio.mercurio@gmail.com>\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-wcbr-admin.php:72
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../includes/class.yith-wcbr-admin.php:73
+msgid "Premium Version"
+msgstr "Versione Premium"
+
+#: ../includes/class.yith-wcbr-admin.php:117
+msgid "Choose an image"
+msgstr "Scegli un'immagine"
+
+#: ../includes/class.yith-wcbr-admin.php:118
+msgid "Use image"
+msgstr "Usa immagine"
+
+#: ../includes/class.yith-wcbr-admin.php:207
+msgid "Image"
+msgstr "Immagine"
+
+#: ../includes/class.yith-wcbr-admin.php:235
+#: ../templates/admin/add-brand-taxonomy-form.php:17
+#: ../templates/admin/edit-brand-taxonomy-form.php:16
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: ../includes/class.yith-wcbr-admin.php:249
+msgid ""
+"Product brands for your store can be managed here. To display more brands "
+"here, click on \"screen options\" link on top of the page."
+msgstr ""
+"Le marche dei prodotti per il negozio possono essere gestite in questa "
+"sezione. Per visualizzare altre marche qui, fai clic su \"opzioni di "
+"visualizzazione\" all'inizio della pagina."
+
+#: ../includes/class.yith-wcbr-admin.php:264
+#: ../includes/class.yith-wcbr-admin.php:265
+#: ../includes/class.yith-wcbr-shortcode.php:60
+#: ../includes/class.yith-wcbr.php:125 ../includes/class.yith-wcbr.php:141
+msgid "Brands"
+msgstr "Brands Add-on"
+
+#: ../includes/class.yith-wcbr-shortcode.php:57
+msgid "YITH Product Brand"
+msgstr "YITH Marche prodotti"
+
+#: ../includes/class.yith-wcbr-shortcode.php:59
+msgid "Adds brand name and logo for a specific product, wherever you want"
+msgstr ""
+"Aggiunge il nome e il logo del marchio per un prodotto specifico, ovunque tu "
+"voglia"
+
+#: ../includes/class.yith-wcbr-shortcode.php:65
+#: ../includes/class.yith-wcbr-shortcode.php:128
+msgid "Title"
+msgstr "Titolo"
+
+#: ../includes/class.yith-wcbr-shortcode.php:68
+msgid "Text to enter as shortcode title"
+msgstr "Testo da inserire come titolo dello shortcode"
+
+#: ../includes/class.yith-wcbr-shortcode.php:73
+msgid "Product_id"
+msgstr "Product_id"
+
+#: ../includes/class.yith-wcbr-shortcode.php:76
+msgid ""
+"Enter product ID that will be used to retrieve brands; leave empty to use "
+"global product (if defined)"
+msgstr ""
+"Inserisci l'ID prodotto che verrà utilizzato per recuperare il marchio; "
+"lascia vuoto per utilizzare un prodotto globale (se definito)"
+
+#: ../includes/class.yith-wcbr-shortcode.php:81
+#: ../includes/class.yith-wcbr-shortcode.php:138
+#, fuzzy
+#| msgid "Show count"
+msgid "Show logo"
+msgstr "Mostra contatore"
+
+#: ../includes/class.yith-wcbr-shortcode.php:84
+#, fuzzy
+#| msgid "Show count"
+msgid "Show Logo"
+msgstr "Mostra contatore"
+
+#: ../includes/class.yith-wcbr-shortcode.php:85
+#, fuzzy
+#| msgid "Do not show name"
+msgid "Do not show Logo"
+msgstr "Non mostrare il nome"
+
+#: ../includes/class.yith-wcbr-shortcode.php:87
+msgid ""
+"Whether to show logo or not. Please, note that if you don't mark at least "
+"one between Show Logo or Show Title, default option value will take effect"
+msgstr ""
+
+#: ../includes/class.yith-wcbr-shortcode.php:92
+#: ../includes/class.yith-wcbr-shortcode.php:147
+#, fuzzy
+#| msgid "Show filters"
+msgid "Show Title"
+msgstr "Mostra Filtri"
+
+#: ../includes/class.yith-wcbr-shortcode.php:95
+#, fuzzy
+#| msgid "Show filters"
+msgid "Show title"
+msgstr "Mostra Filtri"
+
+#: ../includes/class.yith-wcbr-shortcode.php:96
+#, fuzzy
+#| msgid "Do not show filters"
+msgid "Do not show title"
+msgstr "Non mostrar i filtri"
+
+#: ../includes/class.yith-wcbr-shortcode.php:98
+msgid ""
+"Whether to show title or not. Please, note that if you don't mark at least "
+"one between Show Logo or Show Title, default option value will take effect"
+msgstr ""
+
+#: ../includes/class.yith-wcbr-shortcode.php:122
+#, fuzzy
+#| msgid "YITH Product Brand"
+msgctxt "[gutenberg]: block name"
+msgid "YITH Brands Product Brand"
+msgstr "YITH Marche prodotti"
+
+#: ../includes/class.yith-wcbr-shortcode.php:123
+#, fuzzy
+#| msgid "Adds brand name and logo for a specific product, wherever you want"
+msgctxt "[gutenberg]: block description"
+msgid "Adds brand name and logo for a specific product, wherever you want"
+msgstr ""
+"Aggiunge il nome e il logo del marchio per un prodotto specifico, ovunque tu "
+"voglia"
+
+#: ../includes/class.yith-wcbr-shortcode.php:133
+#, fuzzy
+#| msgid "Select product ID, or let widget use global $product"
+msgid "Product_id (leave empty to use global product)"
+msgstr ""
+"Seleziona ID prodotto o permetti al widget di usare la variabile globale "
+"$product"
+
+#: ../includes/class.yith-wcbr-shortcode.php:141
+#, fuzzy
+#| msgid "Hide on loop"
+msgctxt "[gutenberg]: Help text"
+msgid "Hide logo"
+msgstr "Nascondi nel loop"
+
+#: ../includes/class.yith-wcbr-shortcode.php:142
+#, fuzzy
+#| msgid "Show count"
+msgctxt "[gutenberg]: Help text"
+msgid "Show logo"
+msgstr "Mostra contatore"
+
+#: ../includes/class.yith-wcbr-shortcode.php:150
+#, fuzzy
+#| msgid "Product title"
+msgctxt "[gutenberg]: Help text"
+msgid "Hide title"
+msgstr "Nome prodotto"
+
+#: ../includes/class.yith-wcbr-shortcode.php:151
+#, fuzzy
+#| msgid "Show filters"
+msgctxt "[gutenberg]: Help text"
+msgid "Show title"
+msgstr "Mostra Filtri"
+
+#: ../includes/class.yith-wcbr.php:126
+msgid "Brand"
+msgstr "Marca"
+
+#: ../includes/class.yith-wcbr.php:127
+msgid "All Brands"
+msgstr "Tutte le marche"
+
+#: ../includes/class.yith-wcbr.php:128
+msgid "Edit Brand"
+msgstr "Modifica Marca"
+
+#: ../includes/class.yith-wcbr.php:129
+msgid "View Brand"
+msgstr "Mostra Marca"
+
+#: ../includes/class.yith-wcbr.php:130
+msgid "Update Brand"
+msgstr "Aggiorna Marca"
+
+#: ../includes/class.yith-wcbr.php:131
+msgid "Add New Brand"
+msgstr "Aggiungi un nuovo marchio"
+
+#: ../includes/class.yith-wcbr.php:132
+msgid "New Brand Name"
+msgstr "Nome nuovo Marchio"
+
+#: ../includes/class.yith-wcbr.php:133
+msgid "Parent Brand"
+msgstr "Marca genitore"
+
+#: ../includes/class.yith-wcbr.php:134
+msgid "Parent Brand:"
+msgstr "Marca genitore:"
+
+#: ../includes/class.yith-wcbr.php:135
+msgid "Search Brands"
+msgstr "Cerca Marche"
+
+#: ../includes/class.yith-wcbr.php:136
+msgid "Separate brands with commas"
+msgstr "Separa le marche con la virgola"
+
+#: ../includes/class.yith-wcbr.php:137
+msgid "No Brands Found"
+msgstr "Nessuna marca trovata"
+
+#: ../init.php:116
+#, fuzzy, php-format
+#| msgid ""
+#| "YITH WooCommerce Brands Add-on is enabled but not effective. It requires "
+#| "WooCommerce in order to work."
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Brands Add-on è abilitato ma non in funzione. Richiede "
+"WooCommerce per funzionare correttamente."
+
+#: ../init.php:126
+#, fuzzy, php-format
+#| msgid ""
+#| "You can't activate the free version of YITH WooCommerce Brands while you "
+#| "are using the premium one."
+msgid ""
+"You can't activate the free version of %s while you are using the premium "
+"one."
+msgstr ""
+"Non è possibile attivare la versione gratuita di YITH WooCommerce Brands "
+"mentre si utilizza la versione premium."
+
+#: ../plugin-options/settings-options.php:20
+msgid "General"
+msgstr "Generali"
+
+#: ../plugin-options/settings-options.php:28
+msgid "Brand label"
+msgstr "Etichetta Marchio"
+
+#: ../plugin-options/settings-options.php:30
+msgid "Label used for \"Brand\" link"
+msgstr "Etichetta utilizzata per il link al Marchio"
+
+#: ../plugin-options/settings-options.php:31
+msgid "Brand:"
+msgstr "Marchio:"
+
+#: ../templates/admin/add-brand-taxonomy-form.php:18
+#: ../templates/admin/edit-brand-taxonomy-form.php:18
+#, fuzzy
+#| msgid "Product brand taxonomy"
+msgid "Product brand thumbnail"
+msgstr "Tassonomia Marche Prodotti"
+
+#: ../templates/admin/add-brand-taxonomy-form.php:21
+#: ../templates/admin/edit-brand-taxonomy-form.php:21
+msgid "Upload/Add image"
+msgstr "Carica/Aggiungi immagine"
+
+#: ../templates/admin/add-brand-taxonomy-form.php:22
+#: ../templates/admin/edit-brand-taxonomy-form.php:22
+msgid "Remove image"
+msgstr "Rimuovi immagine"
+
+#: ../templates/admin/brand-premium-panel.php:217
+#: ../templates/admin/brand-premium-panel.php:339
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Brands Add-On%2$s "
+"to benefit from all features!"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:220
+#: ../templates/admin/brand-premium-panel.php:342
+msgid "UPGRADE"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:221
+#: ../templates/admin/brand-premium-panel.php:343
+msgid "to the premium version"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:227
+msgid "Premium Features"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:235
+msgid "Banners and links"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:238
+#, php-format
+msgid ""
+"Two additional details for each brand in your store: show a %1$sbanner%2$s "
+"to users when they access the page of the selected brand and specify a "
+"%1$slink%2$s redirecting users to a page different from brand archive page "
+"(e.g. brand official website)."
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:248
+msgid "Brand taxonomy"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:251
+msgid ""
+"With the premium version of the plugin, all taxonomies defined for products "
+"(usually categories, tags and attributes) can be turned into brands for "
+"products of your shop!"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:266
+msgid "Position"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:268
+msgid ""
+"Position of product brand is no longer static: it will be up to you to "
+"choose the most suitable position for brands in product detail page and in "
+"shop page."
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:278
+msgid "Content"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:281
+#, php-format
+msgid ""
+"Name, logo or both? You can decide what information to show to your users "
+"just with a click. Whether it is shown in %1$sshop page or in product detail "
+"page%2$s, decide the information you want to show about the selected brand."
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:297
+msgid "5 widgets"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:300
+#, php-format
+msgid ""
+"5 different solutions to add and show all your brands in your sidebars! "
+"Beautiful and useful, thanks to them, %1$syour brands will become dynamic"
+"%2$s and you will be able to further value them using the numerous options "
+"availble for each widget. Discover them now!"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:309
+msgid "8 shortcodes"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:312
+#, php-format
+msgid ""
+"8 new solutions to add brands to your e-commerce pages. %1$sEight different "
+"ways to value your brands and brand products:%2$s you can show them either "
+"in a slider or as a simple list and users will also be able to filter them "
+"and restrict seach results only to those they are interested in."
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:328
+msgid "Product URL"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:331
+#, php-format
+msgid ""
+"Index your products on the web in the best possible way thanks to the "
+"possibility to dynamically insert the %1$sbrand name%2$s in the product URL."
+"%1$s Take advantage of this feature!"
+msgstr ""
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Documentazione Plugin"
+
+#~ msgid "Tools"
+#~ msgstr "Strumenti"
+
+#~ msgid "Default brand taxonomy"
+#~ msgstr "Tassonomia Marche predefinita"
+
+#~ msgid ""
+#~ "Select the taxonomy whose terms will be used as brands; not all "
+#~ "taxonomies support all plugin features, so if you change this option it "
+#~ "is at your own risk"
+#~ msgstr ""
+#~ "Selezionare la tassonomia i cui termini verranno utilizzati come marche; "
+#~ "non tutte le tassonomie supportano le funzionalità del plugin, per cui se "
+#~ "utilizzate questa funzione, potrebbero generarsi degli errori"
+
+#~ msgid "Product brand taxonomy rewrite"
+#~ msgstr "Rewrite della tassonomia marche"
+
+#~ msgid ""
+#~ "Enter slug that should be used when generating brands' urls; please note "
+#~ "that after changing this option you may need to re-save your permalinks "
+#~ "to avoid 404 errors"
+#~ msgstr ""
+#~ "Inserisci lo slug da utilizzare per generare gli URL delle marche; "
+#~ "ricorda che dopo aver cambiato quest'opzione potresti dover salvare di "
+#~ "nuovo i permalink per evitare errori 404"
+
+#~ msgid "Single product brand position"
+#~ msgstr "Posizione marchi nella pagina prodotto"
+
+#~ msgid "Hide on single product page"
+#~ msgstr "Nascondi nella pagina prodotto"
+
+#~ msgid "Before product title"
+#~ msgstr "Prima del titolo del prodotto"
+
+#~ msgid "After product title"
+#~ msgstr "Dopo il titolo del prodotto"
+
+#~ msgid "After product price"
+#~ msgstr "Dopo il prezzo del prodotto"
+
+#~ msgid "After product excerpt"
+#~ msgstr "Dopo la descrizione breve del prodotto"
+
+#~ msgid "After single Add to Cart"
+#~ msgstr "Dopo Aggiungi al carrello"
+
+#~ msgid "After product meta"
+#~ msgstr "Dopo il meta del prodotto"
+
+#~ msgid "After product share"
+#~ msgstr "Dopo i pulsanti di condivisione del prodotto"
+
+#~ msgid "Position for brand list"
+#~ msgstr "Posizione per l'elenco delle marche"
+
+#~ msgid "Single product brand content"
+#~ msgstr "Contenuto singolo prodotto"
+
+#~ msgid "Both name and logo"
+#~ msgstr "Sia il nome che il logo"
+
+#~ msgid "Only logo"
+#~ msgstr "Solo logo"
+
+#~ msgid "Only name"
+#~ msgstr "Solo nome"
+
+#~ msgid "Content to show for brands in single product page"
+#~ msgstr "Contenuto da visualizzare per le Marche nella pagina prodotto"
+
+#~ msgid "Standard size of brand images in product page"
+#~ msgstr "Dimensione standard per l'immagine dei marchi nella pagina prodotto"
+
+#~ msgid ""
+#~ "This is the size of images that will be used as brand thumbnails in "
+#~ "single product page"
+#~ msgstr ""
+#~ "Questa è l'immagine che verrà utilizzata come miniatura del Marchio nella "
+#~ "pagina del prodotto"
+
+#~ msgid "Product brand position in loop page"
+#~ msgstr "Posizione del marchio nella pagina di loop del negozio"
+
+#~ msgid "After \"Add to Cart\" in loop"
+#~ msgstr "Dopo \"Aggiungi al Carrello\" nel loop"
+
+#~ msgid "Position of brand list"
+#~ msgstr "Posizione dell'elenco delle Marche"
+
+#~ msgid "Standard size of brand images in shop page"
+#~ msgstr "Dimensione standard dell'immagine dei marchi nella pagina Negozio"
+
+#~ msgid ""
+#~ "This is the size of images that will be used as brand thumbnails in shop "
+#~ "page"
+#~ msgstr ""
+#~ "Questa è la dimensione delle immagini utilizzate come miniature delle "
+#~ "marche nella pagina del negozio"
+
+#~ msgid "Loop product brand content"
+#~ msgstr "Contenuto Marche nel loop prodotti"
+
+#~ msgid "Content to show for brands in loop page"
+#~ msgstr "Contenuto da visualizzare per le Marche nella pagina di loop"
+
+#~ msgid "Enable \"Sort by Brand\""
+#~ msgstr "Abilita \"Ordina per Marchio\""
+
+#~ msgid "Enable \"Sort by Brand\" option in shop archive page"
+#~ msgstr "Abilita \"Ordina per Marchio\" nella pagina Negozio"
+
+#~ msgid "Use brand default logo"
+#~ msgstr "Usa il logo predefinito del marchio"
+
+#~ msgid "Use default image when no logo is selected or not"
+#~ msgstr ""
+#~ "Scegli se usare o meno un'immagine predefinita quando non è presente un "
+#~ "logo"
+
+#~ msgid "Default logo"
+#~ msgstr "Logo predefinito"
+
+#~ msgid "Transient successfully deleted"
+#~ msgstr "Transient rimosso correttamente"
+
+#~ msgid "Terms correctly counted"
+#~ msgstr "Termini conteggiati correttamente"
+
+#~ msgid "Import from CSV"
+#~ msgstr "Importa da CSV"
+
+#~ msgid "YITH Brands (CSV)"
+#~ msgstr "YITH Brands (CSV)"
+
+#~ msgid "Import <strong>brands</strong> to your store via csv file."
+#~ msgstr "Importa le <strong>Marche</strong> nel negozio usando un file CSV."
+
+#~ msgid "Export CSV"
+#~ msgstr "Esporta CSV"
+
+#~ msgid "Select a brand"
+#~ msgstr "Seleziona un marchio"
+
+#~ msgid "Any Brand"
+#~ msgstr "Qualsiasi marca"
+
+#~ msgid "Rated %s out of 5"
+#~ msgstr "Valutato %s su 5"
+
+#~ msgid "out of 5"
+#~ msgstr "su 5"
+
+#~ msgctxt "slug"
+#~ msgid "uncategorized"
+#~ msgstr "senza-categoria"
+
+#~ msgid "Sort by brand"
+#~ msgstr "Ordina per Marca"
+
+#~ msgid "YITH Brand Filter"
+#~ msgstr "YITH Brand - Filtro"
+
+#~ msgid "Adds a list of brands with js filter for name"
+#~ msgstr "Aggiunge un elenco di marche con filtro JS per il nome"
+
+#~ msgid "Pagination"
+#~ msgstr "Paginazione"
+
+#~ msgid "Paginate items"
+#~ msgstr "Elementi paginazione"
+
+#~ msgid "Do not paginate items"
+#~ msgstr "Non paginare gli elementi"
+
+#~ msgid "Paginate brand elements or not"
+#~ msgstr "Scegli se attivare la paginazione sugli elementi marche o meno"
+
+#~ msgid "Per page"
+#~ msgstr "Per pagina"
+
+#~ msgid "Number of elements to show for each page"
+#~ msgstr "Numero di elementi da visualizzare per ogni pagina"
+
+#~ msgid "Categories"
+#~ msgstr "Categorie"
+
+#~ msgid ""
+#~ "A list of valid comma separated category slugs, if you want to filter "
+#~ "brands by product cat"
+#~ msgstr ""
+#~ "Un elenco valido di slug di categorie separate da virgola, se vuoi "
+#~ "filtrare le marche per categoria prodotto"
+
+#~ msgid "Autosense Category"
+#~ msgstr "Recupero automatico categoria"
+
+#~ msgid "Autosense current category"
+#~ msgstr "Recupero automatico categoria corrente"
+
+#~ msgid "Do nothing"
+#~ msgstr "Non fare nulla"
+
+#~ msgid ""
+#~ "If enabled, on product category page, ignores \"category\" param, and "
+#~ "shows only brands for current category"
+#~ msgstr ""
+#~ "Se abilitato, sulla pagina categoria prodotti, ignora i parametri della "
+#~ "categoria visualizzando solo le marche per la categoria corrente"
+
+#~ msgid "Show letters to filter brands or not"
+#~ msgstr "Mostra o meno le lettere per filtrare le Marche"
+
+#~ msgid "Show reset"
+#~ msgstr "Mostra reset"
+
+#~ msgid "Do not show reset"
+#~ msgstr "Non mostrare reset"
+
+#~ msgid "Show \"All\" label to reset all filters or not"
+#~ msgstr "Mostra o meno l'etichetta \"Tutti\" per resettare tutti i filtri"
+
+#~ msgid "Show all letters"
+#~ msgstr "Mostra tutte le lettere"
+
+#~ msgid "Do not show all letters"
+#~ msgstr "Non mostrare tutte le lettere"
+
+#~ msgid "Show all letters or only available letters"
+#~ msgstr "Mostra tutte le lettere o solo quelle disponibili"
+
+#~ msgid "Show term count"
+#~ msgstr "Mostra il contatore dei termini"
+
+#~ msgid "Do not show term count"
+#~ msgstr "Non mostrare il contatore dei termini"
+
+#~ msgid "show term count or not"
+#~ msgstr "mostra o meno il conteggio dei termini"
+
+#~ msgid "Hide if empty"
+#~ msgstr "Nascondi se vuoto"
+
+#~ msgid "Do not hide even if empty"
+#~ msgstr "Non nascondere anche se vuoto"
+
+#~ msgid "Choose to show empty terms or not"
+#~ msgstr "Scegli se visualizzare o meno i termini vuoti"
+
+#~ msgid "Style"
+#~ msgstr "Stile"
+
+#~ msgid "Default"
+#~ msgstr "Predefinito"
+
+#~ msgid "Big Header"
+#~ msgstr "Intestazione Grande"
+
+#~ msgid "Small Header"
+#~ msgstr "Intestazione Piccola"
+
+#~ msgid "Shadow"
+#~ msgstr "Ombra"
+
+#~ msgid "Boxed"
+#~ msgstr "Dentro un box"
+
+#~ msgid "Highlight"
+#~ msgstr "In evidenza"
+
+#~ msgid "Shortcode style"
+#~ msgstr "Stile Shortcode"
+
+#~ msgid "Highlight color"
+#~ msgstr "Colore In Evidenza"
+
+#~ msgid "Color to use as background in \"Highlight\" style"
+#~ msgstr "Colore da utilizzare come sfondo per lo stile In Evidenza"
+
+#~ msgid ""
+#~ "A list of valid comma separated brands slugs, if you want include only "
+#~ "some specific brands"
+#~ msgstr ""
+#~ "Un elenco di slug di marche separati da virgole, se si desidera includere "
+#~ "solo alcune marche specifiche"
+
+#~ msgid "Parent"
+#~ msgstr "Genitore"
+
+#~ msgid "The ID of the common parent for all retrieved brands"
+#~ msgstr "L'ID del genitore comune a tutte le marche recuperate"
+
+#~ msgid "Order by"
+#~ msgstr "Ordina per"
+
+#~ msgid "Menu sorting"
+#~ msgstr "Ordinamento del menù"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Slug"
+#~ msgstr "Slug"
+
+#~ msgid "Term's Group"
+#~ msgstr "Gruppo del termine"
+
+#~ msgid "Term's ID"
+#~ msgstr "ID del termine"
+
+#~ msgid "Description"
+#~ msgstr "Descrizione"
+
+#~ msgid "Field to order terms by"
+#~ msgstr "Campo per l'ordinamento dei termini"
+
+#~ msgid "Order"
+#~ msgstr "Ordinamento"
+
+#~ msgid "Ascendant"
+#~ msgstr "Ascendente"
+
+#~ msgid "Descendant"
+#~ msgstr "Discendente"
+
+#~ msgid "Whether to order terms in ascending or descending order"
+#~ msgstr "Sia per ordinare termini in ordine crescente o decrescente"
+
+#~ msgid "YITH Brand Thumbnail"
+#~ msgstr "YITH Brands - Miniatura"
+
+#~ msgid "Adds a list of brand thumbnails"
+#~ msgstr "Aggiunge un elenco di miniature delle marche"
+
+#~ msgid "Hide terms without image"
+#~ msgstr "Nascondi termini senza immagine"
+
+#~ msgid "Do not hide terms even if without image"
+#~ msgstr "Non nascondere i termini anche se senza immagine"
+
+#~ msgid "Choose to show terms without image or not"
+#~ msgstr "Scegli di mostrare i termini senza immagine o meno"
+
+#~ msgid "Show name"
+#~ msgstr "Mostra Nome"
+
+#~ msgid "Show brand name or not"
+#~ msgstr "Mostra o meno la marca"
+
+#~ msgid "Show rating"
+#~ msgstr "Mostra valutazione"
+
+#~ msgid "Show average brand rating"
+#~ msgstr "Mostra valutazione media della marca"
+
+#~ msgid "Do not show average brand rating"
+#~ msgstr "Non mostrare la valutazione media della marca"
+
+#~ msgid "Show average brand rating or not (based on brand's product rating)"
+#~ msgstr ""
+#~ "Mostra o meno la valutazione media della marca (in base alla valutazione "
+#~ "dei prodotti)"
+
+#~ msgid "Columns"
+#~ msgstr "Colonne"
+
+#~ msgid "Number of elements per row"
+#~ msgstr "Numero di prodotti per riga"
+
+#~ msgid "Without borders"
+#~ msgstr "Senza Bordi"
+
+#~ msgid "YITH Brand Thumbnail Carousel"
+#~ msgstr "YITH Brands - Carosello Miniature"
+
+#~ msgid "Adds a carousel of brand thumbnails"
+#~ msgstr "Aggiunge un carosello di miniature delle marche"
+
+#~ msgid "Autoplay"
+#~ msgstr "Riproduzione automatica"
+
+#~ msgid "Yes"
+#~ msgstr "Sì"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Start autoplay for carousel or not"
+#~ msgstr "Decidi se attivare l'autoplay per il carosello oppure no"
+
+#~ msgid "Direction"
+#~ msgstr "Direzione"
+
+#~ msgid "Horizontal"
+#~ msgstr "Orizzontale"
+
+#~ msgid "Vertical"
+#~ msgstr "Verticale"
+
+#~ msgid "Show terms without image or not"
+#~ msgstr "Scegli di mostrare i termini senza immagine o meno"
+
+#~ msgid "Carousel pagination"
+#~ msgstr "Paginazione carosello"
+
+#~ msgid "Show carousel pagination"
+#~ msgstr "Mostra paginazione carosello"
+
+#~ msgid "Do not show carousel pagination"
+#~ msgstr "Non mostrare la paginazione carosello"
+
+#~ msgid "Show carousel pagination or not"
+#~ msgstr "Mostra paginazione carosello o no"
+
+#~ msgid "Carousel pagination style"
+#~ msgstr "Stile paginazione carosello"
+
+#~ msgid "Square"
+#~ msgstr "Quadrato"
+
+#~ msgid "Round"
+#~ msgstr "Arrotondato"
+
+#~ msgid "Style for Carousel pagination"
+#~ msgstr "Stile paginazione carosello"
+
+#~ msgid "Prev/Next button"
+#~ msgstr "Pulsante precedente/successivo"
+
+#~ msgid "Show prev/next button"
+#~ msgstr "Mostra pulsante navigazione prec/succ"
+
+#~ msgid "Do not show prev/next button"
+#~ msgstr "Non mostrare pulsante navigazione prec/succ"
+
+#~ msgid "Show prev/next button or not"
+#~ msgstr "Mostra o meno il pulsant prec/succ"
+
+#~ msgid "Prev/Next button style"
+#~ msgstr "Stile pulsante navigazione prec/succ"
+
+#~ msgid "Carousel prev/next button style"
+#~ msgstr "Stile del pulsante precedente/succesivo del carosello"
+
+#~ msgid "Top border"
+#~ msgstr "Bordo superiore"
+
+#~ msgid "Centered title"
+#~ msgstr "Titolo centrato"
+
+#~ msgid "Squared"
+#~ msgstr "Quadrato"
+
+#~ msgid "Background"
+#~ msgstr "Sfondo"
+
+#~ msgid "YITH Brand Products"
+#~ msgstr "YITH Brand Products"
+
+#~ msgid "Adds a list of brand products"
+#~ msgstr "Aggiungi un elenco di marche prodotto"
+
+#~ msgid "Text to show as shortcode title"
+#~ msgstr "Testo da visualizzare come titolo dello shortcode"
+
+#~ msgid ""
+#~ "A list of valid comma separated brand slugs, if you want to filter "
+#~ "products by brand"
+#~ msgstr ""
+#~ "Un elenco di slug di marche separati da virgole, se desideri filtrare i "
+#~ "prodotti per marca"
+
+#~ msgid ""
+#~ "A list of valid comma separated categories slugs, if you want to filter "
+#~ "products by categories"
+#~ msgstr ""
+#~ "Un elenco di slug categorie separati da virgola, se desideri filtrare i "
+#~ "prodotti per categoria"
+
+#~ msgid "Product type"
+#~ msgstr "Tipo di prodotto"
+
+#~ msgid "All products"
+#~ msgstr "Tutti i prodotti"
+
+#~ msgid "Featured products"
+#~ msgstr "Prodotti in evidenza"
+
+#~ msgid "On sale products"
+#~ msgstr "Prodotti in offerta"
+
+#~ msgid "Type of products to show"
+#~ msgstr "Tipo di prodotti da mostrare"
+
+#~ msgid "Random order"
+#~ msgstr "Ordine casuale"
+
+#~ msgid "\"Created at\" date"
+#~ msgstr "Data di creazione"
+
+#~ msgid "Product price"
+#~ msgstr "Prezzo del prodotto"
+
+#~ msgid "Product sales"
+#~ msgstr "Vendite prodotto"
+
+#~ msgid "Set order criteria for products"
+#~ msgstr "Impostare il criterio di ordinamento per i prodotti"
+
+#~ msgid "Descending"
+#~ msgstr "Discendente"
+
+#~ msgid "Ascending"
+#~ msgstr "Ascendente"
+
+#~ msgid "Set order direction for products"
+#~ msgstr "Impostare la direzione dell'ordinamento prodotto"
+
+#~ msgid "Hide free products"
+#~ msgstr "Nascondi i prodotti gratuiti"
+
+#~ msgid "Do not hide free products"
+#~ msgstr "Non nascondere i prodotti gratuiti"
+
+#~ msgid "Hide free products or not"
+#~ msgstr "Nascondere o meno i prodotti gratuiti"
+
+#~ msgid "Show hidden products"
+#~ msgstr "Mostra i prodotti nascosti"
+
+#~ msgid "Show products hidden in catalog"
+#~ msgstr "Mostra i prodotti nascosti nel catalogo"
+
+#~ msgid "Do not show products hidden in catalog"
+#~ msgstr "Non mostrare i prodotti nascosti nel catalogo"
+
+#~ msgid "Show products hidden in catalog or not"
+#~ msgstr "Mostra o meno i prodotti nascosti nel catalogo"
+
+#~ msgid "Show brand box before shortcode"
+#~ msgstr "Mostra il box del marchio prima dello shortcode"
+
+#~ msgid "Show brand box"
+#~ msgstr "Mostra riquadro marche"
+
+#~ msgid "Do not show brand box"
+#~ msgstr "Non mostrare il riquadro delle marche"
+
+#~ msgid "Show brand box or not"
+#~ msgstr "Mostra o meno il riquadro delle marche"
+
+#~ msgid "YITH Brand Product Carousel"
+#~ msgstr "YITH Brands - Carosello Prodotti"
+
+#~ msgid "Adds a carousel of products"
+#~ msgstr "Aggiungi un carosello prodotti"
+
+#~ msgid "Total products to show"
+#~ msgstr "Prodotti totali da mostrare"
+
+#~ msgid "Total number of products to show; -1 to show all products"
+#~ msgstr ""
+#~ "Numero totale di prodotti da mostrare; -1 per mostrare tutti i prodotti"
+
+#~ msgid ""
+#~ "A list of valid comma separated brands slugs, if you want to filter "
+#~ "products by brand"
+#~ msgstr ""
+#~ "Un elenco di slug di marche separati da virgole, se desideri filtrare i "
+#~ "prodotti per marca"
+
+#~ msgid "Select sorting criteria for products"
+#~ msgstr "Seleziona i criteri di ordinamento per i prodotti"
+
+#~ msgid "Select sorting direction for products"
+#~ msgstr "Seleziona la direzione di ordinamento per i prodotti"
+
+#~ msgid "YITH Brand Select"
+#~ msgstr "YITH Brands - Menu a tendina"
+
+#~ msgid ""
+#~ "Adds a select with all brands that redirects to archive page on change"
+#~ msgstr ""
+#~ "Aggiunge un menu a tendina con tutte le marche che reindirizza alla "
+#~ "pagina archivio ad ogni cambio"
+
+#~ msgid "Hide empty"
+#~ msgstr "Nascondi vuoti"
+
+#~ msgid "Do not hide empty"
+#~ msgstr "Non nascondere i vuoti"
+
+#~ msgid "Show empty terms or not"
+#~ msgstr "Mostra o meno i termini vuoti"
+
+#~ msgid "Show term count or not"
+#~ msgstr "Mostra o meno il conteggio termini"
+
+#~ msgid "YITH Brand List"
+#~ msgstr "YITH Brands - Elenco"
+
+#~ msgid "Prints a list of all brands"
+#~ msgstr "Mostra un elenco di tutte le marche"
+
+#~ msgid "HIghlight"
+#~ msgstr "In Evidenza"
+
+#~ msgid "YITH Brand Grid"
+#~ msgstr "YITH Brands - Griglia"
+
+#~ msgid "Prints a grid of all brands with js filters"
+#~ msgstr "Mostra una griglia di tutte le marche con un filtro JS"
+
+#~ msgid "Show image"
+#~ msgstr "Mostra immagine"
+
+#~ msgid "Show term image"
+#~ msgstr "Mostra immagine termine"
+
+#~ msgid "Do not show term image"
+#~ msgstr "Non mostrare l'immagine dei termini"
+
+#~ msgid "Show term image or not"
+#~ msgstr "Mostra o meno l'immagine dei termini"
+
+#~ msgid "Show filtered"
+#~ msgstr "Mostra filtrato"
+
+#~ msgid "Show brands grouped by heading letter"
+#~ msgstr "Mostra le marche raggruppate per iniziale"
+
+#~ msgid "Show brands grouped by product category"
+#~ msgstr "Mostra le marche raggruppate per categoria prodotto"
+
+#~ msgid "Do not show brands filtered"
+#~ msgstr "Non mostrare le marche filtrate"
+
+#~ msgid "Show brands grouped or not"
+#~ msgstr "Mostra o meno le marche per gruppo"
+
+#~ msgid "Show category filter"
+#~ msgstr "Mostra filtro categorie"
+
+#~ msgid "Show filters for product category"
+#~ msgstr "Mostra filtri per categoria prodotto"
+
+#~ msgid "Do not show filters for product category"
+#~ msgstr "Non mostrare filtro per categoria"
+
+#~ msgid ""
+#~ "Show filters for product category or not (only when filtered by name)"
+#~ msgstr ""
+#~ "Mostra o meno il filtro per categoria (solo quando filtrati per nome)"
+
+#~ msgid "Category filter type"
+#~ msgstr "Tipo filtro categoria"
+
+#~ msgid "Multiselect"
+#~ msgstr "Selezione multipla"
+
+#~ msgid "Dropdown"
+#~ msgstr "Menù a discesa"
+
+#~ msgid ""
+#~ "Show filters for product category as multiselect or as a dropdown (only "
+#~ "when filtered by name)"
+#~ msgstr ""
+#~ "Mostra i filtri per categoria prodotto come selezione multipla o con il "
+#~ "menù a discesa (solo quando filtrati per nome)"
+
+#~ msgid "Category filter style"
+#~ msgstr "Stile filtro categoria"
+
+#~ msgid "Border"
+#~ msgstr "Bordo"
+
+#~ msgid "Category filter style (only when filtered by name)"
+#~ msgstr "Stile filtro di categoria (solo quando filtrato per nome)"
+
+#~ msgid "Show name filters"
+#~ msgstr "Mostra filtro nome"
+
+#~ msgid "Show letters to filter brands"
+#~ msgstr "Mostra lettere per filtrare le marche"
+
+#~ msgid "Do not show letters"
+#~ msgstr "Non mostrare le lettere"
+
+#~ msgid "Show letters to filter brands (only when filtered by name)"
+#~ msgstr ""
+#~ "Mostrare le lettere per filtrare le marche (solo quando filtrato per nome)"
+
+#~ msgid ""
+#~ "Whether to show all letters or only available letters (only when filtered "
+#~ "by name)"
+#~ msgstr ""
+#~ "Mostrare tutte le lettere o le lettere con marche disponibili (solo "
+#~ "quando filtrate per nome)"
+
+#~ msgid "All"
+#~ msgstr "Tutto"
+
+#~ msgid "The file does not exist, please try again."
+#~ msgstr "Il file non esiste, riprova."
+
+#~ msgid "Failed to import attachment %s"
+#~ msgstr "Impossibile importare allegato %s"
+
+#~ msgid "Failed to import %s %s"
+#~ msgstr "Impossibile importare %s %s"
+
+#~ msgid "The CSV is invalid."
+#~ msgstr "Il CSV non è valido."
+
+#~ msgid "Import complete - imported <strong>%s</strong> brands."
+#~ msgstr "Importazione completa - importate <strong> %s </strong> marche."
+
+#~ msgid "Invalid file type"
+#~ msgstr "Tipo di file non valido"
+
+#~ msgid "Remote server did not respond"
+#~ msgstr "Nessuna risposta dal server remoto"
+
+#~ msgid "Remote server returned error response %1$d %2$s"
+#~ msgstr "Il server remoto ha restituito l'errore %1$d %2$s"
+
+#~ msgid "Remote file is incorrect size"
+#~ msgstr "La dimensione del file remoto non è corretta"
+
+#~ msgid "Zero size file downloaded"
+#~ msgstr "Scaricato file di dimensione zero"
+
+#~ msgid "Remote file is too large, limit is %s"
+#~ msgstr "Il file remoto è troppo grande, il limite è %s"
+
+#~ msgid "All done!"
+#~ msgstr "Operazione completata!"
+
+#~ msgid "View Brands"
+#~ msgstr "Visualizza Marche"
+
+#~ msgid "YITH Brands Importer"
+#~ msgstr "YITH Brands - Importazione"
+
+#~ msgid ""
+#~ "Hi there! Upload a CSV file containing brands to import the contents into "
+#~ "your shop. Choose a .csv file to upload, then click \"Upload file and "
+#~ "import\"."
+#~ msgstr ""
+#~ "Ciao! Carica un file CSV contenente le marche da importare nel tuo "
+#~ "negozio. Scegli un file CSV da caricare, quindi fai clic su \"carica file "
+#~ "e importa\"."
+
+#~ msgid ""
+#~ "Before uploading your import file, you need to fix the following error:"
+#~ msgstr ""
+#~ "Prima di caricare il file di importazione, è necessario risolvere il "
+#~ "seguente errore:"
+
+#~ msgid "Choose a file from your computer:"
+#~ msgstr "Scegli un file dal tuo computer:"
+
+#~ msgid "Maximum size: %s"
+#~ msgstr "Dimensione massima: %s"
+
+#~ msgid "OR enter path to file:"
+#~ msgstr "OPPURE inserisci il percorso del file:"
+
+#~ msgid "Delimiter"
+#~ msgstr "Separatore"
+
+#~ msgid "Sorry, an error has occurred."
+#~ msgstr "Spiacenti, si è verificato un errore."
+
+#~ msgid "Add an A-Z filter for brands"
+#~ msgstr "Aggiungi un filtro A-Z per le marche"
+
+#~ msgid "Title:"
+#~ msgstr "Titolo:"
+
+#~ msgid "Show letter filter"
+#~ msgstr "Mostra il filtro per lettera"
+
+#~ msgid "Show reset:"
+#~ msgstr "Mostra predefinito:"
+
+#~ msgid "Display \"Show all\" button within letter filter"
+#~ msgstr ""
+#~ "Visualizza il pulsante \"Mostra tutti\" all'interno del filtro per lettera"
+
+#~ msgid ""
+#~ "When filters are activated, show all letters instead of showing only "
+#~ "those of brands available"
+#~ msgstr ""
+#~ "Quando i filtri sono attivi, mostra tutte le lettere invece di mostrare "
+#~ "solo quelle con marche disponibili"
+
+#~ msgid "Show number of products for each brand"
+#~ msgstr "Mostra il numero di prodotti per ogni marca"
+
+#~ msgid "Hide brands without products associated"
+#~ msgstr "Nascondi i marchi senza prodotti associati"
+
+#~ msgid "Autosense category"
+#~ msgstr "Recupero automatico categoria"
+
+#~ msgid ""
+#~ "On product category page, ignore category option and filter brands for "
+#~ "current category"
+#~ msgstr ""
+#~ "Sulla pagina Categoria prodotto, ignora le opzioni di categoria e filtra "
+#~ "le marche per la categoria selezionata"
+
+#~ msgid "Category:"
+#~ msgstr "Categoria:"
+
+#~ msgid ""
+#~ "Comma separated list of valid product category slugs, to filter brands; "
+#~ "leave empty if you don't want to filter brands by category"
+#~ msgstr ""
+#~ "Elenco di slug di categorie prodotti validi (separate da virgole) per "
+#~ "filtrare le marche; lascia il campo vuoto se non vuoi filtrare le marche "
+#~ "per categoria"
+
+#~ msgid "Style:"
+#~ msgstr "Stile:"
+
+#~ msgid "Highlight:"
+#~ msgstr "In Evidenza:"
+
+#~ msgid "Valid hex color code, to use as background in highlight style"
+#~ msgstr ""
+#~ "Codice colore esadecimale valido da utilizzare come sfondo per lo stile "
+#~ "in evidenza"
+
+#~ msgid "Add a list of brands"
+#~ msgstr "Aggiungi un elenco di marche"
+
+#~ msgid "Show number for products for each brand"
+#~ msgstr "Mostra il numero di prodotti per ogni marca"
+
+#~ msgid ""
+#~ "Comma separated list of valid product category slugs, to filter brands; "
+#~ "leave it empty if you don't want to filter brands by category"
+#~ msgstr ""
+#~ "Elenco di slug di categorie prodotti validi (separate da virgole) per "
+#~ "filtrare le marche; lascia il campo vuoto se non vuoi filtrare le marche "
+#~ "per categoria"
+
+#~ msgid "Empty"
+#~ msgstr "Vuoto"
+
+#~ msgid "Add a select with all brands"
+#~ msgstr "Aggiungi un selettore con tutte le marche"
+
+#~ msgid ""
+#~ "Comma separated list of valid product brand IDs, to show in the widget; "
+#~ "leave it empty if you want to retrieve all the brands"
+#~ msgstr ""
+#~ "Elenco di validi ID di marche prodotti (separate da virgole) da mostrare "
+#~ "nel widget; lascia il campo vuoto se vuoi mostrare tutte le marche"
+
+#~ msgid "Parent:"
+#~ msgstr "Genitore:"
+
+#~ msgid ""
+#~ "ID for the parent brand to use in term query; leave it empty if you want "
+#~ "to retrieve all the brands"
+#~ msgstr ""
+#~ "ID della marca genitore da utilizzare durante l'interrogazione del "
+#~ "termine; lascia il campo vuoto se vuoi mostrare tutte le march"
+
+#~ msgid "Order by:"
+#~ msgstr "Ordina per:"
+
+#~ msgid "Term name"
+#~ msgstr "Nome termine"
+
+#~ msgid "Term slug"
+#~ msgstr "Slug termine"
+
+#~ msgid "Term group"
+#~ msgstr "Gruppo del termine"
+
+#~ msgid "Term ID"
+#~ msgstr "ID del termine"
+
+#~ msgid "Term description"
+#~ msgstr "Descrizione del termine"
+
+#~ msgid "Order:"
+#~ msgstr "Ordinamento:"
+
+#~ msgid "Add a carousel of brand thumbnails"
+#~ msgstr "Aggiungi un carosello di miniature dei marchi"
+
+#~ msgid "Show brand name for each element of the carousel"
+#~ msgstr "Mostra il nome della marca per ogni elemento del carosello"
+
+#~ msgid ""
+#~ "Show brand rate for each element of the carousel (brand rate is "
+#~ "calculated as average rating for products of the same brand)"
+#~ msgstr ""
+#~ "Mostra la valutazione della marca per ogni elemento del carosello (la "
+#~ "valutazione della marca è una media dei prodotti della stessa marca)"
+
+#~ msgid "Hide term without images"
+#~ msgstr "Nascondi i termini senza immagine"
+
+#~ msgid "Hide brands with no associated images"
+#~ msgstr "Nascondi le marche senza immagini associate"
+
+#~ msgid "Autoplay carousel slides"
+#~ msgstr "Esecuzione automatica carosello"
+
+#~ msgid "Direction:"
+#~ msgstr "Direzione:"
+
+#~ msgid "Select sliding direction in carousel"
+#~ msgstr "Seleziona la direzione di scorrimento per il carosello"
+
+#~ msgid "Show pagination for the carousel"
+#~ msgstr "Mostra paginazione per il carosello"
+
+#~ msgid "Carousel pagination style:"
+#~ msgstr "Stile paginazione carosello:"
+
+#~ msgid "Add a grid of brand thumbnails"
+#~ msgstr "Aggiungi una griglia con le miniature dei marchi"
+
+#~ msgid "Brands:"
+#~ msgstr "Marche:"
+
+#~ msgid ""
+#~ "Comma separated list of valid product brands slugs, to show in the "
+#~ "widget; leave it empty to show all"
+#~ msgstr ""
+#~ "Elenco di validi slug di marche prodotti (separati da virgole) da "
+#~ "mostrare nel widget; lascia il campo vuoto per mostrarli tutti"
+
+#~ msgid "Borderless"
+#~ msgstr "Senza bordi"
+
+#~ msgid "Top Border"
+#~ msgstr "Bordo Superiore"
+
+#~ msgid "Order By:"
+#~ msgstr "Ordina per:"
+
+#~ msgid "None"
+#~ msgstr "Nessuno"
+
+#~ msgid "Term Group"
+#~ msgstr "Gruppo del termine"
+
+#~ msgid "Add product brand template"
+#~ msgstr "Template per nuova marca prodotto"
+
+#~ msgid "Product ID"
+#~ msgstr "ID Prodotto"
+
+#~ msgid "Banner"
+#~ msgstr "Banner"
+
+#~ msgid "Custom URL"
+#~ msgstr "URL personalizzato"
+
+#~ msgid "Set a custom URL for redirect. Default redirect is to archive page"
+#~ msgstr ""
+#~ "Imposta un URL personalizzato per il reindirizzamento. Predefinito alla "
+#~ "pagina archivio"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "px"
+#~ msgstr "px"
+
+#~ msgid "Hard Crop?"
+#~ msgstr "Ritaglio forzato dell'immagine?"
+
+#~ msgid "Brands-Categories Transient"
+#~ msgstr "Transient Marche-Categorie"
+
+#~ msgid "This tool will clear Brands-Categories relationship transient"
+#~ msgstr ""
+#~ "Questo strumento cancella il transient che mette in relazione le marche e "
+#~ "le categorie"
+
+#~ msgid "Clear Transient"
+#~ msgstr "Cancella transient"
+
+#~ msgid "Categories-Brands Transient"
+#~ msgstr "Transient Categorie-Marche"
+
+#~ msgid "This tool will clear Categories-Brands relationship transient"
+#~ msgstr ""
+#~ "Questo strumento cancella il transient che mette in relazione le "
+#~ "Categorie e le Marche"
+
+#~ msgid "YITH WCBR Transient"
+#~ msgstr "YITH Brands - Elenco"
+
+#~ msgid "This tool will clear the brands transients cache."
+#~ msgstr "Questo strumento cancella la cache dei transient delle marche."
+
+#~ msgid "Clear Transients"
+#~ msgstr "Cancella i transient"
+
+#~ msgid "This tool will recount product terms"
+#~ msgstr "Questo strumento ricalcolerà i termini del prodotto"
+
+#~ msgid "Products in Brands"
+#~ msgstr "Prodotti in Marche"

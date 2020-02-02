@@ -1,0 +1,5056 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wplivechat\n"
+"POT-Creation-Date: 2019-10-17 11:31+0200\n"
+"PO-Revision-Date: 2019-10-17 11:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: 3CX\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ajax/agent.php:167 ajax/user.php:114 wp-live-chat-support.php:370
+#: wp-live-chat-support.php:4864
+msgid "Admin"
+msgstr "Admin"
+
+#: ajax/agent.php:262 ajax/user.php:218
+msgid "Admin has closed and ended the chat"
+msgstr "Administraator sulges ja lõpetas selle vestluse"
+
+#: functions.php:417 functions.php:431
+msgid "Accept Chat"
+msgstr "Nõustu vestlusega"
+
+#: functions.php:423 functions.php:436
+msgid "Open Chat"
+msgstr "Ava veslus"
+
+#: functions.php:425
+#, fuzzy
+#| msgid "Chat answered by another agent"
+msgid "In progress with another agent"
+msgstr "Sellele vestlusele on juba teise agendi poolt vastatud."
+
+#: functions.php:439
+msgid "Only chat agents can accept chats"
+msgstr "Hetkel on vestlused väljalülitatud"
+
+#: functions.php:503 modules/api/agent/wplc-api-functions.php:395
+msgid "New"
+msgstr "Uus"
+
+#: functions.php:505 modules/api/agent/wplc-api-functions.php:397
+msgid "Returning"
+msgstr "Naasev"
+
+#: functions.php:596
+msgid "No agent was able to answer your chat request. Please try again."
+msgstr ""
+
+#: functions.php:610 modules/advanced_features.php:113
+#, fuzzy
+#| msgid "End chat"
+msgid "End Chat"
+msgstr "Peata vestlus"
+
+#: functions.php:1021
+msgid "complete"
+msgstr "Täidetud"
+
+#: functions.php:1024
+msgid "pending"
+msgstr "Ootel"
+
+#: functions.php:1027
+msgid "active"
+msgstr "Aktiivne"
+
+#: functions.php:1030
+msgid "deleted"
+msgstr "Kustutatud"
+
+#: functions.php:1033
+msgid "browsing"
+msgstr "sirvib"
+
+#: functions.php:1036
+msgid "requesting chat"
+msgstr "ootab vestluse alustamist"
+
+#: functions.php:1039
+msgid "Chat Ended - User still browsing"
+msgstr "Vestlus lõpetatud - kasutaja sirvib endiselt veebilehte"
+
+#: functions.php:1042
+msgid "User is browsing but doesn't want to chat"
+msgstr "Kasutaja sirvib veebilehte aga ei soovi vestelda"
+
+#: functions.php:1181 includes/settings_page.php:774
+#, fuzzy
+#| msgid "WP Live Chat Support - Offline Message from "
+msgid "WP Live Chat by 3CX - Offline Message from "
+msgstr "WP Live Chat Tugi - Offline sõnum: "
+
+#: functions.php:1182 functions.php:1506 includes/settings_page.php:164
+#: includes/settings_page.php:408 includes/wplc_custom_fields.php:79
+#: includes/wplc_data_triggers.php:465 includes/wplc_departments.php:176
+#: includes/wplc_roi.php:160 modules/node_server.php:81
+#: modules/node_server.php:124 wp-live-chat-support.php:1592
+#: wp-live-chat-support.php:1615 wp-live-chat-support.php:1780
+#: wp-live-chat-support.php:3357 wp-live-chat-support.php:3484
+msgid "Name"
+msgstr "Nimi"
+
+#: functions.php:1183 functions.php:1507 includes/settings_page.php:160
+#: modules/node_server.php:125 wp-live-chat-support.php:1593
+#: wp-live-chat-support.php:1604 wp-live-chat-support.php:1781
+#: wp-live-chat-support.php:3358 wp-live-chat-support.php:3485
+msgid "Email"
+msgstr "E-post"
+
+#: functions.php:1184 wp-live-chat-support.php:1782
+#: wp-live-chat-support.php:3486 wp-live-chat-support.php:4221
+#: wp-live-chat-support.php:4281
+msgid "Message"
+msgstr "Sõnum"
+
+#: functions.php:1185
+#, fuzzy
+#| msgid "Via WP Live Chat Support"
+msgid "Via WP Live Chat by 3CX"
+msgstr "Läbi WP Live Chat Support-i"
+
+#: functions.php:1484 wp-live-chat-support.php:3313
+msgid "Error: Could not delete chat"
+msgstr ""
+
+#: functions.php:1486 wp-live-chat-support.php:3317
+msgid "Chat Deleted"
+msgstr "Vestlus on aktiivne"
+
+#: functions.php:1489 includes/wplc_custom_fields.php:35
+#: includes/wplc_custom_fields.php:441 includes/wplc_custom_fields.php:462
+#: includes/wplc_data_triggers.php:261 includes/wplc_data_triggers.php:279
+#: includes/wplc_data_triggers.php:323 includes/wplc_data_triggers.php:511
+#: includes/wplc_departments.php:304 includes/wplc_departments.php:324
+#: includes/wplc_departments.php:359 includes/wplc_roi.php:390
+#: includes/wplc_roi.php:409 includes/wplc_roi.php:446
+#: modules/advanced_tools.php:29 modules/advanced_tools.php:146
+#: modules/advanced_tools.php:244 modules/advanced_tools.php:252
+#: modules/advanced_tools.php:260 modules/advanced_tools.php:268
+#: modules/gdpr.php:223 modules/gdpr.php:237 modules/webhooks_manager.php:102
+#: modules/webhooks_manager.php:122 modules/webhooks_manager.php:149
+#: wp-live-chat-support.php:3272 wp-live-chat-support.php:3302
+#: wp-live-chat-support.php:4191
+msgid "You do not have permission do perform this action"
+msgstr ""
+
+#: functions.php:1495 wp-live-chat-support.php:3326
+msgid "Are you sure you would like to delete this chat?"
+msgstr ""
+
+#: functions.php:1496 includes/settings_page.php:142
+#: includes/wplc_custom_fields.php:263 wp-live-chat-support.php:3327
+msgid "Yes"
+msgstr "Jah"
+
+#: functions.php:1496 includes/settings_page.php:143
+#: includes/wplc_custom_fields.php:263 wp-live-chat-support.php:3327
+msgid "No"
+msgstr "Ei"
+
+#: functions.php:1505 functions.php:2093 includes/settings_page.php:332
+#: includes/settings_page.php:434 wp-live-chat-support.php:3356
+#: wp-live-chat-support.php:3483
+msgid "Date"
+msgstr "Kuupäev"
+
+#: functions.php:1508 functions.php:4264 wp-live-chat-support.php:3359
+msgid "URL"
+msgstr "URL"
+
+#: functions.php:1509 includes/wplc_custom_fields.php:83
+#: includes/wplc_data_triggers.php:470 includes/wplc_departments.php:177
+#: includes/wplc_roi.php:164 modules/webhooks_manager.php:251
+#: wp-live-chat-support.php:2378 wp-live-chat-support.php:3361
+msgid "Action"
+msgstr "Tegevus"
+
+#: functions.php:1523
+msgid "You have not missed any chat requests."
+msgstr "Sul ei ole vastamata vestluste päringuid"
+
+#: functions.php:1530 wp-live-chat-support.php:3381
+msgid "View Chat History"
+msgstr "Vaata vestluste ajalugu"
+
+#: functions.php:1530 wp-live-chat-support.php:3381
+msgid "Download Chat History"
+msgstr "Lae alla vestluste ajalugu"
+
+#: functions.php:1724
+msgid "Open chat window via"
+msgstr "Ava vestluse aken"
+
+#: functions.php:1728
+msgid "Click"
+msgstr ""
+
+#: functions.php:1729
+msgid "Hover"
+msgstr ""
+
+#: functions.php:1731
+msgid "element with"
+msgstr ""
+
+#: functions.php:1733
+msgid "Class"
+msgstr ""
+
+#: functions.php:1734 includes/wplc_custom_fields.php:78
+#: includes/wplc_data_triggers.php:464 includes/wplc_departments.php:175
+#: includes/wplc_roi.php:159
+msgid "ID"
+msgstr ""
+
+#: functions.php:2005 functions.php:2011 functions.php:2016
+#: includes/dashboard_page.php:58 modules/node_server.php:134
+#: modules/node_server.php:1022 wp-live-chat-support.php:3962
+msgid "Quick Responses"
+msgstr "Kiirvastused"
+
+#: functions.php:2006 includes/settings_page.php:322
+msgid "Quick Response"
+msgstr "Kiirvastus"
+
+#: functions.php:2007 functions.php:2010
+msgid "New Quick Response"
+msgstr "Uus kiirvastus"
+
+#: functions.php:2008 modules/node_server.php:1031
+msgid "Add New Quick Response"
+msgstr "Lisa uus kiirvastus"
+
+#: functions.php:2009
+msgid "Edit Quick Response"
+msgstr "Muuda kiirvastust"
+
+#: functions.php:2012
+msgid "View Quick Responses"
+msgstr "Vaata kiirvastuseid"
+
+#: functions.php:2013
+msgid "Search Quick Responses"
+msgstr "Otsi kiirvastuseid"
+
+#: functions.php:2014
+msgid "No Quick Responses found"
+msgstr "Kiirvastuseid ei leitud"
+
+#: functions.php:2015
+msgid "No Quick Responses found in the Trash"
+msgstr "Prügikastist kiirvastuseid ei leitud "
+
+#: functions.php:2020
+#, fuzzy
+#| msgid "Quick Responses for WP Live Chat Support Pro"
+msgid "Quick Responses for WP Live Chat by 3CX"
+msgstr "Kiirvastused WP Live Chat Support Pro jaoks"
+
+#: functions.php:2054
+#, fuzzy
+#| msgid "Support desk"
+msgid "Sort Order"
+msgstr "Tugi"
+
+#: functions.php:2090 includes/settings_page.php:331
+msgid "Title"
+msgstr ""
+
+#: functions.php:2091
+msgid "Order"
+msgstr ""
+
+#: functions.php:2092 includes/settings_page.php:1182
+msgid "Author"
+msgstr "Autor"
+
+#: functions.php:2135 wp-live-chat-support.php:461
+msgid "Press ENTER to send your message"
+msgstr "Vajutage klaviatuuril \"Enter\", et saata sõnumit"
+
+#: functions.php:2174 functions.php:2178
+msgid "Assign Quick Response"
+msgstr "Seadista kiirvastus"
+
+#: functions.php:2181 includes/settings_page.php:1164
+msgid "Select"
+msgstr "Vali"
+
+#: functions.php:2187
+msgid "What is this?"
+msgstr "Mis see on?"
+
+#: functions.php:2229
+#, php-format
+msgid "Incoming chat from %s (%s) on %s"
+msgstr "Sissetulev vestlus %s (%s) %s"
+
+#: functions.php:2235
+#, fuzzy, php-format
+#| msgid "%s (%s) wants to chat with you. <br /><br />Log in: %s"
+msgid "%s (%s) wants to chat with you."
+msgstr "%s (%s) tahab vestelda. <br /><br /> Logi sisse:%s"
+
+#: functions.php:2240
+#, fuzzy, php-format
+#| msgid "Log in"
+msgid "Log in: %s"
+msgstr "Logi sisse"
+
+#: functions.php:2567
+#, fuzzy
+#| msgid "Status: "
+msgid "Status (Online)"
+msgstr "Olek"
+
+#: functions.php:2568
+msgid "Online"
+msgstr "Võrgus"
+
+#: functions.php:2569
+#, fuzzy
+#| msgid "Online"
+msgid "Offline"
+msgstr "Võrgus"
+
+#: functions.php:2570
+msgid "Status (Offline)"
+msgstr ""
+
+#: functions.php:2581
+msgid ""
+"You have set your status to offline. To view visitors and accept chats "
+"please set your status to online using the switch above."
+msgstr ""
+
+#: functions.php:2651
+msgid "Encryption"
+msgstr "Krüpteering"
+
+#: functions.php:2657 includes/settings_page.php:1225
+#: wp-live-chat-support.php:3977
+msgid "Business Hours"
+msgstr ""
+
+#: functions.php:2859
+msgid "Initiate Chat"
+msgstr "Alustage vestlust"
+
+#: functions.php:2951
+msgid "Attempting to open the chat window... Please be patient."
+msgstr "Proovin avada vestluse aken... Varuge kannatust."
+
+#: functions.php:2968
+msgid ""
+"You are not a chat agent. Please make yourself a chat agent before trying to "
+"chat to visitors"
+msgstr ""
+"Te ei ole vestluse agent. Palun tehke ennast enne vestluse agendiks ja siis "
+"on võimalik teile külastajatega vestelda."
+
+#: functions.php:3163 functions.php:3179 functions.php:3194
+msgid "Chat Agent"
+msgstr "Vestluse Agent"
+
+#: functions.php:3168 functions.php:3184
+msgid "Make this user a chat agent"
+msgstr "Tee sellest kasutajat vestluse agent"
+
+#: functions.php:3198
+msgid "Your user role does not allow you to make yourself a chat agent."
+msgstr "Teie kasutajaroll ei luba Teil teha ennast vestluse agendiks."
+
+#: functions.php:3199
+msgid "Please contact the administrator of this website to change this."
+msgstr "Palun kontakteeruga lehe administraatoriga, et seda muudatust teha."
+
+#: functions.php:3218
+msgid "This chat has already been answered by another agent."
+msgstr "Sellele vestlusele on juba teise agendi poolt vastatud."
+
+#: functions.php:3460 wp-live-chat-support.php:2314
+msgid "Agent(s) online"
+msgstr "Agente võrgus:"
+
+#: functions.php:3514
+msgid "Chat Agent Online"
+msgstr "Vestluse Agent on võrgus"
+
+#: functions.php:3516 functions.php:3520
+msgid "Chat Agents Online"
+msgstr "Agente võrgus:"
+
+#: functions.php:3628 includes/settings_page.php:1153
+#: wp-live-chat-support.php:2260
+msgid "Remove"
+msgstr "Eemalda"
+
+#: functions.php:3631 wp-live-chat-support.php:2263
+msgid "Typing..."
+msgstr ""
+
+#: functions.php:4001
+msgid "User Experience Ratings"
+msgstr "Vestluse rahulolu reiting"
+
+#: functions.php:4008
+msgid "Agent Statistics"
+msgstr "Statistika"
+
+#: functions.php:4051 functions.php:4090
+msgid "Satisfaction Rating"
+msgstr ""
+
+#: functions.php:4052 functions.php:4091
+msgid "Rating Count"
+msgstr ""
+
+#: functions.php:4052 functions.php:4091
+msgid "Good"
+msgstr ""
+
+#: functions.php:4052 functions.php:4091
+msgid "Bad"
+msgstr ""
+
+#: functions.php:4162 includes/dashboard_page.php:56
+#: wp-live-chat-support.php:1015
+#, fuzzy
+#| msgid "View Quick Responses"
+msgid "Reports"
+msgstr "Vaata kiirvastuseid"
+
+#: functions.php:4165 includes/wplc_roi.php:161
+msgid "Overview"
+msgstr ""
+
+#: functions.php:4166
+msgid "Popular Pages"
+msgstr ""
+
+#: functions.php:4184
+msgid "Total Agents"
+msgstr "Vestluse agendid"
+
+#: functions.php:4184
+msgid "Total number of agents that used the live chat"
+msgstr ""
+
+#: functions.php:4185
+msgid "Total Chats"
+msgstr "Alusta vestlust"
+
+#: functions.php:4185
+msgid "Total number of chats received"
+msgstr "Uus vestlus vastu võetud"
+
+#: functions.php:4186
+msgid "Total URLs"
+msgstr ""
+
+#: functions.php:4186
+msgid "Total number of URLs a chat was initiated on"
+msgstr ""
+
+#: functions.php:4187
+msgid "Chats per day"
+msgstr ""
+
+#: functions.php:4188
+msgid "Popular pages a chat was initiated on"
+msgstr ""
+
+#: functions.php:4218 includes/wplc_custom_fields.php:304
+msgid "Unknown"
+msgstr "Teadmata"
+
+#: functions.php:4265
+msgid "Count"
+msgstr ""
+
+#: functions.php:4291
+#, fuzzy
+#| msgid "Enable Encryption"
+msgid "Enable Manual Chat Initiation:"
+msgstr "Lülita krüpteering sisse"
+
+#: functions.php:4291
+msgid ""
+"Enabling this feature will allow agents to start a chat with website "
+"visitors. This feature increases server load while enabled."
+msgstr ""
+
+#: functions.php:4295 modules/advanced_features.php:73
+msgid ""
+"This feature is only available when you select 3CX High Performance Cloud "
+"Servers in Advanced Features."
+msgstr ""
+
+#: functions.php:4382
+#, fuzzy
+#| msgid "Thank you for your feedback. We will be in touch soon"
+msgid "Thank you for inquiry. We will get back to you shortly"
+msgstr "Aitäh tagasiside eest! Me võtame Teiega ühendust"
+
+#: functions.php:4560 wp-live-chat-support.php:4550
+msgid "The Live Chat box is currently disabled on your website due to:"
+msgstr ""
+
+#: functions.php:4561 wp-live-chat-support.php:4551
+#, fuzzy
+#| msgid "General Settings"
+msgid "Business Hours Settings"
+msgstr "Üldised seadistused"
+
+#: functions.php:4612
+msgid "Edit Profile"
+msgstr ""
+
+#: functions.php:4623 modules/node_server.php:96 modules/node_server.php:878
+msgid "Drag Files Here"
+msgstr ""
+
+#: functions.php:4646 functions.php:4691 includes/wplc_custom_fields.php:107
+#: includes/wplc_data_triggers.php:478 includes/wplc_data_triggers.php:616
+#: includes/wplc_departments.php:185 includes/wplc_departments.php:475
+#: includes/wplc_roi.php:172 includes/wplc_roi.php:591
+#: modules/webhooks_manager.php:263
+msgid "Delete"
+msgstr "Kustutatud"
+
+#: functions.php:4647
+#, fuzzy
+#| msgid "Send"
+msgid "Send..."
+msgstr "Saada"
+
+#: functions.php:4648 functions.php:4693
+msgid "Play voice note"
+msgstr ""
+
+#: functions.php:4692
+msgid "Save..."
+msgstr ""
+
+#: functions.php:4780 wp-live-chat-support.php:1248
+#: wp-live-chat-support.php:2791
+msgid "is typing..."
+msgstr ""
+
+#: functions.php:4782
+#, fuzzy
+#| msgid "No visitors on-line at the moment"
+msgid "There are no visitors on your site at the moment"
+msgstr "Hetkel ei ole ühtegi külastajat lehel"
+
+#: functions.php:4783
+msgid "Connection to the server lost, reconnecting..."
+msgstr ""
+
+#: functions.php:4784
+#, fuzzy
+#| msgid "You are not accepting chats"
+msgid "Agent offline - not accepting chats"
+msgstr "Hetkel on vestlused väljalülitatud"
+
+#: functions.php:4800
+msgid "An error has occured while fetching the news feed."
+msgstr ""
+
+#: functions.php:4897
+msgid "Default"
+msgstr ""
+
+#: functions.php:5200 functions.php:5204
+msgid "You do not have permission to perform this action"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:30
+#: includes/blocks/wplc-chat-box/index.php:51 wp-live-chat-support.php:3978
+msgid "Gutenberg Blocks"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:55
+msgid "Enable Gutenberg Blocks"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:63
+#, fuzzy
+#| msgid "Intro Text"
+msgid "Block size"
+msgstr "Sissejuhatav tekst"
+
+#: includes/blocks/wplc-chat-box/index.php:74
+#, fuzzy
+#| msgid "Upload Logo"
+msgid "Set block logo"
+msgstr "Lae üles logo"
+
+#: includes/blocks/wplc-chat-box/index.php:85
+#, fuzzy
+#| msgid "Offline Text Fields"
+msgid "Text in block"
+msgstr "Offline tekstide väljad"
+
+#: includes/blocks/wplc-chat-box/index.php:93
+msgid "Use icon"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:99
+msgid "Icon in block"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:107
+msgid "Preview block"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:115
+msgid "Custom HTML Template"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:117
+msgid "Displays the chosen logo"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:118
+msgid "Displays the chosen custom text"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:119
+msgid "Displays the chosen icon"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:218 wp-live-chat-support.php:1256
+#: wp-live-chat-support.php:1899
+#, fuzzy
+#| msgid "type here..."
+msgid "Type here"
+msgstr "sisesta siia..."
+
+#: includes/blocks/wplc-chat-box/index.php:222 wp-live-chat-support.php:979
+msgid "Live Chat"
+msgstr "Live vestlus"
+
+#: includes/dashboard_page.php:46 wp-live-chat-support.php:980
+#, fuzzy
+#| msgid "Chat Dashboard"
+msgid "Dashboard"
+msgstr "Vestluse töölaud"
+
+#: includes/dashboard_page.php:49
+#, php-format
+msgid "Hi %s! Current activity: %s Active Visitor(s) and %s Active Agent(s)."
+msgstr ""
+
+#: includes/dashboard_page.php:53 includes/dashboard_page.php:67
+#, fuzzy
+#| msgid "Chat ID"
+msgid "Chats"
+msgstr "Vestluse ID"
+
+#: includes/dashboard_page.php:54 includes/dashboard_page.php:68
+#, fuzzy
+#| msgid "Missed Chats"
+msgid "Missed"
+msgstr "Vastamata vestlused"
+
+#: includes/dashboard_page.php:55 wp-live-chat-support.php:988
+#: wp-live-chat-support.php:3420
+msgid "History"
+msgstr "Ajalugu"
+
+#: includes/dashboard_page.php:57 includes/settings_page.php:108
+#: includes/settings_page.php:704 modules/advanced_tools.php:84
+#: wp-live-chat-support.php:992 wp-live-chat-support.php:3466
+#: wp-live-chat-support.php:3963
+msgid "Offline Messages"
+msgstr "Offline sõnumid"
+
+#: includes/dashboard_page.php:59 modules/advanced_tools.php:14
+#: modules/advanced_tools.php:24
+msgid "Tools"
+msgstr ""
+
+#: includes/dashboard_page.php:60 includes/settings_page.php:71
+#: wp-live-chat-support.php:981
+msgid "Settings"
+msgstr "Seaded"
+
+#: includes/dashboard_page.php:69
+msgid "Engaged"
+msgstr ""
+
+#: includes/dashboard_page.php:70
+#, fuzzy
+#| msgid "Total Chats"
+msgid "Total"
+msgstr "Alusta vestlust"
+
+#: includes/dashboard_page.php:73
+msgid "Today"
+msgstr ""
+
+#: includes/dashboard_page.php:79
+msgid "Last 30 days"
+msgstr ""
+
+#: includes/dashboard_page.php:85
+msgid "Last 60 days"
+msgstr ""
+
+#: includes/dashboard_page.php:91
+msgid "Last 90 days"
+msgstr ""
+
+#: includes/dashboard_page.php:107
+msgid "Latest News"
+msgstr ""
+
+#: includes/modal_control.php:27 modules/node_server.php:59
+#: modules/node_server.php:871
+msgid "Please Confirm"
+msgstr ""
+
+#: includes/modal_control.php:31
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/modal_control.php:39 includes/wplc_custom_fields.php:164
+#: includes/wplc_custom_fields.php:237 includes/wplc_data_triggers.php:617
+#: includes/wplc_departments.php:252 includes/wplc_departments.php:476
+#: includes/wplc_roi.php:268 includes/wplc_roi.php:592
+#: modules/node_server.php:63 modules/node_server.php:873
+#: modules/webhooks_manager.php:342
+msgid "Cancel"
+msgstr ""
+
+#: includes/modal_control.php:40 modules/node_server.php:62
+#: modules/node_server.php:872 modules/webhooks_manager.php:341
+msgid "Confirm"
+msgstr ""
+
+#: includes/notification_control.php:27
+#, fuzzy
+#| msgid "browsing"
+msgid "User is browsing"
+msgstr "sirvib"
+
+#: includes/notification_control.php:34 includes/notification_control.php:70
+#: includes/notification_control.php:114 includes/wplc_transfer_chats.php:468
+#: includes/wplc_transfer_chats.php:489 includes/wplc_transfer_chats.php:551
+#: includes/wplc_transfer_chats.php:587
+#, fuzzy
+#| msgid "Chat notifications"
+msgid "System notification"
+msgstr "Vestluse teavitused"
+
+#: includes/notification_control.php:109
+#, fuzzy
+#| msgid "User has opened the chat window"
+msgid "has joined the chat."
+msgstr "Kasutaja on avanud vestluse akna"
+
+#: includes/settings_page.php:98 includes/settings_page.php:136
+#: wp-live-chat-support.php:3974
+msgid "General Settings"
+msgstr "Üldised seadistused"
+
+#: includes/settings_page.php:103
+msgid "Chat Box"
+msgstr "Vestluse aken"
+
+#: includes/settings_page.php:113 includes/settings_page.php:880
+msgid "Styling"
+msgstr "Väljanägemine"
+
+#: includes/settings_page.php:118 modules/node_server.php:88
+#: modules/node_server.php:877
+msgid "Agents"
+msgstr "Agente"
+
+#: includes/settings_page.php:123
+msgid "Blocked Visitors"
+msgstr "Blokeeritud kasutajad"
+
+#: includes/settings_page.php:139
+msgid "Chat enabled"
+msgstr "Vestlus on aktiivne"
+
+#: includes/settings_page.php:151
+#, fuzzy
+#| msgid "Offline Chat Box Title"
+msgid "Required Chat Box Fields"
+msgstr "Offline vestluse akna pealkiri"
+
+#: includes/settings_page.php:151
+msgid "Set default fields that will be displayed when users starting a chat"
+msgstr ""
+
+#: includes/settings_page.php:156
+#, fuzzy
+#| msgid "Require Name And Email"
+msgid "Name and email"
+msgstr "Nimi ja E-post on nõutavad"
+
+#: includes/settings_page.php:168
+msgid "No fields"
+msgstr ""
+
+#: includes/settings_page.php:174
+msgid "Default visitor name"
+msgstr ""
+
+#: includes/settings_page.php:174
+msgid "This name will be displayed for all not logged in visitors"
+msgstr ""
+
+#: includes/settings_page.php:177 wp-live-chat-support.php:460
+msgid "Guest"
+msgstr "Külaline"
+
+#: includes/settings_page.php:182
+msgid "Input Field Replacement Text"
+msgstr "Sisestusvälja asendustekst"
+
+#: includes/settings_page.php:182
+msgid "This is the text that will show in place of the Name And Email fields"
+msgstr "Seda teksti näidetakse Nime ja E-posti väljade asendustekstina"
+
+#: includes/settings_page.php:190
+msgid "Use Logged In User Details"
+msgstr "Kasuta sisse logitud kasutaja andmeid"
+
+#: includes/settings_page.php:190
+msgid ""
+"A user's Name and Email Address will be used by default if they are logged "
+"in."
+msgstr ""
+"Kasutaja Nime ja E-posti aadressi kasutatakse vaikimisi kui nad on sisse "
+"loginud."
+
+#: includes/settings_page.php:200
+#, fuzzy
+#| msgid "Play a sound when a new message is received"
+msgid "Play a sound when there is a new visitor"
+msgstr "Mängi heli kui uus sõnum on kättesaadud."
+
+#: includes/settings_page.php:200
+#, fuzzy
+#| msgid ""
+#| "Disable this to mute the sound that is played when a new chat message is "
+#| "received"
+msgid ""
+"Disable this to mute the sound that is played when a new visitor arrives"
+msgstr ""
+"Lülitage see välja, et vaigistada heli, mis mängitakse uue sõnumi saabumisel"
+
+#: includes/settings_page.php:209
+msgid "Play a sound when a new message is received"
+msgstr "Mängi heli kui uus sõnum on kättesaadud."
+
+#: includes/settings_page.php:209
+msgid ""
+"Disable this to mute the sound that is played when a new chat message is "
+"received"
+msgstr ""
+"Lülitage see välja, et vaigistada heli, mis mängitakse uue sõnumi saabumisel"
+
+#: includes/settings_page.php:218
+msgid "Enable Font Awesome set"
+msgstr ""
+
+#: includes/settings_page.php:218
+msgid "Disable this if you have Font Awesome set included with your theme"
+msgstr ""
+
+#: includes/settings_page.php:226
+msgid "Enable chat dashboard and notifications on all admin pages"
+msgstr ""
+
+#: includes/settings_page.php:226
+msgid "This will load the chat dashboard on every admin page."
+msgstr ""
+
+#: includes/settings_page.php:234
+msgid "Delete database entries on uninstall"
+msgstr ""
+
+#: includes/settings_page.php:234
+msgid ""
+"This will delete all WP Live Chat by 3CX related database entries such as "
+"options and chats on uninstall."
+msgstr ""
+
+#: includes/settings_page.php:245
+msgid "Agents can set their online status"
+msgstr ""
+
+#: includes/settings_page.php:245
+msgid ""
+"Checking this will allow you to change your status to Online or Offline on "
+"the Live Chat page."
+msgstr ""
+"Tehes selle valiku aktiivseks, saate muuta Online ja Offline staatust Live-"
+"Chat lehel."
+
+#: includes/settings_page.php:245
+msgid "If this option is disabled, agents will be always automatically online."
+msgstr ""
+
+#: includes/settings_page.php:256
+msgid "Exclude chat from 'Home' page:"
+msgstr "Ärge kuvage vestluse akent järgmistel lehtedel:"
+
+#: includes/settings_page.php:256
+msgid ""
+"Leaving this unchecked will allow the chat window to display on your home "
+"page."
+msgstr ""
+
+#: includes/settings_page.php:264
+msgid "Exclude chat from 'Archive' pages:"
+msgstr "Ärge kuvage vestluse akent järgmistel lehtedel:"
+
+#: includes/settings_page.php:264
+msgid ""
+"Leaving this unchecked will allow the chat window to display on your archive "
+"pages."
+msgstr ""
+
+#: includes/settings_page.php:272
+msgid "Include chat window on the following pages:"
+msgstr "Lisage vestluse aken järgmistele lehtedele:"
+
+#: includes/settings_page.php:272
+msgid ""
+"Show the chat window on the following pages. Leave blank to show on all. "
+"(Use comma-separated Page ID's)"
+msgstr ""
+"Näidake vestluse aken järgnevatel lehtedel. Jätke tühjaks, et näidata "
+"kõigil. (Kasutage ID'de eraldamiseks koma)"
+
+#: includes/settings_page.php:280
+msgid "Exclude chat window on the following pages:"
+msgstr "Ärge kuvage vestluse akent järgmistel lehtedel:"
+
+#: includes/settings_page.php:280
+msgid ""
+"Do not show the chat window on the following pages. Leave blank to show on "
+"all. (Use comma-separated Page ID's)"
+msgstr ""
+"Ärge kuvage vestluse akent järgmistel lehtedel. Jätke tühjaks, et näidata "
+"kõigil. (Kasutage ID'de eraldamiseks koma)"
+
+#: includes/settings_page.php:288
+#, fuzzy
+#| msgid "Exclude chat window on the following pages"
+msgid "Exclude chat window on selected post types"
+msgstr "Ärge kuvage vestluse akent järgmistel lehtedel:"
+
+#: includes/settings_page.php:288
+#, fuzzy
+#| msgid "Include chat window on the following pages"
+msgid "Do not show the chat window on the following post types pages."
+msgstr "Lisage vestluse aken järgmistele lehtedele:"
+
+#: includes/settings_page.php:307
+#, fuzzy
+#| msgid "No Quick Responses found"
+msgid "No post types found."
+msgstr "Kiirvastuseid ei leitud"
+
+#: includes/settings_page.php:313
+#, fuzzy
+#| msgid "Allow any user to make themselves a chat agent"
+msgid "Allow WP users to self-assign as a chat agent"
+msgstr "Lubage igal kasutajal ennast vestluse agendiks teha"
+
+#: includes/settings_page.php:313
+msgid ""
+"Checking this will allow any of your users to make themselves a chat agent "
+"when editing their profile."
+msgstr ""
+"Selle sisselülitamisel on võimalik igal kasutajal ennast vestluse agendiks "
+"teha kui nad oma profiili muudavad."
+
+#: includes/settings_page.php:327
+msgid "Order by"
+msgstr ""
+
+#: includes/settings_page.php:333
+msgid "Number"
+msgstr ""
+
+#: includes/settings_page.php:339
+msgid "Sort"
+msgstr ""
+
+#: includes/settings_page.php:343
+#, fuzzy
+#| msgid "pending"
+msgid "Descending"
+msgstr "Ootel"
+
+#: includes/settings_page.php:344
+#, fuzzy
+#| msgid "pending"
+msgid "Ascending"
+msgstr "Ootel"
+
+#: includes/settings_page.php:351
+msgid "Voice Notes"
+msgstr ""
+
+#: includes/settings_page.php:355
+msgid "Enable Voice Notes on admin side"
+msgstr ""
+
+#: includes/settings_page.php:357
+msgid ""
+"Enabling this will allow you to record the voice during the chat and send it "
+"to visitor once you hold on CTRL + SPACEBAR in main chat window"
+msgstr ""
+
+#: includes/settings_page.php:365
+msgid "Enable Voice Notes on visitor side"
+msgstr ""
+
+#: includes/settings_page.php:367
+msgid ""
+"Enabling this will allow the visitors to record the voice during the chat "
+"and send it to agent once they hold on CTRL + SPACEBAR"
+msgstr ""
+
+#: includes/settings_page.php:381 wp-live-chat-support.php:3975
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Box Settings"
+msgstr "Vestluse akna seadistused"
+
+#: includes/settings_page.php:384
+msgid "Alignment"
+msgstr ""
+
+#: includes/settings_page.php:387
+msgid "Bottom left"
+msgstr "Vasakul all"
+
+#: includes/settings_page.php:388
+msgid "Bottom right"
+msgstr "Paremal all"
+
+#: includes/settings_page.php:389
+msgid "Left"
+msgstr "Vasakul"
+
+#: includes/settings_page.php:390
+msgid "Right"
+msgstr "Paremal"
+
+#: includes/settings_page.php:396
+msgid "Auto Pop-up"
+msgstr "Automaatne avamine"
+
+#: includes/settings_page.php:396
+msgid ""
+"Expand the chat box automatically (prompts the user to enter their name and "
+"email address)."
+msgstr ""
+"Laienda vestluse akent automaatselt(palub kasutajal sisestada nimi ja e-"
+"posti aadress)."
+
+#: includes/settings_page.php:405
+#, fuzzy
+#| msgid "Display name and avatar in chat"
+msgid "Display for chat message:"
+msgstr "Kuvage nimi ja avatar vestluses"
+
+#: includes/settings_page.php:409
+msgid "Avatar"
+msgstr ""
+
+#: includes/settings_page.php:414
+msgid "Display typing indicator"
+msgstr ""
+
+#: includes/settings_page.php:414
+msgid ""
+"Display the 'typing...' animation in the chat window as soon as an agent or "
+"visitor is typing."
+msgstr ""
+
+#: includes/settings_page.php:418
+msgid ""
+"For non-cloud server users, please note that this will increase the amount "
+"of server resources required."
+msgstr ""
+
+#: includes/settings_page.php:423
+msgid "Chat box for logged in users only:"
+msgstr ""
+
+#: includes/settings_page.php:423
+msgid ""
+"By checking this, only users that are logged in will be able to chat with "
+"you."
+msgstr ""
+"Selle valiku aktiivseks tegemisel saavad ainult sisselogitud kasutajad "
+"sinuga vestelda."
+
+#: includes/settings_page.php:431
+#, fuzzy
+#| msgid "User has maximized the chat window"
+msgid "Display a timestamp in the chat window:"
+msgstr "Kasutaja on teinud aktiivseks vestluse akna"
+
+#: includes/settings_page.php:435 wp-live-chat-support.php:2373
+msgid "Time"
+msgstr "Aeg"
+
+#: includes/settings_page.php:440
+msgid "Redirect to “Thank You” page on chat end:"
+msgstr ""
+
+#: includes/settings_page.php:440
+msgid ""
+"By checking this, users will be redirected to your thank you page when a "
+"chat is completed."
+msgstr ""
+
+#: includes/settings_page.php:444
+msgid "Thank You Page URL"
+msgstr ""
+
+#: includes/settings_page.php:454
+msgid "Disable Emojis"
+msgstr ""
+
+#: includes/settings_page.php:471
+#, fuzzy
+#| msgid "Username"
+msgid "User / Agent name"
+msgstr "Kasutajanimi"
+
+#: includes/settings_page.php:479
+#, fuzzy
+#| msgid "Username"
+msgid "Use WordPress name"
+msgstr "Kasutajanimi"
+
+#: includes/settings_page.php:482
+msgid "Note: 'Name' field will be ignored"
+msgstr ""
+
+#: includes/settings_page.php:514
+msgid "Incoming chat ring tone"
+msgstr "Sissetulev vestlust"
+
+#: includes/settings_page.php:530
+#, fuzzy
+#| msgid "Incoming chat ring tone"
+msgid "Incoming message tone"
+msgstr "Sissetulev vestlust"
+
+#: includes/settings_page.php:547
+msgid "Icon"
+msgstr ""
+
+#: includes/settings_page.php:555
+#, fuzzy
+#| msgid "Upload Logo"
+msgid "Upload Icon"
+msgstr "Lae üles logo"
+
+#: includes/settings_page.php:556 includes/settings_page.php:562
+msgid "Select Default Icon"
+msgstr ""
+
+#: includes/settings_page.php:558
+#, fuzzy
+#| msgid "Remove Logo"
+msgid "Remove Icon"
+msgstr "Eemalda Logo"
+
+#: includes/settings_page.php:559
+#, fuzzy
+#| msgid "Recomended Size 250px x 40px"
+msgid "Recommended Size 50px x 50px"
+msgstr "Soovitatud Suurus 250px x 40px"
+
+#: includes/settings_page.php:602
+msgid "Picture"
+msgstr "Pilt"
+
+#: includes/settings_page.php:610
+msgid "Upload Image"
+msgstr "Laadige üles pilt"
+
+#: includes/settings_page.php:612
+msgid "Remove Image"
+msgstr "Eemalda pilt"
+
+#: includes/settings_page.php:613
+#, fuzzy
+#| msgid "Recomended Size 60px x 60px"
+msgid "Recommended Size 60px x 60px"
+msgstr "Soovitatud Suurus 40px x 40px"
+
+#: includes/settings_page.php:620
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/settings_page.php:628
+msgid "Upload Logo"
+msgstr "Lae üles logo"
+
+#: includes/settings_page.php:630
+msgid "Remove Logo"
+msgstr "Eemalda Logo"
+
+#: includes/settings_page.php:631
+#, fuzzy
+#| msgid "Recomended Size 250px x 40px"
+msgid "Recommended Size 250px x 40px"
+msgstr "Soovitatud Suurus 250px x 40px"
+
+#: includes/settings_page.php:637
+#, fuzzy
+#| msgid "Chat delay (seconds)"
+msgid "Chat button delayed startup (seconds)"
+msgstr "Vestluse viivitus (sekundites)"
+
+#: includes/settings_page.php:637
+msgid "How long to delay showing the Live Chat button on a page"
+msgstr ""
+
+#: includes/settings_page.php:646
+msgid "Chat notifications"
+msgstr "Vestluse teavitused"
+
+#: includes/settings_page.php:646
+msgid "Alert me via email as soon as someone wants to chat (while online only)"
+msgstr "Teavitage mind kui keegi soovib minuga vestelda (Online-i ajal)"
+
+#: includes/settings_page.php:655
+msgid "User Experience"
+msgstr ""
+
+#: includes/settings_page.php:659
+msgid "Share files"
+msgstr ""
+
+#: includes/settings_page.php:659
+msgid "Adds file sharing to your chat box!"
+msgstr ""
+
+#: includes/settings_page.php:663
+#, fuzzy
+#| msgid "User Experience Ratings"
+msgid "Visitor experience ratings"
+msgstr "Vestluse rahulolu reiting"
+
+#: includes/settings_page.php:663
+msgid "Allows users to rate the chat experience with an agent."
+msgstr "Lubage igal kasutajal ennast vestluse agendiks teha"
+
+#: includes/settings_page.php:669 includes/settings_page.php:996
+msgid "Social"
+msgstr ""
+
+#: includes/settings_page.php:673
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/settings_page.php:673
+msgid "Link your Facebook page here. Leave blank to hide"
+msgstr ""
+
+#: includes/settings_page.php:674
+msgid "Facebook URL..."
+msgstr ""
+
+#: includes/settings_page.php:685
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/settings_page.php:685
+msgid "Link your Twitter page here. Leave blank to hide"
+msgstr ""
+
+#: includes/settings_page.php:686
+msgid "Twitter URL..."
+msgstr ""
+
+#: includes/settings_page.php:708
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Disable offline messages"
+msgstr "Offline sõnumid"
+
+#: includes/settings_page.php:708
+msgid ""
+"The chat window will be hidden when it is offline. Users will not be able to "
+"send offline messages to you"
+msgstr ""
+"Vestluse aken on peidetud kui see on Offline-is. Kasutajad ei saa sulle "
+"offline sõnumeid jätta."
+
+#: includes/settings_page.php:715
+#, fuzzy
+#| msgid "Offline Chat Box Title"
+msgid "Offline Form Title"
+msgstr "Offline vestluse akna pealkiri"
+
+#: includes/settings_page.php:723
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Offline form initial message"
+msgstr "Offline sõnumid"
+
+#: includes/settings_page.php:729
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Offline form message on send"
+msgstr "Offline sõnumid"
+
+#: includes/settings_page.php:735
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Offline form finish message"
+msgstr "Offline sõnumid"
+
+#: includes/settings_page.php:741
+#, fuzzy
+#| msgid "Offline Chat Box Title"
+msgid "Offline Button Text"
+msgstr "Offline vestluse akna pealkiri"
+
+#: includes/settings_page.php:747
+#, fuzzy
+#| msgid "Offline Chat Box Title"
+msgid "Offline Send Button Text"
+msgstr "Offline vestluse akna pealkiri"
+
+#: includes/settings_page.php:755
+#, fuzzy
+#| msgid "Main Settings"
+msgid "Email settings"
+msgstr "Peamised seadistused"
+
+#: includes/settings_page.php:761
+msgid "Send to agent(s)"
+msgstr ""
+
+#: includes/settings_page.php:761
+msgid ""
+"Email address where offline messages are delivered to. Use comma separated "
+"email addresses to send to more than one email address"
+msgstr ""
+"E-posti aadress, kuhu offline sõnumid toimetatakse. Kasuta aadresside "
+"eraldamiseks koma, et saata rohkem kui ühele aadressile"
+
+#: includes/settings_page.php:771
+msgid "Subject"
+msgstr ""
+
+#: includes/settings_page.php:771
+msgid "User name will be appended to the end of the subject."
+msgstr ""
+
+#: includes/settings_page.php:784
+msgid "Auto-respond to visitor"
+msgstr ""
+
+#: includes/settings_page.php:784
+msgid "Send your visitors an email as soon as they send you an offline message"
+msgstr ""
+
+#: includes/settings_page.php:790
+#, fuzzy
+#| msgid "API Response Codes"
+msgid "Auto-responder 'From' name"
+msgstr "Kiirvastused"
+
+#: includes/settings_page.php:796
+#, fuzzy
+#| msgid "API Response Codes"
+msgid "Auto-responder 'From' email"
+msgstr "Kiirvastused"
+
+#: includes/settings_page.php:802
+#, fuzzy
+#| msgid "API Response Codes"
+msgid "Auto-responder subject"
+msgstr "Kiirvastused"
+
+#: includes/settings_page.php:808
+#, fuzzy
+#| msgid "API Response Codes"
+msgid "Auto-responder body"
+msgstr "Kiirvastused"
+
+#: includes/settings_page.php:811
+msgid "HTML and the following shortcodes can be used"
+msgstr ""
+
+#: includes/settings_page.php:811
+#, fuzzy
+#| msgid "Username"
+msgid "User's name"
+msgstr "Kasutajanimi"
+
+#: includes/settings_page.php:811
+#, fuzzy
+#| msgid "Email Address"
+msgid "User's email address"
+msgstr "E-posti aadress"
+
+#: includes/settings_page.php:887
+#, fuzzy
+#| msgid "Choose a theme"
+msgid "Color scheme"
+msgstr "Valige teema"
+
+#: includes/settings_page.php:943
+#, fuzzy
+#| msgid "Choose a theme"
+msgid "Custom Scheme"
+msgstr "Valige teema"
+
+#: includes/settings_page.php:964
+msgid "Palette Color 1"
+msgstr ""
+
+#: includes/settings_page.php:970
+msgid "Palette Color 2"
+msgstr ""
+
+#: includes/settings_page.php:976
+msgid "Palette Color 3"
+msgstr ""
+
+#: includes/settings_page.php:982
+msgid "Palette Color 4"
+msgstr ""
+
+#: includes/settings_page.php:989
+#, fuzzy
+#| msgid "Chat Dashboard"
+msgid "Chat background"
+msgstr "Vestluse töölaud"
+
+#: includes/settings_page.php:993
+msgid "Cloudy"
+msgstr ""
+
+#: includes/settings_page.php:994
+msgid "Geometry"
+msgstr ""
+
+#: includes/settings_page.php:995
+msgid "Tech"
+msgstr ""
+
+#: includes/settings_page.php:997 includes/wplc_roi.php:178
+#: modules/node_server.php:928
+msgid "None"
+msgstr ""
+
+#: includes/settings_page.php:1003
+#, fuzzy
+#| msgid "I'm using a localization plugin"
+msgid "Use localization plugin"
+msgstr "Ma kasutan lokaliseeritud plugin-at"
+
+#: includes/settings_page.php:1006
+#, php-format
+msgid ""
+"Enable this if you are using a localization plugin. Should you wish to "
+"change the below strings with this option enabled, please visit the "
+"documentation %s"
+msgstr ""
+
+#: includes/settings_page.php:1006 includes/wplc_departments.php:586
+#: modules/node_server.php:652 wp-live-chat-support.php:2297
+msgid "here"
+msgstr "siit"
+
+#: includes/settings_page.php:1012
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box title"
+msgstr "Vestluse akna joondus"
+
+#: includes/settings_page.php:1018
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box sub-title"
+msgstr "Vestluse akna joondus"
+
+#: includes/settings_page.php:1024
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box intro"
+msgstr "Vestluse akna joondus"
+
+#: includes/settings_page.php:1030
+#, fuzzy
+#| msgid "Start chat"
+msgid "Start chat button label"
+msgstr "Alusta vestlust"
+
+#: includes/settings_page.php:1036
+msgid "Start chat status message"
+msgstr ""
+
+#: includes/settings_page.php:1042
+#, fuzzy
+#| msgid "Leave a message"
+msgid "Re-activate chat message"
+msgstr "Vestlus toimub offline'is. Jätke palun oma sõnum"
+
+#: includes/settings_page.php:1050
+#, fuzzy
+#| msgid "Delete Message"
+msgid "Welcome message"
+msgstr "Offline sõnumid"
+
+#: includes/settings_page.php:1052
+msgid ""
+"This text is shown as soon as a user starts a chat and waits for an agent to "
+"join"
+msgstr ""
+
+#: includes/settings_page.php:1056
+msgid "Agent no answer message"
+msgstr ""
+
+#: includes/settings_page.php:1058
+#, fuzzy
+#| msgid "This text is shown above the user chat input field"
+msgid ""
+"This text is shown to the user when an agent has failed to answer a chat"
+msgstr "Seda teksti kuvatakse kasutaja sisestusvälja kohal"
+
+#: includes/settings_page.php:1062
+msgid "Other text"
+msgstr "Teine tekst"
+
+#: includes/settings_page.php:1065 wp-live-chat-support.php:454
+#: wp-live-chat-support.php:1202
+#, fuzzy
+#| msgid "The chat has been ended"
+msgid "The chat has been ended by the agent."
+msgstr "Vestlus on lõppenud"
+
+#: includes/settings_page.php:1070
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box animation"
+msgstr "Vestluse akna joondus"
+
+#: includes/settings_page.php:1078
+msgid "Slide Up"
+msgstr "Slaid üles"
+
+#: includes/settings_page.php:1084
+msgid "Slide From The Side"
+msgstr "Slaid küljelt"
+
+#: includes/settings_page.php:1090
+msgid "Fade In"
+msgstr "Fade In(tuhmuv animatsioon)"
+
+#: includes/settings_page.php:1096
+msgid "No Animation"
+msgstr "Animatsioon puudub"
+
+#: includes/settings_page.php:1114
+msgid "Auto-response to first message"
+msgstr ""
+
+#: includes/settings_page.php:1117
+msgid ""
+"This message will be sent automatically after the first message is sent from "
+"the user side. Leave empty to disable."
+msgstr ""
+
+#: includes/settings_page.php:1132
+msgid "Chat Agents"
+msgstr "Vestluse agendid"
+
+#: includes/settings_page.php:1143
+msgid "Logged In"
+msgstr ""
+
+#: includes/settings_page.php:1162
+msgid "Add New Agent"
+msgstr "Lisa uus Agent"
+
+#: includes/settings_page.php:1170
+msgid "Administrator"
+msgstr "Administraator"
+
+#: includes/settings_page.php:1176
+msgid "Editor"
+msgstr "Toimetaja"
+
+#: includes/settings_page.php:1186
+msgid "Add Agent"
+msgstr "Lisa agent"
+
+#: includes/settings_page.php:1192
+#, fuzzy, php-format
+#| msgid ""
+#| "Should you wish to add a user that has a role less than 'Author', please "
+#| "go to the <a href='./users.php'>Users</a> page, select the relevant user, "
+#| "click Edit and scroll to the bottom of the page and enable the 'Chat "
+#| "Agent' checkbox."
+msgid ""
+"Should you wish to add a user that has a role less than 'Author', please go "
+"to the %s page, select the relevant user, click Edit and scroll to the "
+"bottom of the page and enable the 'Chat Agent' checkbox."
+msgstr ""
+"Kui te soovite lisada kasutajat, kelle kasutajaõigused on väiksemad kui "
+"Toimetaja omad, minge <a href='./users.php'>Kasutajad</a> lehel ja tehke "
+"aktiivseks kõnealune kasutaja, seejärel vajutage Muuda ja minge lehekülje "
+"lõppu ning tehke \"Vestluse agent\" kast aktiivseks."
+
+#: includes/settings_page.php:1192
+#, fuzzy
+#| msgid "Username"
+msgid "Users"
+msgstr "Kasutajanimi"
+
+#: includes/settings_page.php:1193
+msgid "If there are no chat agents online, the chat will show as offline"
+msgstr ""
+"Kui vestluse agente ei ole võrgus, siis vestlus näitab ennast võrgust väljas "
+"olevana."
+
+#: includes/settings_page.php:1198
+#, fuzzy
+#| msgid "Blocked Visitors - Based on IP Address"
+msgid "Blocked Visitors / IP Addresses"
+msgstr "Blokeeritud külastajad - IP aadressi põhiselt"
+
+#: includes/settings_page.php:1202
+msgid "Enter each IP Address you would like to block on a new line"
+msgstr "Sisesta blokeerida soovitav IP aadress eraldi uuele reale"
+
+#: includes/settings_page.php:1213
+msgid ""
+"Blocking a user's IP Address here will hide the chat window from them, "
+"preventing them from chatting with you. Each IP Address must be on a new line"
+msgstr ""
+"Kasutaja IP aadressi blokeerimine peidab nendel Vestluse akna, mis ei "
+"võimalda nendel sinuga vestlust alustada. Iga IP aadress peab olema uuel real"
+
+#: includes/settings_page.php:1229
+msgid "Enable Business Hours"
+msgstr ""
+
+#: includes/settings_page.php:1234
+msgid "Active schedule"
+msgstr ""
+
+#: includes/settings_page.php:1238
+msgid "Daily"
+msgstr ""
+
+#: includes/settings_page.php:1239
+msgid "Week Days"
+msgstr ""
+
+#: includes/settings_page.php:1240
+msgid "Weekends"
+msgstr ""
+
+#: includes/settings_page.php:1252
+msgid "Between"
+msgstr ""
+
+#: includes/settings_page.php:1263
+msgid "and"
+msgstr ""
+
+#: includes/settings_page.php:1280
+msgid "Current Site Time"
+msgstr ""
+
+#: includes/settings_page.php:1293
+msgid "Chat Encryption"
+msgstr "Vestluse krüpteering"
+
+#: includes/settings_page.php:1296
+msgid "Enable Encryption"
+msgstr "Lülita krüpteering sisse"
+
+#: includes/settings_page.php:1296
+msgid ""
+"All messages will be encrypted when being sent to and from the user and "
+"agent."
+msgstr "Kõik Teie ja agendi vahelised sõnumid krüpteeritakse."
+
+#: includes/settings_page.php:1305
+msgid ""
+"Once enabled, all messages sent will be encrypted. This cannot be undone."
+msgstr "Sisselülitatuna kõik sõnumid krüpteeritakse. Seda ei saa hiljem muuta."
+
+#: includes/settings_page.php:1315
+msgid "Save Settings"
+msgstr "Salvesta seadistused"
+
+#: includes/wplc_agent_data.php:11
+#, fuzzy
+#| msgid "WP Live Chat Support Triggers"
+msgid "WP Live Chat by 3CX - User Fields"
+msgstr "WP Live Chat Support Seadistused"
+
+#: includes/wplc_agent_data.php:15
+#, fuzzy
+#| msgid "Username"
+msgid "User tagline"
+msgstr "Kasutajanimi"
+
+#: includes/wplc_agent_data.php:24
+msgid "This will show up at the top of the chatbox - Leave blank to disable."
+msgstr ""
+
+#: includes/wplc_custom_fields.php:67 includes/wplc_data_triggers.php:8
+#: includes/wplc_departments.php:140 includes/wplc_roi.php:115
+#: modules/webhooks_manager.php:60 modules/webhooks_manager.php:321
+msgid "Add New"
+msgstr "Lisa uus Agent"
+
+#: includes/wplc_custom_fields.php:71 wp-live-chat-support.php:1017
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:80 includes/wplc_data_triggers.php:466
+#: wp-live-chat-support.php:2374
+msgid "Type"
+msgstr "Tüüp"
+
+#: includes/wplc_custom_fields.php:81 includes/wplc_data_triggers.php:468
+msgid "Content"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:82 includes/wplc_data_triggers.php:469
+#: wp-live-chat-support.php:2377 wp-live-chat-support.php:3360
+msgid "Status"
+msgstr "Olek"
+
+#: includes/wplc_custom_fields.php:99 wp-live-chat-support.php:2570
+msgid "Active"
+msgstr "Aktiivne"
+
+#: includes/wplc_custom_fields.php:101
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "Aktiivne"
+
+#: includes/wplc_custom_fields.php:106 includes/wplc_data_triggers.php:477
+#: includes/wplc_departments.php:184 includes/wplc_roi.php:171
+#: modules/webhooks_manager.php:262
+msgid "Edit"
+msgstr "Toimetaja"
+
+#: includes/wplc_custom_fields.php:117
+msgid "Create your first custom field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:137
+msgid "Create a Custom Field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:142 includes/wplc_custom_fields.php:213
+#, fuzzy
+#| msgid "Goal Name"
+msgid "Field Name"
+msgstr "Teie Nimi"
+
+#: includes/wplc_custom_fields.php:146 includes/wplc_custom_fields.php:217
+msgid "Field Type"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:149 includes/wplc_custom_fields.php:222
+msgid "Text"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:150 includes/wplc_custom_fields.php:223
+msgid "Drop Down"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:155 includes/wplc_custom_fields.php:228
+msgid "Default Field Value"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:159 includes/wplc_custom_fields.php:232
+msgid "Drop Down Contents"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:160 includes/wplc_custom_fields.php:233
+#, fuzzy
+#| msgid "Enter each IP Address you would like to block on a new line"
+msgid "Enter each option on a new line"
+msgstr "Sisesta blokeerida soovitav IP aadress eraldi uuele reale"
+
+#: includes/wplc_custom_fields.php:164
+msgid "Create Custom Field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:208
+msgid "Edit a Custom Field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:237
+msgid "Update Custom Field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:247
+msgid "Custom Field Not Found"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:248
+msgid "Back"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:262
+msgid "Are you sure you want to delete this custom field?"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:298
+#, fuzzy
+#| msgid "Offline Text Fields"
+msgid "Text Field"
+msgstr "Offline tekstide väljad"
+
+#: includes/wplc_custom_fields.php:301
+msgid "Dropdown"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:367
+msgid "Custom Field Data"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:11 wp-live-chat-support.php:1016
+#: wp-live-chat-support.php:3949
+msgid "Triggers"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:18 includes/wplc_roi.php:142
+msgid "Update now"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:72
+msgid "Trigger Name"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:77
+msgid "Trigger Type"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:81
+msgid "Page Trigger"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:82
+msgid "Time Trigger"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:83
+msgid "Scroll Trigger"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:84
+msgid "Page Leave Trigger"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:85
+msgid ""
+"Note: When using page trigger with a the basic theme, no hovercard is shown "
+"by default. We suggest using the time trigger for this instead."
+msgstr ""
+
+#: includes/wplc_data_triggers.php:91
+msgid "Page ID"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:92
+msgid "Note: Leave empty for 'all' pages"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:96
+msgid "Show After"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:97
+msgid "Seconds"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:101
+msgid "Show After Scrolled"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:102
+msgid "(%) Percent of page height"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:106
+msgid "Content Replacement"
+msgstr "Sisestusvälja asendustekst"
+
+#: includes/wplc_data_triggers.php:117
+msgid "Replace Content"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:122
+msgid "Enable Trigger"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:128 modules/node_server.php:596
+#: wp-live-chat-support.php:4677
+msgid "Close"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:138 includes/wplc_departments.php:262
+#: includes/wplc_roi.php:278
+msgid "Please review your submission"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:286
+msgid "Trigger has been edited."
+msgstr "Vestlus on lõppenud"
+
+#: includes/wplc_data_triggers.php:451
+msgid "Conflict with page"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:453
+msgid "Trigger ID: "
+msgstr ""
+
+#: includes/wplc_data_triggers.php:454
+msgid ""
+"It is possible that this trigger may override another trigger, or be "
+"overridden by another trigger."
+msgstr ""
+
+#: includes/wplc_data_triggers.php:467 includes/wplc_roi.php:162
+#: modules/node_server.php:187 modules/node_server.php:895
+msgid "Page"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:486 includes/wplc_roi.php:713
+msgid "All"
+msgstr "Kõik"
+
+#: includes/wplc_data_triggers.php:490
+msgid "Click to change trigger status"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:500
+msgid "No Triggers Found..."
+msgstr ""
+
+#: includes/wplc_data_triggers.php:611
+msgid "Are you sure you would like to delete trigger"
+msgstr ""
+
+#: includes/wplc_departments.php:60 includes/wplc_departments.php:64
+#: includes/wplc_departments.php:88 includes/wplc_departments.php:548
+#: includes/wplc_departments.php:653 includes/wplc_transfer_chats.php:96
+msgid "No Department"
+msgstr ""
+
+#: includes/wplc_departments.php:84
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Chat Department"
+msgstr "Vestlus on aktiivne"
+
+#: includes/wplc_departments.php:129 includes/wplc_departments.php:145
+#: includes/wplc_departments.php:522 includes/wplc_departments.php:538
+msgid "Departments"
+msgstr ""
+
+#: includes/wplc_departments.php:129
+msgid "beta"
+msgstr ""
+
+#: includes/wplc_departments.php:142
+#, fuzzy
+#| msgid "Main Settings"
+msgid "Department Settings"
+msgstr "Peamised seadistused"
+
+#: includes/wplc_departments.php:195
+msgid "No Departments Found..."
+msgstr ""
+
+#: includes/wplc_departments.php:246
+msgid "Department Name"
+msgstr ""
+
+#: includes/wplc_departments.php:331
+#, fuzzy
+#| msgid "Goal has been edited."
+msgid "Department has been edited."
+msgstr "Vestlus on lõppenud"
+
+#: includes/wplc_departments.php:470
+msgid "Are you sure you would like to delete department"
+msgstr ""
+
+#: includes/wplc_departments.php:543
+msgid "Default Department"
+msgstr ""
+
+#: includes/wplc_departments.php:544
+msgid "Default department a new chat is assigned to"
+msgstr ""
+
+#: includes/wplc_departments.php:559
+msgid "Create or Edit Departments"
+msgstr ""
+
+#: includes/wplc_departments.php:565
+msgid "User Department Selection"
+msgstr ""
+
+#: includes/wplc_departments.php:566
+msgid "Allow user to select a department before starting a chat?"
+msgstr ""
+
+#: includes/wplc_departments.php:575
+msgid ""
+"Note: Chats will be transferred in the event that agents are not available "
+"within the selected department"
+msgstr ""
+
+#: includes/wplc_departments.php:586
+#, fuzzy, php-format
+#| msgid "Chat Deleted"
+msgid "Create departments %s."
+msgstr "Vestlus on aktiivne"
+
+#: includes/wplc_departments.php:632
+msgid "Department you have been assigned to as an agent"
+msgstr ""
+
+#: includes/wplc_departments.php:632 includes/wplc_transfer_chats.php:45
+#: modules/node_server.php:190 modules/node_server.php:897
+msgid "Department"
+msgstr ""
+
+#: includes/wplc_departments.php:739
+msgid "Select Department"
+msgstr ""
+
+#: includes/wplc_roi.php:104 includes/wplc_roi.php:119
+#: wp-live-chat-support.php:3951
+msgid "ROI Goals"
+msgstr ""
+
+#: includes/wplc_roi.php:116
+#, fuzzy
+#| msgid "View Quick Responses"
+msgid "View Reports"
+msgstr "Vaata kiirvastuseid"
+
+#: includes/wplc_roi.php:163
+msgid "Value"
+msgstr ""
+
+#: includes/wplc_roi.php:185
+msgid "No ROI Goals Found..."
+msgstr ""
+
+#: includes/wplc_roi.php:243
+msgid "Goal Name"
+msgstr "Teie Nimi"
+
+#: includes/wplc_roi.php:248
+msgid "Goal Overview"
+msgstr ""
+
+#: includes/wplc_roi.php:253
+msgid "Goal Page"
+msgstr ""
+
+#: includes/wplc_roi.php:262
+msgid "Goal Value"
+msgstr ""
+
+#: includes/wplc_roi.php:415
+msgid "Goal has been edited."
+msgstr "Vestlus on lõppenud"
+
+#: includes/wplc_roi.php:586
+msgid "Are you sure you would like to delete goal"
+msgstr ""
+
+#: includes/wplc_roi.php:673
+#, fuzzy
+#| msgid "View Quick Responses"
+msgid "ROI Reports"
+msgstr "Vaata kiirvastuseid"
+
+#: includes/wplc_roi.php:692
+msgid "Goal Statistics"
+msgstr "Statistika"
+
+#: includes/wplc_roi.php:704
+msgid "No Goals Found"
+msgstr ""
+
+#: includes/wplc_roi.php:714
+msgid "Last 30 Days"
+msgstr ""
+
+#: includes/wplc_roi.php:715
+msgid "Last 15 Days"
+msgstr ""
+
+#: includes/wplc_roi.php:716
+msgid "Last 7 Days"
+msgstr ""
+
+#: includes/wplc_roi.php:717
+msgid "Last 24 Hours"
+msgstr ""
+
+#: includes/wplc_roi.php:769
+msgid "Value Per Conversion"
+msgstr "Pro versioon"
+
+#: includes/wplc_roi.php:775
+msgid "Total Value"
+msgstr ""
+
+#: includes/wplc_roi.php:780
+msgid "Total Conversions"
+msgstr "Pro versioon"
+
+#: includes/wplc_roi.php:812
+msgid "Value By Date"
+msgstr ""
+
+#: includes/wplc_roi.php:815
+msgid "Value By Agent"
+msgstr ""
+
+#: includes/wplc_roi.php:821
+msgid "No data available yet..."
+msgstr "Hetkel ei ole vestlusi saadaval"
+
+#: includes/wplc_transfer_chats.php:17 modules/node_server.php:884
+msgid "Transfer"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:29
+#, fuzzy
+#| msgid "Start Chat"
+msgid "Transfer Chat"
+msgstr "Alusta vestlust"
+
+#: includes/wplc_transfer_chats.php:43
+msgid "Would you like to transfer this chat to"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:44 modules/node_server.php:82
+#, fuzzy
+#| msgid "Agents"
+msgid "Agent"
+msgstr "Agente"
+
+#: includes/wplc_transfer_chats.php:50
+msgid "Please select an agent to transfer to"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:57
+msgid "Please select a department to transfer to"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:75
+#, fuzzy
+#| msgid "Agents"
+msgid "No Agent"
+msgstr "Agente"
+
+#: includes/wplc_transfer_chats.php:81
+#, fuzzy
+#| msgid "Your"
+msgid "You"
+msgstr "Teie Nimi"
+
+#: includes/wplc_transfer_chats.php:122
+#, fuzzy
+#| msgid "Chat Agents Online"
+msgid "Checking if agent is online"
+msgstr "Agente võrgus:"
+
+#: includes/wplc_transfer_chats.php:123
+msgid "Agent is not online, transfer cannot be made"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:125
+msgid "Checking if agents in department are online"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:126
+msgid ""
+"No agent within the department are available to accept the transfer, "
+"transfer cannot be made"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:128
+msgid "Agent(s) available, safe to transfer"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:130
+msgid "Transfer Complete. Closing Window..."
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:131
+#, fuzzy
+#| msgid "There is No Answer. Please Try Again Later"
+msgid "Transfer Failed. Please try again later..."
+msgstr "Vastust ei tulnud. Palun proovige hiljem uuesti."
+
+#: includes/wplc_transfer_chats.php:374
+msgid "Transfer for"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:377
+#, fuzzy
+#| msgid "Accept Chat"
+msgid "Accept Transfer"
+msgstr "Nõustu vestlusega"
+
+#: includes/wplc_transfer_chats.php:455
+msgid ""
+"Department took too long to respond, we are transferring this chat to the "
+"next available agent."
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:457
+msgid ""
+"took too long to respond, we are transferring this chat to the next "
+"available agent."
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:460
+#, fuzzy
+#| msgid "Chat answered by another agent"
+msgid "has transferred the chat."
+msgstr "Sellele vestlusele on juba teise agendi poolt vastatud."
+
+#: includes/wplc_transfer_chats.php:483
+msgid "User received this message"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:528
+#, fuzzy
+#| msgid "No data available yet..."
+msgid "No agents available in"
+msgstr "Hetkel ei ole vestlusi saadaval"
+
+#: includes/wplc_transfer_chats.php:530
+msgid "selected department"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:536
+msgid "automatically transferring you to"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:538
+#, fuzzy
+#| msgid "No chats available at the moment"
+msgid "the next available department"
+msgstr "Hetkel ei ole vestlusi saadaval"
+
+#: includes/wplc_transfer_chats.php:566
+#, fuzzy
+#| msgid "Chat answered by another agent"
+msgid "User has been transferred from"
+msgstr "Sellele vestlusele on juba teise agendi poolt vastatud."
+
+#: includes/wplc_transfer_chats.php:568
+msgid "department"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:577
+msgid "to"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:580
+msgid "as there were no agents online"
+msgstr ""
+
+#: modules/advanced_features.php:17
+#, fuzzy
+#| msgid "Advanced settings"
+msgid "Advanced Features"
+msgstr "Täpsem info"
+
+#: modules/advanced_features.php:33
+#, fuzzy
+#| msgid "Cloud Server"
+msgid "Chat Server"
+msgstr "Pilve server"
+
+#: modules/advanced_features.php:41
+#, fuzzy
+#| msgid "Use our server to host your chat server."
+msgid "Select your chat server"
+msgstr "Kasutage meie serverit, et host-ida enda vestlusi."
+
+#: modules/advanced_features.php:41
+msgid "Choose between 3CX servers or your Wordpress server for chat delivery"
+msgstr ""
+
+#: modules/advanced_features.php:47
+msgid ""
+"3CX Servers are high performance secure instances hosted on Google Cloud and "
+"are completely free to use. 3CX Servers don't log or store messages. "
+"Messages are simply forwarded between users and agents. Chat sessions are "
+"stored on your Wordpress database only."
+msgstr ""
+
+#: modules/advanced_features.php:48
+msgid ""
+"Using your own Wordpress server as a chat relay may cause performance "
+"slowdowns to your website, especially on shared hosts. Due to HTTP long poll "
+"mechanism, messages and events could be slightly delayed."
+msgstr ""
+
+#: modules/advanced_features.php:54
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Chat server token"
+msgstr "Vestlus on aktiivne"
+
+#: modules/advanced_features.php:54
+msgid ""
+"Security token for accessing chats on the node server. Changing this will "
+"close your currently active chat sessions."
+msgstr ""
+
+#: modules/advanced_features.php:59 modules/api/public/wplc-api.php:84
+msgid "Generate New"
+msgstr ""
+
+#: modules/advanced_features.php:64
+msgid "Enable typing preview"
+msgstr ""
+
+#: modules/advanced_features.php:64
+msgid ""
+"This option enables the typing preview, which means agents will be able to "
+"see what the user is typing in realtime."
+msgstr ""
+
+#: modules/advanced_features.php:70
+msgid "Typing preview is not available when GDPR is enabled"
+msgstr ""
+
+#: modules/advanced_features.php:80
+#, fuzzy
+#| msgid "Total number of chats received"
+msgid "Number of chat rings"
+msgstr "Uus vestlus vastu võetud"
+
+#: modules/advanced_features.php:80
+msgid "Limit the amount of time the new chat ringer will play"
+msgstr ""
+
+#: modules/advanced_tools.php:40
+#, fuzzy
+#| msgid "Chat ID"
+msgid "Chat Data"
+msgstr "Vestluse ID"
+
+#: modules/advanced_tools.php:48
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Settings"
+msgstr "Vestluse akna seadistused"
+
+#: modules/advanced_tools.php:52
+#, fuzzy
+#| msgid "Main Settings"
+msgid "Export Settings"
+msgstr "Peamised seadistused"
+
+#: modules/advanced_tools.php:55 modules/advanced_tools.php:108
+#, fuzzy
+#| msgid "Main Settings"
+msgid "Import Settings"
+msgstr "Peamised seadistused"
+
+#: modules/advanced_tools.php:62 modules/node_server.php:876
+#: wp-live-chat-support.php:3964
+#, fuzzy
+#| msgid "View Chat History"
+msgid "Chat History"
+msgstr "Vaata vestluste ajalugu"
+
+#: modules/advanced_tools.php:66
+#, fuzzy
+#| msgid "View Chat History"
+msgid "Export History"
+msgstr "Vaata vestluste ajalugu"
+
+#: modules/advanced_tools.php:73
+#, fuzzy
+#| msgid "Status"
+msgid "Chat Ratings"
+msgstr "Olek"
+
+#: modules/advanced_tools.php:77
+#, fuzzy
+#| msgid "Experience Rating"
+msgid "Export Ratings"
+msgstr "Vestluse rahulolu reiting"
+
+#: modules/advanced_tools.php:88
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Export Offline Messages"
+msgstr "Offline sõnumid"
+
+#: modules/advanced_tools.php:116
+msgid "CSV File"
+msgstr ""
+
+#: modules/advanced_tools.php:127
+msgid "Please note: Import CSV must have been exported using the Export tool"
+msgstr ""
+
+#: modules/advanced_tools.php:135
+#, fuzzy
+#| msgid "Support"
+msgid "Import"
+msgstr "Tugi"
+
+#: modules/advanced_tools.php:135
+msgid "This cannot be undone"
+msgstr ""
+
+#: modules/advanced_tools.php:193
+msgid "Import Failed - Could Not Process File"
+msgstr ""
+
+#: modules/advanced_tools.php:207
+msgid "Import Failed - Could Not Find File"
+msgstr ""
+
+#: modules/advanced_tools.php:219
+#, fuzzy
+#| msgid "complete"
+msgid "Import Complete"
+msgstr "Täidetud"
+
+#: modules/advanced_tools.php:227
+#, fuzzy
+#| msgid "Your settings have been saved."
+msgid "Thank you, all settings have been updated"
+msgstr "Teie seadistused on salvestatud."
+
+#: modules/api/agent/wplc-api-functions.php:193
+#: modules/api/agent/wplc-api-functions.php:520
+#: modules/api/public/wplc-api-functions.php:156 modules/node_server.php:366
+#: modules/node_server.php:434
+#, fuzzy
+#| msgid "Actions"
+msgid "Action not set"
+msgstr "Tegevus"
+
+#: modules/api/agent/wplc-api-functions.php:375
+msgid "IP Address not recorded"
+msgstr "IP aadressi ei salvestatud"
+
+#: modules/api/agent/wplc-api-functions.php:1014
+#, fuzzy
+#| msgid "Upload Logo"
+msgid "Upload error"
+msgstr "Lae üles logo"
+
+#: modules/api/agent/wplc-api-functions.php:1017
+msgid "Security Violation - File unsafe"
+msgstr ""
+
+#: modules/api/public/wplc-api.php:47 modules/api/public/wplc-api.php:74
+msgid "REST API"
+msgstr ""
+
+#: modules/api/public/wplc-api.php:64
+msgid ""
+"To make use of the REST API, please ensure you are using a version of "
+"WordPress with the REST API included."
+msgstr ""
+
+#: modules/api/public/wplc-api.php:66
+msgid ""
+"Alternatively, please install the official Rest API plugin from WordPress."
+msgstr ""
+
+#: modules/api/public/wplc-api.php:79
+msgid "Secret Token"
+msgstr ""
+
+#: modules/api/public/wplc-api.php:82
+msgid "No secret token found"
+msgstr ""
+
+#: modules/cta_animations.php:19
+#, fuzzy
+#| msgid "No Animation"
+msgid "Call To Action Animation"
+msgstr "Animatsioon puudub"
+
+#: modules/gdpr.php:22
+msgid "Enable privacy controls"
+msgstr ""
+
+#: modules/gdpr.php:22
+msgid "Disabling will disable all GDPR related options, this is not advised."
+msgstr ""
+
+#: modules/gdpr.php:26
+msgid "Importance of GDPR Compliance"
+msgstr ""
+
+#: modules/gdpr.php:32
+msgid "Organization name"
+msgstr ""
+
+#: modules/gdpr.php:41
+msgid "Data retention purpose"
+msgstr ""
+
+#: modules/gdpr.php:44 modules/gdpr.php:345 wp-live-chat-support.php:401
+#, fuzzy
+#| msgid "Support"
+msgid "Chat/Support"
+msgstr "Tugi"
+
+#: modules/gdpr.php:50
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Data retention period"
+msgstr "Vestlus on aktiivne"
+
+#: modules/gdpr.php:53
+msgid "days"
+msgstr ""
+
+#: modules/gdpr.php:59
+#, fuzzy
+#| msgid "Active Chats"
+msgid "GDPR notice to visitors"
+msgstr "Aktiivsed vestlused"
+
+#: modules/gdpr.php:60
+msgid ""
+"Users will be asked to accept the notice shown here, in the form of a check "
+"box."
+msgstr ""
+
+#: modules/gdpr.php:90 modules/gdpr.php:101
+msgid "GDPR Control"
+msgstr ""
+
+#: modules/gdpr.php:103
+msgid ""
+"Search is performed on chat sessions, messages, and offline messages. Data "
+"will also be deleted automatically per your retention policy."
+msgstr ""
+
+#: modules/gdpr.php:112
+#, fuzzy
+#| msgid "Leave a message"
+msgid "Name, Email, Message"
+msgstr "Vestlus toimub offline'is. Jätke palun oma sõnum"
+
+#: modules/gdpr.php:116 modules/node_server.php:218
+#, fuzzy
+#| msgid "Search Term"
+msgid "Search"
+msgstr "Otsingutermin"
+
+#: modules/gdpr.php:129
+#, php-format
+msgid "Search Results in %%TABLE%%"
+msgstr ""
+
+#: modules/gdpr.php:157
+#, php-format
+msgid "Delete Chat (%%CID%%)"
+msgstr ""
+
+#: modules/gdpr.php:158
+#, fuzzy, php-format
+#| msgid "Download Chat History"
+msgid "Download Chat (%%CID%%)"
+msgstr "Lae alla vestluste ajalugu"
+
+#: modules/gdpr.php:162 wp-live-chat-support.php:4219
+#: wp-live-chat-support.php:4279
+msgid "Chat ID"
+msgstr "Vestluse ID"
+
+#: modules/gdpr.php:183
+msgid "Please perform a search using the input field above"
+msgstr ""
+
+#: modules/gdpr.php:257
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Data Deleted"
+msgstr "Vestlus on aktiivne"
+
+#: modules/gdpr.php:343
+#, php-format
+msgid ""
+"I agree for my personal data to be processed and for the use of cookies in "
+"order to engage in a chat processed by %%COMPANY%%, for the purpose of "
+"%%PURPOSE%%, for the time of %%PERIOD%% day(s) as per the GDPR."
+msgstr ""
+
+#: modules/gdpr.php:365 modules/gdpr.php:566 modules/gdpr.php:587
+msgid "Privacy Policy"
+msgstr ""
+
+#: modules/gdpr.php:366
+#, php-format
+msgid ""
+"We use WP Live Chat by 3CX as our live chat platform. By clicking below to "
+"submit this form, you acknowledge that the information you provide now and "
+"during the chat will be transferred to WP Live Chat by 3CX for processing in "
+"accordance with their %%POLICY_LINK%%."
+msgstr ""
+
+#: modules/gdpr.php:388
+#, php-format
+msgid ""
+"Please note as per the GDPR settings you have selected, all chat data will "
+"be retained for %%PERIOD%% day(s)."
+msgstr ""
+
+#: modules/gdpr.php:391
+#, php-format
+msgid ""
+"After this period of time, all chat data older than %%PERIOD%% day(s), will "
+"be permanently removed from your server."
+msgstr ""
+
+#: modules/gdpr.php:395
+msgid "GDPR - Data Retention"
+msgstr ""
+
+#: modules/gdpr.php:401 modules/gdpr.php:568
+#, fuzzy
+#| msgid "Main Settings"
+msgid "Privacy Settings"
+msgstr "Peamised seadistused"
+
+#: modules/gdpr.php:416
+msgid "Once every 6 hours"
+msgstr ""
+
+#: modules/gdpr.php:534
+#, fuzzy
+#| msgid "Chat ended"
+msgid "Chat Ended"
+msgstr "Vestlus on aktiivne"
+
+#: modules/gdpr.php:559
+msgid ""
+"GDPR compliance has been disabled, read more about the implications of this "
+"here"
+msgstr ""
+
+#: modules/gdpr.php:560
+#, fuzzy
+#| msgid " with the Pro add-on of WP Live Chat Support"
+msgid "Additionally please take a look at WP Live Chat by 3CX"
+msgstr "Koos WP Live Chat Support Pro lisaga, sa saad"
+
+#: modules/gdpr.php:561
+msgid ""
+"It is highly recommended that you enable GDPR compliance to ensure your user "
+"data is regulated."
+msgstr ""
+
+#: modules/gdpr.php:564
+msgid "Warning - GDPR Compliance Disabled - Action Required"
+msgstr ""
+
+#: modules/gdpr.php:565
+msgid "EU GDPR"
+msgstr ""
+
+#: modules/gdpr.php:569
+msgid "Dismiss & Accept Responsibility"
+msgstr ""
+
+#: modules/gdpr.php:586
+#, php-format
+msgid "Please refer to our %%PRIVACY_LINK%% for information on Data Processing"
+msgstr ""
+
+#: modules/gdpr.php:634
+msgid "GDPR Compliance Enabled - Server Selection Limited to EU"
+msgstr ""
+
+#: modules/gdpr.php:666
+msgid "Pro data will also be removed as a part of this automatic process."
+msgstr ""
+
+#: modules/google_analytics.php:17
+msgid "Google Analytics Integration"
+msgstr ""
+
+#: modules/google_analytics.php:22
+msgid "Enable Google Analytics Integration"
+msgstr ""
+
+#: modules/node_server.php:45
+msgid "Toggle user list"
+msgstr ""
+
+#: modules/node_server.php:46
+msgid "Toggle WordPress Menu for a full screen experience"
+msgstr ""
+
+#: modules/node_server.php:78 modules/node_server.php:182
+#: modules/node_server.php:874 modules/node_server.php:892
+#, fuzzy
+#| msgid "Active Chats"
+msgid "Active visitors"
+msgstr "Aktiivsed vestlused"
+
+#: modules/node_server.php:100 wp-live-chat-support.php:1864
+#, fuzzy
+#| msgid "Minimize Chat Window"
+msgid "Minimize Chat"
+msgstr "Minimiseeri vestluse aken"
+
+#: modules/node_server.php:109 modules/node_server.php:879
+#, fuzzy
+#| msgid "Chat Agent"
+msgid "Invite Agent"
+msgstr "Vestluse Agent"
+
+#: modules/node_server.php:110 modules/node_server.php:880
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Invite Department"
+msgstr "Vestlus on aktiivne"
+
+#: modules/node_server.php:111 modules/node_server.php:881
+#: modules/node_server.php:885 wp-live-chat-support.php:4021
+msgid "Direct User To Page"
+msgstr ""
+
+#: modules/node_server.php:113
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Transcript"
+msgstr "Vestluse akna seadistused"
+
+#: modules/node_server.php:114 modules/node_server.php:882
+#, fuzzy
+#| msgid "Start live chat"
+msgid "Leave chat"
+msgstr "Alusta reaalaja vestlust"
+
+#: modules/node_server.php:115 modules/node_server.php:883
+#: wp-live-chat-support.php:2582
+msgid "End chat"
+msgstr "Peata vestlus"
+
+#: modules/node_server.php:126
+msgid "Something"
+msgstr ""
+
+#: modules/node_server.php:137 modules/node_server.php:887
+#, fuzzy
+#| msgid "End chat"
+msgid "Join chat"
+msgstr "Peata vestlus"
+
+#: modules/node_server.php:138
+#, fuzzy
+#| msgid "type here..."
+msgid "Type here..."
+msgstr "sisesta siia..."
+
+#: modules/node_server.php:139
+msgid "bold"
+msgstr ""
+
+#: modules/node_server.php:139
+msgid "italics"
+msgstr ""
+
+#: modules/node_server.php:139
+msgid "code"
+msgstr ""
+
+#: modules/node_server.php:139
+msgid "preformatted"
+msgstr ""
+
+#: modules/node_server.php:159
+msgid "Filter the user list based on activity."
+msgstr ""
+
+#: modules/node_server.php:164 modules/node_server.php:889
+#, fuzzy
+#| msgid "Visitors online"
+msgid "New Visitors (3 Min)"
+msgstr "Külastajaid lehel"
+
+#: modules/node_server.php:165 modules/node_server.php:890
+msgid "Active Chats"
+msgstr "Aktiivsed vestlused"
+
+#: modules/node_server.php:166
+msgid "Page URL"
+msgstr ""
+
+#: modules/node_server.php:167 modules/node_server.php:891
+msgid "Clear Filters"
+msgstr ""
+
+#: modules/node_server.php:178
+#, fuzzy
+#| msgid "Contact us"
+msgid "Contains"
+msgstr "Võta meiega ühendust"
+
+#: modules/node_server.php:185 modules/node_server.php:893
+#: wp-live-chat-support.php:2372
+msgid "Visitor"
+msgstr "Külastaja"
+
+#: modules/node_server.php:186 modules/node_server.php:894
+#, fuzzy
+#| msgid "Site Info"
+msgid "Info"
+msgstr "Lehekülje info"
+
+#: modules/node_server.php:188 modules/node_server.php:896
+#, fuzzy
+#| msgid "Status"
+msgid "Chat Status"
+msgstr "Olek"
+
+#: modules/node_server.php:219 modules/node_server.php:898
+#, fuzzy
+#| msgid "Search Term"
+msgid "Search Results"
+msgstr "Otsingutermin"
+
+#: modules/node_server.php:221 modules/node_server.php:899
+msgid "No emoji found"
+msgstr ""
+
+#: modules/node_server.php:352 modules/node_server.php:360
+#: modules/node_server.php:420 modules/node_server.php:428
+msgid "Success"
+msgstr ""
+
+#: modules/node_server.php:363 modules/node_server.php:431
+msgid "Message data is corrupt"
+msgstr ""
+
+#: modules/node_server.php:369 modules/node_server.php:437
+msgid "Message data array not set"
+msgstr ""
+
+#: modules/node_server.php:372 modules/node_server.php:440
+#, fuzzy
+#| msgid "Chat with us"
+msgid "Chat ID is not set"
+msgstr "Vestelge meiega"
+
+#: modules/node_server.php:376 modules/node_server.php:444
+#, fuzzy
+#| msgid "No Quick Responses found"
+msgid "No security nonce found"
+msgstr "Kiirvastuseid ei leitud"
+
+#: modules/node_server.php:460
+#, fuzzy
+#| msgid "Error Log"
+msgid "Error"
+msgstr "Veateadete logi"
+
+#: modules/node_server.php:460
+#, fuzzy
+#| msgid "Only chat agents can accept chats"
+msgid "Only chat agents can access this page."
+msgstr "Hetkel on vestlused väljalülitatud"
+
+#: modules/node_server.php:594 wp-live-chat-support.php:4675
+#, fuzzy
+#| msgid "Sending message..."
+msgid "Sending transcript..."
+msgstr "Saadan sõnumit..."
+
+#: modules/node_server.php:595
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Transcript"
+msgstr "Vestluse akna seadistused"
+
+#: modules/node_server.php:597 wp-live-chat-support.php:4678
+#, fuzzy
+#| msgid "The chat has been ended"
+msgid "The chat transcript has been emailed."
+msgstr "Vestlus on lõppenud"
+
+#: modules/node_server.php:598 wp-live-chat-support.php:4679
+msgid "There was a problem emailing the chat."
+msgstr ""
+
+#: modules/node_server.php:612
+msgid "Connection Error"
+msgstr ""
+
+#: modules/node_server.php:613
+msgid ""
+"We are having some trouble contacting the server. Please try again later."
+msgstr ""
+
+#: modules/node_server.php:651
+msgid "Chat is disabled in settings area, re-enable"
+msgstr ""
+
+#: modules/node_server.php:678
+msgid "User received notification:"
+msgstr ""
+
+#: modules/node_server.php:684 wp-live-chat-support.php:2191
+msgid "New chat received"
+msgstr "Uus vestlus vastu võetud"
+
+#: modules/node_server.php:685 wp-live-chat-support.php:2193
+msgid ""
+"A new chat has been received. Please go the 'Live Chat' page to accept the "
+"chat"
+msgstr ""
+"Uus vestlus vastu võetud. Palun minge lehele 'Live Chat' ja kinnitage selle "
+"vastuvõtt."
+
+#: modules/node_server.php:797
+#, fuzzy
+#| msgid "Via WP Live Chat Support"
+msgid "Welcome to V8 of WP Live Chat by 3CX"
+msgstr "Läbi WP Live Chat Support-i"
+
+#: modules/node_server.php:798
+msgid ""
+"Did you know, this version features high speed message delivery, agent to "
+"agent chat, and a single window layout?"
+msgstr ""
+
+#: modules/node_server.php:799
+msgid ""
+"To activate this functionality please navigate to Live Chat -> Settings -> "
+"Advanced Features -> And enable 3CX High Performance Chat Cloud Servers."
+msgstr ""
+
+#: modules/node_server.php:802
+msgid "Show me!"
+msgstr ""
+
+#: modules/node_server.php:803 wp-live-chat-support.php:4646
+msgid "Don't Show This Again"
+msgstr ""
+
+#: modules/node_server.php:870 wp-live-chat-support.php:428
+msgid "Connecting..."
+msgstr ""
+
+#: modules/node_server.php:875
+#, fuzzy
+#| msgid "Agent(s) online"
+msgid "Agent(s) Online"
+msgstr "Agente võrgus:"
+
+#: modules/node_server.php:886
+#, fuzzy
+#| msgid "Agents"
+msgid "Events"
+msgstr "Agente"
+
+#: modules/node_server.php:888
+msgid "Filters"
+msgstr ""
+
+#: modules/node_server.php:974
+msgid ""
+"You can transfer chats from within a chat by clicking on the in chat menu, "
+"and selecting Transfer Chat or Transfer Department"
+msgstr ""
+
+#: modules/node_server.php:975
+msgid ""
+"You can share files quickly when in a chat, by simply dragging a file into "
+"the chat window!"
+msgstr ""
+
+#: modules/node_server.php:976
+msgid "You can now move between chats without ending/closing an open chat"
+msgstr ""
+
+#: modules/node_server.php:1031
+#, fuzzy
+#| msgid "No Quick Responses found"
+msgid "No quick responses found"
+msgstr "Kiirvastuseid ei leitud"
+
+#: modules/privacy.php:20 modules/privacy.php:34
+msgid "Privacy"
+msgstr ""
+
+#: modules/webhooks_manager.php:12
+#, fuzzy
+#| msgid "Agent(s) online"
+msgid "Agent Login"
+msgstr "Agente võrgus:"
+
+#: modules/webhooks_manager.php:13
+#, fuzzy
+#| msgid "Visitor"
+msgid "New Visitor"
+msgstr "Külastaja"
+
+#: modules/webhooks_manager.php:14
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Chat Request"
+msgstr "Vestlus on aktiivne"
+
+#: modules/webhooks_manager.php:15
+msgid "Agent Accept"
+msgstr ""
+
+#: modules/webhooks_manager.php:16
+#, fuzzy
+#| msgid "Settings"
+msgid "Settings Changed"
+msgstr "Seaded"
+
+#: modules/webhooks_manager.php:49
+msgid "Webhooks"
+msgstr ""
+
+#: modules/webhooks_manager.php:63 wp-live-chat-support.php:3950
+msgid "Web Hooks"
+msgstr ""
+
+#: modules/webhooks_manager.php:85
+msgid "Webhook created"
+msgstr ""
+
+#: modules/webhooks_manager.php:87
+msgid "Webhook could not be created"
+msgstr ""
+
+#: modules/webhooks_manager.php:94
+msgid "Webhook edited"
+msgstr ""
+
+#: modules/webhooks_manager.php:96
+msgid "Webhook could not be edited"
+msgstr ""
+
+#: modules/webhooks_manager.php:108
+#, fuzzy
+#| msgid "deleted"
+msgid "Webhook deleted"
+msgstr "Kustutatud"
+
+#: modules/webhooks_manager.php:110
+msgid "Webhook could not be delete"
+msgstr ""
+
+#: modules/webhooks_manager.php:248 modules/webhooks_manager.php:301
+msgid "Event"
+msgstr ""
+
+#: modules/webhooks_manager.php:249 modules/webhooks_manager.php:306
+msgid "Target URL"
+msgstr ""
+
+#: modules/webhooks_manager.php:250 modules/webhooks_manager.php:311
+#, fuzzy
+#| msgid "Sending Method"
+msgid "Method"
+msgstr "Saatmise meetod"
+
+#: modules/webhooks_manager.php:271
+msgid "No Webhooks"
+msgstr ""
+
+#: modules/webhooks_manager.php:314
+msgid "GET"
+msgstr ""
+
+#: modules/webhooks_manager.php:315
+msgid "POST"
+msgstr ""
+
+#: modules/webhooks_manager.php:321
+#, fuzzy
+#| msgid "Save Settings"
+msgid "Save Changes"
+msgstr "Salvesta seadistused"
+
+#: modules/webhooks_manager.php:337
+msgid "Are you sure you want to delete this webhook?"
+msgstr ""
+
+#: wp-live-chat-support.php:372
+msgid "close"
+msgstr ""
+
+#: wp-live-chat-support.php:392
+#, fuzzy
+#| msgid "Via WP Live Chat Support"
+msgid "Thank you for chatting with us."
+msgstr "Läbi WP Live Chat Support-i"
+
+#: wp-live-chat-support.php:417 wp-live-chat-support.php:1932
+msgid "Questions?"
+msgstr "Küsimusi?"
+
+#: wp-live-chat-support.php:418 wp-live-chat-support.php:1933
+msgid "Chat with us"
+msgstr "Vestelge meiega"
+
+#: wp-live-chat-support.php:419
+msgid "Start live chat"
+msgstr "Alusta reaalaja vestlust"
+
+#: wp-live-chat-support.php:420
+msgid "Complete the fields below to proceed."
+msgstr ""
+
+#: wp-live-chat-support.php:421
+msgid "Chat offline. Leave a message"
+msgstr "Vestlus toimub offline'is. Jätke palun oma sõnum"
+
+#: wp-live-chat-support.php:422
+msgid ""
+"We are currently offline. Please leave a message and we'll get back to you "
+"shortly."
+msgstr ""
+"Oleme hetkel võrgust väljas. Palun jätke sõnum ja võtame Teiega peatselt "
+"ühendust"
+
+#: wp-live-chat-support.php:423
+msgid "Sending message..."
+msgstr "Saadan sõnumit..."
+
+#: wp-live-chat-support.php:424
+msgid "Thank you for your message. We will be in contact soon."
+msgstr "Täname sõnumi eest. Kontakteerume Teiega peatselt."
+
+#: wp-live-chat-support.php:425
+msgid "Leave a message"
+msgstr "Vestlus toimub offline'is. Jätke palun oma sõnum"
+
+#: wp-live-chat-support.php:426
+msgid "Send message"
+msgstr "Saada sõnum"
+
+#: wp-live-chat-support.php:427
+msgid "Start Chat"
+msgstr "Alusta vestlust"
+
+#: wp-live-chat-support.php:429 wp-live-chat-support.php:2073
+#: wp-live-chat-support.php:2120
+msgid "Reactivating your previous chat..."
+msgstr "Taastame Teie viimatist vestlust"
+
+#: wp-live-chat-support.php:459
+msgid "Please click 'Start Chat' to initiate a chat with an agent"
+msgstr "Palun vajutage \"Alusta vestlust\", et meiega vestelda."
+
+#: wp-live-chat-support.php:462
+#, fuzzy
+#| msgid "There is No Answer. Please Try Again Later"
+msgid "No answer. Try again later."
+msgstr "Vastust ei tulnud. Palun proovige hiljem uuesti."
+
+#: wp-live-chat-support.php:463
+msgid "Welcome. How may I help you?"
+msgstr "Tere! Kuidas saan Teid aidata?"
+
+#: wp-live-chat-support.php:467
+msgid "Please standby for an agent. Send your message while you wait."
+msgstr ""
+
+#: wp-live-chat-support.php:698
+msgid ""
+"The additional WP Live Chat Support PRO plugin which you have installed is "
+"no longer needed, please uninstall it."
+msgstr ""
+
+#: wp-live-chat-support.php:989 wp-live-chat-support.php:3447
+msgid "Missed Chats"
+msgstr "Vastamata vestlused"
+
+#: wp-live-chat-support.php:997 wp-live-chat-support.php:3939
+msgid "Support"
+msgstr "Tugi"
+
+#: wp-live-chat-support.php:1199
+#, fuzzy
+#| msgid "Leave a message"
+msgid "Please Enter Your Name"
+msgstr "Vestlus toimub offline'is. Jätke palun oma sõnum"
+
+#: wp-live-chat-support.php:1200
+#, fuzzy
+#| msgid "Leave a message"
+msgid "Please Enter Your Email Address"
+msgstr "Vestlus toimub offline'is. Jätke palun oma sõnum"
+
+#: wp-live-chat-support.php:1201
+msgid "Connection to Server Lost. Please Reload This Page. Error:"
+msgstr ""
+
+#: wp-live-chat-support.php:1203
+#, fuzzy
+#| msgid "Leave a message"
+msgid "Please Enter a Message"
+msgstr "Vestlus toimub offline'is. Jätke palun oma sõnum"
+
+#: wp-live-chat-support.php:1204
+msgid "Disconnected, Attempting to Reconnect..."
+msgstr ""
+
+#: wp-live-chat-support.php:1251
+#, fuzzy
+#| msgid "User has opened the chat window"
+msgid "has joined."
+msgstr "Kasutaja on avanud vestluse akna"
+
+#: wp-live-chat-support.php:1252
+msgid "has left."
+msgstr ""
+
+#: wp-live-chat-support.php:1253
+#, fuzzy
+#| msgid "User has opened the chat window"
+msgid "has ended the chat."
+msgstr "Kasutaja on avanud vestluse akna"
+
+#: wp-live-chat-support.php:1254
+msgid "has disconnected."
+msgstr ""
+
+#: wp-live-chat-support.php:1255
+msgid "(edited)"
+msgstr ""
+
+#: wp-live-chat-support.php:1646 wp-live-chat-support.php:1665
+msgid "Start chat"
+msgstr "Alusta vestlust"
+
+#: wp-live-chat-support.php:1911 wp-live-chat-support.php:2653
+msgid "Send"
+msgstr "Saada"
+
+#: wp-live-chat-support.php:2293
+msgid "Congratulations"
+msgstr "Palju õnne"
+
+#: wp-live-chat-support.php:2294
+msgid "You are now accepting live chat requests on your site."
+msgstr "Te nüüdsest võtate vastu Live vestlusi."
+
+#: wp-live-chat-support.php:2295
+#, fuzzy
+#| msgid "The live chat box has automatically been enabled on your website."
+msgid "The live chat box has automatically been enabled."
+msgstr "Live vestlus on automaatselt Teie lehel aktiveeritud. "
+
+#: wp-live-chat-support.php:2296
+msgid "Chat notifications will start appearing once visitors send a request."
+msgstr ""
+"Vestluse teavitused hakkavad ilmuma hetkest kui külastajad saadavad päringu."
+
+#: wp-live-chat-support.php:2297
+#, php-format
+msgid "You may modify your chat box settings %s"
+msgstr ""
+
+#: wp-live-chat-support.php:2298
+msgid "Experiencing issues?"
+msgstr "Esineb tõrkeid?"
+
+#: wp-live-chat-support.php:2298
+msgid "Take a look at our how-to guides."
+msgstr ""
+
+#: wp-live-chat-support.php:2299
+msgid "Hide"
+msgstr "Peida"
+
+#: wp-live-chat-support.php:2352
+msgid "Keep this window open to get notified of new chats."
+msgstr ""
+
+#: wp-live-chat-support.php:2358
+#, fuzzy
+#| msgid "Visitors online"
+msgid "Visitor(s) online"
+msgstr "Külastajaid lehel"
+
+#: wp-live-chat-support.php:2375
+msgid "Device"
+msgstr ""
+
+#: wp-live-chat-support.php:2376
+msgid "Data"
+msgstr "Andmed"
+
+#: wp-live-chat-support.php:2409
+msgid "Chat Dashboard"
+msgstr "Vestluse töölaud"
+
+#: wp-live-chat-support.php:2412
+msgid "Oh no!"
+msgstr ""
+
+#: wp-live-chat-support.php:2414
+#, fuzzy, php-format
+#| msgid "Only chat agents can accept chats"
+msgid "You do not have access to this page as %s."
+msgstr "Hetkel on vestlused väljalülitatud"
+
+#: wp-live-chat-support.php:2414
+#, fuzzy
+#| msgid "Make this user a chat agent"
+msgid "you are not a chat agent"
+msgstr "Tee sellest kasutajat vestluse agent"
+
+#: wp-live-chat-support.php:2568
+msgid "Previous"
+msgstr "Eelmine"
+
+#: wp-live-chat-support.php:2575
+msgid "Chat with"
+msgstr "Ava veslus"
+
+#: wp-live-chat-support.php:2592
+msgid "Starting Time:"
+msgstr ""
+
+#: wp-live-chat-support.php:2593
+msgid "Ending Time:"
+msgstr ""
+
+#: wp-live-chat-support.php:2613
+msgid "Chat initiated on:"
+msgstr "Vestlus alustati:"
+
+#: wp-live-chat-support.php:2614
+msgid "Browser:"
+msgstr "Brauser:"
+
+#: wp-live-chat-support.php:2640 wp-live-chat-support.php:2679
+#, fuzzy
+#| msgid "Chat ID"
+msgid "Invalid Chat ID"
+msgstr "Vestluse ID"
+
+#: wp-live-chat-support.php:2648
+msgid "type here..."
+msgstr "sisesta siia..."
+
+#: wp-live-chat-support.php:2806
+msgid "User has opened the chat window"
+msgstr "Kasutaja on avanud vestluse akna"
+
+#: wp-live-chat-support.php:2807
+msgid "User has minimized the chat window"
+msgstr "Kasutaja on minimiseerinud vestluse akna"
+
+#: wp-live-chat-support.php:2808
+msgid "User has maximized the chat window"
+msgstr "Kasutaja on teinud aktiivseks vestluse akna"
+
+#: wp-live-chat-support.php:2809
+msgid "The chat has been ended"
+msgstr "Vestlus on lõppenud"
+
+#: wp-live-chat-support.php:3350
+msgid "Delete History"
+msgstr "Kustuta ajalugu"
+
+#: wp-live-chat-support.php:3367
+msgid "No chats available at the moment"
+msgstr "Hetkel ei ole vestlusi saadaval"
+
+#: wp-live-chat-support.php:3487
+msgid "Actions"
+msgstr "Tegevus"
+
+#: wp-live-chat-support.php:3501
+msgid "You have not received any offline messages."
+msgstr "Sul ei ole offline-is jäetud sõnumeid."
+
+#: wp-live-chat-support.php:3509
+msgid "Delete Message"
+msgstr "Offline sõnumid"
+
+#: wp-live-chat-support.php:3618
+msgid "You do not have permission to save settings."
+msgstr ""
+
+#: wp-live-chat-support.php:3884
+msgid "Your settings have been saved."
+msgstr "Teie seadistused on salvestatud."
+
+#: wp-live-chat-support.php:3913
+#, fuzzy
+#| msgid ""
+#| "WPLC: set_time_limit() is not enabled on this server. You may experience "
+#| "issues while using WP Live Chat Support as a result of this. Please get "
+#| "in contact your host to get this function enabled."
+msgid ""
+"WPLC: set_time_limit() is not enabled on this server. You may experience "
+"issues while using WP Live Chat by 3CX as a result of this. Please get in "
+"contact your host to get this function enabled."
+msgstr ""
+"WPLC: set_time_limit() pole selles serveris lubatud. Kasutades WP Live Chat "
+"Support, võivad ilmneda probleemid. Palun võta meiega ühendust teie Host-"
+"võõrustajada, et saada see funktsioon aktiivseks."
+
+#: wp-live-chat-support.php:3919
+#, fuzzy
+#| msgid ""
+#| "WPLC: Safe mode is enabled on this server. You may experience issues "
+#| "while using WP Live Chat Support as a result of this. Please contact your "
+#| "host to get safe mode disabled."
+msgid ""
+"WPLC: Safe mode is enabled on this server. You may experience issues while "
+"using WP Live Chat by 3CX as a result of this. Please contact your host to "
+"get safe mode disabled."
+msgstr ""
+"WPLC: Safe mode on selles serveris lubatud. Kasutades WP Live Chat Support "
+"kasutamisest tulenevalt võivad ilmneda probleemid. Võtke ühendust oma host-"
+"võõrustajada, et saada turvarežiim välja lülitatud."
+
+#: wp-live-chat-support.php:3942 wp-live-chat-support.php:3946
+#, fuzzy
+#| msgid "Advanced settings"
+msgid "Plugin Features"
+msgstr "Täpsem info"
+
+#: wp-live-chat-support.php:3944
+msgid ""
+"Check out these features and get up to speed with what you can do with WP "
+"Live Chat:"
+msgstr ""
+
+#: wp-live-chat-support.php:3947
+msgid "Reporting"
+msgstr ""
+
+#: wp-live-chat-support.php:3948
+msgid "Localization"
+msgstr ""
+
+#: wp-live-chat-support.php:3956
+#, fuzzy
+#| msgid "Chat Agents"
+msgid "Chat FAQs"
+msgstr "Vestluse agendid"
+
+#: wp-live-chat-support.php:3958
+msgid ""
+"Learn quickly the ins and outs of Chat and start chatting with visitors and "
+"agents:"
+msgstr ""
+
+#: wp-live-chat-support.php:3960
+#, fuzzy
+#| msgid "Chat with us"
+msgid "Chat with Visitors"
+msgstr "Vestelge meiega"
+
+#: wp-live-chat-support.php:3961
+#, fuzzy
+#| msgid "Chat Agents"
+msgid "Chat with Agents"
+msgstr "Vestluse agendid"
+
+#: wp-live-chat-support.php:3965
+#, fuzzy
+#| msgid "Chat Agents"
+msgid "Chat Invites"
+msgstr "Vestluse agendid"
+
+#: wp-live-chat-support.php:3970
+#, fuzzy
+#| msgid "Settings"
+msgid "Settings & Customization"
+msgstr "Seaded"
+
+#: wp-live-chat-support.php:3972
+msgid "Use these guides to learn how to configure and customize WP Live Chat:"
+msgstr ""
+
+#: wp-live-chat-support.php:3976
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Agent Settings"
+msgstr "Vestluse akna seadistused"
+
+#: wp-live-chat-support.php:3983
+msgid "Troubleshooting"
+msgstr "Veahaldus"
+
+#: wp-live-chat-support.php:3985
+msgid ""
+"Reference these troubleshooting guides to quickly resolve any WP Live Chat "
+"issues:"
+msgstr ""
+
+#: wp-live-chat-support.php:3987
+msgid "My Chat Box Is Not Showing"
+msgstr ""
+
+#: wp-live-chat-support.php:3988
+#, fuzzy
+#| msgid "I'm not getting any notifications of a new chat"
+msgid "Not Receiving Notifications of New Chats"
+msgstr "Ma ei saa kätte teavitusi, et mul on uus vestlus"
+
+#: wp-live-chat-support.php:3989
+#, fuzzy
+#| msgid "How do I check for JavaScript errors on my site?"
+msgid "Check for JavaScript Errors"
+msgstr "Kuidas ma kontrollin Javascripti erroreid oma saidil?"
+
+#: wp-live-chat-support.php:4017
+msgid "Initiate Chats"
+msgstr "Alustage vestlusi"
+
+#: wp-live-chat-support.php:4018
+msgid "Multiple Chats"
+msgstr "Mitmed vestlused"
+
+#: wp-live-chat-support.php:4019
+msgid "Add unlimited agents"
+msgstr "Lisada lõpmatult uusi agente"
+
+#: wp-live-chat-support.php:4020
+#, fuzzy
+#| msgid "Total Chats"
+msgid "Transfer Chats"
+msgstr "Alusta vestlust"
+
+#: wp-live-chat-support.php:4039
+#, fuzzy, php-format
+#| msgid "Via WP Live Chat Support"
+msgid "Thank you for using %s! Please %s on %s"
+msgstr "Läbi WP Live Chat Support-i"
+
+#: wp-live-chat-support.php:4039
+msgid "rate us"
+msgstr ""
+
+#: wp-live-chat-support.php:4220 wp-live-chat-support.php:4280
+msgid "From"
+msgstr "Kellelt"
+
+#: wp-live-chat-support.php:4222 wp-live-chat-support.php:4282
+msgid "Timestamp"
+msgstr "Ajatempel"
+
+#: wp-live-chat-support.php:4223 wp-live-chat-support.php:4283
+msgid "Origin"
+msgstr "Päritolu"
+
+#: wp-live-chat-support.php:4228 wp-live-chat-support.php:4288
+msgid "user"
+msgstr "kasutaja"
+
+#: wp-live-chat-support.php:4230 wp-live-chat-support.php:4290
+msgid "agent"
+msgstr "agent"
+
+#: wp-live-chat-support.php:4385
+msgid "Advanced settings"
+msgstr "Täpsem info"
+
+#: wp-live-chat-support.php:4392
+msgid "Only change these settings if you are experiencing performance issues."
+msgstr ""
+
+#: wp-live-chat-support.php:4399
+msgid "Website hosting type:"
+msgstr ""
+
+#: wp-live-chat-support.php:4403
+#, fuzzy
+#| msgid "Choose a theme"
+msgid "Custom parameters"
+msgstr "Valige teema"
+
+#: wp-live-chat-support.php:4404
+msgid "Shared hosting - low level plan"
+msgstr ""
+
+#: wp-live-chat-support.php:4405
+msgid "Shared hosting - normal plan"
+msgstr ""
+
+#: wp-live-chat-support.php:4406
+msgid "VPS"
+msgstr ""
+
+#: wp-live-chat-support.php:4407
+msgid "Dedicated server"
+msgstr ""
+
+#: wp-live-chat-support.php:4413
+msgid "Long poll setup"
+msgstr ""
+
+#: wp-live-chat-support.php:4413
+msgid ""
+"Only change these if you are an experienced developer or if you have "
+"received these figures from the WP Live Chat by 3CX team."
+msgstr ""
+
+#: wp-live-chat-support.php:4418
+msgid "Iterations"
+msgstr "Küsimusi?"
+
+#: wp-live-chat-support.php:4422
+msgid "Sleep between loops"
+msgstr ""
+
+#: wp-live-chat-support.php:4425
+msgid "milliseconds"
+msgstr ""
+
+#: wp-live-chat-support.php:4448
+#, fuzzy
+#| msgid "Powered By WP Live Chat Support"
+msgid "Show 'Powered by' in chat box"
+msgstr "WP Live Chat Tugi"
+
+#: wp-live-chat-support.php:4448
+msgid ""
+"Checking this will display a 'Powered by WP Live Chat by 3CX' caption at the "
+"bottom of your chatbox."
+msgstr ""
+
+#: wp-live-chat-support.php:4490
+#, fuzzy
+#| msgid "Powered By WP Live Chat Support"
+msgid "Powered by WP Live Chat by 3CX"
+msgstr "WP Live Chat Tugi"
+
+#: wp-live-chat-support.php:4644
+msgid ""
+"Browser notifications will no longer function on insecure (non-SSL) sites."
+msgstr ""
+
+#: wp-live-chat-support.php:4645
+msgid ""
+"Please add an SSL certificate to your site to continue receiving chat "
+"notifications in your browser."
+msgstr ""
+
+#: wp-live-chat-support.php:4658
+msgid ""
+"Please deactivate WP Live Chat Suport - Email Transcript plugin. Since WP "
+"Live Chat Support 8.0.05 there is build in support for Email Transcript."
+msgstr ""
+
+#: wp-live-chat-support.php:4665
+msgid "Email transcript to user"
+msgstr ""
+
+#: wp-live-chat-support.php:4676
+msgid "Sending Transcript"
+msgstr ""
+
+#: wp-live-chat-support.php:4750
+#, php-format
+msgid "Your chat transcript from %1$s"
+msgstr ""
+
+#: wp-live-chat-support.php:4841
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Transcript Settings"
+msgstr "Vestluse akna seadistused"
+
+#: wp-live-chat-support.php:4844
+msgid "Enable chat transcripts:"
+msgstr ""
+
+#: wp-live-chat-support.php:4852
+msgid "Send transcripts to:"
+msgstr ""
+
+#: wp-live-chat-support.php:4859
+#, fuzzy
+#| msgid "Username"
+msgid "User"
+msgstr "Kasutajanimi"
+
+#: wp-live-chat-support.php:4870
+msgid "Send transcripts when chat ends:"
+msgstr ""
+
+#: wp-live-chat-support.php:4878
+#, fuzzy
+#| msgid "Email"
+msgid "Email body"
+msgstr "E-post"
+
+#: wp-live-chat-support.php:4888
+#, fuzzy
+#| msgid "Email Address"
+msgid "Email header"
+msgstr "E-posti aadress"
+
+#: wp-live-chat-support.php:4897
+msgid "Email footer"
+msgstr ""
+
+#: wp-live-chat-support.php:4973
+msgid ""
+"Please note, local message encryption and local server options will be "
+"deprecated in the next major release. All encryption and message delivery "
+"will handled by our external servers in future."
+msgstr ""
+
+#: wp-live-chat-support.php:4976
+msgid "Deprecation Notice - Message Encryption & Local Server"
+msgstr ""
+
+#: wp-live-chat-support.php:4978
+msgid "Dismiss"
+msgstr ""
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Triggers"
+#~ msgid "WP Live Chat Trigger"
+#~ msgstr "WP Live Chat Support Seadistused"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "WP Live Chat Box"
+#~ msgstr "WP Live Chat Tugi"
+
+#, fuzzy
+#~| msgid "The chat window never goes offline"
+#~ msgid "The Chat Box Never Goes Offline"
+#~ msgstr "Vestluse aken ei lähe kunagi võrgust välja"
+
+#, fuzzy
+#~| msgid "This chat has already been answered by another agent."
+#~ msgid "Chat Has Already Been Answered"
+#~ msgstr "Sellele vestlusele on juba teise agendi poolt vastatud."
+
+#~ msgid "Whois for"
+#~ msgstr "Whois päring"
+
+#, fuzzy
+#~| msgid "requesting chat"
+#~ msgid "Request new chat"
+#~ msgstr "ootab vestluse alustamist"
+
+#~ msgid "Experience Rating"
+#~ msgstr "Vestluse rahulolu reiting"
+
+#, fuzzy
+#~| msgid "initiate chats"
+#~ msgid "Disable initiate chat:"
+#~ msgstr "alustage vestlusi"
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid "Active Visitor(s)"
+#~ msgstr "Aktiivsed vestlused"
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid "Active Agent(s)."
+#~ msgstr "Aktiivsed vestlused"
+
+#~ msgid "Enable On Mobile Devices"
+#~ msgstr "Aktiveeri mobiilsed seadmed"
+
+#~ msgid ""
+#~ "Disabling this will mean that the Chat Box will not be displayed on "
+#~ "mobile devices. (Smartphones and Tablets)"
+#~ msgstr ""
+#~ "Selle valiku välja lülitamisel ei kuvata Vestluse akent mobiilsetel "
+#~ "seadmetel. (Nutitelefonid ja tahvelarvutid)"
+
+#, fuzzy
+#~| msgid "Recomended Size 250px x 40px"
+#~ msgid "Recomended Size 50px x 50px"
+#~ msgstr "Soovitatud Suurus 250px x 40px"
+
+#~ msgid "Recomended Size 250px x 40px"
+#~ msgstr "Soovitatud Suurus 250px x 40px"
+
+#~ msgid "How long it takes for your chat window to pop up"
+#~ msgstr "Kui kaua võtab aega, et vestluse aken nähtavale ilmub"
+
+#, fuzzy
+#~| msgid "Theme 1"
+#~ msgid "Theme"
+#~ msgstr "Teema 1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Please note: Chat messages will only be encrypted and decreypted if you "
+#~| "have inserted your WP Live Chat Support Pro API Key on the <a href="
+#~| "\"admin.php?page=wplivechat-menu-api-keys-page\">API Keys page</a>."
+#~ msgid ""
+#~ "Please note: Chat messages will only be encrypted and decrypted if you "
+#~ "have inserted your WP Live Chat by 3CX API Key with a previous version of "
+#~ "our Pro add-on as this key was required."
+#~ msgstr ""
+#~ "Teavitus: Vestluste sõnumid krüpteeritakse ja dekrüpteeritakse juhul kui "
+#~ "olete sisestanud WP Live Chat Support- krüpteerimise API võtme <a href="
+#~ "\"admin.php?page=wplivechat-menu-api-keys-page\">API Keys lehel</a>."
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid "Active survey"
+#~ msgstr "Aktiivsed vestlused"
+
+#~ msgid "After chat"
+#~ msgstr "Alusta vestlust"
+
+#~ msgid "Add a Survey to your live chat box"
+#~ msgstr "Lisa Kiirvastuseid Live vestlusele"
+
+#, fuzzy
+#~| msgid "Your Website"
+#~ msgid "Website URL"
+#~ msgstr "Teie veebileht"
+
+#, fuzzy
+#~| msgid "Linked Domains"
+#~ msgid "LinkedIn"
+#~ msgstr "Seotud domeenid"
+
+#, fuzzy
+#~| msgid "Your Website"
+#~ msgid "Website"
+#~ msgstr "Teie veebileht"
+
+#, fuzzy
+#~| msgid "No Quick Responses found"
+#~ msgid "No token found"
+#~ msgstr "Kiirvastuseid ei leitud"
+
+#~ msgid "API Response Codes"
+#~ msgstr "Kiirvastused"
+
+#, fuzzy
+#~| msgid "Documentation"
+#~ msgid "Doc Suggestions"
+#~ msgstr "Dokumentatsioon"
+
+#, fuzzy
+#~| msgid "Documentation"
+#~ msgid "Documentation Suggestions"
+#~ msgstr "Dokumentatsioon"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat by 3CX - GDPR"
+#~ msgstr "WP Live Chat Tugi"
+
+#, fuzzy
+#~| msgid "Iterations"
+#~ msgid "GIF Integration"
+#~ msgstr "Küsimusi?"
+
+#, fuzzy
+#~| msgid "This API key is "
+#~ msgid "Giphy API key"
+#~ msgstr "See API võti on"
+
+#, fuzzy
+#~| msgid "This API key is "
+#~ msgid "Tenor API key"
+#~ msgstr "See API võti on"
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid " Active visitors"
+#~ msgstr "Aktiivsed vestlused"
+
+#~ msgid "Hello. Please input your details so that I may help you."
+#~ msgstr "Tere! Palun sisestage enda kontaktandmed, et saaksime Teid aidata."
+
+#~ msgid "Chat ended"
+#~ msgstr "Vestlus on aktiivne"
+
+#~ msgid "Connecting. Please be patient..."
+#~ msgstr "Ühendame. Palume kannatust"
+
+#~ msgid "Please click \\'Start Chat\\' to initiate a chat with an agent"
+#~ msgstr "Palun vajutage \\'Alusta vestlust\\' et alustada vestlust agendiga"
+
+#, fuzzy
+#~| msgid "The chat has been ended"
+#~ msgid "The Chat Has Been Ended By The Operator."
+#~ msgstr "Vestlus on lõppenud"
+
+#~ msgid ""
+#~ "You may <a href='?page=wplivechat-menu-settings' target='_BLANK'>modify "
+#~ "your chat box settings here."
+#~ msgstr ""
+#~ "Oma <a href='?page=wplivechat-menu-settings' target='_BLANK'> vestluse "
+#~ "akna seadistusi saate muuda siin."
+
+#~ msgid "Site Info"
+#~ msgstr "Lehekülje info"
+
+#~ msgid "Advanced Info"
+#~ msgstr "Täpsem info"
+
+#~ msgid "IP Address:"
+#~ msgstr "IP Aadress:"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Thank you for using <a href=\"%1$s\" target=\"_blank\">WP Live Chat "
+#~| "Support</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a "
+#~| "href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+#~ msgid ""
+#~ "Thank you for using <a href=\"%1$s\" target=\"_blank\">WP Live Chat by "
+#~ "3CX</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href="
+#~ "\"%2$s\" target=\"_blank\">WordPress.org</a>"
+#~ msgstr ""
+#~ "Aitäh, et kasutasite <a href=\"%1$s\" target=\"_blank\">WP Live Chat "
+#~ "Support</a> pluginat. Palun andke meile <a href=\"%2$s\" target=\"_blank"
+#~ "\">oma hinnang </a><a href=\"%2$s\" target=\"_blank\">WordPress.org</a> "
+#~ "lehel."
+
+#~ msgid ""
+#~ "Your API Key is Invalid. You are not eligible for future updates. Please "
+#~ "enter your API key <a href=\"admin.php?page=wplivechat-menu-api-keys-page"
+#~ "\">here</a>."
+#~ msgstr ""
+#~ "Sinu API võti ei ole õige. Järelikult ei ole Sul õigust tuleviku "
+#~ "uuendusteks. Palun sisestage API võti uuesti <a href=\"admin.php?"
+#~ "page=wplivechat-menu-api-keys-page\">siin</a>."
+
+#~ msgid "WP Live Chat Support Reporting"
+#~ msgstr "WP Live Chat Support Seadistused"
+
+#, fuzzy
+#~| msgid "Contributor"
+#~ msgid "Contributors"
+#~ msgstr "Kaasautor"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Testing"
+#~ msgstr "Seaded"
+
+#, fuzzy
+#~| msgid "Main Settings"
+#~ msgid "Marketing"
+#~ msgstr "Peamised seadistused"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentatsioon"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support Dashboard"
+#~ msgstr "WP Live Chat Tugi"
+
+#, fuzzy
+#~| msgid "Welcome to "
+#~ msgid "Welcome, %s"
+#~ msgstr "Tere tulemast"
+
+#, fuzzy
+#~| msgid "Chat Box"
+#~ msgid "Chat now"
+#~ msgstr "Vestluse aken"
+
+#, fuzzy
+#~| msgid "Total Conversions"
+#~ msgid "Conversations"
+#~ msgstr "Pro versioon"
+
+#~ msgid "WP Live Chat Support Settings"
+#~ msgstr "WP Live Chat Support Seadistused"
+
+#~ msgid "Choose when I want to be online"
+#~ msgstr "Valik, millal ma tahan olla võrgus."
+
+#~ msgid "Chat Window Settings"
+#~ msgstr "Vestluse akna seadistused"
+
+#, fuzzy
+#~| msgid "Goal Name"
+#~ msgid "Show Name"
+#~ msgstr "Teie Nimi"
+
+#~ msgid "Only show the chat window to users that are logged in"
+#~ msgstr "Näita vestluse akend ainult kasutajatele, kes on sisse logitud "
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "Show Date"
+#~ msgstr "Kuupäev"
+
+#, fuzzy
+#~| msgid "Time"
+#~ msgid "Show Time"
+#~ msgstr "Aeg"
+
+#~ msgid "Name "
+#~ msgstr "Nimi"
+
+#~ msgid "Enable Experience Ratings"
+#~ msgstr "Vestluse rahulolu reiting"
+
+#~ msgid "Do not allow users to send offline messages"
+#~ msgstr "Ära luba kasutajatel offline sõnumeid saata"
+
+#~ msgid "Offline Text Fields"
+#~ msgstr "Offline tekstide väljad"
+
+#~ msgid "Email Address"
+#~ msgstr "E-posti aadress"
+
+#~ msgid "Sending Method"
+#~ msgstr "Saatmise meetod"
+
+#~ msgid "WP Mail"
+#~ msgstr "WP Mail"
+
+#~ msgid "PHP Mailer"
+#~ msgstr "PHP Mailer"
+
+#~ msgid "Host"
+#~ msgstr "Hosti server"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "Username"
+#~ msgstr "Kasutajanimi"
+
+#~ msgid "Password"
+#~ msgstr "Parool"
+
+#~ msgid "Choose a theme"
+#~ msgstr "Valige teema"
+
+#~ msgid "Choose"
+#~ msgstr "Valige teema"
+
+#~ msgid "Your"
+#~ msgstr "Teie Nimi"
+
+#~ msgid "First Section Text"
+#~ msgstr "Esimese sektsiooni tekst"
+
+#~ msgid "Intro Text"
+#~ msgstr "Sissejuhatav tekst"
+
+#~ msgid "Second Section Text"
+#~ msgstr "Teise sektsiooni tekst"
+
+#~ msgid "Reactivate Chat Section Text"
+#~ msgstr "Aktiveeri Vestluse sektsiooni tekst"
+
+#~ msgid "Choose an animation"
+#~ msgstr "Vali animatsioon"
+
+#~ msgid "Current Users that are Chat Agents"
+#~ msgstr "Praegused kasutajad, kes on Vestluse Agendid."
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Ootamatu HTTP tõrge API päringu ajal. </p> <p><a href=\"?\" onclick="
+#~ "\"document.location.reload(); return false;\">Proovi uuesti</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Tekkis teadmata viga"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "Welcome to WP Live Chat Support v8"
+#~ msgstr "WP Live Chat Tugi"
+
+#, fuzzy
+#~| msgid "Welcome to "
+#~ msgid "Welcome"
+#~ msgstr "Tere tulemast"
+
+#, fuzzy
+#~| msgid "Chat Dashboard"
+#~ msgid "New Dashboard"
+#~ msgstr "Vestluse töölaud"
+
+#, fuzzy
+#~| msgid "Multiple Agents"
+#~ msgid "Multiple Agents Per Chat"
+#~ msgstr "Mitmed Agendid"
+
+#, fuzzy
+#~| msgid "Message"
+#~ msgid "Edit Messages"
+#~ msgstr "Sõnum"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "New to WP Live Chat Support?"
+#~ msgstr "WP Live Chat Tugi"
+
+#, fuzzy
+#~| msgid "documentation"
+#~ msgid "review our documentation"
+#~ msgstr "Dokumentatsioon"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Settings"
+#~ msgid "WP Live Chat Support Custom Fields"
+#~ msgstr "WP Live Chat Support Seadistused"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Reporting"
+#~ msgid "WP Live Chat Support Departments"
+#~ msgstr "WP Live Chat Support Seadistused"
+
+#~ msgid "WP Live Chat Support ROI Goals"
+#~ msgstr "WP Live Chat Tugi"
+
+#, fuzzy
+#~| msgid "Use our server to host your chat server."
+#~ msgid "Use our server to handle chats"
+#~ msgstr "Kasutage meie serverit, et host-ida enda vestlusi."
+
+#, fuzzy
+#~| msgid "Incoming chat ring tone"
+#~ msgid "Limit chat ring amount"
+#~ msgstr "Sissetulev vestlust"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support - Tools"
+#~ msgstr "WP Live Chat Tugi"
+
+#, fuzzy
+#~| msgid "Goal Name"
+#~ msgid "Company Name"
+#~ msgstr "Teie Nimi"
+
+#, fuzzy
+#~| msgid "Dear User"
+#~ msgid "Dear User,"
+#~ msgstr "Hea kasutaja"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support - Webhooks"
+#~ msgstr "WP Live Chat Tugi"
+
+#~ msgid "API Keys"
+#~ msgstr "API võtmed"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support API Key"
+#~ msgstr "WP Live Chat Tugi"
+
+#, fuzzy
+#~| msgid ""
+#~| "To find and manage your premium API keys, please visit your <a "
+#~| "target='_BLANK' href='https://wp-livechat.com/my-account/'>my account</"
+#~| "a> page."
+#~ msgid ""
+#~ "To find and manage your API key, please visit your <a target='_BLANK' "
+#~ "href='https://wp-livechat.com/my-account/'>my account</a> page."
+#~ msgstr ""
+#~ "Selleks, et leida ja seadistada enda preemium API võtmeid, palun "
+#~ "külastage <a target='_BLANK' href='http://wp-livechat.com/my-"
+#~ "account/'>minu konto</a> lehte."
+
+#~ msgid "Visit our troubleshooting section."
+#~ msgstr "Külastage meie veahalduse sektsiooni"
+
+#~ msgid ""
+#~ "Please note: This window must be open in order to receive new chat "
+#~ "notifications."
+#~ msgstr ""
+#~ "Tähelepanu: See aken peab olema avatud, et võtta vastu uusi vestluse "
+#~ "teavitusi."
+
+#~ msgid "WP Live Chat History"
+#~ msgstr "WP Live Chat ajalugu"
+
+#~ msgid "WP Live Chat Missed Chats"
+#~ msgstr "WP Live Chat vastamata vestlused"
+
+#~ msgid "WP Live Chat Offline Messages"
+#~ msgstr "WP Live Chat Offline sõnumid"
+
+#~ msgid "Thank You for your feedback!"
+#~ msgstr "Aitäh tagasiside eest!"
+
+#~ msgid ""
+#~ "WP Live Chat Support  has a diverse and wide range of features which may, "
+#~ "from time to time, run into conflicts with the thousands of themes and "
+#~ "other plugins on the market."
+#~ msgstr ""
+#~ "WP Live Chat Support-il on mitmekülgne ja laialdane valik funktsioone, "
+#~ "mis võivad aeg-ajalt konfliktidesse sattuda tuhandete teemadega, mis "
+#~ "turul pakutakse."
+
+#~ msgid "Common issues:"
+#~ msgstr "Sagedasti esinevad tõrked:"
+
+#, fuzzy
+#~| msgid "Messages only show when I refresh the chat window"
+#~ msgid "Messages Only Show When I Refresh"
+#~ msgstr "Sõnumid on näha ainult siis kui ma värskendan brauseri akent."
+
+#~ msgid "Still need help? Use one of these links below."
+#~ msgstr "Ikka vajad abi? Kasuta selleks mõnda linki allpool."
+
+#~ msgid "API Key"
+#~ msgstr "API võti"
+
+#~ msgid "Verify"
+#~ msgstr "Verifitseeri"
+
+#~ msgid "Status: "
+#~ msgstr "Olek"
+
+#~ msgid "Valid"
+#~ msgstr "Kehtiv"
+
+#, fuzzy
+#~| msgid "Manage this extension"
+#~ msgid "Manage this API Key"
+#~ msgstr "Halda seda laiendust"
+
+#~ msgid "Invalid"
+#~ msgstr "Kehtetu"
+
+#~ msgid "Linked Domains"
+#~ msgstr "Seotud domeenid"
+
+#~ msgid "Mobile and Desktop App"
+#~ msgstr "Mobiilne ja Desktop programm"
+
+#, fuzzy
+#~| msgid "Add Quick Responses to your Live Chat"
+#~ msgid "Add Quick Responses to your Live Chat with our Pro Add-on"
+#~ msgstr "Lisa Kiirvastuseid Live vestlusele"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Settings"
+#~ msgid "WP Live Chat Support - Devices"
+#~ msgstr "WP Live Chat Support Seadistused"
+
+#, fuzzy
+#~| msgid "Linked Domains"
+#~ msgid "Linked to"
+#~ msgstr "Seotud domeenid"
+
+#, fuzzy
+#~| msgid "Add Agent"
+#~ msgid "For Agent"
+#~ msgstr "Lisa agent"
+
+#, fuzzy
+#~| msgid "Agents"
+#~ msgid "Agent ID"
+#~ msgstr "Agente"
+
+#, fuzzy
+#~| msgid "View Chat History"
+#~ msgid "New Chat from"
+#~ msgstr "Vaata vestluste ajalugu"
+
+#, fuzzy
+#~| msgid "Message"
+#~ msgid "New Message"
+#~ msgstr "Sõnum"
+
+#~ msgid "Mobile and Desktop App Settings"
+#~ msgstr "Mobiilne ja Desktop programmi seadistused"
+
+#~ msgid "Enable mobile and desktop app"
+#~ msgstr "Lülitage sisse Mobiilne ja Desktop programm"
+
+#~ msgid "App"
+#~ msgstr "Programm"
+
+#~ msgid "Incoming Chat"
+#~ msgstr "Sissetulev vestlust"
+
+#~ msgid "You have an incoming chat."
+#~ msgstr "Teil on sissetulev vestlus"
+
+#~ msgid "Chat Active"
+#~ msgstr "Vestlus aktiivne"
+
+#~ msgid "This chat is active"
+#~ msgstr "See vestlus on aktiivne"
+
+#~ msgid "You must be a chat agent to initiate chats"
+#~ msgstr "Te peate olema vestluse agent, et vestlusi algatada"
+
+#~ msgid "Visitors on site"
+#~ msgstr "Külastajaid lehel"
+
+#~ msgid "No chat sessions available at the moment"
+#~ msgstr "Hetkel ei ole vestlusi saadaval"
+
+#~ msgid "You must be a chat agent to answer chats"
+#~ msgstr "Sa pead olema vestluse agen, et vestlustele vastata"
+
+#~ msgid "Open Chat Window"
+#~ msgstr "Ava vestluse aken"
+
+#~ msgid "Chat has been answered by another agent"
+#~ msgstr "Sellele vestlusele on juba teise agendi poolt vastatud."
+
+#~ msgid "Chat answered by another agent"
+#~ msgstr "Sellele vestlusele on juba teise agendi poolt vastatud."
+
+#~ msgid "Alert: Someone wants to chat with you on "
+#~ msgstr "Teavitus: Keegi soovib Sinuga vestelda"
+
+#~ msgid "Someone wants to chat with you on your website"
+#~ msgstr "Keegi soovib Sinuga vestelda läbi sinu kodulehe"
+
+#~ msgid "Contributor"
+#~ msgstr "Kaasautor"
+
+#~ msgid "Subscriber"
+#~ msgstr "Liituja"
+
+#~ msgid "Dear Pro User"
+#~ msgstr "Hea Pro versiooni kasutaja"
+
+#~ msgid ""
+#~ "Please enter a valid API key on the 'Live Chat' -> 'Settings' page. "
+#~ "Failing to do this will result in you no longer receiving updates for "
+#~ "this plugin."
+#~ msgstr ""
+#~ "Palun sisestage kehtiv API võti 'Live Chat' -> 'Seadistused' lehel. Kui "
+#~ "see ei õnnestu, ei uuendata enam Teie plugina versiooni."
+
+#~ msgid "You can obtain a copy of your API key "
+#~ msgstr "Te saate oma API võtme koopia"
+
+#~ msgid ""
+#~ "An account has been created for you while purchasing the plugin. If you "
+#~ "have lost your password, please reset it "
+#~ msgstr ""
+#~ "Ostuprotsessi ajal loodi Teie jaoks konto. Kui olete oma parooli "
+#~ "kaotanud, palun lähtestage see."
+
+#~ msgid ""
+#~ "If you feel you are getting this message in error, please try refreshing "
+#~ "the page."
+#~ msgstr ""
+#~ "Kui Teil on tunne, et saate selle sõnumi veateatena, siis palun "
+#~ "taaslaadige leht."
+
+#~ msgid "Chat Experience Ratings"
+#~ msgstr "Vestluse rahulolu reiting"
+
+#~ msgid "Main Settings"
+#~ msgstr "Peamised seadistused"
+
+#~ msgid "Find out more."
+#~ msgstr "Loe rohkem."
+
+#~ msgid "Cloud Server"
+#~ msgstr "Pilve server"
+
+#~ msgid "This API key is "
+#~ msgstr "See API võti on"
+
+#~ msgid "valid"
+#~ msgstr "kehtiv"
+
+#~ msgid "invalid"
+#~ msgstr "kehtetu"
+
+#~ msgid ""
+#~ "A valid API key means that you will be able to get the latest version of "
+#~ "the plugin as and when it is released, as well as get access to support "
+#~ "should you require it."
+#~ msgstr ""
+#~ "Kehtiv API võti tähendab, et saate viimase versiooni sellest pluginast "
+#~ "kui see on väljastatud ning teile võimaldatakse ka kasutajatugi."
+
+#~ msgid "Hide Chat"
+#~ msgstr "Peida vestlus"
+
+#~ msgid "Hides chat for 24hrs when user clicks X"
+#~ msgstr "Peidab vestluse 24 tunniks kui kasutaja vajutab X"
+
+#, fuzzy
+#~| msgid "Your Email"
+#~ msgid "Show email"
+#~ msgstr "Teie Email"
+
+#~ msgid "Record a visitor's IP Address"
+#~ msgstr "Salvesta külastaja IP aadress."
+
+#~ msgid "Disable this to enable anonymity for your visitors"
+#~ msgstr "Lülitage see välja, et teha kõik külastajad anonüümseteks."
+
+#, fuzzy
+#~| msgid "Recomended Size 40px x 40px"
+#~ msgid "Recommended Size 40px x 40px"
+#~ msgstr "Soovitatud Suurus 40px x 40px"
+
+#~ msgid "Display name and avatar in chat"
+#~ msgstr "Kuvage nimi ja avatar vestluses"
+
+#~ msgid ""
+#~ "Display the agent and user name above each message in the chat window."
+#~ msgstr "Kuvage agent ja kasutaja andmed pärast iga sõnumit."
+
+#~ msgid "Theme 2"
+#~ msgstr "Teema 2"
+
+#~ msgid "Theme 3"
+#~ msgstr "Teema 3"
+
+#~ msgid "Theme 4"
+#~ msgstr "Teema 4"
+
+#~ msgid "Theme 5"
+#~ msgstr "Teema 5"
+
+#~ msgid "Theme 6"
+#~ msgstr "Teema 6"
+
+#~ msgid "Custom. Enter Colour Values Below"
+#~ msgstr "Erilahendus. Sisesta värvivalikud allpool"
+
+#~ msgid "Chat box fill color"
+#~ msgstr "Vestluse akna värv"
+
+#~ msgid "Chat box font color"
+#~ msgstr "Vestluse akna tekstide värv"
+
+#~ msgid "documentation"
+#~ msgstr "Dokumentatsioon"
+
+#~ msgid ""
+#~ "You will only be able to edit the strings shown in the chat window of the "
+#~ "code now. <br/> This has been done to accommodate as many localization "
+#~ "plugins as possible. <br/> For more information on how to change these "
+#~ "strings, please consult the "
+#~ msgstr ""
+#~ "Sa saad ainult muuta neid välju, mis on näidatud vestluse aknas allpool."
+#~ "<br/>See on tehtud põhjusel, et liidestada võimalikul palju "
+#~ "lokaliseerimise pluginaid.<br/>Rohkemaks informatsiooniks, palun "
+#~ "konsulteerige"
+
+#~ msgid "User chat welcome"
+#~ msgstr "Kasutaja vestluse tervitustekst"
+
+#~ msgid "This text is shown above the user chat input field"
+#~ msgstr "Seda teksti kuvatakse kasutaja sisestusvälja kohal"
+
+#~ msgid ""
+#~ "You are using an outdated version of WP Live Chat Support Basic. Please "
+#~ "update your plugin to allow for animations to function"
+#~ msgstr ""
+#~ "Sa kasutad vananenud WP Live Chat Basic versiooni. Palun uuenda enda "
+#~ "plugin, et animatsioonid hakkaksid tööle"
+
+#~ msgid ""
+#~ "are only available in the WP Live Chat Support Chat Experience Ratings "
+#~ "add-on"
+#~ msgstr ""
+#~ "ainult saadaval WP Live Chat Support Vestluse Rahulolu reitingu lisas"
+
+#, fuzzy
+#~| msgid "Please update to the latest version of WP Live Chat Support Pro"
+#~ msgid ""
+#~ "Departments are not currently supported with the Cloud Server of WP Live "
+#~ "Chat Support."
+#~ msgstr "Palun uuendage enda WP Chat Support Pro versiooni"
+
+#, fuzzy
+#~| msgid ""
+#~| "WP Live Chat Support Pro requires WP Live Chat Support to function. You "
+#~| "can download the latest copy from"
+#~ msgid ""
+#~ "WP Live Chat Support Pro requires WP Live Chat Support Version 7.0.0 or "
+#~ "greater in order for departments to function as expected. Please update "
+#~ "WP Live Chat Support %s"
+#~ msgstr ""
+#~ "WP Live Vestlus Tugi Pro vajab WP Live Chat tuge et töötada. Selle saate "
+#~ "allalaadida"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Triggers"
+#~ msgid "WP Live Chat Support - Update Suggested"
+#~ msgstr "WP Live Chat Support Seadistused"
+
+#, fuzzy
+#~| msgid ""
+#~| "You are using an outdated version of WP Live Chat Support Basic. Please"
+#~ msgid ""
+#~ "We have detected that you are using a heavily out-dated version of WP "
+#~ "Live Chat Support"
+#~ msgstr "Te kasutate vananenud WP Live Chat Basic versiooni. Palun "
+
+#~ msgid "All Quick Responses"
+#~ msgstr "Kõik kiirvastused"
+
+#~ msgid "Get Pro Add-on to accept more chats"
+#~ msgstr "Lae alla Pro laiendus et võtta vastu rohkem vestlusi"
+
+#, fuzzy
+#~| msgid "Via WP Live Chat Support"
+#~ msgid "WP Live Chat Trigger (WP Live Chat Support)"
+#~ msgstr "Läbi WP Live Chat Support-i"
+
+#, fuzzy
+#~| msgid "Via WP Live Chat Support"
+#~ msgid "WP Live Chat Box (WP Live Chat Support)"
+#~ msgstr "Läbi WP Live Chat Support-i"
+
+#~ msgid "Start Live Chat"
+#~ msgstr "Alusta Live vestlust"
+
+#~ msgid "Connecting you to a sales person. Please be patient."
+#~ msgstr "Teid ühendatakse müügiagendiga. Palun olge kannatlik."
+
+#~ msgid "Include chat window on the following pages"
+#~ msgstr "Lisage vestluse aken järgmistele lehtedele:"
+
+#~ msgid "available in the"
+#~ msgstr "See valik on saadaval ainult"
+
+#~ msgid "Pro Add-on"
+#~ msgstr "Pro lisas"
+
+#~ msgid "Exclude chat window on the following pages"
+#~ msgstr "Ärge kuvage vestluse akent järgmistel lehtedel:"
+
+#~ msgid "Alert me via email as soon as someone wants to chat"
+#~ msgstr "Teavitage mind kui keegi soovib minuga vestelda (Online-i ajal)"
+
+#~ msgid "How did you find us?"
+#~ msgstr "Kuidas Sa meid leidsid?"
+
+#~ msgid "WordPress.org plugin repository "
+#~ msgstr "WordPress.org plugin repositoorium"
+
+#~ msgid "Search Term"
+#~ msgstr "Otsingutermin"
+
+#~ msgid "Google or other search Engine"
+#~ msgstr "Google või mõni teine otsingumootor"
+
+#~ msgid "Friend recommendation"
+#~ msgstr "Sõbra soovitusel"
+
+#~ msgid "Other"
+#~ msgstr "Muu"
+
+#~ msgid "Please Explain"
+#~ msgstr "Palun selgita lähemalt"
+
+#~ msgid "Submit"
+#~ msgstr "Saada"
+
+#~ msgid "Skip"
+#~ msgstr "Jäta vahele"
+
+#, fuzzy
+#~| msgid "Visitor"
+#~ msgid "Visit our"
+#~ msgstr "Külastaja"
+
+#, fuzzy
+#~| msgid "Support desk"
+#~ msgid "Support Desk"
+#~ msgstr "Tugi"
+
+#~ msgid "Feedback"
+#~ msgstr "Tagasiside"
+
+#, fuzzy
+#~| msgid "Send Feedback"
+#~ msgid "Send us your feedback"
+#~ msgstr "Saada Tagasiside"
+
+#, fuzzy
+#~| msgid "Download Chat History"
+#~ msgid "Download Chat Data"
+#~ msgstr "Lae alla vestluste ajalugu"
+
+#~ msgid "Contact us"
+#~ msgstr "Võta meiega ühendust"
+
+#~ msgid " with the Pro add-on of WP Live Chat Support"
+#~ msgstr "Koos WP Live Chat Support Pro lisaga, sa saad"
+
+#~ msgid "(once off payment)."
+#~ msgstr "(ühekordne tasu)."
+
+#~ msgid "With the Pro add-on of WP Live Chat Support, you can"
+#~ msgstr "Koos WP Live Chat Support Pro lisaga, sa saad"
+
+#~ msgid "see who's online and initiate chats"
+#~ msgstr "näha kes on online-is ja alustada vestlusi"
+
+#~ msgid "with your online visitors with the click of a button."
+#~ msgstr "oma külastajatega nupuvajutusega"
+
+#~ msgid "Buy the Pro add-on now (once off payment)."
+#~ msgstr "Osta Initiate Chats Extension kohe(ühekordne tasu)."
+
+#~ msgid "Buy the Pro add-on now."
+#~ msgstr "Pro lisa"
+
+#, fuzzy
+#~| msgid "Dear Pro User"
+#~ msgid "Dear Pro User,"
+#~ msgstr "Hea Pro versiooni kasutaja"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support - Offline Message from "
+#~ msgid "WP Live Chat Support - Offline Mode"
+#~ msgstr "WP Live Chat Tugi - Offline sõnum: "
+
+#, fuzzy
+#~| msgid "The chat has been ended"
+#~ msgid "Chat has been ended."
+#~ msgstr "Vestlus on lõppenud"
+
+#~ msgid "Extensions"
+#~ msgstr "Laiendused"
+
+#~ msgid "Premium Extension API Keys"
+#~ msgstr "Preemium laiendus API võtmed"
+
+#~ msgid ""
+#~ "You are using an outdated version of <strong>WP Live Chat Support Pro</"
+#~ "strong>. Please"
+#~ msgstr ""
+#~ "Kasutate aegunud strong>WP Live Chat Support Pro</strong> versiooni. "
+#~ "Palume"
+
+#~ msgid "update to at least version"
+#~ msgstr "uuendage versiooni"
+
+#~ msgid "to ensure all functionality is in working order"
+#~ msgstr ", et kindlustada kõikide versioonide toimimine"
+
+#~ msgid ""
+#~ "You're live chat box on your website has been temporarily disabled until "
+#~ "the Pro plugin has been updated. This is to ensure a smooth and hassle-"
+#~ "free user experience for both yourself and your visitors."
+#~ msgstr ""
+#~ "Teie live vestluse aken on Teie veebisaidil ajutiselt peatatud. Palun "
+#~ "uuendage PRO-pluginat. See on vajalik selleks, et sujuv ja tõrgetevaba "
+#~ "kasutajakogemus oleks tagatud nii Teile, kui ka Teie kasutajatele."
+
+#~ msgid ""
+#~ "You can update your plugin <a href='./update-core.php'>here</a>, <a "
+#~ "href='./plugins.php'>here</a> or <a href='https://wp-livechat.com/get-"
+#~ "updated-version/' target='_BLANK'>here</a>."
+#~ msgstr ""
+#~ "Pluginat saate uuendada <a href='./update-core.php'>here</a> <a href='./"
+#~ "plugins.php'>here</a> or <a href='http://wp-livechat.com/get-updated-"
+#~ "version/' target='_BLANK'>siin</a>."
+
+#~ msgid "If you are having difficulty updating the plugin, please contact"
+#~ msgstr "Kui Teil esineb tõrkeid plugina uuendamisega, palun kontakteeruge"
+
+#~ msgid ""
+#~ "You are using an outdated version of <strong>WP Live Chat Support Pro</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Kasutate aegunud strong>WP Live Chat Support Pro</strong> versiooni."
+
+#~ msgid "Please update to the latest version of WP Live Chat Support Pro"
+#~ msgstr "Palun uuendage enda WP Chat Support Pro versiooni"
+
+#~ msgid "Version 5.0.1"
+#~ msgstr "Versioon 5.0.1"
+
+#~ msgid "to ensure everything is working correctly."
+#~ msgstr ", et kindlustada kõikide funktsionaalsuste toimimine"
+
+#~ msgid "Add-ons"
+#~ msgstr "Lisad"
+
+#~ msgid "Get more add-ons"
+#~ msgstr "Lae alla rohkem lisasid"
+
+#~ msgid "Add Quick Responses to your Live Chat"
+#~ msgstr "Lisa Kiirvastuseid Live vestlusele"
+
+#~ msgid "Pro version only"
+#~ msgstr "Ainult Pro versioon"
+
+#~ msgid ""
+#~ "Please update to the latest version of WP Live Chat Support Pro to start "
+#~ "recording any offline messages."
+#~ msgstr ""
+#~ "Palun uuenda WP Live Chat Support Pro versiooni, ühenduseta sõnumite "
+#~ "salvestamiseks."
+
+#~ msgid "This option is only available in the "
+#~ msgstr "See valik on saadaval ainult"
+
+#~ msgid "Suggested Plugins"
+#~ msgstr "Soovitatavad Pluginad"
+
+#~ msgid "Sola Support Tickets"
+#~ msgstr "Sola Support Tickets"
+
+#~ msgid ""
+#~ "The easiest to use Help Desk & Support Ticket plugin. Create a support "
+#~ "help desk quickly and easily with Sola Support Tickets."
+#~ msgstr ""
+#~ "Kiireim viis kasutada Help Desk & Support Ticket pluginat. Loo Support "
+#~ "help desk kiirelt ja hõlpsalt koos Sola Support Ticketsi-ga."
+
+#~ msgid "Get this Plugin"
+#~ msgstr "Lae alla see Plugin"
+
+#~ msgid "Nifty Newsletters"
+#~ msgstr "Nifty Newsletters"
+
+#~ msgid ""
+#~ "Create and send newsletters, automatic post notifications and "
+#~ "autoresponders that are modern and beautiful with Nifty Newsletters."
+#~ msgstr ""
+#~ "Loo ja saada uudiskirja, automaatseid postitusteavitusi ja automaatseid "
+#~ "teavitusi, mis on modernsed ja ilusad. Kõike seda Nifty Newsletter "
+#~ "pluginaga."
+
+#~ msgid "Price:"
+#~ msgstr "Hind:"
+
+#~ msgid "Free"
+#~ msgstr "Tasuta!"
+
+#~ msgid "Paid"
+#~ msgstr "Tasuline"
+
+#~ msgid "For:"
+#~ msgstr "Mille jaoks:"
+
+#~ msgid "Both"
+#~ msgstr "Mõlemad"
+
+#~ msgid "Free version"
+#~ msgstr "Tasuta versioon"
+
+#~ msgid "Pro version"
+#~ msgstr "Pro versioon"
+
+#~ msgid "Already installed"
+#~ msgstr "Juba paigaldatud"
+
+#~ msgid ""
+#~ "Getting started? Read through some of these articles to help you along "
+#~ "your way."
+#~ msgstr ""
+#~ "Alles alustate? Tutvu mõne meie artikliga, mis aitab sul järje peale "
+#~ "saada."
+
+#~ msgid "Documentation:"
+#~ msgstr "Dokumentatsioon"
+
+#~ msgid "Minimum System Requirements"
+#~ msgstr "Minimaalsed süsteemi nõuded"
+
+#~ msgid "Do I have to be logged into the dashboard to chat with visitors?"
+#~ msgstr "Kas ma pean olema sisse logitud, et vestelda külalistega?"
+
+#~ msgid "What are Quick Responses?"
+#~ msgstr "Mis asjad on kiirvastused?"
+
+#~ msgid "Can I use this plugin on my multi-site?"
+#~ msgstr "Kas ma saan kasutada seda pluginat multi-site tüüpi lehel?"
+
+#~ msgid "How do I disable APC Object Cache?"
+#~ msgstr "Kuidas ma lülitan välja APC Object Cache-i?"
+
+#~ msgid "Do you have a mobile app?"
+#~ msgstr "Kas Teil on mobiilirakendus?"
+
+#~ msgid "The chat box doesnt show up"
+#~ msgstr "Vestluse aken on peidus."
+
+#~ msgid "The chat window disappears when I logout or go offline"
+#~ msgstr "Vestluse aken kaob ära kui ma login välja või lähen võrgust välja."
+
+#~ msgid "This chat has already been answered. Please close the chat window"
+#~ msgstr "Sellele vestlusele on juba vastatud. Palun sulgege vestluse aken"
+
+#~ msgid "Support desk"
+#~ msgstr "Tugi"
+
+#~ msgid "accept and handle multiple chats."
+#~ msgstr "aktsepteerida ja hallata mitut erinevat vestlust."
+
+#~ msgid "WP Live Chat Support is a product of"
+#~ msgstr "WP Live Chat Support on toode "
+
+#~ msgid "Add as many agents as you need with the "
+#~ msgstr "Lisa niipalju agente kui sul vaja on koos"
+
+#~ msgid "Pro version."
+#~ msgstr "Pro versioon"
+
+#~ msgid "Get this extension"
+#~ msgstr "Lae alla see laiendus"
+
+#~ msgid "Mobile & Desktop App"
+#~ msgstr "Mobiilne ja Desktop programm"
+
+#~ msgid ""
+#~ "Answer chats directly from your mobile phone or desktop with our mobile "
+#~ "app and desktop client"
+#~ msgstr ""
+#~ "Vasta vestlustele otse enda mobiilist või arvutist koos Mobiilse ja "
+#~ "Desktop programmiga"
+
+#~ msgid "Relevant Extensions"
+#~ msgstr "Olulised laiendused"
+
+#~ msgid "Powered By WP Live Chat Support"
+#~ msgstr "WP Live Chat Tugi"
+
+#~ msgid "Chat statistics"
+#~ msgstr "Statistika"
+
+#~ msgid "Pro add-on"
+#~ msgstr "Pro lisa"
+
+#, fuzzy
+#~| msgid "Offline Text Fields"
+#~ msgid "Text Fields"
+#~ msgstr "Offline tekstide väljad"
+
+#~ msgid "Chat functionality has been paused."
+#~ msgstr "Vestluse funktsionaalsus on hetkel peatatud."
+
+#~ msgid ""
+#~ "Please enter your verified API key in the <a href=\"admin.php?"
+#~ "page=wplivechat-menu-api-keys-page\">API Keys page</a> to activate the "
+#~ "cloud based functionality."
+#~ msgstr ""
+#~ "Palun sisestage verifitseeritud API võti, <a href=\"admin.php?"
+#~ "page=wplivechat-menu-api-keys-page\">API Keys lehele</a>, et aktiveerida "
+#~ "pilveserveri põhine funktsionaalsus."
+
+#~ msgid ""
+#~ "You are currently using our <strong>cloud server</strong> to handle your "
+#~ "chat requests and live chat sessions.<br /><br />To disable this, please "
+#~ "deactivate the WP Live Chat Support - Cloud Server plugin."
+#~ msgstr ""
+#~ "Hetkel Te kasutate meie <strong>pilve serverit</strong> enda vestluse "
+#~ "sessioonideks.<br /><br />Selleks, et seda deaktiveerida, palun lülitage "
+#~ "välja WP Live Chat Support - Cloud Server plugin."
+
+#~ msgid ""
+#~ "Users will have to enter their Name and Email Address when starting a chat"
+#~ msgstr ""
+#~ "Kasutajad peavad sisestama enda Nime ja E-posti aadressi kui soovivad "
+#~ "alustada vestlust"
+
+#~ msgid "You are currently accepting chats"
+#~ msgstr "Hetkel on kõik vestlused sisselülitatud"
+
+#~ msgid "WP Live Chat Support Feedback"
+#~ msgstr "Läbi WP Live Chat Tagasiside"
+
+#~ msgid "Your Name"
+#~ msgstr "Teie Nimi"
+
+#~ msgid "Version 6"
+#~ msgstr "Versioon 6"
+
+#~ msgid "The most popular live chat plugin!"
+#~ msgstr "Kõige populaarsem live chat plugin!"
+
+#~ msgid "Option"
+#~ msgstr "Tegevus"
+
+#~ msgid ""
+#~ "There was a problem sending your feedback. Please log your feedback on "
+#~ msgstr ""
+#~ "Ilmnes probleem teie tagasiside saatmisel. Palun logige oma tagasiside"
+
+#~ msgid ""
+#~ "Reduce the resources required by your server - use our cloud server to "
+#~ "host your chats."
+#~ msgstr ""
+#~ "Vähenda oma serveri ressursse - kasuta meie pilvepõhist hostimis teenust "
+#~ "kõikide oma vestluste jaoks."
+
+#~ msgid "Advanced Chat Box Control"
+#~ msgstr "Täpsustatud vestluse seadistused"
+
+#~ msgid ""
+#~ "The <strong>%s</strong> extension is not compatibile with the <strong>Pro "
+#~ "version</strong> of WP Live Chat Support. <a href='%s' title='%s' "
+#~ "target='_BLANK'>Click here for important information about this change.</"
+#~ "a>"
+#~ msgstr ""
+#~ "Laiendus <strong>%s</strong> ei ole WP Live Chat Support<strong>Pro "
+#~ "version-iga</strong> ühendatav. <a href='%s' title='%s' "
+#~ "target='_BLANK'>Vajutage siia, et saada rohkem infot.</a>"
+
+#~ msgid "Choose When Online"
+#~ msgstr "Valige, millal võrgus sees"
+
+#~ msgid "Include Exclude Pages"
+#~ msgstr "Välistage ja lisage lehti"
+
+#~ msgid ""
+#~ "You're live chat box on your website has been temporarily disabled until "
+#~ "the basic plugin has been updated. This is to ensure a smooth and hassle-"
+#~ "free user experience for both yourself and your visitors."
+#~ msgstr ""
+#~ "Teie live vestluse aken on Teie veebisaidil ajutiselt peatatud. Palun "
+#~ "uuendage baas-pluginat. See on vajalik selleks, et sujuv ja tõrgetevaba "
+#~ "kasutajakogemus oleks tagatud nii Teile, kui ka Teie kasutajatele."
+
+#~ msgid ""
+#~ "You can update your plugin <a href='./update-core.php'>here</a> or <a "
+#~ "href='./plugins.php'>here</a>."
+#~ msgstr ""
+#~ "Pluginat saate uuendada <a href='./update-core.php'>siin</a> või <a "
+#~ "href='./plugins.php'>siin</a>.."
+
+#~ msgid "Rating Unavailable"
+#~ msgstr "Reiting ei ole kättesaadav"
+
+#~ msgid "Close Chat Window"
+#~ msgstr "Sulge vestluse aken"
+
+#~ msgid "Chat sessions"
+#~ msgstr "Vestluste sessioonid"
+
+#~ msgid "User has closed and ended the chat"
+#~ msgstr "Kasutaja sulges ja lõpetas selle vestluse"
+
+#~ msgid "Supplimentary Plugins"
+#~ msgstr "Aktiivsed moodulid"
+
+#~ msgid "We'd love to hear your comments and/or suggestions"
+#~ msgstr "Palun jätke oma kommentaarid ja soovitused"
+
+#~ msgid "Connecting. Please be patient."
+#~ msgstr "Ühendame. Palume kannatust"
+
+#~ msgid ""
+#~ "With the <strong>Initiate Chats</strong> Extension for WP Live Chat "
+#~ "Support, you can"
+#~ msgstr "Alusta vestlust laiendusega WP Chat Support-ile, saate"
+
+#~ msgid "Buy the Initiate Chats Extension now."
+#~ msgstr "Ostke 'Vestluse alustamise' laiendus nüüd."
+
+#~ msgid "Support forum"
+#~ msgstr "Kasutajatoe foorum"
+
+#~ msgid ""
+#~ "With the <strong>Initiate Chats Extension</strong> of WP Live Chat "
+#~ "Support, you can"
+#~ msgstr ""
+#~ "WP Live Chat Support plugina,<strong>Initiate Chats Extension</strong> sa "
+#~ "saad"
+
+#~ msgid ""
+#~ " with the <strong>Mutliple Agents Extension</strong> of WP Live Chat "
+#~ "Support"
+#~ msgstr ""
+#~ "WP Live Chat Support plugina,<strong>Mutliple Agents Extensio</strong> sa "
+#~ "saad"
+
+#~ msgid "Multiple Agents Extension."
+#~ msgstr "Multiple Agents Extension plugin-ga"
+
+#~ msgid "Initiate a chat with any visitor at any time."
+#~ msgstr "Alusta vestlust iga külastajaga, igal ajal."
+
+#~ msgid ""
+#~ "Add your company logo, avatar and name to the chat box and add more "
+#~ "advanced features."
+#~ msgstr ""
+#~ "Lisa oma firma logo, avatar ja nimi vestluse kastile ning lisa veelgi "
+#~ "enam omadusi."
+
+#~ msgid "Include and Exclude Pages"
+#~ msgstr "Välistage/lisage lehti"
+
+#~ msgid ""
+#~ "Control where the chat box is displayed on your website. Choose which "
+#~ "pages to include and/or exclude."
+#~ msgstr ""
+#~ "Kontrollige, kus asetub vestluse aken Teie veebilehel. Valige millistel "
+#~ "lehtedel see kuvatakse ja millistel mitte"

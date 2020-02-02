@@ -1,0 +1,64 @@
+<style>
+    .dotpay_manage_cards td, th {
+        text-align: center;
+		vertical-align: middle;
+		font-weight: bold;
+    }
+    .dotpay_remove_card {
+        margin: auto;
+		color: red;
+    }
+	.dotpay_manage_cards th {
+	    background-color: #e4f6ff;
+	}
+</style>
+<script type="text/javascript">
+    if (typeof jQuery != 'undefined') {
+        jQuery(document).ready(function(){
+            jQuery('.dotpay_remove_card').on('click', function(){
+                jQuery.ajax({
+                    "url":"<?php echo $this->generateWcApiUrl('rmcard'); ?>",
+                    "method":"POST",
+                    "data":{
+                        "cardId":jQuery(this).data('id')
+                    },
+                    "success":function(r){
+                        if(r=='1')
+                            location.reload(); 
+                        else
+                            alert("<?php echo __('You can not remove this credit card', 'dotpay-payment-gateway'); ?>");
+                    }
+                });
+            });
+        });
+    }else{
+      console.log("\n -------------------------------------------------------------------------------------\n");  	
+      console.log("%cWarning!","color:red;font-family:system-ui;font-size:3rem;-webkit-text-stroke: 1px black;font-weight:bold;");
+	  console.log("\n%cLoad jQuery first in your template! Then Dotpay plugin.", "background: red; color: yellow; font-size: 1.2rem");
+	  console.log("%cOtherwise the Dotpay plugin may not work properly!", "color: red; font-size: 1rem;font-weight: bold;");
+	  console.log("\n -------------------------------------------------------------------------------------\n"); 
+    }
+</script>
+<table class="dotpay_manage_cards">
+    <tr>
+		<th><?php echo __('Card brand logo', 'dotpay-payment-gateway'); ?></th>
+		<th><?php echo __('Card brand', 'dotpay-payment-gateway'); ?></th>
+        <th><?php echo __('Card mask name', 'dotpay-payment-gateway'); ?></th>
+        <th><?php echo __('Register date', 'dotpay-payment-gateway'); ?></th>
+        <th><?php echo __('Remove', 'dotpay-payment-gateway'); ?></th>
+    </tr>
+    <?php foreach ($this->getCreditCards() as $card): ?>
+    <tr>
+        <td><?php if(isset($card->logo)){ ?><img style="max-height: 40px; border-style: none; text-align: center;" src="<?php echo $card->logo; ?>" alt="<?php echo $card->brand; ?>"><?php } ?></td>
+        <td><?php echo $card->brand; ?></td>
+        <td><?php echo $card->mask; ?></td>
+        <td><?php echo $card->register_date; ?></td>
+        <td><input data-id="<?php echo $card->cc_id; ?>" class="dotpay_remove_card" type="button" value="X" /></td>
+    </tr>
+    <?php endforeach; ?>
+	<?php if(count($this->getCreditCards()) < 1) { ?>
+	<tr>
+		<td colspan="5"><h2 style="font-weight: bold; color: #a46497;text-align: center;"><?php echo __('You do not have registered cards yet.', 'dotpay-payment-gateway'); ?></h2></td>
+	</tr>
+	<?php } ?>
+</table>

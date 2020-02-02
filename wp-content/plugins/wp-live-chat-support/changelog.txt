@@ -1,0 +1,1496 @@
+= 8.1.6 - 2020-01-16 =
+* Bugfix: more optimizations to avoid lots of 403 errors when PHP session expires
+* Bugfix: custom style color picker adds an extra # breaking color code
+* Improvement: improved performance in some timed events
+
+= 8.1.5 - 2019-12-18 =
+* Bugfix: edit trigger adds extra quotes and alters html code
+* Bugfix: default visitor name cannot be empty
+* Bugfix: message encryption not working properly
+* Bugfix: added missing numeric validation for ROI goals
+* Bugfix: better validation for custom fields
+* Bugfix: cannot enable sunday in working hour schedule
+* Bugfix: in some cases offline agents are displayed as online - timeout issues fixed
+* Bugfix: "User is browsing" notifications removed from user side - agent side only
+* Bugfix: custom fields default are not sent to agents
+* Bugfix: fixed issue with encrypted chats not displayed in history in some cases
+* Bugfix: some Webhooks were not working properly
+* Bugfix: fixed custom trigger URL parsing
+* Improvement: 3CX Privacy Policy is hidden when on-premise server is selected
+* Improvement: added separated encryption key configuration - encrypted chats are preserved for backup/restore and migration on other servers
+* Improvement: added absolute height for Chatbox
+* Improvement: added option to disable auto popup for mobile users
+* Improvement: removed jscolor color picker, using browser integrated
+* Improvement: removed "self assign chat agent" not working feature, because of lack of Wordpress privileges to work correctly
+* Improvement: stop polling requests when PHP agent session expires, should decrease 403 errors on WordPress server
+* Improvement: session handling optimizations
+
+= 8.1.4 - 2019-11-08 =
+* Bugfix: logo not displayed properly on chat box top bar
+* Bugfix: resolved issues reported by "Health Check & Troubleshooting" plugin
+* Bugfix: timezone issue in business hours when PHP timezone is different from wordpress timezone
+* Improvement: added single day configuration and two time intervals in business hours setting
+* Improvement: performance boost in session management
+
+= 8.1.3 - 2019-10-31 =
+* Bugfix: Admin detected as an agent - doesn't show offline messages form
+* Bugfix: Remove picture from chat box doesn't work properly
+* Bugfix: Edge JS compatibility issue in dashboard has been fixed
+* Bugfix: The page will no longer refresh upon ending a chat with an agent.
+* New feature: Agent online/offline switch in Wordpress admin bar
+* New feature: Adjustable chatbox height 30% - 80% of page size
+* Improvement: Cleaned up async_storage functions
+* Improvement: Better alignment for chat popup with no picture
+* Improvement: Reworked agent online/offline functions
+* Improvement: Default business hours are now 9:00 - 18:00 instead of 00:00 - 00:00
+* Improvement: The 'Use Logged In User Details' feature has been moved to the 'Chat Box' settings page.
+
+= 8.1.2 - 2019-10-24 =
+* New feature: improved auto pop-up feature, now 3 options to choose from
+* New feature: Pop-up only when agents are online
+* New feature: reimplemented visitor country detection using external plugin GeoIP Detection
+* Bugfix: readded mobile detect and option to disable on mobile devices
+* Bugfix: "Use Logged In User Details" displays username instead of display name
+* Bugfix: Cannot empty facebook and twitter urls
+* Bugfix: "Exclude chat window on selected post types" settings do not work properly
+* Bugfix: "text-align: center" in dashboard main element causing issues to some plugins
+* Bugfix: multisite installation issue may block website
+* Improvement: updated Font Awesome to v5 for better theme compatibility
+* Improvement: removed page refresh when user ends chat session
+
+= 8.1.1 - 2019-10-17 =
+* Fixed js error in "Open chat window via" feature
+* Fixed escaping issue in agent history
+* Fixed wrong behaviour in "Open chat window via" feature, chat does not re-open if user minimized it
+* Changed translation domain to plugin slug wp-live-chat-support for wordpress translator compatibility
+* Fixed some double slashes in image urls
+* Added some missing translation strings
+* Fixed some invalid z-index values
+
+= 8.1.0 - 2019-10-15 =
+* "Request a new chat" now ends user's session
+* "The chat has been ended by the operator"  Changed to: "The chat has been ended by the agent". 
+* 'Play a sound when there is a new visitor' is now enabled by default on new installations.
+* Added IP to Chat History page
+* Added Ukraine Language files (Thanks to Volodymyr Kryvutsa)
+* Added a max field validation for name-email
+* Added additional checking in shortcode
+* Added check when viewing the history page of a non existing chat to prevent errors from showing
+* Added custom parameters field + readonly for presets
+* Added email validation check
+* Added focus to textbox after adding a quick response
+* Added functionality to disable the online/offline button for 3 seconds after each press.
+* Added functions for loading/saving/parsing chat preview configuration
+* Added functions for loading/saving/parsing sound configuration
+* Added missing checks for encryption
+* Added missing function for on-premise mode 'Agents can set their online status'
+* Added missing wplc_delete_db_on_uninstall parameter to defaults
+* Added nonce to API Token regeneration
+* Added nonce to Missed Chat Deletion to mitigate CSRF
+* Added nonce to Trigger status change
+* Added option/functionality to remove db entries on uninstall
+* Added reload for on-premise dashboard when status changes
+* Added sanitisation to mail input field
+* Added server side session control/validation for the front-end user
+* Added strisplashes to fields in general settings page (using ' don't adds /)
+* Added translations for dashboard
+* Added url decorator in chat messages
+* Added wplc_get_theme() function with default fallback
+* Added wplivechat.pot template translation
+* Additional Escaping in settings page, surveys, custom fields, data triggers, roi.
+* Adjusted function in webhooks to use prepared statement
+* Adjusted the Menu item permissions for agents. Only Live Chat, History, Missed Chats and Offline messages are now shown
+* Allow agents of a department to see visitors who haven't selected a department
+* Changed "Request new chat" To "End Chat" in functions.php when a chat ends after waiting for 1 minute with no answer.
+* Changed label and tooltip of 3CX Chat server mode setting
+* Chat history design adjustments when using Cloud server mode
+* Chat page design adjustments when in on-premise mode
+* Cleaned up avatar code
+* Cleaned up business hours configuration
+* Cleaned up departments code
+* Cleaned up tcx_disable_add_message
+* Cleaned up tcx_in_dashboard
+* Cleaned up wp_auto_online
+* Cleaned up wplc_api_agent_email_notification_mrg()
+* Cleaned up wplc_auto_pop_up code
+* Cleaned up wplc_delay param, moved to js array
+* Cleaned up wplc_delay_between_loops
+* Cleaned up wplc_delete_db_on_uninstall
+* Cleaned up wplc_disable_emojis
+* Cleaned up wplc_disable_initiate_chat
+* Cleaned up wplc_disabled => forced to be always assigned
+* Cleaned up wplc_display_to_loggedin_only
+* Cleaned up wplc_elem_trigger_action
+* Cleaned up wplc_elem_trigger_id => reimplemented as array wplc_elem_trigger
+* Cleaned up wplc_elem_trigger_type
+* Cleaned up wplc_enable_all_admin_pages
+* Cleaned up wplc_enable_encryption
+* Cleaned up wplc_enable_transcripts
+* Cleaned up wplc_enable_voice_notes_on_admin
+* Cleaned up wplc_enable_voice_notes_on_visitor
+* Cleaned up wplc_et_email_body
+* Cleaned up wplc_et_email_footer
+* Cleaned up wplc_et_email_header
+* Cleaned up wplc_exclude_archive
+* Cleaned up wplc_exclude_from_pages
+* Cleaned up wplc_exclude_home
+* Cleaned up wplc_exclude_post_types
+* Cleaned up wplc_include_on_pages
+* Cleaned up wplc_iterations
+* Cleaned up wplc_loggedin_user_info
+* Cleaned up wplc_make_agent
+* Cleaned up wplc_require_user_info * forced meaningful values: both, name, email, none instead of mixup of numbers and strings
+* Cleaned up wplc_rest_api_enabled
+* Cleaned up wplc_restapi_nonce, set default null
+* Cleaned up wplc_return_user_chat_messages
+* Cleaned up wplc_send_transcripts_when_chat_ends
+* Cleaned up wplc_show_chat_detail in wplc_u_admin_chatbox_ui_events.js
+* Cleaned up wplc_use_node_server
+* Cleanup for unused tcx_send_msg elements and deprecated functions
+* Custom Fields * added validation on field name
+* Custom fields * added cancel button
+* Custom fields * added code to switch between text/dropdown
+* Default null for wplc_agent_name and wplc_agent_email
+* Departments are now considered beta
+* Disable Gutenberg blocks and shortcode if the option is disabled in the settings
+* Disabled google analytics for now
+* Disabled possibility for an agent to chat to himself
+* Don't send a request to get_messages rest-api endpoint if the chat is not active
+* Doubled timeout for long poll 
+* Ensure default theme is selected for new installations
+* Ensured desktop notifications include new notification icon
+* Escape Quick Responses in admin area
+* Exposed wplc_delay_between_updates parameter
+* Extra escaping for custom fields
+* Fifth and last batch wp_localize_script fixed
+* First batch wp_localize_script fixed
+* Fixed %message serialization issue
+* Fixed 22 possible SQL injections in functions.php
+* Fixed API endpoint when agent is ending a chat.
+* Fixed Able to load image from another site with img tag * added proper sanitization and checks, any message containing a valid gif url is rendered as image
+* Fixed Add GDPR retention period field validation for number range
+* Fixed Attachments, links and other elements not showing correctly in chat
+* Fixed Auto-responder 'From' email does nothing.
+* Fixed Chat box for logged in users only
+* Fixed Download Historical chat returns only last 100 chats of conversation * increased to 1000
+* Fixed Exception in custom fields
+* Fixed Exception in settings page
+* Fixed Make OnPremise and Server mode into radio boxes instead of a checkbox.
+* Fixed Minor text changes for on-premise
+* Fixed Notice: Undefined index: HTTP_REFERER in /var/www/html/wp-content/plugins/wp-live-chat-support/includes/wplc_data_triggers.php on line 631
+* Fixed Offline form message endlessly adding \ every time you save your settings
+* Fixed On Premise: Images sent by agent don't appear on customer side, also escaped on agent side * fixed thumbnail
+* Fixed On-Premise: Editor functions not working
+* Fixed Page redirects broken element
+* Fixed Properly users from a department when deleting a department.
+* Fixed REST API wrong sanitization
+* Fixed Remove file transfer support for certain filetypes
+* Fixed Rename: Chat delay (seconds):
+* Fixed Stripslash issue where ' adds / infinitely in 17 separate areas in the application
+* Fixed Transcripts only contain the last 100 chats of a conversation. => increased to 200
+* Fixed VULN: Fixed nearly 100 different possible vulnerabilities.
+* Fixed White text in transcripts was there but never visible.
+* Fixed a bug where agents were unable to delete missed chats
+* Fixed a bug with the 'Send Message' offline button styling, did not respect color scheme selection
+* Fixed alignment issues with Facebook and Twitter icons
+* Fixed all broken translation strings (html inside, spaces, slashed, untrimmed, etc)
+* Fixed an agent translation error 
+* Fixed an issue where a chat ended by 1 agent would not appear ended/finished nor disappear for other logged in agents. Partial workaround for the moment, need full re-design.
+* Fixed an issue where periodic websocket messages would sometimes cause ended chats to re-open as ghost chats.
+* Fixed an issue where sometimes 2 chat transcripts would be sent at the end of a chat conversation on both onpremise and 3CX Chat server mode.
+* Fixed an issue where sometimes a %20 is displayed when the 'John%20Johnson is typing' typing indicator was dispayed.
+* Fixed an issue where the 'Guest' default visitor name wasn't working. No code was behind this feature. Fixed for both On-Premise and 3CX Chat server mode.
+* Fixed an issue where the 30 Day GDPR retention period is always hardcoded and any input by the admin was ignored.
+* Fixed an issue with slashes in custom messages
+* Fixed an issue with some emoticons are not being parsed
+* Fixed an issue with the 'Agents can set their online status' tickbox being inverted
+* Fixed an issue with the agent texbox becoming grayed out after clicking on yourself in agent chat.
+* Fixed broken alignment of Like/Dislike buttons on frontend
+* Fixed chat end / restart with empty chat
+* Fixed chat icon selection in settings page * chat box
+* Fixed chat preview feature * sending chat preview only when enabled
+* Fixed chat textarea css
+* Fixed checkboxes value with better php code
+* Fixed custom agent message is escaped
+* Fixed dashboard links
+* Fixed dashboard, changed "There is currently: " to "Current activity: "
+* Fixed default sounds for chat server
+* Fixed default sounds for integrated server
+* Fixed departments list not appearing * server mode
+* Fixed deprecated filter wplc_filter_list_chats_url_params is called
+* Fixed get settings for ajax/user.php
+* Fixed horizontal scrolllbar always appears in chatbox
+* Fixed icon/picture/logo image upload * broken encoding
+* Fixed issue with Settings Import where an agent could replace any WordPress option in db
+* Fixed issue with missing text in transcripts
+* Fixed issues in the Live Chat > Settings > Agents page where the agent boxes would sometimes become disproportionate due to slightly longer than normal agent names.
+* Fixed issues related to alignment of the chat box and it's elements on various wordpress themes.
+* Fixed issues related to online/offline statuses with new status management implementation
+* Fixed issues related to the alignment of the rating, file upload, emoji buttons in chat.
+* Fixed minor issue with function being shown instead of being executed
+* Fixed more unparametrized SQL queries
+* Fixed node server login count issue. The logged in users count was wrong in certain cases.
+* Fixed node_secret_token regeneration bug
+* Fixed online/offline button
+* Fixed php warning on missing parameter wplc_gdpr_enabled
+* Fixed php warnings in wplc_edit_goal_mrg
+* Fixed settings_page.php checkbox
+* Fixed several css syntax errors
+* Fixed some broken translation strings
+* Fixed status always forced to true on dashboard reload on premise
+* Fixed topbar misaglined with some wordpress themes
+* Fixed transcript footer text color
+* Fixed unparameterized SQL query wp-live-chat-support.php line 2771
+* Fixed user top bar behaviour and layout
+* Fixed user top bar tagline for onpremise config
+* Fixed warning in wplc_roi.php
+* Fixed warning unserialize failed in php error logs
+* Fixed warnings in wplc_departments.php
+* Fixed wplc_new_chat_ringer_count for both on-premise and 3CX chat server modes.
+* Fixes to customer chat UI ( Icons, Positioning, Formating etc)
+* Force to boolean wrong saved string parameters
+* Force to integer wrong saved string parameters
+* Forced wplc_newtheme to 'theme-2'
+* Fourth batch wp_localize_script fixed
+* Function wplc_first_run_check now empty, removing
+* Functions.php line 16, 'user_agent' => $_SERVER['HTTP_USER_AGENT'] added sanitize_text_field()					
+* GDPR Label renamed to "GDPR Control"
+* GRPR page styling fixes
+* Hide roi reports tab for chat server due to issues related to functionality of
+* Improved preformatted tag handling inside html renderer
+* Improved settings wrapper with auto defaults
+* In On-Premise mode, the 'Enable Typing Preview' feature is no longer available due to technical limitations.
+* Invert option for enabling/disabling 'Initiate Chat' button
+* Known issue: "Triggers > Scroll trigger" has up to 25% scroll drift.
+* Lots of styling and broken CSS fixes
+* Merged WPLC_ACBC_SETTINGS parameters into WPLC_SETTINGS with settings migration on activation (WPLC_ACBC_SETTINGS is deleted)
+* Merged WPLC_ADVANCED_SETTINGS into WPLC_SETTINGS
+* Merged WPLC_BH_SETTINGS into WPLC_SETTINGS
+* Merged WPLC_CHOOSE_SETTINGS into WPLC_SETTINGS
+* Merged WPLC_ENCRYPT_SETTINGS param into WPLC_SETTINGS (WPLC_ENCRYPT_SETTINGS is deleted)
+* Merged WPLC_ET_SETTINGS into WPLC_SETTINGS
+* Merged WPLC_INEX_SETTINGS into WPLC_SETTINGS
+* Minor adjustments to the function which regenerates node token
+* Minor fix in tooltip of "Display Typing Indicator" under Settings -> Chat Box
+* Minor security improvement in GDPR area.
+* Minor text change in ROI Reports
+* More improvements to agent status * wplc_auto_online forces all agents to be online AND update status in wp options properly
+* Moved parsing functions to wplc_common_node.js
+* Moved the node token regenerate functionality via ajax
+* New empty .po files for translations. Most text in the application has changed dramatically. An initial batch of translations will be provided. Further languages to be added by end users interested in translating.
+* New function wplc_node_server_token_get() returns node_token and regenerates if needed
+* Partial fix for broken REST API auth
+* Partially fix for page redirect url formatting
+* Partially updated Italian translation
+* ROI GOals * Renamed Edit Goal
+* ROI Goals * Renamed Close button
+* Re-fixed top box chat icon overflow
+* Readded wplc_check_file_mime_type for file uploads with enhancements * more secure
+* Rebranding related changes
+* Reduced agent chat UI refresh timer from 30 to 5 seconds
+* Refactored variables and files to include the 'tcx' prefix where needed
+* Reformatted wplc_u_admin_chat.js
+* Reformatted wplc_u_events.js
+* Removed "enabled on mobile devices" feature and related code as mobile apps are deprecated
+* Removed 'Enable Typing Preview' in On-Premise mode. Allowed only for chat server mode.
+* Removed Buttons from Chat History page when in on-premise mode
+* Removed CSS from translations
+* Removed Chat box from Chat History page when in on-premise mode
+* Removed Gif Integration as there was no underlying code or functionality behind this. This was already properly handled by modern browsers.
+* Removed Google Analytics integration as it was poorly implemented. To re-add in the future.
+* Removed IP resolver in history/missed chats/offline chats and related code
+* Removed REST API TEST UI from the settings page as it was broken and not useful
+* Removed Voice Notes, Google Analytics Integration & Functionality of
+* Removed a lot of dead, unused and conflicting code
+* Removed all duplicated and useless parsing functions
+* Removed all duplicated translations strings, moved to $wplc_default_settings_array
+* Removed bio / social fields
+* Removed bio/social media configurations
+* Removed certain unnecessary file extension black list checks and mime types checks
+* Removed code related to Document Suggestion
+* Removed custom fields * redirect to plugin contact form ready
+* Removed dead reference to WPLC_ACBC_SETTINGS
+* Removed debug console logs
+* Removed deprecated wplc_display_name
+* Removed duplicate /audio directory with default sounds
+* Removed duplicate code from agent_node and node
+* Removed edit message callbacks and handlers
+* Removed extraneous options (Chat History & other labels) from the agent UI
+* Removed filter callback that was mangling string parameters
+* Removed freshdesk?!? useless parameters WPLC_IC_SETTINGS wplc_ic_enable WPLC_ma_SETTINGS
+* Removed harmful js code without sanitization
+* Removed internal rest api usage for typing feature, replaced with ajax+nonce for both agents and users
+* Removed invalid warnings/notices
+* Removed ip address resolver for local server mode
+* Removed message editing leftovers causing issues
+* Removed notice related to deprecated PRO.
+* Removed old broken param cleanup code * deprecated by new validator
+* Removed php debug logs
+* Removed php debug logs
+* Removed rest-api agent upload endpoint from being exposed in front-end as it is only being used by agents.
+* Removed restrictions for long poll config
+* Removed roi goals menu when chat server is enabled
+* Removed the 'Classic' theme from the styling section as this was vulnerable, unmanageable and very out of date.
+* Removed the 'Show Events' from the agent UI and all code related to it.
+* Removed unnecessary rest api and endpoints
+* Removed unused agent_status.js script
+* Removed unused deprecated parameter WPLC_HIDE_CHAT
+* Removed unused sleep_between_iterations parameter
+* Removed useless message-data tag from chat messages in chatbox (was used by editing function)
+* Removed user Event Logging functionality and UI.
+* Removed voice notes. Was poorly implemented.
+* Removed warnings when theme not set
+* Removed wplc_is_pro remains
+* Replaced bleep/blop with ping/pong
+* Restored feature: Retrieve messages from session storage instead of requesting with rest api
+* Restricted referer for site itself only
+* Reworked all theme management to have a default
+* Reworked default settings management * Now ALL settings have a default
+* Rewrite of message all html rendering/parsing/sanitizing
+* Rewrote business hours check * was broken
+* Rewrote business hours configuration
+* Rewrote configuration for chat preview
+* Rewrote configuration for sounds
+* Rewrote file upload management
+* Rewrote load settings function, with converter, sanitizer, defaults management
+* Rewrote parameter handling * added sanitizer / type parser
+* Rewrote the entire agent Dashboard page. Added basic chat stats such as current visitors, online agents, chat stats, WPLC news and quicklinks.
+* Rewrote theme detection and configuration and removed older theme-for-theme fixes.
+* Second batch wp_localize_script fixed
+* Separated AJAX requests to backend/frontend
+* Separated rest api to backend/frontend
+* Styling fixes in History and Missed Chats pages
+* Surveys "After Chat" set to default
+* Surveys have been removed due to issues related to security.
+* Switched long poll configuration from microseconds to milliseconds
+* Temporary fix for issue with Agents being able to interact with visitors outside business hours in Cloud Server mode
+* Third batch wp_localize_script fixed
+* Translations update
+* Unhandled empty settings in many places * added load settings wrapper function everywhere wplc_get_options()
+* Updated old/broken links
+* Updated translation files
+
+= 8.0.37 - 2019-08-20 - High priority =
+* Greatly improved chat responsiveness when using WPLC public chat servers
+
+= 8.0.36 - 2019-07-05 - High priority =
+* Fixed possible authentication issue with chat server
+
+= 8.0.35 - 2019-07-05 - High priority =
+* Moved away from EvenNode and onto Google App Engine for high performance multi-region chat
+* Updated jQuery UI to 1.12.1 (CSS Only)
+* Added custom styles to add jQuery UI support in settings area
+* Removed non-vendor version of jQuery UI
+* Added SQL sanitizing to Rest Request params
+* Moved external Nimble Squirrel image to a local reference
+* Moved Google Chart loader.js to a local reference
+* Updated Switchery to support disable and enable calls
+* Added enable/disable calls to switchery to prevent toggle spamming, which could cause sockets to remain unclosed
+* Fixed issues with file sharing from agent/user side
+* Fixed issue with user message position in modern dashboard
+* Fixed bug where email notificaitons were being sent twice
+* Fixed bug where chat would not automatically switch to 'online' when choose when online toggle was disabled
+* Fixed bug with transfer functionality
+* Fixed an issue where history would include browsing users
+* Fixed undefined reference 'get random server' function in wplc_dashboard.js
+* Fixed issue with shrink header alignment
+* Changed field content to change placeholder of custom field
+* Added support to auto link generator for port numbers in the URL
+* Fixed issue with chat transcripts not being sent correctly
+* Fixed issue with chat animation header toggle
+* Fixed issue with hovercard showing when spamming header chat
+* Changed position of typing indicator on front end
+* Changed title for chat transcript modal
+* Fixed offline message styling inconsistency - Modern Theme
+* Fixed offline message sending and storage bugs
+* Fixed dropdown custom field styling inconsistency
+* Modified agent list in settings area
+* Fixed issues with drag and drop upload on frontend
+* Fixed inconsistent alert messages
+* Updated classic stylesheet
+* Fixed issues with trigger editing
+* Added mobile support for WDT Emoji Library
+* Added max height to offline form in modern theme
+* Changed active theme/color selection indicator
+* Changed custom color selector system
+* Added URL validation for social links
+* Changed position of social icons - Modern Theme
+* Removed 'Leave Chat' button in chat dashboard
+* Fixed issue with message tone preview playback on 'Default'
+* Added security violation alerts for unsupported files
+* Removed the disconnect agent notice
+* Fixed issues with 'Direct user to page' functionality
+* Fixed issues with event logging
+* Added auto responder first message storage
+* Fixed styling issues with system notifications
+* Restructured chat input tools 
+* Restyled styling for chat input tools
+* Fixed issues with emoji popup container placement
+* Changed custom color scheme selector title
+* Removed drag and drop file sharing
+* Fixed issue with mouse over cursor pointer in settings
+* Fixed classic styling message box
+* Added code to hide/show add agent button based on whether a selection has been made from dropdown
+* Added a URL validation notice in the settings area
+* Fixed issue with documentation notices in admin area
+* Fixed issues with documentation suggestions on the frontend
+* Fixed displacement of custom fields when compared to default fields
+* Fixed styling issue with message textarea in classic theme
+* Fixed incorrect URL pointer
+* Restructured message tools and styling in classic
+* Resolved issues with history persistence
+* Resolved issues with chat agent header not being received
+* Removed message edit functionality
+* Changed MIME error reports to a standard error message
+* Fixed issue with file sharing when cancelling file selection
+* Fixed issue with inaccurate 'user left' notifications
+* Added a character counter and soft limiter to the offline messages input
+* Added allowed filetypes to error messages for file sharing
+* Fixed issues with direct user to page links exceeding chat space
+* Fixed styling issues with documentation suggestions on the front end
+* Fixed time placement of active chat rows in modern dashboard
+* Removed text indent on close icon for active chat rows in modern dashboard
+* Fixed styling issues with the agent count
+* Added visual column names to the active chats panel
+* Fixed issue where offline message header would be hidden upon submission
+* Fixed issue where offline chatbox would overlap icon (modern theme) on some devices
+* Removed styling from email system. Changed to plain text style
+* Removed username from offline message subject line
+* Fixed issue where end chat button was not visible on mobile devices (modern theme)
+* Auto close chat session when user ends a chat (agent dashboard)
+* Changed session handling when user ends chats
+* Overall improvements to chat session handling
+* Fixed styling issues with settings tooltips
+* Fixed issues with editing custom fields 
+* Added default field name to custom field dropdown as 'first choice'
+* Changed position of visitor avatar in dashboard
+* Added check for if minute value is less than 10 - Active visitor row in dashboard
+* Added fixed width to offline messages table
+* Standardize table avatar styles
+* Fixed issue where agent profile picture went missing when sharing files
+* Hide add agent button again after adding a new agent in settings
+* Moved position of typing indicator in classic theme
+* Added reserved space to last message to allow for typing indicator to display independently in most cases
+* Fixed issues with creating a new trigger
+* Fixed issue with dashboard chat transcripts not passing chat ID
+* Added JS validation for social links
+* Changed font-sized in both modern and classic
+* Standardize padding, offsets, and margis in modern and classic
+* Changed style of end chat button
+* Added satisfaction reporting card for 'no agent'
+* Altered styles of reporting cards
+* Added auto scroll on image load in agent dashboard
+* Updated fonts in hovercard popup
+* Fixed undefined 'editor_enabled' variable in functions.php
+* Fixed styling for blog posts in dashboard page
+* Fixed bug where agent header information would be removed on disconnect
+* Improved header styling on the frontend(modern)
+* Fixed bug where chat history would still be visible after switching to offline
+* Added code to automatically notify the user that the agent has left/ended the chat when going offline
+* Added URL JS validation to redirect URL field
+* Fixed issue with typing indicator in classic theme, animation related
+* Fixed issue with sending transcripts from history
+* Fixed styling issues in transcript emails
+* Added attachment prefix stripping to transcripts get_messages call
+* Changed tagline styling in modern chatbox
+* Made changes to show social icons at all times
+* Fixed tagline persistence on page reloads
+* Fixed bug where empty social and redirects links were not allowed
+* Fixed bug with scrollable region becoming visible in firefox in some instances
+* Fixed issue with attachment stacking in agent dashboard
+* Added click to open for image attachments 
+* Added scroll support to message input on frontend
+* Fixed missing pointer cursors on front end chat controls
+* Standardized size of in chat controls
+* Changed 'transfer' references to 'invite' references instead
+* Fixed multi agent chat header stacking
+* Fixed typo in auto transfer notice
+* Added 'Direct to page' notification storage
+* Added admin direct to page notice in real time
+* Improved links in chatbox (styling)
+* Added welcome message removal event handler
+* Removed scroll collapse/expand handler for modern chat header
+* Added ability to cancel rating and close prompt
+* Added exceprt support for agent name chain with title attribute on hover (modern)
+* Added title attribute to tagline along with italic styling (modern)
+* Improvements to overall visitor list management as well as chat restarts
+* Changed auto end chats to only notify visitor that the agent has left
+* Fixed issues with tagline being sent twice in some cases
+* Removed involved agents when user restarts chats
+* Clear chatbox when user restarts chat 
+* Changed structure of lifetime tracking
+* Fixed history processing issue
+* Made changes to agent satisfaction reporting
+* Added code to show the 'Leave chat' button only when multiple agents are involved in a chat
+* Removed time from system notifications in email transcripts
+* Added break tag to system notifications in email transcripts
+* Added ability to upload the same file repeatedly
+* Changed tab index of rate button
+* Clear rating after submission
+* Fixed rating stacking
+* Added code to hide 'invite' button until a department/agent is selected
+* Removed the clear chat history on user restart of chat event
+* Changed documentation suggestions to make use of WP Remote Get requests to improve reliability
+* Changed participant notification system
+* Added code to update the chat header when an agent leaves the chat
+* Made changes to the agent online sync controller
+* Fixed "Undefined variable: ret" in Custom Fields control
+* Removed option to disable the advanced editor filters
+* Rebuilt active visitor counter
+* Added code to show the confirm button in dialogs by default
+* Improved message deserialization
+* Added code to rebuild header when agent rejoins after going offline
+* Removed code which disables transcript once 
+* Improved participant tracking
+* Added code to remove the 'restart chat' button on frontend if agent reaches out again
+* Added auto join on invite accepted 
+* Fixed bug where switching an agent to offline mode would cause agent counter to behave unexpectedly
+* Improvements to join event control
+* Fixed bug where one agent initiates a chat, but all agents are added to the chat involved list
+* Improvements to internal agent to agent chat system
+* Improved push to chatbox functionality
+* Fixed slashing of gutenberg HTML attributes
+* Added end chat rest call when agent ends chat
+* Added additional filtering to transcript functionality
+* Removed GDPR and Deprecation notices
+* Removed Lifetime indicator in agent screen
+* Removed realtime rating feedback for agent screens
+* Removed chat rating note functionality
+* Removed the need to double-confirm rating submission
+* Removed rating stacking, multiple ratings per chat no longer supported
+* Forced the rating note content to be empty to avoid any submission of notes from front end
+* Removed rating comments from reporting screen
+* Enabled Experience Ratings, Typing indicator, show date and time options for all new installations
+* Fixed styling issue with avatars on missed chats page
+* Removed collapsed attachment icon toolbar from agent dashboard
+* Moved attachment controls into input bar tools for agent dashboard
+* Removed deprecated images from image directory
+
+= 8.0.34 - 2019-06-03 - High priority =
+* Fixed issue with activation function
+* Fixed issue with node server ping when chatbox is offline
+* Fixed bug where embedded chatboard was not showing in admin pages
+* Refactored Bootstrap Styles to prevent them from affecting WordPress Styles
+* Replaced all chat servers with Google Cloud servers.
+
+= 8.0.33 - 2019-05-30 - High priority =
+* Adds additional security hardening to the REST API (Reported by Jonny Milliken - Active Intelligence)
+* Fixed issue where chat rel was not being respected by the converter function
+* Fixed DDOS Vector on the End Chat button by hiding and disabling the end chat functionality once clicked
+* Fixed DDOS Vector which allowed more than 2000 characters to be send as a user message. Checks in place to prevent this.
+
+= 8.0.32 - 2019-05-28 - High priority =
+* Removed references to esc_attr within PO file configuration
+* Remove Custom Scripts area (including JS and CSS)
+* Remove handlers for Custom Scripts
+* Added back the AES and Crypto Helper classes to support backwards compat encryption/decryption of messages
+* Added supporting encryption/decryption functions
+* Added a dismissable notice explaining the deprecation of local encryption and local server usage
+* Restored the ability to enable/disable encryption
+* Restored the ability to enable/disable the use of local servers
+* Fixed bug where Ace library was still trying to initialize custom JS and CSS boxes
+
+= 8.0.31 - 2019-05-27 - High priority =
+* Additional sanitization and security cleanup
+* Added upgrade check to clear custom JS prior to version 8.0.31
+* Updated readme to document use of external services
+* Fixed a bug in departments transfer where name is not defined
+* Fixed issue with GUID not being generated after re-activation
+* Fixed issue with escape loop in settings area
+* Removed setting to disable remote servers
+* Removed local encryption functionality, every chat message is using HTTPS secure connection
+* Removed AES and CryptoHelpers as these are no longer used
+* Removed manual inclusion of SMTP and PHPMailer 
+* Removed mail type setting, along with SMTP options
+
+= 8.0.30 - 2019-05-20 - High priority = 
+* Security revision, code updated with latest security best practices
+* Removed all external dependencies
+* Nonce fields and URLs added to actions within admin area
+* Implemented WP Prepared Queries to increase security
+* Fixed issues with REST API Test system
+* Changed all non-service remote file references to local references
+* Ensured all asset files are loaded dynamically, and paths are never assumed
+* Implemented realpath and proper sanitization on all file handlers
+* Removed API Keys area as this is no longer in use
+* Updated Bootstrap to V4.3.1
+* Updated modern dashboard styles to support updated Bootstrap version
+* Added local upgrade variables to modern dashboard render function
+* Fixed bug in wplc_choose.js where duplicate Switchery toggles were generated
+* Changed position/style of Online/Offline toggle
+* Changed loading of wplc_node.js file on the frontend to use wp_enqueue_script
+* Deprecated 'wplc_submit_find_us' handler as this is no longer in use 
+* Removed any reference to Pro version
+* Replaced all CURL requests with WordPress HTTP API requests
+* Removed hardocded media.tenor image reference (loading graphic in GIF integration)
+* Replaced all 'esc_' calls with respective WordPress sanitization calls 
+* Added sanitization to all $_GET and $_POST variable to prevent any injection or storage of unsafe values 
+* Deprecated 'wplc_api_call_to_server_visitor' REST endpoint as it was not in use and made use of session data
+* Removed AJAX use of 'ob_start' to improve performance
+* Added checks to prevent direct file access.
+
+= 8.0.29 - 2019-05-17 - High priority =
+* Security fix in Custom JS configuration
+
+= 8.0.28 - 2019-05-17 - High priority =
+* Security fix in GDPR configuration
+
+= 8.0.27 - 2019-05-15 - High priority =
+* Free and PRO plugins are now merged
+* All previously "PRO" features are now unlocked
+* Legacy Code cleanup for version < 8
+* Minor changes in the admin menu names/slugs
+* Fixed styling issue in Triggers content replacement editor
+* Fixed various PHP warnings/notices
+* Removed the option to download/delete chats from the front-end 
+* Fixed an issue where Document Suggestions would appear twice
+* Updated/synchronised translation files
+* Improved security for js configuration
+* Fixed XSS attack in GDPR page
+* Security Patch: Added save settings nonce field and processing to prevent remote access. Resolves potential Cross Site Scripting attacks. Thanks to John Castro (Sucuri.net)
+* Improved file upload extension validation
+ 
+= 8.0.26 - 2019-04-04 - Medium priority =
+* Added 16 more servers
+* Improved server selection code
+* Minor fixes to administration console
+* Deprecation of mobile and desktop apps
+
+= 8.0.25 - 2019-03-19 - Medium priority =
+* Modified server integration code
+* Modified remote file sources
+* Added update notice to ensure stability
+
+= 8.0.24 - 2019-03-04 - Medium priority =
+* Added styling settings hook.
+* Added Slovenian translation files. Thanks to Zarko Germek
+* Fixed bug where transcript message would be empty if settings were cleared (defaults)
+* Fixed bug where slashes were repeatedly added to GDPR company name
+* Fixed issues with history styling when using our servers
+* Fixed a bug where wp_localize_script would localize an empty value, causing WP Core errors appearing on the frontent (Survey Module)
+* Fixed placement issue when using classic theme
+* Modified cookie lifespan for dashboard redirect
+* Modified remote dashboard URL to load directly from API
+* Modified all Gravatar links to default to Mystery Man
+* Improved styling in settings area
+* Updated Bulgarian translation file. Thanks to Pavel Valkov.
+* Tested on WordPress 5.1.0
+
+= 8.0.23 - 2019-02-05 - Low priority =
+
+* Fixed access to new dashboard for non admin agents
+* Fixed documentation suggestions not working (Pro)
+
+
+= 8.0.22 - 2019-02-04 - Low priority =
+
+* Introduced a new dashboard that showcases latest blog posts, the latest podcast episode and the system status
+
+* Moved GDPR warnings for first time users to the settings page only
+
+* Moved the warning regarding desktop notifications to the settings page only
+
+
+= 8.0.21 - 2018-12-18 - Low priority =
+* Readme Update: Coming soon features
+* Readme Update: Features list
+* Tested on WordPress 5.0.1
+* Updated ZH_CN translation files. Thanks to Air
+
+= 8.0.20 - 2018-11-29 - Medium priority =
+* Fixed issue where relay server requests were made via a shortpoll. (Performance Update)
+* Re-enabled automatic server location selection for new insttalations
+* GDPR Compliance is now disabled by default for new installations
+
+= 8.0.19 - 2018-11-19 - Medium priority =
+* Tested on WordPress 5 Beta
+* Tested Basic Gutenberg Block Support
+
+= 8.0.18 - 2018-11-01 - High Priority =
+* Fixed XSS vulnerability within the GDPR search system (Thanks to Tim Coen)
+* Fixed Self-XSS vulnerability within the message input field on both dashboard and chat box (Thanks to Tim Coen)
+
+= 8.0.17 - 2018-10-19 - Low priority =
+* Removes WP User Avatar option from settings page. This was incorrectly included in the last release
+
+= 8.0.16 - 2018-10-18 - Low priority =
+* Fixed undefined 'wplc_user_avatars' not defined error on frontend
+
+= 8.0.15 - 2018-10-11 - High priority =
+* Added WP User Avatar integration
+* Added jQuery 3 compatibility as per WordPress.org guidelines
+* Added auto hide of chat ended prompt on close or restart
+* Fixed a possible injection issue within the notification control (Thanks to Nico from serhack.me)
+* Fixed Gutenberg and Yoast compatibility issue
+* Fixed minor issue with rest storage module
+* Fixed minor styling issue with popup dashbaord
+* Fixed some core issues which influenced custom fields (Pro)
+* Fixed issue with Android Browser image missing in dashboard
+* Fixed delete chat history not deleting messages
+* Fixed nonce checking for non-logged in users failing on cached pages for AJAX and WP API
+* Updated NL translation with GDPR strings (Google Translate)
+* Updated EL translation files. Thanks to Ioannis Barkouzos
+* Updated FR translation files. Thanks to Freitas Junior
+* Updated IT translation files. Thanks to Carlo Piazzano
+* Updated AR translation files. 
+
+= 8.0.14 - 2018-07-19 - Medium priority =
+* Removed 'let' from wplc_server.js file (Adds Safari compatibility)
+* Fixed issues with Google Analytics integration when using our servers
+* Fixed issues with chat box styling with classic theme and GDPR module enabled
+* Fixed issues with Contact From Ready integration styling with modern theme
+* Fixed issues with Slack integration extension
+* Bulgarian Translation Added (Thank you Emil Genchev!)
+* Fixed erroneous display of set_time_limit and safe_mode warnings
+* Fixed a big that lead to the deletion of sessions and not messages when a chat was marked for deletion
+* Improved security in the chat history code
+* Added better styling support for smaller width devices (<500px)
+* Updated Swedish translation files
+* Added Arabic translation files
+* Fixed the duplicate message history loading in the history area
+* Fixed core framework issues with Voice Note system
+* Fixed an issue where invalid query selectors would break the 'Open chat via' functionality
+* Fixed an issue with username encoding
+* Fixed issue with surveys showing after chat end
+* Fixed an issue with classic theme display when anchored to left/right positions
+* Added auto transcript mailing to frontend end chat button, and REST API
+* Added an 'incomplete' class when GDPR checkbox is not ticket, to draw attention to this input field
+* Tested Multi-Site compatibility
+* Updated all PO/MO files with updated sources
+* Added default GDPR translations for DE, FR, ES, and IT languages (Using Google Translate)
+
+= 8.0.13 - 2018-06-06 - Medium priority =
+* Fix chat delay not working for first visit and offline
+* Optimize images
+* Mootools compatibility
+* Fix new chat request email notifications when Pro is active
+
+= 8.0.12 - 2018-05-29 - High priority =
+* Fixed a bug which caused the chat box not to display on some sites
+* Fixed minor styling issues
+
+= 8.0.11 - 2018-05-28 - High priority =
+* Fixed a bug that caused a fatal error on PHP 5.3 and below
+
+= 8.0.10 - 2018-05-25 - Medium priority =
+* Resyncs files for GDPR modules to load correctly
+
+= 8.0.09 - 2018-05-25 - High priority =
+* Added GDPR Compliance
+* Added GDPR Options
+* Added GDPR Admin page
+
+= 8.0.08 - 2018-05-14 - High priority =
+* XSS vulnerability fixes thanks to Riccardo Ten cate
+* Fixed REST Storage Issue
+* Add pagination to History, Missed Chats and Offline Messages admin pages
+* Fix for Disable Emojis setting not displaying when Pro is active
+* Fix for timestamp not displaying correctly
+* Fix for WP Rocket comaptibility
+* Fix for chat box not popping up for returning visitors that had previously minimized
+
+= 8.0.07 - 2018-03-23 - Low priority =
+* Fixed a "direct user to page" bug
+
+= 8.0.06 - 2018-03-23 - High priority =
+* XSS vulnerability fixes thanks to https://www.gubello.me/blog/
+* Fixed a chat width styling bug on the front end
+
+= 8.0.05 - 2018-03-09 - Medium priority =
+* Chat minimize is now respected
+* GIF integration support (Giphy, Tenor)
+* Fixed get correct rest api endpoint urls
+* Fixed chat box header not respecting Use WordPress name instead option
+* Fixes CSS issue in dashboard with the action column
+* Fixes chat history styling
+* Mac style fix (front end)
+* Email transcript integrated
+
+= 8.0.04 - 2018-02-12 - Low priority =
+* Allowed strings from the front end to be translated
+* Fixed the iPhone Safari display bug (zooming in to the chat box)
+* Added support for the agent to detect and connect to the closest chat server
+
+= 8.0.03 - 2018-01-30 - Medium priority =
+* Fixed a CSS bug
+* Corrected a bug with the default theme not being set correctly.
+
+= 8.0.02 - 2018-01-29 =
+* Fixed a PHP warning
+* Modified rest_url filter to no longer use anonymous function
+* Fixed styling conflicts between our settings and other pages in WordPress admin 
+* Fixed issues with file uploads (Bleeper core)
+* Fixed hints in settings area
+* Fixed links in chat bubbles not being clearly visible
+* Fixed assets loading on all admin pages when option is disabled
+* Fixed the bug that caused issues if your folder name was not wp-live-chat-support
+* Fixed issue where inactive chat status is not removed when new message from that chat is received
+* Welcome page styling fixed
+
+= 8.0.01 =
+* Massive improvements to the performance of the plugin
+* New, modern dashboard
+* The dashboard can now be added to all admin pages
+* Dynamic visitor filtering
+* Improved REST API Security
+* OS identification
+* Better Browser identification
+* Mobile/desktop identification
+* Country identification (API)
+* Inline link handling
+* Security patches
+* Gutenberg support
+* Full WPML Support
+* Showcase user's timezone
+* Emoticons added to the chatbox
+* New API endpoints
+* Refactor JS code – backend and frontend to make use of events
+* Store messages using sessionStorage to avoid unnecessary DB calls
+* Better polling system for visitor tracking
+* Better history UI
+
+= 8.0.00 =
+* Beta release
+
+= 7.1.08 - 2018-01-04 - Low priority =
+* PHP 7 compatibility
+
+= 7.1.07 - 2017-11-06 - High priority =
+* Patched a security exploit found by James @ Pritect, Inc.  Thank you James!
+ 
+= 7.1.06 - 2017-09-27 - Low priority =
+* Fixed a bug that stopped agents from deleting offline messages
+
+= 7.1.05 - 2017-08-01 - High Priority =
+* XSS Vulenrability Fixed - Thank you Omaid Faizyar
+
+= 7.1.04 - 2017-07-10 - Medium Priority =
+* Fixed a fatal error when trying to delete chat history
+
+= 7.1.03 - 2017-07-10 - High Priority =
+* XSS Vulenrability Fixed - Thank you pluginvulnerabilities.com
+
+= 7.1.02 - 2017-06-29 - Medium priority =
+* Fixed undefined variables when using social profiles, a bio and tag line
+* Fixed a bug that caused some messages to not get recorded
+
+= 7.1.01 - 2017-06-18 - Low priority =
+* Small bug fix for agent profiles
+
+= 7.1.00 - 2017-06-18 - Medium priority =
+* Modernised the live chat box
+* Fixed a bug that caused the wrong agent name to show up in the "typing" element after a chat was transferred
+* Other minor bug fixes
+* Added better support for caching systems (style sheets now have a version tag)
+* Added additional support for the new features of the Cloud server
+* Replaced all appropriate references of get_option('siteurl'); with site_url(); to embrace SSL where needed
+* Images are now preloaded on the front end for a better user experience
+* Fixed a fatal error found on some installations (https://github.com/CodeCabin/wp-live-chat-support/issues/329)
+* Fixed a bug that cause the "Retry chat" to not work with the modern chat box
+* Fixed a bug with the missed chat functionality - when an agent missed the chat, the chat ID would change and the agent would not be able to communicate with the visitor
+* Fixed a bug with the listing of all missed chats
+* Fixed a bug that sent pings to the node server when it was not necessary, causing an overload of the node server
+* Fixed a bug that did not allow you to view the chat history of a missed chat
+* Fixed a bug that caused the 'display name' and 'display avatar' to behave erratically 
+* Fixed a bug that caused the time and date display functionality to behave erratically
+* Fixed a bug that caused a JavaScript error on the admin chat dashboard when a single visitor leaves the site 
+* Fixed a bug that caused the chat widow to appear before the chat circle when engaged in a chat and moving from page to page
+* The visitor can now restart any chat that has been ended by an agent
+* You can now customize the text "The chat has been ended by the operator"
+* Fixed a bug that caused duplicate loading of messages
+* When using a custom element to open the chat window, that element now has a cursor pointer styled to it by default
+* Fixed a bug that incorrectly fired off ajax events when minimizing or maximizing the offline message box
+* Fixed a bug that caused the offline message box to show up incorrectly after being dragged
+* Fixed a bug that caused "maximize" notifications to not get sent through to agents when using the Node server
+* Fixed a bug that did not allow single missed chats to be deleted
+* Fixed a bug that caused the text input field to continually be focused on thereby causing issues
+
+= 7.0.08 - 2017-06-08 - Low Priority =
+* Tested on WordPress 4.8
+
+= 7.0.07 -2017-05-16 - Medium Priority =
+* You can now change the text of the offline message button
+* You can now change the text of the close chat button
+* Added a notification to the chat dashboard to help agents identify if the chat box is not showing up on the front end, and provide a reason
+* Added ability to set a default visitor name
+* Added ability to choose which user fields are required (name, email or both)
+* Added visual aid when new message is sent and chat is minimized (user's side)
+* Fixed a bug that caused a sound to be played on every page load of a visitor
+* Fixed a bug that stopped a user from sending a message when the admin initiated a chat
+* Fixed the bug that showed the incorrect icon for IE
+* Fixed a bug that caused empty button without remove/delete icon in Missed Chats
+* Fixed a bug that caused attached images to not display correctly
+* Fixed a bug that caused notifications to show up in the front end when the agent is testing a chat with him or herself
+
+= 7.0.06 -2017-03-13 - Low Priority =
+* Enhancement: 'Open Chat' button changes to 'Chat Accepted' once a chat is active
+* Bug Fix: Compatibility bug fix for decryption in the Pro version
+
+= 7.0.05 - 2017-03-01 - Low priority =
+* Fixed broken links on the plugins page 
+
+= 7.0.04 - 2017-02-15 =
+* Fixed a bug that caused messages to be returned encoded after refreshing the page
+* Fixed a bug that caused the incorrect agent name to be used in the chat window
+* Fixed a bug that caused the 'No Answer' text to not save and show in the chat window
+
+= 7.0.03 - 2017-02-06 =
+* Fixed a bug that caused the name of the agent to disappear after refreshing the page
+* Fixed a bug that caused the agent name to display twice in the chat window
+
+= 7.0.02 - 2017-01-26 - High priority =
+* PHPMailer vulnerability patch (removed our version of PHPMailer and are now using WP's built-in version)
+* Added the ability for plugin users to subscribe to our mailing list
+
+= 7.0.01 - 2017-01-03 =
+* Fixed a bug that caused the chat to disappear after being opened for some users
+* Changes made to the German language files
+* PHPMailer has been updated to the latest version
+
+= 7.0.00 - 2016-12-14 - Medium Priority =
+* Major performance improvements - 300% reduction in DB calls
+* Node Server Integration (Experimental)
+* Users no longer have to wait for an agent to answer a chat, they can start typing immediately
+* Users can send a request a new chat if a chat times out or an agent doesnt answer
+* Changed tabs in the settings page to be vertical
+* Removed deprecated functions
+* JavaScript errors fixed when using IE
+* Ability to enable a powered by link on the chat
+* Ability to enable/disable the visitor name and/or gravatar
+* Chat history page columns styling fixes
+* Ability to show the date and/or time in the chat window
+* Styling improvements made to the settings page
+* Ability to redirect to a thank you page after the chat has ended
+* You can now start a new chat after refreshing the page instead of waiting 24 hours
+* Fixed a bug that caused an error in the dashboard when using the PHP cloud server
+* Fixed the styling within the admin chat window to suit the theme chosen
+* Fixed a bug that caused duplicate loading of messages when the user started typing before the admin chat screen was open
+* Integrated with Contact Form Ready to allow for custom forms to be used for the offline message form
+* Google Analytics Integration
+* Ability to change the subject of the offline message
+* Ability to add custom CSS and JavaScript in the settings page 
+
+= 6.2.11 - 2016-10-27 - Medium Priority =
+* Fixed a bug that caused issues with the User JS file when being minified
+* Fixed a bug that caused the 'Congratulations' message to never clear when using the Cloud Server
+* Fixed a bug that caused new TLD's to return invalid when starting a new chat
+* Fixed a variety of strings that were using the incorrect text domain
+* Italian translation updated - Thank you Angelo Giammarresi
+* HTML is now rendered in the Input replacement field of the Classic chat window
+
+= 6.2.10 - 2016-10-18 - High priority for IE users =
+* IE bug fix - fixed the bug that stopped the chat window from opening when clicking on it
+* Fixed the bug that caused user messages to not be sent on some websites due to non-unique function names being used in the md5.js file
+* Translations
+*   Italian translation updated - thank you Angelo Giammarresi and Eta Entropy and Denny Biasiolli
+*   Estonian translation added - thank you Joonas Kessel
+*   Chinese translation updated - thank you Wan Kit
+*   Missing translation strings added in all languages
+
+= 6.2.09 - 2016-09-15 - High priority for cloud users =
+* Further cloud server bug fixes
+
+= 6.2.08 - 2016-09-15 - High priority for cloud users =
+* Fixed a bug that caused no visitors to be displayed when using the cloud server
+
+= 6.2.07 - 2016-09-15 - Medium priority =
+* Fixed a bug that caused a fatal error on older PHP version
+
+= 6.2.06 - 2016-09-15 - Medium priority =
+* Added Rest API functionality (Accept chat, end chat, get messages, send message, get sessions) 
+* Added 'Device' type logging to live chat dashboard area. 
+* Minified User Side JavaScript
+* Added Connection Handling (user), which will now retry to establish connection upon fail
+* Added Connection Handling (admin), which will retry to establish connection upon fail
+* Fixed a PHP warning on the feedback page
+* Fixed a bug where offline strings weren't translating when localization option was checked
+
+= 6.2.05 - 2016-08-22 - Medium priority =
+* Added compatibility for Live Chat triggers
+* Added Classic Theme's Hovercard (Will only show with triggers)
+* Fixed a bug which prevented the online/offline mode to affect the 'start chat' button
+* Fixed Responsive issues with modern theme
+* Ability to delete individual Missed Chats
+* Ability to delete individual Chats from History
+* Minor Styling Conflicts Resolved
+* Fixed the bug that caused "start chat" to be added to the button in the live chat box when offline
+* Fixed a bug that showed slashes when apostrophes were used 
+* Added various filters/actions for use in Pro
+* Added ability to open chat box using an elements ID/Class (Click/Hover)
+
+= 6.2.04 - 2016-08-01 - High priority =
+* Security patches in the offline message storing function (https://www.securify.nl/advisory/SFY20190709/stored_cross_site_scripting_vulnerability_in_wp_live_chat_support_wordpress_plugin.html)
+
+= 6.2.03 - 2016-07-19 - Low priority =
+* Italian translation updated - thank you Angelo Giammarresi
+* Fixed Danish translation bug
+* Minor UI fixes
+* Edge browser bug fix when opening chats
+
+= 6.2.02 - 2016-07-11 - High priority =
+* XSS Security patch - Thank you Han Sahin!
+
+= 6.2.01 - 2016-07-06 - High priority =
+* Surveys/Polls added - you can now add a survey/poll to your chat box either before or after a chat session
+
+= 6.2.00 - 2016-06-10 - High priority =
+* Cloud server bug fix
+* Offline messages bug fix
+* Internet explorer and Edge browser bug fix which caused the chat to not display
+* Fixed the bug that stopped email addresses such as "name@domain.tld" from validating
+* Advanced options to control the long poll variables
+* Support added for many new pro features
+
+= 6.1.02 - 2016-04-13 - Low Priority =
+* Tested on WordPress 4.5
+* Fixed a bug that sent offline messages to the wrong email address
+
+= 6.1.01 - 2016-04-07 - Low Priority =
+* You can now delete inidividual offline messages from your history
+* Code improvements done to the way scripts are loaded when displaying the chat
+* Fixed a bug that returned an undefined index when recording a visitors IP address
+* Fixed a bug that displayed chat messages over the logo
+* Code improvement - A visitors name will display if filled out automatically, instead of 'Guest'
+* WHOIS for IP Address now opens in a new window
+* Fixed a bug that caused issues when downloading the chat history containing non UTF-8 characters
+* Fixed a bug that displayed the incorrect Gravatar images in the chat messages
+* Translations Added:
+*  German Updated (Thank you Benjamin Schindler)
+*  Brazilian Portuguese Updated (Thank you Luis Simioni)
+*  Farsi (Thank you Maisam)
+*  Norwegian Updates (Thank you Ole Petter Holthe-Berg)
+*  Croatian (Thank you Petar Garzina)
+*  Italian Updated (Thank you Angelo Giammarresi)
+*  Danish Updated (Thank you Kasper Jensen)
+*  Spanish Updated (Thank you Olivier Gantois)
+*  French Updated (Thank you Olivier Gantois)
+
+= 6.1.00 - 2016-03-18 - Medium priority =
+* Fixed a bug that caused the chat agent to be nullified if you saved the settings
+* NEW: Introduced a new modern theme
+* Fixed the bug that caused the chat box to not open again if you minimized it while in chat
+* Fixed a style bug on the admin chat box
+* Performance improvements for the basic version - there are no longer regular longpoll requests when using the basic version. Long polling only starts once a chat has been started
+* Fixed a styling bug in the settings page
+* Longpoll requests no longer run when you're offline - this will introduce significant performance imporvements
+* We have removed the "X" on the chat box and it will now only show up when there is an active chat on the user's side. This avoids the confusion when the user presses "X" and the chat hides for 24 hours.
+* Images of the chat agent and user now show up correctly in the chat box
+* Fixed a bug that added slashes to apostrophes in the chat window
+* Fixed a bug that caused an error when trying to load the chat box when a banned user visited the site
+* Fixed a bug that still displayed the offline message window even if the setting was set to false
+
+= 6.0.07 - 2016-03-11 - High priority =
+* Bug fix - agent status was lost when saving settings
+
+= 6.0.06 - 2016-03-07 - Medium priority =
+* More stable fix for the menu item bug that has been experienced lately
+
+= 6.0.05 - 2016-02-23 - Medium priority =
+* Fixed the bug that caused the menu item to not display for some users
+
+= 6.0.04 - 2016-02-22 - Low priority =
+* Offline message bug fix with the cloud server extension
+* Choose when online bug fix
+* Agent bug fix
+* Styling adjustment for viewpots of 481px and below
+* All content now loaded and pushed via SSL links
+
+= 6.0.03 - 2016-02-04 - Low priority =
+* Fixed a bug that caused a warning if an incorrect IP address was in the banned IP address field
+* Offline messaging bug fixed
+
+= 6.0.02 - 2016-02-03 - Low priority =
+* Added a new filter to fix a bug with WP Live Chat Support - Advanced Chat Box Control Extension
+
+= 6.0.01 - 2016-02-02 - High priority =
+* Crucial bug fix that stopped the live chat from working in some instances
+* New filter to fix the bug with the WP Live Chat Choose When Online bug
+
+= 6.0.00 - 2016-01-26 - Freedom of Speech Update - Medium Priority =
+* New functionality
+*  Unlimited simultaneous chats now available
+*  Offline messages are now available
+* Many new filters added
+* jQuery.cookie updated to version 2.1
+* Many of the WP Live Chat Support Pro features have been moved into the free version
+
+= 5.0.14 - 2016-01-13 - High priority =
+* Bug fix: When activating WP Live Chat Support, a table is created with a shared MySQL column name which caused issues on some servers. The column name has been changed
+* WP Live Chat Support Pro users need to update to the latest version when using this version (there is a notice for this in the live chat dashboard)
+
+= 5.0.13 - 2016-01-05 - High priority =
+* UTF8 encoding bug fixed
+
+= 5.0.12 - 2016-01-04 - Low priority =
+* Tested with WordPress 4.4
+
+= 5.0.11 - 2015-10-14 - Low priority =
+* Translation strings changed
+* PO files updated
+
+= 5.0.10 - 2015-10-12 - Low priority =
+* Changes to the live chat extensions page
+
+= 5.0.9 - 2015-10-09 - Low priority =
+* New hook: wplc_hook_admin_menu_layout - Target the area above the normal menu layout
+* Style bug fix with the "DATA" section of the live chat dashboard
+
+= 5.0.8 - 2015-10-07 - Low priority =
+* Introduced new custom WP Live Chat Support hooks:
+*  wplc_hook_admin_visitor_info_display_before - Allows you to add HTML at the beginning of the vistior details DIV in the live chat window
+*  wplc_hook_admin_visitor_info_display_after - Allows you to add HTML at the end of the vistior details DIV in the live chat window
+*  wplc_hook_admin_javascript_chat - Allows you to add Javascript enqueues at the end of the javascript section of the live chat window
+*  wplc_hook_admin_settings_main_settings_after - Allows you to add more options to the main chat settings table in the settings page, after the first main table
+*  wplc_hook_admin_settings_save - Hook into the save settings head section. i.e. where we handle POST data from the live chat settings page 
+
+= 5.0.7 - 2015-10-06 - Low priority =
+* Added a live chat extension page
+* Corrected internationalization
+
+= 5.0.6 - 2015-09-17 - Low Priority =
+* You can now choose to disable the sound that is played when a new live chat message is received
+* Fixed a bug that caused some chat settings to revert back to default when updating the plugin
+* Updated all WP Live Chat Support translation files
+
+= 5.0.5 - 2015-09-09 - Low Priority =
+* Fixed a bug that displayed an error message to update the live chat plugin while using the latest version (Pro)
+* Fixed a bug where the mobile detect class would only work if the Pro was enabled
+* Fixed a bug where the live chat window would move to the bottom left of the page when being minimized
+* You can now see the visitors IP address on the Live Chat dashboard
+* Alert message removed when a user was made a live chat agent on the settings page (Pro)
+* Fixed a bug that would prevent the user from typing if they had a previous live chat session (Pro)
+
+= 5.0.4 - 2015-08-06 - Medium Priority =
+* WP Live Chat Support is now compatible with all caching plugins
+* Fixed a bug that set the wrong permissions for the default chat agent
+* Fixed the bug that shows the status of undefined if the user minimized the chat
+
+= 5.0.3 - 2015-08-05 - Medium Priority =
+* Small bug fix
+
+= 5.0.2 - 2015-08-05 - Medium Priority =
+* Fixed a bug that caused a fatal error with older versions of WP Live Chat Support Pro
+
+= 5.0.1 - 2015-08-05 - Medium Priority =
+* Refactored the code so that the live chat box will show up even if there is a JS error from another plugin or theme
+* Live chat box styling fixes: top image padding; centered the "conneting, please be patient" message and added padding
+* The live chat long poll connection will not automatically reinitialize if the connection times out or returns a 5xx error
+
+= 5.0.0 - Doppio Update - 2015-07-29 - Medium Priority =
+* New, modern chat dashboard 
+* Better user handling (chat long polling)
+* Added a welcome page to the live chat dashboard
+* The live hat dashboard is now fully responsive
+* You are now able to see who is a new visitor and who is a returning visitor
+* Bug fixes in the javascript that handles the live chat controls
+* Fixed the bug that stopped the chats from timing out after a certain amount of time
+
+= 4.4.4 - 2015-07-20 - Low Priority =
+* Bug Fix: Big fixed that would cause the live chat to timeout during a conversation
+
+= 4.4.3 - 2015-07-16 - Low Priority =
+* Bug Fix: Ajax URL undefined in some versions of WordPress
+* Improvement: Warning messages limited to the Settings page only
+
+= 4.4.2 - 2015-07-13 - Low Priority =
+* Improvement: Gravatar images will load on sites using SSL without any issues
+* Improvement: Hungarian live chat translation file name fixed
+* Improvement: Styling improvements on the live chat dashboard
+* New Translations:
+*  Turkish (Thank you Yavuz Aksu)
+
+= 4.4.1 - 2015-07-09 - Critical Priority =
+* Further security enhancements
+
+= 4.4.0 - 2015-07-08 - Critical Priority =
+* Major security update. Please ensure you update to this version to eliminate previous vulnerabilities.
+
+= 4.3.5 Espresso - 2015-07-03 - Low Priority =
+* Enhancement: Provision made for live chat encryption in the Pro version (compatibility)
+* Updated Translations:
+*  Hungarian (Thank you Andor Molnar)
+
+= 4.3.4 Ristretto - 2015-06-26 - Low Priority =
+* Improvement: 404 errors for images in admin panel fixed
+* Translation Fix: Mistakes fixed in German Translation file.
+
+= 4.3.3 2015-06-11 - Low Priority =
+* Security enhancements
+* New Translations:
+*  Polish (Thank you Sebastian Kajzer)
+
+= 4.3.2 2015-05-28 - Medium Priority =
+* Bug Fix: Fixed PHP error
+
+= 4.3.1 2015-05-22 - Low Priority =
+* New Translations:
+*  Finnish (Thank you Arttu Piipponen)
+* Translations Updated:
+*  French (Thank you Marcello Cavalucci)
+*  Dutch (Thank you Niek Groot Bleumink) 
+* Bug Fix: Exclude Functionality (Pro)
+
+= 4.3.0 2015-04-13 - Low Priority =
+* Enhancement: Animations settings have been moved to the 'Styling' tab.
+* New Feature: Blocked User functionality has been moved to the Free version
+* Enhancement: All descriptions have been put into tooltips for a cleaner page
+* New Feature: Functionality added in to handle Chat Experience Ratings (Premium Add-on)
+
+= 4.2.12 2015-03-24 - Low Priority =
+* Bug Fix: Warning to update showing erroneously 
+
+= 4.2.11 2015-03-23 - Low Priority =
+* Bug Fix: Bug in the banned user functionality
+* Enhancement: Stying improvement on the Live Chat dashboard
+* Enhancement: Strings are handled better for localization plugins (Pro)
+* Updated Translation Files:
+* Spanish (Thank you Ana Ayelen Martinez)
+
+= 4.2.10 2015-03-16 - Low Priority =
+* Bug Fix: Mobile Detect class caused Fatal error on some websites
+* Bug Fix: PHP Errors when editing user page
+* Bug Fix: Including and Excluding the chat window caused issues on some websites
+* Bug Fix: Online/Offline Toggle Switch did not work in some browsers (Pro)
+* New Feature: You can now Ban visitors from chatting with you based on IP Address (Pro)
+* New Feature: You can now choose if you want users to make themselves an agent (Pro) 
+* Bug Fix: Chat window would not hide when selecting the option to not accept offline messages (Pro) 
+* Enhancement: Support page added 
+* Updated Translations:
+*  French (Thank you Marcello Cavallucci)
+* New Translations added:
+*  Norwegian (Thank you Robert Nilsen)
+*  Hungarian (Thank you GInception)
+*  Indonesian (Thank you Andrie Willyanta)
+
+= 4.2.9 2015-02-18 - Low Priority =
+* New Feature: You can now choose to record your visitors IP address or not
+* New Feature: You can now send an offline message to more than one email address (Pro)
+* New Feature: You can now specify if you want to be online or not (Pro)
+
+= 4.2.8 2015-02-12 - Low Priority =
+* New Feature: You can now apply an animation to the chat window on page load
+* New Feature: You can now choose from 5 colour schemes for the chat window
+* Enhancement: Aesthetic Improvement to list of agents (Pro)
+* Code Improvement: PHP error fixed
+* Updated Translations:
+*  German (Thank you Dennis Klinger) 
+
+= 4.2.7 2015-02-10 - Low Priority =
+* New Live Chat Translation added:
+*  Greek (Thank you Peter Stavropoulos)
+
+= 4.2.6 2015-01-29 - Low Priority =
+* New feature: Live Chat dashboard has a new layout and design
+* Code Improvement: jQuery Cookie updated to the latest version
+* Code Improvement: More Live Chat strings are now translatable 
+* New Live Chat Translation added:
+*  Spanish (Thank you Ana Ayelen Martinez)
+
+= 4.2.5 2015-01-21 - Low Priority =
+* New Feature: You can now view any live chats you have missed
+* New Pro Feature: You can record offline messages when live chat is not online
+* Code Improvements: Labels added to buttons on live chat window
+* Code Improvements: PHP Errors fixed
+* Updated Translations:
+*  Italian (Thank You Angelo Giammarresi)
+
+= 4.2.4 2014-12-17 - Low Priority = 
+* New feature: The live chat window can be hidden when offline (Pro only)
+* New feature: Desktop notifications added
+* Bug fix: Email address gave false validation error when not it was required.
+* Translations Added:
+*  Dutch (Thank you Elsy Aelvoet)
+
+= 4.2.3 2014-12-11 - Low Priority = 
+* Updated Translations:
+*  French (Thank you Marcello Cavallucci)
+*  Italian (Thank You Angelo Giammarresi)
+
+= 4.2.2 2014-12-10 - Low Priority =
+* You can now toggle between displaying or hiding the users name in your Live Chat messages
+* You can now choose to display the Live Chat window to all or only registered users
+* A user image will now display in the Live Chat message
+* jQuery UI CSS is loaded from a local source
+* Bug Fix: Only Admin users can make users Live Chat agents
+* Translations added:
+*  Mongolian (Thank you Monica Batuskh)
+*  Romanian (Thank you Sergiu Balaes)
+*  Czech (Thank you Pavel Cvejn)
+*  Danish (Thank you Mikkel Jeppesen Juhl)
+* Updated Translations:
+*  German (Thank you Dennis Klinger)
+
+= 4.2.1 2014-11-24 - High priority =
+* Bug Fix: PHP error on agent side in live chat window
+
+= 4.2.0 2014-11-20 - Medium priority =
+* Chat UI Improvements
+* Small bug fixes
+
+= 4.1.10 2014-10-29 - Low priority =
+* Code Improvements: (Checks for DONOTCACHE)
+* New Pro Feature: You can now include or exclude the live chat window on certain pages
+
+= 4.1.9 2014-10-10 - Low priority =
+* Bug fix: Mobile Detect class caused an error if it existed in another plugin or theme. A check has been put in place. 
+
+= 4.1.8 2014-10-08 - Low priority =
+* New feature: There is now an option if you do not require the user to input their name and email address before sending a chat request
+* New feature: Logged in users do not have to enter their details prior to sending the chat request.
+* New feature: Turn the chat on/off on a mobile device (smart phone and tablets)
+
+= 4.1.7 2014-10-06 - Low priority =
+* Bug fix: sound was not played when user received a live chat message from the admin
+* Internationalization update
+* New WP Live Chat Support Translation added: Swedish (Thank You Tobias Sernhede)
+
+= 4.1.6 2014-09-25 - Low priority =
+* Live chat translations added: Hebrew, German, Slovakian
+
+= 4.1.5 2014-08-22 - Low priority =
+* Code improvements (PHP warnings - set_time_limit caused warnings on some hosts)
+
+= 4.1.4 2014-07-31 =
+* Significant performance improvements
+* Brazilian translation added - thank you Gustavo Silva
+
+= 4.1.3 2014-07-30 =
+* Code improvements (PHP warnings)
+
+= 4.1.2 2014-07-29 =
+* DB bug fix
+
+= 4.1.1 2014-07-29 =
+* Significant performance improvements
+* Live chat window will now only show in one window (if user has multiple tabs open on your site)
+* You can now see the browser of the live chat user
+* Improved the UI of the backend
+* Bug fixes
+
+= 4.1.0 2014-07-20 =
+* New feature: You can now show the live chat box on the left or right
+* Vulnerability fix (JS injections). Thank you Patrik @ www.it-securityguard.com
+* Fixed 403 bug when saving settings
+* Fixed Ajax Time out error (Lowered From 90 to 28)
+* Fixed IE8 bug
+* Added option to auto pop up live chat window
+* Added Italian language files. Thanks to Davide
+
+= 4.0.2 =
+* Table creation bug fix
+* Small bug fix (warning message)
+
+= 4.0.1 =
+* Fixed a bug (missing function)
+
+= 4.0.0 = 
+* Overhauled the live chat Ajax calls to be less resource intensive
+* Fixed many localization strings
+* Added Feedback Page
+* Added Welcome Page
+* Fixed Visitor pending forever - Now Shown a message that admin is away
+* Fixed many small bugs
+* Added Multiple Live Chat Agents support (Add On)
+
+= 3.08 =
+
+* Fixed Languages not been translated
+* Fixed 500 Error from ajax call
+* Email validation bug fixed
+
+= 3.07 =
+
+* Fixed height issues with input boxes
+* Fixed Input that was showing half over chat area
+* Fixed Endless Connecting
+
+= 3.06 =
+
+* Fixed Placeholder text not showing in input on IE
+
+= 3.05 =
+
+* Low priority update 
+
+= 3.04 =
+
+* Fixed Close & Minimixe Button Styling Issues
+* Fixed bug where text was not hidden when offline message was sent
+* Fixed bug that would hide text behind image if text was 2 lines
+* Fixed bug that continuesly scrolled chat down
+* Fixed styling of inputs on some themes (overlaps chat box)
+* Set CSS color for inputs
+* Fixed bug that wasn't alerting admin in wp-admin to chat if Alert via email was set (Pro)
+* Fixed Double opening bug if chat was moved
+* Fixed Bug to inform admin and user either or has ended the chat
+* Fixed other small bugs
+
+= 3.03 =
+
+* Fixed Text Area CSS Bug
+
+= 3.02 =
+
+* Fixed CSS Box Border Issue 
+
+= 3.01 =
+
+* Fixed CSS bug with icons
+* Fixed CSS bug with inputs
+
+= 3.0 =
+* Improved chat UI
+* Chat Box is draggable
+
+= 2.9 =
+* Added comprehensive documentation
+
+= 2.8 =
+* Fixed bug that stopped dynamic css loading in some themes
+
+= 2.7 =
+* Fixed the live chat initiation bug
+* Fixed the style bug
+* Added support to email for proper smtp (pro)
+* Fixed cookie bugs
+* Add delete live chat history option (pro)
+* Added UTF8 character support for the live chat
+* Added error reporting (pro)
+
+= 2.6 =
+* Fixed a bug that showed 'page not found' when saving the live chat settings
+* Better UI
+* Added the ability to end live chats
+
+= 2.5 =
+* Major performance improvements
+* Small UI improvements
+
+= 2.4 =
+* You now have full control of the fill and font color of your live chat box
+* Added the ability to turn live chat on and off
+* Better notification of incoming live chats.
+* Added more localization support
+* Plugin should now be compatible with caching plugins.
+
+= 2.3 =
+* Fixed another small bug
+
+= 2.2 =
+* Fixed a small bug
+
+= 2.1 =
+* More precise functionality to handle if you are online or offline
+* Fixed a bug that recorded visitors when offline
+* Neatened up some code
+* Fixed some small bugs
+
+= 2.0 =
+* Bug fixes
+* Better front-end UI (Basic + Pro)
+* You can now get an email notification when a visitor wants to chat (Pro)
+* Allow your visitors to leave messages when you are offline (Pro)
+* More text fields can be customized
+
+= 1.0 =
+* Launch!

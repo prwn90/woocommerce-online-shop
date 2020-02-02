@@ -1,0 +1,62 @@
+<?php
+$path = $this->pluginUrl;
+?>
+<div class="tpay-insidebg" id="main-payment">
+    <div class="tpay-header-wrapper">
+        <div class="tpay-header-logo">
+            <img class="tpay-logo" src="https://tpay.com/img/banners/tpay_logo_white.svg"
+                 style="float: left; padding: 35px 0 0 15px; max-height: 100%"/>
+        </div>
+        <div class="tpay-header-belt"></div>
+    </div>
+    <div class="tpay-panel-inside-content">
+        <div class="tpay-channel-form-wrapper tpay-content-wrapper-class">
+            <p><?php $lang->l('blik_info') ?></p>
+            <p><?php $lang->l('blik_info2') ?></p>
+            <center>
+                <img src="https://secure.tpay.com/_/banks/b64.png" style="max-height: 100%; float: none"/>
+            </center>
+            <div class="tpay-row">
+                <center>
+                <div class="tpay-input-blik-code">
+                    <div class="tpay-input-wrapper" style="max-width: 220px">
+                        <div class="tpay-input-label"><?php $lang->l('codeInputText') ?></div>
+                        <input id="blik_code"
+                               name="blik_code"
+                               pattern="\d*"
+                               type="tel"
+                               autocomplete="off"
+                               maxlength="6"
+                               minlength="6"
+                               placeholder="000000"
+                               tabindex="1"
+                               value=""
+                               class="tpay-input-value tpay-blik-input"
+                        />
+                    </div>
+                </div>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    if (!window.jQuery) {
+        var script = document.createElement('script');
+        script.type = "text/javascript";
+        script.src = "<?php echo $path ?>/lib/src/common/_js/jquery.min.js";
+        document.getElementsByTagName('head')[0].appendChild(script);
+    }
+</script>
+<script type="text/javascript">
+    const TRIGGER_EVENTS = 'input change blur';
+
+    jQuery('#blik_code').on(TRIGGER_EVENTS, function () {
+        var that = jQuery(this);
+        if (that.val().length > 0) {
+            jQuery('#tpay-transfers-form').css('display', 'none');
+        } else {
+            jQuery('#tpay-transfers-form').css('display', 'block');
+        }
+    });
+</script>

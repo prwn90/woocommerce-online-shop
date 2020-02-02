@@ -1,0 +1,1902 @@
+# Translation of Plugins - WP Google Maps - Development (trunk) in Polish
+# This file is distributed under the same license as the Plugins - WP Google Maps - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-28 08:31:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - WP Google Maps - Development (trunk)\n"
+
+#: wpGoogleMaps.php:787
+msgid "Hide"
+msgstr "Ukryj"
+
+#: wpGoogleMaps.php:2695 wpGoogleMaps.php:4404
+msgid "No results found in this location. Please try again."
+msgstr "Nic nie znaleziono w tej lokalizacji. Spróbuj ponownie."
+
+#: wpGoogleMaps.php:5721
+msgid "Mark"
+msgstr "Zaznacz"
+
+#: wpGoogleMaps.php:4834
+msgid "Not found message"
+msgstr "Nie znaleziono wiadomości"
+
+#: wpGoogleMaps.php:4789
+msgid "Default radius"
+msgstr "Domyślny obszar"
+
+#: wpGoogleMaps.php:4023
+msgid "Disable InfoWindows"
+msgstr "Wyłącz okno powiadomień"
+
+#: wpGoogleMaps.php:4887
+msgid "Show Points of Interest?"
+msgstr "Pokazać użyteczne miejsca(POI)?"
+
+#: wpGoogleMaps.php:725
+msgid "Map Editor"
+msgstr "Edytor Map"
+
+#: wpGoogleMaps.php:786
+msgid "Sign up"
+msgstr "Zaloguj się"
+
+#: wpGoogleMaps.php:783
+msgid "Sign up to our newsletter and get information on the latest updates, beta versions and specials."
+msgstr "Zapisz się do naszego newslettera i otrzymuj informację o najnowszych aktualizacjach, wersjach beta i specjalnych ofertach."
+
+#: wpGoogleMaps.php:729
+msgid "Get Pro Version"
+msgstr "Kup wersję Pro"
+
+#: base/includes/wp-google-maps-polygons.php:84
+#: base/includes/wp-google-maps-polygons.php:169
+#: base/includes/wp-google-maps-polylines.php:83
+#: base/includes/wp-google-maps-polylines.php:173
+#: lib/codecabin/deactivate-feedback-form.php:26
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: base/includes/full-screen-module.php:31
+#: base/includes/full-screen-module.php:64
+#: base/includes/full-screen-module.php:88
+msgid "Close full screen"
+msgstr "Zamknij pełny ekran"
+
+#: wpGoogleMaps.php:4829
+msgid "Default address"
+msgstr "Domyślny adres"
+
+#: base/includes/full-screen-module.php:30
+#: base/includes/full-screen-module.php:63
+#: base/includes/full-screen-module.php:87
+msgid "Full screen"
+msgstr "Pełny ekran"
+
+#: wpGoogleMaps.php:6578
+msgid "We have detected that you are using %s on your website. Please <a href='%s' class='button'>clear your cache</a> to ensure that your map is updated."
+msgstr "Wykryliśmy, że uzywasz %s na swojej stronie. Proszę  <a href='%s' class='button'>wyczyść pamięć podręczną</a> aby mieć pewność, że mapa jest aktualna."
+
+#: wpGoogleMaps.php:4005
+msgid "Removes the need to use two fingers to move the map on mobile devices"
+msgstr "Usuwa konieczność używania dwóch palców aby poruszać się po mapie na urządzeniach mobilnych."
+
+#: wpGoogleMaps.php:3945
+msgid "Disable Full Screen Control"
+msgstr "Wyłącz kontrolę pełnego ekranu"
+
+#: base/includes/full-screen-module.php:35
+msgid "Enable Full Screen Option"
+msgstr "Uruchom opcje pełnego ekranu"
+
+#: wpGoogleMaps.php:6576
+msgid "One or more markers have been added or changed, please <a href='%s' class='button'>clear your cache.</a>"
+msgstr "Jeden lub więcej znaczników zostało zaktualizowanych, proszę<a href='%s' class='button'>wyczyścić pamięć podręczną przeglądarki.</a>"
+
+#: base/includes/full-screen-module.php:47
+msgid "Close Full Screen String"
+msgstr "Zamknij Pełen Ekran"
+
+#: wpGoogleMaps.php:4003
+msgid "Disable Two-Finger Pan"
+msgstr "Wyłącz konieczność używania dwóch palców"
+
+#: base/includes/full-screen-module.php:41
+msgid "Open Full Screen String"
+msgstr "Otwórz Pełen Ekran"
+
+#: base/includes/welcome.php:80
+msgid "Submit and create a map"
+msgstr "Zatwierdź i stwórz mapę"
+
+#: wpGoogleMaps.php:2416
+msgid "WP Google Maps Error"
+msgstr "Błąd WP Google Maps"
+
+#: wpGoogleMaps.php:6516
+msgid "Please note that you are currently using a temporary API key which allows the maps in your back end to be displayed. For your map to be displayed on your website, you will need to follow the above steps."
+msgstr "Proszę pamiętać, że używasz tymczasowego klucza API, który pozwala tylko na wyświetlenie mapy w panelu administracyjnym. Aby wyświetlić mapę na Twojej stronie podążaj za wskazówkami u góry."
+
+#: wpGoogleMaps.php:2411
+msgid "In order for your map to display, please make sure you insert your Google Maps JavaScript API key in the <a href='%s' target='_BLANK'>Maps->Settings->Advanced tab</a>."
+msgstr "Aby mieć pewność, że Twoja mapa jest wyświetlona prawidłowo, proszę wprowadzić Twój klucz Google Maps JavaScript API w zakładce <a href='%s' target='_BLANK'>Maps->Settings->Ustawienia zaawansowane</a>."
+
+#: base/includes/welcome.php:10
+msgid "Skip intro and create a map"
+msgstr "Pomiń tutorial i stwórz mapę"
+
+#: wpGoogleMaps.php:6510
+msgid "paste your Google Maps JavaScript API Key here"
+msgstr "Wklej tutaj swój klucz Google Maps JavaScript API"
+
+#: wpGoogleMaps.php:6509
+msgid "Paste your API key here and press save:"
+msgstr "Wklej tutaj klucz API i kliknij zapisz:"
+
+#: wpGoogleMaps.php:6503
+msgid "Before creating a map please follow these steps:"
+msgstr "Przed utworzeniem mapy proszę podążać za tymi wskazówkami:"
+
+#: wpGoogleMaps.php:6501
+msgid "*ALL* Google Maps now require an API key to function."
+msgstr "*WSZYSTKIE* Mapy Google potrzebują teraz klucza API do poprawnego działania."
+
+#: base/includes/welcome.php:6
+msgid "Build amazing maps through a simple interface and powerful functionality along with world class support."
+msgstr "Buduj niesamowite mapy przy pomocy prostego interfejsu i szerokiego wachlarza możliwości razem ze światowej klasy wsparciem."
+
+#: base/includes/welcome.php:101
+msgid "Support Desk"
+msgstr "Centrum wsparcia"
+
+#: base/includes/welcome.php:35
+msgid "Select from various <a href='http://wpgmaps.com/map-themes/' target='_BLANK'>map themes</a>, or make your own."
+msgstr "Wybierz jeden z wielu<a href='http://wpgmaps.com/map-themes/' target='_BLANK'>motywów</a>, lub stwórz własny."
+
+#: base/includes/welcome.php:23
+msgid "Create as many markers as you like"
+msgstr "Twórz tyle znaczników ile chcesz"
+
+#: base/includes/welcome.php:22
+msgid "Unlimited Markers"
+msgstr "Nielimitowane znaczniki"
+
+#: base/includes/credits.php:82
+msgid "Get involved on GitHub."
+msgstr "Bądź zaangażowany na GitHubie."
+
+#: base/includes/credits.php:82
+msgid "Want to see your name on this page?"
+msgstr "Chcesz zobaczyć swoje imię na stronie?"
+
+#: base/includes/credits.php:78
+msgid "Security suggestions"
+msgstr "Ustawienia bezpieczeństwa"
+
+#: base/includes/credits.php:53
+msgid "Marketing"
+msgstr "Marketing"
+
+#: base/includes/credits.php:25
+msgid "Contributors"
+msgstr "Współtwórcy"
+
+#: base/includes/credits.php:16
+msgid "Project Leaders"
+msgstr "Liderzy Projektu"
+
+#: base/includes/credits.php:22
+msgid "Founder &amp; Lead Developer"
+msgstr "Twórca i Główny Programista"
+
+#: base/includes/credits.php:3
+msgid "Welcome to WP Google Maps version 6.3"
+msgstr "Witaj w WP Google Maps w wersji 6.3"
+
+#: base/includes/credits.php:15
+msgid "WP Google Maps is created by an international team of developers."
+msgstr "WP Google Maps jest tworzony przez międzynarodowa grupę programistów."
+
+#: base/includes/credits.php:10 base/includes/welcome.php:15
+msgid "Welcome"
+msgstr "Witaj"
+
+#: base/includes/credits.php:5
+msgid "Thank you for updating! WP Google Maps version 6 helps you build amazing maps through a simple interface and powerful functionality along with world class support."
+msgstr "Dziękujemy za aktualizację! WP Google Maps w wersji 6 pomogą Ci zbudować niesamowite mapy poprzez prosty interfejs i potężną funkcjonalność wraz ze wsparciem światowej klasy."
+
+#: base/includes/credits.php:11 base/includes/welcome.php:16
+msgid "Credits"
+msgstr "Wsparcie Finansowe"
+
+#: wpGoogleMaps.php:3966
+msgid "Do not load the Google Maps API (Only check this if your theme loads the Google Maps API by default)"
+msgstr "Nie pobieraj API Google Maps (zaznacz to tylko w przypadku kiedy Twój motyw pobiera już API Google Maps)"
+
+#: wpGoogleMaps.php:5348
+msgid "View a demo."
+msgstr "Wyświetl demo."
+
+#: wpGoogleMaps.php:6498
+msgid "Read the documentation"
+msgstr "Przeczytaj dokumentację"
+
+#: wpGoogleMaps.php:5347
+msgid "with the Pro version."
+msgstr "z wersją Pro"
+
+#: wpGoogleMaps.php:6517
+msgid "Need help? %s or %s."
+msgstr "Potrzebujesz pomocy?? %s lub%s."
+
+#: wpGoogleMaps.php:6506
+msgid "Create an API key now (free)"
+msgstr "Stwórz teraz klucz API (darmowy)"
+
+#: wpGoogleMaps.php:6500
+msgid "You can read more about that here."
+msgstr "Możesz przeczytać więcej na ten temat tutaj."
+
+#: wpGoogleMaps.php:6499
+msgid "Important Notification"
+msgstr "Ważne powiadomienia"
+
+#: wpGoogleMaps.php:6497
+msgid "View the instruction video"
+msgstr "Zobacz nagranie instruktażowe."
+
+#: wpGoogleMaps.php:5213 wpGoogleMaps.php:5346
+msgid "Heatmaps"
+msgstr "Mapy termiczne"
+
+#: wpGoogleMaps.php:5347
+msgid "Add dynamic heatmap data"
+msgstr "Dodaj dynamiczną mapę termiczną"
+
+#: wpGoogleMaps.php:6510
+msgid "Save"
+msgstr "Zapisz"
+
+#: wpGoogleMaps.php:6487
+msgid "United States of America"
+msgstr "Stany Zjednoczone Ameryki"
+
+#: wpGoogleMaps.php:5698
+msgid "Edit this marker location"
+msgstr "Zmień położenie markera"
+
+#: wpGoogleMaps.php:4547
+msgid "Create your Map"
+msgstr "Stwórz swoją mapę"
+
+#: wpGoogleMaps.php:4295
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: wpGoogleMaps.php:4228
+msgid "Wizard"
+msgstr "Kreator"
+
+#: wpGoogleMaps.php:1086
+msgid "settings"
+msgstr "ustawienia"
+
+#: wpGoogleMaps.php:1087
+msgid "Your Google Maps API key has been successfully saved. This API key can be changed in the %s page"
+msgstr "Twój Klucz Google Maps API został pomyślnie zapisany. Możesz zmienić klucz na stronie %s"
+
+#: wpGoogleMaps.php:5488
+msgid "Copied to clipboard"
+msgstr "Skopiowane do schowka"
+
+#: wpGoogleMaps.php:4767
+msgid "No country selected"
+msgstr "Nie wybrano kraju"
+
+#: wpGoogleMaps.php:3995
+msgid "Enable Usage Tracking"
+msgstr "Włącz śledzenie aktywności"
+
+#: wpGoogleMaps.php:3997
+msgid "Allow us to anonymously track how you use your maps and we will send you a 15% Sola Plugins coupon as a token of our gratitude (Coupon will be sent to the administrator's email address)"
+msgstr "Pozwól nam anonimowo śledzić jak wykorzystujesz swoja mapę, a my wyślemy Ci kupon 15% na Sola Plugins jako wyrazy naszej wdzięczności.(Kupon zostanie wysłany na adres mailowy administratora)"
+
+#: wpGoogleMaps.php:4101
+msgid "Google Maps API Key (required)"
+msgstr "Klucz Google Maps API (wymagany)"
+
+#: wpGoogleMaps.php:3959
+msgid "Over-ride current jQuery with version 1.11.3 (Tick this box if you are receiving jQuery related errors after updating to WordPress 4.5)"
+msgstr "Obecna wersja jQuery została zastąpiona wersją 1.11.3 (Kliknij to okno jeśli otrzymujesz błedy zwiazane z jQuery po zaktualizowanie WordPressa do wersji 4.5)"
+
+#: wpGoogleMaps.php:3774
+msgid "We have detected a conflict between your current theme's version and our plugin. Should you be experiencing issues with your maps displaying, please update Avada to version 3.9.4 or check the checkbox labelled 'Over-ride current jQuery with version 1.11.3'."
+msgstr "Wykryliśmy konflikt pomiędzy Twoją aktualną wersją szablonu i naszą wtyczką. Jeżeli doświadczasz problemów z mapą proszę zaktualizuj Avada do wersji 3.9.4 lub zaznacz opcję \"Nadpisz aktualną wersję jQuery do wersji 1.11.3\"."
+
+#: wpGoogleMaps.php:4097
+msgid "Google Maps API Key"
+msgstr "Klucz Google Maps API"
+
+#: wpGoogleMaps.php:4106
+msgid "This API key can be obtained from the <a href='https://console.developers.google.com' target='_BLANK'>Google Developers Console</a>. Our <a href='http://www.wpgmaps.com/documentation/creating-a-google-maps-api-key/' target='_BLANK'>documentation</a> provides a full guide on how to obtain this. "
+msgstr "To API może być pobrane ze strony <a href='https://console.developers.google.com' target='_BLANK'>Google Developers Console</a>. Nasza <a href='http://www.wpgmaps.com/documentation/creating-a-google-maps-api-key/' target='_BLANK'>dokumentacja</a> dostarcza pełnego opisu jak to zrobić."
+
+#: wpGoogleMaps.php:4687
+msgid "Preview"
+msgstr "Podgląd"
+
+#: wpGoogleMaps.php:4683
+msgid "Or use a custom theme"
+msgstr "Lub użyj własnego motywu"
+
+#: wpGoogleMaps.php:4684
+msgid "Browse the theme directory"
+msgstr "Przeglądaj katalog motywów"
+
+#: wpGoogleMaps.php:4685
+msgid "Paste your custom theme data here:"
+msgstr "Wklej swój niestandardowy motyw tutaj:"
+
+#: wpGoogleMaps.php:4208
+msgid "Close"
+msgstr "Zamknij"
+
+#: wpGoogleMaps.php:4208
+msgid "We will not nag you again, promise!"
+msgstr "Nie będziemy cię nagabywać ponownie, obiecujemy!"
+
+#: wpGoogleMaps.php:4203
+msgid "<h3>We need your love!</h3><p>If you are enjoying our plugin, please consider <a href=\"%1$s\" target=\"_blank\" class=\"button button-primary\">reviewing WP Google Maps</a>. It would mean the world to us! If you are experiencing issues with the plugin, please <a href=\"%2$s\" target=\"_blank\"  class=\"button button-secondary\">contact us</a> and we will help you as soon as humanly possible!</p>"
+msgstr "<h3>Potrzebujemy Twojego wsparcia!</h3><p>Jeżeli podoba ci się nasz dodatek, proszę rozważ <a href=\"%1$s\" target=\"_blank\" class=\"button button-primary\">pozostawienie opinii WP Google Maps</a>. To wiele dla nas znaczy! Jeżeli doświadczyłeś jakiś błędów w działaniu dodatku <a href=\"%2$s\" target=\"_blank\"  class=\"button button-secondary\">skontaktuj się z nami</a> a my postaramy się Ci pomóc jak najszybciej będzie to możliwe!</p>"
+
+#: wpGoogleMaps.php:4554
+msgid "Directions"
+msgstr "Wskazówki dojazdu"
+
+#: wpGoogleMaps.php:4590
+msgid "Short code"
+msgstr "Krótki kod"
+
+#: wpGoogleMaps.php:4591
+msgid "copy this into your post or page to display the map"
+msgstr "skopiuj tą informację do postu lub strony, aby wyświetlić mapę"
+
+#: wpGoogleMaps.php:4594
+msgid "Map Name"
+msgstr "Nazwa mapy"
+
+#: wpGoogleMaps.php:4713
+msgid "Enable Directions?"
+msgstr "Włączyć wskazówki dojazu?"
+
+#: wpGoogleMaps.php:4725
+msgid "Directions Box Open by Default?"
+msgstr "Okno wskazówek domyślnie otwarte?"
+
+#: wpGoogleMaps.php:4730
+msgid "Yes, on the left"
+msgstr "Tak, po lewej"
+
+#: wpGoogleMaps.php:4731
+msgid "Yes, on the right"
+msgstr "Tak, po prawej"
+
+#: wpGoogleMaps.php:4732
+msgid "Yes, above"
+msgstr "Tak, na górze"
+
+#: wpGoogleMaps.php:4733
+msgid "Yes, below"
+msgstr "Tak, na dole"
+
+#: wpGoogleMaps.php:4739
+msgid "Directions Box Width"
+msgstr "Szerokosć okna wskazówek"
+
+#: wpGoogleMaps.php:4753
+msgid "Enable Store Locator"
+msgstr "Włącz lokalizację sklepów"
+
+#: wpGoogleMaps.php:4781
+msgid "Show distance in"
+msgstr "Pokazuj odległość w"
+
+#: wpGoogleMaps.php:4784
+msgid "Miles"
+msgstr "milach"
+
+#: wpGoogleMaps.php:4784
+msgid "Kilometers"
+msgstr "kilometrach"
+
+#: wpGoogleMaps.php:4849
+msgid "View"
+msgstr "Widok"
+
+#: wpGoogleMaps.php:4849
+msgid "Store Locator Documentation"
+msgstr "Dokumentacja lokalizatora sklepów"
+
+#: wpGoogleMaps.php:4941
+msgid "Default Marker Image"
+msgstr "Domyslny obrazek znacznika"
+
+#: wpGoogleMaps.php:4942 wpGoogleMaps.php:5310 wpGoogleMaps.php:5314
+msgid "Upload Image"
+msgstr "Załaduj obrazek"
+
+#: wpGoogleMaps.php:4636
+msgid "Map type"
+msgstr "Rodzaj mapy"
+
+#: wpGoogleMaps.php:4626
+msgid "Map Alignment"
+msgstr "Położenie mapy"
+
+#: wpGoogleMaps.php:4628
+msgid "Left"
+msgstr "po lewej"
+
+#: wpGoogleMaps.php:4629
+msgid "Center"
+msgstr "na środku"
+
+#: wpGoogleMaps.php:4630
+msgid "Right"
+msgstr "po prawej"
+
+#: wpGoogleMaps.php:4631 wpGoogleMaps.php:4991 wpGoogleMaps.php:5231
+#: wpGoogleMaps.php:5286
+msgid "None"
+msgstr "brak"
+
+#: wpGoogleMaps.php:4946
+msgid "Show User's Location?"
+msgstr "Pokazać lokalizację użytkownika?"
+
+#: wpGoogleMaps.php:4966
+msgid "KML/GeoRSS URL"
+msgstr "URL KML/GeoRSS"
+
+#: wpGoogleMaps.php:4968
+msgid "The KML/GeoRSS layer will over-ride most of your map settings"
+msgstr "Warstwa KML/GeoRSS nadpisze większość Twoich ustawień mapy"
+
+#: wpGoogleMaps.php:4972
+msgid "Fusion table ID"
+msgstr "ID tabeli Fusion"
+
+#: wpGoogleMaps.php:5008
+msgid "Order markers by"
+msgstr "Ustaw znaczniki wg"
+
+#: wpGoogleMaps.php:4348 wpGoogleMaps.php:5013 wpGoogleMaps.php:5726
+#: wpGoogleMaps.php:5745
+msgid "Address"
+msgstr "Adres"
+
+#: wpGoogleMaps.php:5014 wpGoogleMaps.php:5307 wpGoogleMaps.php:5727
+#: wpGoogleMaps.php:5746
+msgid "Description"
+msgstr "Opis"
+
+#: wpGoogleMaps.php:5018
+msgid "Ascending"
+msgstr "rosnąco"
+
+#: wpGoogleMaps.php:5019
+msgid "Descending"
+msgstr "malejąco"
+
+#: wpGoogleMaps.php:5000
+msgid "Filter by Category"
+msgstr "Filtrowanie wg kategorii"
+
+#: wpGoogleMaps.php:5003
+msgid "Allow users to filter by category?"
+msgstr "Pozwól użytkownikom na filtrowanie wg kategorii?"
+
+#: wpGoogleMaps.php:5199
+msgid "Save Map"
+msgstr "Zapisz mapę"
+
+#: wpGoogleMaps.php:5202
+msgid "Tip: Use your mouse to change the layout of your map. When you have positioned the map to your desired location, press \"Save Map\" to keep your settings."
+msgstr "Wskazówka: Użyj myszki, aby zmienić zakres mapy. Kiedy ustawisz mapę w oczekiwanym położeniu, naciśnij \"Zapisz mapę\", aby zachować ustawienia."
+
+#: wpGoogleMaps.php:5209 wpGoogleMaps.php:5218
+msgid "Markers"
+msgstr "Znaczniki"
+
+#: wpGoogleMaps.php:5222 wpGoogleMaps.php:5277
+msgid "Address/GPS"
+msgstr "Adres/pozycja GPS"
+
+#: wpGoogleMaps.php:5309
+msgid "Pic URL"
+msgstr "URL obrazka"
+
+#: wpGoogleMaps.php:5311
+msgid "Link URL"
+msgstr "URL linku"
+
+#: wpGoogleMaps.php:5313
+msgid "Custom Marker"
+msgstr "Własny znacznik"
+
+#: wpGoogleMaps.php:5228 wpGoogleMaps.php:5283
+msgid "Animation"
+msgstr "Animacja"
+
+#: wpGoogleMaps.php:5232 wpGoogleMaps.php:5287
+msgid "Bounce"
+msgstr "podskakiwanie"
+
+#: wpGoogleMaps.php:5233 wpGoogleMaps.php:5288
+msgid "Drop"
+msgstr "opuszczenie"
+
+#: wpGoogleMaps.php:5239 wpGoogleMaps.php:5294
+msgid "InfoWindow open by default"
+msgstr "Okno informacyjne domyślnie otwarte"
+
+#: wpGoogleMaps.php:5249 wpGoogleMaps.php:5325
+msgid "Add Marker"
+msgstr "Dodaj znacznik"
+
+#: wpGoogleMaps.php:5249
+msgid "Adding"
+msgstr "Dodawanie"
+
+#: wpGoogleMaps.php:5250
+msgid "Save Marker"
+msgstr "Zapisz znacznik"
+
+#: wpGoogleMaps.php:5250
+msgid "Saving"
+msgstr "Zapisywanie"
+
+#: wpGoogleMaps.php:5337
+msgid "Add a New Polygon"
+msgstr "Dodaj nowy wielokąt"
+
+#: wpGoogleMaps.php:5342
+msgid "Add a New Polyline"
+msgstr "Dodaj nową linię łamaną"
+
+#: wpGoogleMaps.php:5363
+msgid "Remember to save your map!"
+msgstr "Pamiętaj, aby zapisać mapę!"
+
+#: wpGoogleMaps.php:5377
+msgid "Your Markers"
+msgstr "Twoje znaczniki"
+
+#: wpGoogleMaps.php:5400
+msgid "WP Google Maps encourages you to make use of the amazing icons created by Nicolas Mollet's Maps Icons Collection"
+msgstr "WP Google Maps zachęca do użycia wspaniałych ikon z kolekcji ikon do map Nicolasa Molleta"
+
+#: wpGoogleMaps.php:5400
+msgid "and to credit him when doing so."
+msgstr "i wynagrodzenia go za to."
+
+#: wpGoogleMaps.php:5357 wpGoogleMaps.php:5453
+msgid "The map could not load."
+msgstr "Mapa nie mogła zostać załadowana (lub trwa jeszcze ładowanie mapy)."
+
+#: wpGoogleMaps.php:5453
+msgid "This is normally caused by a conflict with another plugin or a JavaScript error that is preventing our plugin's Javascript from executing. Please try disable all plugins one by one and see if this problem persists. If it persists, please contact nick@wpgmaps.com for support."
+msgstr "Jest to z reguły spowodowane konfliktem z inną wtyczką lub błędem JavaScript, który uniemożliwia uruchomienie Javascriptów naszej wtyczki. Spróbuj wyłączyć wszystkie wtyczki jedna po drugiej, aby sprawdzić, czy problem ustąpi. Jeżeli nie, skontaktuj sie z nick@wpgmaps.com, aby uzyskać pomoc."
+
+#: wpGoogleMaps.php:4306
+msgid "Trash"
+msgstr "Kosz"
+
+#: wpGoogleMaps.php:4345 wpGoogleMaps.php:5723
+msgid "Icon"
+msgstr "Ikona"
+
+#: wpGoogleMaps.php:5680
+msgid "View this link"
+msgstr "Zobacz link"
+
+#: wpGoogleMaps.php:5697
+msgid "Edit this marker"
+msgstr "Edytuj ten znacznik"
+
+#: wpGoogleMaps.php:5702
+msgid "Delete this marker"
+msgstr "Usuń ten znacznik"
+
+#: wpGoogleMaps.php:5728
+msgid "Image"
+msgstr "Obraz"
+
+#: wpGoogleMaps.php:4328
+msgid "My Markers"
+msgstr "Moje znaczniki"
+
+#: wpGoogleMaps.php:4346
+msgid "Linked to"
+msgstr "Powiązana z"
+
+#: wpGoogleMaps.php:4349
+msgid "GPS"
+msgstr "GPS"
+
+#: wpGoogleMaps.php:4350
+msgid "Pic"
+msgstr "Obrazek"
+
+#: wpGoogleMaps.php:4490
+msgid "Add custom icons, titles, descriptions, pictures and links to your markers with the"
+msgstr "Dodaj własne ikony, tytuły, opisy, obrazki i linki do znaczników przy pomocy"
+
+#: wpGoogleMaps.php:4490 wpGoogleMaps.php:4491 wpGoogleMaps.php:5389
+#: wpGoogleMaps.php:5393
+msgid "Pro Edition"
+msgstr "wersji Pro"
+
+#: wpGoogleMaps.php:4490
+msgid "of this plugin for just"
+msgstr "tej wtyczki jedynie za"
+
+#: wpGoogleMaps.php:4491
+msgid "Purchase the Pro Edition"
+msgstr "Kup wersję Pro"
+
+#: wpGoogleMaps.php:4491
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr "WP Google Maps i zapisz markery do pliku CSV!"
+
+#: wpGoogleMaps.php:4856
+msgid "Enable Bicycle Layer?"
+msgstr "Włączyć Trasy rowerowe?"
+
+#: wpGoogleMaps.php:4865
+msgid "Enable Traffic Layer?"
+msgstr "Włączyć Natęzenie ruchu?"
+
+#: wpGoogleMaps.php:4974
+msgid "Read data directly from your Fusion Table."
+msgstr "Odczytaj dane bezpośrednio z Twojej tabeli Fusion"
+
+#: wpGoogleMaps.php:5273
+msgid "Add advanced markers"
+msgstr "Dodaj znaczniki zaawansowane"
+
+#: wpGoogleMaps.php:5273
+msgid "with the Pro version"
+msgstr "przy użyciu wersji Pro"
+
+#: wpGoogleMaps.php:5319
+msgid "Select"
+msgstr "Wybierz"
+
+#: wpGoogleMaps.php:5384
+msgid "Add detailed information to your markers!"
+msgstr "Dodaj szczegółowe informacje do swoich znaczników!"
+
+#: wpGoogleMaps.php:5384 wpGoogleMaps.php:5388 wpGoogleMaps.php:5392
+msgid "Add custom markers to your map!"
+msgstr "Dodaj własne znaczniki do mapy!"
+
+#: wpGoogleMaps.php:5385
+msgid "Add detailed information to your markers for only"
+msgstr "Dodaj szczegółowe informacje do swoich znaczników za jedyne"
+
+#: wpGoogleMaps.php:5385 wpGoogleMaps.php:5389 wpGoogleMaps.php:5393
+msgid "Click"
+msgstr "Kliknij"
+
+#: wpGoogleMaps.php:5385 wpGoogleMaps.php:5389 wpGoogleMaps.php:5393
+msgid "here"
+msgstr "tutaj"
+
+#: wpGoogleMaps.php:5389
+msgid "Add different marker icons, or your own icons to make your map really stand out!"
+msgstr "Dodaj różne ikony znaczników lub własne ikony, aby uczynić mapę wyjątkową!"
+
+#: wpGoogleMaps.php:5393
+msgid "Allow your visitors to get directions to your markers!"
+msgstr "Pozwól odwiedzającym na uzyskiwanie wskazówek dojazdu do znaczników!"
+
+#: wpGoogleMaps.php:5428
+msgid "Edit Marker Location"
+msgstr "Edycja położenia znacznika"
+
+#: wpGoogleMaps.php:5437
+msgid "Marker Latitude"
+msgstr "Szerokość geo znacznika"
+
+#: wpGoogleMaps.php:5441
+msgid "Marker Longitude"
+msgstr "Długoś geo znacznika"
+
+#: wpGoogleMaps.php:5446
+msgid "Save Marker Location"
+msgstr "Zapisz położenie znacznika"
+
+#: wpGoogleMaps.php:5447
+msgid "Tip: Use your mouse to change the location of the marker. Simply click and drag it to your desired location."
+msgstr "Wskazówka: Uzyj myszki, aby zmienić położenie znacznika. Po prostu kliknij i przeciągnij go w odpowiednie położenie."
+
+#: wpGoogleMaps.php:5895
+msgid "The plugin directory does not have 'write' permissions. Please enable 'write' permissions (755) for "
+msgstr "Brak uprawnień 'zapisu' dla katalogu wtyczki. Nadaj proszę uprawnienia do 'zapisu' (755) dla"
+
+#: wpGoogleMaps.php:5897
+msgid "in order for this plugin to work! Please see "
+msgstr "aby wtyczka mogła działać prawidłowo! Zobacz"
+
+#: wpGoogleMaps.php:5901
+msgid "for help on how to do it."
+msgstr "aby uzyskać wskazówkę, jak to zrobić."
+
+#: wpGoogleMaps.php:6359
+msgid "Contact us"
+msgstr "Skontaktuj się z nami"
+
+#: base/includes/welcome.php:34 wpGoogleMaps.php:4553
+msgid "Themes"
+msgstr "Szablony"
+
+#: wpGoogleMaps.php:4558
+msgid "Pro Upgrade"
+msgstr "Ulepszenie do wersji Pro"
+
+#: wpGoogleMaps.php:4605
+msgid "Set to 100% for a responsive map"
+msgstr "Ustaw 100% dla mapy z autodopasowaniem"
+
+#: wpGoogleMaps.php:4615
+msgid "We recommend that you leave your height in PX. Depending on your theme, using % for the height may break your map."
+msgstr "Polecamy aby okreslić wysokość w pixelach. W zależności od szablonu, używanie % do okreslenia wysokości może źle wpływać na wyświetlanie mapy."
+
+#: wpGoogleMaps.php:4620
+msgid "Zoom Level"
+msgstr "Poziom zbliżenia"
+
+#: wpGoogleMaps.php:4649
+msgid "Select a theme for your map"
+msgstr "Wybierz szablon dla swojej mapy"
+
+#: wpGoogleMaps.php:4761
+msgid "Restrict to country"
+msgstr "Ogranicz do kraju"
+
+#: wpGoogleMaps.php:4824
+msgid "Query string"
+msgstr "Zapytanie Query"
+
+#: wpGoogleMaps.php:4839
+msgid "Show bouncing icon"
+msgstr "Pokaż skaczącą ikonę"
+
+#: wpGoogleMaps.php:4876
+msgid "Enable Public Transport Layer?"
+msgstr "Włączyć transport publiczny?"
+
+#: wpGoogleMaps.php:4903
+msgid "Maximum Zoom Level"
+msgstr "Maksymalny poziom zbliżenia"
+
+#: wpGoogleMaps.php:4988
+msgid "List Markers"
+msgstr "Pokaż wszystkie znaczniki"
+
+#: wpGoogleMaps.php:4992
+msgid "Basic table"
+msgstr "Podstawowa tabela"
+
+#: wpGoogleMaps.php:4994 wpGoogleMaps.php:5074
+msgid "Carousel"
+msgstr "Karuzela"
+
+#: wpGoogleMaps.php:4994
+msgid "beta"
+msgstr "beta"
+
+#: wpGoogleMaps.php:5031
+msgid "Move list inside map"
+msgstr "Przesuń listę wewnątrz mapy"
+
+#: wpGoogleMaps.php:5034
+msgid "Move your marker list inside the map area"
+msgstr "Przesuń znacznik do obszaru na mapie"
+
+#: wpGoogleMaps.php:5036
+msgid "Placement: "
+msgstr "Położenie:"
+
+#: wpGoogleMaps.php:5038
+msgid "Top Center"
+msgstr "Centralnie u góry"
+
+#: wpGoogleMaps.php:5039
+msgid "Top Left"
+msgstr "Po lewej u góry"
+
+#: wpGoogleMaps.php:5040
+msgid "Top Right"
+msgstr "Po prawej u góry"
+
+#: wpGoogleMaps.php:5042
+msgid "Right Top"
+msgstr "Po prawej u góry"
+
+#: wpGoogleMaps.php:5041
+msgid "Left Top "
+msgstr "Po lewej u góry "
+
+#: wpGoogleMaps.php:5043
+msgid "Left Center"
+msgstr "Po lewej na środku"
+
+#: wpGoogleMaps.php:5044
+msgid "Right Center"
+msgstr "Po prawej na środku"
+
+#: wpGoogleMaps.php:5045
+msgid "Left Bottom"
+msgstr "Po lewej na dole"
+
+#: wpGoogleMaps.php:5046
+msgid "Right Bottom"
+msgstr "Po prawej na dole"
+
+#: wpGoogleMaps.php:5047
+msgid "Bottom Center"
+msgstr "Centralnie na dole"
+
+#: wpGoogleMaps.php:5048
+msgid "Bottom Left"
+msgstr "Po lewej na dole"
+
+#: wpGoogleMaps.php:5049
+msgid "Bottom Right"
+msgstr "Po prawej na dole"
+
+#: wpGoogleMaps.php:5065
+msgid "Basic"
+msgstr "Podstawowy"
+
+#: wpGoogleMaps.php:5066
+msgid "Show a basic list of your markers"
+msgstr "Pokaż podstawową listę znaczników"
+
+#: wpGoogleMaps.php:5075
+msgid "Beautiful, responsive, mobile-friendly carousel marker listing"
+msgstr "Piękna, auto dopasowująca się, przyjazna technologi mobilnej, karuzela znaczników"
+
+#: wpGoogleMaps.php:5083
+msgid "Tabular"
+msgstr "Tabelaryczny"
+
+#: wpGoogleMaps.php:5084
+msgid "Advanced, tabular marker listing functionality with real time filtering"
+msgstr "Zaawansowane, tabelaryczny układ znaczników z filtrowaniem w czasie rzeczywistym"
+
+#: wpGoogleMaps.php:5210 wpGoogleMaps.php:5271
+msgid "Advanced markers"
+msgstr "Zaawansowane znaczniki"
+
+#: wpGoogleMaps.php:5211
+msgid "Polygon"
+msgstr "Wielokąt"
+
+#: wpGoogleMaps.php:5223
+msgid "Or right click on the map"
+msgstr "lub kliknij na mapę"
+
+#: wpGoogleMaps.php:5357
+msgid "This is normally caused by a conflict with another plugin or a JavaScript error that is preventing our plugin's Javascript from executing. Please try disable all plugins one by one and see if this problem persists."
+msgstr "Zazwyczaj jest to spowodowane konfliktem z innym dodatkiem lub z błedem skryptu Java, który uniemożliwia naszemu dodatkowi uruchomienie skryptu Java. Proszę spróbuj wyłączać po kolei wszystkie dodatki aby zobaczyć czy błąd dalej występuje."
+
+#: wpGoogleMaps.php:5629
+msgid "There are too many markers to make use of the live edit function. The maximum amount for this functionality is 5000 markers. Anything more than that could crash your browser. In order to edit your markers, you would need to download the table in CSV format, edit it and re-upload it."
+msgstr "Jest za dużo znaczników aby użyć funkcji edycji w czasie rzeczywistym. Maksymalna liczba umozliwiająca płynne działanie to 5000 znaczników. Wszystko powyżej tej ilości może zawiesić Twoją przeglądarkę. Aby edytować swoje znaczniki, pobierz tabelę w formacie CSV, edytuj ją i ponownie wgraj na serwer."
+
+#: wpGoogleMaps.php:5700
+msgid "Approve this marker"
+msgstr "Zaakceptuj znacznik"
+
+#: wpGoogleMaps.php:6317
+msgid "WP Google Maps does not have write permission to the marker location directory. This is required to store marker data. Please CHMOD the folder "
+msgstr "WP Google Maps nie posiada uprawnień do folderu zapisu znaczników. Jest to wymagane aby móc przechowywać dane znaczników. Proszę zmienić parametry CHMOD folderu"
+
+#: wpGoogleMaps.php:6317
+msgid " to 755 or 777, or change the directory in the Maps->Settings page. (Current file permissions are "
+msgstr "do 755 lub 777, lub zmienić położenie w zakładce Mapy->Ustawienia (Aktualnie uprawnienia dla plików są "
+
+#: base/includes/credits.php:71 wpGoogleMaps.php:6331
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: wpGoogleMaps.php:6333
+msgid "Getting started? Read through some of these articles to help you along your way."
+msgstr "Dopiero zaczynasz? Tutaj znajdziesz kilka porad, które pomogą Ci w przyszłości!"
+
+#: wpGoogleMaps.php:6334
+msgid "Documentation:"
+msgstr "Dokumentacja:"
+
+#: wpGoogleMaps.php:6336
+msgid "Creating your first map"
+msgstr "Tworzenie Twojej pierwszej mapy"
+
+#: wpGoogleMaps.php:6337
+msgid "Using your map as a Widget"
+msgstr "Używaj swojej mapy jako Widżetu"
+
+#: wpGoogleMaps.php:6338
+msgid "Changing the Google Maps language"
+msgstr "Zmień język Google Maps"
+
+#: wpGoogleMaps.php:6339
+msgid "WP Google Maps Documentation"
+msgstr "Dokumentacja WP Google Map"
+
+#: wpGoogleMaps.php:6339
+msgid "View all documentation."
+msgstr "Zapoznaj się z pełną dokumentacją"
+
+#: wpGoogleMaps.php:6343
+msgid "Troubleshooting"
+msgstr "Rozwiązywanie problemów"
+
+#: wpGoogleMaps.php:6345
+msgid "WP Google Maps has a diverse and wide range of features which may, from time to time, run into conflicts with the thousands of themes and other plugins on the market."
+msgstr "WP Google Maps ma zróżnicowany i szeroki zakres funkcji, które mogą od czasu do czasu, doprowadzić do konfliktów z jednym z tysięcy schematów i innych wtyczek dostępnych na rynku."
+
+#: wpGoogleMaps.php:6346
+msgid "Common issues:"
+msgstr "Typowe problemy:"
+
+#: wpGoogleMaps.php:6348
+msgid "My map is not showing on my website"
+msgstr "Mapa nie pokazuje się na mojej stronie"
+
+#: wpGoogleMaps.php:6349
+msgid "My markers are not showing on my map in the front-end"
+msgstr "Moje znaczniki nie pokazują się na mapie"
+
+#: wpGoogleMaps.php:6350
+msgid "I'm getting jQuery errors showing on my website"
+msgstr "Wyświetlają mi się błędy jQuery"
+
+#: wpGoogleMaps.php:6358
+msgid "Support forum"
+msgstr "Forum wsparcia technicznego "
+
+#. #-#-#-#-#  wp-google-maps-code.pot (WP Google Maps 6.4.11)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wp-google-maps-code.pot (WP Google Maps 6.4.11)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://www.wpgmaps.com"
+msgstr "http://www.wpgmaps.com"
+
+#: wpGoogleMaps.php:4557
+msgid "Marker Listing Options"
+msgstr "Opcje listy znaczników"
+
+#: wpGoogleMaps.php:4552
+msgid "General Settings"
+msgstr "Ustawienia ogólne"
+
+#: wpGoogleMaps.php:4516
+msgid "We've noticed that you are using W3 Total Cache and that you have CDN enabled.<br /><br />In order for the markers to show up on your map, you need to add '<strong><em>{uploads_dir}/wp-google-maps*</strong></em>' to the '<strong>rejected files</strong>' list in the <a href='admin.php?page=w3tc_cdn#advanced'>CDN settings page</a> of W3 Total Cache"
+msgstr "Zauważyliśmy, że używasz W3 Total Cache i masz uruchomione CDN.<br /><br /> Aby oznaczenia pojawiały się na mapie musisz dodać '<strong><em>{uploads_dir}/wp-google-maps*</strong></em>' do '<strong>rejected files</strong>' listy na <a href='admin.php?page=w3tc_cdn#advanced'>stronie ustawień CDN</a> w Twoim W3 Total Cache"
+
+#: wpGoogleMaps.php:4993
+msgid "Advanced table with real time search and filtering"
+msgstr "Zaawansowana tabela z wyszukiwaniem i filtrowaniem w czasie rzeczywistym"
+
+#: wpGoogleMaps.php:6328
+msgid "WP Google Maps Support"
+msgstr "Pomoc WP Google Maps"
+
+#: wpGoogleMaps.php:6356
+msgid "Still need help? Use one of these links below."
+msgstr "Nadal potrzebujesz pomocy? Użyj jednego z poniższych odnośników."
+
+#. Description of the plugin/theme
+msgid "The easiest to use Google Maps plugin! Create custom Google Maps with high quality markers containing locations, descriptions, images and links. Add your customized map to your WordPress posts and/or pages quickly and easily with the supplied shortcode. No fuss."
+msgstr "Najłatwiejsza w użyciu wtyczka Google Maps! Użyj Google Maps w wysokiej rozdzielczości, dodaj znaczniki by umieścić dany punkt na mapie, dodaj opis, zdjęcie, odnośnik. Wrzuć swoją mapę na stronę lub do wpisów na blogu WordPress w szybki i łatwy sposób za pomocą krótkiego kodu. A wszystko to bez najmniejszego kłopotu!"
+
+#: wpGoogleMaps.php:5253
+msgid "Remember to save your marker"
+msgstr "Pamiętaj, aby zapisać swój znacznik"
+
+#: wpGoogleMaps.php:5259
+msgid "Please add the current marker before trying to add another marker"
+msgstr "Proszę zakończ dodawanie obecnego znacznika, zanim dodasz nowy"
+
+#: wpGoogleMaps.php:4516
+msgid "Please note"
+msgstr "Proszę zwróć uwagę"
+
+#: base/includes/full-screen-module.php:37 wpGoogleMaps.php:3637
+#: wpGoogleMaps.php:3753 wpGoogleMaps.php:3959 wpGoogleMaps.php:3966
+#: wpGoogleMaps.php:3997 wpGoogleMaps.php:4005 wpGoogleMaps.php:4025
+#: wpGoogleMaps.php:4716 wpGoogleMaps.php:4756 wpGoogleMaps.php:4842
+#: wpGoogleMaps.php:4860 wpGoogleMaps.php:4869 wpGoogleMaps.php:4880
+#: wpGoogleMaps.php:4898 wpGoogleMaps.php:4949 wpGoogleMaps.php:4953
+#: wpGoogleMaps.php:5243 wpGoogleMaps.php:5298
+msgid "Yes"
+msgstr "Tak"
+
+#: base/includes/full-screen-module.php:37 wpGoogleMaps.php:3637
+#: wpGoogleMaps.php:3753 wpGoogleMaps.php:3959 wpGoogleMaps.php:3966
+#: wpGoogleMaps.php:3997 wpGoogleMaps.php:4005 wpGoogleMaps.php:4025
+#: wpGoogleMaps.php:4715 wpGoogleMaps.php:4719 wpGoogleMaps.php:4729
+#: wpGoogleMaps.php:4756 wpGoogleMaps.php:4842 wpGoogleMaps.php:4860
+#: wpGoogleMaps.php:4869 wpGoogleMaps.php:4880 wpGoogleMaps.php:4898
+#: wpGoogleMaps.php:4948 wpGoogleMaps.php:4953 wpGoogleMaps.php:5242
+#: wpGoogleMaps.php:5297
+msgid "No"
+msgstr "Nie"
+
+#: wpGoogleMaps.php:2692 wpGoogleMaps.php:4402
+msgid "ZIP / Address:"
+msgstr "Kod pocztowy/Adres"
+
+#: wpGoogleMaps.php:4292 wpGoogleMaps.php:4598
+msgid "Width"
+msgstr "Szerokość"
+
+#: wpGoogleMaps.php:4293 wpGoogleMaps.php:4610
+msgid "Height"
+msgstr "Wysokość"
+
+#: wpGoogleMaps.php:4301 wpGoogleMaps.php:4638
+msgid "Roadmap"
+msgstr "Mapa drogowa"
+
+#: wpGoogleMaps.php:4302 wpGoogleMaps.php:4639
+msgid "Satellite"
+msgstr "Satelitarna"
+
+#: wpGoogleMaps.php:4303 wpGoogleMaps.php:4640
+msgid "Hybrid"
+msgstr "Hybryda"
+
+#: wpGoogleMaps.php:4304 wpGoogleMaps.php:4641
+msgid "Terrain"
+msgstr "Terenowa"
+
+#: base/includes/wp-google-maps-polygons.php:746
+#: base/includes/wp-google-maps-polylines.php:741 wpGoogleMaps.php:4290
+#: wpGoogleMaps.php:4344 wpGoogleMaps.php:5011 wpGoogleMaps.php:5428
+#: wpGoogleMaps.php:5722
+msgid "ID"
+msgstr "ID"
+
+#: base/classes/widget_module.class.php:60
+#: base/includes/wp-google-maps-polygons.php:40
+#: base/includes/wp-google-maps-polygons.php:125 wpGoogleMaps.php:4291
+#: wpGoogleMaps.php:4347 wpGoogleMaps.php:5012 wpGoogleMaps.php:5302
+#: wpGoogleMaps.php:5724 wpGoogleMaps.php:5743
+msgid "Title"
+msgstr "Tytuł"
+
+#: wpGoogleMaps.php:2744 wpGoogleMaps.php:5015 wpGoogleMaps.php:5316
+#: wpGoogleMaps.php:5725 wpGoogleMaps.php:5744
+msgid "Category"
+msgstr "Kategoria"
+
+#: base/includes/wp-google-maps-polygons.php:31
+msgid "Add a Polygon"
+msgstr "Dodaj wielokąt"
+
+#: base/includes/wp-google-maps-polylines.php:30
+msgid "Add a Polyline"
+msgstr "Dodaj linię łamaną"
+
+#: wpGoogleMaps.php:2752
+msgid "Search"
+msgstr "Wyszukiwanie"
+
+#. #-#-#-#-#  wp-google-maps-code.pot (WP Google Maps 6.4.11)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#. #-#-#-#-#  wp-google-maps-code.pot (WP Google Maps 6.4.11)  #-#-#-#-#
+#. Author of the plugin/theme
+#: base/classes/widget_module.class.php:10
+msgid "WP Google Maps"
+msgstr "WP Google Maps"
+
+#: base/includes/credits.php:47 base/includes/credits.php:65
+#: wpGoogleMaps.php:3605 wpGoogleMaps.php:6354
+msgid "Support"
+msgstr "Forum wsparcia"
+
+#: wpGoogleMaps.php:3792
+msgid "WP Google Map Settings"
+msgstr "Ustawienia WP Google Map"
+
+#: wpGoogleMaps.php:3600 wpGoogleMaps.php:3933
+msgid "Maps"
+msgstr "Mapy"
+
+#: wpGoogleMaps.php:3934
+msgid "InfoWindows"
+msgstr "Ustawienia okna informacyjnego"
+
+#: wpGoogleMaps.php:3935
+msgid "Marker Listing"
+msgstr "Ustawienia pokazywania znaczników"
+
+#: wpGoogleMaps.php:3603 wpGoogleMaps.php:3936
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: wpGoogleMaps.php:4163
+msgid "Save Settings"
+msgstr "Zapisz ustawienia"
+
+#: wpGoogleMaps.php:4035
+msgid "Marker Listing Settings"
+msgstr "Ustawienia pokazywania znaczników"
+
+#: wpGoogleMaps.php:4047
+msgid "Hide the Icon column"
+msgstr "Ukryj kolumnę Ikona"
+
+#: wpGoogleMaps.php:4048
+msgid "Hide the Title column"
+msgstr "Ukryj kolumnę Tytuł"
+
+#: wpGoogleMaps.php:4049
+msgid "Hide the Address column"
+msgstr "Ukryj kolumnę Adres"
+
+#: wpGoogleMaps.php:4050
+msgid "Hide the Category column"
+msgstr "Ukryj kolumnę Kategoria"
+
+#: wpGoogleMaps.php:4051
+msgid "Hide the Description column"
+msgstr "Ukryj kolumne Opis"
+
+#: wpGoogleMaps.php:4079
+msgid "Hide the Address"
+msgstr "Ukryj kolumnę Adres"
+
+#: wpGoogleMaps.php:4080
+msgid "Hide the Description"
+msgstr "Ukryj kolumne Opis"
+
+#: wpGoogleMaps.php:3940
+msgid "Map Settings"
+msgstr "Ustawienia map"
+
+#: wpGoogleMaps.php:3943
+msgid "General Map Settings"
+msgstr "Ogólne ustawienia map"
+
+#: wpGoogleMaps.php:3946
+msgid "Disable StreetView"
+msgstr "Wyłącz StreetView"
+
+#: wpGoogleMaps.php:3947
+msgid "Disable Zoom Controls"
+msgstr "Wyłącz kontrolki powiększenia"
+
+#: wpGoogleMaps.php:3948
+msgid "Disable Pan Controls"
+msgstr "Wyłącz kontrolkę przesuwania"
+
+#: wpGoogleMaps.php:3949
+msgid "Disable Map Type Controls"
+msgstr "Wyłącz kontrolkę rodzaju mapy"
+
+#: wpGoogleMaps.php:3950
+msgid "Disable Mouse Wheel Zoom"
+msgstr "Wyłącz powiększanie kółkiem"
+
+#: wpGoogleMaps.php:3951
+msgid "Disable Mouse Dragging"
+msgstr "Wyłącz przeciąganie myszką"
+
+#: wpGoogleMaps.php:3952
+msgid "Disable Mouse Double Click Zooming"
+msgstr "Wyłącz powiększanie dwukrotnym kliknięciem"
+
+#: wpGoogleMaps.php:4018
+msgid "Open Marker InfoWindows by"
+msgstr "Otwórz okna informacyjne znacznika poprzez"
+
+#: wpGoogleMaps.php:3957
+msgid "Troubleshooting Options"
+msgstr "Opcje rozwiązywania problemów"
+
+#: wpGoogleMaps.php:2912 wpGoogleMaps.php:3185 wpGoogleMaps.php:3389
+#: wpGoogleMaps.php:3581
+msgid "Your settings have been saved."
+msgstr "Ustawienia zostały zapisane."
+
+#: wpGoogleMaps.php:2939 wpGoogleMaps.php:3417
+msgid "Your marker location has been saved."
+msgstr "Lokalizacja markera została zapisana."
+
+#: wpGoogleMaps.php:2997 wpGoogleMaps.php:3451
+msgid "Your polygon has been created."
+msgstr "Wielokąt został utworzony."
+
+#: wpGoogleMaps.php:3058 wpGoogleMaps.php:3487
+msgid "Your polygon has been saved."
+msgstr "Wielokąt został zapisany."
+
+#: wpGoogleMaps.php:3103 wpGoogleMaps.php:3518
+msgid "Your polyline has been created."
+msgstr "Linia łamana została utworzona."
+
+#: wpGoogleMaps.php:3146 wpGoogleMaps.php:3550
+msgid "Your polyline has been saved."
+msgstr "Linia łamana została zapisana."
+
+#: base/includes/wp-google-maps-polygons.php:43
+#: base/includes/wp-google-maps-polygons.php:128 wpGoogleMaps.php:4351
+#: wpGoogleMaps.php:5729
+msgid "Link"
+msgstr "Link"
+
+#: base/includes/wp-google-maps-polygons.php:84
+#: base/includes/wp-google-maps-polygons.php:169
+msgid "Save Polygon"
+msgstr "Zapisz wielokąt"
+
+#: wpGoogleMaps.php:2708
+msgid "Radius"
+msgstr "Promień"
+
+#: wpGoogleMaps.php:2715 wpGoogleMaps.php:4795
+msgid "1mi"
+msgstr "1 mila"
+
+#: wpGoogleMaps.php:2716 wpGoogleMaps.php:4796
+msgid "5mi"
+msgstr "5 mil"
+
+#: wpGoogleMaps.php:2717 wpGoogleMaps.php:4797
+msgid "10mi"
+msgstr "10 mil"
+
+#: wpGoogleMaps.php:2718 wpGoogleMaps.php:4798
+msgid "25mi"
+msgstr "25 mil"
+
+#: wpGoogleMaps.php:2719 wpGoogleMaps.php:4799
+msgid "50mi"
+msgstr "50 mil"
+
+#: wpGoogleMaps.php:2720 wpGoogleMaps.php:4800
+msgid "75mi"
+msgstr "75 mil"
+
+#: wpGoogleMaps.php:2721 wpGoogleMaps.php:4801
+msgid "100mi"
+msgstr "100 mil"
+
+#: wpGoogleMaps.php:2722 wpGoogleMaps.php:4802
+msgid "150mi"
+msgstr "150 mil"
+
+#: wpGoogleMaps.php:2723 wpGoogleMaps.php:4803
+msgid "200mi"
+msgstr "200 mil"
+
+#: wpGoogleMaps.php:2724 wpGoogleMaps.php:4804
+msgid "300mi"
+msgstr "300 mil"
+
+#: wpGoogleMaps.php:2726 wpGoogleMaps.php:4809
+msgid "1km"
+msgstr "1 km"
+
+#: wpGoogleMaps.php:2727 wpGoogleMaps.php:4810
+msgid "5km"
+msgstr "5 km"
+
+#: wpGoogleMaps.php:2728 wpGoogleMaps.php:4811
+msgid "10km"
+msgstr "10 km"
+
+#: wpGoogleMaps.php:2729 wpGoogleMaps.php:4812
+msgid "25km"
+msgstr "25 km"
+
+#: wpGoogleMaps.php:2730 wpGoogleMaps.php:4813
+msgid "50km"
+msgstr "50 km"
+
+#: wpGoogleMaps.php:2731 wpGoogleMaps.php:4814
+msgid "75km"
+msgstr "75 km"
+
+#: wpGoogleMaps.php:2732 wpGoogleMaps.php:4815
+msgid "100km"
+msgstr "100 km"
+
+#: wpGoogleMaps.php:2733 wpGoogleMaps.php:4816
+msgid "150km"
+msgstr "150 km"
+
+#: wpGoogleMaps.php:2734 wpGoogleMaps.php:4817
+msgid "200km"
+msgstr "200 km"
+
+#: wpGoogleMaps.php:2735 wpGoogleMaps.php:4818
+msgid "300km"
+msgstr "300 km"
+
+#: wpGoogleMaps.php:4294
+msgid "Type"
+msgstr "Rodzaj"
+
+#: base/includes/wp-google-maps-polygons.php:774
+#: base/includes/wp-google-maps-polylines.php:769 wpGoogleMaps.php:4312
+msgid "Edit"
+msgstr "Edycja"
+
+#: base/includes/wp-google-maps-polygons.php:40
+#: base/includes/wp-google-maps-polygons.php:125 wpGoogleMaps.php:4250
+msgid "Pro Version"
+msgstr "Wersja Pro"
+
+#: wpGoogleMaps.php:4250
+msgid "with the"
+msgstr "z"
+
+#: wpGoogleMaps.php:4250
+msgid "of WP Google Maps for only"
+msgstr "WP Google Maps tylko za"
+
+#: wpGoogleMaps.php:4271 wpGoogleMaps.php:4331
+msgid "Problems with the plugin? See the troubleshooting manual."
+msgstr "Problemy z wtyczką? Zobacz instrukcję rozwiązywania problemów."
+
+#: base/includes/wp-google-maps-polygons.php:115
+msgid "Edit Polygon"
+msgstr "Edytuj wielokąt"
+
+#: base/includes/wp-google-maps-polygons.php:748
+#: base/includes/wp-google-maps-polylines.php:743 wpGoogleMaps.php:5730
+msgid "Action"
+msgstr "Działanie"
+
+#: base/includes/wp-google-maps-polygons.php:775
+msgid "Delete this polygon"
+msgstr "Usuń ten wielokąt"
+
+#: base/includes/wp-google-maps-polylines.php:83
+#: base/includes/wp-google-maps-polylines.php:173
+msgid "Save Polyline"
+msgstr "Zapisz linię łamaną"
+
+#: base/includes/wp-google-maps-polylines.php:121
+msgid "Edit Polyline"
+msgstr "Edytuj linię łamaną"
+
+#: base/includes/wp-google-maps-polylines.php:770
+msgid "Delete this polyline"
+msgstr "Usuń tą linię łamaną"
+
+#: base/classes/WPGM_templates.php:116
+msgid "Support Forum"
+msgstr "Forum wsparcia"
+
+#: base/classes/WPGM_templates.php:116 base/includes/welcome.php:101
+msgid "for quick and friendly help. We'll answer your request within 24hours."
+msgstr ", aby uzyskać szybką i przyjazną pomoc. Odpowiemy na zgłoszenie w ciągu 24 godzin."
+
+#: base/classes/WPGM_templates.php:119 base/includes/welcome.php:104
+msgid "Feedback"
+msgstr "Uwagi i komentarze"
+
+#: base/classes/WPGM_templates.php:120 base/includes/welcome.php:105
+msgid "We need you to help us make this plugin better."
+msgstr "W celu usprawnienia wtyczki potrzebujemy Twoje pomocy."
+
+#: base/classes/WPGM_templates.php:120 base/includes/welcome.php:105
+msgid "Send us your feedback"
+msgstr "Wyślij nam swoje uwagi i komentarze"
+
+#: base/classes/WPGM_templates.php:120 base/includes/welcome.php:105
+msgid "and we'll act on it as soon as humanly possible."
+msgstr ", a my zareagujemy tak szybko jak to możliwe."
+
+#: base/classes/WPGM_templates.php:124 base/includes/credits.php:84
+#: base/includes/welcome.php:109
+msgid "OK! Let's start"
+msgstr "OK! Zaczynajmy"
+
+#: wpGoogleMaps.php:833 wpGoogleMaps.php:5899
+msgid "this page"
+msgstr "tą stronę"
+
+#: wpGoogleMaps.php:3239 wpGoogleMaps.php:3243
+msgid "Thank you for your feedback!"
+msgstr "Dziękujemy za informację!"
+
+#: wpGoogleMaps.php:3602
+msgid "Categories"
+msgstr "Kategorie"
+
+#: wpGoogleMaps.php:727 wpGoogleMaps.php:3604
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: wpGoogleMaps.php:3626 wpGoogleMaps.php:3740
+msgid "Experiencing problems with the plugin?"
+msgstr "Masz problem z tą wtyczką?"
+
+#: wpGoogleMaps.php:3626 wpGoogleMaps.php:3740
+msgid "See the troubleshooting manual."
+msgstr "Sprawdź w instrukcji rozwiązywania problemów."
+
+#: wpGoogleMaps.php:3626
+msgid "Or ask a question on our "
+msgstr "Lub zadaj pytanie na naszym"
+
+#: wpGoogleMaps.php:3626
+msgid "Support forum."
+msgstr "forum Wsparcia."
+
+#: wpGoogleMaps.php:3633
+msgid "There was a problem deleting the map."
+msgstr "Wystąpił problem z usunięciem mapy."
+
+#: wpGoogleMaps.php:3637
+msgid "Delete your map"
+msgstr "Usuń mapę"
+
+#: wpGoogleMaps.php:3637
+msgid "Are you sure you want to delete the map"
+msgstr "Czy jesteś pewien, że chcesz usunąć mapę"
+
+#: wpGoogleMaps.php:3749
+msgid "There was a problem deleting the marker."
+msgstr "Wystąpił problem z usunięciem markera."
+
+#: wpGoogleMaps.php:3753
+msgid "Delete Marker"
+msgstr "Usuń znacznik"
+
+#: wpGoogleMaps.php:3753
+msgid "Are you sure you want to delete this marker:"
+msgstr "Czy jesteś pewien, że chcesz skasować ten znacznik:"
+
+#: wpGoogleMaps.php:4228 wpGoogleMaps.php:4249
+msgid "My Maps"
+msgstr "Moje mapy"
+
+#: wpGoogleMaps.php:4228 wpGoogleMaps.php:4328
+msgid "Add New"
+msgstr "Dodaj nową"
+
+#: wpGoogleMaps.php:4250
+msgid "Create unlimited maps"
+msgstr "Towrzenie nieograniczonej liczby map"
+
+#: base/classes/widget_module.class.php:12
+msgid "Add your map as a widget"
+msgstr "Dodaj mapę jako widżet"
+
+#: base/classes/widget_module.class.php:65
+msgid "Select your map:"
+msgstr "Wybierz swoją mapę:"
+
+#: base/includes/wp-google-maps-polygons.php:40
+#: base/includes/wp-google-maps-polygons.php:125
+msgid "Get the Pro add-on"
+msgstr " \tZakup wersję Pro"
+
+#: base/includes/wp-google-maps-polygons.php:52
+#: base/includes/wp-google-maps-polygons.php:137
+msgid "Fill Color"
+msgstr "Kolor wypełnienia"
+
+#: base/includes/wp-google-maps-polygons.php:55
+#: base/includes/wp-google-maps-polygons.php:140
+#: base/includes/wp-google-maps-polylines.php:52
+#: base/includes/wp-google-maps-polylines.php:144
+msgid "Opacity"
+msgstr "Przeźroczystość"
+
+#: base/includes/wp-google-maps-polygons.php:61
+#: base/includes/wp-google-maps-polygons.php:146
+msgid "On Hover Fill Color"
+msgstr "Kolor wypełnienia przy podświetleniu"
+
+#: wpGoogleMaps.php:815
+msgid "<strong>WP Google Maps cannot find the directory it uses to save marker data to. Please confirm that <em>"
+msgstr "<strong>WP Google Maps nie może odnaleźć katalogu, który wykorzystuje do zapisu punktów. Proszę potwierdź to <em>"
+
+#: wpGoogleMaps.php:457
+msgid "My first map"
+msgstr "Moja pierwsza mapa"
+
+#: base/includes/wp-google-maps-polylines.php:60
+#: base/includes/wp-google-maps-polylines.php:152
+msgid "Line Thickness"
+msgstr "Grubość linii"
+
+#: base/includes/wp-google-maps-polygons.php:76
+msgid "Click on a vertex to remove it."
+msgstr "Kliknij na wierzchołek by go usunąć"
+
+#: base/includes/wp-google-maps-polygons.php:75
+msgid "Click on the map to insert a vertex."
+msgstr "Kliknij na mapie, aby wstawić wierzchołek."
+
+#: base/includes/wp-google-maps-polygons.php:64
+#: base/includes/wp-google-maps-polygons.php:149
+msgid "On Hover Opacity"
+msgstr "Przeźroczystość po podświetleniu"
+
+#: wpGoogleMaps.php:4069
+msgid "Black"
+msgstr "Czarny"
+
+#: wpGoogleMaps.php:4068
+msgid "White"
+msgstr "Biały"
+
+#: wpGoogleMaps.php:4067
+msgid "PinkPurple"
+msgstr "Różowo-Fioletowy"
+
+#: wpGoogleMaps.php:4066
+msgid "Monotone"
+msgstr "Monotonia"
+
+#: wpGoogleMaps.php:4065
+msgid "Earth"
+msgstr "Ziemia"
+
+#: wpGoogleMaps.php:4064
+msgid "Sun"
+msgstr "Słońce"
+
+#: wpGoogleMaps.php:4063
+msgid "Sky"
+msgstr "Niebo"
+
+#: wpGoogleMaps.php:4036
+msgid "Changing these settings will alter the way the marker list appears on your website."
+msgstr "Zmiana tych parametrów wpłynie na sposób w jaki znacznik będzie się pojawiał na Twojej stronie."
+
+#: wpGoogleMaps.php:3982
+msgid "Lowest level of access to the map editor"
+msgstr "Najniższy poziom użytkownika dla dostępności do edytora map"
+
+#: wpGoogleMaps.php:3937
+msgid "Error Log"
+msgstr "Dziennik błędów"
+
+#: wpGoogleMaps.php:3914
+msgid "File Permissions:"
+msgstr "Uprawnienia pliku:"
+
+#: wpGoogleMaps.php:2950 wpGoogleMaps.php:3011
+msgid "You cannot save a blank polygon"
+msgstr "Nie można zapisać pustego wielokąta"
+
+#: wpGoogleMaps.php:4156
+msgid "Having issues? Perhaps something below can give you a clue as to what's wrong. Alternatively, email this through to nick@wpgmaps.com for help!"
+msgstr "Masz problemy? Może coś z poniższych rozwiązań podpowie Ci co jest nie tak. Alternatywnie, opisz problem na adres nick@wpgmaps.com a my pomożemy!"
+
+#: wpGoogleMaps.php:4129
+msgid "Marker data XML URL"
+msgstr "Adres do baza znaczników XML "
+
+#: wpGoogleMaps.php:4125 wpGoogleMaps.php:4135
+msgid "Currently using"
+msgstr "Obecnie używane"
+
+#: wpGoogleMaps.php:4118
+msgid "We suggest that you change the two fields below ONLY if you are experiencing issues when trying to save the marker XML files."
+msgstr "Sugerujemy byś zmienił poniższe dwa pola TYLKO wtedy gdy masz problemy w trakcie zapisu znaczników w pliku XML."
+
+#: wpGoogleMaps.php:4115
+msgid "XML File  (Great for large amounts of markers)"
+msgstr "Plik XML (Doskonały dla dużej ilości znaczników)"
+
+#: wpGoogleMaps.php:4114
+msgid "Database (Great for small amounts of markers)"
+msgstr "Baza danych (Doskonała dla małej ilości znaczników)"
+
+#: wpGoogleMaps.php:4112
+msgid "Pull marker data from"
+msgstr "Ściągnij dane znacznika z "
+
+#: wpGoogleMaps.php:4088
+msgid "Autoplay after x milliseconds (1000 = 1 second)"
+msgstr "Uruchom po x milisekundach (1000=1 sekunda)"
+
+#: wpGoogleMaps.php:4084
+msgid "Enable autoheight"
+msgstr "Uruchom automatyczne dopasowanie wysokości"
+
+#: wpGoogleMaps.php:4083
+msgid "Enable lazyload of images"
+msgstr "Uruchom opcję wgrywania zdjęć w polu widzenia \"lazyload\""
+
+#: wpGoogleMaps.php:2406
+msgid "does not exist"
+msgstr "nie istnieje"
+
+#: wpGoogleMaps.php:2406
+msgid "Error: The map ID"
+msgstr "Błąd: ID mapy"
+
+#: wpGoogleMaps.php:1987 wpGoogleMaps.php:1997 wpGoogleMaps.php:2002
+msgid "Could not save XML file"
+msgstr "Nie można zapisać pliku XML"
+
+#: wpGoogleMaps.php:1883
+msgid "DOMDocument is not enabled"
+msgstr "DOMDokument nie jest włączony"
+
+#: wpGoogleMaps.php:1259 wpGoogleMaps.php:1843 wpGoogleMaps.php:2639
+msgid "km away"
+msgstr "kilometrów"
+
+#: wpGoogleMaps.php:1260 wpGoogleMaps.php:1844 wpGoogleMaps.php:2640
+msgid "miles away"
+msgstr "mil"
+
+#: wpGoogleMaps.php:835
+msgid "for help on how to do it. Alternatively, you can disable the use of Timthumb in Maps->Settings"
+msgstr "aby zobaczyć jak to zrobić. Alternatywnie można wyłaczyć użycie Timthumb w Mapy->Ustawienia"
+
+#: wpGoogleMaps.php:4139 wpGoogleMaps.php:4142
+msgid "Custom CSS"
+msgstr "Własny CSS"
+
+#: wpGoogleMaps.php:4095 wpGoogleMaps.php:4556
+msgid "Advanced Settings"
+msgstr "Zaawansowane Ustawienia"
+
+#: base/includes/wp-google-maps-polygons.php:49
+#: base/includes/wp-google-maps-polygons.php:134
+msgid "Line Opacity"
+msgstr "Przeźroczystość linii"
+
+#: base/includes/wp-google-maps-polygons.php:46
+#: base/includes/wp-google-maps-polygons.php:131
+#: base/includes/wp-google-maps-polylines.php:44
+#: base/includes/wp-google-maps-polylines.php:136
+msgid "Line Color"
+msgstr "Kolor linii"
+
+#: base/includes/wp-google-maps-polygons.php:58
+#: base/includes/wp-google-maps-polygons.php:143
+msgid "On Hover Line Color"
+msgstr "Kolor linii przy podświetleniu"
+
+#: base/includes/wp-google-maps-polygons.php:77
+msgid "Drag a vertex to move it."
+msgstr "Przeciągnij wierzchołek by go przesunąć"
+
+#: wpGoogleMaps.php:3071 wpGoogleMaps.php:3117
+msgid "You cannot save a blank polyline"
+msgstr "Nie można zapisać pustej linii"
+
+#: wpGoogleMaps.php:3911 wpGoogleMaps.php:6314
+msgid "This folder does not exist. Please create it."
+msgstr "Katalog nie istnieje. Proszę go utworzyć."
+
+#: wpGoogleMaps.php:4124 wpGoogleMaps.php:4134
+msgid "You can use the following"
+msgstr "Możesz użyć następujące"
+
+#: wpGoogleMaps.php:4087
+msgid "Items"
+msgstr "Elementy"
+
+#: wpGoogleMaps.php:815
+msgid "</em>exists. Please also ensure that you assign file permissions of 755 (or 777) to this directory."
+msgstr "</em> istnieje. Proszę również upewnij się, że przypisane są prawidłowe uprawnienia 755 (lub 777) do tego katalogu."
+
+#: wpGoogleMaps.php:3914
+msgid " - The plugin does not have write access to this folder. Please CHMOD this folder to 755 or 777, or change the location"
+msgstr "- Wtyczka nie posiada odpowiednich uprawnień do folderu. Proszę ustawić parametry CHMOD dla folderu na 755 lub 777, lub zmienić lokalizację pliku"
+
+#: wpGoogleMaps.php:4155
+msgid "WP Google Maps Error log"
+msgstr "Błędy WP Google Maps"
+
+#: wpGoogleMaps.php:4042
+msgid "Advanced Marker Listing"
+msgstr "Zaawansowane ustawienia znaczników"
+
+#: wpGoogleMaps.php:4045
+msgid "Column settings"
+msgstr "Ustawienia kolumn"
+
+#: wpGoogleMaps.php:4057
+msgid "Carousel Marker Listing"
+msgstr "Lista Znaczników w Karuzeli"
+
+#: wpGoogleMaps.php:4074
+msgid "Carousel settings"
+msgstr "Ustawienia Karuzeli"
+
+#: wpGoogleMaps.php:4076
+msgid "Hide the Image"
+msgstr "Ukryj kolumnę Obrazek"
+
+#: wpGoogleMaps.php:4077
+msgid "Hide the Title"
+msgstr "Ukryj kolumnę Tytuł"
+
+#: wpGoogleMaps.php:4078
+msgid "Hide the Marker Icon"
+msgstr "Ukryj kolumnę Ikona"
+
+#: wpGoogleMaps.php:4081
+msgid "Hide the Marker Link"
+msgstr "Ukryj pole Link Znacznika"
+
+#: wpGoogleMaps.php:4082
+msgid "Hide the Directions Link"
+msgstr "Ukryj kolumnę Link do Wskazówek Dojazdu"
+
+#: wpGoogleMaps.php:4085
+msgid "Enable pagination"
+msgstr "Włączyć stronnicowanie?"
+
+#: wpGoogleMaps.php:4060
+msgid "Theme selection"
+msgstr "Wybór szablonu"
+
+#: wpGoogleMaps.php:3647
+msgid "There was a problem duplicating the map."
+msgstr "Wystąpił problem ze skopiowaniem mapy."
+
+#: wpGoogleMaps.php:4015
+msgid "Marker InfoWindow Settings"
+msgstr "Ustawienia okna informacyjnego znacznika"
+
+#: wpGoogleMaps.php:4109
+msgid "Marker Data Location"
+msgstr "Położenia znacznika"
+
+#: wpGoogleMaps.php:4086
+msgid "Enable navigation"
+msgstr "Włączyć wskazówki dojazdu?"
+
+#: wpGoogleMaps.php:4120
+msgid "Marker data XML directory"
+msgstr "Adres pliku XML z danymi znacznika"
+
+#: wpGoogleMaps.php:3971
+msgid "Use Google Maps API"
+msgstr "Użyj Google Maps API"
+
+#: base/includes/wp-google-maps-polygons.php:37
+#: base/includes/wp-google-maps-polygons.php:122
+#: base/includes/wp-google-maps-polygons.php:747
+#: base/includes/wp-google-maps-polylines.php:36
+#: base/includes/wp-google-maps-polylines.php:128
+#: base/includes/wp-google-maps-polylines.php:742
+msgid "Name"
+msgstr "Nazwa"
+
+#: base/includes/wp-google-maps-polygons.php:40
+#: base/includes/wp-google-maps-polygons.php:58
+#: base/includes/wp-google-maps-polygons.php:61
+#: base/includes/wp-google-maps-polygons.php:64
+#: base/includes/wp-google-maps-polygons.php:125
+#: base/includes/wp-google-maps-polygons.php:143
+#: base/includes/wp-google-maps-polygons.php:146
+#: base/includes/wp-google-maps-polygons.php:149
+msgid "Pro version only"
+msgstr "Tylko wersja Pro"
+
+#: wpGoogleMaps.php:831
+msgid "in order for images to show up while using Timthumb. Please see "
+msgstr "aby obrazki zostały wyświetlone podczas używania Timthumb. Zobacz"
+
+#: wpGoogleMaps.php:829
+msgid "Timthumb does not have 'write' permission for the cache directory. Please enable 'write' permissions (755 or 777) for "
+msgstr "Timthumb nie posiada uprawnień 'zapisu' dla katalogu wtyczki. Nadaj proszę uprawnienia do 'zapisu' (755 lub 777) dla"
+
+#: base/classes/WPGM_templates.php:45 base/includes/welcome.php:27
+#: wpGoogleMaps.php:4555
+msgid "Store Locator"
+msgstr "Lokalizator sklepów"
+
+#: base/classes/WPGM_templates.php:50 wpGoogleMaps.php:5336
+msgid "Polygons"
+msgstr "Wielokąty"
+
+#: base/classes/WPGM_templates.php:55 base/includes/welcome.php:39
+#: wpGoogleMaps.php:5212 wpGoogleMaps.php:5341
+msgid "Polylines"
+msgstr "Linie łamane"
+
+#: base/classes/WPGM_templates.php:37
+msgid "Welcome to"
+msgstr "Witamy w"
+
+#: base/classes/WPGM_templates.php:39
+msgid "Amazing maps. Simple interface. Powerful functionality. World Class Support."
+msgstr "Niesamowite mapy. Prosty interfejs użytkownika. Duża funkcjonalność. Wsparcie światowej klasy."
+
+#: base/classes/WPGM_templates.php:41
+msgid "What's new?"
+msgstr "Co nowego?"
+
+#: base/classes/WPGM_templates.php:46 base/includes/welcome.php:28
+msgid "Let users search for products, branches and stores near them"
+msgstr "Pozwala na odnalezienie produktów, oddziałów i sklepów w pobliżu"
+
+#: base/classes/WPGM_templates.php:51
+msgid "Create service areas or coverage maps with polygons"
+msgstr "Utwórz obszary obsługi lub dowozu przy użyciu wielokątów"
+
+#: base/classes/WPGM_templates.php:56 base/includes/welcome.php:40
+msgid "Create custom routes or outlines using polylines"
+msgstr "Dodaj własne trasy lub obręby przy użyciu linii łamanych"
+
+#: base/classes/WPGM_templates.php:68 base/includes/welcome.php:53
+msgid "How did you find out about us?"
+msgstr "Skąd się o nas dowiedziałeś?"
+
+#: base/classes/WPGM_templates.php:75 base/includes/welcome.php:60
+msgid "WordPress.org plugin repository"
+msgstr "z repozytorium wtyczek Wordpress.org"
+
+#: base/classes/WPGM_templates.php:76 base/includes/welcome.php:61
+msgid "What search term did you use?"
+msgstr "Jakich słów kluczowych użyłeś?"
+
+#: base/classes/WPGM_templates.php:80 base/includes/welcome.php:65
+msgid "Google or other search engine"
+msgstr "z wyszukiwarki Google lub innej"
+
+#: base/classes/WPGM_templates.php:84 base/includes/welcome.php:69
+msgid "Friend recommendation"
+msgstr "z polecenia znajomego"
+
+#: base/classes/WPGM_templates.php:88 base/includes/welcome.php:73
+#: lib/codecabin/deactivate-feedback-form.php:43
+msgid "Other"
+msgstr "z innego źródła"
+
+#: base/classes/WPGM_templates.php:89 base/includes/welcome.php:74
+msgid "Please explain"
+msgstr "Wyjaśnij proszę"
+
+#: base/classes/WPGM_templates.php:111 base/includes/welcome.php:96
+msgid "New to WP Google Maps?"
+msgstr "Jesteś nowy w WP Google Maps?"
+
+#: base/classes/WPGM_templates.php:112 base/includes/welcome.php:97
+msgid "You may want to"
+msgstr "Możesz chcieć"
+
+#: base/classes/WPGM_templates.php:112 base/includes/welcome.php:97
+msgid "review our documentation"
+msgstr "zapoznać się z naszą dokumentacją,"
+
+#: base/classes/WPGM_templates.php:112 base/includes/welcome.php:97
+msgid "before you get started. If you're a tech-savvy individual, you may skip this step."
+msgstr "zanim rozpoczniesz. Jeżeli nie interesują Cię szczegóły techniczne, możesz pominąć ten krok."
+
+#: base/classes/WPGM_templates.php:115 base/includes/welcome.php:100
+msgid "Help me!"
+msgstr "Pomocy!"
+
+#: base/classes/WPGM_templates.php:116 base/includes/welcome.php:101
+msgid "Visit our"
+msgstr "Odwiedź nasze"

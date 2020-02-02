@@ -1,0 +1,5168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Live Chat\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-17 14:44+0100\n"
+"PO-Revision-Date: 2019-12-17 14:44+0100\n"
+"Last-Translator: Bran Hawford\n"
+"Language-Team: Dutch; Flemish\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Loco-Source-Locale: en-US\n"
+"X-Loco-Project-Id: 35430\n"
+"X-Loco-Api-Version: 1.0.18 20171124-1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ajax/agent.php:167 ajax/user.php:126 wp-live-chat-support.php:88
+#: wp-live-chat-support.php:4495
+msgid "Admin"
+msgstr "Beheerder"
+
+#: ajax/agent.php:262 ajax/user.php:230
+msgid "Admin has closed and ended the chat"
+msgstr "Beheerder heeft de chat gesloten en beëindigd"
+
+#: functions.php:382 functions.php:399
+msgid "Accept Chat"
+msgstr "Chat accepteren"
+
+#: functions.php:390 functions.php:405
+msgid "Open Chat"
+msgstr "Chat openen"
+
+#: functions.php:392
+msgid "In progress with another agent"
+msgstr "In behandeling door een andere medewerker"
+
+#: functions.php:409
+msgid "Only chat agents can accept chats"
+msgstr "Alleen chatmedewerkers kunnen chats accepteren"
+
+#: functions.php:473 modules/api/agent/wplc-api-functions.php:413
+msgid "New"
+msgstr "Nieuw"
+
+#: functions.php:475 modules/api/agent/wplc-api-functions.php:415
+msgid "Returning"
+msgstr "Terugkerend"
+
+#: functions.php:566
+msgid "No agent was able to answer your chat request. Please try again."
+msgstr ""
+"Uw chatverzoek kon door geen enkele medewerker worden beantwoord. Probeer "
+"het opnieuw."
+
+#: functions.php:580 functions.php:4323 wp-live-chat-support.php:1634
+msgid "End Chat"
+msgstr "Chat beëindigen"
+
+#: functions.php:966
+msgid "complete"
+msgstr "voltooid"
+
+#: functions.php:969
+msgid "pending"
+msgstr "in afwachting"
+
+#: functions.php:972
+msgid "active"
+msgstr "actief"
+
+#: functions.php:975
+msgid "deleted"
+msgstr "verwijderd"
+
+#: functions.php:978
+msgid "browsing"
+msgstr "browsing"
+
+#: functions.php:981
+msgid "requesting chat"
+msgstr "chat aanvragen"
+
+#: functions.php:984
+msgid "Chat Ended - User still browsing"
+msgstr "Chatten beëindigd - Gebruiker bladert nog steeds"
+
+#: functions.php:987
+msgid "User is browsing but doesn't want to chat"
+msgstr "De gebruiker bladert maar wil niet chatten"
+
+#: functions.php:1126 includes/settings_page.php:829
+msgid "WP Live Chat by 3CX - Offline Message from "
+msgstr "WP Live Chat by 3CX - offline bericht van "
+
+#: functions.php:1127 functions.php:1451 includes/settings_page.php:181
+#: includes/settings_page.php:454 includes/wplc_custom_fields.php:79
+#: includes/wplc_data_triggers.php:455 includes/wplc_departments.php:175
+#: includes/wplc_roi.php:138 modules/node_server.php:82
+#: modules/node_server.php:128 wp-live-chat-support.php:1362
+#: wp-live-chat-support.php:1385 wp-live-chat-support.php:1546
+#: wp-live-chat-support.php:3043 wp-live-chat-support.php:3157
+msgid "Name"
+msgstr "Naam"
+
+#: functions.php:1128 functions.php:1452 includes/settings_page.php:177
+#: modules/node_server.php:129 wp-live-chat-support.php:1363
+#: wp-live-chat-support.php:1374 wp-live-chat-support.php:1547
+#: wp-live-chat-support.php:3044 wp-live-chat-support.php:3158
+msgid "Email"
+msgstr "E-mail"
+
+#: functions.php:1129 wp-live-chat-support.php:1548
+#: wp-live-chat-support.php:3159 wp-live-chat-support.php:3912
+#: wp-live-chat-support.php:3972
+msgid "Message"
+msgstr "Bericht"
+
+#: functions.php:1130
+msgid "Via WP Live Chat by 3CX"
+msgstr "Via WP Live Chat by 3CX"
+
+#: functions.php:1429 wp-live-chat-support.php:3006
+msgid "Error: Could not delete chat"
+msgstr "Fout: kan de chat niet verwijderen"
+
+#: functions.php:1431 wp-live-chat-support.php:3008
+msgid "Chat Deleted"
+msgstr "Chat verwijderd"
+
+#: functions.php:1434 includes/wplc_custom_fields.php:35
+#: includes/wplc_custom_fields.php:453 includes/wplc_custom_fields.php:474
+#: includes/wplc_data_triggers.php:251 includes/wplc_data_triggers.php:269
+#: includes/wplc_data_triggers.php:313 includes/wplc_data_triggers.php:501
+#: includes/wplc_departments.php:303 includes/wplc_departments.php:323
+#: includes/wplc_departments.php:358 includes/wplc_roi.php:368
+#: includes/wplc_roi.php:387 includes/wplc_roi.php:424
+#: modules/advanced_tools.php:29 modules/advanced_tools.php:146
+#: modules/advanced_tools.php:244 modules/advanced_tools.php:252
+#: modules/advanced_tools.php:260 modules/advanced_tools.php:268
+#: modules/gdpr.php:244 modules/gdpr.php:258 modules/webhooks_manager.php:102
+#: modules/webhooks_manager.php:122 modules/webhooks_manager.php:149
+#: wp-live-chat-support.php:2971 wp-live-chat-support.php:2997
+#: wp-live-chat-support.php:3882
+msgid "You do not have permission do perform this action"
+msgstr "U bent niet bevoegd om deze actie uit te voeren"
+
+#: functions.php:1440 wp-live-chat-support.php:3013
+msgid "Are you sure you would like to delete this chat?"
+msgstr "Weet u zeker dat u deze chat wilt verwijderen?"
+
+#: functions.php:1441 includes/settings_page.php:159
+#: includes/wplc_custom_fields.php:275 wp-live-chat-support.php:3015
+msgid "Yes"
+msgstr "Ja"
+
+#: functions.php:1441 includes/settings_page.php:160
+#: includes/wplc_custom_fields.php:275 wp-live-chat-support.php:3016
+msgid "No"
+msgstr "Nee"
+
+#: functions.php:1450 functions.php:2008 includes/settings_page.php:340
+#: includes/settings_page.php:488 wp-live-chat-support.php:3042
+#: wp-live-chat-support.php:3156
+msgid "Date"
+msgstr "Datum"
+
+#: functions.php:1453 functions.php:3835 wp-live-chat-support.php:3045
+msgid "URL"
+msgstr "URL"
+
+#: functions.php:1454 includes/wplc_custom_fields.php:83
+#: includes/wplc_data_triggers.php:460 includes/wplc_departments.php:176
+#: includes/wplc_roi.php:142 modules/webhooks_manager.php:251
+#: wp-live-chat-support.php:2094 wp-live-chat-support.php:3047
+msgid "Action"
+msgstr "Actie"
+
+#: functions.php:1468
+msgid "You have not missed any chat requests."
+msgstr "U hebt geen gemiste chatverzoeken."
+
+#: functions.php:1475 wp-live-chat-support.php:3062
+msgid "View Chat History"
+msgstr "Chatgeschiedenis weergeven"
+
+#: functions.php:1475 wp-live-chat-support.php:3063
+msgid "Download Chat History"
+msgstr "Chatgeschiedenis downloaden"
+
+#: functions.php:1669
+msgid "Open chat window via"
+msgstr "Chatvenster openen via"
+
+#: functions.php:1673
+msgid "Click"
+msgstr "Klik op"
+
+#: functions.php:1674
+msgid "Hover"
+msgstr "Zweef over"
+
+#: functions.php:1676
+msgid "element with"
+msgstr "element met"
+
+#: functions.php:1678
+msgid "Class"
+msgstr "Classificatie"
+
+#: functions.php:1679 includes/wplc_custom_fields.php:78
+#: includes/wplc_data_triggers.php:454 includes/wplc_departments.php:174
+#: includes/wplc_roi.php:137
+msgid "ID"
+msgstr "ID"
+
+#: functions.php:1920 functions.php:1926 functions.php:1931
+#: includes/dashboard_page.php:58 modules/node_server.php:138
+#: modules/node_server.php:866 wp-live-chat-support.php:3659
+msgid "Quick Responses"
+msgstr "Snelle reacties"
+
+#: functions.php:1921 includes/settings_page.php:330
+msgid "Quick Response"
+msgstr "Snelle reactie"
+
+#: functions.php:1922 functions.php:1925
+msgid "New Quick Response"
+msgstr "Nieuwe snelle reactie"
+
+#: functions.php:1923 modules/node_server.php:875
+msgid "Add New Quick Response"
+msgstr "Nieuwe snelle reactie toevoegen"
+
+#: functions.php:1924
+msgid "Edit Quick Response"
+msgstr "Snelle reactie bewerken"
+
+#: functions.php:1927
+msgid "View Quick Responses"
+msgstr "Snelle reacties weergeven"
+
+#: functions.php:1928
+msgid "Search Quick Responses"
+msgstr "Zoeken in snelle reacties"
+
+#: functions.php:1929
+msgid "No Quick Responses found"
+msgstr "Geen snelle reacties gevonden"
+
+#: functions.php:1930
+msgid "No Quick Responses found in the Trash"
+msgstr "Geen snelle reacties gevonden in de prullenbak"
+
+#: functions.php:1935
+msgid "Quick Responses for WP Live Chat by 3CX"
+msgstr "Snelle reacties voor WP Live Chat by 3CX"
+
+#: functions.php:1969
+msgid "Sort Order"
+msgstr "Sorteervolgorde"
+
+#: functions.php:2005 includes/settings_page.php:339
+msgid "Title"
+msgstr "Titel"
+
+#: functions.php:2006
+msgid "Order"
+msgstr "Volgorde"
+
+#: functions.php:2007 includes/settings_page.php:1227
+msgid "Author"
+msgstr "Auteur"
+
+#: functions.php:2050 wp-live-chat-support.php:185
+msgid "Press ENTER to send your message"
+msgstr "Druk op ENTER om uw bericht te verzenden"
+
+#: functions.php:2089 functions.php:2093
+msgid "Assign Quick Response"
+msgstr "Snelle reactie toewijzen"
+
+#: functions.php:2096 includes/settings_page.php:1212
+msgid "Select"
+msgstr "Selecteren"
+
+#: functions.php:2102
+msgid "What is this?"
+msgstr "Wat is dit?"
+
+#: functions.php:2144
+#, php-format
+msgid "Incoming chat from %s (%s) on %s"
+msgstr "Inkomende chat van %s (%s) op %s"
+
+#: functions.php:2150
+#, php-format
+msgid "%s (%s) wants to chat with you."
+msgstr "%s (%s) wil met u chatten."
+
+#: functions.php:2155
+#, php-format
+msgid "Log in: %s"
+msgstr "Aanmelden: %s"
+
+#: functions.php:2449
+msgid "Status (Online)"
+msgstr "Status (online)"
+
+#: functions.php:2450 functions.php:3275
+msgid "Online"
+msgstr "Online"
+
+#: functions.php:2451 functions.php:3275
+msgid "Offline"
+msgstr "Offline"
+
+#: functions.php:2452
+msgid "Status (Offline)"
+msgstr "Status (offline)"
+
+#: functions.php:2453 functions.php:3245
+msgid "Chat Agent Online"
+msgstr "Chatmedewerker online"
+
+#: functions.php:2454 functions.php:3247 functions.php:3251
+msgid "Chat Agents Online"
+msgstr "Chatmedewerkers online"
+
+#: functions.php:2467
+msgid ""
+"You have set your status to offline. To view visitors and accept chats "
+"please set your status to online using the switch above."
+msgstr ""
+"U hebt uw status ingesteld op offline. Als u bezoekers wilt bekijken en "
+"chats wilt accepteren, stelt u uw status in op online met de bovenstaande "
+"schakeloptie."
+
+#: functions.php:2537
+msgid "Encryption"
+msgstr "Encryptie"
+
+#: functions.php:2543 includes/settings_page.php:1269
+#: wp-live-chat-support.php:3674
+msgid "Business Hours"
+msgstr "Beschikbaarheidstijden"
+
+#: functions.php:2677
+msgid "Initiate Chat"
+msgstr "Chat starten"
+
+#: functions.php:2765
+msgid "Attempting to open the chat window... Please be patient."
+msgstr "Poging om het chatvenster te openen... Even geduld."
+
+#: functions.php:2780
+msgid ""
+"You are not a chat agent. Please make yourself a chat agent before trying to "
+"chat to visitors"
+msgstr ""
+"U bent geen chatmedewerker. Maak uzelf een chatmedewerker voordat u probeert "
+"te chatten met bezoekers"
+
+#: functions.php:2937
+msgid "Chat Agent"
+msgstr "Chatmedewerker"
+
+#: functions.php:2945
+msgid "Make this user a chat agent"
+msgstr "Maak van deze gebruiker een chatmedewerker"
+
+#: functions.php:2948
+#, fuzzy
+#| msgid "Your user role does not allow you to make yourself a chat agent."
+msgid "Your user role does not allow you to set agent attribute."
+msgstr ""
+"Uw gebruikersrol staat u niet toe om van uzelf een chatmedewerker te maken."
+
+#: functions.php:2949
+msgid "Please contact the administrator of this website to change this."
+msgstr "Neem contact op met de beheerder van deze website om dit te wijzigen."
+
+#: functions.php:2963
+msgid "This chat has already been answered by another agent."
+msgstr "Deze chat is al beantwoord door een andere medewerker."
+
+#: functions.php:3196 wp-live-chat-support.php:2047
+msgid "Agent(s) online"
+msgstr "Medewerker(s) online"
+
+#: functions.php:3325 includes/settings_page.php:1202
+#: wp-live-chat-support.php:1993
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: functions.php:3328 wp-live-chat-support.php:1996
+msgid "Typing..."
+msgstr "Aan het typen..."
+
+#: functions.php:3636
+msgid "User Experience Ratings"
+msgstr "Beoordelingen van gebruikerservaringen"
+
+#: functions.php:3643
+msgid "Agent Statistics"
+msgstr "Medewerkersstatistieken"
+
+#: functions.php:3676 functions.php:3691
+msgid "Satisfaction Rating"
+msgstr "Tevredenheidscijfer"
+
+#: functions.php:3677 functions.php:3692
+msgid "Rating Count"
+msgstr "Aantal beoordelingen"
+
+#: functions.php:3677 functions.php:3692
+msgid "Good"
+msgstr "Goed"
+
+#: functions.php:3677 functions.php:3692
+msgid "Bad"
+msgstr "Slecht"
+
+#: functions.php:3733 includes/dashboard_page.php:56
+#: wp-live-chat-support.php:785
+msgid "Reports"
+msgstr "Rapporten"
+
+#: functions.php:3736 includes/wplc_roi.php:139
+msgid "Overview"
+msgstr "Overzicht"
+
+#: functions.php:3737
+msgid "Popular Pages"
+msgstr "Populaire pagina's"
+
+#: functions.php:3755
+msgid "Total Agents"
+msgstr "Totaal aantal medewerkers"
+
+#: functions.php:3755
+msgid "Total number of agents that used the live chat"
+msgstr "Totaal aantal medewerkers dat de live chat heeft gebruikt"
+
+#: functions.php:3756
+msgid "Total Chats"
+msgstr "Totaal aantal chats"
+
+#: functions.php:3756
+msgid "Total number of chats received"
+msgstr "Totaal aantal ontvangen chats"
+
+#: functions.php:3757
+msgid "Total URLs"
+msgstr "Totaal aantal URL's"
+
+#: functions.php:3757
+msgid "Total number of URLs a chat was initiated on"
+msgstr "Totaal aantal URL's waarop een chat is gestart"
+
+#: functions.php:3758
+msgid "Chats per day"
+msgstr "Chats per dag"
+
+#: functions.php:3759
+msgid "Popular pages a chat was initiated on"
+msgstr "Populaire pagina's waarop een chat is gestart"
+
+#: functions.php:3789 includes/wplc_custom_fields.php:316
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: functions.php:3836
+msgid "Count"
+msgstr "Totaliteit"
+
+#: functions.php:3862
+msgid "Enable Manual Chat Initiation:"
+msgstr "Handmatig starten van chat inschakelen:"
+
+#: functions.php:3862
+msgid ""
+"Enabling this feature will allow agents to start a chat with website "
+"visitors. This feature increases server load while enabled."
+msgstr ""
+"Als u deze functie inschakelt, kunnen medewerkers een chat starten met "
+"websitebezoekers. De server wordt extra belast wanneer deze functie is "
+"ingeschakeld."
+
+#: functions.php:3866 modules/advanced_features.php:74
+msgid ""
+"This feature is only available when you select 3CX High Performance Cloud "
+"Servers in Advanced Features."
+msgstr ""
+"Deze functie is alleen beschikbaar als u hoogwaardige 3CX-cloudservers "
+"selecteert onder Geavanceerde functies."
+
+#: functions.php:3953
+msgid "Thank you for inquiry. We will get back to you shortly"
+msgstr "Bedankt voor uw verzoek. We nemen zo snel mogelijk contact met u op"
+
+#: functions.php:4088
+msgid "The Live Chat box is currently disabled on your website due to:"
+msgstr ""
+"Het live chatvenster is op dit moment uitgeschakeld op uw website om de "
+"volgende reden(en):"
+
+#: functions.php:4089
+msgid "Business Hours Settings"
+msgstr "Instellingen voor beschikbaarheidstijden"
+
+#: functions.php:4135
+msgid "Edit Profile"
+msgstr "Profiel bewerken"
+
+#: functions.php:4146 modules/node_server.php:98 modules/node_server.php:722
+msgid "Drag Files Here"
+msgstr "Bestanden hierheen slepen"
+
+#: functions.php:4169 functions.php:4214 includes/wplc_custom_fields.php:107
+#: includes/wplc_data_triggers.php:468 includes/wplc_data_triggers.php:606
+#: includes/wplc_departments.php:184 includes/wplc_departments.php:474
+#: includes/wplc_roi.php:150 includes/wplc_roi.php:569
+#: modules/webhooks_manager.php:263
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: functions.php:4170
+msgid "Send..."
+msgstr "Verzenden..."
+
+#: functions.php:4171 functions.php:4216
+msgid "Play voice note"
+msgstr "Spraaknotitie afspelen"
+
+#: functions.php:4215
+msgid "Save..."
+msgstr "Opslaan..."
+
+#: functions.php:4317 wp-live-chat-support.php:1014
+#: wp-live-chat-support.php:2489
+msgid "is typing..."
+msgstr "is aan het typen..."
+
+#: functions.php:4319
+msgid "There are no visitors on your site at the moment"
+msgstr "Er zijn op dit moment geen bezoekers op uw site"
+
+#: functions.php:4320
+msgid "Connection to the server lost, reconnecting..."
+msgstr ""
+"Verbinding met de server verbroken, nieuwe verbinding tot stand brengen..."
+
+#: functions.php:4321
+msgid "Agent offline - not accepting chats"
+msgstr "Medewerker offline - accepteert geen chats"
+
+#: functions.php:4322 modules/node_server.php:103 wp-live-chat-support.php:1628
+msgid "Minimize Chat"
+msgstr "Chat minimaliseren"
+
+#: functions.php:4341
+msgid "An error has occured while fetching the news feed."
+msgstr "Er is een fout opgetreden tijdens het ophalen van de newsfeed."
+
+#: functions.php:4438
+msgid "Default"
+msgstr "Standaard"
+
+#: functions.php:4739
+msgid "You do not have permission to perform this action"
+msgstr "U hebt geen toestemming om deze actie uit te voeren"
+
+#: includes/blocks/wplc-chat-box/index.php:30
+#: includes/blocks/wplc-chat-box/index.php:51 wp-live-chat-support.php:3675
+msgid "Gutenberg Blocks"
+msgstr "Gutenberg Blocks"
+
+#: includes/blocks/wplc-chat-box/index.php:55
+msgid "Enable Gutenberg Blocks"
+msgstr "Gutenberg Blocks inschakelen"
+
+#: includes/blocks/wplc-chat-box/index.php:63
+msgid "Block size"
+msgstr "Block-grootte"
+
+#: includes/blocks/wplc-chat-box/index.php:74
+msgid "Set block logo"
+msgstr "Block-logo instellen"
+
+#: includes/blocks/wplc-chat-box/index.php:85
+msgid "Text in block"
+msgstr "Tekst in block"
+
+#: includes/blocks/wplc-chat-box/index.php:93
+msgid "Use icon"
+msgstr "Pictogram gebruiken"
+
+#: includes/blocks/wplc-chat-box/index.php:99
+msgid "Icon in block"
+msgstr "Pictogram in block"
+
+#: includes/blocks/wplc-chat-box/index.php:107
+msgid "Preview block"
+msgstr "Voorbeeld van block bekijken"
+
+#: includes/blocks/wplc-chat-box/index.php:115
+msgid "Custom HTML Template"
+msgstr "Aangepaste HTML-sjabloon"
+
+#: includes/blocks/wplc-chat-box/index.php:117
+msgid "Displays the chosen logo"
+msgstr "Geeft het gekozen logo weer"
+
+#: includes/blocks/wplc-chat-box/index.php:118
+msgid "Displays the chosen custom text"
+msgstr "Geeft de gekozen aangepaste tekst weer"
+
+#: includes/blocks/wplc-chat-box/index.php:119
+msgid "Displays the chosen icon"
+msgstr "Geeft het gekozen pictogram weer"
+
+#: includes/blocks/wplc-chat-box/index.php:218 wp-live-chat-support.php:1022
+#: wp-live-chat-support.php:1665
+msgid "Type here"
+msgstr "Typ hier"
+
+#: includes/blocks/wplc-chat-box/index.php:222 wp-live-chat-support.php:756
+msgid "Live Chat"
+msgstr "Live chat"
+
+#: includes/dashboard_page.php:46 wp-live-chat-support.php:757
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: includes/dashboard_page.php:49
+#, php-format
+msgid "Hi %s! Current activity: %s Active Visitor(s) and %s Active Agent(s)."
+msgstr ""
+"Hoi %s! Huidige activiteit: %s actieve bezoeker(s) en %s actieve "
+"medewerker(s)."
+
+#: includes/dashboard_page.php:53 includes/dashboard_page.php:67
+msgid "Chats"
+msgstr "Chats"
+
+#: includes/dashboard_page.php:54 includes/dashboard_page.php:68
+msgid "Missed"
+msgstr "Gemist"
+
+#: includes/dashboard_page.php:55 wp-live-chat-support.php:763
+#: wp-live-chat-support.php:3099
+msgid "History"
+msgstr "Geschiedenis"
+
+#: includes/dashboard_page.php:57 includes/settings_page.php:125
+#: includes/settings_page.php:759 modules/advanced_tools.php:84
+#: wp-live-chat-support.php:765 wp-live-chat-support.php:3139
+#: wp-live-chat-support.php:3660
+msgid "Offline Messages"
+msgstr "Offline berichten"
+
+#: includes/dashboard_page.php:59 modules/advanced_tools.php:14
+#: modules/advanced_tools.php:24
+msgid "Tools"
+msgstr "Hulpmiddelen"
+
+#: includes/dashboard_page.php:60 includes/settings_page.php:88
+#: wp-live-chat-support.php:758
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/dashboard_page.php:69
+msgid "Engaged"
+msgstr "Ingeschakeld"
+
+#: includes/dashboard_page.php:70
+msgid "Total"
+msgstr "Totaal"
+
+#: includes/dashboard_page.php:73
+msgid "Today"
+msgstr "Vandaag"
+
+#: includes/dashboard_page.php:79
+msgid "Last 30 days"
+msgstr "Afgelopen 30 dagen"
+
+#: includes/dashboard_page.php:85
+msgid "Last 60 days"
+msgstr "Afgelopen 60 dagen"
+
+#: includes/dashboard_page.php:91
+msgid "Last 90 days"
+msgstr "Afgelopen 90 dagen"
+
+#: includes/dashboard_page.php:107
+msgid "Latest News"
+msgstr "Laatste nieuws"
+
+#: includes/modal_control.php:27 modules/node_server.php:60
+#: modules/node_server.php:715
+msgid "Please Confirm"
+msgstr "Bevestigen"
+
+#: includes/modal_control.php:31
+msgid "Are you sure?"
+msgstr "Weet u het zeker?"
+
+#: includes/modal_control.php:39 includes/wplc_custom_fields.php:164
+#: includes/wplc_custom_fields.php:249 includes/wplc_data_triggers.php:607
+#: includes/wplc_departments.php:251 includes/wplc_departments.php:475
+#: includes/wplc_roi.php:246 includes/wplc_roi.php:570
+#: modules/node_server.php:64 modules/node_server.php:717
+#: modules/webhooks_manager.php:342
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/modal_control.php:40 modules/node_server.php:63
+#: modules/node_server.php:716 modules/webhooks_manager.php:341
+msgid "Confirm"
+msgstr "Bevestigen"
+
+#: includes/notification_control.php:22
+msgid "User is browsing"
+msgstr "Gebruiker bladert"
+
+#: includes/notification_control.php:33 includes/notification_control.php:66
+#: includes/notification_control.php:111 includes/wplc_transfer_chats.php:472
+#: includes/wplc_transfer_chats.php:493 includes/wplc_transfer_chats.php:556
+#: includes/wplc_transfer_chats.php:592
+msgid "System notification"
+msgstr "Systeemmelding"
+
+#: includes/notification_control.php:106
+msgid "has joined the chat."
+msgstr "neemt nu deel aan de chat."
+
+#: includes/settings_page.php:115 includes/settings_page.php:153
+#: wp-live-chat-support.php:3671
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: includes/settings_page.php:120
+msgid "Chat Box"
+msgstr "Chatvenster"
+
+#: includes/settings_page.php:130 includes/settings_page.php:935
+msgid "Styling"
+msgstr "Styling"
+
+#: includes/settings_page.php:135 modules/node_server.php:89
+#: modules/node_server.php:721
+msgid "Agents"
+msgstr "Medewerkers"
+
+#: includes/settings_page.php:140
+msgid "Blocked Visitors"
+msgstr "Geblokkeerde bezoekers"
+
+#: includes/settings_page.php:156
+msgid "Chat enabled"
+msgstr "Chat ingeschakeld"
+
+#: includes/settings_page.php:168
+msgid "Required Chat Box Fields"
+msgstr "Verplichte velden van chatvenster"
+
+#: includes/settings_page.php:168
+msgid "Set default fields that will be displayed when users starting a chat"
+msgstr ""
+"Stel standaardvelden in die worden weergegeven wanneer gebruikers een chat "
+"starten"
+
+#: includes/settings_page.php:173
+msgid "Name and email"
+msgstr "Naam en e-mailadres"
+
+#: includes/settings_page.php:185
+msgid "No fields"
+msgstr "Geen velden"
+
+#: includes/settings_page.php:191
+msgid "Default visitor name"
+msgstr "Standaard bezoekersnaam"
+
+#: includes/settings_page.php:191
+msgid "This name will be displayed for all not logged in visitors"
+msgstr "Deze naam wordt weergegeven voor alle niet-aangemelde bezoekers"
+
+#: includes/settings_page.php:199
+msgid "Input Field Replacement Text"
+msgstr "Vervangende tekst invoerveld"
+
+#: includes/settings_page.php:199
+msgid "This is the text that will show in place of the Name And Email fields"
+msgstr ""
+"Dit is de tekst die wordt weergegeven in plaats van de velden Naam en E-mail"
+
+#: includes/settings_page.php:207
+msgid "Enable On Mobile Devices"
+msgstr "Inschakelen op mobiele apparaten"
+
+#: includes/settings_page.php:207
+msgid ""
+"Disabling this will mean that the Chat Box will not be displayed on mobile "
+"devices. (Smartphones and Tablets)"
+msgstr ""
+"Als u dit uitschakelt, betekent dit dat de chatbox niet wordt weergegeven op "
+"mobiele apparaten. (Smartphones en tablets)"
+
+#: includes/settings_page.php:217
+msgid "Play a sound when there is a new visitor"
+msgstr "Geluid afspelen wanneer er een nieuwe bezoeker is"
+
+#: includes/settings_page.php:217
+msgid ""
+"Disable this to mute the sound that is played when a new visitor arrives"
+msgstr "Schakel deze optie uit om het geluid bij een nieuwe bezoeker te dempen"
+
+#: includes/settings_page.php:226
+msgid "Play a sound when a new message is received"
+msgstr "Speel een geluid af wanneer een nieuw bericht wordt ontvangen"
+
+#: includes/settings_page.php:226
+msgid ""
+"Disable this to mute the sound that is played when a new chat message is "
+"received"
+msgstr ""
+"Schakel deze optie uit om het geluid te dempen dat wordt gespeeld wanneer "
+"een nieuw chatbericht wordt ontvangen"
+
+#: includes/settings_page.php:235
+msgid "Enable Font Awesome set"
+msgstr "Font Awesome-set inschakelen"
+
+#: includes/settings_page.php:235
+msgid "Disable this if you have Font Awesome set included with your theme"
+msgstr ""
+"Schakel deze optie uit als de Font Awesome-set deel uitmaakt van uw thema"
+
+#: includes/settings_page.php:243
+msgid "Enable chat dashboard and notifications on all admin pages"
+msgstr "Chatdashboard en meldingen inschakelen op alle beheerderspagina's"
+
+#: includes/settings_page.php:243
+msgid "This will load the chat dashboard on every admin page."
+msgstr "Hiermee laadt u het chatdashboard op elke beheerderspagina."
+
+#: includes/settings_page.php:251
+msgid "Delete database entries on uninstall"
+msgstr "Databasegegevens verwijderen bij verwijderen van software"
+
+#: includes/settings_page.php:251
+msgid ""
+"This will delete all WP Live Chat by 3CX related database entries such as "
+"options and chats on uninstall."
+msgstr ""
+"Hiermee verwijdert u alle databasegegevens met betrekking tot WP Live Chat "
+"by 3CX, zoals opties en chats, wanneer u de software verwijdert."
+
+#: includes/settings_page.php:262
+msgid "Agents can set their online status"
+msgstr "Medewerkers kunnen hun online status instellen"
+
+#: includes/settings_page.php:262
+msgid ""
+"Checking this will allow you to change your status to Online or Offline on "
+"the Live Chat page."
+msgstr ""
+"Als u deze optie inschakelt, kunt u uw status wijzigen in Online of Offline "
+"op de Live Chat-pagina."
+
+#: includes/settings_page.php:262
+msgid "If this option is disabled, agents will be always automatically online."
+msgstr ""
+"Als deze optie is uitgeschakeld, zijn medewerkers altijd automatisch online."
+
+#: includes/settings_page.php:273
+msgid "Exclude chat from 'Home' page:"
+msgstr "Chat niet opnemen op hoofdpagina:"
+
+#: includes/settings_page.php:273
+msgid ""
+"Leaving this unchecked will allow the chat window to display on your home "
+"page."
+msgstr ""
+"Als u deze optie uitschakelt, wordt het chatvenster weergegeven op uw "
+"hoofdpagina."
+
+#: includes/settings_page.php:281
+msgid "Exclude chat from 'Archive' pages:"
+msgstr "Chat niet opnemen op archiefpagina's"
+
+#: includes/settings_page.php:281
+msgid ""
+"Leaving this unchecked will allow the chat window to display on your archive "
+"pages."
+msgstr ""
+"Als u deze optie uitschakelt, wordt het chatvenster weergegeven op uw "
+"archiefpagina's."
+
+#: includes/settings_page.php:289
+msgid "Include chat window on the following pages:"
+msgstr "Chatvenster opnemen op de volgende pagina's:"
+
+#: includes/settings_page.php:289
+msgid ""
+"Show the chat window on the following pages. Leave blank to show on all. "
+"(Use comma-separated Page ID's)"
+msgstr ""
+"Het chatvenster wordt weergegeven\n"
+" op de volgende pagina's. Laat dit vak leeg als u het chatvenster op alle "
+"pagina's wilt weergeven (Gebruik door komma's gescheiden pagina-ID's)"
+
+#: includes/settings_page.php:297
+msgid "Exclude chat window on the following pages:"
+msgstr "Chatvenster niet opnemen op de volgende pagina's:"
+
+#: includes/settings_page.php:297
+msgid ""
+"Do not show the chat window on the following pages. Leave blank to show on "
+"all. (Use comma-separated Page ID's)"
+msgstr ""
+"Het chatvenster wordt niet weergegeven op de volgende pagina's. Laat dit vak "
+"leeg als u het chatvenster op alle pagina's wilt weergeven. (Gebruik door "
+"komma's gescheiden pagina-ID's)"
+
+#: includes/settings_page.php:305
+msgid "Exclude chat window on selected post types"
+msgstr "Chatvenster niet opnemen op geselecteerde berichttypes"
+
+#: includes/settings_page.php:305
+msgid "Do not show the chat window on the following post types pages."
+msgstr ""
+"Het chatvenster wordt niet weergeven op pagina's met de volgende "
+"berichttypes."
+
+#: includes/settings_page.php:324
+msgid "No post types found."
+msgstr "Geen berichttypes gevonden."
+
+#: includes/settings_page.php:335
+msgid "Order by"
+msgstr "Volgorde"
+
+#: includes/settings_page.php:341
+msgid "Number"
+msgstr "Nummer"
+
+#: includes/settings_page.php:347
+msgid "Sort"
+msgstr "Sorteren"
+
+#: includes/settings_page.php:351
+msgid "Descending"
+msgstr "Aflopend"
+
+#: includes/settings_page.php:352
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: includes/settings_page.php:359
+#, fuzzy
+#| msgid "Localization"
+msgid "Geolocalization"
+msgstr "Lokalisatie"
+
+#: includes/settings_page.php:363
+#, fuzzy
+#| msgid "Visitors on site"
+msgid "Detect Visitors Country"
+msgstr "Bezoekers op de site"
+
+#: includes/settings_page.php:367
+#, php-format
+msgid ""
+"This feature requires the use of the GeoIP Detection plugin. Install it by "
+"going %s"
+msgstr ""
+
+#: includes/settings_page.php:367 includes/wplc_departments.php:585
+#: modules/node_server.php:501 wp-live-chat-support.php:2030
+msgid "here"
+msgstr "hier"
+
+#: includes/settings_page.php:368
+#, fuzzy
+#| msgid ""
+#| "This feature is only available when you select 3CX High Performance Cloud "
+#| "Servers in Advanced Features."
+msgid ""
+"This feature is only available when '3CX High Performance Cloud Servers' is "
+"ticked in the 'Settings > Advanced Features section'."
+msgstr ""
+"Deze functie is alleen beschikbaar als u hoogwaardige 3CX-cloudservers "
+"selecteert onder Geavanceerde functies."
+
+#: includes/settings_page.php:374
+msgid "Voice Notes"
+msgstr "Spraaknotitites"
+
+#: includes/settings_page.php:378
+msgid "Enable Voice Notes on admin side"
+msgstr "Spraaknotities inschakelen aan beheerderszijde"
+
+#: includes/settings_page.php:380
+msgid ""
+"Enabling this will allow you to record the voice during the chat and send it "
+"to visitor once you hold on CTRL + SPACEBAR in main chat window"
+msgstr ""
+"Als u deze optie inschakelt, kunt u spraak opnemen tijdens de chat en deze "
+"naar de bezoeker sturen door in het hoofdchatvenster CTRL + SPATIE ingedrukt "
+"te houden"
+
+#: includes/settings_page.php:388
+msgid "Enable Voice Notes on visitor side"
+msgstr "Spraaknotities inschakelen aan bezoekerszijde"
+
+#: includes/settings_page.php:390
+msgid ""
+"Enabling this will allow the visitors to record the voice during the chat "
+"and send it to agent once they hold on CTRL + SPACEBAR"
+msgstr ""
+"Als u deze optie inschakelt, kunnen bezoekers spraak opnemen tijden de chat "
+"en deze naar de medewerker sturen door CTRL + SPATIE ingedrukt te houden"
+
+#: includes/settings_page.php:404 wp-live-chat-support.php:3672
+msgid "Chat Box Settings"
+msgstr "Instellingen chatvenster"
+
+#: includes/settings_page.php:407
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: includes/settings_page.php:410
+msgid "Bottom left"
+msgstr "Onderaan links"
+
+#: includes/settings_page.php:411
+msgid "Bottom right"
+msgstr "Onderaan rechts"
+
+#: includes/settings_page.php:412
+msgid "Left"
+msgstr "Links"
+
+#: includes/settings_page.php:413
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/settings_page.php:420
+msgid "Chat box height (percent of the page)"
+msgstr ""
+
+#: includes/settings_page.php:425
+msgid "Use absolute height"
+msgstr ""
+
+#: includes/settings_page.php:436
+msgid "Automatic Chatbox Pop-Up"
+msgstr ""
+
+#: includes/settings_page.php:436
+msgid ""
+"Expand the chat box automatically (prompts the user to enter their name and "
+"email address)."
+msgstr ""
+"Het chatvenster wordt automatisch vergroot (de gebruiker wordt gevraagd naam "
+"en e-mailadres in te voeren)."
+
+#: includes/settings_page.php:440
+#, fuzzy
+#| msgid "Disable Emojis"
+msgid "Disabled"
+msgstr "Emoji's uitschakelen"
+
+#: includes/settings_page.php:441
+msgid "No Forms - Only show 'Start Chat' button"
+msgstr ""
+
+#: includes/settings_page.php:442
+msgid "All Forms - Show chatbox forms and fields"
+msgstr ""
+
+#: includes/settings_page.php:444
+#, fuzzy
+#| msgid "Choose when I want to be online"
+msgid "Pop-up only when agents are online"
+msgstr "Kiezen wanneer ik online wil zijn"
+
+#: includes/settings_page.php:445
+msgid "Pop-up for mobile users"
+msgstr ""
+
+#: includes/settings_page.php:451
+msgid "Display for chat message:"
+msgstr "Weergeven voor chatbericht:"
+
+#: includes/settings_page.php:455
+msgid "Avatar"
+msgstr "Avatar"
+
+#: includes/settings_page.php:460
+msgid "Display typing indicator"
+msgstr "Typindicator weergeven"
+
+#: includes/settings_page.php:460
+msgid ""
+"Display the 'typing...' animation in the chat window as soon as an agent or "
+"visitor is typing."
+msgstr ""
+"Geef de animatie 'aan het typen...' weer in het chatvenster zodra een "
+"medewerker of bezoeker typt."
+
+#: includes/settings_page.php:464
+#, fuzzy
+#| msgid ""
+#| "For non-cloud server users, please note that this will increase the "
+#| "amount of server resources required."
+msgid ""
+"For on premise server chat users, please note that this will increase the "
+"amount of resources required on your server."
+msgstr ""
+"Voor niet-cloud-servergebruikers, houd er rekening mee dat hierdoor de "
+"hoeveelheid benodigde serveropslag zal toenemen."
+
+#: includes/settings_page.php:469
+msgid "Chat box for logged in users only:"
+msgstr "Chatbox alleen voor aangemelde gebruikers:"
+
+#: includes/settings_page.php:469
+msgid ""
+"By checking this, only users that are logged in will be able to chat with "
+"you."
+msgstr ""
+"Als u deze optie inschakelt, kunnen alleen aangemelde gebruikers met u "
+"chatten."
+
+#: includes/settings_page.php:477
+msgid "Use Logged In User Details"
+msgstr "Gegevens van aangemelde gebruiker gebruiken"
+
+#: includes/settings_page.php:477
+msgid ""
+"A user's Name and Email Address will be used by default if they are logged "
+"in."
+msgstr ""
+"De naam en het e-mailadres van een gebruiker worden standaard gebruikt als "
+"ze zijn aangemeld."
+
+#: includes/settings_page.php:485
+msgid "Display a timestamp in the chat window:"
+msgstr "Timestamp weergeven in het chatvenster:"
+
+#: includes/settings_page.php:489 wp-live-chat-support.php:2089
+msgid "Time"
+msgstr "Tijd"
+
+#: includes/settings_page.php:494
+msgid "Redirect to “Thank You” page on chat end:"
+msgstr "Aan het einde van de chat doorsturen naar pagina \"Bedankt\":"
+
+#: includes/settings_page.php:494
+msgid ""
+"By checking this, users will be redirected to your thank you page when a "
+"chat is completed."
+msgstr ""
+"Als u deze optie inschakelt, worden gebruikers doorgestuurd naar uw "
+"bedankpagina nadat de chat is beëindigd."
+
+#: includes/settings_page.php:498
+msgid "Thank You Page URL"
+msgstr "URL van bedankpagina"
+
+#: includes/settings_page.php:508
+msgid "Disable Emojis"
+msgstr "Emoji's uitschakelen"
+
+#: includes/settings_page.php:525
+msgid "User / Agent name"
+msgstr "Naam gebruiker/medewerker"
+
+#: includes/settings_page.php:533
+msgid "Use WordPress name"
+msgstr "WordPress-naam gebruiken"
+
+#: includes/settings_page.php:536
+msgid "Note: 'Name' field will be ignored"
+msgstr "Opmerking: het veld 'Naam' wordt genegeerd"
+
+#: includes/settings_page.php:568
+msgid "Incoming chat ring tone"
+msgstr "Signaaltoon inkomende chat"
+
+#: includes/settings_page.php:584
+msgid "Incoming message tone"
+msgstr "Signaaltoon inkomend bericht"
+
+#: includes/settings_page.php:601
+msgid "Icon"
+msgstr "Pictogram"
+
+#: includes/settings_page.php:609
+msgid "Upload Icon"
+msgstr "Pictogram uploaden"
+
+#: includes/settings_page.php:610 includes/settings_page.php:615
+msgid "Select Default Icon"
+msgstr "Standaardpictogram uploaden"
+
+#: includes/settings_page.php:612
+msgid "Recommended Size 50px x 50px"
+msgstr "Aanbevolen grootte 50 x 5 pixels"
+
+#: includes/settings_page.php:655
+msgid "Picture"
+msgstr "Afbeelding"
+
+#: includes/settings_page.php:663
+msgid "Upload Image"
+msgstr "Afbeelding uploaden"
+
+#: includes/settings_page.php:664
+#, fuzzy
+#| msgid "Select Default Icon"
+msgid "Select Default Image"
+msgstr "Standaardpictogram uploaden"
+
+#: includes/settings_page.php:667
+msgid "Remove Image"
+msgstr "Afbeelding verwijderen"
+
+#: includes/settings_page.php:668
+msgid "Recommended Size 60px x 60px"
+msgstr "Aanbevolen grootte 60 x 60 pixels"
+
+#: includes/settings_page.php:675
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/settings_page.php:683
+msgid "Upload Logo"
+msgstr "Logo uploaden"
+
+#: includes/settings_page.php:685
+msgid "Remove Logo"
+msgstr "Logo verwijderen"
+
+#: includes/settings_page.php:686
+msgid "Recommended Size 250px x 40px"
+msgstr "Aanbevolen grootte 250 x 40 pixels"
+
+#: includes/settings_page.php:692
+msgid "Chat button delayed startup (seconds)"
+msgstr "Vertraagd opstarten van knop (seconden)"
+
+#: includes/settings_page.php:692
+msgid "How long to delay showing the Live Chat button on a page"
+msgstr ""
+"De vertraging voordat de Live Chat-knop op een pagina wordt weergegeven"
+
+#: includes/settings_page.php:701
+msgid "Chat notifications"
+msgstr "Chatmeldingen"
+
+#: includes/settings_page.php:701
+msgid "Alert me via email as soon as someone wants to chat (while online only)"
+msgstr ""
+"Waarschuw mij via e-mail zodra iemand wil chatten (alleen indien online)"
+
+#: includes/settings_page.php:710
+msgid "User Experience"
+msgstr "Gebruikerservaring"
+
+#: includes/settings_page.php:714
+msgid "Share files"
+msgstr "Bestanden delen"
+
+#: includes/settings_page.php:714
+msgid "Adds file sharing to your chat box!"
+msgstr "Voegt het delen van bestanden toe aan uw chatbox!"
+
+#: includes/settings_page.php:718
+msgid "Visitor experience ratings"
+msgstr "Beoordelingen van gebruikerservaringen"
+
+#: includes/settings_page.php:718
+msgid "Allows users to rate the chat experience with an agent."
+msgstr ""
+"Hiermee kunnen gebruikers de chatervaring met een medewerker beoordelen."
+
+#: includes/settings_page.php:724 includes/settings_page.php:1050
+msgid "Social"
+msgstr "Sociaal"
+
+#: includes/settings_page.php:728
+msgid "Facebook URL"
+msgstr "Facebook-URL"
+
+#: includes/settings_page.php:728
+msgid "Link your Facebook page here. Leave blank to hide"
+msgstr ""
+"Vermeld hier de koppeling naar uw Facebook-pagina. Laat leeg om te verbergen"
+
+#: includes/settings_page.php:729
+msgid "Facebook URL..."
+msgstr "Facebook-URL..."
+
+#: includes/settings_page.php:740
+msgid "Twitter URL"
+msgstr "Twitter-URL"
+
+#: includes/settings_page.php:740
+msgid "Link your Twitter page here. Leave blank to hide"
+msgstr ""
+"Vermeld hier de koppeling naar uw Twitter-pagina. Laat leeg om te verbergen"
+
+#: includes/settings_page.php:741
+msgid "Twitter URL..."
+msgstr "Twitter-URL..."
+
+#: includes/settings_page.php:763
+msgid "Disable offline messages"
+msgstr "Offline berichten uitschakelen"
+
+#: includes/settings_page.php:763
+msgid ""
+"The chat window will be hidden when it is offline. Users will not be able to "
+"send offline messages to you"
+msgstr ""
+"Het chatvenster wordt verborgen wanneer het offline is. Gebruikers kunnen "
+"geen offline berichten naar u verzenden"
+
+#: includes/settings_page.php:770
+msgid "Offline Form Title"
+msgstr "Titel offline formulier"
+
+#: includes/settings_page.php:778
+msgid "Offline form initial message"
+msgstr "Eerste bericht offline formulier"
+
+#: includes/settings_page.php:784
+msgid "Offline form message on send"
+msgstr "Bericht offline formulier bij verzenden"
+
+#: includes/settings_page.php:790
+msgid "Offline form finish message"
+msgstr "Eindbericht offline formulier"
+
+#: includes/settings_page.php:796
+msgid "Offline Button Text"
+msgstr "Tekst offline knop"
+
+#: includes/settings_page.php:802
+msgid "Offline Send Button Text"
+msgstr "Knoptekst offline verzenden"
+
+#: includes/settings_page.php:810
+msgid "Email settings"
+msgstr "E-mailinstellingen"
+
+#: includes/settings_page.php:816
+msgid "Send to agent(s)"
+msgstr "Verzenden naar medewerker(s)"
+
+#: includes/settings_page.php:816
+msgid ""
+"Email address where offline messages are delivered to. Use comma separated "
+"email addresses to send to more than one email address"
+msgstr ""
+"E-mailadres waar offline berichten worden afgeleverd. Gebruik door komma's "
+"gescheiden e-mailadressen om naar meer dan één e-mailadres te verzenden"
+
+#: includes/settings_page.php:826
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: includes/settings_page.php:826
+msgid "User name will be appended to the end of the subject."
+msgstr "De gebruikersnaam wordt toegevoegd na het onderwerp."
+
+#: includes/settings_page.php:839
+msgid "Auto-respond to visitor"
+msgstr "Automatisch reageren op bezoeker"
+
+#: includes/settings_page.php:839
+msgid "Send your visitors an email as soon as they send you an offline message"
+msgstr "Stuur uw bezoekers een e-mail zodra zij u een offline bericht sturen"
+
+#: includes/settings_page.php:845
+msgid "Auto-responder 'From' name"
+msgstr "Naam van 'Afzender' van automatische reactie"
+
+#: includes/settings_page.php:851
+msgid "Auto-responder 'From' email"
+msgstr "E-mailadres van 'Afzender' van automatische reactie"
+
+#: includes/settings_page.php:857
+msgid "Auto-responder subject"
+msgstr "Onderwerp automatische reactie"
+
+#: includes/settings_page.php:863
+msgid "Auto-responder body"
+msgstr "Berichttekst automatische reactie"
+
+#: includes/settings_page.php:866
+msgid "HTML and the following shortcodes can be used"
+msgstr "HTML en de volgende shortcodes kunnen worden gebruikt"
+
+#: includes/settings_page.php:866
+msgid "User's name"
+msgstr "Gebruikersnaam"
+
+#: includes/settings_page.php:866
+msgid "User's email address"
+msgstr "E-mailadres van gebruiker"
+
+#: includes/settings_page.php:942
+msgid "Color scheme"
+msgstr "Kleurenschema"
+
+#: includes/settings_page.php:998
+msgid "Custom Scheme"
+msgstr "Aangepast schema"
+
+#: includes/settings_page.php:1018
+msgid "Palette Color 1"
+msgstr "Kleurenpalet 1"
+
+#: includes/settings_page.php:1024
+msgid "Palette Color 2"
+msgstr "Kleurenpalet 2"
+
+#: includes/settings_page.php:1030
+msgid "Palette Color 3"
+msgstr "Kleurenpalet 3"
+
+#: includes/settings_page.php:1036
+msgid "Palette Color 4"
+msgstr "Kleurenpalet 4"
+
+#: includes/settings_page.php:1043
+msgid "Chat background"
+msgstr "Chatachtergrond"
+
+#: includes/settings_page.php:1047
+msgid "Cloudy"
+msgstr "Bewolkt"
+
+#: includes/settings_page.php:1048
+msgid "Geometry"
+msgstr "Geometrisch"
+
+#: includes/settings_page.php:1049
+msgid "Tech"
+msgstr "Tech"
+
+#: includes/settings_page.php:1051 includes/wplc_roi.php:156
+#: modules/node_server.php:771
+msgid "None"
+msgstr "Geen"
+
+#: includes/settings_page.php:1057
+msgid "Use localization plugin"
+msgstr "Lokalisatieplug-in gebruiken"
+
+#: includes/settings_page.php:1060
+#, fuzzy, php-format
+#| msgid ""
+#| "Enable this if you are using a localization plugin. Should you wish to "
+#| "change the below strings with this option enabled, please visit the "
+#| "documentation %s"
+msgid ""
+"Enable this if you are using a localization plugin. Should you wish to "
+"change the below strings with this option enabled, please visit %sthe "
+"documentation%s"
+msgstr ""
+"Schakel deze optie in als u een lokalisatieplug-in gebruikt. Raadpleeg de "
+"documentatie %s als u de onderstaande strings wilt wijzigen terwijl deze "
+"optie is ingeschakeld"
+
+#: includes/settings_page.php:1066
+msgid "Chat box title"
+msgstr "Titel van chatbox"
+
+#: includes/settings_page.php:1072
+msgid "Chat box sub-title"
+msgstr "Subtitel van chatbox"
+
+#: includes/settings_page.php:1078
+msgid "Chat box intro"
+msgstr "Intro van chatbox"
+
+#: includes/settings_page.php:1084
+msgid "Start chat button label"
+msgstr "Knoplabel Chat starten"
+
+#: includes/settings_page.php:1090
+msgid "Start chat status message"
+msgstr "Statusbericht Chat starten"
+
+#: includes/settings_page.php:1096
+msgid "Re-activate chat message"
+msgstr "Chatbericht weer activeren"
+
+#: includes/settings_page.php:1104
+msgid "Welcome message"
+msgstr "Welkomstbericht"
+
+#: includes/settings_page.php:1106
+msgid ""
+"This text is shown as soon as a user starts a chat and waits for an agent to "
+"join"
+msgstr ""
+"Deze tekst wordt weergegeven zodra een gebruiker een chat start en wacht tot "
+"er een medewerker beschikbaar is"
+
+#: includes/settings_page.php:1110
+msgid "Agent no answer message"
+msgstr "Bericht indien geen medewerker beschikbaar"
+
+#: includes/settings_page.php:1112
+msgid ""
+"This text is shown to the user when an agent has failed to answer a chat"
+msgstr ""
+"Deze tekst wordt weergegeven als er geen medewerker beschikbaar is voor de "
+"chat"
+
+#: includes/settings_page.php:1116
+msgid "Other text"
+msgstr "Andere tekst"
+
+#: includes/settings_page.php:1119 wp-live-chat-support.php:177
+#: wp-live-chat-support.php:968
+msgid "The chat has been ended by the agent."
+msgstr "De chat is beëindigd door de medewerker."
+
+#: includes/settings_page.php:1124
+msgid "Chat box animation"
+msgstr "Animatie van chatbox"
+
+#: includes/settings_page.php:1132
+msgid "Slide Up"
+msgstr "Schuif omhoog"
+
+#: includes/settings_page.php:1138
+msgid "Slide From The Side"
+msgstr "Schuif vanaf de zijkant"
+
+#: includes/settings_page.php:1144
+msgid "Fade In"
+msgstr "Fade-in"
+
+#: includes/settings_page.php:1150
+msgid "No Animation"
+msgstr "Geen animatie"
+
+#: includes/settings_page.php:1168
+msgid "Auto-response to first message"
+msgstr "Automatische reactie op eerste bericht"
+
+#: includes/settings_page.php:1171
+msgid ""
+"This message will be sent automatically after the first message is sent from "
+"the user side. Leave empty to disable."
+msgstr ""
+"Dit bericht wordt automatisch verstuurd nadat de gebruiker een eerste "
+"bericht heeft verstuurd. Laat leeg om deze optie uit te schakelen."
+
+#: includes/settings_page.php:1183
+msgid "Chat Agents"
+msgstr "Chatmedewerkers"
+
+#: includes/settings_page.php:1192
+msgid "Logged In"
+msgstr "Aangemeld"
+
+#: includes/settings_page.php:1210
+msgid "Add New Agent"
+msgstr "Nieuwe medewerker toevoegen"
+
+#: includes/settings_page.php:1217
+msgid "Administrator"
+msgstr "Beheerder"
+
+#: includes/settings_page.php:1222
+msgid "Editor"
+msgstr "Editor"
+
+#: includes/settings_page.php:1231
+msgid "Add Agent"
+msgstr "Medewerker toevoegen"
+
+#: includes/settings_page.php:1237
+#, php-format
+msgid ""
+"Should you wish to add a user that has a role less than 'Author', please go "
+"to the %s page, select the relevant user, click Edit and scroll to the "
+"bottom of the page and enable the 'Chat Agent' checkbox."
+msgstr ""
+"Als u een gebruiker wilt toevoegen met een rol lager dan 'Auteur', gaat u "
+"naar de pagina %s en selecteert u de relevante gebruiker. Klik dan op "
+"Bewerken en blader naar het einde van de pagina. Schakel hier het "
+"selectievakje Chatmedewerker in."
+
+#: includes/settings_page.php:1237
+msgid "Users"
+msgstr "Gebruikers"
+
+#: includes/settings_page.php:1238
+msgid "If there are no chat agents online, the chat will show as offline"
+msgstr ""
+"Als er geen chatmedewerkers online zijn, wordt de chat weergegeven als "
+"offline"
+
+#: includes/settings_page.php:1243
+msgid "Blocked Visitors / IP Addresses"
+msgstr "Geblokkeerde bezoekers/IP-adressen"
+
+#: includes/settings_page.php:1247
+msgid "Enter each IP Address you would like to block on a new line"
+msgstr "Voer elk te blokkeren IP-adres in op een nieuwe regel"
+
+#: includes/settings_page.php:1258
+msgid ""
+"Blocking a user's IP Address here will hide the chat window from them, "
+"preventing them from chatting with you. Each IP Address must be on a new line"
+msgstr ""
+"Als u hier het IP-adres van een gebruiker blokkeert, wordt het chatvenster "
+"voor deze persoon verborgen en kunnen hij/zij niet meer met u chatten. Elk "
+"IP-adres moet op een nieuwe regel staan"
+
+#: includes/settings_page.php:1272
+msgid "Enable Business Hours"
+msgstr "Beschikbaarheidstijden inschakelen"
+
+#: includes/settings_page.php:1276
+msgid "Working days"
+msgstr ""
+
+#: includes/settings_page.php:1278
+#, fuzzy
+#| msgid "Week Days"
+msgid "Week Day"
+msgstr "Weekdagen"
+
+#: includes/settings_page.php:1278
+#, fuzzy
+#| msgid "Active schedule"
+msgid "Morning Schedule"
+msgstr "Activiteitsschema"
+
+#: includes/settings_page.php:1278
+#, fuzzy
+#| msgid "Active schedule"
+msgid "Afternoon Schedule"
+msgstr "Activiteitsschema"
+
+#: includes/settings_page.php:1281 includes/settings_page.php:1286
+#: wp-live-chat-support.php:3911 wp-live-chat-support.php:3971
+msgid "From"
+msgstr "Van"
+
+#: includes/settings_page.php:1283 includes/settings_page.php:1288
+#: includes/wplc_transfer_chats.php:582
+msgid "to"
+msgstr "naar"
+
+#: includes/settings_page.php:1298
+msgid ""
+"Time intervals are incorrect or overlapping. Please fix your settings or you "
+"might get unexpected behavior."
+msgstr ""
+
+#: includes/settings_page.php:1308
+msgid "Current Site Time"
+msgstr "Actuele sitetijd"
+
+#: includes/settings_page.php:1323
+msgid "Chat Encryption"
+msgstr "Chatencryptie"
+
+#: includes/settings_page.php:1326
+msgid "Enable Encryption"
+msgstr "Encryptie inschakelen"
+
+#: includes/settings_page.php:1326
+msgid ""
+"All messages will be encrypted when being sent to and from the user and "
+"agent."
+msgstr ""
+"Alle berichten worden gecodeerd wanneer ze worden verstuurd tussen gebruiker "
+"en medewerker."
+
+#: includes/settings_page.php:1330
+msgid ""
+"Once enabled, all messages sent will be encrypted. This cannot be undone."
+msgstr ""
+"Als deze optie is ingeschakeld, worden alle verzonden berichten gecodeerd. "
+"Dit kan niet ongedaan gemaakt worden."
+
+#: includes/settings_page.php:1336
+#, fuzzy
+#| msgid "Encryption"
+msgid "Encryption key"
+msgstr "Encryptie"
+
+#: includes/settings_page.php:1341 modules/advanced_features.php:59
+#: modules/api/public/wplc-api.php:84
+msgid "Generate New"
+msgstr "Nieuw genereren"
+
+#: includes/settings_page.php:1344
+#, fuzzy
+#| msgid ""
+#| "Once enabled, all messages sent will be encrypted. This cannot be undone."
+msgid ""
+"If you change encryption key, all previously encrypted messages will be "
+"lost. This cannot be undone."
+msgstr ""
+"Als deze optie is ingeschakeld, worden alle verzonden berichten gecodeerd. "
+"Dit kan niet ongedaan gemaakt worden."
+
+#: includes/settings_page.php:1354
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: includes/wplc_agent_data.php:11
+msgid "WP Live Chat by 3CX - User Fields"
+msgstr "WP Live Chat by 3CX - Gebruikersvelden"
+
+#: includes/wplc_agent_data.php:15
+msgid "User tagline"
+msgstr "Tagline van gebruiker"
+
+#: includes/wplc_agent_data.php:24
+msgid "This will show up at the top of the chatbox - Leave blank to disable."
+msgstr ""
+"Dit wordt bovenaan de chatbox weergegeven. Laat leeg om deze optie uit te "
+"schakelen."
+
+#: includes/wplc_custom_fields.php:67 includes/wplc_data_triggers.php:8
+#: includes/wplc_departments.php:139 includes/wplc_roi.php:105
+#: modules/webhooks_manager.php:60 modules/webhooks_manager.php:321
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: includes/wplc_custom_fields.php:71 wp-live-chat-support.php:787
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+#: includes/wplc_custom_fields.php:80 includes/wplc_data_triggers.php:456
+#: wp-live-chat-support.php:2090
+msgid "Type"
+msgstr "Type"
+
+#: includes/wplc_custom_fields.php:81 includes/wplc_data_triggers.php:458
+msgid "Content"
+msgstr "Inhoud"
+
+#: includes/wplc_custom_fields.php:82 includes/wplc_data_triggers.php:459
+#: wp-live-chat-support.php:2093 wp-live-chat-support.php:3046
+msgid "Status"
+msgstr "Status"
+
+#: includes/wplc_custom_fields.php:99 wp-live-chat-support.php:2273
+msgid "Active"
+msgstr "Actief"
+
+#: includes/wplc_custom_fields.php:101
+msgid "Inactive"
+msgstr "Inactief"
+
+#: includes/wplc_custom_fields.php:106 includes/wplc_data_triggers.php:467
+#: includes/wplc_departments.php:183 includes/wplc_roi.php:149
+#: modules/webhooks_manager.php:262
+msgid "Edit"
+msgstr "Bewerken"
+
+#: includes/wplc_custom_fields.php:117
+msgid "Create your first custom field"
+msgstr "Maak uw eerste aangepaste veld"
+
+#: includes/wplc_custom_fields.php:137
+msgid "Create a Custom Field"
+msgstr "Maak een aangepast veld"
+
+#: includes/wplc_custom_fields.php:142 includes/wplc_custom_fields.php:225
+msgid "Field Name"
+msgstr "Veldnaam"
+
+#: includes/wplc_custom_fields.php:146 includes/wplc_custom_fields.php:229
+msgid "Field Type"
+msgstr "Veldtype"
+
+#: includes/wplc_custom_fields.php:149 includes/wplc_custom_fields.php:234
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/wplc_custom_fields.php:150 includes/wplc_custom_fields.php:235
+msgid "Drop Down"
+msgstr "Vervolgkeuzemenu"
+
+#: includes/wplc_custom_fields.php:155 includes/wplc_custom_fields.php:240
+msgid "Default Field Value"
+msgstr "Standaard veldwaarde"
+
+#: includes/wplc_custom_fields.php:159 includes/wplc_custom_fields.php:244
+msgid "Drop Down Contents"
+msgstr "Inhoud vervolgkeuzemenu"
+
+#: includes/wplc_custom_fields.php:160 includes/wplc_custom_fields.php:245
+msgid "Enter each option on a new line"
+msgstr "Voer elke optie in op een nieuwe regel"
+
+#: includes/wplc_custom_fields.php:164
+msgid "Create Custom Field"
+msgstr "Aangepast veld maken"
+
+#: includes/wplc_custom_fields.php:220
+msgid "Edit a Custom Field"
+msgstr "Aangepast veld bewerken"
+
+#: includes/wplc_custom_fields.php:249
+msgid "Update Custom Field"
+msgstr "Aangepast veld bijwerken"
+
+#: includes/wplc_custom_fields.php:259
+msgid "Custom Field Not Found"
+msgstr "Aangepast veld niet gevonden"
+
+#: includes/wplc_custom_fields.php:260
+msgid "Back"
+msgstr "Terug"
+
+#: includes/wplc_custom_fields.php:274
+msgid "Are you sure you want to delete this custom field?"
+msgstr "Weet u zeker dat u dit aangepaste veld wilt verwijderen?"
+
+#: includes/wplc_custom_fields.php:310
+msgid "Text Field"
+msgstr "Tekstveld"
+
+#: includes/wplc_custom_fields.php:313
+msgid "Dropdown"
+msgstr "Vervolgkeuzemenu"
+
+#: includes/wplc_custom_fields.php:379
+msgid "Custom Field Data"
+msgstr "Gegevens aangepast veld"
+
+#: includes/wplc_data_triggers.php:11 wp-live-chat-support.php:786
+#: wp-live-chat-support.php:3646
+msgid "Triggers"
+msgstr "Triggers"
+
+#: includes/wplc_data_triggers.php:63
+msgid "Trigger Name"
+msgstr "Triggernaam"
+
+#: includes/wplc_data_triggers.php:68
+msgid "Trigger Type"
+msgstr "Triggertype"
+
+#: includes/wplc_data_triggers.php:72
+msgid "Page Trigger"
+msgstr "Paginatrigger"
+
+#: includes/wplc_data_triggers.php:73
+msgid "Time Trigger"
+msgstr "Tijdtrigger"
+
+#: includes/wplc_data_triggers.php:74
+msgid "Scroll Trigger"
+msgstr "Bladertrigger"
+
+#: includes/wplc_data_triggers.php:75
+msgid "Page Leave Trigger"
+msgstr "Trigger pagina verlaten"
+
+#: includes/wplc_data_triggers.php:76
+msgid ""
+"Note: When using page trigger with a the basic theme, no hovercard is shown "
+"by default. We suggest using the time trigger for this instead."
+msgstr ""
+"Opmerking: wanneer u de paginatrigger gebruikt met een basisthema, wordt "
+"standaard geen hovercard (tekstballon met extra info) weergegeven. We raden "
+"u aan hiervoor de tijdtrigger te gebruiken."
+
+#: includes/wplc_data_triggers.php:82
+msgid "Page ID"
+msgstr "Pagina-ID"
+
+#: includes/wplc_data_triggers.php:83
+msgid "Note: Leave empty for 'all' pages"
+msgstr "Opmerking: laat leeg voor 'alle' pagina's"
+
+#: includes/wplc_data_triggers.php:87
+msgid "Show After"
+msgstr "Weergeven na"
+
+#: includes/wplc_data_triggers.php:88
+msgid "Seconds"
+msgstr "Seconden"
+
+#: includes/wplc_data_triggers.php:92
+msgid "Show After Scrolled"
+msgstr "Weergeven na bladeren door"
+
+#: includes/wplc_data_triggers.php:93
+msgid "(%) Percent of page height"
+msgstr "(%) percentage van paginahoogte"
+
+#: includes/wplc_data_triggers.php:97
+msgid "Content Replacement"
+msgstr "Inhoudsvervanging"
+
+#: includes/wplc_data_triggers.php:107
+msgid "Replace Content"
+msgstr "Inhoud vervangen"
+
+#: includes/wplc_data_triggers.php:112
+msgid "Enable Trigger"
+msgstr "Trigger inschakelen"
+
+#: includes/wplc_data_triggers.php:118 modules/node_server.php:445
+#: wp-live-chat-support.php:4319
+msgid "Close"
+msgstr "Sluiten"
+
+#: includes/wplc_data_triggers.php:128 includes/wplc_departments.php:261
+#: includes/wplc_roi.php:256
+msgid "Please review your submission"
+msgstr "Controleer uw gegevens"
+
+#: includes/wplc_data_triggers.php:276
+msgid "Trigger has been edited."
+msgstr "Trigger is bewerkt."
+
+#: includes/wplc_data_triggers.php:441
+msgid "Conflict with page"
+msgstr "Conflict met pagina"
+
+#: includes/wplc_data_triggers.php:443
+msgid "Trigger ID: "
+msgstr "Trigger-ID: "
+
+#: includes/wplc_data_triggers.php:444
+msgid ""
+"It is possible that this trigger may override another trigger, or be "
+"overridden by another trigger."
+msgstr ""
+"Deze trigger overschrijft mogelijk een andere trigger of kan worden "
+"overschreven door een andere trigger."
+
+#: includes/wplc_data_triggers.php:457 includes/wplc_roi.php:140
+#: modules/node_server.php:191 modules/node_server.php:739
+msgid "Page"
+msgstr "Pagina"
+
+#: includes/wplc_data_triggers.php:476 includes/wplc_roi.php:691
+msgid "All"
+msgstr "Alle"
+
+#: includes/wplc_data_triggers.php:480
+msgid "Click to change trigger status"
+msgstr "Klik hier om de triggerstatus te wijzigen"
+
+#: includes/wplc_data_triggers.php:490
+msgid "No Triggers Found..."
+msgstr "Geen triggers gevonden..."
+
+#: includes/wplc_data_triggers.php:601
+msgid "Are you sure you would like to delete trigger"
+msgstr "Wilt u de volgende trigger verwijderen?"
+
+#: includes/wplc_departments.php:60 includes/wplc_departments.php:64
+#: includes/wplc_departments.php:87 includes/wplc_departments.php:547
+#: includes/wplc_departments.php:652 includes/wplc_transfer_chats.php:98
+msgid "No Department"
+msgstr "Geen afdeling"
+
+#: includes/wplc_departments.php:83
+msgid "Chat Department"
+msgstr "Chatafdeling"
+
+#: includes/wplc_departments.php:128 includes/wplc_departments.php:144
+#: includes/wplc_departments.php:521 includes/wplc_departments.php:537
+msgid "Departments"
+msgstr "Afdelingen"
+
+#: includes/wplc_departments.php:128
+msgid "beta"
+msgstr "bèta"
+
+#: includes/wplc_departments.php:141
+msgid "Department Settings"
+msgstr "Afdelingsinstellingen"
+
+#: includes/wplc_departments.php:194
+msgid "No Departments Found..."
+msgstr "Geen afdelingen gevonden..."
+
+#: includes/wplc_departments.php:245
+msgid "Department Name"
+msgstr "Afdelingsnaam"
+
+#: includes/wplc_departments.php:330
+msgid "Department has been edited."
+msgstr "Afdeling is bewerkt."
+
+#: includes/wplc_departments.php:469
+msgid "Are you sure you would like to delete department"
+msgstr "Wilt u de volgende afdeling verwijderen?"
+
+#: includes/wplc_departments.php:542
+msgid "Default Department"
+msgstr "Standaard afdeling"
+
+#: includes/wplc_departments.php:543
+msgid "Default department a new chat is assigned to"
+msgstr "Standaard afdeling waaraan een nieuwe chat wordt toegewezen"
+
+#: includes/wplc_departments.php:558
+msgid "Create or Edit Departments"
+msgstr "Afdeligen maken of bewerken"
+
+#: includes/wplc_departments.php:564
+msgid "User Department Selection"
+msgstr "Gebruiker kiest afdeling"
+
+#: includes/wplc_departments.php:565
+msgid "Allow user to select a department before starting a chat?"
+msgstr ""
+"Gebruiker toestaan een afdeling te kiezen voordat de chat wordt gestart?"
+
+#: includes/wplc_departments.php:574
+msgid ""
+"Note: Chats will be transferred in the event that agents are not available "
+"within the selected department"
+msgstr ""
+"Opmerking: chats worden overgedragen wanneer er geen medewerkers van de "
+"geselecteerde afdeling beschikbaar zijn"
+
+#: includes/wplc_departments.php:585
+#, php-format
+msgid "Create departments %s."
+msgstr "Afdelingen %s creëren."
+
+#: includes/wplc_departments.php:631
+msgid "Department you have been assigned to as an agent"
+msgstr "Afdeling waaraan u als medewerker bent toegewezen"
+
+#: includes/wplc_departments.php:631 includes/wplc_transfer_chats.php:48
+#: modules/node_server.php:194 modules/node_server.php:741
+msgid "Department"
+msgstr "Afdeling"
+
+#: includes/wplc_departments.php:738
+msgid "Select Department"
+msgstr "Afdeling selecteren"
+
+#: includes/wplc_roi.php:97 includes/wplc_roi.php:109
+#: wp-live-chat-support.php:3648
+msgid "ROI Goals"
+msgstr "ROI-doelen"
+
+#: includes/wplc_roi.php:106
+msgid "View Reports"
+msgstr "Rapporten weergeven"
+
+#: includes/wplc_roi.php:141
+msgid "Value"
+msgstr "Waarde"
+
+#: includes/wplc_roi.php:163
+msgid "No ROI Goals Found..."
+msgstr "Geen ROI-doelen gevonden ..."
+
+#: includes/wplc_roi.php:221
+msgid "Goal Name"
+msgstr "Doelnaam"
+
+#: includes/wplc_roi.php:226
+msgid "Goal Overview"
+msgstr "Doeloverzicht"
+
+#: includes/wplc_roi.php:231
+msgid "Goal Page"
+msgstr "Doelpagina"
+
+#: includes/wplc_roi.php:240
+msgid "Goal Value"
+msgstr "Doelwaarde"
+
+#: includes/wplc_roi.php:393
+msgid "Goal has been edited."
+msgstr "Doel is bewerkt."
+
+#: includes/wplc_roi.php:564
+msgid "Are you sure you would like to delete goal"
+msgstr "Wilt u het volgende doel verwijderen?"
+
+#: includes/wplc_roi.php:651
+msgid "ROI Reports"
+msgstr "ROI-rapporten"
+
+#: includes/wplc_roi.php:670
+msgid "Goal Statistics"
+msgstr "Doelstatistieken"
+
+#: includes/wplc_roi.php:682
+msgid "No Goals Found"
+msgstr "Geen doelen gevonden"
+
+#: includes/wplc_roi.php:692
+msgid "Last 30 Days"
+msgstr "Laatste 30 dagen"
+
+#: includes/wplc_roi.php:693
+msgid "Last 15 Days"
+msgstr "Laatste 15 dagen"
+
+#: includes/wplc_roi.php:694
+msgid "Last 7 Days"
+msgstr "Laatste 7 dagen"
+
+#: includes/wplc_roi.php:695
+msgid "Last 24 Hours"
+msgstr "Laatste 24 uur"
+
+#: includes/wplc_roi.php:747
+msgid "Value Per Conversion"
+msgstr "Waarde per conversie"
+
+#: includes/wplc_roi.php:753
+msgid "Total Value"
+msgstr "Totale waarde"
+
+#: includes/wplc_roi.php:758
+msgid "Total Conversions"
+msgstr "Totaal aantal conversies"
+
+#: includes/wplc_roi.php:790
+msgid "Value By Date"
+msgstr "Waarde op datum"
+
+#: includes/wplc_roi.php:793
+msgid "Value By Agent"
+msgstr "Waarde per medewerker"
+
+#: includes/wplc_roi.php:799
+msgid "No data available yet..."
+msgstr "Nog geen gegevens beschikbaar ..."
+
+#: includes/wplc_transfer_chats.php:18 modules/node_server.php:728
+msgid "Transfer"
+msgstr "Overdragen"
+
+#: includes/wplc_transfer_chats.php:31
+msgid "Transfer Chat"
+msgstr "Chat overdragen"
+
+#: includes/wplc_transfer_chats.php:46
+msgid "Would you like to transfer this chat to"
+msgstr "Wilt u deze chat overdragen aan"
+
+#: includes/wplc_transfer_chats.php:47 modules/node_server.php:83
+msgid "Agent"
+msgstr "Medewerker"
+
+#: includes/wplc_transfer_chats.php:53
+msgid "Please select an agent to transfer to"
+msgstr "Selecteer een medewerker aan wie u de chat wilt overdragen"
+
+#: includes/wplc_transfer_chats.php:60
+msgid "Please select a department to transfer to"
+msgstr "Selecteer een afdeling waaraan u de chat wilt overdragen"
+
+#: includes/wplc_transfer_chats.php:79
+msgid "No Agent"
+msgstr "Geen medewerker"
+
+#: includes/wplc_transfer_chats.php:83
+msgid "You"
+msgstr "U"
+
+#: includes/wplc_transfer_chats.php:125
+msgid "Checking if agent is online"
+msgstr "Controleren of medewerker online is"
+
+#: includes/wplc_transfer_chats.php:126
+msgid "Agent is not online, transfer cannot be made"
+msgstr "Medewerker is niet online, overdracht kan niet worden uitgevoerd"
+
+#: includes/wplc_transfer_chats.php:128
+msgid "Checking if agents in department are online"
+msgstr "Controleren of er medewerkers van deze afdeling online zijn"
+
+#: includes/wplc_transfer_chats.php:129
+msgid ""
+"No agent within the department are available to accept the transfer, "
+"transfer cannot be made"
+msgstr ""
+"Er zijn geen medewerkers van deze afdeling beschikbaar voor de chat, de "
+"overdracht kan niet worden uitgevoerd"
+
+#: includes/wplc_transfer_chats.php:131
+msgid "Agent(s) available, safe to transfer"
+msgstr "Medewerker(s) beschikbaar, overdracht kan worden uitgevoerd"
+
+#: includes/wplc_transfer_chats.php:133
+msgid "Transfer Complete. Closing Window..."
+msgstr "Overdracht uitgevoerd. Venster wordt gesloten..."
+
+#: includes/wplc_transfer_chats.php:134
+msgid "Transfer Failed. Please try again later..."
+msgstr "Overdracht mislukt. Probeer het later opnieuw..."
+
+#: includes/wplc_transfer_chats.php:380
+msgid "Transfer for"
+msgstr "Overdracht voor"
+
+#: includes/wplc_transfer_chats.php:383
+msgid "Accept Transfer"
+msgstr "Overdracht accepteren"
+
+#: includes/wplc_transfer_chats.php:459
+msgid ""
+"Department took too long to respond, we are transferring this chat to the "
+"next available agent."
+msgstr ""
+"Het duurde te lang voordat de afdeling reageerde, de chat wordt overgedragen "
+"aan de volgende beschikbare medewerker."
+
+#: includes/wplc_transfer_chats.php:461
+msgid ""
+"took too long to respond, we are transferring this chat to the next "
+"available agent."
+msgstr ""
+"heeft nog niet gereageerd, de chat wordt overgedragen aan de volgende "
+"beschikbare medewerker."
+
+#: includes/wplc_transfer_chats.php:464
+msgid "has transferred the chat."
+msgstr "heeft de chat overgedragen."
+
+#: includes/wplc_transfer_chats.php:487
+msgid "User received this message"
+msgstr "Gebruiker heeft dit bericht ontvangen"
+
+#: includes/wplc_transfer_chats.php:533
+msgid "No agents available in"
+msgstr "Geen medewerkers beschikbaar van"
+
+#: includes/wplc_transfer_chats.php:535
+msgid "selected department"
+msgstr "geselecteerde afdeling"
+
+#: includes/wplc_transfer_chats.php:541
+msgid "automatically transferring you to"
+msgstr "u wordt automatisch doorgestuurd naar"
+
+#: includes/wplc_transfer_chats.php:543
+msgid "the next available department"
+msgstr "de volgende beschikbare afdeling"
+
+#: includes/wplc_transfer_chats.php:571
+msgid "User has been transferred from"
+msgstr "Gebruiker is overgedragen van"
+
+#: includes/wplc_transfer_chats.php:573
+msgid "department"
+msgstr "afdeling"
+
+#: includes/wplc_transfer_chats.php:585
+msgid "as there were no agents online"
+msgstr "omdat er geen medewerkers online waren"
+
+#: modules/advanced_features.php:17
+msgid "Advanced Features"
+msgstr "Geavanceerde instellingen"
+
+#: modules/advanced_features.php:33
+msgid "Chat Server"
+msgstr "Chatserver"
+
+#: modules/advanced_features.php:41
+msgid "Select your chat server"
+msgstr "Selecteer uw chatserver"
+
+#: modules/advanced_features.php:41
+msgid "Choose between 3CX servers or your Wordpress server for chat delivery"
+msgstr "Kies tussen 3CX-servers of uw WordPress-server voor de chat"
+
+#: modules/advanced_features.php:47
+msgid ""
+"3CX Servers are high performance secure instances hosted on Google Cloud and "
+"are completely free to use. 3CX Servers don't log or store messages. "
+"Messages are simply forwarded between users and agents. Chat sessions are "
+"stored on your Wordpress database only."
+msgstr ""
+"3CX-servers zijn hoogwaardige, veilige instances op Google Cloud en zijn "
+"volledig gratis te gebruiken. 3CX-servers registreren geen berichten en "
+"slaan deze niet op. Berichten worden eenvoudigweg doorgestuurd tussen "
+"gebruikers en medewerkers. Chatsessies worden alleen in uw WordPress-"
+"database opgeslagen."
+
+#: modules/advanced_features.php:48
+msgid ""
+"Using your own Wordpress server as a chat relay may cause performance "
+"slowdowns to your website, especially on shared hosts. Due to HTTP long poll "
+"mechanism, messages and events could be slightly delayed."
+msgstr ""
+"Als u uw eigen WordPress-server als chatrelay gebruikt, kan dat leiden tot "
+"vertraagde prestaties op uw website, vooral op gedeelde hosts. Vanwege het "
+"lange HTTP-pollmechanisme kunnen berichten en gebeurtenissen een lichte "
+"vertraging oplopen."
+
+#: modules/advanced_features.php:54
+msgid "Chat server token"
+msgstr "Token chatserver"
+
+#: modules/advanced_features.php:54
+msgid ""
+"Security token for accessing chats on the node server. Changing this will "
+"close your currently active chat sessions."
+msgstr ""
+"Beveiligingstoken voor toegang tot chats op de node-server. Als u deze "
+"waarde wijzigt, worden uw momenteel actieve chatsessies gesloten."
+
+#: modules/advanced_features.php:65
+msgid "Enable typing preview"
+msgstr "Typvoorbeeld inschakelen"
+
+#: modules/advanced_features.php:65
+msgid ""
+"This option enables the typing preview, which means agents will be able to "
+"see what the user is typing in realtime."
+msgstr ""
+"Met deze optie schakelt u het typvoorbeeld in, wat betekent dat medewerkers "
+"in realtime kunnen zien wat de gebruiker typt."
+
+#: modules/advanced_features.php:71
+msgid "Typing preview is not available when GDPR is enabled"
+msgstr "Typvoorbeeld is niet beschikbaar wanneer GDPR is ingeschakeld"
+
+#: modules/advanced_features.php:81
+msgid "Number of chat rings"
+msgstr "Aantal chatsignalen"
+
+#: modules/advanced_features.php:81
+msgid "Limit the amount of time the new chat ringer will play"
+msgstr "Beperk de duur van de signaaltoon voor een nieuwe chat"
+
+#: modules/advanced_tools.php:40
+msgid "Chat Data"
+msgstr "Chatgegevens"
+
+#: modules/advanced_tools.php:48
+msgid "Chat Settings"
+msgstr "Chatinstellingen"
+
+#: modules/advanced_tools.php:52
+msgid "Export Settings"
+msgstr "Instellingen exporteren"
+
+#: modules/advanced_tools.php:55 modules/advanced_tools.php:108
+msgid "Import Settings"
+msgstr "Instellingen importeren"
+
+#: modules/advanced_tools.php:62 modules/node_server.php:720
+#: wp-live-chat-support.php:3661
+msgid "Chat History"
+msgstr "Chatgeschiedenis"
+
+#: modules/advanced_tools.php:66
+msgid "Export History"
+msgstr "Geschiedenis exporteren"
+
+#: modules/advanced_tools.php:73
+msgid "Chat Ratings"
+msgstr "Chatbeoordelingen"
+
+#: modules/advanced_tools.php:77
+msgid "Export Ratings"
+msgstr "Beoordelingen exporteren"
+
+#: modules/advanced_tools.php:88
+msgid "Export Offline Messages"
+msgstr "Offline berichten exporteren"
+
+#: modules/advanced_tools.php:116
+msgid "CSV File"
+msgstr "CSV-bestand"
+
+#: modules/advanced_tools.php:127
+msgid "Please note: Import CSV must have been exported using the Export tool"
+msgstr ""
+"Let op: het te importeren CSV-bestand moet zijn geëxporteerd met het "
+"hulpmiddel Exporteren"
+
+#: modules/advanced_tools.php:135
+msgid "Import"
+msgstr "Importeren"
+
+#: modules/advanced_tools.php:135
+msgid "This cannot be undone"
+msgstr "Deze bewerking kan niet ongedaan worden gemaakt"
+
+#: modules/advanced_tools.php:193
+msgid "Import Failed - Could Not Process File"
+msgstr "Importeren mislukt - bestand kon niet worden verwerkt"
+
+#: modules/advanced_tools.php:207
+msgid "Import Failed - Could Not Find File"
+msgstr "Importeren mislukt - bestand niet gevonden"
+
+#: modules/advanced_tools.php:219
+msgid "Import Complete"
+msgstr "Importeren voltooid"
+
+#: modules/advanced_tools.php:227
+msgid "Thank you, all settings have been updated"
+msgstr "Bedankt, alle instellingen zijn bijgewerkt"
+
+#: modules/api/agent/wplc-api-functions.php:202
+#: modules/api/agent/wplc-api-functions.php:532
+#: modules/api/public/wplc-api-functions.php:158
+msgid "Action not set"
+msgstr "Actie niet ingesteld"
+
+#: modules/api/agent/wplc-api-functions.php:393
+msgid "IP Address not recorded"
+msgstr "IP-adres niet geregistreerd"
+
+#: modules/api/agent/wplc-api-functions.php:1018
+msgid "Upload error"
+msgstr "Fout tijdens uploaden"
+
+#: modules/api/agent/wplc-api-functions.php:1021
+msgid "Security Violation - File unsafe"
+msgstr "Beveiligingsprobleem - bestand niet veilig"
+
+#: modules/api/public/wplc-api.php:47 modules/api/public/wplc-api.php:74
+msgid "REST API"
+msgstr "REST API"
+
+#: modules/api/public/wplc-api.php:64
+msgid ""
+"To make use of the REST API, please ensure you are using a version of "
+"WordPress with the REST API included."
+msgstr ""
+"Als u gebruik wilt maken van de REST API, moet u ervoor zorgen dat u een "
+"versie van WordPress gebruikt met de REST API inbegrepen."
+
+#: modules/api/public/wplc-api.php:66
+msgid ""
+"Alternatively, please install the official Rest API plugin from WordPress."
+msgstr "U kunt ook de officiële Rest API-plug-in van WordPress installeren."
+
+#: modules/api/public/wplc-api.php:79
+msgid "Secret Token"
+msgstr "Geheim token"
+
+#: modules/api/public/wplc-api.php:82
+msgid "No secret token found"
+msgstr "Geen geheim token gevonden"
+
+#: modules/cta_animations.php:19
+msgid "Call To Action Animation"
+msgstr "Animatie Call to Action"
+
+#: modules/gdpr.php:26
+msgid "Enable privacy controls"
+msgstr "Privacybeheer inschakelen"
+
+#: modules/gdpr.php:26
+msgid "Disabling will disable all GDPR related options, this is not advised."
+msgstr ""
+"Als u deze optie uitschakelt, worden alle GDPR-gerelateerde opties "
+"uitgeschakeld; dit wordt afgeraden."
+
+#: modules/gdpr.php:30
+msgid "Importance of GDPR Compliance"
+msgstr "Belang van GDPR-naleving"
+
+#: modules/gdpr.php:36
+msgid "Organization name"
+msgstr "Naam van organisatie"
+
+#: modules/gdpr.php:45
+msgid "Data retention purpose"
+msgstr "Doel van gegevensretentie"
+
+#: modules/gdpr.php:48 modules/gdpr.php:373 wp-live-chat-support.php:124
+msgid "Chat/Support"
+msgstr "Chat/ondersteuning"
+
+#: modules/gdpr.php:54
+msgid "Data retention period"
+msgstr "Duur van gegevensretentie"
+
+#: modules/gdpr.php:57
+msgid "days"
+msgstr "dagen"
+
+#: modules/gdpr.php:63
+msgid "GDPR notice to visitors"
+msgstr "GDRP-melding voor bezoekers"
+
+#: modules/gdpr.php:64
+msgid ""
+"Users will be asked to accept the notice shown here, in the form of a check "
+"box."
+msgstr ""
+"Gebruikers wordt gevraagd akkoord te gaan met de hier weergegeven melding, "
+"in de vorm van een selectievakje."
+
+#: modules/gdpr.php:81
+msgid "Use a custom text for GDPR notice"
+msgstr ""
+
+#: modules/gdpr.php:82
+msgid ""
+"You can display a custom GDPR notice to your website visitors. Be sure to "
+"include all relevant informations according to GDPR directives."
+msgstr ""
+
+#: modules/gdpr.php:108 modules/gdpr.php:120
+msgid "GDPR Control"
+msgstr "GDPR-controle"
+
+#: modules/gdpr.php:122
+msgid ""
+"Search is performed on chat sessions, messages, and offline messages. Data "
+"will also be deleted automatically per your retention policy."
+msgstr ""
+"Zoekopdrachten worden uitgevoerd op chatsessies, berichten en offline "
+"berichten. Gegevens worden ook automatisch verwijderd conform uw "
+"retentiebeleid."
+
+#: modules/gdpr.php:131
+msgid "Name, Email, Message"
+msgstr "Naam, e-mail, bericht"
+
+#: modules/gdpr.php:135 modules/node_server.php:222
+msgid "Search"
+msgstr "Zoeken"
+
+#: modules/gdpr.php:148
+#, php-format
+msgid "Search Results in %%TABLE%%"
+msgstr "Zoekresultaten in %%TABLE%%"
+
+#: modules/gdpr.php:176
+#, php-format
+msgid "Delete Chat (%%CID%%)"
+msgstr "Chat verwijderen (%%CID%%)"
+
+#: modules/gdpr.php:177
+#, php-format
+msgid "Download Chat (%%CID%%)"
+msgstr "Chat downloaden (%%CID%%)"
+
+#: modules/gdpr.php:181 wp-live-chat-support.php:3910
+#: wp-live-chat-support.php:3970
+msgid "Chat ID"
+msgstr "Chat-ID"
+
+#: modules/gdpr.php:202
+msgid "Please perform a search using the input field above"
+msgstr "Voer een zoekopdracht uit met het invoerveld hierboven"
+
+#: modules/gdpr.php:279
+msgid "Data Deleted"
+msgstr "Gegevens verwijderd"
+
+#: modules/gdpr.php:371
+#, php-format
+msgid ""
+"I agree for my personal data to be processed and for the use of cookies in "
+"order to engage in a chat processed by %%COMPANY%%, for the purpose of "
+"%%PURPOSE%%, for the time of %%PERIOD%% day(s) as per the GDPR."
+msgstr ""
+"Ik ga ermee akkoord dat mijn persoonlijke gegevens worden verwerkt en dat er "
+"cookies worden gebruikt vooor een chat die wordt verwerkt door %%COMPANY%% "
+"ten behoeve van %%PURPOSE%%, gedurende de tijd van %%PERIOD%% dag(en) "
+"volgens de GDPR."
+
+#: modules/gdpr.php:398 modules/gdpr.php:609 modules/gdpr.php:631
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: modules/gdpr.php:399
+#, php-format
+msgid ""
+"We use WP Live Chat by 3CX as our live chat platform. By clicking below to "
+"submit this form, you acknowledge that the information you provide now and "
+"during the chat will be transferred to WP Live Chat by 3CX for processing in "
+"accordance with their %%POLICY_LINK%%."
+msgstr ""
+"We gebruiken WP Live Chat by 3CX als ons livechatplatform. Door hieronder te "
+"klikken om dit formulier in te dienen, erkent u dat de informatie die u nu "
+"en tijdens de chat verstrekt, wordt overgedragen aan WP Live Chat by 3CX "
+"voor verwerking in overeenstemming met hun %%POLICY_LINK%%."
+
+#: modules/gdpr.php:423
+#, php-format
+msgid ""
+"Please note as per the GDPR settings you have selected, all chat data will "
+"be retained for %%PERIOD%% day(s)."
+msgstr ""
+"Let op: conform de GDPR-instellingen die u hebt geselecteerd worden alle "
+"chatgegevens gedurende %%PERIOD%% dag(en) bewaard."
+
+#: modules/gdpr.php:426
+#, php-format
+msgid ""
+"After this period of time, all chat data older than %%PERIOD%% day(s), will "
+"be permanently removed from your server."
+msgstr ""
+"Na deze periode worden alle chatgegevens ouder dan %%PERIOD%% dag(en) "
+"permanent verwijderd van uw server."
+
+#: modules/gdpr.php:430
+msgid "GDPR - Data Retention"
+msgstr "GDPR - gegevensretentie"
+
+#: modules/gdpr.php:433 modules/gdpr.php:611
+msgid "Privacy Settings"
+msgstr "Privacyinstellingen"
+
+#: modules/gdpr.php:448
+msgid "Once every 6 hours"
+msgstr "Eens per 6 uur"
+
+#: modules/gdpr.php:577
+msgid "Chat Ended"
+msgstr "Chat beëindigd"
+
+#: modules/gdpr.php:602
+msgid ""
+"GDPR compliance has been disabled, read more about the implications of this "
+"here"
+msgstr ""
+"GDPR-naleving is uitgeschakeld, lees hier meer over de gevolgen hiervan"
+
+#: modules/gdpr.php:603
+msgid "Additionally please take a look at WP Live Chat by 3CX"
+msgstr "Kijk ook naar WP Live Chat by 3CX"
+
+#: modules/gdpr.php:604
+msgid ""
+"It is highly recommended that you enable GDPR compliance to ensure your user "
+"data is regulated."
+msgstr ""
+"U wordt ten zeerste aangeraden GDPR-naleving in te schakelen om te zorgen "
+"dat de verwerking van uw gebruikersgegevens wordt gereguleerd."
+
+#: modules/gdpr.php:607
+msgid "Warning - GDPR Compliance Disabled - Action Required"
+msgstr "Waarschuwing - GDPR-naleving uitgeschakeld - actie vereist"
+
+#: modules/gdpr.php:608
+msgid "EU GDPR"
+msgstr "EU GDPR"
+
+#: modules/gdpr.php:612
+msgid "Dismiss & Accept Responsibility"
+msgstr "Negeren en verantwoordelijkheid accepteren"
+
+#: modules/gdpr.php:630
+#, php-format
+msgid "Please refer to our %%PRIVACY_LINK%% for information on Data Processing"
+msgstr ""
+"Raadpleeg onze %%PRIVACY_LINK%% voor informatie over gegevensverwerking"
+
+#: modules/google_analytics.php:17
+msgid "Google Analytics Integration"
+msgstr "Google Analytics-integratie"
+
+#: modules/google_analytics.php:22
+msgid "Enable Google Analytics Integration"
+msgstr "Google Analytics-integratie inschakelen"
+
+#: modules/node_server.php:44
+msgid "Toggle user list"
+msgstr "Gebruikerslijst in-/uitschakelen"
+
+#: modules/node_server.php:45
+msgid "Toggle WordPress Menu for a full screen experience"
+msgstr "WordPress-menu in-/uitschakelen voor volledig scherm"
+
+#: modules/node_server.php:79 modules/node_server.php:186
+#: modules/node_server.php:718 modules/node_server.php:736
+msgid "Active visitors"
+msgstr "Actieve bezoekers"
+
+#: modules/node_server.php:113 modules/node_server.php:723
+msgid "Invite Agent"
+msgstr "Medewerker uitnodigen"
+
+#: modules/node_server.php:114 modules/node_server.php:724
+msgid "Invite Department"
+msgstr "Afdeling uitnodigen"
+
+#: modules/node_server.php:115 modules/node_server.php:725
+#: modules/node_server.php:729 wp-live-chat-support.php:3718
+msgid "Direct User To Page"
+msgstr "Gebruiker doorsturen naar pagina"
+
+#: modules/node_server.php:117
+msgid "Transcript"
+msgstr "Transcript"
+
+#: modules/node_server.php:118 modules/node_server.php:726
+msgid "Leave chat"
+msgstr "Chat verlaten"
+
+#: modules/node_server.php:119 modules/node_server.php:727
+#: wp-live-chat-support.php:2285
+msgid "End chat"
+msgstr "Chat beëindigen"
+
+#: modules/node_server.php:130
+msgid "Something"
+msgstr "Iets"
+
+#: modules/node_server.php:141 modules/node_server.php:731
+msgid "Join chat"
+msgstr "Deelnemen aan chat"
+
+#: modules/node_server.php:142
+msgid "Type here..."
+msgstr "Typ hier..."
+
+#: modules/node_server.php:143
+msgid "bold"
+msgstr "vet"
+
+#: modules/node_server.php:143
+msgid "italics"
+msgstr "cursief"
+
+#: modules/node_server.php:143
+msgid "code"
+msgstr "code"
+
+#: modules/node_server.php:143
+msgid "preformatted"
+msgstr "voorgeformatteerd"
+
+#: modules/node_server.php:163
+msgid "Filter the user list based on activity."
+msgstr "Filter de gebruikerslijst op basis van activiteit."
+
+#: modules/node_server.php:168 modules/node_server.php:733
+msgid "New Visitors (3 Min)"
+msgstr "Nieuwe bezoekers (3 min)"
+
+#: modules/node_server.php:169 modules/node_server.php:734
+msgid "Active Chats"
+msgstr "Actieve chats"
+
+#: modules/node_server.php:170
+msgid "Page URL"
+msgstr "Pagina-URL"
+
+#: modules/node_server.php:171 modules/node_server.php:735
+msgid "Clear Filters"
+msgstr "Filters wissen"
+
+#: modules/node_server.php:182
+msgid "Contains"
+msgstr "Bevat"
+
+#: modules/node_server.php:189 modules/node_server.php:737
+#: wp-live-chat-support.php:2088
+msgid "Visitor"
+msgstr "Bezoeker"
+
+#: modules/node_server.php:190 modules/node_server.php:738
+msgid "Info"
+msgstr "Info"
+
+#: modules/node_server.php:192 modules/node_server.php:740
+msgid "Chat Status"
+msgstr "Chatstatus"
+
+#: modules/node_server.php:223 modules/node_server.php:742
+msgid "Search Results"
+msgstr "Zoekresultaten"
+
+#: modules/node_server.php:225 modules/node_server.php:743
+msgid "No emoji found"
+msgstr "Geen emoji gevonden"
+
+#: modules/node_server.php:316
+msgid "Error"
+msgstr "Fout"
+
+#: modules/node_server.php:316
+msgid "Only chat agents can access this page."
+msgstr "Alleen chatmedewerkers hebben toegang tot deze pagina."
+
+#: modules/node_server.php:443 wp-live-chat-support.php:4317
+msgid "Sending transcript..."
+msgstr "Transcript verzenden..."
+
+#: modules/node_server.php:444
+msgid "Chat Transcript"
+msgstr "Chattranscript"
+
+#: modules/node_server.php:446 wp-live-chat-support.php:4320
+msgid "The chat transcript has been emailed."
+msgstr "Het chattranscript is per e-mail verzonden."
+
+#: modules/node_server.php:447 wp-live-chat-support.php:4321
+msgid "There was a problem emailing the chat."
+msgstr "Er is een probleem opgetreden bij het e-mailen van de chat."
+
+#: modules/node_server.php:461
+msgid "Connection Error"
+msgstr "Verbindingsfout"
+
+#: modules/node_server.php:462
+msgid ""
+"We are having some trouble contacting the server. Please try again later."
+msgstr ""
+"Er kan geen verbinding worden gemaakt met de server. Probeer het later "
+"opnieuw."
+
+#: modules/node_server.php:500
+msgid "Chat is disabled in settings area, re-enable"
+msgstr "Chat is uitgeschakeld in Instellingen, schakel de chat opnieuw in"
+
+#: modules/node_server.php:526
+msgid "User received notification:"
+msgstr "Gebruiker heeft melding ontvangen:"
+
+#: modules/node_server.php:532 wp-live-chat-support.php:1925
+msgid "New chat received"
+msgstr "Nieuwe chat ontvangen"
+
+#: modules/node_server.php:533 wp-live-chat-support.php:1927
+msgid ""
+"A new chat has been received. Please go the 'Live Chat' page to accept the "
+"chat"
+msgstr ""
+"Er is een nieuwe chat ontvangen. Ga naar de 'Live Chat'-pagina om de chat te "
+"accepteren"
+
+#: modules/node_server.php:641
+msgid "Welcome to V8 of WP Live Chat by 3CX"
+msgstr "Welkom bij V8 van WP Live Chat by 3CX"
+
+#: modules/node_server.php:642
+msgid ""
+"Did you know, this version features high speed message delivery, agent to "
+"agent chat, and a single window layout?"
+msgstr ""
+"Deze versie biedt supersnelle berichtlevering, chats tussen medewerkers en "
+"een indeling met één venster."
+
+#: modules/node_server.php:643
+msgid ""
+"To activate this functionality please navigate to Live Chat -> Settings -> "
+"Advanced Features -> And enable 3CX High Performance Chat Cloud Servers."
+msgstr ""
+"U kunt deze functionaliteit activeren via Live Chat -> Instellingen - "
+"Geavanceerde instellingen. Schakel hier hoogwaardige 3CX-chatcloudservers in."
+
+#: modules/node_server.php:646
+msgid "Show me!"
+msgstr "Weergeven!"
+
+#: modules/node_server.php:647 wp-live-chat-support.php:4288
+msgid "Don't Show This Again"
+msgstr "Dit bericht niet meer weergeven"
+
+#: modules/node_server.php:714 wp-live-chat-support.php:151
+msgid "Connecting..."
+msgstr "Verbinding maken..."
+
+#: modules/node_server.php:719
+msgid "Agent(s) Online"
+msgstr "Medewerker(s) online"
+
+#: modules/node_server.php:730
+msgid "Events"
+msgstr "Gebeurtenissen"
+
+#: modules/node_server.php:732
+msgid "Filters"
+msgstr "Filters"
+
+#: modules/node_server.php:817
+msgid ""
+"You can transfer chats from within a chat by clicking on the in chat menu, "
+"and selecting Transfer Chat or Transfer Department"
+msgstr ""
+"U kunt chats overdragen door in een chat op het chatmenu te klikken en de "
+"optie Chat overdragen of Afdeling overdragen te kiezen"
+
+#: modules/node_server.php:818
+msgid ""
+"You can share files quickly when in a chat, by simply dragging a file into "
+"the chat window!"
+msgstr ""
+"U kunt in een chat snel bestanden delen door een bestand naar het "
+"chatvenster te slepen!"
+
+#: modules/node_server.php:819
+msgid "You can now move between chats without ending/closing an open chat"
+msgstr ""
+"Nu kunt u wisselen tussen chats zonder een open chat te beëindigen of te "
+"sluiten"
+
+#: modules/node_server.php:875
+msgid "No quick responses found"
+msgstr "Geen snelle reacties gevonden"
+
+#: modules/privacy.php:20 modules/privacy.php:34
+msgid "Privacy"
+msgstr "Privacy"
+
+#: modules/webhooks_manager.php:12
+msgid "Agent Login"
+msgstr "Aanmelden voor medewerkers"
+
+#: modules/webhooks_manager.php:13
+msgid "New Visitor"
+msgstr "Nieuwe bezoeker"
+
+#: modules/webhooks_manager.php:14
+msgid "Chat Request"
+msgstr "Chatverzoek"
+
+#: modules/webhooks_manager.php:15
+msgid "Agent Accept"
+msgstr "Accepteren voor medewerkers"
+
+#: modules/webhooks_manager.php:16
+msgid "Settings Changed"
+msgstr "Instellingen gewijzigd"
+
+#: modules/webhooks_manager.php:49
+msgid "Webhooks"
+msgstr "Webhooks"
+
+#: modules/webhooks_manager.php:63 wp-live-chat-support.php:3647
+msgid "Web Hooks"
+msgstr "Webhooks"
+
+#: modules/webhooks_manager.php:85
+msgid "Webhook created"
+msgstr "Webhook gemaakt"
+
+#: modules/webhooks_manager.php:87
+msgid "Webhook could not be created"
+msgstr "Webhook kon niet worden gemaakt"
+
+#: modules/webhooks_manager.php:94
+msgid "Webhook edited"
+msgstr "Webhook bewerkt"
+
+#: modules/webhooks_manager.php:96
+msgid "Webhook could not be edited"
+msgstr "Webhook kon niet worden bewerkt"
+
+#: modules/webhooks_manager.php:108
+msgid "Webhook deleted"
+msgstr "Webhook verwijderd"
+
+#: modules/webhooks_manager.php:110
+msgid "Webhook could not be delete"
+msgstr "Webhook kon niet worden verwijderd"
+
+#: modules/webhooks_manager.php:248 modules/webhooks_manager.php:301
+msgid "Event"
+msgstr "Gebeurtenis"
+
+#: modules/webhooks_manager.php:249 modules/webhooks_manager.php:306
+msgid "Target URL"
+msgstr "Doel-URL"
+
+#: modules/webhooks_manager.php:250 modules/webhooks_manager.php:311
+msgid "Method"
+msgstr "Methode"
+
+#: modules/webhooks_manager.php:271
+msgid "No Webhooks"
+msgstr "Geen webhooks"
+
+#: modules/webhooks_manager.php:314
+msgid "GET"
+msgstr "OPHALEN"
+
+#: modules/webhooks_manager.php:315
+msgid "POST"
+msgstr "PLAATSEN"
+
+#: modules/webhooks_manager.php:321
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: modules/webhooks_manager.php:337
+msgid "Are you sure you want to delete this webhook?"
+msgstr "Weet u zeker dat u deze webhook wilt verwijderen?"
+
+#: wp-live-chat-support.php:92
+msgid "close"
+msgstr "sluiten"
+
+#: wp-live-chat-support.php:114
+msgid "Thank you for chatting with us."
+msgstr "Bedankt voor uw chat met ons."
+
+#: wp-live-chat-support.php:140
+msgid "Questions?"
+msgstr "Vragen?"
+
+#: wp-live-chat-support.php:141
+msgid "Chat with us"
+msgstr "Chat met ons"
+
+#: wp-live-chat-support.php:142
+msgid "Start live chat"
+msgstr "Live chat starten"
+
+#: wp-live-chat-support.php:143
+msgid "Complete the fields below to proceed."
+msgstr "Vul de onderstaande velden in om verder te gaan."
+
+#: wp-live-chat-support.php:144 wp-live-chat-support.php:148
+msgid "Leave a message"
+msgstr "Laat een bericht achter"
+
+#: wp-live-chat-support.php:145
+#, fuzzy
+#| msgid ""
+#| "We are currently offline. Please leave a message and we'll get back to "
+#| "you shortly."
+msgid "Please leave a message and we'll get back to you as soon as possible."
+msgstr ""
+"We zijn momenteel offline. Laat een bericht achter en we nemen zo snel "
+"mogelijk contact met u op."
+
+#: wp-live-chat-support.php:146
+msgid "Sending message..."
+msgstr "Bericht verzenden..."
+
+#: wp-live-chat-support.php:147
+msgid "Thank you for your message. We will be in contact soon."
+msgstr "Bedankt voor je bericht. We nemen snel contact met u op."
+
+#: wp-live-chat-support.php:149
+msgid "Send message"
+msgstr "Bericht verzenden"
+
+#: wp-live-chat-support.php:150
+msgid "Start Chat"
+msgstr "Chat starten"
+
+#: wp-live-chat-support.php:152 wp-live-chat-support.php:1807
+#: wp-live-chat-support.php:1854
+msgid "Reactivating your previous chat..."
+msgstr "Uw vorige chat opnieuw activeren..."
+
+#: wp-live-chat-support.php:183
+msgid "Please click 'Start Chat' to initiate a chat with an agent"
+msgstr "Klik op 'Chat starten' om een ​​chat met een agent te starten"
+
+#: wp-live-chat-support.php:184
+msgid "Guest"
+msgstr "Gast"
+
+#: wp-live-chat-support.php:186
+msgid "No answer. Try again later."
+msgstr "Geen reactie. Probeer het later opnieuw."
+
+#: wp-live-chat-support.php:187
+msgid "Welcome. How may I help you?"
+msgstr "Welkom. Hoe kan ik u helpen?"
+
+#: wp-live-chat-support.php:191
+msgid "Please standby for an agent. Send your message while you wait."
+msgstr ""
+"U wordt gekoppeld aan een medewerker. Stuur uw bericht terwijl u wacht."
+
+#: wp-live-chat-support.php:497
+msgid ""
+"The additional WP Live Chat Support PRO plugin which you have installed is "
+"no longer needed, please uninstall it."
+msgstr ""
+"De extra WP Live Chat Support PRO-plug-in die u hebt geïnstalleerd, is niet "
+"meer nodig. Verwijder deze plug-in."
+
+#: wp-live-chat-support.php:764 wp-live-chat-support.php:3120
+msgid "Missed Chats"
+msgstr "Gemiste chats"
+
+#: wp-live-chat-support.php:767 wp-live-chat-support.php:3636
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: wp-live-chat-support.php:964
+#, fuzzy
+#| msgid "Please Enter Your Name"
+msgid "Please enter your name"
+msgstr "Voer uw naam in"
+
+#: wp-live-chat-support.php:965
+#, fuzzy
+#| msgid "Please Enter Your Email Address"
+msgid "Please enter your email address"
+msgstr "Voer uw e-mailadres in"
+
+#: wp-live-chat-support.php:966
+#, fuzzy
+#| msgid "Please Enter Your Email Address"
+msgid "Please enter a valid email address"
+msgstr "Voer uw e-mailadres in"
+
+#: wp-live-chat-support.php:967
+msgid "Connection to Server Lost. Please Reload This Page. Error:"
+msgstr "Verbinding met server verbroken. Laad deze pagina opnieuw. Fout:"
+
+#: wp-live-chat-support.php:969
+msgid "Please Enter a Message"
+msgstr "Voer een bericht in"
+
+#: wp-live-chat-support.php:970
+msgid "Disconnected, Attempting to Reconnect..."
+msgstr ""
+"Verbinding verbroken, proberen een nieuwe verbinding tot stand te brengen..."
+
+#: wp-live-chat-support.php:1017
+msgid "has joined."
+msgstr "neemt nu deel."
+
+#: wp-live-chat-support.php:1018
+msgid "has left."
+msgstr "heeft de chat verlaten."
+
+#: wp-live-chat-support.php:1019
+msgid "has ended the chat."
+msgstr "heeft de chat beëindigd."
+
+#: wp-live-chat-support.php:1020
+msgid "has disconnected."
+msgstr "heeft de verbinding verbroken."
+
+#: wp-live-chat-support.php:1021
+msgid "(edited)"
+msgstr "(bewerkt)"
+
+#: wp-live-chat-support.php:1416 wp-live-chat-support.php:1435
+msgid "Start chat"
+msgstr "Chat starten"
+
+#: wp-live-chat-support.php:1677 wp-live-chat-support.php:2356
+msgid "Send"
+msgstr "Verzenden"
+
+#: wp-live-chat-support.php:2026
+msgid "Congratulations"
+msgstr "Proficiat"
+
+#: wp-live-chat-support.php:2027
+msgid "You are now accepting live chat requests on your site."
+msgstr "U accepteert nu live chatverzoeken op uw site."
+
+#: wp-live-chat-support.php:2028
+msgid "The live chat box has automatically been enabled."
+msgstr "De live chatbox is automatisch ingeschakeld."
+
+#: wp-live-chat-support.php:2029
+msgid "Chat notifications will start appearing once visitors send a request."
+msgstr "Chatmeldingen verschijnen zodra bezoekers een verzoek verzenden."
+
+#: wp-live-chat-support.php:2030
+#, php-format
+msgid "You may modify your chat box settings %s"
+msgstr "U kunt de instellingen voor uw chatbox aanpassen %s"
+
+#: wp-live-chat-support.php:2031
+msgid "Experiencing issues?"
+msgstr "Ervaart u problemen?"
+
+#: wp-live-chat-support.php:2031
+msgid "Take a look at our how-to guides."
+msgstr "Bekijk onze instructiehandleidingen."
+
+#: wp-live-chat-support.php:2032
+msgid "Hide"
+msgstr "Verbergen"
+
+#: wp-live-chat-support.php:2071
+msgid "Keep this window open to get notified of new chats."
+msgstr "Houd dit venster geopend om een melding te ontvangen van nieuwe chats."
+
+#: wp-live-chat-support.php:2076
+msgid "Visitor(s) online"
+msgstr "Bezoeker(s) online"
+
+#: wp-live-chat-support.php:2091
+msgid "Device"
+msgstr "Toestel"
+
+#: wp-live-chat-support.php:2092
+msgid "Data"
+msgstr "Data"
+
+#: wp-live-chat-support.php:2113
+msgid "Chat Dashboard"
+msgstr "Chat Dashboard"
+
+#: wp-live-chat-support.php:2116
+msgid "Oh no!"
+msgstr "Oh nee!"
+
+#: wp-live-chat-support.php:2118
+#, php-format
+msgid "You do not have access to this page as %s."
+msgstr "U hebt geen toegang tot deze pagina als %s."
+
+#: wp-live-chat-support.php:2118
+msgid "you are not a chat agent"
+msgstr "u bent geen chatmedewerker"
+
+#: wp-live-chat-support.php:2271
+msgid "Previous"
+msgstr "Vorige"
+
+#: wp-live-chat-support.php:2278
+msgid "Chat with"
+msgstr "Chat met"
+
+#: wp-live-chat-support.php:2295
+msgid "Starting Time:"
+msgstr "Starttijd:"
+
+#: wp-live-chat-support.php:2296
+msgid "Ending Time:"
+msgstr "Eindtijd:"
+
+#: wp-live-chat-support.php:2316
+msgid "Chat initiated on:"
+msgstr "Chat gestart op:"
+
+#: wp-live-chat-support.php:2317
+msgid "Browser:"
+msgstr "Browser:"
+
+#: wp-live-chat-support.php:2343 wp-live-chat-support.php:2382
+msgid "Invalid Chat ID"
+msgstr "Ongeldige chat-ID"
+
+#: wp-live-chat-support.php:2351
+msgid "type here..."
+msgstr "typ hier..."
+
+#: wp-live-chat-support.php:2504
+msgid "User has opened the chat window"
+msgstr "Gebruiker heeft het chatvenster geopend"
+
+#: wp-live-chat-support.php:2505
+msgid "User has minimized the chat window"
+msgstr "Gebruiker heeft het chatvenster geminimaliseerd"
+
+#: wp-live-chat-support.php:2506
+msgid "User has maximized the chat window"
+msgstr "Gebruiker heeft het chatvenster gemaximaliseerd"
+
+#: wp-live-chat-support.php:2507
+msgid "The chat has been ended"
+msgstr "De chat is beëindigd"
+
+#: wp-live-chat-support.php:3036
+msgid "Delete History"
+msgstr "Geschiedenis verwijderen"
+
+#: wp-live-chat-support.php:3052
+msgid "No chats available at the moment"
+msgstr "Geen chats beschikbaar op dit moment"
+
+#: wp-live-chat-support.php:3160
+msgid "Actions"
+msgstr "Acties"
+
+#: wp-live-chat-support.php:3174
+msgid "You have not received any offline messages."
+msgstr "U hebt geen offline berichten ontvangen."
+
+#: wp-live-chat-support.php:3182
+msgid "Delete Message"
+msgstr "Bericht verwijderen"
+
+#: wp-live-chat-support.php:3308
+msgid "You do not have permission to save settings."
+msgstr "U hebt geen toestemming om instellingen op te slaan."
+
+#: wp-live-chat-support.php:3592
+msgid "Your settings have been saved."
+msgstr "Uw instellingen zijn opgeslagen."
+
+#: wp-live-chat-support.php:3610
+msgid ""
+"WPLC: set_time_limit() is not enabled on this server. You may experience "
+"issues while using WP Live Chat by 3CX as a result of this. Please get in "
+"contact your host to get this function enabled."
+msgstr ""
+"WPLC: set_time_limit () is niet ingeschakeld op deze server. U kunt hierdoor "
+"problemen ondervinden tijdens het gebruik van WP Live Chat by 3CX . Neem "
+"contact op met uw host om deze functie in te schakelen."
+
+#: wp-live-chat-support.php:3616
+msgid ""
+"WPLC: Safe mode is enabled on this server. You may experience issues while "
+"using WP Live Chat by 3CX as a result of this. Please contact your host to "
+"get safe mode disabled."
+msgstr ""
+"WPLC: Veilige modus is ingeschakeld op deze server. U kunt hierdoor "
+"problemen ondervinden tijdens het gebruik van WP Live Chat by 3CX . Neem "
+"contact op met uw host om de veilige modus uit te schakelen."
+
+#: wp-live-chat-support.php:3639 wp-live-chat-support.php:3643
+msgid "Plugin Features"
+msgstr "Plug-in-instellingen"
+
+#: wp-live-chat-support.php:3641
+msgid ""
+"Check out these features and get up to speed with what you can do with WP "
+"Live Chat:"
+msgstr ""
+"Leer alles over deze functies en ontdek wat u kunt doen met WP Live Chat:"
+
+#: wp-live-chat-support.php:3644
+msgid "Reporting"
+msgstr "Rapportage"
+
+#: wp-live-chat-support.php:3645
+msgid "Localization"
+msgstr "Lokalisatie"
+
+#: wp-live-chat-support.php:3653
+msgid "Chat FAQs"
+msgstr "Veelgestelde vragen over chat"
+
+#: wp-live-chat-support.php:3655
+msgid ""
+"Learn quickly the ins and outs of Chat and start chatting with visitors and "
+"agents:"
+msgstr ""
+"Leer snel alle ins en outs over de chatfunctie en chat met bezoekers en "
+"medewerkers:"
+
+#: wp-live-chat-support.php:3657
+msgid "Chat with Visitors"
+msgstr "Chat met bezoekers"
+
+#: wp-live-chat-support.php:3658
+msgid "Chat with Agents"
+msgstr "Chat met medewerkers"
+
+#: wp-live-chat-support.php:3662
+msgid "Chat Invites"
+msgstr "Chatuitnodigingen"
+
+#: wp-live-chat-support.php:3667
+msgid "Settings & Customization"
+msgstr "Instellingen en aanpassingen"
+
+#: wp-live-chat-support.php:3669
+msgid "Use these guides to learn how to configure and customize WP Live Chat:"
+msgstr ""
+"Deze handleidingen bevatten informatie over de configuratie en "
+"aanpassingsmogelijkheden van WP Live Chat:"
+
+#: wp-live-chat-support.php:3673
+msgid "Agent Settings"
+msgstr "Instellingen medewerker"
+
+#: wp-live-chat-support.php:3680
+msgid "Troubleshooting"
+msgstr "Probleemoplossing"
+
+#: wp-live-chat-support.php:3682
+msgid ""
+"Reference these troubleshooting guides to quickly resolve any WP Live Chat "
+"issues:"
+msgstr ""
+"Raadpleeg deze probleemoplossingshandleidingen om problemen met WP Live Chat "
+"snel op te lossen:"
+
+#: wp-live-chat-support.php:3684
+msgid "My Chat Box Is Not Showing"
+msgstr "Mijn chatvenster wordt niet weergegeven"
+
+#: wp-live-chat-support.php:3685
+msgid "Not Receiving Notifications of New Chats"
+msgstr "Ik krijg geen meldingen van een nieuwe chat"
+
+#: wp-live-chat-support.php:3686
+msgid "Check for JavaScript Errors"
+msgstr "Controleren op JavaScript-fouten"
+
+#: wp-live-chat-support.php:3714
+msgid "Initiate Chats"
+msgstr "Chat starten"
+
+#: wp-live-chat-support.php:3715
+msgid "Multiple Chats"
+msgstr "Meerdere chats"
+
+#: wp-live-chat-support.php:3716
+msgid "Add unlimited agents"
+msgstr "Onbeperkt aantal medewerkers toevoegen"
+
+#: wp-live-chat-support.php:3717
+msgid "Transfer Chats"
+msgstr "Chats overdragen"
+
+#: wp-live-chat-support.php:3736
+#, php-format
+msgid "Thank you for using %s! Please %s on %s"
+msgstr "Bedankt dat u %s gebruikt! %s op %s"
+
+#: wp-live-chat-support.php:3736
+msgid "rate us"
+msgstr "beoordeel ons"
+
+#: wp-live-chat-support.php:3913 wp-live-chat-support.php:3973
+msgid "Timestamp"
+msgstr "Tijdstempel"
+
+#: wp-live-chat-support.php:3914 wp-live-chat-support.php:3974
+msgid "Origin"
+msgstr "Oorsprong"
+
+#: wp-live-chat-support.php:3919 wp-live-chat-support.php:3979
+msgid "user"
+msgstr "gebruiker"
+
+#: wp-live-chat-support.php:3921 wp-live-chat-support.php:3981
+msgid "agent"
+msgstr "medewerker"
+
+#: wp-live-chat-support.php:4056
+msgid "Advanced settings"
+msgstr "Geavanceerde instellingen"
+
+#: wp-live-chat-support.php:4063
+msgid "Only change these settings if you are experiencing performance issues."
+msgstr ""
+"Wijzig deze instellingen alleen als u problemen met de prestaties ondervindt."
+
+#: wp-live-chat-support.php:4070
+msgid "Website hosting type:"
+msgstr "Type webhosting:"
+
+#: wp-live-chat-support.php:4074
+msgid "Custom parameters"
+msgstr "Aangepaste parameters"
+
+#: wp-live-chat-support.php:4075
+msgid "Shared hosting - low level plan"
+msgstr "Gedeelde hosting - plan op laag niveau"
+
+#: wp-live-chat-support.php:4076
+msgid "Shared hosting - normal plan"
+msgstr "Gedeelde hosting - normaal plan"
+
+#: wp-live-chat-support.php:4077
+msgid "VPS"
+msgstr "VPS"
+
+#: wp-live-chat-support.php:4078
+msgid "Dedicated server"
+msgstr "Dedicated server"
+
+#: wp-live-chat-support.php:4084
+msgid "Long poll setup"
+msgstr "Lange poll-opstelling"
+
+#: wp-live-chat-support.php:4084
+msgid ""
+"Only change these if you are an experienced developer or if you have "
+"received these figures from the WP Live Chat by 3CX team."
+msgstr ""
+"Wijzig deze instellingen alleen als u een ervaren ontwikkelaar bent of als u "
+"deze waarden hebt ontvangen van het WP Live Chat by 3CX-team."
+
+#: wp-live-chat-support.php:4089
+msgid "Iterations"
+msgstr "Herhalingen"
+
+#: wp-live-chat-support.php:4093
+msgid "Sleep between loops"
+msgstr "Slapen tussen herhalingen"
+
+#: wp-live-chat-support.php:4096
+msgid "milliseconds"
+msgstr "milliseconden"
+
+#: wp-live-chat-support.php:4119
+msgid "Show 'Powered by' in chat box"
+msgstr "'Mogelijk gemaakt door' weergeven in chatvenster"
+
+#: wp-live-chat-support.php:4119
+msgid ""
+"Checking this will display a 'Powered by WP Live Chat by 3CX' caption at the "
+"bottom of your chatbox."
+msgstr ""
+"Als u deze optie inschakelt, wordt 'Mogelijk gemaakt door WP Live Chat by "
+"3CX' onder in uw chatvenster weergegeven."
+
+#: wp-live-chat-support.php:4161
+msgid "Powered by WP Live Chat by 3CX"
+msgstr "Mogelijk gemaakt door WP Live Chat by 3CX"
+
+#: wp-live-chat-support.php:4286
+msgid ""
+"Browser notifications will no longer function on insecure (non-SSL) sites."
+msgstr "Browsermeldingen werken niet meer op onbeveiligde (non-SSL) sites."
+
+#: wp-live-chat-support.php:4287
+msgid ""
+"Please add an SSL certificate to your site to continue receiving chat "
+"notifications in your browser."
+msgstr ""
+"Voeg een SSL-certificaat toe aan uw site als u chatmeldingen wilt blijven "
+"ontvangen in uw browser."
+
+#: wp-live-chat-support.php:4300
+msgid ""
+"Please deactivate WP Live Chat Suport - Email Transcript plugin. Since WP "
+"Live Chat Support 8.0.05 there is build in support for Email Transcript."
+msgstr ""
+"Schakel de plug-in WP Live Chat Support - Transcript e-mailen uit. Vanaf WP "
+"Live Chat Support 8.0.05 is ondersteuning voor Email Transcript geïntegreerd."
+
+#: wp-live-chat-support.php:4307
+msgid "Email transcript to user"
+msgstr "Transcript e-mailen naar gebruiker"
+
+#: wp-live-chat-support.php:4318
+msgid "Sending Transcript"
+msgstr "Transcript wordt verzonden"
+
+#: wp-live-chat-support.php:4381
+#, php-format
+msgid "Your chat transcript from %1$s"
+msgstr "Uw chattranscript van %1$s"
+
+#: wp-live-chat-support.php:4472
+msgid "Chat Transcript Settings"
+msgstr "Instellingen chattranscript"
+
+#: wp-live-chat-support.php:4475
+msgid "Enable chat transcripts:"
+msgstr "Chattranscripts inschakelen:"
+
+#: wp-live-chat-support.php:4483
+msgid "Send transcripts to:"
+msgstr "Transcripts verzenden naar:"
+
+#: wp-live-chat-support.php:4490
+msgid "User"
+msgstr "Gebruiker"
+
+#: wp-live-chat-support.php:4501
+msgid "Send transcripts when chat ends:"
+msgstr "Transcripts verzenden wanneer chat wordt beëindigd:"
+
+#: wp-live-chat-support.php:4509
+msgid "Email body"
+msgstr "E-mailtekst"
+
+#: wp-live-chat-support.php:4519
+msgid "Email header"
+msgstr "Kop van e-mail"
+
+#: wp-live-chat-support.php:4528
+msgid "Email footer"
+msgstr "Voet van e-mail"
+
+#: wp-live-chat-support.php:4604
+msgid ""
+"Please note, local message encryption and local server options will be "
+"deprecated in the next major release. All encryption and message delivery "
+"will handled by our external servers in future."
+msgstr ""
+"Let op: lokale berichtencryptie en lokale serveropties worden niet meer "
+"ondersteund in de volgende grote release. Encryptie en berichtlevering "
+"worden in de toekomst verwerkt door onze externe servers."
+
+#: wp-live-chat-support.php:4607
+msgid "Deprecation Notice - Message Encryption & Local Server"
+msgstr "Verouderingsmelding - Berichtencryptie en lokale server"
+
+#: wp-live-chat-support.php:4609
+msgid "Dismiss"
+msgstr "Negeren"
+
+#~ msgid "Allow WP users to self-assign as a chat agent"
+#~ msgstr "WP-gebruikers toestaan om zichzelf chatmedewerker te maken"
+
+#~ msgid ""
+#~ "Checking this will allow any of your users to make themselves a chat "
+#~ "agent when editing their profile."
+#~ msgstr ""
+#~ "Als u deze optie inschakelt, kunnen uw gebruikers zichzelf chatmedewerker "
+#~ "maken bij het bewerken van hun profiel."
+
+#~ msgid "Between"
+#~ msgstr "Tussen"
+
+#~ msgid "and"
+#~ msgstr "en"
+
+#~ msgid "Auto Pop-up"
+#~ msgstr "Automatische pop-up"
+
+#~ msgid "Remove Icon"
+#~ msgstr "Pictogram verwijderen"
+
+#~ msgid "Daily"
+#~ msgstr "Dagelijks"
+
+#~ msgid "Weekends"
+#~ msgstr "Weekenden"
+
+#~ msgid "Update now"
+#~ msgstr "Nu bijwerken"
+
+#~ msgid "GDPR Compliance Enabled - Server Selection Limited to EU"
+#~ msgstr "GDPR-naleving ingeschakeld - serverselectie beperkt tot EU"
+
+#~ msgid "Pro data will also be removed as a part of this automatic process."
+#~ msgstr ""
+#~ "Pro-gegevens worden ook verwijderd als onderdeel van dit geautomatiseerde "
+#~ "proces."
+
+#~ msgid "Success"
+#~ msgstr "Gelukt"
+
+#~ msgid "Message data is corrupt"
+#~ msgstr "Berichtgegevens zijn beschadigd"
+
+#~ msgid "Message data array not set"
+#~ msgstr "Geen array voor berichtgegevens ingesteld"
+
+#~ msgid "Chat ID is not set"
+#~ msgstr "Chat-ID niet ingesteld"
+
+#~ msgid "No security nonce found"
+#~ msgstr "Geen beveiligingsnonce gevonden"
+
+#~ msgid "Chat offline. Leave a message"
+#~ msgstr "Chat offline. Laat een bericht achter"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Triggers"
+#~ msgid "WP Live Chat Trigger"
+#~ msgstr "WP Live Chat Support Triggers"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "WP Live Chat Box"
+#~ msgstr "WP Live Chat-ondersteuning"
+
+#, fuzzy
+#~| msgid "The chat window never goes offline"
+#~ msgid "The Chat Box Never Goes Offline"
+#~ msgstr "Het chatvenster gaat nooit offline"
+
+#, fuzzy
+#~| msgid "This chat has already been answered by another agent."
+#~ msgid "Chat Has Already Been Answered"
+#~ msgstr "Deze chat is al beantwoord door een andere medewerker."
+
+#, fuzzy
+#~| msgid "requesting chat"
+#~ msgid "Request new chat"
+#~ msgstr "chat aanvragen"
+
+#~ msgid "Whois for"
+#~ msgstr "Whois voor"
+
+#~ msgid "Experience Rating"
+#~ msgstr "Ervaringsbeoordeling"
+
+#, fuzzy
+#~| msgid "Disable initiate chat feature:"
+#~ msgid "Disable initiate chat:"
+#~ msgstr "Schakel chat-functie uit:"
+
+#~ msgid ""
+#~ "This will substantially improve performance. If you are experiencing "
+#~ "performance issues on your site, you should disable the initiate chat "
+#~ "feature and only enable it when you need it."
+#~ msgstr ""
+#~ "Dit zal de prestaties aanzienlijk verbeteren. Als u prestatieproblemen op "
+#~ "uw site ondervindt, moet u de chatfunctie activeren en alleen inschakelen "
+#~ "wanneer u deze nodig hebt."
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid "Active Visitor(s)"
+#~ msgstr "Actieve chats"
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid "Active Agent(s)."
+#~ msgstr "Actieve chats"
+
+#, fuzzy
+#~| msgid "Recomended Size 250px x 40px"
+#~ msgid "Recomended Size 50px x 50px"
+#~ msgstr "Aanbevolen grootte 250px x 40px"
+
+#~ msgid "Recomended Size 250px x 40px"
+#~ msgstr "Aanbevolen grootte 250px x 40px"
+
+#~ msgid "How long it takes for your chat window to pop up"
+#~ msgstr "Hoe lang het duurt voordat je chatvenster verschijnt"
+
+#, fuzzy
+#~| msgid "Theme 1"
+#~ msgid "Theme"
+#~ msgstr "Thema 1"
+
+#~ msgid "Classic"
+#~ msgstr "Klassiek"
+
+#~ msgid "Modern"
+#~ msgstr "Modern"
+
+#, fuzzy
+#~| msgid ""
+#~| "Please note: Chat messages will only be encrypted and decreypted if you "
+#~| "have inserted your WP Live Chat Support Pro API Key on the <a href="
+#~| "\"admin.php?page=wplivechat-menu-api-keys-page\">API Keys page</a>."
+#~ msgid ""
+#~ "Please note: Chat messages will only be encrypted and decrypted if you "
+#~ "have inserted your WP Live Chat by 3CX API Key with a previous version of "
+#~ "our Pro add-on as this key was required."
+#~ msgstr ""
+#~ "Let op: Chat berichten worden alleen gecodeerd en gedecodeerd als u uw WP "
+#~ "live chat support Pro API-sleutel hebt ingevoegd op de API-sleutels "
+#~ "pagina."
+
+#, fuzzy
+#~| msgid "Enable Surveys"
+#~ msgid "Enable Surveys & Lead Forms"
+#~ msgstr "Enquêtes inschakelen"
+
+#, fuzzy
+#~| msgid ""
+#~| "Enable surveys within your live chat box, either before or after a live "
+#~| "chat session."
+#~ msgid ""
+#~ "Enable surveys and lead forms within your live chat box, either before or "
+#~ "after a live chat session."
+#~ msgstr ""
+#~ "Schakel enquêtes in uw live chatbox in, vóór of na een live chatsessie."
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid "Active survey"
+#~ msgstr "Actieve chats"
+
+#, php-format
+#~ msgid ""
+#~ "No surveys created. Please <a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">create a survey and then refresh this page.</a>"
+#~ msgstr ""
+#~ "Geen enquêtes gemaakt. Maak een <a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">enquête</a> en vernieuw deze pagina."
+
+#, fuzzy
+#~| msgid "Select a survey"
+#~ msgid "Active lead form"
+#~ msgstr "Selecteer een enquête"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "No surveys created. Please <a href=\"%s\" target=\"_BLANK\" title="
+#~| "\"NimbleSquirrel\">create a survey and then refresh this page.</a>"
+#~ msgid ""
+#~ "No lead forms created. Please <a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">create a lead form and then refresh this page.</a>"
+#~ msgstr ""
+#~ "Geen enquêtes gemaakt. Maak een <a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">enquête</a> en vernieuw deze pagina."
+
+#, fuzzy
+#~| msgid "Select a survey"
+#~ msgid "Select a lead form"
+#~ msgstr "Selecteer een enquête"
+
+#, fuzzy
+#~| msgid "Display survey"
+#~ msgid "Display survey/form"
+#~ msgstr "Toon enquête"
+
+#~ msgid "Before chat"
+#~ msgstr "Voor de chat"
+
+#~ msgid "After chat"
+#~ msgstr "Na de chat"
+
+#~ msgid "Chat button text"
+#~ msgstr "Chat-knoptekst"
+
+#~ msgid "Change title of chat box when chat ended to"
+#~ msgstr "Wijzig de titel van het chat vak wanneer de chat beëindigd is"
+
+#~ msgid "Or chat to an agent now"
+#~ msgstr "Of chat nu met een medewerker"
+
+#, fuzzy
+#~| msgid "WP Live Chat Surveys with Nimble Squirrel"
+#~ msgid "Surveys & Lead Forms with Nimble Squirrel"
+#~ msgstr "WP Live Chat Enquêtes met Nimble Squirrel"
+
+#~ msgid ""
+#~ "To view your responses, click the button below and log in to your "
+#~ "NimbleSquirrel account."
+#~ msgstr ""
+#~ "Om uw antwoorden te bekijken, klikt u op de onderstaande knop en meldt u "
+#~ "zich aan bij uw NimbleSquirrel-account."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Register on <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel"
+#~| "\">NimbleSquirrel</a> (It's free.)"
+#~ msgid ""
+#~ "Register on <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel"
+#~ "\">NimbleSquirrel</a> (It's free)"
+#~ msgstr ""
+#~ "Registreer op <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel"
+#~ "\">NimbleSquirrel</a> (het is gratis.)"
+
+#, php-format
+#~ msgid ""
+#~ "<a href=\"%s\" target=\"_BLANK\" title=\"Create a survey\">Create a "
+#~ "survey</a>."
+#~ msgstr ""
+#~ "<a href=\"%s\" target=\"_BLANK\" title=\"Create a survey\">'Maak een "
+#~ "enquête'.</a>"
+
+#~ msgid "Add a Survey to your live chat box"
+#~ msgstr "Voeg een enquête toe aan uw live chatbox"
+
+#~ msgid "Three simple steps:"
+#~ msgstr "Drie eenvoudige stappen:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Enable surveys in your live chat <a href='admin.php?page=wplivechat-menu-"
+#~| "settings'>settings page</a>."
+#~ msgid ""
+#~ "Enable surveys in your live chat <a href='admin.php?page=wplivechat-menu-"
+#~ "settings#tabs-survey'>settings page</a>."
+#~ msgstr ""
+#~ "Schakel enquêtes in op je instellingenpagina van wplivechat-menu-settings "
+#~ "voor live chatten."
+
+#, fuzzy
+#~| msgid "Twitter URL"
+#~ msgid "Website URL"
+#~ msgstr "Twitter URL"
+
+#, fuzzy
+#~| msgid "Twitter URL"
+#~ msgid "Twitter"
+#~ msgstr "Twitter URL"
+
+#, fuzzy
+#~| msgid "Linked Domains"
+#~ msgid "LinkedIn"
+#~ msgstr "Gelinkte domeinen"
+
+#, fuzzy
+#~| msgid "Facebook URL"
+#~ msgid "Facebook"
+#~ msgstr "Facebook URL"
+
+#, fuzzy
+#~| msgid "Your Website"
+#~ msgid "Website"
+#~ msgstr "Uw website"
+
+#, fuzzy
+#~| msgid "No secret token found"
+#~ msgid "No token found"
+#~ msgstr "Geen geheim token gevonden"
+
+#~ msgid "Supported API Calls"
+#~ msgstr "Ondersteunde API oproepen"
+
+#~ msgid "Try"
+#~ msgstr "Probeer"
+
+#~ msgid "API Response Codes"
+#~ msgstr "API Response Codes"
+
+#~ msgid "Rest Console "
+#~ msgstr "Rest Console "
+
+#~ msgid "Try it!"
+#~ msgstr "Probeer het!"
+
+#, fuzzy
+#~| msgid "Documentation"
+#~ msgid "Doc Suggestions"
+#~ msgstr "Documentatie"
+
+#, fuzzy
+#~| msgid "Documentation"
+#~ msgid "Documentation Suggestions"
+#~ msgstr "Documentatie"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat by 3CX - GDPR"
+#~ msgstr "WP Live Chat Support Pro"
+
+#, fuzzy
+#~| msgid "Iterations"
+#~ msgid "GIF Integration"
+#~ msgstr "herhalingen"
+
+#, fuzzy
+#~| msgid "Select a survey"
+#~ msgid "Select a GIF provider"
+#~ msgstr "Selecteer een enquête"
+
+#, fuzzy
+#~| msgid "This API key is "
+#~ msgid "Giphy API key"
+#~ msgstr "Deze API sleutel is"
+
+#, fuzzy
+#~| msgid "This API key is "
+#~ msgid "Tenor API key"
+#~ msgstr "Deze API sleutel is"
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid " Active visitors"
+#~ msgstr "Actieve chats"
+
+#~ msgid "Hello. Please input your details so that I may help you."
+#~ msgstr "Hallo. Voer uw gegevens in zodat ik u kan helpen."
+
+#~ msgid "Chat ended"
+#~ msgstr "Chat beëindigd"
+
+#~ msgid "Connecting. Please be patient..."
+#~ msgstr "Verbinden. Wees alstublieft geduldig..."
+
+#~ msgid "Please click \\'Start Chat\\' to initiate a chat with an agent"
+#~ msgstr "Klik op 'Chat starten' om een ​​chat met een medewerker te starten"
+
+#~ msgid "Surveys"
+#~ msgstr "Enquête"
+
+#, fuzzy
+#~| msgid "The chat has been ended"
+#~ msgid "The Chat Has Been Ended By The Operator."
+#~ msgstr "De chat is beëindigd"
+
+#~ msgid ""
+#~ "You may <a href='?page=wplivechat-menu-settings' target='_BLANK'>modify "
+#~ "your chat box settings here."
+#~ msgstr ""
+#~ "Je kunt hier <a href='?page=wplivechat-menu-settings' target='BLANK'> je "
+#~ "instellingen voor de chatbox aanpassen."
+
+#~ msgid "Site Info"
+#~ msgstr "Site Info"
+
+#~ msgid "Advanced Info"
+#~ msgstr "Geavanceerde info"
+
+#~ msgid "IP Address:"
+#~ msgstr "IP adres:"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Thank you for using <a href=\"%1$s\" target=\"_blank\">WP Live Chat "
+#~| "Support</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a "
+#~| "href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+#~ msgid ""
+#~ "Thank you for using <a href=\"%1$s\" target=\"_blank\">WP Live Chat by "
+#~ "3CX</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href="
+#~ "\"%2$s\" target=\"_blank\">WordPress.org</a>"
+#~ msgstr ""
+#~ "Bedankt voor het gebruik van <a href=\"%1$s\" target=\"_blank\">WP Live "
+#~ "Chat-ondersteuning</a>! <a href=\"%2$s\" target=\"_blank\">Beoordeel ons</"
+#~ "a> op <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+
+#~ msgid ""
+#~ "Your API Key is Invalid. You are not eligible for future updates. Please "
+#~ "enter your API key <a href=\"admin.php?page=wplivechat-menu-api-keys-page"
+#~ "\">here</a>."
+#~ msgstr ""
+#~ "Uw API-sleutel is ongeldig. U komt niet in aanmerking voor toekomstige "
+#~ "updates. Voer uw API-code <a href='admin.php?page=wplivechat-menu-api-"
+#~ "keys-page'> hier </a> in."
+
+#~ msgid "No Ratings for this agent"
+#~ msgstr "Geen beoordelingen voor deze medewerker"
+
+#~ msgid "WP Live Chat Support Reporting"
+#~ msgstr "WP Live Chat Support rapportering"
+
+#, fuzzy
+#~| msgid "Contributor"
+#~ msgid "Contributors"
+#~ msgstr "Bijdrager"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Testing"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~| msgid "Main Settings"
+#~ msgid "Marketing"
+#~ msgstr "Hoofdinstellingen"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentatie"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support Dashboard"
+#~ msgstr "WP Live Chat Support Pro"
+
+#, fuzzy
+#~| msgid "Welcome to "
+#~ msgid "Welcome, %s"
+#~ msgstr "Welkom bij"
+
+#, fuzzy
+#~| msgid "Chat Box"
+#~ msgid "Chat now"
+#~ msgstr "Chat venster"
+
+#, fuzzy
+#~| msgid "Total Conversions"
+#~ msgid "Conversations"
+#~ msgstr "Totaal aantal conversies"
+
+#~ msgid "WP Live Chat Support Settings"
+#~ msgstr "WP Live Chat Ondersteuningsinstellingen"
+
+#~ msgid "Chat Window Settings"
+#~ msgstr "Chat venster instellingen"
+
+#, fuzzy
+#~| msgid "Goal Name"
+#~ msgid "Show Name"
+#~ msgstr "Doel Naam"
+
+#~ msgid "Only show the chat window to users that are logged in"
+#~ msgstr "Laat het chatvenster alleen zien aan gebruikers die zijn ingelogd"
+
+#, fuzzy
+#~| msgid "Show After"
+#~ msgid "Show Date"
+#~ msgstr "Weergeven na"
+
+#, fuzzy
+#~| msgid "Show After"
+#~ msgid "Show Time"
+#~ msgstr "Weergeven na"
+
+#~ msgid "Name "
+#~ msgstr "Naam"
+
+#~ msgid "Enable Text Editor"
+#~ msgstr "Tekst editor inschakelen"
+
+#~ msgid ""
+#~ "Adds advanced text editor features, such as links, text styling, and more!"
+#~ msgstr ""
+#~ "Voegt geavanceerde teksteditor functies, zoals links, tekst styling, en "
+#~ "nog veel meer!"
+
+#~ msgid "Enable File Sharing"
+#~ msgstr "Bestandsdeling inschakelen"
+
+#~ msgid "Enable Experience Ratings"
+#~ msgstr "Ervaringsbeoordelingen inschakelen"
+
+#~ msgid "Do not allow users to send offline messages"
+#~ msgstr "Sta gebruikers niet toe om offline berichten te verzenden"
+
+#~ msgid "Offline Text Fields"
+#~ msgstr "Offline tekstvelden"
+
+#~ msgid "Email Address"
+#~ msgstr "E-mail adres"
+
+#~ msgid "Sending Method"
+#~ msgstr "Verzendmethode"
+
+#~ msgid "WP Mail"
+#~ msgstr "WP Mail"
+
+#~ msgid "PHP Mailer"
+#~ msgstr "PHP Mailer"
+
+#~ msgid "Host"
+#~ msgstr "Host"
+
+#~ msgid "Port"
+#~ msgstr "Poort"
+
+#~ msgid "Username"
+#~ msgstr "Gebruikersnaam"
+
+#~ msgid "Password"
+#~ msgstr "Paswoord"
+
+#~ msgid "Choose a theme"
+#~ msgstr "Kies een thema"
+
+#~ msgid "Choose"
+#~ msgstr "Kiezen"
+
+#~ msgid "Your"
+#~ msgstr "uw"
+
+#~ msgid "Colors"
+#~ msgstr "Kleuren"
+
+#~ msgid "Below"
+#~ msgstr "Onderaan"
+
+#~ msgid "First Section Text"
+#~ msgstr "Eerste tekst gedeelte"
+
+#~ msgid "Intro Text"
+#~ msgstr "Intro tekst"
+
+#~ msgid "Second Section Text"
+#~ msgstr "Tweede tekst gedeelte"
+
+#~ msgid "Reactivate Chat Section Text"
+#~ msgstr "Chat tekst gedeelte opnieuw activeren"
+
+#~ msgid "Choose an animation"
+#~ msgstr "Een animatie kiezen"
+
+#~ msgid "Current Users that are Chat Agents"
+#~ msgstr "Huidige gebruikers die chat medewerker zijn"
+
+#, fuzzy
+#~| msgid "Display survey"
+#~ msgid "Display Interval"
+#~ msgstr "Toon enquête"
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Er is een onverwachte HTTP-fout opgetreden tijdens het API-verzoek. </ P> "
+#~ "<p> <a href = '?' onclick = 'document.location.reload (); return false;'> "
+#~ "Probeer het opnieuw </a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Een onbekende fout is opgetreden"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "Welcome to WP Live Chat Support v8"
+#~ msgstr "WP Live Chat-ondersteuning"
+
+#, fuzzy
+#~| msgid "Welcome to "
+#~ msgid "Welcome"
+#~ msgstr "Welkom bij"
+
+#, fuzzy
+#~| msgid "Dedicated server"
+#~ msgid "Incredibly fast server"
+#~ msgstr "Dedicated server"
+
+#, fuzzy
+#~| msgid "Chat Dashboard"
+#~ msgid "New Dashboard"
+#~ msgstr "Chat Dashboard"
+
+#, fuzzy
+#~| msgid "Multiple Chats"
+#~ msgid "Multiple Agents Per Chat"
+#~ msgstr "Meerdere chats"
+
+#, fuzzy
+#~| msgid "Message"
+#~ msgid "Edit Messages"
+#~ msgstr "Bericht"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "New to WP Live Chat Support?"
+#~ msgstr "WP Live Chat-ondersteuning"
+
+#, fuzzy
+#~| msgid "documentation"
+#~ msgid "review our documentation"
+#~ msgstr "documentatie"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Settings"
+#~ msgid "WP Live Chat Support Custom Fields"
+#~ msgstr "WP Live Chat Ondersteuningsinstellingen"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Reporting"
+#~ msgid "WP Live Chat Support Departments"
+#~ msgstr "WP Live Chat Support rapportering"
+
+#~ msgid "WP Live Chat Support ROI Goals"
+#~ msgstr "WP Live Chat Suport ROI doelen"
+
+#, fuzzy
+#~| msgid "Use our server to host your chat server."
+#~ msgid "Use our server to handle chats"
+#~ msgstr "Gebruik onze server om uw chat server te hosten."
+
+#, fuzzy
+#~| msgid "Incoming chat ring tone"
+#~ msgid "Limit chat ring amount"
+#~ msgstr "Inkomende chat signaaltoon"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support - Tools"
+#~ msgstr "WP Live Chat Support Pro"
+
+#, fuzzy
+#~| msgid "Goal Name"
+#~ msgid "Company Name"
+#~ msgstr "Doel Naam"
+
+#, fuzzy
+#~| msgid "Dear Pro User"
+#~ msgid "Dear User,"
+#~ msgstr "Beste Pro gebruiker"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support - Webhooks"
+#~ msgstr "WP Live Chat Support Pro"
+
+#~ msgid "API Keys"
+#~ msgstr "API sleutels"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support API Key"
+#~ msgstr "WP Live Chat Support Pro"
+
+#, fuzzy
+#~| msgid ""
+#~| "To find and manage your premium API keys, please visit your <a "
+#~| "target='_BLANK' href='https://wp-livechat.com/my-account/'>my account</"
+#~| "a> page."
+#~ msgid ""
+#~ "To find and manage your API key, please visit your <a target='_BLANK' "
+#~ "href='https://wp-livechat.com/my-account/'>my account</a> page."
+#~ msgstr ""
+#~ "Ga naar uw wp-livechat.com account op uw accountpagina om uw premium API-"
+#~ "sleutels te vinden en te beheren."
+
+#~ msgid "Visit our troubleshooting section."
+#~ msgstr "Ga naar ons gedeelte over het oplossen van problemen."
+
+#~ msgid ""
+#~ "Please note: This window must be open in order to receive new chat "
+#~ "notifications."
+#~ msgstr ""
+#~ "Let op: dit venster moet open zijn om nieuwe chat meldingen te ontvangen."
+
+#~ msgid "WP Live Chat History"
+#~ msgstr "WP Live chat geschiedenis"
+
+#~ msgid "WP Live Chat Missed Chats"
+#~ msgstr "WP Live Chat gemiste chats"
+
+#~ msgid "WP Live Chat Offline Messages"
+#~ msgstr "WP Live Chat offline berichten"
+
+#~ msgid "Thank You for your feedback!"
+#~ msgstr "Bedankt voor uw feedback!"
+
+#~ msgid ""
+#~ "WP Live Chat Support  has a diverse and wide range of features which may, "
+#~ "from time to time, run into conflicts with the thousands of themes and "
+#~ "other plugins on the market."
+#~ msgstr ""
+#~ "WP Live Chat Support heeft een gevarieerd en breed scala aan functies die "
+#~ "van tijd tot tijd in conflict kunnen komen met de duizenden thema's en "
+#~ "andere plug-ins op de markt."
+
+#~ msgid "Common issues:"
+#~ msgstr "Gebruikelijke problemen:"
+
+#, fuzzy
+#~| msgid "Messages only show when I refresh the chat window"
+#~ msgid "Messages Only Show When I Refresh"
+#~ msgstr ""
+#~ "Berichten worden alleen weergegeven wanneer ik het chatvenster vernieuw"
+
+#~ msgid "Still need help? Use one of these links below."
+#~ msgstr "Nog steeds hulp nodig? Gebruik een van de onderstaande links."
+
+#~ msgid "API Key"
+#~ msgstr "API Sleutel"
+
+#~ msgid "Verify"
+#~ msgstr "Verifieer"
+
+#~ msgid "Status: "
+#~ msgstr "Status:"
+
+#~ msgid "Valid"
+#~ msgstr "Geldig"
+
+#, fuzzy
+#~| msgid "Manage this extension"
+#~ msgid "Manage this API Key"
+#~ msgstr "Beheer deze extensie"
+
+#~ msgid "Invalid"
+#~ msgstr "Ongeldig"
+
+#~ msgid "Linked Domains"
+#~ msgstr "Gelinkte domeinen"
+
+#~ msgid "What type of environment are you on?"
+#~ msgstr "In welk soort IT-omgeving bevindt u zich?"
+
+#~ msgid "Mobile and Desktop App"
+#~ msgstr "Mobiele en Desktop App"
+
+#~ msgid "Add Quick Responses to your Live Chat with our Pro Add-on"
+#~ msgstr "Voeg snelle antwoorden toe aan je live chat"
+
+#, fuzzy
+#~| msgid "Device"
+#~ msgid "Devices"
+#~ msgstr "Toestel"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Settings"
+#~ msgid "WP Live Chat Support - Devices"
+#~ msgstr "WP Live Chat Ondersteuningsinstellingen"
+
+#, fuzzy
+#~| msgid "Linked Domains"
+#~ msgid "Linked to"
+#~ msgstr "Gelinkte domeinen"
+
+#, fuzzy
+#~| msgid "Device"
+#~ msgid "Add Device"
+#~ msgstr "Toestel"
+
+#, fuzzy
+#~| msgid "Add Agent"
+#~ msgid "For Agent"
+#~ msgstr "Medewerker toevoegen"
+
+#, fuzzy
+#~| msgid "Agents"
+#~ msgid "Agent ID"
+#~ msgstr "Medewerkers"
+
+#, fuzzy
+#~| msgid "View Chat History"
+#~ msgid "New Chat from"
+#~ msgstr "Bekijk de chat geschiedenis"
+
+#, fuzzy
+#~| msgid "Message"
+#~ msgid "New Message"
+#~ msgstr "Bericht"
+
+#~ msgid "Mobile and Desktop App Settings"
+#~ msgstr "Mobiele en desktop app-instellingen"
+
+#~ msgid "Enable mobile and desktop app"
+#~ msgstr "Schakel mobiele en desktop-app in"
+
+#~ msgid "App"
+#~ msgstr "App"
+
+#~ msgid "Incoming Chat"
+#~ msgstr "Inkomende chat"
+
+#~ msgid "You have an incoming chat."
+#~ msgstr "Je hebt een inkomende chat."
+
+#~ msgid "Chat Active"
+#~ msgstr "Chat actief"
+
+#~ msgid "This chat is active"
+#~ msgstr "Deze chat is actief"
+
+#~ msgid "You must be a chat agent to initiate chats"
+#~ msgstr "U moet een chat beheerder zijn om chats te starten"
+
+#~ msgid "No chat sessions available at the moment"
+#~ msgstr "Geen chat sessies beschikbaar op dit moment"
+
+#~ msgid "You must be a chat agent to answer chats"
+#~ msgstr "Je moet een chat beheerder zijn om chats te beantwoorden"
+
+#~ msgid "Open Chat Window"
+#~ msgstr "Open het chatvenster"
+
+#~ msgid "Chat has been answered by another agent"
+#~ msgstr "Chat is beantwoord door een andere medewerker"
+
+#~ msgid "Chat answered by another agent"
+#~ msgstr "Chat beantwoord door een andere medewerker"
+
+#~ msgid "Alert: Someone wants to chat with you on "
+#~ msgstr "Waarschuwing: iemand wil met je chatten"
+
+#~ msgid "Someone wants to chat with you on your website"
+#~ msgstr "Iemand wil met je chatten op je website"
+
+#~ msgid "Contributor"
+#~ msgstr "Bijdrager"
+
+#~ msgid "Subscriber"
+#~ msgstr "Abonnee"
+
+#~ msgid "Dear Pro User"
+#~ msgstr "Beste Pro gebruiker"
+
+#~ msgid ""
+#~ "Please enter a valid API key on the 'Live Chat' -> 'Settings' page. "
+#~ "Failing to do this will result in you no longer receiving updates for "
+#~ "this plugin."
+#~ msgstr ""
+#~ "Voer een geldige API sleutel in op de pagina 'Live Chat' -> "
+#~ "'Instellingen'. Als u dit niet doet, ontvangt u geen updates meer voor "
+#~ "deze plug-in."
+
+#~ msgid "You can obtain a copy of your API key "
+#~ msgstr "U kunt een kopie van uw API sleutel verkrijgen"
+
+#~ msgid ""
+#~ "An account has been created for you while purchasing the plugin. If you "
+#~ "have lost your password, please reset it "
+#~ msgstr ""
+#~ "Er is een account voor u gemaakt toen u de plug-in kocht. Als u uw "
+#~ "wachtwoord bent verloren, stel het dan opnieuw in"
+
+#~ msgid ""
+#~ "If you feel you are getting this message in error, please try refreshing "
+#~ "the page."
+#~ msgstr ""
+#~ "Als je denkt dat je dit bericht ten onrechte ontvangt, probeer dan de "
+#~ "pagina te verversen."
+
+#~ msgid "Chat Experience Ratings"
+#~ msgstr "Chat ervaringsbeoordelingen"
+
+#~ msgid "Main Settings"
+#~ msgstr "Hoofdinstellingen"
+
+#~ msgid "Find out more."
+#~ msgstr "Meer te weten komen."
+
+#~ msgid "Cloud Server"
+#~ msgstr "Cloud Server"
+
+#~ msgid "Use our server to host your chat server."
+#~ msgstr "Gebruik onze server om uw chat server te hosten."
+
+#~ msgid "This API key is "
+#~ msgstr "Deze API sleutel is"
+
+#~ msgid "valid"
+#~ msgstr "geldig"
+
+#~ msgid "invalid"
+#~ msgstr "ongeldig"
+
+#~ msgid ""
+#~ "A valid API key means that you will be able to get the latest version of "
+#~ "the plugin as and when it is released, as well as get access to support "
+#~ "should you require it."
+#~ msgstr ""
+#~ "Een geldige API sleutel betekent dat u de nieuwste versie van de plug-in "
+#~ "kunt krijgen zodra deze wordt vrijgegeven en dat u toegang krijgt tot "
+#~ "ondersteuning als u deze nodig hebt."
+
+#~ msgid "Hide Chat"
+#~ msgstr "Verberg Chat"
+
+#~ msgid "Hides chat for 24hrs when user clicks X"
+#~ msgstr "Verbergt chat voor 24 uur wanneer gebruiker op X klikt"
+
+#, fuzzy
+#~| msgid "Show After"
+#~ msgid "Show email"
+#~ msgstr "Weergeven na"
+
+#, fuzzy
+#~| msgid "Show After"
+#~ msgid "Show name"
+#~ msgstr "Weergeven na"
+
+#~ msgid "Record a visitor's IP Address"
+#~ msgstr "Registreer het IP-adres van een bezoeker"
+
+#~ msgid "Disable this to enable anonymity for your visitors"
+#~ msgstr "Schakel dit uit om anonimiteit voor uw bezoekers mogelijk te maken"
+
+#, fuzzy
+#~| msgid "Recomended Size 40px x 40px"
+#~ msgid "Recommended Size 40px x 40px"
+#~ msgstr "Aanbevolen grootte 40px x 40px"
+
+#~ msgid "Display name and avatar in chat"
+#~ msgstr "Geef de naam en de avatar weer in de chat"
+
+#~ msgid ""
+#~ "Display the agent and user name above each message in the chat window."
+#~ msgstr ""
+#~ "Toon de medewerker en gebruikersnaam boven elk bericht in het chatvenster."
+
+#~ msgid "Theme 2"
+#~ msgstr "Thema 2"
+
+#~ msgid "Theme 3"
+#~ msgstr "Thema 3"
+
+#~ msgid "Theme 4"
+#~ msgstr "Thema 4"
+
+#~ msgid "Theme 5"
+#~ msgstr "Thema 5"
+
+#~ msgid "Theme 6"
+#~ msgstr "Thema 6"
+
+#~ msgid "Custom. Enter Colour Values Below"
+#~ msgstr "Op maat. Voer onderstaande kleurwaarden in"
+
+#~ msgid "Chat box fill color"
+#~ msgstr "Vulkleur van chatbox"
+
+#~ msgid "Chat box font color"
+#~ msgstr "Chatbox letterkleur"
+
+#~ msgid "documentation"
+#~ msgstr "documentatie"
+
+#~ msgid ""
+#~ "You will only be able to edit the strings shown in the chat window of the "
+#~ "code now. <br/> This has been done to accommodate as many localization "
+#~ "plugins as possible. <br/> For more information on how to change these "
+#~ "strings, please consult the "
+#~ msgstr ""
+#~ "Je kunt nu alleen de tekenreeksen van de code bewerken die in het "
+#~ "chatvenster worden getoond. <br/> Dit is gedaan om zoveel mogelijk "
+#~ "lokalisatie-plug-ins geschikt te maken. <br/> Raadpleeg voor meer "
+#~ "informatie over het wijzigen van deze tekenreeksen de"
+
+#~ msgid "User chat welcome"
+#~ msgstr "Gebruiker Chat Welkom"
+
+#~ msgid "This text is shown above the user chat input field"
+#~ msgstr ""
+#~ "Deze tekst wordt weergegeven boven het invoerveld voor gebruikers chat"
+
+#, fuzzy
+#~| msgid "Chat button text"
+#~ msgid "Close Button Text"
+#~ msgstr "Chat-knoptekst"
+
+#~ msgid ""
+#~ "You are using an outdated version of WP Live Chat Support Basic. Please "
+#~ "update your plugin to allow for animations to function"
+#~ msgstr ""
+#~ "U gebruikt een verouderde versie van WP live chat Support Basic. Please "
+#~ "update uw plugin om animaties te laten functioneren"
+
+#~ msgid ""
+#~ "are only available in the WP Live Chat Support Chat Experience Ratings "
+#~ "add-on"
+#~ msgstr ""
+#~ "zijn alleen beschikbaar in de Chat ervaringsbeoordelingen add-on van WP "
+#~ "live chat Support "
+
+#, fuzzy
+#~| msgid "Please update to the latest version of WP Live Chat Support Pro"
+#~ msgid ""
+#~ "Departments are not currently supported with the Cloud Server of WP Live "
+#~ "Chat Support."
+#~ msgstr "Werk bij naar de nieuwste versie van WP Live Chat Support Pro"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Triggers"
+#~ msgid "WP Live Chat Support - Update Suggested"
+#~ msgstr "WP Live Chat Support Triggers"
+
+#, fuzzy
+#~| msgid ""
+#~| "You are using an outdated version of <strong>WP Live Chat Support Pro</"
+#~| "strong>."
+#~ msgid ""
+#~ "We have detected that you are using a heavily out-dated version of WP "
+#~ "Live Chat Support"
+#~ msgstr ""
+#~ "U gebruikt een verouderde versie van <strong>WP Live Chat Support Pro</ "
+#~ "strong>."
+
+#~ msgid ""
+#~ "WP Live Chat Support Pro <strong>requires WP Live Chat Support version "
+#~ "6+</strong> (basic version). Please <strong><a href=\"%1$s\">update the "
+#~ "plugin</a></strong> in order for the plugin to continue working correctly."
+#~ msgstr ""
+#~ "WP Live Chat Support Pro vereist WP Live Chat Support versie 6 "
+#~ "(basisversie). <a href=\"%1$s\">Update de plug-in</a> om ervoor te zorgen "
+#~ "dat de plug-in correct blijft werken."
+
+#~ msgid "All Quick Responses"
+#~ msgstr "Alle snelle reacties"
+
+#~ msgid ""
+#~ "Please update your <a href='%s'>basic version</a> to make use of this "
+#~ "feature."
+#~ msgstr ""
+#~ "Werk uw <a href='%s'>basisversie</a> bij om van deze functie gebruik te "
+#~ "maken."
+
+#~ msgid ""
+#~ "Please update your <a href='%s'>basic version</a> to make use of these "
+#~ "features."
+#~ msgstr ""
+#~ "Update uw <a href='%s'>basisversie</a> om gebruik te maken van deze "
+#~ "functies."
+
+#~ msgid "Get Pro Add-on to accept more chats"
+#~ msgstr "Ontvang Pro Add-on om meer chats te accepteren"
+
+#, fuzzy
+#~| msgid "Via WP Live Chat Support"
+#~ msgid "WP Live Chat Trigger (WP Live Chat Support)"
+#~ msgstr "Via WP Live Chat Support"
+
+#, fuzzy
+#~| msgid "Via WP Live Chat Support"
+#~ msgid "WP Live Chat Box (WP Live Chat Support)"
+#~ msgstr "Via WP Live Chat Support"
+
+#~ msgid "Start Live Chat"
+#~ msgstr "Start Live Chat"
+
+#~ msgid "Connecting you to a sales person. Please be patient."
+#~ msgstr ""
+#~ "We verbinden u met een verkoopmedewerker. Wees alstublieft geduldig."
+
+#~ msgid "Include chat window on the following pages"
+#~ msgstr "Neem chatvenster op de volgende pagina's op"
+
+#~ msgid "available in the"
+#~ msgstr "beschikbaar in de"
+
+#~ msgid "Pro Add-on"
+#~ msgstr "Pro toepassing"
+
+#~ msgid "only"
+#~ msgstr "enkel"
+
+#~ msgid "Exclude chat window on the following pages"
+#~ msgstr "Sluit het chatvenster op de volgende pagina's uit"
+
+#~ msgid "Display a typing animation as soon as someone starts typing."
+#~ msgstr "Geef een type animatie weer zodra iemand begint te typen."
+
+#~ msgid "Alert me via email as soon as someone wants to chat"
+#~ msgstr "Waarschuw mij via e-mail zodra iemand wil chatten"
+
+#~ msgid ""
+#~ "Need help? <a href='https://wp-livechat.com/contact-us/' "
+#~ "target='_BLANK'>Contact us</a> and we'll get back to you as soon as "
+#~ "possible!"
+#~ msgstr ""
+#~ "Hulp nodig? Neem contact met ons op en we nemen zo snel mogelijk contact "
+#~ "met u op!"
+
+#~ msgid "How did you find us?"
+#~ msgstr "hoe heeft u ons gevonden?"
+
+#~ msgid "WordPress.org plugin repository "
+#~ msgstr "WordPress.org plugin repository"
+
+#~ msgid "Search Term"
+#~ msgstr "Zoekterm"
+
+#~ msgid "Google or other search Engine"
+#~ msgstr "Google of een andere zoekmachine"
+
+#~ msgid "Friend recommendation"
+#~ msgstr "Vriend aanbeveling"
+
+#~ msgid "Other"
+#~ msgstr "Andere"
+
+#~ msgid "Please Explain"
+#~ msgstr "Licht toe aub"
+
+#~ msgid "Submit"
+#~ msgstr "Verstuur"
+
+#~ msgid "Skip"
+#~ msgstr "Overslaan"
+
+#, fuzzy
+#~| msgid "Visitor"
+#~ msgid "Visit our"
+#~ msgstr "Bezoeker"
+
+#, fuzzy
+#~| msgid "Support desk"
+#~ msgid "Support Desk"
+#~ msgstr "Helpdesk"
+
+#~ msgid "Feedback"
+#~ msgstr "Feedback"
+
+#, fuzzy
+#~| msgid "Send Feedback"
+#~ msgid "Send us your feedback"
+#~ msgstr "Verzend feedback"
+
+#, fuzzy
+#~| msgid "Download Chat History"
+#~ msgid "Download Chat Data"
+#~ msgstr "Chat geschiedenis downloaden"
+
+#~ msgid "Contact us"
+#~ msgstr "Contacteer ons"
+
+#~ msgid " with the Pro add-on of WP Live Chat Support"
+#~ msgstr "met de Pro-add-on van WP Live Chat-ondersteuning"
+
+#~ msgid "(once off payment)."
+#~ msgstr "(eenmalige betaling)."
+
+#~ msgid "With the Pro add-on of WP Live Chat Support, you can"
+#~ msgstr "Met de Pro-add-on van WP Live Chat Support, kunt u"
+
+#~ msgid "see who's online and initiate chats"
+#~ msgstr "kijken wie er online is en chats starten"
+
+#~ msgid "initiate chats"
+#~ msgstr "chats starten"
+
+#~ msgid "with your online visitors with the click of a button."
+#~ msgstr "met uw online bezoekers met één klik op de knop."
+
+#~ msgid "Buy the Pro add-on now (once off payment)."
+#~ msgstr "Koop nu de Pro-add-on (eenmalig zonder betaling)."
+
+#~ msgid "Buy the Pro add-on now."
+#~ msgstr "Koop nu de Pro-add-on."
+
+#, fuzzy
+#~| msgid "WP Live Chat Support - Offline Message from "
+#~ msgid "WP Live Chat Support - Offline Mode"
+#~ msgstr "WP Live Chat Support - offline bericht van"
+
+#, fuzzy
+#~| msgid "Upgrade Now"
+#~ msgid "Upgrade"
+#~ msgstr "Upgrade nu"
+
+#, fuzzy
+#~| msgid "The chat has been ended"
+#~ msgid "Chat has been ended."
+#~ msgstr "De chat is beëindigd"
+
+#, fuzzy
+#~| msgid "Device"
+#~ msgid "Device Linked"
+#~ msgstr "Toestel"
+
+#, fuzzy
+#~| msgid "Device"
+#~ msgid "Push Devices"
+#~ msgstr "Toestel"
+
+#, fuzzy
+#~| msgid "Enable Trigger"
+#~ msgid "Event Triggered"
+#~ msgstr "Trigger inschakelen"
+
+#~ msgid "Extensions"
+#~ msgstr "Extensies"
+
+#~ msgid "Premium Extension API Keys"
+#~ msgstr "Premium extensie API sleutels"
+
+#~ msgid ""
+#~ "You are using an outdated version of <strong>WP Live Chat Support Pro</"
+#~ "strong>. Please"
+#~ msgstr ""
+#~ "U gebruikt een verouderde versie van WP Live Chat Support Pro. alsjeblieft"
+
+#~ msgid "update to at least version"
+#~ msgstr "update minimaal naar versie"
+
+#~ msgid "to ensure all functionality is in working order"
+#~ msgstr "om ervoor te zorgen dat alle functionaliteit werken"
+
+#~ msgid ""
+#~ "You're live chat box on your website has been temporarily disabled until "
+#~ "the Pro plugin has been updated. This is to ensure a smooth and hassle-"
+#~ "free user experience for both yourself and your visitors."
+#~ msgstr ""
+#~ "De live chatbox op uw website is tijdelijk uitgeschakeld totdat de Pro-"
+#~ "plug-in is bijgewerkt. Dit is om te zorgen voor een soepele en "
+#~ "probleemloze gebruikerservaring voor zowel uzelf als uw bezoekers."
+
+#~ msgid ""
+#~ "You can update your plugin <a href='./update-core.php'>here</a>, <a "
+#~ "href='./plugins.php'>here</a> or <a href='https://wp-livechat.com/get-"
+#~ "updated-version/' target='_BLANK'>here</a>."
+#~ msgstr ""
+#~ "U kunt uw plug-in <a href='./update-core.php'>hier</a>, <a href='./"
+#~ "plugins.php'>hier</a> of <a href = 'https: bijwerken //wp-livechat.com/"
+#~ "get-updated-version/ 'target =' _ BLANK '>hier</a>."
+
+#~ msgid "If you are having difficulty updating the plugin, please contact"
+#~ msgstr ""
+#~ "Als u problemen ondervindt bij het bijwerken van de plug-in, neemt u "
+#~ "contact op met"
+
+#~ msgid ""
+#~ "You are using an outdated version of <strong>WP Live Chat Support Pro</"
+#~ "strong>."
+#~ msgstr ""
+#~ "U gebruikt een verouderde versie van <strong>WP Live Chat Support Pro</ "
+#~ "strong>."
+
+#~ msgid "Please update to the latest version of WP Live Chat Support Pro"
+#~ msgstr "Werk bij naar de nieuwste versie van WP Live Chat Support Pro"
+
+#~ msgid "Version 5.0.1"
+#~ msgstr "Versie 5.0.1"
+
+#~ msgid "to ensure everything is working correctly."
+#~ msgstr "om ervoor te zorgen dat alles correct werkt."
+
+#, fuzzy
+#~| msgid ""
+#~| "<a href=\"%s\" target=\"_BLANK\" title=\"Create a survey\">Create a "
+#~| "survey</a>."
+#~ msgid "Need help? <a href=\"%s\" target=\"_BLANK\">contact us</a>."
+#~ msgstr ""
+#~ "<a href=\"%s\" target=\"_BLANK\" title=\"Create a survey\">'Maak een "
+#~ "enquête'.</a>"
+
+#~ msgid "Add-ons"
+#~ msgstr "Add-ons"
+
+#~ msgid "Get more add-ons"
+#~ msgstr "Krijg meer add-ons"
+
+#~ msgid "Add Quick Responses to your Live Chat"
+#~ msgstr "Voeg snelle antwoorden toe aan je live chat"
+
+#~ msgid "Pro version only"
+#~ msgstr "Enkel Pro versie"
+
+#~ msgid ""
+#~ "Please update to the latest version of WP Live Chat Support Pro to start "
+#~ "recording any offline messages."
+#~ msgstr ""
+#~ "Update naar de nieuwste versie van WP Live Chat Support Pro om offline-"
+#~ "berichten te registreren."
+
+#~ msgid "This option is only available in the "
+#~ msgstr "Deze optie is alleen beschikbaar in de"
+
+#~ msgid "Suggested Plugins"
+#~ msgstr "Voorgestelde plug-ins"
+
+#~ msgid "Sola Support Tickets"
+#~ msgstr "Sola Support Tickets"
+
+#~ msgid ""
+#~ "The easiest to use Help Desk & Support Ticket plugin. Create a support "
+#~ "help desk quickly and easily with Sola Support Tickets."
+#~ msgstr ""
+#~ "De eenvoudigst te gebruiken Help Desk & Support Ticket-plugin. Creëer "
+#~ "snel en eenvoudig een support helpdesk met Sola Support Tickets."
+
+#~ msgid "Get this Plugin"
+#~ msgstr "Download deze plug-in"
+
+#~ msgid "Nifty Newsletters"
+#~ msgstr "Handige nieuwsbrieven"
+
+#~ msgid ""
+#~ "Create and send newsletters, automatic post notifications and "
+#~ "autoresponders that are modern and beautiful with Nifty Newsletters."
+#~ msgstr ""
+#~ "Creëer en verzend nieuwsbrieven, automatische bericht meldingen en "
+#~ "autoresponders die modern en mooi zijn met handige nieuwsbrieven."
+
+#~ msgid "Price:"
+#~ msgstr "Prijs:"
+
+#~ msgid "Free"
+#~ msgstr "Gratis"
+
+#~ msgid "Paid"
+#~ msgstr "Betalend"
+
+#~ msgid "For:"
+#~ msgstr "Voor:"
+
+#~ msgid "Both"
+#~ msgstr "Beide"
+
+#~ msgid "Free version"
+#~ msgstr "Gratis versie"
+
+#~ msgid "Pro version"
+#~ msgstr "Pro versie"
+
+#~ msgid "Already installed"
+#~ msgstr "Al geïnstalleerd"
+
+#~ msgid ""
+#~ "Getting started? Read through some of these articles to help you along "
+#~ "your way."
+#~ msgstr ""
+#~ "Aan de slag? Lees enkele van deze artikelen door om u op weg te helpen."
+
+#~ msgid "Documentation:"
+#~ msgstr "Documentatie:"
+
+#~ msgid "Minimum System Requirements"
+#~ msgstr "Minimale systeemvereisten"
+
+#~ msgid "Do I have to be logged into the dashboard to chat with visitors?"
+#~ msgstr "Moet ik ingelogd zijn op het dashboard om met bezoekers te chatten?"
+
+#~ msgid "What are Quick Responses?"
+#~ msgstr "Wat zijn snelle reacties?"
+
+#~ msgid "Can I use this plugin on my multi-site?"
+#~ msgstr "Kan ik deze plugin gebruiken op mijn multi-site?"
+
+#~ msgid "How do I disable APC Object Cache?"
+#~ msgstr "Hoe schakel ik de APC-object cache uit?"
+
+#~ msgid "Do you have a mobile app?"
+#~ msgstr "Heeft u een mobiele app?"
+
+#~ msgid "The chat box doesnt show up"
+#~ msgstr "Het chat vak verschijnt niet"
+
+#~ msgid "The chat window disappears when I logout or go offline"
+#~ msgstr "Het chatvenster verdwijnt wanneer ik me afmeld of offline ga"
+
+#~ msgid "This chat has already been answered. Please close the chat window"
+#~ msgstr "Deze chat is al beantwoord. Sluit het chatvenster"
+
+#~ msgid "Support desk"
+#~ msgstr "Helpdesk"
+
+#~ msgid "accept and handle multiple chats."
+#~ msgstr "accepteer en behandel meerdere chats."
+
+#~ msgid "WP Live Chat Support is a product of"
+#~ msgstr "WP Live Chat-ondersteuning is een product van"
+
+#~ msgid "Add as many agents as you need with the "
+#~ msgstr "Voeg zoveel medewerkers toe als je nodig hebt met de"
+
+#~ msgid "Pro version."
+#~ msgstr "Pro versie."
+
+#~ msgid "Change the default chat agent from <strong>%1$s</strong> to "
+#~ msgstr "Wijzig de standaard chat-agent van <strong>%1$s</strong> naar"
+
+#~ msgid ""
+#~ "Get unlimited agents, initiate chats, advanced chat box control, "
+#~ "encryption and more with the Pro add-on."
+#~ msgstr ""
+#~ "Krijg onbeperkt aantal medewerkers, start chats, geavanceerd chatbox "
+#~ "beheer, codering en meer met de Pro-add-on."
+
+#~ msgid "Get this extension"
+#~ msgstr "Download deze extensie"
+
+#~ msgid "Mobile & Desktop App"
+#~ msgstr "Mobiele & Desktop-app"
+
+#~ msgid ""
+#~ "Answer chats directly from your mobile phone or desktop with our mobile "
+#~ "app and desktop client"
+#~ msgstr ""
+#~ "Beantwoord chats rechtstreeks vanaf uw mobiele telefoon of desktop met "
+#~ "onze mobiele app en desktopclient"
+
+#~ msgid "Relevant Extensions"
+#~ msgstr "Relevante extensies"
+
+#~ msgid "Powered By WP Live Chat Support"
+#~ msgstr "Mede mogelijk gemaakt door WP Live Chat"
+
+#~ msgid "View comprehensive reports regarding your chat and agent activity."
+#~ msgstr ""
+#~ "Bekijk uitgebreide rapporten met betrekking tot uw chat- en medewerker "
+#~ "activiteit."
+
+#~ msgid "Chat statistics"
+#~ msgstr "Chat statistieken"
+
+#~ msgid "Popular pages"
+#~ msgstr "Populaire pagina's"
+
+#~ msgid ""
+#~ "ROI reporting and tracking (identify which agents produce the most sales)"
+#~ msgstr ""
+#~ "ROI-rapportering en -tracering (identificeer welke medewerkers de meeste "
+#~ "verkopen genereren)"
+
+#~ msgid ""
+#~ "User experience ratings (identify which agents produce the happiest "
+#~ "customers)"
+#~ msgstr ""
+#~ "Beoordelingen van gebruikerservaringen (identificeer welke medewerkers de "
+#~ "gelukkigste klanten produceren)"
+
+#~ msgid "Get all this and more in the "
+#~ msgstr "Krijg dit alles en meer in de"
+
+#~ msgid "Pro add-on"
+#~ msgstr "Pro-add-on"
+
+#~ msgid "Upgrade Now"
+#~ msgstr "Upgrade nu"
+
+#~ msgid ""
+#~ "Create custom data triggers when users view a certain page, spend a "
+#~ "certain amount of time on a page, scroll past a certain point or when "
+#~ "their mouse leaves the window."
+#~ msgstr ""
+#~ "Aangepaste gegevens triggers maken wanneer gebruikers een bepaalde pagina "
+#~ "bekijken, een bepaalde tijd op een pagina doorbrengen, langs een bepaald "
+#~ "punt scrollen of wanneer de muis het venster verlaat."
+
+#~ msgid "Trigger Types"
+#~ msgstr "Trigger Types"
+
+#, fuzzy
+#~| msgid "Offline Text Fields"
+#~ msgid "Text Fields"
+#~ msgstr "Offline tekstvelden"
+
+#, fuzzy
+#~| msgid ""
+#~| "Please update your <a href='%s'>basic version</a> to make use of this "
+#~| "feature."
+#~ msgid "Please update your Pro version to create a department"
+#~ msgstr ""
+#~ "Werk uw <a href='%s'>basisversie</a> bij om van deze functie gebruik te "
+#~ "maken."
+
+#~ msgid "Chat functionality has been paused."
+#~ msgstr "Chat functionaliteit is gepauzeerd."
+
+#~ msgid ""
+#~ "Please enter your verified API key in the <a href=\"admin.php?"
+#~ "page=wplivechat-menu-api-keys-page\">API Keys page</a> to activate the "
+#~ "cloud based functionality."
+#~ msgstr ""
+#~ "Voer uw geverifieerde API sleutel in op de <a href='admin.php?"
+#~ "page=wplivechat-menu-api-keys-page'> API Sleutel pagina </a> om de "
+#~ "cloudgebaseerde functionaliteit te activeren."
+
+#~ msgid "Are you sure you would like to delete chat history?"
+#~ msgstr "Weet je zeker dat je de chat geschiedenis wilt verwijderen?"
+
+#~ msgid "Are you sure you would like to delete all missed chats?"
+#~ msgstr "Weet je zeker dat je alle gemiste chats wilt verwijderen?"
+
+#~ msgid ""
+#~ "You are currently using our <strong>cloud server</strong> to handle your "
+#~ "chat requests and live chat sessions.<br /><br />To disable this, please "
+#~ "deactivate the WP Live Chat Support - Cloud Server plugin."
+#~ msgstr ""
+#~ "U gebruikt momenteel onze <strong> cloudserver </ strong> om uw chat "
+#~ "aanvragen en live chatsessies af te handelen. <br /> <br /> Deactiveer de "
+#~ "WP Live Chat-ondersteuning - Cloud Server-plug-in om dit uit te schakelen."
+
+#~ msgid ""
+#~ "Users will have to enter their Name and Email Address when starting a chat"
+#~ msgstr ""
+#~ "Gebruikers moeten hun naam en e-mailadres invoeren bij het starten van "
+#~ "een chat"
+
+#~ msgid "You are currently accepting chats"
+#~ msgstr "U accepteert momenteel chats"
+
+#~ msgid "WP Live Chat Support Feedback"
+#~ msgstr "WP Live Chat Support Feedback"
+
+#~ msgid "Your Name"
+#~ msgstr "Uw naam"
+
+#~ msgid "Your Email"
+#~ msgstr "Uw e-mail"
+
+#~ msgid "Version 6"
+#~ msgstr "Versie 6"
+
+#~ msgid "The most popular live chat plugin!"
+#~ msgstr "De meest populaire plug-in voor live chatten!"
+
+#~ msgid "Rest API"
+#~ msgstr "Rest API"
+
+#~ msgid "Option"
+#~ msgstr "Optie"
+
+#~ msgid ""
+#~ "There was a problem sending your feedback. Please log your feedback on "
+#~ msgstr ""
+#~ "Er is een probleem opgetreden bij het verzenden van uw feedback. Log "
+#~ "alstublieft uw feedback in"
+
+#~ msgid ""
+#~ "Reduce the resources required by your server - use our cloud server to "
+#~ "host your chats."
+#~ msgstr ""
+#~ "Beperk de resources die uw server nodig heeft - gebruik onze cloud server "
+#~ "om uw chats te hosten."

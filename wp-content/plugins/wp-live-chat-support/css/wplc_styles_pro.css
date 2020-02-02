@@ -1,0 +1,35 @@
+#wplc_chatmsg {
+  width: 90% !important;
+}
+
+.modern.rating_enabled .wdt-emoji-picker {
+  right: 5px !important;
+}
+
+.modern.file_sharing_enabled #nifty_file_holder {
+  margin-right: 12px;
+}
+
+.modern.emoji_only .wdt-emoji-popup.open {
+  transform: translateX(-75px);
+}
+
+.modern.file_sharing_enabled .wdt-emoji-popup.open {
+  transform: translateX(-60px);
+}
+
+.classic.file_sharing_ratings_enabled .wdt-emoji-picker {
+  right: 30px !important;
+}
+
+.classic.rating_enabled .wdt-emoji-picker {
+  right: 5px !important;
+}
+
+.classic.file_sharing_enabled .wdt-emoji-picker {
+  right: 30px !important;
+}
+
+.classic.file_sharing_enabled #nifty_file_holder {
+  margin-right: 12px;
+}

@@ -1,0 +1,76 @@
+.wplc-color-1 {
+  color: #0596d4 !important;
+}
+
+.wplc-color-2 {
+  color: #FFF !important;
+}
+
+.wplc-color-3 {
+  color: #06B4FF !important;
+}
+
+.wplc-color-4 {
+  color: #373737 !important;
+}
+
+.wplc-color-bg-1 {
+  background-color: #0596d4 !important;
+}
+
+.wplc-color-bg-2 {
+  background-color: #FFF !important;
+}
+
+.wplc-color-bg-3 {
+  background-color: #06B4FF !important;
+}
+
+.wplc-color-bg-4 {
+  background-color: #373737 !important;
+}
+
+.wplc-color-border-1 {
+  border-color: #0596d4 !important;
+}
+
+.wplc-color-border-2 {
+  border-color: #FFF !important;
+}
+
+.wplc-color-border-3 {
+  border-color: #06B4FF !important;
+}
+
+.wplc-color-border-4 {
+  border-color: #373737 !important;
+}
+
+.wplc-color-border-1:before {
+  border-color: transparent #0596d4 !important;
+}
+
+.wplc-color-border-2:before {
+  border-color: transparent #FFF !important;
+}
+
+.wplc-color-border-3:before {
+  border-color: transparent #06B4FF !important;
+}
+
+.wplc-color-border-4:before {
+  border-color: transparent #373737 !important;
+}
+
+span.wplc-system-notification {
+  display: block;
+  padding: 8px;
+  clear: both;
+  font-style: italic;
+  text-align: left;
+  color: grey !important;
+}
+
+button.wplc_retry_chat {
+  margin: 10px;
+}

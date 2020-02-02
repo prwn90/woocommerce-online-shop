@@ -1,0 +1,5091 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wplivechat\n"
+"POT-Creation-Date: 2019-10-17 11:28+0200\n"
+"PO-Revision-Date: 2019-10-17 11:28+0200\n"
+"Last-Translator: \n"
+"Language-Team: GreenInn\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ajax/agent.php:167 ajax/user.php:114 wp-live-chat-support.php:370
+#: wp-live-chat-support.php:4864
+msgid "Admin"
+msgstr "المسؤول"
+
+#: ajax/agent.php:262 ajax/user.php:218
+msgid "Admin has closed and ended the chat"
+msgstr "لقد أغلق المشرف المحادثة"
+
+#: functions.php:417 functions.php:431
+msgid "Accept Chat"
+msgstr "قبول المحادثة"
+
+#: functions.php:423 functions.php:436
+msgid "Open Chat"
+msgstr "بدء المحادثة"
+
+#: functions.php:425
+#, fuzzy
+#| msgid "Chat answered by another agent"
+msgid "In progress with another agent"
+msgstr "لقد تم الرد على هذه المحادثة بواسطة مندوب آخر"
+
+#: functions.php:439
+msgid "Only chat agents can accept chats"
+msgstr "يمكن فقط للمندوبين قبول طلبات المحادثة"
+
+#: functions.php:503 modules/api/agent/wplc-api-functions.php:395
+msgid "New"
+msgstr "جديد"
+
+#: functions.php:505 modules/api/agent/wplc-api-functions.php:397
+msgid "Returning"
+msgstr "عائد"
+
+#: functions.php:596
+msgid "No agent was able to answer your chat request. Please try again."
+msgstr ""
+
+#: functions.php:610 modules/advanced_features.php:113
+#, fuzzy
+#| msgid "End chat"
+msgid "End Chat"
+msgstr "إنهاء المحادثة"
+
+#: functions.php:1021
+msgid "complete"
+msgstr "اكتمل"
+
+#: functions.php:1024
+msgid "pending"
+msgstr "معلَّق"
+
+#: functions.php:1027
+msgid "active"
+msgstr "مفعل"
+
+#: functions.php:1030
+msgid "deleted"
+msgstr "تم حذفه"
+
+#: functions.php:1033
+msgid "browsing"
+msgstr "يتصفح"
+
+#: functions.php:1036
+msgid "requesting chat"
+msgstr "يطلب محادثة"
+
+#: functions.php:1039
+msgid "Chat Ended - User still browsing"
+msgstr "انتهت المحادثة - لا يزال المستخدم يتصفح الموقع"
+
+#: functions.php:1042
+msgid "User is browsing but doesn't want to chat"
+msgstr "المستخدم يتصفح الموقع ولكن لا يرغب في المحادثة"
+
+#: functions.php:1181 includes/settings_page.php:774
+#, fuzzy
+#| msgid "WP Live Chat Support - Offline Message from "
+msgid "WP Live Chat by 3CX - Offline Message from "
+msgstr "WP Live Chat Support - رسالة من "
+
+#: functions.php:1182 functions.php:1506 includes/settings_page.php:164
+#: includes/settings_page.php:408 includes/wplc_custom_fields.php:79
+#: includes/wplc_data_triggers.php:465 includes/wplc_departments.php:176
+#: includes/wplc_roi.php:160 modules/node_server.php:81
+#: modules/node_server.php:124 wp-live-chat-support.php:1592
+#: wp-live-chat-support.php:1615 wp-live-chat-support.php:1780
+#: wp-live-chat-support.php:3357 wp-live-chat-support.php:3484
+msgid "Name"
+msgstr "الاسم"
+
+#: functions.php:1183 functions.php:1507 includes/settings_page.php:160
+#: modules/node_server.php:125 wp-live-chat-support.php:1593
+#: wp-live-chat-support.php:1604 wp-live-chat-support.php:1781
+#: wp-live-chat-support.php:3358 wp-live-chat-support.php:3485
+msgid "Email"
+msgstr "البريد الالكترونى"
+
+#: functions.php:1184 wp-live-chat-support.php:1782
+#: wp-live-chat-support.php:3486 wp-live-chat-support.php:4221
+#: wp-live-chat-support.php:4281
+msgid "Message"
+msgstr "الرسالة"
+
+#: functions.php:1185
+#, fuzzy
+#| msgid "Via WP Live Chat Support"
+msgid "Via WP Live Chat by 3CX"
+msgstr "من خلال WP Live Chat Support"
+
+#: functions.php:1484 wp-live-chat-support.php:3313
+msgid "Error: Could not delete chat"
+msgstr "خطأ: لا يمكن حذف المحادثة"
+
+#: functions.php:1486 wp-live-chat-support.php:3317
+msgid "Chat Deleted"
+msgstr "تم حذف المحادثة"
+
+#: functions.php:1489 includes/wplc_custom_fields.php:35
+#: includes/wplc_custom_fields.php:441 includes/wplc_custom_fields.php:462
+#: includes/wplc_data_triggers.php:261 includes/wplc_data_triggers.php:279
+#: includes/wplc_data_triggers.php:323 includes/wplc_data_triggers.php:511
+#: includes/wplc_departments.php:304 includes/wplc_departments.php:324
+#: includes/wplc_departments.php:359 includes/wplc_roi.php:390
+#: includes/wplc_roi.php:409 includes/wplc_roi.php:446
+#: modules/advanced_tools.php:29 modules/advanced_tools.php:146
+#: modules/advanced_tools.php:244 modules/advanced_tools.php:252
+#: modules/advanced_tools.php:260 modules/advanced_tools.php:268
+#: modules/gdpr.php:223 modules/gdpr.php:237 modules/webhooks_manager.php:102
+#: modules/webhooks_manager.php:122 modules/webhooks_manager.php:149
+#: wp-live-chat-support.php:3272 wp-live-chat-support.php:3302
+#: wp-live-chat-support.php:4191
+msgid "You do not have permission do perform this action"
+msgstr ""
+
+#: functions.php:1495 wp-live-chat-support.php:3326
+msgid "Are you sure you would like to delete this chat?"
+msgstr "هل انت متأكد من انك تريد حذف تلك المحادثة؟"
+
+#: functions.php:1496 includes/settings_page.php:142
+#: includes/wplc_custom_fields.php:263 wp-live-chat-support.php:3327
+msgid "Yes"
+msgstr "نعم"
+
+#: functions.php:1496 includes/settings_page.php:143
+#: includes/wplc_custom_fields.php:263 wp-live-chat-support.php:3327
+msgid "No"
+msgstr "لا"
+
+#: functions.php:1505 functions.php:2093 includes/settings_page.php:332
+#: includes/settings_page.php:434 wp-live-chat-support.php:3356
+#: wp-live-chat-support.php:3483
+msgid "Date"
+msgstr "التاريخ"
+
+#: functions.php:1508 functions.php:4264 wp-live-chat-support.php:3359
+msgid "URL"
+msgstr "الصفحة"
+
+#: functions.php:1509 includes/wplc_custom_fields.php:83
+#: includes/wplc_data_triggers.php:470 includes/wplc_departments.php:177
+#: includes/wplc_roi.php:164 modules/webhooks_manager.php:251
+#: wp-live-chat-support.php:2378 wp-live-chat-support.php:3361
+msgid "Action"
+msgstr "القرار"
+
+#: functions.php:1523
+msgid "You have not missed any chat requests."
+msgstr "لا يوجد اى طلبات محادثة فائتة."
+
+#: functions.php:1530 wp-live-chat-support.php:3381
+msgid "View Chat History"
+msgstr "عرض سجل المحادثات"
+
+#: functions.php:1530 wp-live-chat-support.php:3381
+msgid "Download Chat History"
+msgstr "تحميل سجل المحادثات"
+
+#: functions.php:1724
+msgid "Open chat window via"
+msgstr "عرض نافذة المحادثة عن طريق"
+
+#: functions.php:1728
+msgid "Click"
+msgstr "النقر"
+
+#: functions.php:1729
+msgid "Hover"
+msgstr "التمرير"
+
+#: functions.php:1731
+msgid "element with"
+msgstr "عنصر مع"
+
+#: functions.php:1733
+msgid "Class"
+msgstr "الدرجة"
+
+#: functions.php:1734 includes/wplc_custom_fields.php:78
+#: includes/wplc_data_triggers.php:464 includes/wplc_departments.php:175
+#: includes/wplc_roi.php:159
+msgid "ID"
+msgstr "رمز التعريف"
+
+#: functions.php:2005 functions.php:2011 functions.php:2016
+#: includes/dashboard_page.php:58 modules/node_server.php:134
+#: modules/node_server.php:1022 wp-live-chat-support.php:3962
+msgid "Quick Responses"
+msgstr "ردود سريعة"
+
+#: functions.php:2006 includes/settings_page.php:322
+msgid "Quick Response"
+msgstr "رد سريع"
+
+#: functions.php:2007 functions.php:2010
+msgid "New Quick Response"
+msgstr "رد سريع جديد"
+
+#: functions.php:2008 modules/node_server.php:1031
+msgid "Add New Quick Response"
+msgstr "إضافة رد سريع"
+
+#: functions.php:2009
+msgid "Edit Quick Response"
+msgstr "تعديل رد سريع"
+
+#: functions.php:2012
+msgid "View Quick Responses"
+msgstr "مشاهدة الردود السريعة"
+
+#: functions.php:2013
+msgid "Search Quick Responses"
+msgstr "البحث في الردود السريعة"
+
+#: functions.php:2014
+msgid "No Quick Responses found"
+msgstr "لا يوجد ردود سريعة"
+
+#: functions.php:2015
+msgid "No Quick Responses found in the Trash"
+msgstr "لا يوجد ردود سريعة بسلة المهملات"
+
+#: functions.php:2020
+#, fuzzy
+#| msgid "Quick Responses for WP Live Chat Support Pro"
+msgid "Quick Responses for WP Live Chat by 3CX"
+msgstr "الردود السريعة لـWP Live Chat Support المدفوعة"
+
+#: functions.php:2054
+#, fuzzy
+#| msgid "Support desk"
+msgid "Sort Order"
+msgstr "الدعم"
+
+#: functions.php:2090 includes/settings_page.php:331
+msgid "Title"
+msgstr ""
+
+#: functions.php:2091
+msgid "Order"
+msgstr ""
+
+#: functions.php:2092 includes/settings_page.php:1182
+msgid "Author"
+msgstr "الكاتب"
+
+#: functions.php:2135 wp-live-chat-support.php:461
+msgid "Press ENTER to send your message"
+msgstr "اضغط ENTER للارسال"
+
+#: functions.php:2174 functions.php:2178
+msgid "Assign Quick Response"
+msgstr "تخصيص رد سريع"
+
+#: functions.php:2181 includes/settings_page.php:1164
+msgid "Select"
+msgstr "اختيار"
+
+#: functions.php:2187
+msgid "What is this?"
+msgstr "ما هذا؟"
+
+#: functions.php:2229
+#, php-format
+msgid "Incoming chat from %s (%s) on %s"
+msgstr "محادثة واردة من %s (%s) في %s"
+
+#: functions.php:2235
+#, fuzzy, php-format
+#| msgid "%s (%s) wants to chat with you. <br /><br />Log in: %s"
+msgid "%s (%s) wants to chat with you."
+msgstr "يريد %s (%s) بدء المحادثة معك.<br><br>تسجيل الدخول: %s"
+
+#: functions.php:2240
+#, fuzzy, php-format
+#| msgid "Log in"
+msgid "Log in: %s"
+msgstr "تسجيل الدخول"
+
+#: functions.php:2567
+#, fuzzy
+#| msgid "Status: "
+msgid "Status (Online)"
+msgstr "الحالة "
+
+#: functions.php:2568
+msgid "Online"
+msgstr "متصل"
+
+#: functions.php:2569
+#, fuzzy
+#| msgid "Online"
+msgid "Offline"
+msgstr "متصل"
+
+#: functions.php:2570
+msgid "Status (Offline)"
+msgstr ""
+
+#: functions.php:2581
+msgid ""
+"You have set your status to offline. To view visitors and accept chats "
+"please set your status to online using the switch above."
+msgstr ""
+"انت الآن فى وضعية عدم الاتصال. لعرض الزوار و استقبال المحادثات، يرجى تغيير "
+"الوضعية ل\"متصل\" من خلال الزر أعلاه."
+
+#: functions.php:2651
+msgid "Encryption"
+msgstr "التشفير"
+
+#: functions.php:2657 includes/settings_page.php:1225
+#: wp-live-chat-support.php:3977
+msgid "Business Hours"
+msgstr ""
+
+#: functions.php:2859
+msgid "Initiate Chat"
+msgstr "بدء المحادثة"
+
+#: functions.php:2951
+msgid "Attempting to open the chat window... Please be patient."
+msgstr "جارى بدء المحادثة... برجاء الانتظار."
+
+#: functions.php:2968
+msgid ""
+"You are not a chat agent. Please make yourself a chat agent before trying to "
+"chat to visitors"
+msgstr ""
+"انت لست مندوب. الرجاء تحويل المستخدم الخاص بك لمندوب قبل البدء في محادثة "
+"الزوار"
+
+#: functions.php:3163 functions.php:3179 functions.php:3194
+msgid "Chat Agent"
+msgstr "المندوب"
+
+#: functions.php:3168 functions.php:3184
+msgid "Make this user a chat agent"
+msgstr "تحويل هذا المستخدم لمندوب"
+
+#: functions.php:3198
+msgid "Your user role does not allow you to make yourself a chat agent."
+msgstr "صلاحياتك لا تسمح بتحويل نفسك لمندوب."
+
+#: functions.php:3199
+msgid "Please contact the administrator of this website to change this."
+msgstr "الرجاء الاتصال بالمسؤول عن الموقع لإجراء التعديلات."
+
+#: functions.php:3218
+msgid "This chat has already been answered by another agent."
+msgstr "لقد تم الرد على هذه المحادثة بواسطة مندوب آخر."
+
+#: functions.php:3460 wp-live-chat-support.php:2314
+msgid "Agent(s) online"
+msgstr "مندوب متواجد"
+
+#: functions.php:3514
+msgid "Chat Agent Online"
+msgstr "المندوب المتواجد"
+
+#: functions.php:3516 functions.php:3520
+msgid "Chat Agents Online"
+msgstr "المندوبون المتواجدون"
+
+#: functions.php:3628 includes/settings_page.php:1153
+#: wp-live-chat-support.php:2260
+msgid "Remove"
+msgstr "حذف"
+
+#: functions.php:3631 wp-live-chat-support.php:2263
+msgid "Typing..."
+msgstr ""
+
+#: functions.php:4001
+msgid "User Experience Ratings"
+msgstr "تقييمات الستخدم"
+
+#: functions.php:4008
+msgid "Agent Statistics"
+msgstr "احصائيات المندوب"
+
+#: functions.php:4051 functions.php:4090
+msgid "Satisfaction Rating"
+msgstr "معدل التقييم"
+
+#: functions.php:4052 functions.php:4091
+msgid "Rating Count"
+msgstr "عدد التقيمات"
+
+#: functions.php:4052 functions.php:4091
+msgid "Good"
+msgstr "جيد"
+
+#: functions.php:4052 functions.php:4091
+msgid "Bad"
+msgstr "سيئ"
+
+#: functions.php:4162 includes/dashboard_page.php:56
+#: wp-live-chat-support.php:1015
+#, fuzzy
+#| msgid "Reporting"
+msgid "Reports"
+msgstr "إعداد التقارير"
+
+#: functions.php:4165 includes/wplc_roi.php:161
+msgid "Overview"
+msgstr "نظرة عامة"
+
+#: functions.php:4166
+msgid "Popular Pages"
+msgstr "الصفحات المشهورة"
+
+#: functions.php:4184
+msgid "Total Agents"
+msgstr "إجمالي المندوبين"
+
+#: functions.php:4184
+msgid "Total number of agents that used the live chat"
+msgstr "إجمالي المندوبين الذين قاموا باستخدام المحادثات"
+
+#: functions.php:4185
+msgid "Total Chats"
+msgstr "اجمالى المحادثات"
+
+#: functions.php:4185
+msgid "Total number of chats received"
+msgstr "إجمالي المحادثات الواردة"
+
+#: functions.php:4186
+msgid "Total URLs"
+msgstr "إجمالي عدد الصفحات"
+
+#: functions.php:4186
+msgid "Total number of URLs a chat was initiated on"
+msgstr "إجمالي عدد الصفحات التي تم بدء المحادثات من خلالها"
+
+#: functions.php:4187
+msgid "Chats per day"
+msgstr "عدد المحادثات في اليوم"
+
+#: functions.php:4188
+msgid "Popular pages a chat was initiated on"
+msgstr "أكثر الصفحات التي تم بدء المحادثات من خلالها"
+
+#: functions.php:4218 includes/wplc_custom_fields.php:304
+msgid "Unknown"
+msgstr ""
+
+#: functions.php:4265
+msgid "Count"
+msgstr "العدد"
+
+#: functions.php:4291
+#, fuzzy
+#| msgid "Enable Encryption"
+msgid "Enable Manual Chat Initiation:"
+msgstr "تفعيل التشفير"
+
+#: functions.php:4291
+msgid ""
+"Enabling this feature will allow agents to start a chat with website "
+"visitors. This feature increases server load while enabled."
+msgstr ""
+
+#: functions.php:4295 modules/advanced_features.php:73
+msgid ""
+"This feature is only available when you select 3CX High Performance Cloud "
+"Servers in Advanced Features."
+msgstr ""
+
+#: functions.php:4382
+#, fuzzy
+#| msgid "Thank you for your feedback. We will be in touch soon"
+msgid "Thank you for inquiry. We will get back to you shortly"
+msgstr "شكرا لك على ملاحظاتك. سنكون على اتصال قريبا"
+
+#: functions.php:4560 wp-live-chat-support.php:4550
+msgid "The Live Chat box is currently disabled on your website due to:"
+msgstr ""
+
+#: functions.php:4561 wp-live-chat-support.php:4551
+#, fuzzy
+#| msgid "General Settings"
+msgid "Business Hours Settings"
+msgstr "إعدادت عامة"
+
+#: functions.php:4612
+msgid "Edit Profile"
+msgstr ""
+
+#: functions.php:4623 modules/node_server.php:96 modules/node_server.php:878
+msgid "Drag Files Here"
+msgstr ""
+
+#: functions.php:4646 functions.php:4691 includes/wplc_custom_fields.php:107
+#: includes/wplc_data_triggers.php:478 includes/wplc_data_triggers.php:616
+#: includes/wplc_departments.php:185 includes/wplc_departments.php:475
+#: includes/wplc_roi.php:172 includes/wplc_roi.php:591
+#: modules/webhooks_manager.php:263
+msgid "Delete"
+msgstr "حذف"
+
+#: functions.php:4647
+#, fuzzy
+#| msgid "Send"
+msgid "Send..."
+msgstr "ارسال"
+
+#: functions.php:4648 functions.php:4693
+msgid "Play voice note"
+msgstr ""
+
+#: functions.php:4692
+msgid "Save..."
+msgstr ""
+
+#: functions.php:4780 wp-live-chat-support.php:1248
+#: wp-live-chat-support.php:2791
+msgid "is typing..."
+msgstr ""
+
+#: functions.php:4782
+#, fuzzy
+#| msgid "No visitors on-line at the moment"
+msgid "There are no visitors on your site at the moment"
+msgstr "لا يوحد زوار متواجدين بالموقع في الوقت الحالى"
+
+#: functions.php:4783
+msgid "Connection to the server lost, reconnecting..."
+msgstr ""
+
+#: functions.php:4784
+#, fuzzy
+#| msgid "You are not accepting chats"
+msgid "Agent offline - not accepting chats"
+msgstr "أنت حاليا لا تستقبل محادثات"
+
+#: functions.php:4800
+msgid "An error has occured while fetching the news feed."
+msgstr ""
+
+#: functions.php:4897
+msgid "Default"
+msgstr "الإفتراضي"
+
+#: functions.php:5200 functions.php:5204
+msgid "You do not have permission to perform this action"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:30
+#: includes/blocks/wplc-chat-box/index.php:51 wp-live-chat-support.php:3978
+msgid "Gutenberg Blocks"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:55
+msgid "Enable Gutenberg Blocks"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:63
+#, fuzzy
+#| msgid "Blocked Visitors"
+msgid "Block size"
+msgstr "الزوار المحظورون"
+
+#: includes/blocks/wplc-chat-box/index.php:74
+msgid "Set block logo"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:85
+#, fuzzy
+#| msgid "Offline Text Fields"
+msgid "Text in block"
+msgstr "حقول النص في حالة عدم التواجد"
+
+#: includes/blocks/wplc-chat-box/index.php:93
+msgid "Use icon"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:99
+msgid "Icon in block"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:107
+msgid "Preview block"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:115
+msgid "Custom HTML Template"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:117
+msgid "Displays the chosen logo"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:118
+msgid "Displays the chosen custom text"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:119
+msgid "Displays the chosen icon"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:218 wp-live-chat-support.php:1256
+#: wp-live-chat-support.php:1899
+#, fuzzy
+#| msgid "type here..."
+msgid "Type here"
+msgstr "أكتب هنا ..."
+
+#: includes/blocks/wplc-chat-box/index.php:222 wp-live-chat-support.php:979
+msgid "Live Chat"
+msgstr "محادثة"
+
+#: includes/dashboard_page.php:46 wp-live-chat-support.php:980
+#, fuzzy
+#| msgid "Chat Dashboard"
+msgid "Dashboard"
+msgstr "لوحة التحكم"
+
+#: includes/dashboard_page.php:49
+#, php-format
+msgid "Hi %s! Current activity: %s Active Visitor(s) and %s Active Agent(s)."
+msgstr ""
+
+#: includes/dashboard_page.php:53 includes/dashboard_page.php:67
+#, fuzzy
+#| msgid "Chat ID"
+msgid "Chats"
+msgstr "رمز المحادثة"
+
+#: includes/dashboard_page.php:54 includes/dashboard_page.php:68
+#, fuzzy
+#| msgid "Missed Chats"
+msgid "Missed"
+msgstr "المحادثات الفائتة"
+
+#: includes/dashboard_page.php:55 wp-live-chat-support.php:988
+#: wp-live-chat-support.php:3420
+msgid "History"
+msgstr "السجل"
+
+#: includes/dashboard_page.php:57 includes/settings_page.php:108
+#: includes/settings_page.php:704 modules/advanced_tools.php:84
+#: wp-live-chat-support.php:992 wp-live-chat-support.php:3466
+#: wp-live-chat-support.php:3963
+msgid "Offline Messages"
+msgstr "الرسائل دون اتصال"
+
+#: includes/dashboard_page.php:59 modules/advanced_tools.php:14
+#: modules/advanced_tools.php:24
+msgid "Tools"
+msgstr ""
+
+#: includes/dashboard_page.php:60 includes/settings_page.php:71
+#: wp-live-chat-support.php:981
+msgid "Settings"
+msgstr "الاعدادات"
+
+#: includes/dashboard_page.php:69
+msgid "Engaged"
+msgstr ""
+
+#: includes/dashboard_page.php:70
+#, fuzzy
+#| msgid "Total URLs"
+msgid "Total"
+msgstr "إجمالي عدد الصفحات"
+
+#: includes/dashboard_page.php:73
+msgid "Today"
+msgstr ""
+
+#: includes/dashboard_page.php:79
+#, fuzzy
+#| msgid "Last 30 Days"
+msgid "Last 30 days"
+msgstr "اخر 30 يوم"
+
+#: includes/dashboard_page.php:85
+#, fuzzy
+#| msgid "Last 30 Days"
+msgid "Last 60 days"
+msgstr "اخر 30 يوم"
+
+#: includes/dashboard_page.php:91
+#, fuzzy
+#| msgid "Last 30 Days"
+msgid "Last 90 days"
+msgstr "اخر 30 يوم"
+
+#: includes/dashboard_page.php:107
+#, fuzzy
+#| msgid "Generate New"
+msgid "Latest News"
+msgstr "انشاء جديد"
+
+#: includes/modal_control.php:27 modules/node_server.php:59
+#: modules/node_server.php:871
+msgid "Please Confirm"
+msgstr ""
+
+#: includes/modal_control.php:31
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/modal_control.php:39 includes/wplc_custom_fields.php:164
+#: includes/wplc_custom_fields.php:237 includes/wplc_data_triggers.php:617
+#: includes/wplc_departments.php:252 includes/wplc_departments.php:476
+#: includes/wplc_roi.php:268 includes/wplc_roi.php:592
+#: modules/node_server.php:63 modules/node_server.php:873
+#: modules/webhooks_manager.php:342
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: includes/modal_control.php:40 modules/node_server.php:62
+#: modules/node_server.php:872 modules/webhooks_manager.php:341
+msgid "Confirm"
+msgstr ""
+
+#: includes/notification_control.php:27
+#, fuzzy
+#| msgid "browsing"
+msgid "User is browsing"
+msgstr "يتصفح"
+
+#: includes/notification_control.php:34 includes/notification_control.php:70
+#: includes/notification_control.php:114 includes/wplc_transfer_chats.php:468
+#: includes/wplc_transfer_chats.php:489 includes/wplc_transfer_chats.php:551
+#: includes/wplc_transfer_chats.php:587
+#, fuzzy
+#| msgid "Chat notifications"
+msgid "System notification"
+msgstr "إشعارات المحادثة"
+
+#: includes/notification_control.php:109
+#, fuzzy
+#| msgid "User has opened the chat window"
+msgid "has joined the chat."
+msgstr "المستخدم فتح نافذة المحادثة"
+
+#: includes/settings_page.php:98 includes/settings_page.php:136
+#: wp-live-chat-support.php:3974
+msgid "General Settings"
+msgstr "إعدادت عامة"
+
+#: includes/settings_page.php:103
+msgid "Chat Box"
+msgstr "صندوق المحادثة"
+
+#: includes/settings_page.php:113 includes/settings_page.php:880
+msgid "Styling"
+msgstr "النمط"
+
+#: includes/settings_page.php:118 modules/node_server.php:88
+#: modules/node_server.php:877
+msgid "Agents"
+msgstr "المندوبون"
+
+#: includes/settings_page.php:123
+msgid "Blocked Visitors"
+msgstr "الزوار المحظورون"
+
+#: includes/settings_page.php:139
+msgid "Chat enabled"
+msgstr "المحادثة نشطة"
+
+#: includes/settings_page.php:151
+#, fuzzy
+#| msgid "Offline Chat Box Title"
+msgid "Required Chat Box Fields"
+msgstr "عنوان نافذة المحادثة في حالة عدم التواجد"
+
+#: includes/settings_page.php:151
+msgid "Set default fields that will be displayed when users starting a chat"
+msgstr ""
+
+#: includes/settings_page.php:156
+#, fuzzy
+#| msgid "Require Name And Email"
+msgid "Name and email"
+msgstr "يتطلب الاسم و عنوان البريد الإلكتروني"
+
+#: includes/settings_page.php:168
+msgid "No fields"
+msgstr ""
+
+#: includes/settings_page.php:174
+msgid "Default visitor name"
+msgstr ""
+
+#: includes/settings_page.php:174
+msgid "This name will be displayed for all not logged in visitors"
+msgstr ""
+
+#: includes/settings_page.php:177 wp-live-chat-support.php:460
+msgid "Guest"
+msgstr "ضيف"
+
+#: includes/settings_page.php:182
+msgid "Input Field Replacement Text"
+msgstr "نص استبدال حقل الإدخال"
+
+#: includes/settings_page.php:182
+msgid "This is the text that will show in place of the Name And Email fields"
+msgstr "هذا النص سيظهر بدلا من حقول الاسم و البريد الالكتروني"
+
+#: includes/settings_page.php:190
+msgid "Use Logged In User Details"
+msgstr "استخدام بيانات المستخدم الذى قام بتسجيل الدخول"
+
+#: includes/settings_page.php:190
+msgid ""
+"A user's Name and Email Address will be used by default if they are logged "
+"in."
+msgstr ""
+"سيتم استخدام الاسم و البريد الإلكتروني الخاصين بالمستخدم في حالة تسجيل دخوله."
+
+#: includes/settings_page.php:200
+#, fuzzy
+#| msgid "Play a sound when a new message is received"
+msgid "Play a sound when there is a new visitor"
+msgstr "تشغيل صوت عند تلقي رسالة جديدة"
+
+#: includes/settings_page.php:200
+#, fuzzy
+#| msgid ""
+#| "Disable this to mute the sound that is played when a new chat message is "
+#| "received"
+msgid ""
+"Disable this to mute the sound that is played when a new visitor arrives"
+msgstr ""
+"تعطيل هذا الخيار لكتم الصوت الذي يتم تشغيله عند تلقي رسالة محادثة جديدة"
+
+#: includes/settings_page.php:209
+msgid "Play a sound when a new message is received"
+msgstr "تشغيل صوت عند تلقي رسالة جديدة"
+
+#: includes/settings_page.php:209
+msgid ""
+"Disable this to mute the sound that is played when a new chat message is "
+"received"
+msgstr ""
+"تعطيل هذا الخيار لكتم الصوت الذي يتم تشغيله عند تلقي رسالة محادثة جديدة"
+
+#: includes/settings_page.php:218
+msgid "Enable Font Awesome set"
+msgstr ""
+
+#: includes/settings_page.php:218
+msgid "Disable this if you have Font Awesome set included with your theme"
+msgstr ""
+
+#: includes/settings_page.php:226
+msgid "Enable chat dashboard and notifications on all admin pages"
+msgstr ""
+
+#: includes/settings_page.php:226
+msgid "This will load the chat dashboard on every admin page."
+msgstr ""
+
+#: includes/settings_page.php:234
+msgid "Delete database entries on uninstall"
+msgstr ""
+
+#: includes/settings_page.php:234
+msgid ""
+"This will delete all WP Live Chat by 3CX related database entries such as "
+"options and chats on uninstall."
+msgstr ""
+
+#: includes/settings_page.php:245
+msgid "Agents can set their online status"
+msgstr ""
+
+#: includes/settings_page.php:245
+msgid ""
+"Checking this will allow you to change your status to Online or Offline on "
+"the Live Chat page."
+msgstr ""
+"هذا الاختيار يسمح لك بتغيير الحالة ما بين \"متصل\" و \"غير متصل\" في صفحة "
+"المحادثة."
+
+#: includes/settings_page.php:245
+msgid "If this option is disabled, agents will be always automatically online."
+msgstr ""
+
+#: includes/settings_page.php:256
+msgid "Exclude chat from 'Home' page:"
+msgstr "استبعاد المحادثة من 'الصفحة الرئيسية':"
+
+#: includes/settings_page.php:256
+msgid ""
+"Leaving this unchecked will allow the chat window to display on your home "
+"page."
+msgstr "ترك هذا الخيار غير مفعل سيسمح بعرض نافذة المحادثة في صفحتك الرئيسية."
+
+#: includes/settings_page.php:264
+msgid "Exclude chat from 'Archive' pages:"
+msgstr "استبعاد المحادثة من 'صفحات الارشيف':"
+
+#: includes/settings_page.php:264
+msgid ""
+"Leaving this unchecked will allow the chat window to display on your archive "
+"pages."
+msgstr "ترك هذا الخيار غير مفعل سيسمح بعرض نافذة المحادثة في صفحات الارشيف."
+
+#: includes/settings_page.php:272
+msgid "Include chat window on the following pages:"
+msgstr "إضافة نافذة المحادثة في الصفحات التالية:"
+
+#: includes/settings_page.php:272
+msgid ""
+"Show the chat window on the following pages. Leave blank to show on all. "
+"(Use comma-separated Page ID's)"
+msgstr ""
+"إضافة نافذة المحادثة في الصفحات التالية. اترك الخانة فارغة لتظهر في جميع "
+"الصفحات. (استخدام \"معرف الصفحة\" مفصولة بفاصلة)"
+
+#: includes/settings_page.php:280
+msgid "Exclude chat window on the following pages:"
+msgstr "استثناء نافذة المحادثة من الصفحات الآتية:"
+
+#: includes/settings_page.php:280
+msgid ""
+"Do not show the chat window on the following pages. Leave blank to show on "
+"all. (Use comma-separated Page ID's)"
+msgstr ""
+"لا تقم بعرض نافذة المحادثة في الصفحات التالية. اترك الخانة فارغة لتظهر في "
+"جميع الصفحات. (استخدام \"معرف الصفحة\" مفصولة بفاصلة)"
+
+#: includes/settings_page.php:288
+#, fuzzy
+#| msgid "Exclude chat window on the following pages"
+msgid "Exclude chat window on selected post types"
+msgstr "استبعاد نافذة الدردشة من الصفحات الآتية"
+
+#: includes/settings_page.php:288
+#, fuzzy
+#| msgid "Include chat window on the following pages"
+msgid "Do not show the chat window on the following post types pages."
+msgstr "عرض نافذة المحادثة في الصفحات الآتية"
+
+#: includes/settings_page.php:307
+#, fuzzy
+#| msgid "No secret token found"
+msgid "No post types found."
+msgstr "لا يوجد رمز سري"
+
+#: includes/settings_page.php:313
+#, fuzzy
+#| msgid "Allow any user to make themselves a chat agent"
+msgid "Allow WP users to self-assign as a chat agent"
+msgstr "تحويل المستخدم لمندوب"
+
+#: includes/settings_page.php:313
+msgid ""
+"Checking this will allow any of your users to make themselves a chat agent "
+"when editing their profile."
+msgstr ""
+"في حالة اتاحة هذا الخيار سيستطيع المستخدمون تعيين أنفسهم كمندوبين من خلال "
+"صفحة الاعدادات الخاصة بهم."
+
+#: includes/settings_page.php:327
+msgid "Order by"
+msgstr ""
+
+#: includes/settings_page.php:333
+msgid "Number"
+msgstr ""
+
+#: includes/settings_page.php:339
+msgid "Sort"
+msgstr ""
+
+#: includes/settings_page.php:343
+#, fuzzy
+#| msgid "pending"
+msgid "Descending"
+msgstr "معلَّق"
+
+#: includes/settings_page.php:344
+#, fuzzy
+#| msgid "pending"
+msgid "Ascending"
+msgstr "معلَّق"
+
+#: includes/settings_page.php:351
+msgid "Voice Notes"
+msgstr ""
+
+#: includes/settings_page.php:355
+msgid "Enable Voice Notes on admin side"
+msgstr ""
+
+#: includes/settings_page.php:357
+msgid ""
+"Enabling this will allow you to record the voice during the chat and send it "
+"to visitor once you hold on CTRL + SPACEBAR in main chat window"
+msgstr ""
+
+#: includes/settings_page.php:365
+msgid "Enable Voice Notes on visitor side"
+msgstr ""
+
+#: includes/settings_page.php:367
+msgid ""
+"Enabling this will allow the visitors to record the voice during the chat "
+"and send it to agent once they hold on CTRL + SPACEBAR"
+msgstr ""
+
+#: includes/settings_page.php:381 wp-live-chat-support.php:3975
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Box Settings"
+msgstr "إعدادات نافذة المحادثة"
+
+#: includes/settings_page.php:384
+msgid "Alignment"
+msgstr ""
+
+#: includes/settings_page.php:387
+msgid "Bottom left"
+msgstr "أسفل اليسار"
+
+#: includes/settings_page.php:388
+msgid "Bottom right"
+msgstr "أسفل اليمين"
+
+#: includes/settings_page.php:389
+msgid "Left"
+msgstr "يسار"
+
+#: includes/settings_page.php:390
+msgid "Right"
+msgstr "يمين"
+
+#: includes/settings_page.php:396
+msgid "Auto Pop-up"
+msgstr "ظهور تلقائى"
+
+#: includes/settings_page.php:396
+msgid ""
+"Expand the chat box automatically (prompts the user to enter their name and "
+"email address)."
+msgstr ""
+"تكبير نافذة المحادثة تلقائياً (سيتوجب على المستخدم ادخال الاسم و البريد "
+"الالكتروني)."
+
+#: includes/settings_page.php:405
+#, fuzzy
+#| msgid "Display name and avatar in chat"
+msgid "Display for chat message:"
+msgstr "عرض الاسم والصورة في المحادثة"
+
+#: includes/settings_page.php:409
+#, fuzzy
+#| msgid "Show After"
+msgid "Avatar"
+msgstr "الظهور بعد"
+
+#: includes/settings_page.php:414
+msgid "Display typing indicator"
+msgstr "عرض مؤشر الكتابة"
+
+#: includes/settings_page.php:414
+#, fuzzy
+#| msgid ""
+#| "Display the \"typing...\" animation in the chat window as soon as an "
+#| "agent or visitor is typing."
+msgid ""
+"Display the 'typing...' animation in the chat window as soon as an agent or "
+"visitor is typing."
+msgstr ""
+"عرض تنبيه \"الكتابة...\"  في نافذة المحادثة حالما تتم الكتابة عن طريق "
+"المندوب أو الزائر."
+
+#: includes/settings_page.php:418
+msgid ""
+"For non-cloud server users, please note that this will increase the amount "
+"of server resources required."
+msgstr ""
+"في حالة عدم استخدامكم للخوادم السحابية، يرجى العلم بأن هذا سيزيد من الموارد "
+"المطلوبة لخادم الاستضافة."
+
+#: includes/settings_page.php:423
+msgid "Chat box for logged in users only:"
+msgstr ""
+
+#: includes/settings_page.php:423
+msgid ""
+"By checking this, only users that are logged in will be able to chat with "
+"you."
+msgstr ""
+"في حالة تنشيط هذا الخيار، لن يستطيع الزوار المحادثة معك، فقط المستخدمين "
+"الذين قاموا بتسجيل الدخول."
+
+#: includes/settings_page.php:431
+#, fuzzy
+#| msgid "User has maximized the chat window"
+msgid "Display a timestamp in the chat window:"
+msgstr "المستخدم قام بتكبير نافذة المحادثة"
+
+#: includes/settings_page.php:435 wp-live-chat-support.php:2373
+msgid "Time"
+msgstr "الوقت"
+
+#: includes/settings_page.php:440
+msgid "Redirect to “Thank You” page on chat end:"
+msgstr ""
+
+#: includes/settings_page.php:440
+msgid ""
+"By checking this, users will be redirected to your thank you page when a "
+"chat is completed."
+msgstr ""
+
+#: includes/settings_page.php:444
+msgid "Thank You Page URL"
+msgstr ""
+
+#: includes/settings_page.php:454
+msgid "Disable Emojis"
+msgstr ""
+
+#: includes/settings_page.php:471
+#, fuzzy
+#| msgid "Username"
+msgid "User / Agent name"
+msgstr "اسم الستخدم"
+
+#: includes/settings_page.php:479
+#, fuzzy
+#| msgid "Use WordPress name instead"
+msgid "Use WordPress name"
+msgstr "استخدام اسم الوورد برس"
+
+#: includes/settings_page.php:482
+msgid "Note: 'Name' field will be ignored"
+msgstr "ملاحظة: سيتم تجاهل حقل الاسم"
+
+#: includes/settings_page.php:514
+msgid "Incoming chat ring tone"
+msgstr "النغمة الخاصة بالمحادثة الواردة"
+
+#: includes/settings_page.php:530
+#, fuzzy
+#| msgid "Incoming chat ring tone"
+msgid "Incoming message tone"
+msgstr "النغمة الخاصة بالمحادثة الواردة"
+
+#: includes/settings_page.php:547
+msgid "Icon"
+msgstr ""
+
+#: includes/settings_page.php:555
+#, fuzzy
+#| msgid "Upload Logo"
+msgid "Upload Icon"
+msgstr "رفع شعار"
+
+#: includes/settings_page.php:556 includes/settings_page.php:562
+msgid "Select Default Icon"
+msgstr ""
+
+#: includes/settings_page.php:558
+#, fuzzy
+#| msgid "Remove Logo"
+msgid "Remove Icon"
+msgstr "حذف الشعار"
+
+#: includes/settings_page.php:559
+#, fuzzy
+#| msgid "Recomended Size 250px x 40px"
+msgid "Recommended Size 50px x 50px"
+msgstr "الحجم الموصي به 40px x 250px"
+
+#: includes/settings_page.php:602
+msgid "Picture"
+msgstr "الصورة"
+
+#: includes/settings_page.php:610
+msgid "Upload Image"
+msgstr "رفع الصورة"
+
+#: includes/settings_page.php:612
+msgid "Remove Image"
+msgstr "حذف الصورة"
+
+#: includes/settings_page.php:613
+#, fuzzy
+#| msgid "Recomended Size 60px x 60px"
+msgid "Recommended Size 60px x 60px"
+msgstr "الحجم الموصي به 60px x 60px"
+
+#: includes/settings_page.php:620
+msgid "Logo"
+msgstr "الشعار"
+
+#: includes/settings_page.php:628
+msgid "Upload Logo"
+msgstr "رفع شعار"
+
+#: includes/settings_page.php:630
+msgid "Remove Logo"
+msgstr "حذف الشعار"
+
+#: includes/settings_page.php:631
+#, fuzzy
+#| msgid "Recomended Size 250px x 40px"
+msgid "Recommended Size 250px x 40px"
+msgstr "الحجم الموصي به 40px x 250px"
+
+#: includes/settings_page.php:637
+#, fuzzy
+#| msgid "Chat delay (seconds)"
+msgid "Chat button delayed startup (seconds)"
+msgstr "تأخير المحادثة (ثانية)"
+
+#: includes/settings_page.php:637
+msgid "How long to delay showing the Live Chat button on a page"
+msgstr ""
+
+#: includes/settings_page.php:646
+msgid "Chat notifications"
+msgstr "إشعارات المحادثة"
+
+#: includes/settings_page.php:646
+msgid "Alert me via email as soon as someone wants to chat (while online only)"
+msgstr ""
+"ارسل اشعار الى بريدي الإلكتروني في حالة وجود شخص يود بدء محادثة (في حالة "
+"الاتصال فقط)"
+
+#: includes/settings_page.php:655
+msgid "User Experience"
+msgstr "تجربة المستخدم"
+
+#: includes/settings_page.php:659
+msgid "Share files"
+msgstr ""
+
+#: includes/settings_page.php:659
+msgid "Adds file sharing to your chat box!"
+msgstr "إضافة مشاركة الملفات إلى صندوق المحادثة!"
+
+#: includes/settings_page.php:663
+#, fuzzy
+#| msgid "User Experience Ratings"
+msgid "Visitor experience ratings"
+msgstr "تقييمات الستخدم"
+
+#: includes/settings_page.php:663
+msgid "Allows users to rate the chat experience with an agent."
+msgstr "السماح للمستخدمين بتقييم المحادثة مع المندوب."
+
+#: includes/settings_page.php:669 includes/settings_page.php:996
+msgid "Social"
+msgstr "إجتماعي"
+
+#: includes/settings_page.php:673
+msgid "Facebook URL"
+msgstr "رابط الفيسبوك"
+
+#: includes/settings_page.php:673
+msgid "Link your Facebook page here. Leave blank to hide"
+msgstr "رابط صفحة الفيسبوك هنا. اتركه فارغا للإخفاء"
+
+#: includes/settings_page.php:674
+msgid "Facebook URL..."
+msgstr "رابط الفيسبوك ..."
+
+#: includes/settings_page.php:685
+msgid "Twitter URL"
+msgstr "رابط تويتر"
+
+#: includes/settings_page.php:685
+msgid "Link your Twitter page here. Leave blank to hide"
+msgstr "رابط صفحة تويتر هنا. اتركه فارغا للإخفاء"
+
+#: includes/settings_page.php:686
+msgid "Twitter URL..."
+msgstr "رابط تويتر ..."
+
+#: includes/settings_page.php:708
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Disable offline messages"
+msgstr "الرسائل دون اتصال"
+
+#: includes/settings_page.php:708
+msgid ""
+"The chat window will be hidden when it is offline. Users will not be able to "
+"send offline messages to you"
+msgstr ""
+"سيتم إخفاء نافذة المحادثة في حالة عدم الاتصال. لن يتمكن المستخدمون من ارسال "
+"رسائل اليك"
+
+#: includes/settings_page.php:715
+#, fuzzy
+#| msgid "Offline Chat Box Title"
+msgid "Offline Form Title"
+msgstr "عنوان نافذة المحادثة في حالة عدم التواجد"
+
+#: includes/settings_page.php:723
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Offline form initial message"
+msgstr "الرسائل دون اتصال"
+
+#: includes/settings_page.php:729
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Offline form message on send"
+msgstr "الرسائل دون اتصال"
+
+#: includes/settings_page.php:735
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Offline form finish message"
+msgstr "الرسائل دون اتصال"
+
+#: includes/settings_page.php:741
+#, fuzzy
+#| msgid "Offline Chat Box Title"
+msgid "Offline Button Text"
+msgstr "عنوان نافذة المحادثة في حالة عدم التواجد"
+
+#: includes/settings_page.php:747
+#, fuzzy
+#| msgid "Offline Chat Box Title"
+msgid "Offline Send Button Text"
+msgstr "عنوان نافذة المحادثة في حالة عدم التواجد"
+
+#: includes/settings_page.php:755
+#, fuzzy
+#| msgid "Main Settings"
+msgid "Email settings"
+msgstr "الإعدادات الرئيسية"
+
+#: includes/settings_page.php:761
+msgid "Send to agent(s)"
+msgstr ""
+
+#: includes/settings_page.php:761
+msgid ""
+"Email address where offline messages are delivered to. Use comma separated "
+"email addresses to send to more than one email address"
+msgstr ""
+"البريد الإلكتروني الذى سيستخدم لتنبيهك برسائل المستخدمين. استخدم الفاصلة ما "
+"بين العنوانين لإضافة اكثر من عنوان بريد"
+
+#: includes/settings_page.php:771
+msgid "Subject"
+msgstr ""
+
+#: includes/settings_page.php:771
+msgid "User name will be appended to the end of the subject."
+msgstr ""
+
+#: includes/settings_page.php:784
+msgid "Auto-respond to visitor"
+msgstr ""
+
+#: includes/settings_page.php:784
+msgid "Send your visitors an email as soon as they send you an offline message"
+msgstr ""
+
+#: includes/settings_page.php:790
+#, fuzzy
+#| msgid "API Response Codes"
+msgid "Auto-responder 'From' name"
+msgstr "رمز الـAPI Response"
+
+#: includes/settings_page.php:796
+#, fuzzy
+#| msgid "API Response Codes"
+msgid "Auto-responder 'From' email"
+msgstr "رمز الـAPI Response"
+
+#: includes/settings_page.php:802
+#, fuzzy
+#| msgid "API Response Codes"
+msgid "Auto-responder subject"
+msgstr "رمز الـAPI Response"
+
+#: includes/settings_page.php:808
+#, fuzzy
+#| msgid "API Response Codes"
+msgid "Auto-responder body"
+msgstr "رمز الـAPI Response"
+
+#: includes/settings_page.php:811
+msgid "HTML and the following shortcodes can be used"
+msgstr ""
+
+#: includes/settings_page.php:811
+#, fuzzy
+#| msgid "Username"
+msgid "User's name"
+msgstr "اسم الستخدم"
+
+#: includes/settings_page.php:811
+#, fuzzy
+#| msgid "Email Address"
+msgid "User's email address"
+msgstr "البريد الالكترونى"
+
+#: includes/settings_page.php:887
+#, fuzzy
+#| msgid "Colour Scheme"
+msgid "Color scheme"
+msgstr "مخطط اللون"
+
+#: includes/settings_page.php:943
+#, fuzzy
+#| msgid "Colour Scheme"
+msgid "Custom Scheme"
+msgstr "مخطط اللون"
+
+#: includes/settings_page.php:964
+msgid "Palette Color 1"
+msgstr "لوح الألوان 1"
+
+#: includes/settings_page.php:970
+msgid "Palette Color 2"
+msgstr "لوح الألوان 2"
+
+#: includes/settings_page.php:976
+msgid "Palette Color 3"
+msgstr "لوح الألوان 3"
+
+#: includes/settings_page.php:982
+msgid "Palette Color 4"
+msgstr "لوح الألوان 4"
+
+#: includes/settings_page.php:989
+#, fuzzy
+#| msgid "Chat Dashboard"
+msgid "Chat background"
+msgstr "لوحة التحكم"
+
+#: includes/settings_page.php:993
+msgid "Cloudy"
+msgstr ""
+
+#: includes/settings_page.php:994
+msgid "Geometry"
+msgstr ""
+
+#: includes/settings_page.php:995
+msgid "Tech"
+msgstr ""
+
+#: includes/settings_page.php:997 includes/wplc_roi.php:178
+#: modules/node_server.php:928
+msgid "None"
+msgstr "لا شئ"
+
+#: includes/settings_page.php:1003
+#, fuzzy
+#| msgid "I'm using a localization plugin"
+msgid "Use localization plugin"
+msgstr "انا استخدم إضافة للتعريب"
+
+#: includes/settings_page.php:1006
+#, php-format
+msgid ""
+"Enable this if you are using a localization plugin. Should you wish to "
+"change the below strings with this option enabled, please visit the "
+"documentation %s"
+msgstr ""
+
+#: includes/settings_page.php:1006 includes/wplc_departments.php:586
+#: modules/node_server.php:652 wp-live-chat-support.php:2297
+msgid "here"
+msgstr "هنا"
+
+#: includes/settings_page.php:1012
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box title"
+msgstr "محاذاة صندوق المحادثة"
+
+#: includes/settings_page.php:1018
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box sub-title"
+msgstr "محاذاة صندوق المحادثة"
+
+#: includes/settings_page.php:1024
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box intro"
+msgstr "محاذاة صندوق المحادثة"
+
+#: includes/settings_page.php:1030
+#, fuzzy
+#| msgid "Chat button text"
+msgid "Start chat button label"
+msgstr "نص زر المحادثة"
+
+#: includes/settings_page.php:1036
+msgid "Start chat status message"
+msgstr ""
+
+#: includes/settings_page.php:1042
+#, fuzzy
+#| msgid "Leave a message"
+msgid "Re-activate chat message"
+msgstr "اترك رسالة"
+
+#: includes/settings_page.php:1050
+#, fuzzy
+#| msgid "Delete Message"
+msgid "Welcome message"
+msgstr "حذف الرسالة"
+
+#: includes/settings_page.php:1052
+msgid ""
+"This text is shown as soon as a user starts a chat and waits for an agent to "
+"join"
+msgstr ""
+
+#: includes/settings_page.php:1056
+msgid "Agent no answer message"
+msgstr ""
+
+#: includes/settings_page.php:1058
+#, fuzzy
+#| msgid "This text is shown above the user chat input field"
+msgid ""
+"This text is shown to the user when an agent has failed to answer a chat"
+msgstr "سيتم عرض النص أعلى صندوق المحادثة الخاص بالمستخدم"
+
+#: includes/settings_page.php:1062
+msgid "Other text"
+msgstr "نصوص آخرى"
+
+#: includes/settings_page.php:1065 wp-live-chat-support.php:454
+#: wp-live-chat-support.php:1202
+#, fuzzy
+#| msgid "The chat has been ended"
+msgid "The chat has been ended by the agent."
+msgstr "لقد تم انهاء هذه المحادثة"
+
+#: includes/settings_page.php:1070
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box animation"
+msgstr "محاذاة صندوق المحادثة"
+
+#: includes/settings_page.php:1078
+msgid "Slide Up"
+msgstr "الشريحة للأعلى"
+
+#: includes/settings_page.php:1084
+msgid "Slide From The Side"
+msgstr "الشريحة من الجانب"
+
+#: includes/settings_page.php:1090
+msgid "Fade In"
+msgstr "تتلاشى في"
+
+#: includes/settings_page.php:1096
+msgid "No Animation"
+msgstr "لا توجد حركة"
+
+#: includes/settings_page.php:1114
+msgid "Auto-response to first message"
+msgstr ""
+
+#: includes/settings_page.php:1117
+msgid ""
+"This message will be sent automatically after the first message is sent from "
+"the user side. Leave empty to disable."
+msgstr ""
+
+#: includes/settings_page.php:1132
+msgid "Chat Agents"
+msgstr "المندوبون"
+
+#: includes/settings_page.php:1143
+msgid "Logged In"
+msgstr ""
+
+#: includes/settings_page.php:1162
+msgid "Add New Agent"
+msgstr "إضافة مندوب جديد"
+
+#: includes/settings_page.php:1170
+msgid "Administrator"
+msgstr "المدير"
+
+#: includes/settings_page.php:1176
+msgid "Editor"
+msgstr "المحرّر"
+
+#: includes/settings_page.php:1186
+msgid "Add Agent"
+msgstr "اضف مندوب"
+
+#: includes/settings_page.php:1192
+#, fuzzy, php-format
+#| msgid ""
+#| "Should you wish to add a user that has a role less than 'Author', please "
+#| "go to the <a href='./users.php'>Users</a> page, select the relevant user, "
+#| "click Edit and scroll to the bottom of the page and enable the 'Chat "
+#| "Agent' checkbox."
+msgid ""
+"Should you wish to add a user that has a role less than 'Author', please go "
+"to the %s page, select the relevant user, click Edit and scroll to the "
+"bottom of the page and enable the 'Chat Agent' checkbox."
+msgstr ""
+"إذا كنت ترغب في إضافة مستخدم له دور أقل من 'الكاتب'، يرجى الذهاب إلى صفحة <a "
+"href='./users.php'>المستخدمين</a> حدد المستخدم ذو الصلة، انقر فوق تحرير وقم "
+"بالتمرير إلى أسفل الصفحة وتفعيل خانة  '\"مندوب\"'."
+
+#: includes/settings_page.php:1192
+#, fuzzy
+#| msgid "Username"
+msgid "Users"
+msgstr "اسم الستخدم"
+
+#: includes/settings_page.php:1193
+msgid "If there are no chat agents online, the chat will show as offline"
+msgstr ""
+"فى حالة عدم تواجد مندوبين متاحين، سيتم اظهار المحادثة في حالة عدم اتصال"
+
+#: includes/settings_page.php:1198
+#, fuzzy
+#| msgid "Blocked Visitors - Based on IP Address"
+msgid "Blocked Visitors / IP Addresses"
+msgstr "حظر الزوار - بناءاً على عنوان الـIP"
+
+#: includes/settings_page.php:1202
+msgid "Enter each IP Address you would like to block on a new line"
+msgstr "أدخل كل عنوان IP ترغب في حظره في سطر جديد"
+
+#: includes/settings_page.php:1213
+msgid ""
+"Blocking a user's IP Address here will hide the chat window from them, "
+"preventing them from chatting with you. Each IP Address must be on a new line"
+msgstr ""
+"حظر عنوان IP الزائر سيقوم بإخفاء صندوق المحادثة عنه و منعه من محاولة بدء "
+"المحادثة معك. كل عنوان يجب كتابته في سطر منفرد"
+
+#: includes/settings_page.php:1229
+msgid "Enable Business Hours"
+msgstr ""
+
+#: includes/settings_page.php:1234
+msgid "Active schedule"
+msgstr ""
+
+#: includes/settings_page.php:1238
+msgid "Daily"
+msgstr ""
+
+#: includes/settings_page.php:1239
+msgid "Week Days"
+msgstr ""
+
+#: includes/settings_page.php:1240
+msgid "Weekends"
+msgstr ""
+
+#: includes/settings_page.php:1252
+msgid "Between"
+msgstr ""
+
+#: includes/settings_page.php:1263
+#, fuzzy
+#| msgid "Bad"
+msgid "and"
+msgstr "سيئ"
+
+#: includes/settings_page.php:1280
+msgid "Current Site Time"
+msgstr ""
+
+#: includes/settings_page.php:1293
+msgid "Chat Encryption"
+msgstr "تشفير المحادثة"
+
+#: includes/settings_page.php:1296
+msgid "Enable Encryption"
+msgstr "تفعيل التشفير"
+
+#: includes/settings_page.php:1296
+msgid ""
+"All messages will be encrypted when being sent to and from the user and "
+"agent."
+msgstr "سيتم تشفير جميع الرسائل عند إرسالها ما بين المستخدم و المندوب."
+
+#: includes/settings_page.php:1305
+msgid ""
+"Once enabled, all messages sent will be encrypted. This cannot be undone."
+msgstr ""
+"عند تفعيل تلك الخاصية، سيتم تشفير جميع الرسائل. لا يمكن التراجع عن هذه "
+"الخطوة."
+
+#: includes/settings_page.php:1315
+msgid "Save Settings"
+msgstr "حفظ الإعدادات"
+
+#: includes/wplc_agent_data.php:11
+#, fuzzy
+#| msgid "WP Live Chat Support Triggers"
+msgid "WP Live Chat by 3CX - User Fields"
+msgstr "مشغلات WP Live Chat Support"
+
+#: includes/wplc_agent_data.php:15
+#, fuzzy
+#| msgid "Username"
+msgid "User tagline"
+msgstr "اسم الستخدم"
+
+#: includes/wplc_agent_data.php:24
+msgid "This will show up at the top of the chatbox - Leave blank to disable."
+msgstr ""
+
+#: includes/wplc_custom_fields.php:67 includes/wplc_data_triggers.php:8
+#: includes/wplc_departments.php:140 includes/wplc_roi.php:115
+#: modules/webhooks_manager.php:60 modules/webhooks_manager.php:321
+msgid "Add New"
+msgstr "إضافة جديد"
+
+#: includes/wplc_custom_fields.php:71 wp-live-chat-support.php:1017
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:80 includes/wplc_data_triggers.php:466
+#: wp-live-chat-support.php:2374
+msgid "Type"
+msgstr "النوع"
+
+#: includes/wplc_custom_fields.php:81 includes/wplc_data_triggers.php:468
+msgid "Content"
+msgstr "المحتوى"
+
+#: includes/wplc_custom_fields.php:82 includes/wplc_data_triggers.php:469
+#: wp-live-chat-support.php:2377 wp-live-chat-support.php:3360
+msgid "Status"
+msgstr "الحالة"
+
+#: includes/wplc_custom_fields.php:99 wp-live-chat-support.php:2570
+msgid "Active"
+msgstr "نشط"
+
+#: includes/wplc_custom_fields.php:101
+#, fuzzy
+#| msgid "active"
+msgid "Inactive"
+msgstr "مفعل"
+
+#: includes/wplc_custom_fields.php:106 includes/wplc_data_triggers.php:477
+#: includes/wplc_departments.php:184 includes/wplc_roi.php:171
+#: modules/webhooks_manager.php:262
+msgid "Edit"
+msgstr "تعديل"
+
+#: includes/wplc_custom_fields.php:117
+msgid "Create your first custom field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:137
+msgid "Create a Custom Field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:142 includes/wplc_custom_fields.php:213
+#, fuzzy
+#| msgid "Trigger Name"
+msgid "Field Name"
+msgstr "اسم المشغل"
+
+#: includes/wplc_custom_fields.php:146 includes/wplc_custom_fields.php:217
+#, fuzzy
+#| msgid "Trigger Type"
+msgid "Field Type"
+msgstr "نوع المشغل"
+
+#: includes/wplc_custom_fields.php:149 includes/wplc_custom_fields.php:222
+msgid "Text"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:150 includes/wplc_custom_fields.php:223
+msgid "Drop Down"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:155 includes/wplc_custom_fields.php:228
+msgid "Default Field Value"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:159 includes/wplc_custom_fields.php:232
+msgid "Drop Down Contents"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:160 includes/wplc_custom_fields.php:233
+#, fuzzy
+#| msgid "Enter each IP Address you would like to block on a new line"
+msgid "Enter each option on a new line"
+msgstr "أدخل كل عنوان IP ترغب في حظره في سطر جديد"
+
+#: includes/wplc_custom_fields.php:164
+msgid "Create Custom Field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:208
+msgid "Edit a Custom Field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:237
+msgid "Update Custom Field"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:247
+msgid "Custom Field Not Found"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:248
+msgid "Back"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:262
+#, fuzzy
+#| msgid "Are you sure you would like to delete this chat?"
+msgid "Are you sure you want to delete this custom field?"
+msgstr "هل انت متأكد من انك تريد حذف تلك المحادثة؟"
+
+#: includes/wplc_custom_fields.php:298
+#, fuzzy
+#| msgid "Offline Text Fields"
+msgid "Text Field"
+msgstr "حقول النص في حالة عدم التواجد"
+
+#: includes/wplc_custom_fields.php:301
+msgid "Dropdown"
+msgstr ""
+
+#: includes/wplc_custom_fields.php:367
+msgid "Custom Field Data"
+msgstr ""
+
+#: includes/wplc_data_triggers.php:11 wp-live-chat-support.php:1016
+#: wp-live-chat-support.php:3949
+msgid "Triggers"
+msgstr "المشغلات"
+
+#: includes/wplc_data_triggers.php:18 includes/wplc_roi.php:142
+msgid "Update now"
+msgstr "تحديث الآن"
+
+#: includes/wplc_data_triggers.php:72
+msgid "Trigger Name"
+msgstr "اسم المشغل"
+
+#: includes/wplc_data_triggers.php:77
+msgid "Trigger Type"
+msgstr "نوع المشغل"
+
+#: includes/wplc_data_triggers.php:81
+msgid "Page Trigger"
+msgstr "مشغل حسب الصفحة"
+
+#: includes/wplc_data_triggers.php:82
+msgid "Time Trigger"
+msgstr "مشغل حسب التوقيت"
+
+#: includes/wplc_data_triggers.php:83
+msgid "Scroll Trigger"
+msgstr "مشغل حسب التصفح"
+
+#: includes/wplc_data_triggers.php:84
+msgid "Page Leave Trigger"
+msgstr "مشغل مغادرة الصفحة"
+
+#: includes/wplc_data_triggers.php:85
+msgid ""
+"Note: When using page trigger with a the basic theme, no hovercard is shown "
+"by default. We suggest using the time trigger for this instead."
+msgstr ""
+"ملاحظة: في حالة استخدامك مشغل الصفحات مع القالب الأساسي، لن تتمكن من استخدام "
+"ميزة المشاهدة المسبقة. برجاء استخدام مشغل الوقت عوضاً عنه."
+
+#: includes/wplc_data_triggers.php:91
+msgid "Page ID"
+msgstr "معرف الصفحة"
+
+#: includes/wplc_data_triggers.php:92
+msgid "Note: Leave empty for 'all' pages"
+msgstr "ملاحظة:  اتركها فارغة لكل الصفحات"
+
+#: includes/wplc_data_triggers.php:96
+msgid "Show After"
+msgstr "الظهور بعد"
+
+#: includes/wplc_data_triggers.php:97
+msgid "Seconds"
+msgstr "ثانية"
+
+#: includes/wplc_data_triggers.php:101
+msgid "Show After Scrolled"
+msgstr "الظهور بعد تصفح"
+
+#: includes/wplc_data_triggers.php:102
+msgid "(%) Percent of page height"
+msgstr "(%) في المئة من ارتفاع الصفحة"
+
+#: includes/wplc_data_triggers.php:106
+msgid "Content Replacement"
+msgstr "استبدال المحتوى"
+
+#: includes/wplc_data_triggers.php:117
+msgid "Replace Content"
+msgstr "استبدال المحتوى"
+
+#: includes/wplc_data_triggers.php:122
+msgid "Enable Trigger"
+msgstr "تفعيل المشغل"
+
+#: includes/wplc_data_triggers.php:128 modules/node_server.php:596
+#: wp-live-chat-support.php:4677
+msgid "Close"
+msgstr "إغلاق"
+
+#: includes/wplc_data_triggers.php:138 includes/wplc_departments.php:262
+#: includes/wplc_roi.php:278
+msgid "Please review your submission"
+msgstr "يرجى مراجعة طلبك بعناية"
+
+#: includes/wplc_data_triggers.php:286
+msgid "Trigger has been edited."
+msgstr "لقد تم تعديل المشفل."
+
+#: includes/wplc_data_triggers.php:451
+msgid "Conflict with page"
+msgstr "تعارض مع صفحة"
+
+#: includes/wplc_data_triggers.php:453
+msgid "Trigger ID: "
+msgstr "معرف المشغل: "
+
+#: includes/wplc_data_triggers.php:454
+msgid ""
+"It is possible that this trigger may override another trigger, or be "
+"overridden by another trigger."
+msgstr ""
+
+#: includes/wplc_data_triggers.php:467 includes/wplc_roi.php:162
+#: modules/node_server.php:187 modules/node_server.php:895
+msgid "Page"
+msgstr "الصفحة"
+
+#: includes/wplc_data_triggers.php:486 includes/wplc_roi.php:713
+msgid "All"
+msgstr "الكل"
+
+#: includes/wplc_data_triggers.php:490
+msgid "Click to change trigger status"
+msgstr "انقر لتغيير حالة المشغل"
+
+#: includes/wplc_data_triggers.php:500
+msgid "No Triggers Found..."
+msgstr "لا توجد مشغلات..."
+
+#: includes/wplc_data_triggers.php:611
+msgid "Are you sure you would like to delete trigger"
+msgstr "هل ترغب في حذف المشغل"
+
+#: includes/wplc_departments.php:60 includes/wplc_departments.php:64
+#: includes/wplc_departments.php:88 includes/wplc_departments.php:548
+#: includes/wplc_departments.php:653 includes/wplc_transfer_chats.php:96
+msgid "No Department"
+msgstr ""
+
+#: includes/wplc_departments.php:84
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Chat Department"
+msgstr "تم حذف المحادثة"
+
+#: includes/wplc_departments.php:129 includes/wplc_departments.php:145
+#: includes/wplc_departments.php:522 includes/wplc_departments.php:538
+msgid "Departments"
+msgstr ""
+
+#: includes/wplc_departments.php:129
+msgid "beta"
+msgstr ""
+
+#: includes/wplc_departments.php:142
+#, fuzzy
+#| msgid "Main Settings"
+msgid "Department Settings"
+msgstr "الإعدادات الرئيسية"
+
+#: includes/wplc_departments.php:195
+#, fuzzy
+#| msgid "No Triggers Found..."
+msgid "No Departments Found..."
+msgstr "لا توجد مشغلات..."
+
+#: includes/wplc_departments.php:246
+msgid "Department Name"
+msgstr ""
+
+#: includes/wplc_departments.php:331
+#, fuzzy
+#| msgid "Goal has been edited."
+msgid "Department has been edited."
+msgstr "لقد تم تعديل الهدف."
+
+#: includes/wplc_departments.php:470
+#, fuzzy
+#| msgid "Are you sure you would like to delete goal"
+msgid "Are you sure you would like to delete department"
+msgstr "هل أنت متأكد من أنك تريد حذف الهدف"
+
+#: includes/wplc_departments.php:543
+msgid "Default Department"
+msgstr ""
+
+#: includes/wplc_departments.php:544
+msgid "Default department a new chat is assigned to"
+msgstr ""
+
+#: includes/wplc_departments.php:559
+msgid "Create or Edit Departments"
+msgstr ""
+
+#: includes/wplc_departments.php:565
+msgid "User Department Selection"
+msgstr ""
+
+#: includes/wplc_departments.php:566
+msgid "Allow user to select a department before starting a chat?"
+msgstr ""
+
+#: includes/wplc_departments.php:575
+msgid ""
+"Note: Chats will be transferred in the event that agents are not available "
+"within the selected department"
+msgstr ""
+
+#: includes/wplc_departments.php:586
+#, fuzzy, php-format
+#| msgid "Chat Deleted"
+msgid "Create departments %s."
+msgstr "تم حذف المحادثة"
+
+#: includes/wplc_departments.php:632
+msgid "Department you have been assigned to as an agent"
+msgstr ""
+
+#: includes/wplc_departments.php:632 includes/wplc_transfer_chats.php:45
+#: modules/node_server.php:190 modules/node_server.php:897
+msgid "Department"
+msgstr ""
+
+#: includes/wplc_departments.php:739
+#, fuzzy
+#| msgid "Select a survey"
+msgid "Select Department"
+msgstr "اختيار الاستطلاع"
+
+#: includes/wplc_roi.php:104 includes/wplc_roi.php:119
+#: wp-live-chat-support.php:3951
+msgid "ROI Goals"
+msgstr "أهداف ROI"
+
+#: includes/wplc_roi.php:116
+#, fuzzy
+#| msgid "Reports"
+msgid "View Reports"
+msgstr "التقارير"
+
+#: includes/wplc_roi.php:163
+msgid "Value"
+msgstr "القيمة"
+
+#: includes/wplc_roi.php:185
+msgid "No ROI Goals Found..."
+msgstr "لا توجد أهداف ROI."
+
+#: includes/wplc_roi.php:243
+msgid "Goal Name"
+msgstr "اسم الهدف"
+
+#: includes/wplc_roi.php:248
+msgid "Goal Overview"
+msgstr "نظرة عامة على الهدف"
+
+#: includes/wplc_roi.php:253
+msgid "Goal Page"
+msgstr "صفحة الهدف"
+
+#: includes/wplc_roi.php:262
+msgid "Goal Value"
+msgstr "قيمة الهدف"
+
+#: includes/wplc_roi.php:415
+msgid "Goal has been edited."
+msgstr "لقد تم تعديل الهدف."
+
+#: includes/wplc_roi.php:586
+msgid "Are you sure you would like to delete goal"
+msgstr "هل أنت متأكد من أنك تريد حذف الهدف"
+
+#: includes/wplc_roi.php:673
+#, fuzzy
+#| msgid "ROI Reporting"
+msgid "ROI Reports"
+msgstr "تقارير ROI"
+
+#: includes/wplc_roi.php:692
+msgid "Goal Statistics"
+msgstr "احصائيات الهدف"
+
+#: includes/wplc_roi.php:704
+msgid "No Goals Found"
+msgstr "لا يوجد أهداف"
+
+#: includes/wplc_roi.php:714
+msgid "Last 30 Days"
+msgstr "اخر 30 يوم"
+
+#: includes/wplc_roi.php:715
+msgid "Last 15 Days"
+msgstr "اخر 15 يوم"
+
+#: includes/wplc_roi.php:716
+msgid "Last 7 Days"
+msgstr "اخر 7 ايام"
+
+#: includes/wplc_roi.php:717
+msgid "Last 24 Hours"
+msgstr "اخر 24 ساعة"
+
+#: includes/wplc_roi.php:769
+msgid "Value Per Conversion"
+msgstr "القيمة لكل تحويل"
+
+#: includes/wplc_roi.php:775
+msgid "Total Value"
+msgstr "إجمالي القيمة"
+
+#: includes/wplc_roi.php:780
+msgid "Total Conversions"
+msgstr "إجمالي التحويلات"
+
+#: includes/wplc_roi.php:812
+msgid "Value By Date"
+msgstr "القيمة حسب التاريخ"
+
+#: includes/wplc_roi.php:815
+msgid "Value By Agent"
+msgstr "القيمة حسب المندوب"
+
+#: includes/wplc_roi.php:821
+msgid "No data available yet..."
+msgstr "لا تتوافر بيانات."
+
+#: includes/wplc_transfer_chats.php:17 modules/node_server.php:884
+msgid "Transfer"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:29
+#, fuzzy
+#| msgid "Start Chat"
+msgid "Transfer Chat"
+msgstr "بدء المحادثة"
+
+#: includes/wplc_transfer_chats.php:43
+#, fuzzy
+#| msgid "Are you sure you would like to delete this chat?"
+msgid "Would you like to transfer this chat to"
+msgstr "هل انت متأكد من انك تريد حذف تلك المحادثة؟"
+
+#: includes/wplc_transfer_chats.php:44 modules/node_server.php:82
+#, fuzzy
+#| msgid "Agents"
+msgid "Agent"
+msgstr "المندوبون"
+
+#: includes/wplc_transfer_chats.php:50
+msgid "Please select an agent to transfer to"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:57
+msgid "Please select a department to transfer to"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:75
+#, fuzzy
+#| msgid "Agents"
+msgid "No Agent"
+msgstr "المندوبون"
+
+#: includes/wplc_transfer_chats.php:81
+#, fuzzy
+#| msgid "Your"
+msgid "You"
+msgstr "الخاص بك"
+
+#: includes/wplc_transfer_chats.php:122
+#, fuzzy
+#| msgid "Chat Agents Online"
+msgid "Checking if agent is online"
+msgstr "المندوبون المتواجدون"
+
+#: includes/wplc_transfer_chats.php:123
+msgid "Agent is not online, transfer cannot be made"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:125
+msgid "Checking if agents in department are online"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:126
+msgid ""
+"No agent within the department are available to accept the transfer, "
+"transfer cannot be made"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:128
+msgid "Agent(s) available, safe to transfer"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:130
+msgid "Transfer Complete. Closing Window..."
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:131
+#, fuzzy
+#| msgid "There is No Answer. Please Try Again Later"
+msgid "Transfer Failed. Please try again later..."
+msgstr "لا توجد إجابة. الرجاء المحاولة مرة أخرى لاحقاً"
+
+#: includes/wplc_transfer_chats.php:374
+msgid "Transfer for"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:377
+#, fuzzy
+#| msgid "Accept Chat"
+msgid "Accept Transfer"
+msgstr "قبول المحادثة"
+
+#: includes/wplc_transfer_chats.php:455
+msgid ""
+"Department took too long to respond, we are transferring this chat to the "
+"next available agent."
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:457
+msgid ""
+"took too long to respond, we are transferring this chat to the next "
+"available agent."
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:460
+#, fuzzy
+#| msgid "Chat answered by another agent"
+msgid "has transferred the chat."
+msgstr "لقد تم الرد على هذه المحادثة بواسطة مندوب آخر"
+
+#: includes/wplc_transfer_chats.php:483
+msgid "User received this message"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:528
+#, fuzzy
+#| msgid "No data available yet..."
+msgid "No agents available in"
+msgstr "لا تتوافر بيانات."
+
+#: includes/wplc_transfer_chats.php:530
+msgid "selected department"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:536
+msgid "automatically transferring you to"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:538
+#, fuzzy
+#| msgid "No chats available at the moment"
+msgid "the next available department"
+msgstr "لا توجد محادثات في الوقت الراهن"
+
+#: includes/wplc_transfer_chats.php:566
+#, fuzzy
+#| msgid "Chat answered by another agent"
+msgid "User has been transferred from"
+msgstr "لقد تم الرد على هذه المحادثة بواسطة مندوب آخر"
+
+#: includes/wplc_transfer_chats.php:568
+msgid "department"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:577
+msgid "to"
+msgstr ""
+
+#: includes/wplc_transfer_chats.php:580
+msgid "as there were no agents online"
+msgstr ""
+
+#: modules/advanced_features.php:17
+#, fuzzy
+#| msgid "Advanced settings"
+msgid "Advanced Features"
+msgstr "إعدادات متقدمة"
+
+#: modules/advanced_features.php:33
+#, fuzzy
+#| msgid "Cloud Server"
+msgid "Chat Server"
+msgstr "خادم سحابي"
+
+#: modules/advanced_features.php:41
+#, fuzzy
+#| msgid "Select a survey"
+msgid "Select your chat server"
+msgstr "اختيار الاستطلاع"
+
+#: modules/advanced_features.php:41
+msgid "Choose between 3CX servers or your Wordpress server for chat delivery"
+msgstr ""
+
+#: modules/advanced_features.php:47
+msgid ""
+"3CX Servers are high performance secure instances hosted on Google Cloud and "
+"are completely free to use. 3CX Servers don't log or store messages. "
+"Messages are simply forwarded between users and agents. Chat sessions are "
+"stored on your Wordpress database only."
+msgstr ""
+
+#: modules/advanced_features.php:48
+msgid ""
+"Using your own Wordpress server as a chat relay may cause performance "
+"slowdowns to your website, especially on shared hosts. Due to HTTP long poll "
+"mechanism, messages and events could be slightly delayed."
+msgstr ""
+
+#: modules/advanced_features.php:54
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Chat server token"
+msgstr "تم حذف المحادثة"
+
+#: modules/advanced_features.php:54
+msgid ""
+"Security token for accessing chats on the node server. Changing this will "
+"close your currently active chat sessions."
+msgstr ""
+
+#: modules/advanced_features.php:59 modules/api/public/wplc-api.php:84
+msgid "Generate New"
+msgstr "انشاء جديد"
+
+#: modules/advanced_features.php:64
+msgid "Enable typing preview"
+msgstr ""
+
+#: modules/advanced_features.php:64
+msgid ""
+"This option enables the typing preview, which means agents will be able to "
+"see what the user is typing in realtime."
+msgstr ""
+
+#: modules/advanced_features.php:70
+msgid "Typing preview is not available when GDPR is enabled"
+msgstr ""
+
+#: modules/advanced_features.php:80
+#, fuzzy
+#| msgid "Total number of chats received"
+msgid "Number of chat rings"
+msgstr "إجمالي المحادثات الواردة"
+
+#: modules/advanced_features.php:80
+msgid "Limit the amount of time the new chat ringer will play"
+msgstr ""
+
+#: modules/advanced_tools.php:40
+#, fuzzy
+#| msgid "Chat ID"
+msgid "Chat Data"
+msgstr "رمز المحادثة"
+
+#: modules/advanced_tools.php:48
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Settings"
+msgstr "إعدادات نافذة المحادثة"
+
+#: modules/advanced_tools.php:52
+#, fuzzy
+#| msgid "Settings"
+msgid "Export Settings"
+msgstr "الاعدادات"
+
+#: modules/advanced_tools.php:55 modules/advanced_tools.php:108
+#, fuzzy
+#| msgid "Settings"
+msgid "Import Settings"
+msgstr "الاعدادات"
+
+#: modules/advanced_tools.php:62 modules/node_server.php:876
+#: wp-live-chat-support.php:3964
+#, fuzzy
+#| msgid "View Chat History"
+msgid "Chat History"
+msgstr "عرض سجل المحادثات"
+
+#: modules/advanced_tools.php:66
+#, fuzzy
+#| msgid "History"
+msgid "Export History"
+msgstr "السجل"
+
+#: modules/advanced_tools.php:73
+#, fuzzy
+#| msgid "Chat Experience Ratings"
+msgid "Chat Ratings"
+msgstr "تقييمات المحادثات"
+
+#: modules/advanced_tools.php:77
+#, fuzzy
+#| msgid "Experience Rating"
+msgid "Export Ratings"
+msgstr "معدل التقييم"
+
+#: modules/advanced_tools.php:88
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Export Offline Messages"
+msgstr "الرسائل دون اتصال"
+
+#: modules/advanced_tools.php:116
+msgid "CSV File"
+msgstr ""
+
+#: modules/advanced_tools.php:127
+msgid "Please note: Import CSV must have been exported using the Export tool"
+msgstr ""
+
+#: modules/advanced_tools.php:135
+#, fuzzy
+#| msgid "Support"
+msgid "Import"
+msgstr "الدعم"
+
+#: modules/advanced_tools.php:135
+msgid "This cannot be undone"
+msgstr ""
+
+#: modules/advanced_tools.php:193
+msgid "Import Failed - Could Not Process File"
+msgstr ""
+
+#: modules/advanced_tools.php:207
+msgid "Import Failed - Could Not Find File"
+msgstr ""
+
+#: modules/advanced_tools.php:219
+#, fuzzy
+#| msgid "complete"
+msgid "Import Complete"
+msgstr "اكتمل"
+
+#: modules/advanced_tools.php:227
+#, fuzzy
+#| msgid "Your settings have been saved."
+msgid "Thank you, all settings have been updated"
+msgstr "تم حفظ إعداداتك."
+
+#: modules/api/agent/wplc-api-functions.php:193
+#: modules/api/agent/wplc-api-functions.php:520
+#: modules/api/public/wplc-api-functions.php:156 modules/node_server.php:366
+#: modules/node_server.php:434
+#, fuzzy
+#| msgid "Actions"
+msgid "Action not set"
+msgstr "الإجراءات"
+
+#: modules/api/agent/wplc-api-functions.php:375
+msgid "IP Address not recorded"
+msgstr "عنوان الـIP غير مسجل"
+
+#: modules/api/agent/wplc-api-functions.php:1014
+#, fuzzy
+#| msgid "Upload Logo"
+msgid "Upload error"
+msgstr "رفع شعار"
+
+#: modules/api/agent/wplc-api-functions.php:1017
+msgid "Security Violation - File unsafe"
+msgstr ""
+
+#: modules/api/public/wplc-api.php:47 modules/api/public/wplc-api.php:74
+msgid "REST API"
+msgstr "REST API"
+
+#: modules/api/public/wplc-api.php:64
+msgid ""
+"To make use of the REST API, please ensure you are using a version of "
+"WordPress with the REST API included."
+msgstr ""
+"للاستفادة من REST API، يرجى التأكد من استخدام نسخة وورد برس تدعم REST API."
+
+#: modules/api/public/wplc-api.php:66
+msgid ""
+"Alternatively, please install the official Rest API plugin from WordPress."
+msgstr "بدلاً من ذلك، يمكنك تثبيت إضافة Rest API من خلال الوورد بر."
+
+#: modules/api/public/wplc-api.php:79
+msgid "Secret Token"
+msgstr "الرمز السري"
+
+#: modules/api/public/wplc-api.php:82
+msgid "No secret token found"
+msgstr "لا يوجد رمز سري"
+
+#: modules/cta_animations.php:19
+#, fuzzy
+#| msgid "No Animation"
+msgid "Call To Action Animation"
+msgstr "لا توجد حركة"
+
+#: modules/gdpr.php:22
+msgid "Enable privacy controls"
+msgstr ""
+
+#: modules/gdpr.php:22
+msgid "Disabling will disable all GDPR related options, this is not advised."
+msgstr ""
+
+#: modules/gdpr.php:26
+msgid "Importance of GDPR Compliance"
+msgstr ""
+
+#: modules/gdpr.php:32
+msgid "Organization name"
+msgstr ""
+
+#: modules/gdpr.php:41
+msgid "Data retention purpose"
+msgstr ""
+
+#: modules/gdpr.php:44 modules/gdpr.php:345 wp-live-chat-support.php:401
+#, fuzzy
+#| msgid "Support"
+msgid "Chat/Support"
+msgstr "الدعم"
+
+#: modules/gdpr.php:50
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Data retention period"
+msgstr "تم حذف المحادثة"
+
+#: modules/gdpr.php:53
+msgid "days"
+msgstr ""
+
+#: modules/gdpr.php:59
+#, fuzzy
+#| msgid "Active Chats"
+msgid "GDPR notice to visitors"
+msgstr "المحادثات النشطة"
+
+#: modules/gdpr.php:60
+msgid ""
+"Users will be asked to accept the notice shown here, in the form of a check "
+"box."
+msgstr ""
+
+#: modules/gdpr.php:90 modules/gdpr.php:101
+msgid "GDPR Control"
+msgstr ""
+
+#: modules/gdpr.php:103
+msgid ""
+"Search is performed on chat sessions, messages, and offline messages. Data "
+"will also be deleted automatically per your retention policy."
+msgstr ""
+
+#: modules/gdpr.php:112
+#, fuzzy
+#| msgid "Leave a message"
+msgid "Name, Email, Message"
+msgstr "اترك رسالة"
+
+#: modules/gdpr.php:116 modules/node_server.php:218
+#, fuzzy
+#| msgid "Search Term"
+msgid "Search"
+msgstr "كلمة بحث"
+
+#: modules/gdpr.php:129
+#, php-format
+msgid "Search Results in %%TABLE%%"
+msgstr ""
+
+#: modules/gdpr.php:157
+#, php-format
+msgid "Delete Chat (%%CID%%)"
+msgstr ""
+
+#: modules/gdpr.php:158
+#, fuzzy, php-format
+#| msgid "Download Chat History"
+msgid "Download Chat (%%CID%%)"
+msgstr "تحميل سجل المحادثات"
+
+#: modules/gdpr.php:162 wp-live-chat-support.php:4219
+#: wp-live-chat-support.php:4279
+msgid "Chat ID"
+msgstr "رمز المحادثة"
+
+#: modules/gdpr.php:183
+msgid "Please perform a search using the input field above"
+msgstr ""
+
+#: modules/gdpr.php:257
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Data Deleted"
+msgstr "تم حذف المحادثة"
+
+#: modules/gdpr.php:343
+#, php-format
+msgid ""
+"I agree for my personal data to be processed and for the use of cookies in "
+"order to engage in a chat processed by %%COMPANY%%, for the purpose of "
+"%%PURPOSE%%, for the time of %%PERIOD%% day(s) as per the GDPR."
+msgstr ""
+
+#: modules/gdpr.php:365 modules/gdpr.php:566 modules/gdpr.php:587
+msgid "Privacy Policy"
+msgstr ""
+
+#: modules/gdpr.php:366
+#, php-format
+msgid ""
+"We use WP Live Chat by 3CX as our live chat platform. By clicking below to "
+"submit this form, you acknowledge that the information you provide now and "
+"during the chat will be transferred to WP Live Chat by 3CX for processing in "
+"accordance with their %%POLICY_LINK%%."
+msgstr ""
+
+#: modules/gdpr.php:388
+#, php-format
+msgid ""
+"Please note as per the GDPR settings you have selected, all chat data will "
+"be retained for %%PERIOD%% day(s)."
+msgstr ""
+
+#: modules/gdpr.php:391
+#, php-format
+msgid ""
+"After this period of time, all chat data older than %%PERIOD%% day(s), will "
+"be permanently removed from your server."
+msgstr ""
+
+#: modules/gdpr.php:395
+msgid "GDPR - Data Retention"
+msgstr ""
+
+#: modules/gdpr.php:401 modules/gdpr.php:568
+#, fuzzy
+#| msgid "Main Settings"
+msgid "Privacy Settings"
+msgstr "الإعدادات الرئيسية"
+
+#: modules/gdpr.php:416
+msgid "Once every 6 hours"
+msgstr ""
+
+#: modules/gdpr.php:534
+#, fuzzy
+#| msgid "Chat ended"
+msgid "Chat Ended"
+msgstr "انتهت المحادثة"
+
+#: modules/gdpr.php:559
+msgid ""
+"GDPR compliance has been disabled, read more about the implications of this "
+"here"
+msgstr ""
+
+#: modules/gdpr.php:560
+#, fuzzy
+#| msgid " with the Pro add-on of WP Live Chat Support"
+msgid "Additionally please take a look at WP Live Chat by 3CX"
+msgstr " من خلال النسخة المدفوعة من WP Live Chat Support"
+
+#: modules/gdpr.php:561
+msgid ""
+"It is highly recommended that you enable GDPR compliance to ensure your user "
+"data is regulated."
+msgstr ""
+
+#: modules/gdpr.php:564
+msgid "Warning - GDPR Compliance Disabled - Action Required"
+msgstr ""
+
+#: modules/gdpr.php:565
+msgid "EU GDPR"
+msgstr ""
+
+#: modules/gdpr.php:569
+msgid "Dismiss & Accept Responsibility"
+msgstr ""
+
+#: modules/gdpr.php:586
+#, php-format
+msgid "Please refer to our %%PRIVACY_LINK%% for information on Data Processing"
+msgstr ""
+
+#: modules/gdpr.php:634
+msgid "GDPR Compliance Enabled - Server Selection Limited to EU"
+msgstr ""
+
+#: modules/gdpr.php:666
+msgid "Pro data will also be removed as a part of this automatic process."
+msgstr ""
+
+#: modules/google_analytics.php:17
+msgid "Google Analytics Integration"
+msgstr ""
+
+#: modules/google_analytics.php:22
+msgid "Enable Google Analytics Integration"
+msgstr ""
+
+#: modules/node_server.php:45
+msgid "Toggle user list"
+msgstr ""
+
+#: modules/node_server.php:46
+msgid "Toggle WordPress Menu for a full screen experience"
+msgstr ""
+
+#: modules/node_server.php:78 modules/node_server.php:182
+#: modules/node_server.php:874 modules/node_server.php:892
+#, fuzzy
+#| msgid "Active Chats"
+msgid "Active visitors"
+msgstr "المحادثات النشطة"
+
+#: modules/node_server.php:100 wp-live-chat-support.php:1864
+#, fuzzy
+#| msgid "Initiate Chat"
+msgid "Minimize Chat"
+msgstr "بدء المحادثة"
+
+#: modules/node_server.php:109 modules/node_server.php:879
+#, fuzzy
+#| msgid "Chat Agent"
+msgid "Invite Agent"
+msgstr "المندوب"
+
+#: modules/node_server.php:110 modules/node_server.php:880
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Invite Department"
+msgstr "تم حذف المحادثة"
+
+#: modules/node_server.php:111 modules/node_server.php:881
+#: modules/node_server.php:885 wp-live-chat-support.php:4021
+msgid "Direct User To Page"
+msgstr ""
+
+#: modules/node_server.php:113
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Transcript"
+msgstr "إعدادات نافذة المحادثة"
+
+#: modules/node_server.php:114 modules/node_server.php:882
+#, fuzzy
+#| msgid "Before chat"
+msgid "Leave chat"
+msgstr "قبل المحادثة"
+
+#: modules/node_server.php:115 modules/node_server.php:883
+#: wp-live-chat-support.php:2582
+msgid "End chat"
+msgstr "إنهاء المحادثة"
+
+#: modules/node_server.php:126
+msgid "Something"
+msgstr ""
+
+#: modules/node_server.php:137 modules/node_server.php:887
+#, fuzzy
+#| msgid "End chat"
+msgid "Join chat"
+msgstr "إنهاء المحادثة"
+
+#: modules/node_server.php:138
+#, fuzzy
+#| msgid "type here..."
+msgid "Type here..."
+msgstr "أكتب هنا ..."
+
+#: modules/node_server.php:139
+msgid "bold"
+msgstr ""
+
+#: modules/node_server.php:139
+msgid "italics"
+msgstr ""
+
+#: modules/node_server.php:139
+msgid "code"
+msgstr ""
+
+#: modules/node_server.php:139
+msgid "preformatted"
+msgstr ""
+
+#: modules/node_server.php:159
+msgid "Filter the user list based on activity."
+msgstr ""
+
+#: modules/node_server.php:164 modules/node_server.php:889
+#, fuzzy
+#| msgid "Visitors online"
+msgid "New Visitors (3 Min)"
+msgstr "الزوار المتواجدين"
+
+#: modules/node_server.php:165 modules/node_server.php:890
+msgid "Active Chats"
+msgstr "المحادثات النشطة"
+
+#: modules/node_server.php:166
+#, fuzzy
+#| msgid "Total URLs"
+msgid "Page URL"
+msgstr "إجمالي عدد الصفحات"
+
+#: modules/node_server.php:167 modules/node_server.php:891
+msgid "Clear Filters"
+msgstr ""
+
+#: modules/node_server.php:178
+#, fuzzy
+#| msgid "Contact us"
+msgid "Contains"
+msgstr "اتصل بنا"
+
+#: modules/node_server.php:185 modules/node_server.php:893
+#: wp-live-chat-support.php:2372
+msgid "Visitor"
+msgstr "زائر"
+
+#: modules/node_server.php:186 modules/node_server.php:894
+#, fuzzy
+#| msgid "Site Info"
+msgid "Info"
+msgstr "معلومات الموقع"
+
+#: modules/node_server.php:188 modules/node_server.php:896
+#, fuzzy
+#| msgid "Status"
+msgid "Chat Status"
+msgstr "الحالة"
+
+#: modules/node_server.php:219 modules/node_server.php:898
+#, fuzzy
+#| msgid "Search Term"
+msgid "Search Results"
+msgstr "كلمة بحث"
+
+#: modules/node_server.php:221 modules/node_server.php:899
+#, fuzzy
+#| msgid "No Goals Found"
+msgid "No emoji found"
+msgstr "لا يوجد أهداف"
+
+#: modules/node_server.php:352 modules/node_server.php:360
+#: modules/node_server.php:420 modules/node_server.php:428
+msgid "Success"
+msgstr ""
+
+#: modules/node_server.php:363 modules/node_server.php:431
+msgid "Message data is corrupt"
+msgstr ""
+
+#: modules/node_server.php:369 modules/node_server.php:437
+msgid "Message data array not set"
+msgstr ""
+
+#: modules/node_server.php:372 modules/node_server.php:440
+#, fuzzy
+#| msgid "Chat with us"
+msgid "Chat ID is not set"
+msgstr "تحدث الينا"
+
+#: modules/node_server.php:376 modules/node_server.php:444
+#, fuzzy
+#| msgid "No secret token found"
+msgid "No security nonce found"
+msgstr "لا يوجد رمز سري"
+
+#: modules/node_server.php:460
+msgid "Error"
+msgstr ""
+
+#: modules/node_server.php:460
+#, fuzzy
+#| msgid "Only chat agents can accept chats"
+msgid "Only chat agents can access this page."
+msgstr "يمكن فقط للمندوبين قبول طلبات المحادثة"
+
+#: modules/node_server.php:594 wp-live-chat-support.php:4675
+#, fuzzy
+#| msgid "Sending message..."
+msgid "Sending transcript..."
+msgstr "إرسال الرسالة..."
+
+#: modules/node_server.php:595
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Transcript"
+msgstr "إعدادات نافذة المحادثة"
+
+#: modules/node_server.php:597 wp-live-chat-support.php:4678
+#, fuzzy
+#| msgid "The chat has been ended"
+msgid "The chat transcript has been emailed."
+msgstr "لقد تم انهاء هذه المحادثة"
+
+#: modules/node_server.php:598 wp-live-chat-support.php:4679
+msgid "There was a problem emailing the chat."
+msgstr ""
+
+#: modules/node_server.php:612
+msgid "Connection Error"
+msgstr ""
+
+#: modules/node_server.php:613
+msgid ""
+"We are having some trouble contacting the server. Please try again later."
+msgstr ""
+
+#: modules/node_server.php:651
+msgid "Chat is disabled in settings area, re-enable"
+msgstr ""
+
+#: modules/node_server.php:678
+msgid "User received notification:"
+msgstr ""
+
+#: modules/node_server.php:684 wp-live-chat-support.php:2191
+msgid "New chat received"
+msgstr "تم تلقى محادثة جديدة"
+
+#: modules/node_server.php:685 wp-live-chat-support.php:2193
+msgid ""
+"A new chat has been received. Please go the 'Live Chat' page to accept the "
+"chat"
+msgstr ""
+"لقد وردت محادثة جديدة. الرجاء الذهاب لصفحة '\"المحادثة\"' لقبول المحادثة"
+
+#: modules/node_server.php:797
+#, fuzzy
+#| msgid "Via WP Live Chat Support"
+msgid "Welcome to V8 of WP Live Chat by 3CX"
+msgstr "من خلال WP Live Chat Support"
+
+#: modules/node_server.php:798
+msgid ""
+"Did you know, this version features high speed message delivery, agent to "
+"agent chat, and a single window layout?"
+msgstr ""
+
+#: modules/node_server.php:799
+msgid ""
+"To activate this functionality please navigate to Live Chat -> Settings -> "
+"Advanced Features -> And enable 3CX High Performance Chat Cloud Servers."
+msgstr ""
+
+#: modules/node_server.php:802
+#, fuzzy
+#| msgid "Show After"
+msgid "Show me!"
+msgstr "الظهور بعد"
+
+#: modules/node_server.php:803 wp-live-chat-support.php:4646
+msgid "Don't Show This Again"
+msgstr ""
+
+#: modules/node_server.php:870 wp-live-chat-support.php:428
+msgid "Connecting..."
+msgstr ""
+
+#: modules/node_server.php:875
+#, fuzzy
+#| msgid "Agent(s) online"
+msgid "Agent(s) Online"
+msgstr "مندوب متواجد"
+
+#: modules/node_server.php:886
+#, fuzzy
+#| msgid "Agents"
+msgid "Events"
+msgstr "المندوبون"
+
+#: modules/node_server.php:888
+msgid "Filters"
+msgstr ""
+
+#: modules/node_server.php:974
+msgid ""
+"You can transfer chats from within a chat by clicking on the in chat menu, "
+"and selecting Transfer Chat or Transfer Department"
+msgstr ""
+
+#: modules/node_server.php:975
+msgid ""
+"You can share files quickly when in a chat, by simply dragging a file into "
+"the chat window!"
+msgstr ""
+
+#: modules/node_server.php:976
+msgid "You can now move between chats without ending/closing an open chat"
+msgstr ""
+
+#: modules/node_server.php:1031
+#, fuzzy
+#| msgid "No Quick Responses found"
+msgid "No quick responses found"
+msgstr "لا يوجد ردود سريعة"
+
+#: modules/privacy.php:20 modules/privacy.php:34
+msgid "Privacy"
+msgstr ""
+
+#: modules/webhooks_manager.php:12
+#, fuzzy
+#| msgid "Agent(s) online"
+msgid "Agent Login"
+msgstr "مندوب متواجد"
+
+#: modules/webhooks_manager.php:13
+#, fuzzy
+#| msgid "Visitor"
+msgid "New Visitor"
+msgstr "زائر"
+
+#: modules/webhooks_manager.php:14
+#, fuzzy
+#| msgid "Chat Deleted"
+msgid "Chat Request"
+msgstr "تم حذف المحادثة"
+
+#: modules/webhooks_manager.php:15
+msgid "Agent Accept"
+msgstr ""
+
+#: modules/webhooks_manager.php:16
+#, fuzzy
+#| msgid "Settings"
+msgid "Settings Changed"
+msgstr "الاعدادات"
+
+#: modules/webhooks_manager.php:49
+msgid "Webhooks"
+msgstr ""
+
+#: modules/webhooks_manager.php:63 wp-live-chat-support.php:3950
+msgid "Web Hooks"
+msgstr ""
+
+#: modules/webhooks_manager.php:85
+msgid "Webhook created"
+msgstr ""
+
+#: modules/webhooks_manager.php:87
+msgid "Webhook could not be created"
+msgstr ""
+
+#: modules/webhooks_manager.php:94
+msgid "Webhook edited"
+msgstr ""
+
+#: modules/webhooks_manager.php:96
+msgid "Webhook could not be edited"
+msgstr ""
+
+#: modules/webhooks_manager.php:108
+#, fuzzy
+#| msgid "deleted"
+msgid "Webhook deleted"
+msgstr "تم حذفه"
+
+#: modules/webhooks_manager.php:110
+#, fuzzy
+#| msgid "Error: Could not delete chat"
+msgid "Webhook could not be delete"
+msgstr "خطأ: لا يمكن حذف المحادثة"
+
+#: modules/webhooks_manager.php:248 modules/webhooks_manager.php:301
+msgid "Event"
+msgstr ""
+
+#: modules/webhooks_manager.php:249 modules/webhooks_manager.php:306
+#, fuzzy
+#| msgid "Total URLs"
+msgid "Target URL"
+msgstr "إجمالي عدد الصفحات"
+
+#: modules/webhooks_manager.php:250 modules/webhooks_manager.php:311
+#, fuzzy
+#| msgid "Sending Method"
+msgid "Method"
+msgstr "طريقة الإرسال"
+
+#: modules/webhooks_manager.php:271
+msgid "No Webhooks"
+msgstr ""
+
+#: modules/webhooks_manager.php:314
+msgid "GET"
+msgstr ""
+
+#: modules/webhooks_manager.php:315
+msgid "POST"
+msgstr ""
+
+#: modules/webhooks_manager.php:321
+#, fuzzy
+#| msgid "Save Settings"
+msgid "Save Changes"
+msgstr "حفظ الإعدادات"
+
+#: modules/webhooks_manager.php:337
+#, fuzzy
+#| msgid "Are you sure you would like to delete this chat?"
+msgid "Are you sure you want to delete this webhook?"
+msgstr "هل انت متأكد من انك تريد حذف تلك المحادثة؟"
+
+#: wp-live-chat-support.php:372
+msgid "close"
+msgstr "اغلاق"
+
+#: wp-live-chat-support.php:392
+#, fuzzy
+#| msgid "Via WP Live Chat Support"
+msgid "Thank you for chatting with us."
+msgstr "من خلال WP Live Chat Support"
+
+#: wp-live-chat-support.php:417 wp-live-chat-support.php:1932
+msgid "Questions?"
+msgstr "الأسئلة؟"
+
+#: wp-live-chat-support.php:418 wp-live-chat-support.php:1933
+msgid "Chat with us"
+msgstr "تحدث الينا"
+
+#: wp-live-chat-support.php:419
+msgid "Start live chat"
+msgstr "بدء المحادثة"
+
+#: wp-live-chat-support.php:420
+msgid "Complete the fields below to proceed."
+msgstr ""
+
+#: wp-live-chat-support.php:421
+msgid "Chat offline. Leave a message"
+msgstr "المحادثات غير متاحة. برجاء ترك رسالة"
+
+#: wp-live-chat-support.php:422
+msgid ""
+"We are currently offline. Please leave a message and we'll get back to you "
+"shortly."
+msgstr ""
+"المحادثة المباشرة غير متوفرة حاليا. يرجى ترك رسالة، ونحن سوف نقوم بالتواصل "
+"معك في اقرب وقت ممكن."
+
+#: wp-live-chat-support.php:423
+msgid "Sending message..."
+msgstr "إرسال الرسالة..."
+
+#: wp-live-chat-support.php:424
+msgid "Thank you for your message. We will be in contact soon."
+msgstr "شكرا لكم على رسالتكم. سنكون على اتصال قريبا."
+
+#: wp-live-chat-support.php:425
+msgid "Leave a message"
+msgstr "اترك رسالة"
+
+#: wp-live-chat-support.php:426
+msgid "Send message"
+msgstr "إرسال رسالة"
+
+#: wp-live-chat-support.php:427
+msgid "Start Chat"
+msgstr "بدء المحادثة"
+
+#: wp-live-chat-support.php:429 wp-live-chat-support.php:2073
+#: wp-live-chat-support.php:2120
+msgid "Reactivating your previous chat..."
+msgstr "إعادة تنشيط محادثتك السابقة..."
+
+#: wp-live-chat-support.php:459
+msgid "Please click 'Start Chat' to initiate a chat with an agent"
+msgstr "الرجاء النقر فوق 'بدء المحادثة' لبدء المحادثة مع مندوب"
+
+#: wp-live-chat-support.php:462
+#, fuzzy
+#| msgid "There is No Answer. Please Try Again Later"
+msgid "No answer. Try again later."
+msgstr "لا توجد إجابة. الرجاء المحاولة مرة أخرى لاحقاً"
+
+#: wp-live-chat-support.php:463
+msgid "Welcome. How may I help you?"
+msgstr "اهلا وسهلا. كيف يمكننا مساعدتك؟"
+
+#: wp-live-chat-support.php:467
+msgid "Please standby for an agent. Send your message while you wait."
+msgstr ""
+
+#: wp-live-chat-support.php:698
+msgid ""
+"The additional WP Live Chat Support PRO plugin which you have installed is "
+"no longer needed, please uninstall it."
+msgstr ""
+
+#: wp-live-chat-support.php:989 wp-live-chat-support.php:3447
+msgid "Missed Chats"
+msgstr "المحادثات الفائتة"
+
+#: wp-live-chat-support.php:997 wp-live-chat-support.php:3939
+msgid "Support"
+msgstr "الدعم"
+
+#: wp-live-chat-support.php:1199
+#, fuzzy
+#| msgid "Please review your submission"
+msgid "Please Enter Your Name"
+msgstr "يرجى مراجعة طلبك بعناية"
+
+#: wp-live-chat-support.php:1200
+#, fuzzy
+#| msgid "Please review your submission"
+msgid "Please Enter Your Email Address"
+msgstr "يرجى مراجعة طلبك بعناية"
+
+#: wp-live-chat-support.php:1201
+msgid "Connection to Server Lost. Please Reload This Page. Error:"
+msgstr ""
+
+#: wp-live-chat-support.php:1203
+#, fuzzy
+#| msgid "Leave a message"
+msgid "Please Enter a Message"
+msgstr "اترك رسالة"
+
+#: wp-live-chat-support.php:1204
+msgid "Disconnected, Attempting to Reconnect..."
+msgstr ""
+
+#: wp-live-chat-support.php:1251
+#, fuzzy
+#| msgid "User has opened the chat window"
+msgid "has joined."
+msgstr "المستخدم فتح نافذة المحادثة"
+
+#: wp-live-chat-support.php:1252
+msgid "has left."
+msgstr ""
+
+#: wp-live-chat-support.php:1253
+#, fuzzy
+#| msgid "User has opened the chat window"
+msgid "has ended the chat."
+msgstr "المستخدم فتح نافذة المحادثة"
+
+#: wp-live-chat-support.php:1254
+msgid "has disconnected."
+msgstr ""
+
+#: wp-live-chat-support.php:1255
+msgid "(edited)"
+msgstr ""
+
+#: wp-live-chat-support.php:1646 wp-live-chat-support.php:1665
+msgid "Start chat"
+msgstr "بدء المحادثة"
+
+#: wp-live-chat-support.php:1911 wp-live-chat-support.php:2653
+msgid "Send"
+msgstr "ارسال"
+
+#: wp-live-chat-support.php:2293
+msgid "Congratulations"
+msgstr "تهانينا"
+
+#: wp-live-chat-support.php:2294
+msgid "You are now accepting live chat requests on your site."
+msgstr "أنت الآن تستطيع استقبال المحادثات على موقعك."
+
+#: wp-live-chat-support.php:2295
+#, fuzzy
+#| msgid "The live chat box has automatically been enabled on your website."
+msgid "The live chat box has automatically been enabled."
+msgstr "لقد تم تفعيل صندوق المحادثات تلقائياً على الموقع الخاص بك."
+
+#: wp-live-chat-support.php:2296
+msgid "Chat notifications will start appearing once visitors send a request."
+msgstr ""
+"تنبيهات المحادثات سوف تبدأ بالظهور بمجرد قيام الزوار بإرسال طلبات المحادثة."
+
+#: wp-live-chat-support.php:2297
+#, php-format
+msgid "You may modify your chat box settings %s"
+msgstr ""
+
+#: wp-live-chat-support.php:2298
+msgid "Experiencing issues?"
+msgstr "هل تواجه مشاكل؟"
+
+#: wp-live-chat-support.php:2298
+msgid "Take a look at our how-to guides."
+msgstr ""
+
+#: wp-live-chat-support.php:2299
+msgid "Hide"
+msgstr "اخفاء"
+
+#: wp-live-chat-support.php:2352
+msgid "Keep this window open to get notified of new chats."
+msgstr ""
+
+#: wp-live-chat-support.php:2358
+#, fuzzy
+#| msgid "Visitors online"
+msgid "Visitor(s) online"
+msgstr "الزوار المتواجدين"
+
+#: wp-live-chat-support.php:2375
+msgid "Device"
+msgstr "الجهاز"
+
+#: wp-live-chat-support.php:2376
+msgid "Data"
+msgstr "البيانات"
+
+#: wp-live-chat-support.php:2409
+msgid "Chat Dashboard"
+msgstr "لوحة التحكم"
+
+#: wp-live-chat-support.php:2412
+msgid "Oh no!"
+msgstr "أوه لا!"
+
+#: wp-live-chat-support.php:2414
+#, fuzzy, php-format
+#| msgid ""
+#| "You do not have access to this page as <strong>you are not a chat agent</"
+#| "strong>."
+msgid "You do not have access to this page as %s."
+msgstr "ليس لديك حق الوصول إلى هذه الصفحة لأنك <strong>لست مندوب</strong>."
+
+#: wp-live-chat-support.php:2414
+#, fuzzy
+#| msgid "Make this user a chat agent"
+msgid "you are not a chat agent"
+msgstr "تحويل هذا المستخدم لمندوب"
+
+#: wp-live-chat-support.php:2568
+msgid "Previous"
+msgstr "السابق"
+
+#: wp-live-chat-support.php:2575
+msgid "Chat with"
+msgstr "التحدث مع"
+
+#: wp-live-chat-support.php:2592
+msgid "Starting Time:"
+msgstr ""
+
+#: wp-live-chat-support.php:2593
+msgid "Ending Time:"
+msgstr ""
+
+#: wp-live-chat-support.php:2613
+msgid "Chat initiated on:"
+msgstr "تم بدء الدردشة فى:"
+
+#: wp-live-chat-support.php:2614
+msgid "Browser:"
+msgstr "المتصفح:"
+
+#: wp-live-chat-support.php:2640 wp-live-chat-support.php:2679
+#, fuzzy
+#| msgid "Chat ID"
+msgid "Invalid Chat ID"
+msgstr "رمز المحادثة"
+
+#: wp-live-chat-support.php:2648
+msgid "type here..."
+msgstr "أكتب هنا ..."
+
+#: wp-live-chat-support.php:2806
+msgid "User has opened the chat window"
+msgstr "المستخدم فتح نافذة المحادثة"
+
+#: wp-live-chat-support.php:2807
+msgid "User has minimized the chat window"
+msgstr "المستخدم قام بتصغير نافذة المحادثة"
+
+#: wp-live-chat-support.php:2808
+msgid "User has maximized the chat window"
+msgstr "المستخدم قام بتكبير نافذة المحادثة"
+
+#: wp-live-chat-support.php:2809
+msgid "The chat has been ended"
+msgstr "لقد تم انهاء هذه المحادثة"
+
+#: wp-live-chat-support.php:3350
+msgid "Delete History"
+msgstr "حذف السجلّ"
+
+#: wp-live-chat-support.php:3367
+msgid "No chats available at the moment"
+msgstr "لا توجد محادثات في الوقت الراهن"
+
+#: wp-live-chat-support.php:3487
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: wp-live-chat-support.php:3501
+msgid "You have not received any offline messages."
+msgstr "ليس لديك أية رسائل."
+
+#: wp-live-chat-support.php:3509
+msgid "Delete Message"
+msgstr "حذف الرسالة"
+
+#: wp-live-chat-support.php:3618
+msgid "You do not have permission to save settings."
+msgstr ""
+
+#: wp-live-chat-support.php:3884
+msgid "Your settings have been saved."
+msgstr "تم حفظ إعداداتك."
+
+#: wp-live-chat-support.php:3913
+#, fuzzy
+#| msgid ""
+#| "WPLC: set_time_limit() is not enabled on this server. You may experience "
+#| "issues while using WP Live Chat Support as a result of this. Please get "
+#| "in contact your host to get this function enabled."
+msgid ""
+"WPLC: set_time_limit() is not enabled on this server. You may experience "
+"issues while using WP Live Chat by 3CX as a result of this. Please get in "
+"contact your host to get this function enabled."
+msgstr ""
+"WPLC: set_time_limit() غير مفعل على الخادم. قد تواجه مشاكل اثناء استخدامك  "
+"WP Live Chat Support نتيجة لذلك. يرجى الاتصال بالمستضيف الخاص بك لتفعيل هذه "
+"الخاصية."
+
+#: wp-live-chat-support.php:3919
+#, fuzzy
+#| msgid ""
+#| "WPLC: Safe mode is enabled on this server. You may experience issues "
+#| "while using WP Live Chat Support as a result of this. Please contact your "
+#| "host to get safe mode disabled."
+msgid ""
+"WPLC: Safe mode is enabled on this server. You may experience issues while "
+"using WP Live Chat by 3CX as a result of this. Please contact your host to "
+"get safe mode disabled."
+msgstr ""
+"WPLC: Safe mode مفعل على الخادم. قد تواجه مشاكل اثناء استخدامك  WP Live Chat "
+"Support نتيجة لذلك. يرجى الاتصال بالمستضيف الخاص بك لالغاء هذه الخاصية."
+
+#: wp-live-chat-support.php:3942 wp-live-chat-support.php:3946
+#, fuzzy
+#| msgid "Advanced settings"
+msgid "Plugin Features"
+msgstr "إعدادات متقدمة"
+
+#: wp-live-chat-support.php:3944
+msgid ""
+"Check out these features and get up to speed with what you can do with WP "
+"Live Chat:"
+msgstr ""
+
+#: wp-live-chat-support.php:3947
+msgid "Reporting"
+msgstr "إعداد التقارير"
+
+#: wp-live-chat-support.php:3948
+msgid "Localization"
+msgstr ""
+
+#: wp-live-chat-support.php:3956
+#, fuzzy
+#| msgid "Chat Agents"
+msgid "Chat FAQs"
+msgstr "المندوبون"
+
+#: wp-live-chat-support.php:3958
+msgid ""
+"Learn quickly the ins and outs of Chat and start chatting with visitors and "
+"agents:"
+msgstr ""
+
+#: wp-live-chat-support.php:3960
+#, fuzzy
+#| msgid "Chat with us"
+msgid "Chat with Visitors"
+msgstr "تحدث الينا"
+
+#: wp-live-chat-support.php:3961
+#, fuzzy
+#| msgid "Chat Agents"
+msgid "Chat with Agents"
+msgstr "المندوبون"
+
+#: wp-live-chat-support.php:3965
+#, fuzzy
+#| msgid "Chat Agents"
+msgid "Chat Invites"
+msgstr "المندوبون"
+
+#: wp-live-chat-support.php:3970
+#, fuzzy
+#| msgid "Settings"
+msgid "Settings & Customization"
+msgstr "الاعدادات"
+
+#: wp-live-chat-support.php:3972
+msgid "Use these guides to learn how to configure and customize WP Live Chat:"
+msgstr ""
+
+#: wp-live-chat-support.php:3976
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Agent Settings"
+msgstr "إعدادات نافذة المحادثة"
+
+#: wp-live-chat-support.php:3983
+msgid "Troubleshooting"
+msgstr "استكشاف المشكلات وإصلاحها"
+
+#: wp-live-chat-support.php:3985
+msgid ""
+"Reference these troubleshooting guides to quickly resolve any WP Live Chat "
+"issues:"
+msgstr ""
+
+#: wp-live-chat-support.php:3987
+msgid "My Chat Box Is Not Showing"
+msgstr ""
+
+#: wp-live-chat-support.php:3988
+#, fuzzy
+#| msgid "I'm not getting any notifications of a new chat"
+msgid "Not Receiving Notifications of New Chats"
+msgstr "لا أتلقى أي إخطارات بمحادثة جديدة"
+
+#: wp-live-chat-support.php:3989
+#, fuzzy
+#| msgid "How do I check for JavaScript errors on my site?"
+msgid "Check for JavaScript Errors"
+msgstr "كيف اتحقق من وجود أخطاء جافا سكريبت بموقعي؟"
+
+#: wp-live-chat-support.php:4017
+msgid "Initiate Chats"
+msgstr "بدء المحادثات"
+
+#: wp-live-chat-support.php:4018
+msgid "Multiple Chats"
+msgstr "محادثات متعددة"
+
+#: wp-live-chat-support.php:4019
+msgid "Add unlimited agents"
+msgstr "إضافة عدد لا نهائي من المندوبين"
+
+#: wp-live-chat-support.php:4020
+#, fuzzy
+#| msgid "Total Chats"
+msgid "Transfer Chats"
+msgstr "اجمالى المحادثات"
+
+#: wp-live-chat-support.php:4039
+#, fuzzy, php-format
+#| msgid "Via WP Live Chat Support"
+msgid "Thank you for using %s! Please %s on %s"
+msgstr "من خلال WP Live Chat Support"
+
+#: wp-live-chat-support.php:4039
+msgid "rate us"
+msgstr ""
+
+#: wp-live-chat-support.php:4220 wp-live-chat-support.php:4280
+msgid "From"
+msgstr "من"
+
+#: wp-live-chat-support.php:4222 wp-live-chat-support.php:4282
+msgid "Timestamp"
+msgstr "ختم زمني"
+
+#: wp-live-chat-support.php:4223 wp-live-chat-support.php:4283
+msgid "Origin"
+msgstr "المنشأ"
+
+#: wp-live-chat-support.php:4228 wp-live-chat-support.php:4288
+msgid "user"
+msgstr "المستخدم"
+
+#: wp-live-chat-support.php:4230 wp-live-chat-support.php:4290
+msgid "agent"
+msgstr "المندوب"
+
+#: wp-live-chat-support.php:4385
+msgid "Advanced settings"
+msgstr "إعدادات متقدمة"
+
+#: wp-live-chat-support.php:4392
+msgid "Only change these settings if you are experiencing performance issues."
+msgstr "قم بتغيير هذه الإعدادات في حالة إذا كنت تواجه مشكلات في الأداء."
+
+#: wp-live-chat-support.php:4399
+msgid "Website hosting type:"
+msgstr ""
+
+#: wp-live-chat-support.php:4403
+#, fuzzy
+#| msgid "Colour Scheme"
+msgid "Custom parameters"
+msgstr "مخطط اللون"
+
+#: wp-live-chat-support.php:4404
+msgid "Shared hosting - low level plan"
+msgstr "الاستضافة المشتركة--خطة منخفضة"
+
+#: wp-live-chat-support.php:4405
+msgid "Shared hosting - normal plan"
+msgstr "الاستضافة المشتركة - خطة متوسطة"
+
+#: wp-live-chat-support.php:4406
+msgid "VPS"
+msgstr "سيرفر VPS"
+
+#: wp-live-chat-support.php:4407
+msgid "Dedicated server"
+msgstr "سيرفر خاص"
+
+#: wp-live-chat-support.php:4413
+msgid "Long poll setup"
+msgstr "اعداد Long poll"
+
+#: wp-live-chat-support.php:4413
+#, fuzzy
+#| msgid ""
+#| "Only change these if you are an experienced developer or if you have "
+#| "received these figures from the Code Cabin Support team."
+msgid ""
+"Only change these if you are an experienced developer or if you have "
+"received these figures from the WP Live Chat by 3CX team."
+msgstr ""
+"قم بتعديل هذه الاختيارات فقط في حالة كونك مبرمج متخصص أو حصولك على تلك "
+"التعليمات من خلال خدمة الدعم الخاصة  بـCode Cabin Support."
+
+#: wp-live-chat-support.php:4418
+msgid "Iterations"
+msgstr "التكرار"
+
+#: wp-live-chat-support.php:4422
+#, fuzzy
+#| msgid "Sleep between iterations"
+msgid "Sleep between loops"
+msgstr "التأخير ما بين التكرارات"
+
+#: wp-live-chat-support.php:4425
+#, fuzzy
+#| msgid "microseconds"
+msgid "milliseconds"
+msgstr "ميكروثانية"
+
+#: wp-live-chat-support.php:4448
+#, fuzzy
+#| msgid "Powered By WP Live Chat Support"
+msgid "Show 'Powered by' in chat box"
+msgstr "مدعوم من قبل WP Live Chat Support"
+
+#: wp-live-chat-support.php:4448
+msgid ""
+"Checking this will display a 'Powered by WP Live Chat by 3CX' caption at the "
+"bottom of your chatbox."
+msgstr ""
+
+#: wp-live-chat-support.php:4490
+#, fuzzy
+#| msgid "Powered By WP Live Chat Support"
+msgid "Powered by WP Live Chat by 3CX"
+msgstr "مدعوم من قبل WP Live Chat Support"
+
+#: wp-live-chat-support.php:4644
+msgid ""
+"Browser notifications will no longer function on insecure (non-SSL) sites."
+msgstr ""
+
+#: wp-live-chat-support.php:4645
+msgid ""
+"Please add an SSL certificate to your site to continue receiving chat "
+"notifications in your browser."
+msgstr ""
+
+#: wp-live-chat-support.php:4658
+msgid ""
+"Please deactivate WP Live Chat Suport - Email Transcript plugin. Since WP "
+"Live Chat Support 8.0.05 there is build in support for Email Transcript."
+msgstr ""
+
+#: wp-live-chat-support.php:4665
+msgid "Email transcript to user"
+msgstr ""
+
+#: wp-live-chat-support.php:4676
+msgid "Sending Transcript"
+msgstr ""
+
+#: wp-live-chat-support.php:4750
+#, php-format
+msgid "Your chat transcript from %1$s"
+msgstr ""
+
+#: wp-live-chat-support.php:4841
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Transcript Settings"
+msgstr "إعدادات نافذة المحادثة"
+
+#: wp-live-chat-support.php:4844
+msgid "Enable chat transcripts:"
+msgstr ""
+
+#: wp-live-chat-support.php:4852
+msgid "Send transcripts to:"
+msgstr ""
+
+#: wp-live-chat-support.php:4859
+#, fuzzy
+#| msgid "Username"
+msgid "User"
+msgstr "اسم الستخدم"
+
+#: wp-live-chat-support.php:4870
+msgid "Send transcripts when chat ends:"
+msgstr ""
+
+#: wp-live-chat-support.php:4878
+#, fuzzy
+#| msgid "Email"
+msgid "Email body"
+msgstr "البريد الالكترونى"
+
+#: wp-live-chat-support.php:4888
+#, fuzzy
+#| msgid "Email Address"
+msgid "Email header"
+msgstr "البريد الالكترونى"
+
+#: wp-live-chat-support.php:4897
+msgid "Email footer"
+msgstr ""
+
+#: wp-live-chat-support.php:4973
+msgid ""
+"Please note, local message encryption and local server options will be "
+"deprecated in the next major release. All encryption and message delivery "
+"will handled by our external servers in future."
+msgstr ""
+
+#: wp-live-chat-support.php:4976
+msgid "Deprecation Notice - Message Encryption & Local Server"
+msgstr ""
+
+#: wp-live-chat-support.php:4978
+msgid "Dismiss"
+msgstr ""
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Triggers"
+#~ msgid "WP Live Chat Trigger"
+#~ msgstr "مشغلات WP Live Chat Support"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "WP Live Chat Box"
+#~ msgstr "WP Live Chat Support"
+
+#~ msgid "Whois for"
+#~ msgstr "Whois for"
+
+#, fuzzy
+#~| msgid "requesting chat"
+#~ msgid "Request new chat"
+#~ msgstr "يطلب محادثة"
+
+#~ msgid "Experience Rating"
+#~ msgstr "معدل التقييم"
+
+#, fuzzy
+#~| msgid "Disable initiate chat feature:"
+#~ msgid "Disable initiate chat:"
+#~ msgstr "تعطيل ميزة بدء المحادثة:"
+
+#~ msgid ""
+#~ "This will substantially improve performance. If you are experiencing "
+#~ "performance issues on your site, you should disable the initiate chat "
+#~ "feature and only enable it when you need it."
+#~ msgstr ""
+#~ "سيؤدي ذلك إلى تحسين الأداء إلى حد كبير. إذا كنت تواجه مشكلات في الأداء "
+#~ "على الموقع الخاص بك، عليك تعطيل ميزة بدء المحادثة وتمكينها فقط عند الحاجة "
+#~ "إليها."
+
+#, fuzzy
+#~| msgid "Blocked Visitors"
+#~ msgid "Active Visitor(s)"
+#~ msgstr "الزوار المحظورون"
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid "Active Agent(s)."
+#~ msgstr "المحادثات النشطة"
+
+#~ msgid "Enable On Mobile Devices"
+#~ msgstr "التفعيل على الهواتف"
+
+#~ msgid ""
+#~ "Disabling this will mean that the Chat Box will not be displayed on "
+#~ "mobile devices. (Smartphones and Tablets)"
+#~ msgstr ""
+#~ "تعطيل هذا يعني أنه لن يتم عرض \"صندوق المحادثة\" على الأجهزة النقالة. "
+#~ "(الهواتف و التابلت)"
+
+#~ msgid "How long it takes for your chat window to pop up"
+#~ msgstr "كم من الوقت ستستغرق نافذة المحاثة للظهور"
+
+#, fuzzy
+#~| msgid "Theme 1"
+#~ msgid "Theme"
+#~ msgstr "القالب 1"
+
+#~ msgid "Classic"
+#~ msgstr "تقليدي"
+
+#~ msgid "Modern"
+#~ msgstr "حديث"
+
+#, fuzzy
+#~| msgid ""
+#~| "Please note: Chat messages will only be encrypted and decreypted if you "
+#~| "have inserted your WP Live Chat Support Pro API Key on the <a href="
+#~| "\"admin.php?page=wplivechat-menu-api-keys-page\">API Keys page</a>."
+#~ msgid ""
+#~ "Please note: Chat messages will only be encrypted and decrypted if you "
+#~ "have inserted your WP Live Chat by 3CX API Key with a previous version of "
+#~ "our Pro add-on as this key was required."
+#~ msgstr ""
+#~ "يرجى ملاحظة: سيتم تشفير المحادثات فقط في حالة ادخال مفتاح الـAPI الخاص "
+#~ "بالنسخة المدفوعة من خلال <a href=\"admin.php?page=wplivechat-menu-api-"
+#~ "keys-page\">صفحة مفاتيح الـAPI</a>."
+
+#, fuzzy
+#~| msgid "Enable Surveys"
+#~ msgid "Enable Surveys & Lead Forms"
+#~ msgstr "تفعيل الاستطلاعات"
+
+#, fuzzy
+#~| msgid ""
+#~| "Enable surveys within your live chat box, either before or after a live "
+#~| "chat session."
+#~ msgid ""
+#~ "Enable surveys and lead forms within your live chat box, either before or "
+#~ "after a live chat session."
+#~ msgstr "تفعيل الاستطلاعات من خلال صندوق المحادثات، اما قبل أو بعد المحادثة."
+
+#, fuzzy
+#~| msgid "Blocked Visitors"
+#~ msgid "Active survey"
+#~ msgstr "الزوار المحظورون"
+
+#, php-format
+#~ msgid ""
+#~ "No surveys created. Please <a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">create a survey and then refresh this page.</a>"
+#~ msgstr ""
+#~ "لايوجد استطلاعات. الرجاء<a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">إضافة استطلاع ثم تحديث هذه الصفحة.</a>"
+
+#, fuzzy
+#~| msgid "Select a survey"
+#~ msgid "Active lead form"
+#~ msgstr "اختيار الاستطلاع"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "No surveys created. Please <a href=\"%s\" target=\"_BLANK\" title="
+#~| "\"NimbleSquirrel\">create a survey and then refresh this page.</a>"
+#~ msgid ""
+#~ "No lead forms created. Please <a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">create a lead form and then refresh this page.</a>"
+#~ msgstr ""
+#~ "لايوجد استطلاعات. الرجاء<a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">إضافة استطلاع ثم تحديث هذه الصفحة.</a>"
+
+#, fuzzy
+#~| msgid "Select a survey"
+#~ msgid "Select a lead form"
+#~ msgstr "اختيار الاستطلاع"
+
+#, fuzzy
+#~| msgid "Display survey"
+#~ msgid "Display survey/form"
+#~ msgstr "عرض الاستطلاع"
+
+#~ msgid "Before chat"
+#~ msgstr "قبل المحادثة"
+
+#~ msgid "After chat"
+#~ msgstr "بعد المحادثة"
+
+#~ msgid "Chat button text"
+#~ msgstr "نص زر المحادثة"
+
+#~ msgid "Change title of chat box when chat ended to"
+#~ msgstr "تغيير عنوان صندوق المحادثة عند انتهاء المحادثة بـ"
+
+#~ msgid "Or chat to an agent now"
+#~ msgstr "أو تحدث الى مندوب الآن"
+
+#, fuzzy
+#~| msgid "WP Live Chat Surveys with Nimble Squirrel"
+#~ msgid "Surveys & Lead Forms with Nimble Squirrel"
+#~ msgstr "WP Live Chat Surveys with Nimble Squirrel"
+
+#~ msgid ""
+#~ "To view your responses, click the button below and log in to your "
+#~ "NimbleSquirrel account."
+#~ msgstr ""
+#~ "لرؤية الردود، اضغط الزر أدناه و قم بتسجيل الدخول لحساب NimbleSquirrel  "
+#~ "الخاص بك."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Register on <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel"
+#~| "\">NimbleSquirrel</a> (It's free.)"
+#~ msgid ""
+#~ "Register on <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel"
+#~ "\">NimbleSquirrel</a> (It's free)"
+#~ msgstr ""
+#~ "سجل في <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel"
+#~ "\">NimbleSquirrel</a> (انه مجانى.)"
+
+#, php-format
+#~ msgid ""
+#~ "<a href=\"%s\" target=\"_BLANK\" title=\"Create a survey\">Create a "
+#~ "survey</a>."
+#~ msgstr ""
+#~ "<a href=\"%s\" target=\"_BLANK\" title=\"Create a survey\">انشاء استطلاع</"
+#~ "a>."
+
+#~ msgid "Add a Survey to your live chat box"
+#~ msgstr "إضافة استطلاع لصندوق المحادثة الخاص بك"
+
+#~ msgid "Three simple steps:"
+#~ msgstr "ثلاث خطوات بسيطة:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Enable surveys in your live chat <a href='admin.php?page=wplivechat-menu-"
+#~| "settings'>settings page</a>."
+#~ msgid ""
+#~ "Enable surveys in your live chat <a href='admin.php?page=wplivechat-menu-"
+#~ "settings#tabs-survey'>settings page</a>."
+#~ msgstr ""
+#~ "قم بتفعيل الاستطلاعات من خلال <a href='admin.php?page=wplivechat-menu-"
+#~ "settings'>صفحة الاعدادت</a>."
+
+#, fuzzy
+#~| msgid "Twitter URL"
+#~ msgid "Website URL"
+#~ msgstr "رابط تويتر"
+
+#, fuzzy
+#~| msgid "Twitter URL"
+#~ msgid "Twitter"
+#~ msgstr "رابط تويتر"
+
+#, fuzzy
+#~| msgid "Linked Domains"
+#~ msgid "LinkedIn"
+#~ msgstr "النطاقات المرتبطة"
+
+#, fuzzy
+#~| msgid "Facebook URL"
+#~ msgid "Facebook"
+#~ msgstr "رابط الفيسبوك"
+
+#, fuzzy
+#~| msgid "Your Website"
+#~ msgid "Website"
+#~ msgstr "موقعك الالكترونى"
+
+#, fuzzy
+#~| msgid "No secret token found"
+#~ msgid "No token found"
+#~ msgstr "لا يوجد رمز سري"
+
+#~ msgid "Supported API Calls"
+#~ msgstr "API Calls المدعمة"
+
+#~ msgid "Try"
+#~ msgstr "جرب"
+
+#~ msgid "API Response Codes"
+#~ msgstr "رمز الـAPI Response"
+
+#~ msgid "Rest Console "
+#~ msgstr "Rest Console "
+
+#~ msgid "Try it!"
+#~ msgstr "جرب!"
+
+#, fuzzy
+#~| msgid "Documentation"
+#~ msgid "Doc Suggestions"
+#~ msgstr "الوثائق"
+
+#, fuzzy
+#~| msgid "Documentation"
+#~ msgid "Documentation Suggestions"
+#~ msgstr "الوثائق"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat by 3CX - GDPR"
+#~ msgstr "WP Live Chat Support المدفوعة"
+
+#, fuzzy
+#~| msgid "Iterations"
+#~ msgid "GIF Integration"
+#~ msgstr "التكرار"
+
+#, fuzzy
+#~| msgid "Select a survey"
+#~ msgid "Select a GIF provider"
+#~ msgstr "اختيار الاستطلاع"
+
+#, fuzzy
+#~| msgid "This API key is "
+#~ msgid "Giphy API key"
+#~ msgstr "مفتاح الـAPI الخاص بك "
+
+#, fuzzy
+#~| msgid "This API key is "
+#~ msgid "Tenor API key"
+#~ msgstr "مفتاح الـAPI الخاص بك "
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid " Active visitors"
+#~ msgstr "المحادثات النشطة"
+
+#~ msgid "Hello. Please input your details so that I may help you."
+#~ msgstr "مرحبا. الرجاء إدخال التفاصيل الخاصة بك حتى نتمكن من مساعدتك."
+
+#~ msgid "Chat ended"
+#~ msgstr "انتهت المحادثة"
+
+#~ msgid "Connecting. Please be patient..."
+#~ msgstr "جاري الاتصال. يرجى الأنتظار..."
+
+#~ msgid "Please click \\'Start Chat\\' to initiate a chat with an agent"
+#~ msgstr "الرجاء النقر فوق '\\'بدء المحادثة\\'  لبدء ألمحادثة مع مندوب"
+
+#~ msgid "Surveys"
+#~ msgstr "الاستطلاعات"
+
+#, fuzzy
+#~| msgid "The chat has been ended"
+#~ msgid "The Chat Has Been Ended By The Operator."
+#~ msgstr "لقد تم انهاء هذه المحادثة"
+
+#~ msgid ""
+#~ "You may <a href='?page=wplivechat-menu-settings' target='_BLANK'>modify "
+#~ "your chat box settings here."
+#~ msgstr ""
+#~ "يمكنك <a href='?page=wplivechat-menu-settings' target='_BLANK'>تعديل "
+#~ "اعادات صندوق المحادثة الخاص بك."
+
+#~ msgid "Site Info"
+#~ msgstr "معلومات الموقع"
+
+#~ msgid "Advanced Info"
+#~ msgstr "معلومات متقدمة"
+
+#~ msgid "IP Address:"
+#~ msgstr "عنوان الـIP:"
+
+#, fuzzy
+#~| msgid "The chat window never goes offline"
+#~ msgid "The Chat Box Never Goes Offline"
+#~ msgstr "نافذة المحادثة لا تظهر انقطاع الاتصال"
+
+#, fuzzy
+#~| msgid "This chat has already been answered by another agent."
+#~ msgid "Chat Has Already Been Answered"
+#~ msgstr "لقد تم الرد على هذه المحادثة بواسطة مندوب آخر."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Thank you for using <a href=\"%1$s\" target=\"_blank\">WP Live Chat "
+#~| "Support</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a "
+#~| "href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+#~ msgid ""
+#~ "Thank you for using <a href=\"%1$s\" target=\"_blank\">WP Live Chat by "
+#~ "3CX</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href="
+#~ "\"%2$s\" target=\"_blank\">WordPress.org</a>"
+#~ msgstr ""
+#~ "شكرا  لاستخدامكم <a href=\"%1$s\" target=\"_blank\">WP Live Chat Support</"
+#~ "a>! الرجاء <a href=\"%2$s\" target=\"_blank\"> إضافة تقييم لنا</a> على <a "
+#~ "href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+
+#~ msgid ""
+#~ "Your API Key is Invalid. You are not eligible for future updates. Please "
+#~ "enter your API key <a href=\"admin.php?page=wplivechat-menu-api-keys-page"
+#~ "\">here</a>."
+#~ msgstr ""
+#~ "مفتاح الAPI الخاص بك غير صالح. أنت لست مؤهلاً للحصول على التحديثات "
+#~ "القادمة. الرجاء إدخال مفتاح الـAPI الخاص بك <a href=\"admin.php?"
+#~ "page=wplivechat-menu-api-keys-page\">هنا</a>."
+
+#~ msgid "No Ratings for this agent"
+#~ msgstr "لا يوجد تقييمات لهذا المندوب"
+
+#~ msgid "WP Live Chat Support Reporting"
+#~ msgstr "تقارير WP Live Chat Support"
+
+#, fuzzy
+#~| msgid "Contributor"
+#~ msgid "Contributors"
+#~ msgstr "المساهم"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Testing"
+#~ msgstr "الاعدادات"
+
+#, fuzzy
+#~| msgid "Main Settings"
+#~ msgid "Marketing"
+#~ msgstr "الإعدادات الرئيسية"
+
+#~ msgid "Documentation"
+#~ msgstr "الوثائق"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support Dashboard"
+#~ msgstr "WP Live Chat Support المدفوعة"
+
+#, fuzzy
+#~| msgid "Welcome to "
+#~ msgid "Welcome, %s"
+#~ msgstr "مرحبا بك في "
+
+#, fuzzy
+#~| msgid "Chat Box"
+#~ msgid "Chat now"
+#~ msgstr "صندوق المحادثة"
+
+#, fuzzy
+#~| msgid "Total Conversions"
+#~ msgid "Conversations"
+#~ msgstr "إجمالي التحويلات"
+
+#~ msgid "WP Live Chat Support Settings"
+#~ msgstr "اعدادات WP Live Chat Support"
+
+#~ msgid "Choose when I want to be online"
+#~ msgstr "اختيار متى أود أن أكون متاح"
+
+#~ msgid "Chat Window Settings"
+#~ msgstr "إعدادات نافذة المحادثة"
+
+#, fuzzy
+#~| msgid "Goal Name"
+#~ msgid "Show Name"
+#~ msgstr "اسم الهدف"
+
+#~ msgid "Only show the chat window to users that are logged in"
+#~ msgstr "عرض نافذة المحاثة فقط للمستخدمين الذين قاموا بتسجيل الدخول"
+
+#, fuzzy
+#~| msgid "Show After"
+#~ msgid "Show Date"
+#~ msgstr "الظهور بعد"
+
+#, fuzzy
+#~| msgid "Show After"
+#~ msgid "Show Time"
+#~ msgstr "الظهور بعد"
+
+#~ msgid "Name "
+#~ msgstr "الاسم "
+
+#~ msgid "Enable Text Editor"
+#~ msgstr "تفعيل محرر النص"
+
+#~ msgid ""
+#~ "Adds advanced text editor features, such as links, text styling, and more!"
+#~ msgstr ""
+#~ "إضافة مميزات محرر النصوص المتقدمة، مثل وصلات الويب، اشكال الكتابة، "
+#~ "والمزيد!"
+
+#~ msgid "Enable File Sharing"
+#~ msgstr "تفعيل مشاركة الملفات"
+
+#~ msgid "Enable Experience Ratings"
+#~ msgstr "تفعيل التقييمات"
+
+#~ msgid "Do not allow users to send offline messages"
+#~ msgstr "عدم السماح للمستخدمين بإرسال رسائل في وضع عدم الاتصال"
+
+#~ msgid "Offline Text Fields"
+#~ msgstr "حقول النص في حالة عدم التواجد"
+
+#~ msgid "Email Address"
+#~ msgstr "البريد الالكترونى"
+
+#~ msgid "Sending Method"
+#~ msgstr "طريقة الإرسال"
+
+#~ msgid "WP Mail"
+#~ msgstr "راسل الوورد بريس"
+
+#~ msgid "PHP Mailer"
+#~ msgstr "راسل الـPHP"
+
+#~ msgid "Host"
+#~ msgstr "المستضيف"
+
+#~ msgid "Port"
+#~ msgstr "المنفذ"
+
+#~ msgid "Username"
+#~ msgstr "اسم الستخدم"
+
+#~ msgid "Password"
+#~ msgstr "كلمة المرور"
+
+#~ msgid "Choose a theme"
+#~ msgstr "اختر قالب"
+
+#~ msgid "Choose"
+#~ msgstr "اختبار"
+
+#~ msgid "Your"
+#~ msgstr "الخاص بك"
+
+#~ msgid "Colors"
+#~ msgstr "الالوان"
+
+#~ msgid "Below"
+#~ msgstr "بالاسفل"
+
+#~ msgid "First Section Text"
+#~ msgstr "القسم الاول"
+
+#~ msgid "Intro Text"
+#~ msgstr "عبارة ترحيبية"
+
+#~ msgid "Second Section Text"
+#~ msgstr "القسم الثانى"
+
+#~ msgid "Reactivate Chat Section Text"
+#~ msgstr "إعادة تنشيط المحادثة"
+
+#~ msgid "Choose an animation"
+#~ msgstr "اختر صورة متحركة"
+
+#~ msgid "Current Users that are Chat Agents"
+#~ msgstr "المستخدمون الحاليون هم المندوبون"
+
+#, fuzzy
+#~| msgid "Display survey"
+#~ msgid "Display Interval"
+#~ msgstr "عرض الاستطلاع"
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "حدث “خطأ HTTP غير متوقع” أثناء طلب API.</p> <p><a href=\"?\" onclick="
+#~ "\"document.location.reload(); return false;\">برجاء إعادة المحاولة</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "حدث خطأ غير معروف"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "Welcome to WP Live Chat Support v8"
+#~ msgstr "WP Live Chat Support"
+
+#, fuzzy
+#~| msgid "Welcome to "
+#~ msgid "Welcome"
+#~ msgstr "مرحبا بك في "
+
+#, fuzzy
+#~| msgid "Dedicated server"
+#~ msgid "Incredibly fast server"
+#~ msgstr "سيرفر خاص"
+
+#, fuzzy
+#~| msgid "Chat Dashboard"
+#~ msgid "New Dashboard"
+#~ msgstr "لوحة التحكم"
+
+#, fuzzy
+#~| msgid "Multiple Chats"
+#~ msgid "Multiple Agents Per Chat"
+#~ msgstr "محادثات متعددة"
+
+#, fuzzy
+#~| msgid "Message"
+#~ msgid "Edit Messages"
+#~ msgstr "الرسالة"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "New to WP Live Chat Support?"
+#~ msgstr "WP Live Chat Support"
+
+#, fuzzy
+#~| msgid "documentation"
+#~ msgid "review our documentation"
+#~ msgstr "الوثائق"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Settings"
+#~ msgid "WP Live Chat Support Custom Fields"
+#~ msgstr "اعدادات WP Live Chat Support"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Reporting"
+#~ msgid "WP Live Chat Support Departments"
+#~ msgstr "تقارير WP Live Chat Support"
+
+#~ msgid "WP Live Chat Support ROI Goals"
+#~ msgstr "أهداف الـROI الخاصة بـWP Live Chat Support"
+
+#, fuzzy
+#~| msgid "Use our server to host your chat server."
+#~ msgid "Use our server to handle chats"
+#~ msgstr "استخدم خادمنا لاستضافة خادم المحادثة."
+
+#, fuzzy
+#~| msgid "Incoming chat ring tone"
+#~ msgid "Limit chat ring amount"
+#~ msgstr "النغمة الخاصة بالمحادثة الواردة"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support ROI Goals"
+#~ msgid "WP Live Chat Support - Tools"
+#~ msgstr "أهداف الـROI الخاصة بـWP Live Chat Support"
+
+#, fuzzy
+#~| msgid "Goal Name"
+#~ msgid "Company Name"
+#~ msgstr "اسم الهدف"
+
+#, fuzzy
+#~| msgid "Dear Pro User"
+#~ msgid "Dear User,"
+#~ msgstr "عميلنا العزيز"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support - Webhooks"
+#~ msgstr "WP Live Chat Support المدفوعة"
+
+#~ msgid "API Keys"
+#~ msgstr "مفاتيح API"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support API Key"
+#~ msgstr "WP Live Chat Support المدفوعة"
+
+#, fuzzy
+#~| msgid ""
+#~| "To find and manage your premium API keys, please visit your <a "
+#~| "target='_BLANK' href='https://wp-livechat.com/my-account/'>my account</"
+#~| "a> page."
+#~ msgid ""
+#~ "To find and manage your API key, please visit your <a target='_BLANK' "
+#~ "href='https://wp-livechat.com/my-account/'>my account</a> page."
+#~ msgstr ""
+#~ "لإدارة مفاتيح الـAPI الخاصة بك، الرجاء زيارة صفحة <a target='_BLANK' "
+#~ "href='https://wp-livechat.com/my-account/'>حسابي</a>."
+
+#~ msgid "Visit our troubleshooting section."
+#~ msgstr "يرجى زيارة قسم المشكلات."
+
+#~ msgid ""
+#~ "Please note: This window must be open in order to receive new chat "
+#~ "notifications."
+#~ msgstr "ملاحظة: يجب ترك هذه النافذة مفتوحة لاستقبال اشعارات المحادثات."
+
+#~ msgid "WP Live Chat History"
+#~ msgstr "سجل WP Live Chat"
+
+#~ msgid "WP Live Chat Missed Chats"
+#~ msgstr "محادثات WP Live Chat الفائتة"
+
+#~ msgid "WP Live Chat Offline Messages"
+#~ msgstr "رسائل WP Live Chat في حالة عدم الاتصال"
+
+#~ msgid "Thank You for your feedback!"
+#~ msgstr "شكرا لك على ملاحظاتك!"
+
+#~ msgid ""
+#~ "WP Live Chat Support  has a diverse and wide range of features which may, "
+#~ "from time to time, run into conflicts with the thousands of themes and "
+#~ "other plugins on the market."
+#~ msgstr ""
+#~ "WP Live Chat Support تتضمن مجموعة متنوعة وواسعة من المميزات التي من "
+#~ "الممكن أت تحدث بعض التعارضات مع الإضافات أو القوالب الأخرى المتاحة."
+
+#~ msgid "Common issues:"
+#~ msgstr "المشكلات الشائعة:"
+
+#, fuzzy
+#~| msgid "Messages only show when I refresh the chat window"
+#~ msgid "Messages Only Show When I Refresh"
+#~ msgstr "الرسائل تظهر فقط عند تحديث نافذة المحادثة"
+
+#~ msgid "Still need help? Use one of these links below."
+#~ msgstr "لا تزال بحاجة إلى مساعدة؟ استخدم احدى الوصلات أدناه."
+
+#~ msgid "API Key"
+#~ msgstr "مفتاح الـAPI"
+
+#~ msgid "Verify"
+#~ msgstr "تحقق"
+
+#~ msgid "Status: "
+#~ msgstr "الحالة "
+
+#~ msgid "Valid"
+#~ msgstr "صالح"
+
+#, fuzzy
+#~| msgid "Manage this extension"
+#~ msgid "Manage this API Key"
+#~ msgstr "إدارة هذه الاضافة"
+
+#~ msgid "Invalid"
+#~ msgstr "غير صالح"
+
+#~ msgid "Linked Domains"
+#~ msgstr "النطاقات المرتبطة"
+
+#~ msgid "What type of environment are you on?"
+#~ msgstr "ما هو نوع الاستضافة المستخدمة؟"
+
+#~ msgid "Chat functionality has been paused."
+#~ msgstr "تم إيقاف وظيفة الدردشة مؤقتا."
+
+#~ msgid ""
+#~ "Please enter your verified API key in the <a href=\"admin.php?"
+#~ "page=wplivechat-menu-api-keys-page\">API Keys page</a> to activate the "
+#~ "cloud based functionality."
+#~ msgstr ""
+#~ "الرجاء ادخال مفتاح الـAPI في <a href=\"admin.php?page=wplivechat-menu-api-"
+#~ "keys-page\">صفحة مفاتيح الـAPI</a> لتفعيل الخدمات السحابية."
+
+#~ msgid "Are you sure you would like to delete chat history?"
+#~ msgstr "هل تريد بالتأكيد حذف سجل الدردشات؟"
+
+#~ msgid "Are you sure you would like to delete all missed chats?"
+#~ msgstr "هل أنت متأكد من حذف جميع الدردشات التي لم يرد عليها؟"
+
+#~ msgid ""
+#~ "You are currently using our <strong>cloud server</strong> to handle your "
+#~ "chat requests and live chat sessions.<br /><br />To disable this, please "
+#~ "deactivate the WP Live Chat Support - Cloud Server plugin."
+#~ msgstr ""
+#~ "أنت تستخدم حاليا <strong>الخادم السحابي</strong> الخاص بنا لاستقبال مع "
+#~ "طلبات المحادثات. <br /><br /> لإلغاء هذا، يرجى إلغاء تنشيط إضافة  WP Live "
+#~ "Chat Support - Cloud Server."
+
+#~ msgid "Mobile and Desktop App"
+#~ msgstr "تطبيق الهاتف و سطح المكتب"
+
+#~ msgid "Mobile and Desktop App Settings"
+#~ msgstr "اعدادات تطبيق الهاتف و سطح المكتب"
+
+#~ msgid "Enable mobile and desktop app"
+#~ msgstr "تفعيل تطبيق الهاتف و سطح المكتب"
+
+#~ msgid "App"
+#~ msgstr "التطبيق"
+
+#~ msgid "Incoming Chat"
+#~ msgstr "المحادثة الواردة"
+
+#~ msgid "You have an incoming chat."
+#~ msgstr "لديك محادثة واردة."
+
+#~ msgid "Chat Active"
+#~ msgstr "المحادثة نشطة"
+
+#~ msgid "This chat is active"
+#~ msgstr "هذه المحادثة  نشطة"
+
+#~ msgid "You must be a chat agent to initiate chats"
+#~ msgstr "يجب أن تكون مندوب لبدء المحادثات"
+
+#~ msgid "Visitors on site"
+#~ msgstr "زوار الموقع"
+
+#~ msgid "No chat sessions available at the moment"
+#~ msgstr "لا توجد محادثات في الوقت الحالي"
+
+#~ msgid "You must be a chat agent to answer chats"
+#~ msgstr "يجب أن تكون مندوب للرد على المحادثات"
+
+#~ msgid "Open Chat Window"
+#~ msgstr "عرض نافذة المحادثة"
+
+#~ msgid "Chat has been answered by another agent"
+#~ msgstr "لقد تم الرد على هذه المحادثة بواسطة مندوب آخر"
+
+#~ msgid "Alert: Someone wants to chat with you on "
+#~ msgstr "تنبيه: هناك من يريد محادثتك على "
+
+#~ msgid "Someone wants to chat with you on your website"
+#~ msgstr "هناك من يريد محادثتك على الموقع الخاص بك"
+
+#~ msgid "Subscriber"
+#~ msgstr "المشارك"
+
+#~ msgid ""
+#~ "Please enter a valid API key on the 'Live Chat' -> 'Settings' page. "
+#~ "Failing to do this will result in you no longer receiving updates for "
+#~ "this plugin."
+#~ msgstr ""
+#~ "الرجاء إدخال مفتاح API صالح فى '\"المحادثة\"'-> 'الإعدادات'. عدم القيام "
+#~ "بذلك سيؤدي إلى عدم تلقيك لتحديثات الاضافة."
+
+#~ msgid "You can obtain a copy of your API key "
+#~ msgstr "يمكنك العثور على مفتاح الـAPI الخاص بك "
+
+#~ msgid ""
+#~ "An account has been created for you while purchasing the plugin. If you "
+#~ "have lost your password, please reset it "
+#~ msgstr ""
+#~ "تم إنشاء حساب لك وقتما قمت بشراء الاضافة. إذا كنت قد فقدت كلمة المرور، "
+#~ "الرجاء إعادة تعيينها "
+
+#~ msgid ""
+#~ "If you feel you are getting this message in error, please try refreshing "
+#~ "the page."
+#~ msgstr ""
+#~ "إذا كنت تشعر بأنك تحصل على هذه الرسالة عن طريق الخطأ، يرجى محاولة تحديث "
+#~ "الصفحة."
+
+#~ msgid "Find out more."
+#~ msgstr "اكتشف المزيد."
+
+#~ msgid "valid"
+#~ msgstr "صالح"
+
+#~ msgid "invalid"
+#~ msgstr "غير صالح"
+
+#~ msgid ""
+#~ "A valid API key means that you will be able to get the latest version of "
+#~ "the plugin as and when it is released, as well as get access to support "
+#~ "should you require it."
+#~ msgstr ""
+#~ "مفتاح API صالح يعنى بأنك سيكون باستطاعتك الحصول على أحث نسخة من الإضافة "
+#~ "حال صدورها، كذلك الحصول على الدعم في حالة الحاجة اليه."
+
+#~ msgid "Hide Chat"
+#~ msgstr "إخفاء المحادثة"
+
+#~ msgid "Hides chat for 24hrs when user clicks X"
+#~ msgstr "إخفاء المحادثة لمدة 24 ساعة عندما ينقر المستخدم على X"
+
+#~ msgid ""
+#~ "Users will have to enter their Name and Email Address when starting a chat"
+#~ msgstr ""
+#~ "يتوجب على المستخدمين إدخال اسم وعنوان البريد الإلكتروني عند بدء المحاثة"
+
+#~ msgid "Record a visitor's IP Address"
+#~ msgstr "تسجيل عنوان الـIP الخاص بالزائر"
+
+#~ msgid "Disable this to enable anonymity for your visitors"
+#~ msgstr "قم بإلغاء هذا الخيار لتمكين زوار الموقع من إخفاء هويتهم"
+
+#~ msgid "Recomended Size 40px x 40px"
+#~ msgstr "الحجم الموصي به 40px x 40px"
+
+#~ msgid ""
+#~ "Display the agent and user name above each message in the chat window."
+#~ msgstr "عرض اسم المندوب و المستخدم فوق كل رسالة في نافذة المحادثة."
+
+#~ msgid "Theme 2"
+#~ msgstr "القالب 2"
+
+#~ msgid "Theme 3"
+#~ msgstr "القالب 3"
+
+#~ msgid "Theme 4"
+#~ msgstr "القالب 4"
+
+#~ msgid "Theme 5"
+#~ msgstr "القالب 5"
+
+#~ msgid "Theme 6"
+#~ msgstr "القالب 6"
+
+#~ msgid "Custom. Enter Colour Values Below"
+#~ msgstr "مخصص. ادخل قيمة اللون بالاسفل"
+
+#~ msgid "Chat box fill color"
+#~ msgstr "لون صندوق المحادثة"
+
+#~ msgid "Chat box font color"
+#~ msgstr "لون الخط الخاص بصندوق المحادثة"
+
+#~ msgid ""
+#~ "You will only be able to edit the strings shown in the chat window of the "
+#~ "code now. <br/> This has been done to accommodate as many localization "
+#~ "plugins as possible. <br/> For more information on how to change these "
+#~ "strings, please consult the "
+#~ msgstr ""
+#~ "ستستطيع تعديل الجمل الموجودة بنافذة المحادثة الآن<br> لمزيد من المعلومات "
+#~ "حول كيفية تعديل الجمل، يرجى الرجوع "
+
+#~ msgid "User chat welcome"
+#~ msgstr "رسالة الترحيب بالمستخدم"
+
+#~ msgid ""
+#~ "You are using an outdated version of WP Live Chat Support Basic. Please "
+#~ "update your plugin to allow for animations to function"
+#~ msgstr ""
+#~ "انت تستخدم نسخة قديمة من WP Live Chat Support. يرجى تحديث الإضافة "
+#~ "لاستخدام الصور المتحركة"
+
+#~ msgid ""
+#~ "are only available in the WP Live Chat Support Chat Experience Ratings "
+#~ "add-on"
+#~ msgstr "فقط متاح من خلال إضافة WP Live Chat Support Chat Experience Ratings"
+
+#~ msgid ""
+#~ "WP Live Chat Support Pro <strong>requires WP Live Chat Support version "
+#~ "6+</strong> (basic version). Please <strong><a href=\"%1$s\">update the "
+#~ "plugin</a></strong> in order for the plugin to continue working correctly."
+#~ msgstr ""
+#~ "WP Live Chat Support Pro <strong>تحتاج النسخة 6 أو أعلى من</strong> "
+#~ "النسخة الأساسية. برجاء <strong><a href=\"%1$s\">تحديث الاضافة</a></"
+#~ "strong>لكى تستمر بالعمل بصورة صحيحة."
+
+#~ msgid "All Quick Responses"
+#~ msgstr "كل الردود السريعة"
+
+#~ msgid ""
+#~ "Please update your <a href='%s'>basic version</a> to make use of this "
+#~ "feature."
+#~ msgstr "الرجاء تحديث <a href='%s'>الإصدار الأساسي</a> لاستخدام هذه الميزة."
+
+#~ msgid ""
+#~ "Please update your <a href='%s'>basic version</a> to make use of these "
+#~ "features."
+#~ msgstr ""
+#~ "الرجاء تحديث <a href='%s'>الإصدار الأساسي</a> لاستخدام هذه المميزات."
+
+#~ msgid "You are currently accepting chats"
+#~ msgstr "أنت حاليا تستطيع استقبال المحادثات"
+
+#~ msgid "Get Pro Add-on to accept more chats"
+#~ msgstr "احصل على الإضافة المدفوعة لكى تستقبل المزيد من المحادثات"
+
+#~ msgid "Start Live Chat"
+#~ msgstr "بدء المحادثة"
+
+#~ msgid "Connecting you to a sales person. Please be patient."
+#~ msgstr "يتم تحويلك الى مسؤول بقسم المبيعات. برجاء الانتظار."
+
+#~ msgid "WP Live Chat Support Feedback"
+#~ msgstr "تقييم محادثة WP Live Chat"
+
+#~ msgid "Your Name"
+#~ msgstr "اسمك"
+
+#~ msgid "Your Email"
+#~ msgstr "بريدك الالكترونى"
+
+#~ msgid "Feedback"
+#~ msgstr "التقييم"
+
+#~ msgid "Send Feedback"
+#~ msgstr "اترك تقييم للخدمة"
+
+#~ msgid "available in the"
+#~ msgstr "تتوافر في"
+
+#~ msgid "Pro Add-on"
+#~ msgstr "الإضافة المدفوعة"
+
+#~ msgid "only"
+#~ msgstr "فقط"
+
+#~ msgid "Display a typing animation as soon as someone starts typing."
+#~ msgstr "اظهار تنبيه الكتابة عند بدء أحدهم بالكتابة."
+
+#~ msgid "Alert me via email as soon as someone wants to chat"
+#~ msgstr "إرسال تنبيه عبر البريد الإلكتروني بمجرد وجود شخص يريد المحادثة"
+
+#~ msgid ""
+#~ "Need help? <a href='https://wp-livechat.com/contact-us/' "
+#~ "target='_BLANK'>Contact us</a> and we'll get back to you as soon as "
+#~ "possible!"
+#~ msgstr ""
+#~ "بحاجة للمساعدة? <a href='https://wp-livechat.com/contact-us/' "
+#~ "target='_BLANK'>اتصل بنا</a> و سنقوم بالرد عليك في أقرب وقت!"
+
+#~ msgid "Version 6"
+#~ msgstr "النسخة 6"
+
+#~ msgid "The most popular live chat plugin!"
+#~ msgstr "الإضافة الأشهر للمحادثات الفورية!"
+
+#~ msgid "How did you find us?"
+#~ msgstr "كيف وجدتنا؟"
+
+#~ msgid "WordPress.org plugin repository "
+#~ msgstr "إضافات WordPress.org "
+
+#~ msgid "Google or other search Engine"
+#~ msgstr "جوجل أو محرك بحث أخر"
+
+#~ msgid "Friend recommendation"
+#~ msgstr "ترشيح من صديق"
+
+#~ msgid "Other"
+#~ msgstr "أخرى"
+
+#~ msgid "Please Explain"
+#~ msgstr "يرجى التوضيح"
+
+#~ msgid "Submit"
+#~ msgstr "حفظ"
+
+#~ msgid "Skip"
+#~ msgstr "تخطى"
+
+#~ msgid "Rest API"
+#~ msgstr "Rest API"
+
+#~ msgid "Option"
+#~ msgstr "الخيار"
+
+#~ msgid "Extensions"
+#~ msgstr "الإضافات"
+
+#~ msgid "Premium Extension API Keys"
+#~ msgstr "مفاتيح الـAPI الخاصة بالإضافات المميزة"
+
+#~ msgid ""
+#~ "You are using an outdated version of <strong>WP Live Chat Support Pro</"
+#~ "strong>. Please"
+#~ msgstr ""
+#~ "انت تستخدم اصدار قديم من<strong>WP Live Chat Support Pro</strong>. الرجاء"
+
+#~ msgid "update to at least version"
+#~ msgstr "القيام بالتحديث على الأقل لنسخة"
+
+#~ msgid "to ensure all functionality is in working order"
+#~ msgstr "للتأكد من أن كل شيء يعمل بشكل صحيح"
+
+#~ msgid ""
+#~ "You're live chat box on your website has been temporarily disabled until "
+#~ "the Pro plugin has been updated. This is to ensure a smooth and hassle-"
+#~ "free user experience for both yourself and your visitors."
+#~ msgstr ""
+#~ "لقد تم إيقاف صندوق المحادثة مؤقتاً لكى يتم تحديث الاضافة. و هذا لضمان "
+#~ "الحصول على تجربة سلسة و خالية من المتاعب لك و لزوار موقعك."
+
+#~ msgid ""
+#~ "You can update your plugin <a href='./update-core.php'>here</a>, <a "
+#~ "href='./plugins.php'>here</a> or <a href='https://wp-livechat.com/get-"
+#~ "updated-version/' target='_BLANK'>here</a>."
+#~ msgstr ""
+#~ "يمكنك تحديث الاضافة <a href='./update-core.php'>من هنا</a>، أو <a href='./"
+#~ "plugins.php'>هنا</a> ، أو <a href='https://wp-livechat.com/get-updated-"
+#~ "version/' target='_BLANK'>هنا</a>."
+
+#~ msgid "If you are having difficulty updating the plugin, please contact"
+#~ msgstr "في حالة مواجهة أي مشكلة في تحديث الإضافة، برجاء الاتصال"
+
+#~ msgid ""
+#~ "You are using an outdated version of <strong>WP Live Chat Support Pro</"
+#~ "strong>."
+#~ msgstr "انت تستخدم اصدار قديم من<strong>WP Live Chat Support Pro</strong>."
+
+#~ msgid "Please update to the latest version of WP Live Chat Support Pro"
+#~ msgstr "يرجي التحديث لآخر اصدار من النسخة المدفوعة من  WP Live Chat Support"
+
+#~ msgid "Version 5.0.1"
+#~ msgstr "النسخة 5.0.1"
+
+#~ msgid "to ensure everything is working correctly."
+#~ msgstr "للتأكد من أن كل شيء يعمل بشكل صحيح."
+
+#~ msgid "With the Pro add-on of WP Live Chat Support, you can"
+#~ msgstr "من خلال النسخة المدفوعة من  WP Live Chat Support، ستتمكن من"
+
+#~ msgid "see who's online and initiate chats"
+#~ msgstr "مشاهدة المتصل و بدء المحادثات"
+
+#~ msgid "initiate chats"
+#~ msgstr "بدء المحادثات"
+
+#~ msgid "with your online visitors with the click of a button."
+#~ msgstr "مع زوار موقعك على الإنترنت بنقرة زر واحدة."
+
+#~ msgid "Buy the Pro add-on now."
+#~ msgstr "شراء الإضافة المدفوعة الآن."
+
+#~ msgid "Add-ons"
+#~ msgstr "الإضافات"
+
+#~ msgid "Get more add-ons"
+#~ msgstr "الحصول على مزيد من الاضافات"
+
+#~ msgid "Add Quick Responses to your Live Chat"
+#~ msgstr "إضافة رد سريع للمحادثة"
+
+#~ msgid "Pro version only"
+#~ msgstr "النسخة المدفوعة فقط"
+
+#~ msgid ""
+#~ "Please update to the latest version of WP Live Chat Support Pro to start "
+#~ "recording any offline messages."
+#~ msgstr ""
+#~ "الرجاء التحديث إلى الإصدار الأحدث من WP Live Chat النسخة المدفوعة لحفظ "
+#~ "الرسائل الواردة في حالة عدم الاتصال."
+
+#~ msgid "This option is only available in the "
+#~ msgstr "يتوفر هذا الخيار فقط في "
+
+#~ msgid ""
+#~ "There was a problem sending your feedback. Please log your feedback on "
+#~ msgstr "توجد مشكلة في إرسال ملاحظاتك. يرجى تسجيل ملاحظاتك من خلال "
+
+#~ msgid "Suggested Plugins"
+#~ msgstr "الإضافات المقترحة"
+
+#~ msgid "Sola Support Tickets"
+#~ msgstr "Sola Support Tickets"
+
+#~ msgid ""
+#~ "The easiest to use Help Desk & Support Ticket plugin. Create a support "
+#~ "help desk quickly and easily with Sola Support Tickets."
+#~ msgstr ""
+#~ "افضل إضافة لانظمة الدعم و التذاكر. أنشئ منصة للدعم بسرعة و سهولة مع Sola "
+#~ "Support Tickets."
+
+#~ msgid "Get this Plugin"
+#~ msgstr "الحصول على تلك الاضافة"
+
+#~ msgid "Nifty Newsletters"
+#~ msgstr "Nifty Newsletters"
+
+#~ msgid ""
+#~ "Create and send newsletters, automatic post notifications and "
+#~ "autoresponders that are modern and beautiful with Nifty Newsletters."
+#~ msgstr ""
+#~ "قم بإرسال رسائل إخبارية، رسائل اتوماتيكية و ردود تلقائية بأشكال حديثة و "
+#~ "انيقة من خلال Nifty Newsletters."
+
+#~ msgid "Price:"
+#~ msgstr "السعر:"
+
+#~ msgid "Free"
+#~ msgstr "مجاني"
+
+#~ msgid "Paid"
+#~ msgstr "مدفوع"
+
+#~ msgid "For:"
+#~ msgstr "إلى:"
+
+#~ msgid "Both"
+#~ msgstr "كلاهما"
+
+#~ msgid "Free version"
+#~ msgstr "النسخة المجانية"
+
+#~ msgid "Pro version"
+#~ msgstr "النسخة المدفوعة"
+
+#~ msgid "Already installed"
+#~ msgstr "مثبت بالفعل"
+
+#~ msgid ""
+#~ "Getting started? Read through some of these articles to help you along "
+#~ "your way."
+#~ msgstr "يمكنك قراءة بعضاُ من تلك المواضيع لمساعدتك أثناء الاستخدام."
+
+#~ msgid "Documentation:"
+#~ msgstr "الوثائق:"
+
+#~ msgid "Minimum System Requirements"
+#~ msgstr "الحد الأدنى لمتطلبات النظام"
+
+#~ msgid "Do I have to be logged into the dashboard to chat with visitors?"
+#~ msgstr ""
+#~ "هل يجب أن أقوم بتسجيل الدخول للوحة التحكم من أجل التحدث مع زوار الموقع؟"
+
+#~ msgid "What are Quick Responses?"
+#~ msgstr "ما هي الردود السريعة؟"
+
+#~ msgid "Can I use this plugin on my multi-site?"
+#~ msgstr "هل يمكن استخدام تلك الإضافة على عدة مواقع في آن واحد؟"
+
+#~ msgid "How do I disable APC Object Cache?"
+#~ msgstr "كيف يمكننى تعطيل APC Object Cache?"
+
+#~ msgid "Do you have a mobile app?"
+#~ msgstr "هل لديكم تطبيق للهاتفك المحمول؟"
+
+#~ msgid "The chat box doesnt show up"
+#~ msgstr "صندوق المحادثة لا يظهر"
+
+#~ msgid "The chat window disappears when I logout or go offline"
+#~ msgstr "نافذة المحادثة تختفى عندما أقوم بتسجيل الخروج أو عند انقطاع الاتصال"
+
+#~ msgid "This chat has already been answered. Please close the chat window"
+#~ msgstr "لقد تم الرد على تلك المحادثة. برجاء غلق نافذة المحادثة"
+
+#~ msgid "Buy the Pro add-on now (once off payment)."
+#~ msgstr "شراء الإضافة المدفوعة الآن (الدفع لمرة واحدة)"
+
+#~ msgid "accept and handle multiple chats."
+#~ msgstr "إمكانية استقبال محادثات متعددة."
+
+#~ msgid "(once off payment)."
+#~ msgstr "(الدفع لمرة واحدة)"
+
+#~ msgid "WP Live Chat Support is a product of"
+#~ msgstr "WP Live Chat Support هو منتج لـ"
+
+#~ msgid "Add as many agents as you need with the "
+#~ msgstr "إضافة عدد غير محدود من المندوبين "
+
+#~ msgid "Pro version."
+#~ msgstr "النسخة المدفوعة."
+
+#~ msgid "Change the default chat agent from <strong>%1$s</strong> to "
+#~ msgstr "تغيير مندوب المحادثة الافتراضي من <strong>%1$s</strong> إلى "
+
+#~ msgid ""
+#~ "Get unlimited agents, initiate chats, advanced chat box control, "
+#~ "encryption and more with the Pro add-on."
+#~ msgstr ""
+#~ "الحصول على عدد غير محدود من المندوبين، بدء المحادثات، اعدادات متقدمة "
+#~ "للتحكم في صندوق المحادثة، التشفير و غير ذلك من خلال النسخة المدفوعة."
+
+#~ msgid "Get this extension"
+#~ msgstr "الحصول على هذه الاضافة"
+
+#~ msgid "Mobile & Desktop App"
+#~ msgstr "تطبيق الهاتف و سطح المكتب"
+
+#~ msgid ""
+#~ "Answer chats directly from your mobile phone or desktop with our mobile "
+#~ "app and desktop client"
+#~ msgstr ""
+#~ "الرد على المحادثات مباشرة من خلال هاتفك المحمول أو حاسبك عن طريق "
+#~ "تطبيقاتنا المتوفرة للهواتف و سطح المكتب"
+
+#~ msgid ""
+#~ "Reduce the resources required by your server - use our cloud server to "
+#~ "host your chats."
+#~ msgstr ""
+#~ "قم بتخفيض الموارد المطلوبة من خادم الاستضافة الخاص بك - استخدم خادمنا "
+#~ "السحابي لاستضافة محادثاتك."
+
+#~ msgid "Relevant Extensions"
+#~ msgstr "اضافات ذات صلة"
+
+#~ msgid "View comprehensive reports regarding your chat and agent activity."
+#~ msgstr "عرض تقارير شاملة فيما يتعلق بالمحادثات و المندوبين."
+
+#~ msgid "Chat statistics"
+#~ msgstr "إحصائيات المحادثة"
+
+#~ msgid "Popular pages"
+#~ msgstr "الصفحات المشهورة"
+
+#~ msgid ""
+#~ "ROI reporting and tracking (identify which agents produce the most sales)"
+#~ msgstr ""
+#~ "تقارير و متابعة الـROI (تمكنك من التعرف على المندوبين الأكثر تحقيقاً "
+#~ "للمبيعات)"
+
+#~ msgid ""
+#~ "User experience ratings (identify which agents produce the happiest "
+#~ "customers)"
+#~ msgstr ""
+#~ "تقييمات المستخدم (تحديد أياً من المندوبين يترك انطباع جيد لدى العملاء)"
+
+#~ msgid "Get all this and more in the "
+#~ msgstr "احصل على كل هذا وأكثر في "
+
+#~ msgid "Pro add-on"
+#~ msgstr "الإضافة"
+
+#~ msgid "Upgrade Now"
+#~ msgstr "قم بالترقية الآن"
+
+#~ msgid ""
+#~ "Create custom data triggers when users view a certain page, spend a "
+#~ "certain amount of time on a page, scroll past a certain point or when "
+#~ "their mouse leaves the window."
+#~ msgstr ""
+#~ "انشاء مشغل عند قيام المستخدمين بزيارة صفحة معينة،  قضاء فترة معينة من "
+#~ "الوقت في الصفحة، الانتقال لنقطة معينة بالصفحة أو عند مغادرة مؤشر الماوس "
+#~ "للنافذة."
+
+#~ msgid "Trigger Types"
+#~ msgstr "أنواع المشغلات"

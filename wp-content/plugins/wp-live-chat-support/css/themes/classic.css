@@ -1,0 +1,1029 @@
+#wp-live-chat {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wplc_chatmsg {
+  background-color: #fff !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+  color: #60686e;
+  /* width: 100%; */
+  width: 200px !important;
+  height: 40px;
+  /* margin-bottom: 10px; */
+  border: 0;
+  border-radius: 5px;
+  background: #fff;
+  resize: none;
+  border: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding-left: 30px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  min-height: 35px;
+  overflow-y: hidden;
+  padding: 5px !important;
+  background-color: #fff !important;
+  padding-left: 2px !important;
+  max-width: 125px;
+  overflow-y: auto;
+}
+
+#wp-live-chat textarea {
+  width: 100%;
+}
+
+#wp-live-chat-2 textarea {
+  width: 100%;
+  height: 87px;
+  min-height: 87px;
+  max-height: 87px;
+  resize: none;
+}
+
+.nifty_rating_icon {
+  margin-right: 10px;
+}
+
+#wp-live-chat-2-inner input,
+#wp-live-chat-2-inner textarea,
+#wp-live-chat-2-inner select,
+#wp-live-chat-2 input,
+#wp-live-chat-2 textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: #2b2b2b;
+  padding: 8px 10px 7px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: inherit;
+  width: 100%;
+  font-size: 10pt;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wplc_chatbox {
+  font-size: 12pt;
+  line-height: 1.3em;
+  padding: 5px;
+  height: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-box-shadow: inset 0px 5px 5px -4px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: inset 0px 5px 5px -4px rgba(50, 50, 50, 0.5);
+  box-shadow: inset 0px 5px 5px -4px rgba(50, 50, 50, 0.5);
+}
+
+#wp-live-chat td {
+  padding: 5px;
+  padding-left: 10px;
+}
+
+#wp-live-chat table {
+  border: 0 !important;
+}
+
+#wp-live-chat table td {
+  border: 0 !important;
+}
+
+#wp-live-chat h4 {
+  font-size: 20px;
+  margin: 3px;
+}
+
+#wp-live-chat p {
+  font-size: 14px;
+  margin: 3px;
+}
+
+#wp-live-chat #wplc-sb {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#wp-live-chat-3 {
+  padding: 10px;
+  text-align: center;
+}
+
+#wp-live-chat {
+  position: fixed;
+  z-index: 105;
+  display: block;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.5);
+  border-radius: 5px 5px 0 0;
+  color: #999;
+  max-width: 280px;
+  /* max-height: 400px;*/
+  z-index: 9999;
+}
+
+#wp-live-chat-1 {
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12pt;
+  color: #FFF;
+}
+
+#wp-live-chat-minimize {
+  display: none !important;
+  position: absolute;
+  right: 6px;
+  top: 4px;
+  cursor: pointer;
+  height: 14px;
+  padding: 0 3px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 14px;
+  padding-top: 6px;
+}
+
+#wp-live-chat-close {
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+  vertical-align: middle;
+  height: 14px;
+  width: 14px;
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 1px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#wp-live-chat-2-info {
+  font-size: 12pt;
+  display: block;
+  width: 212px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#wp-live-chat-2-img {
+  padding-bottom: 5px;
+}
+
+.wplc_offline {
+  font-weight: 700;
+}
+
+.wplc_logo_class {
+  max-width: 250px;
+  padding-top: 5px;
+}
+
+#wp-live-chat-header {
+  padding: 10px 0 0;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wp-live-chat-image {
+  position: absolute;
+  width: 40px;
+  padding: 4px;
+  max-height: 40px;
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  top: -35px;
+  left: 20px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 0.7);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 0.7);
+  box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 0.7);
+}
+
+#wp-live-chat-image img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#wp-live-chat-2 {
+  padding: 5px;
+}
+
+#wp-live-chat-2 input {
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: inherit;
+  background-image: none;
+  filter: none;
+  font-size: 10pt;
+  text-shadow: none;
+}
+
+.wplc-clear-float-message {
+  clear: both;
+}
+
+#wplc_message_div {
+  text-align: center;
+  font-size: 12pt;
+  line-height: 14pt;
+}
+
+#wp-live-chat-inner-image-div {
+  overflow: hidden;
+  height: 32px;
+}
+
+.wplc_close.wplc_left #wp-live-chat-1 {
+  -ms-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -ms-transform-origin: left top 0;
+  -moz-transform-origin: left top 0;
+  -webkit-transform-origin: left top 0;
+  transform-origin: left top 0;
+  float: left;
+  width: 195px;
+  position: absolute;
+  top: 27px;
+  padding-left: 0;
+  left: 39px;
+}
+
+.wplc_left #wp-live-chat-header {
+  border-radius: 0px 5px 5px 0;
+}
+
+.wplc_close.wplc_left #wp-live-chat-header {
+  position: absolute;
+  top: 0;
+  width: 45px;
+  bottom: 0;
+  right: 0;
+}
+
+.wplc_open.wplc_left #wp-live-chat-header {
+  border-radius: 0px 5px 0px 0;
+}
+
+.wplc_close.wplc_left .wp-live-chat-wrapper,
+.wplc_close.wplc_right .wp-live-chat-wrapper {
+  position: relative;
+  height: 250px;
+}
+
+.wplc_left {
+  border-radius: 0px 5px 5px 0 !important;
+}
+
+.wplc_close.wplc_left {
+  padding-right: 45px;
+  min-height: 220px;
+}
+
+#wplc_user_message_div {
+  border-top: 1px solid #eee;
+  background-color: #FFF;
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.wplc_close.wplc_right #wp-live-chat-1 {
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -ms-transform-origin: 0 0 0;
+  -moz-transform-origin: 0 0 0;
+  -webkit-transform-origin: 0 0 0;
+  transform-origin: 0 0 0;
+  float: left;
+  width: 180px;
+  padding: 0 !important;
+  bottom: 0;
+  position: absolute;
+  left: 8px;
+}
+
+span.wplc-system-notification {
+  display: block;
+  padding: 8px;
+  clear: both;
+  font-style: italic;
+  text-align: left;
+}
+
+.wplc_close.wplc_right #wp-live-chat-header {
+  position: absolute;
+  top: 0;
+  width: 45px;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.wplc_close.wplc_right {
+  padding-left: 45px;
+  min-height: 220px;
+  border-radius: 5px 0px 0px 5px !important;
+}
+
+.wplc_open.wplc_right #wp-live-chat-header {
+  border-radius: 5px 0px 0px 0;
+}
+
+.wplc_right {
+  border-radius: 5px 0px 0px 5px !important;
+}
+
+.wplc_close.wplc_left #wp-live-chat-image {
+  top: 25px;
+  left: 35px;
+}
+
+.wplc_close.wplc_right #wp-live-chat-image {
+  bottom: 18px;
+  left: initial;
+  right: 38px;
+  top: initial;
+}
+
+.wplc-user-message .wplc-user-message-avatar {
+  border-radius: 25px;
+  position: absolute;
+  top: 3px;
+  right: -38px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.wplc-admin-message-avatar {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.wplc-admin-message img {
+  border-radius: 25px;
+  position: absolute;
+  top: 3px;
+  left: -38px;
+}
+
+.wplc-admin-message {
+  padding: 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  margin-top: 2px;
+  background-color: #EEE;
+  float: right;
+  clear: both;
+  margin-bottom: 3px;
+  word-wrap: break-word;
+  width: 85%;
+  position: relative;
+}
+
+.wplc-user-message {
+  padding: 10px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  border: 1px solid #ffdb99;
+  margin-top: 2px;
+  background-color: #fff6ef;
+  color: #000;
+  display: inline-block;
+  /*float: right;*/
+  clear: both;
+  margin-bottom: 3px;
+  word-wrap: break-word;
+  width: 85%;
+  position: relative;
+}
+
+.wplc-user-message:before {
+  display: block;
+  width: 0;
+  top: 15px;
+  bottom: auto;
+  left: auto;
+  right: -7px;
+  border-width: 6px 0 6px 7px;
+  border-color: transparent #ffdb99;
+  content: "";
+  position: absolute;
+  border-style: solid;
+}
+
+.wplc-admin-message:before {
+  display: block;
+  width: 0;
+  top: 15px;
+  bottom: auto;
+  left: auto;
+  left: -7px;
+  border-width: 6px 7px 6px 0;
+  border-color: transparent #373737;
+  content: "";
+  position: absolute;
+  border-style: solid;
+}
+
+.chat_time {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  color: #ccc;
+  clear: both;
+}
+
+.wplc-user-message hr,
+.wplc-admin-message hr {
+  margin-bottom: 0px !important;
+}
+
+#wplc_first_message {
+  display: block;
+}
+
+#wp-live-chat-2-inner #wplc_start_chat_btn {
+  width: 100%;
+  border: none;
+  font-size: 12pt;
+  padding: 0.6em;
+}
+
+#wplc_social_holder {
+  position: absolute;
+  top: 4px;
+  width: 70px;
+  left: -60px !important
+}
+
+#wplc_social_holder a {
+  margin-left: 8px;
+}
+
+.nifty_tedit_icon {
+  font-size: 12px !important;
+  padding-left: 6px;
+}
+
+#nifty_file_holder {
+  float: right;
+  position: relative;
+  top: -38px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+#nifty_select_file {
+  cursor: pointer;
+}
+
+.nifty_rating_icon {
+  margin-right: 10px;
+  color: #999;
+  font-size: 17px;
+}
+
+#nifty_ratings_holder {
+  float: right;
+  position: relative;
+  top: -37px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#nifty_ratings_form {
+  position: absolute;
+  right: 0;
+  bottom: -6px;
+  width: 250px;
+  padding: 2px;
+  z-index: 9999;
+  border-radius: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input#nifty_ratings_comment {
+  width: 60%;
+  margin-bottom: 0px;
+  line-height: inherit;
+  font-size: 12px;
+  top: 0px;
+  position: relative;
+  float: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#nifty_ratings_comment {
+  height: 25px !important;
+  margin-left: 2px;
+}
+
+#nifty_rating_button {
+  float: left;
+  border-style: none;
+  width: 27%;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  /* top: 3px; */
+  /* right: 2px; */
+  position: relative;
+  margin-left: 4px;
+  margin-top: 0px;
+}
+
+#nifty_rating_button_cancel {
+  float: right;
+  border-style: none;
+  width: 9%;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 13px;
+  padding: 1px;
+  top: 0px;
+  line-height: 12px;
+  right: 1px;
+  height: 24px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#nifty_rating_thanks {
+  position: absolute;
+  top: 0px;
+  left: 58px;
+  width: 200px;
+}
+
+#nifty_recording {
+  margin-left: 5px;
+}
+
+#wplc_hovercard {
+  position: fixed;
+  bottom: 96px;
+  right: 98px;
+  width: 209px;
+  height: 125px;
+  border: 1px solid #ccc;
+  background-color: #FFF;
+  border-radius: 5px;
+  z-index: 9999999;
+}
+
+#wplc_hovercard:before {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 32px;
+  border-width: 9px 9px 0;
+  border-style: solid;
+  border-color: #ccc transparent;
+  display: block;
+  width: 0;
+}
+
+#wplc_hovercard:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 33px;
+  border-width: 8px 8px 0;
+  border-style: solid;
+  border-color: #fafafb transparent;
+  display: block;
+  width: 0;
+}
+
+.wplc_button_standard {
+  border: 1px solid #0596d4;
+  background-color: #0596d4;
+  opacity: 0.9;
+}
+
+.wplc_button_standard:hover {
+  border: 1px solid #0596d4;
+  background-color: #0596d4;
+  opacity: 0.7;
+}
+
+.wplc_button_standard:focus {
+  border: 1px solid #0596d4;
+  background-color: #0596d4;
+  opacity: 0.7;
+}
+
+#wplc_hovercard_min {
+  position: absolute;
+  width: 61px;
+  height: 18px;
+  right: 0px;
+  top: -25px;
+  font-size: 9px;
+  text-align: center;
+  border-radius: 9px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#wplc_hovercard_bottom {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  height: 43px;
+  border-bottom-right-radius: 5px;
+  background-color: #fafafb;
+  border-bottom-left-radius: 5px;
+}
+
+#wplc_hovercard_content {
+  padding: 15px;
+  height: 80px;
+  box-shadow: 0 1px 1px #f0f0f1;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+}
+
+
+/* named after the famous words uttered by The Dylan at Code Cabin */
+
+#speeching_button {
+  padding: 5px;
+  font-size: 12px;
+  text-transform: none;
+  float: right;
+  margin-right: 15px;
+}
+
+.wplc_hovercard_content_right #wplc_first_message {
+  display: block;
+}
+
+.wplc_hovercard_content_right #wplc_first_message strong {
+  display: block;
+  clear: right;
+}
+
+.wplc_hovercard_content_left {
+  float: left;
+  display: block;
+  height: 60px;
+  padding-right: 10px;
+}
+
+.wplc_hovercard_content_right {
+  float: left;
+  display: block;
+  /* margin-left: 30px; */
+  /* padding-left: 20px; */
+  font-size: 0.8em;
+  word-wrap: break-word;
+  height: 70px;
+  width: 188px;
+}
+
+.wplc_left_logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.wplc_hovercard_content_right .wplc_offline {
+  font-weight: bold;
+}
+
+.typing_indicator {
+  width: 100%;
+  position: absolute;
+  height: 0px;
+  opacity: 0.3;
+  bottom: 55px;
+  z-index: 9999;
+  font-size: 0.7em;
+}
+
+.typing_indicator_active {
+  height: 20px;
+  opacity: 0.9;
+}
+
+.wplc_msg_notice {
+  font-size: 0.8em;
+}
+
+.wplc_powered_by_link {
+  font-size: 10px;
+  max-width: 120px;
+  position: absolute;
+  bottom: 3px;
+  padding: 3px;
+}
+
+#wplc_chatbox span.timedate {
+  font-size: 0.8em;
+  display: block;
+  font-style: italic;
+}
+
+.wplc-msg-float-left {
+  margin-left: 15%;
+  text-align: left;
+}
+
+.wplc-msg-float-right {
+  margin-right: 15%;
+  text-align: right;
+}
+
+.wdt-emoji-popup.open {
+  z-index: 99999;
+}
+
+.wdt-emoji-picker {
+  right: 10px;
+  bottom: 22px !important;
+  font-size: 17px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.wdt-emoji-popup.ready.open {
+  width: 281px;
+  margin-left: 20px;
+}
+
+.wdt-emoji-popup h3.sticky {
+  width: 214px;
+}
+
+.wdt-emoji-tab {
+  width: 25px;
+}
+
+.wdt-credit {
+  z-index: 999999;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  font-size: 9px;
+  color: #cecece;
+}
+
+#chat_drag_zone {
+  background: rgba(51, 51, 51, 0.35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+#chat_drag_zone_inner {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  bottom: 10%;
+  border: 3px dashed #ffffff;
+}
+
+#chat_drag_zone_inner span {
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#nifty_text_editor_holder {
+  display: none;
+}
+
+.typing_indicator {
+  padding-left: 5px;
+}
+
+#wp-live-chat-2-info {
+  background: none !important;
+  color: #333 !important;
+}
+
+a.tcx_restart_chat {
+  text-align: center;
+  margin-top: 15px;
+  display: block;
+}
+
+div#tcx_chat_ended {
+  min-height: 50px;
+  max-height: 50px;
+  height: 50px;
+  font-size: 12pt;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 2147483647;
+  background-color: #fff;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+}
+
+
+/* System notification message style */
+
+#tcx_notification_message {
+  position: absolute;
+  border-radius: 3px;
+  padding: 3px 6px;
+  top: -5px;
+  animation: wplc_notification_slide_in .2s forwards;
+}
+
+@keyframes wplc_notification_slide_in {
+  from {
+    top: -5px;
+    opacity: 0;
+  }
+  to {
+    top: -35px;
+    opacity: .8;
+  }
+}
+
+input#wplc_chat_gdpr_opt_in {
+  display: inline-block;
+  width: inherit;
+  vertical-align: top;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+label[for=wplc_chat_gdpr_opt_in] {
+  display: inline-block;
+  font-size: 0.6em;
+  max-width: 90%;
+  vertical-align: top;
+  line-height: 1.3em;
+}
+
+.wplc_gdpr_privacy_notice {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.6em;
+  margin-left: 2em;
+  margin-right: 2em;
+  color: #bdbdbd;
+  font-size: 0.6em;
+  line-height: 1.3em;
+}
+
+.wplc_gdpr_privacy_notice a {
+  color: #8e8e8e;
+}
+
+.wplc_gdpr_privacy_notice a:hover {
+  color: #8e8e8e;
+  text-decoration: underline;
+}
+
+#wplc_end_chat_button {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  padding: 5px;
+  font-size: 12pt;
+  border-radius: 4px;
+  background: transparent !important;
+  color: #fff !important;
+  border: none;
+  height: 25px;
+  width: 25px;
+}
+
+#wplc_end_chat_button i:first-child {
+  margin-top: -4px;
+}
+
+#wplc_end_chat_button i {
+  font-weight: 100 !important;
+  position: absolute;
+}
+
+.wplc_in_chat_notice {
+  position: absolute;
+  background: #fff;
+  height: 20%;
+  bottom: 6%;
+  padding: 21px;
+  box-shadow: 0px 0px 20px 0px #33333324;
+  border-radius: 5px;
+  z-index: 2147483647;
+  left: 6%;
+  right: 6%;
+}
+
+.wplc_in_chat_notice_heading {
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.wplc_in_chat_notice_content button {
+  padding: 5px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 100;
+  margin-bottom: 5px;
+  border: none;
+}
+
+.wplc_in_chat_notice_content button:hover {
+  box-shadow: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.wplc_in_chat_notice_content {
+  padding-top: 15px;
+}
+
+#wplc_msg_notice {
+  font-size: 0.5em !important;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px) and (orientation: portrait) {
+  .wdt-emoji-picker {
+    display: block !important;
+  }
+}
+
+span.wplc_char_counter {
+  font-size: 10px;
+  position: absolute;
+  right: 10px;
+  margin-top: -25px
+}
+
+.wplc-system-notification .messageBody span a {
+  max-width: 100%;
+  max-height: 27px;
+  display: block;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+}
+
+.wplc-ds-wrapper br {
+  display: none;
+}
+
+.wplc_custom_dropdown option[wplc-holder=true],
+.wplc_custom_dropdown.unselected {
+  color: #7d7d7d !important;
+}
+
+#wplc_chatbox>span:last-child {
+  margin-bottom: 20px;
+}

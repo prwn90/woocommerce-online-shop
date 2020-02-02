@@ -1,0 +1,20 @@
+#p24-change-currency-widget {
+	display: inline-block;
+	margin-bottom: 2em;
+	padding: 1em;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: .2em;
+	background: white;
+	color: black;
+}
+
+#p24-change-currency-widget label {
+	display: inline-block;
+}
+
+#p24-change-currency-widget select {
+	background: white;
+	color: black;
+}

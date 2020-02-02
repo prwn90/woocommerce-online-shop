@@ -1,0 +1,400 @@
+/**
+ * GIF image style within a message
+ */
+
+.messageBody .gif-img {
+  max-width: 100%;
+  margin-bottom: -5px;
+}
+
+
+/**
+ * GIF Search box
+ */
+
+
+/* Loader */
+
+.wplc-gif-integration-search-box .gif-sb-loader {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.wplc-gif-integration-search-box .gif-sb-loader.hidden {
+  display: none;
+  z-index: 0;
+}
+
+.wplc-gif-integration-search-box .gif-sb-loader img {
+  display: block;
+  position: relative;
+  top: calc(50% - 25px);
+  width: 50px;
+  height: auto;
+  margin: auto;
+}
+
+
+/* Outter container */
+
+.wplc-gif-integration-search-box.show,
+.wplc-gif-integration-search-box {
+  display: block;
+  position: absolute;
+  bottom: 66px;
+  width: 70%;
+  margin-left: 15%;
+  height: 300px;
+  background: #fafafa;
+  z-index: 100000000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.wplc-gif-integration-search-box.show {
+  animation-name: present-gif-search-box;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: present-gif-search-box;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: present-gif-search-box;
+  -moz-animation-duration: 500ms;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-name: present-gif-search-box;
+  -ms-animation-duration: 500ms;
+  -ms-animation-timing-function: ease-in-out;
+  -ms-animation-fill-mode: forwards;
+}
+
+.wplc-gif-integration-search-box {
+  animation-name: dismiss-gif-search-box;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: dismiss-gif-search-box;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-name: dismiss-gif-search-box;
+  -moz-animation-duration: 500ms;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-name: dismiss-gif-search-box;
+  -ms-animation-duration: 500ms;
+  -ms-animation-timing-function: ease-in-out;
+  -ms-animation-fill-mode: forwards;
+}
+
+.wplc-gif-integration-search-box.hidden {
+  display: none;
+}
+
+
+/**
+ * Present full screen msg
+ */
+
+@keyframes present-gif-search-box {
+  0% {
+    left: 5000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@-moz-keyframes present-gif-search-box {
+  0% {
+    left: 5000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes present-gif-search-box {
+  0% {
+    left: 5000px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+
+/**
+ * Dismiss full screen msg
+ */
+
+@keyframes dismiss-gif-search-box {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 5000px;
+  }
+}
+
+@-moz-keyframes dismiss-gif-search-box {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 5000px;
+  }
+}
+
+@-webkit-keyframes dismiss-gif-search-box {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 5000px;
+  }
+}
+
+@media(max-width:767px) {
+  .wplc-gif-integration-search-box.show,
+  .wplc-gif-integration-search-box {
+    bottom: 75px;
+  }
+}
+
+
+/* Header, Body and Footer */
+
+.wplc-gif-integration-search-box .gif-sb-header,
+.wplc-gif-integration-search-box .gif-sb-body,
+.wplc-gif-integration-search-box .gif-sb-footer {
+  display: block;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* Header */
+
+.wplc-gif-integration-search-box .gif-sb-header {
+  min-height: 10%;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-search-term,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search {
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  margin: 0px;
+  border-bottom: 1px solid #f0f0f0 !important;
+  background-color: transparent !important;
+  border-right: none;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search i,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-close i,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search:hover i,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-close:hover i {
+  display: block;
+  position: relative;
+  left: 0px;
+  font-style: initial;
+  color: #ccc;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-close {
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  border: none !important;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-close,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search:hover,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-close:hover {
+  text-decoration: none !important;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-search-term {
+  top: -1px;
+  width: 95%;
+  height: 38px;
+  margin-bottom: 0px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  background-color: transparent !important;
+  border-bottom: 1px solid #eee !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search:hover {
+  top: 0px;
+  left: 1px;
+  width: 10%;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 3px;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search i,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search:hover i {
+  top: 0px;
+  left: -1px;
+  font-weight: 600;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-close {
+  color: #999999 !important;
+  cursor: pointer;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-close:hover {
+  background-color: #ffffff;
+  color: #333333 !important;
+}
+
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-close i,
+.wplc-gif-integration-search-box .gif-sb-header .gif-sb-close:hover i {
+  top: -3px;
+  font-weight: 500;
+}
+
+
+/* Body */
+
+.wplc-gif-integration-search-box .gif-sb-body {
+  min-height: 65%;
+  max-height: 195px;
+  background-color: #f0f0f0;
+  border: 1px solid #eaeaea;
+  overflow: auto;
+}
+
+.wplc-gif-integration-search-box .gif-sb-body .gif-img,
+.wplc-gif-integration-search-box .gif-sb-body .gif-img:hover,
+.wplc-gif-integration-search-box .gif-sb-body .gif-img.selected-gif {
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  min-height: 70px;
+  min-height: 70px;
+  width: auto;
+  max-width: 100px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 1px;
+}
+
+.wplc-gif-integration-search-box .gif-sb-body .gif-img {
+  opacity: 0.7;
+}
+
+.wplc-gif-integration-search-box .gif-sb-body .gif-img:hover {
+  opacity: 1;
+}
+
+.wplc-gif-integration-search-box .gif-sb-body .gif-img.selected-gif {
+  min-height: 100px;
+  opacity: 1;
+}
+
+@media(max-width:767px) {
+  .wplc-gif-integration-search-box .gif-sb-body .gif-img {
+    width: 50%;
+  }
+}
+
+@media(max-width:900px) {
+  .wplc-gif-integration-search-box .gif-sb-body .gif-img {
+    width: 33%;
+  }
+}
+
+@media(max-width:1200px) {
+  .wplc-gif-integration-search-box .gif-sb-body .gif-img {
+    width: 20%;
+  }
+}
+
+
+/* Footer */
+
+.wplc-gif-integration-search-box .gif-sb-footer {
+  min-height: 10%;
+  background-color: #fafafa;
+  border: 1px solid #eaeaea;
+  font-size: 0.9em;
+  color: #777777;
+}
+
+
+/**
+ * Adjustments of the base style made for the admin chat
+ */
+
+
+/**
+ * GIF image style within a message
+ */
+
+#chat_area .messageBody .gif-img {
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+
+
+/* Header */
+
+#chat_area .wplc-gif-integration-search-box .gif-sb-header .gif-sb-search-term {
+  top: 1px;
+}
+
+#chat_area .wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search,
+#chat_area .wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search:hover {
+  padding-top: 9px;
+}
+
+#chat_area .wplc-gif-integration-search-box .gif-sb-header .gif-sb-close,
+#chat_area .wplc-gif-integration-search-box .gif-sb-header .gif-sb-close:hover {
+  top: 2px;
+  height: 38px;
+}
+
+#chat_area .wplc-gif-integration-search-box .gif-sb-header .gif-sb-close i,
+#chat_area .wplc-gif-integration-search-box .gif-sb-header .gif-sb-close:hover i {
+  top: 0px;
+}
+
+#chat_area .wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search i,
+#chat_area .wplc-gif-integration-search-box .gif-sb-header .gif-sb-confirm-search:hover i {
+  top: 1px;
+}
+
+
+/* Body */
+
+#chat_area .wplc-gif-integration-search-box .gif-sb-body {
+  min-height: 73%;
+}

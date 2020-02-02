@@ -1,0 +1,5478 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Live Chat by 3CX\n"
+"POT-Creation-Date: 2019-10-17 11:36+0200\n"
+"PO-Revision-Date: 2019-10-17 11:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-live-chat-support.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ajax/agent.php:167 ajax/user.php:114 wp-live-chat-support.php:370
+#: wp-live-chat-support.php:4864
+msgid "Admin"
+msgstr "管理员"
+
+#: ajax/agent.php:262 ajax/user.php:218
+msgid "Admin has closed and ended the chat"
+msgstr "管理员已关闭并结束聊天"
+
+#: functions.php:417 functions.php:431
+msgid "Accept Chat"
+msgstr "接受聊天"
+
+#: functions.php:423 functions.php:436
+msgid "Open Chat"
+msgstr "打开聊天"
+
+#: functions.php:425
+msgid "In progress with another agent"
+msgstr "正在与另一个客服进行"
+
+#: functions.php:439
+msgid "Only chat agents can accept chats"
+msgstr "只有聊天客服才能接受聊天"
+
+#: functions.php:503 modules/api/agent/wplc-api-functions.php:395
+msgid "New"
+msgstr "新"
+
+#: functions.php:505 modules/api/agent/wplc-api-functions.php:397
+msgid "Returning"
+msgstr "返回"
+
+#: functions.php:596
+msgid "No agent was able to answer your chat request. Please try again."
+msgstr "没有客服能够回答您的聊天请求. 请再试一次."
+
+#: functions.php:610 modules/advanced_features.php:113
+msgid "End Chat"
+msgstr "结束聊天"
+
+#: functions.php:1021
+msgid "complete"
+msgstr "完成"
+
+#: functions.php:1024
+msgid "pending"
+msgstr "等待"
+
+#: functions.php:1027
+msgid "active"
+msgstr "激活"
+
+#: functions.php:1030
+msgid "deleted"
+msgstr "已删除"
+
+#: functions.php:1033
+msgid "browsing"
+msgstr "浏览中"
+
+#: functions.php:1036
+msgid "requesting chat"
+msgstr "请求聊天"
+
+#: functions.php:1039
+msgid "Chat Ended - User still browsing"
+msgstr "聊天结束 - 用户仍在浏览"
+
+#: functions.php:1042
+msgid "User is browsing but doesn't want to chat"
+msgstr "用户正在浏览, 但不想聊天"
+
+#: functions.php:1181 includes/settings_page.php:774
+#, fuzzy
+#| msgid "WP Live Chat Support - Offline Message from "
+msgid "WP Live Chat by 3CX - Offline Message from "
+msgstr "WP实时聊天支持 - 离线消息表单 "
+
+#: functions.php:1182 functions.php:1506 includes/settings_page.php:164
+#: includes/settings_page.php:408 includes/wplc_custom_fields.php:79
+#: includes/wplc_data_triggers.php:465 includes/wplc_departments.php:176
+#: includes/wplc_roi.php:160 modules/node_server.php:81
+#: modules/node_server.php:124 wp-live-chat-support.php:1592
+#: wp-live-chat-support.php:1615 wp-live-chat-support.php:1780
+#: wp-live-chat-support.php:3357 wp-live-chat-support.php:3484
+msgid "Name"
+msgstr "名称"
+
+#: functions.php:1183 functions.php:1507 includes/settings_page.php:160
+#: modules/node_server.php:125 wp-live-chat-support.php:1593
+#: wp-live-chat-support.php:1604 wp-live-chat-support.php:1781
+#: wp-live-chat-support.php:3358 wp-live-chat-support.php:3485
+msgid "Email"
+msgstr "邮箱"
+
+#: functions.php:1184 wp-live-chat-support.php:1782
+#: wp-live-chat-support.php:3486 wp-live-chat-support.php:4221
+#: wp-live-chat-support.php:4281
+msgid "Message"
+msgstr "信息"
+
+#: functions.php:1185
+#, fuzzy
+#| msgid "Via WP Live Chat Support"
+msgid "Via WP Live Chat by 3CX"
+msgstr "通过WP实时聊天支持"
+
+#: functions.php:1484 wp-live-chat-support.php:3313
+msgid "Error: Could not delete chat"
+msgstr "错误: 无法删除聊天"
+
+#: functions.php:1486 wp-live-chat-support.php:3317
+msgid "Chat Deleted"
+msgstr "启用聊天"
+
+#: functions.php:1489 includes/wplc_custom_fields.php:35
+#: includes/wplc_custom_fields.php:441 includes/wplc_custom_fields.php:462
+#: includes/wplc_data_triggers.php:261 includes/wplc_data_triggers.php:279
+#: includes/wplc_data_triggers.php:323 includes/wplc_data_triggers.php:511
+#: includes/wplc_departments.php:304 includes/wplc_departments.php:324
+#: includes/wplc_departments.php:359 includes/wplc_roi.php:390
+#: includes/wplc_roi.php:409 includes/wplc_roi.php:446
+#: modules/advanced_tools.php:29 modules/advanced_tools.php:146
+#: modules/advanced_tools.php:244 modules/advanced_tools.php:252
+#: modules/advanced_tools.php:260 modules/advanced_tools.php:268
+#: modules/gdpr.php:223 modules/gdpr.php:237 modules/webhooks_manager.php:102
+#: modules/webhooks_manager.php:122 modules/webhooks_manager.php:149
+#: wp-live-chat-support.php:3272 wp-live-chat-support.php:3302
+#: wp-live-chat-support.php:4191
+msgid "You do not have permission do perform this action"
+msgstr ""
+
+#: functions.php:1495 wp-live-chat-support.php:3326
+msgid "Are you sure you would like to delete this chat?"
+msgstr "您确定要删除此聊天吗?"
+
+#: functions.php:1496 includes/settings_page.php:142
+#: includes/wplc_custom_fields.php:263 wp-live-chat-support.php:3327
+msgid "Yes"
+msgstr "是"
+
+#: functions.php:1496 includes/settings_page.php:143
+#: includes/wplc_custom_fields.php:263 wp-live-chat-support.php:3327
+msgid "No"
+msgstr "否"
+
+#: functions.php:1505 functions.php:2093 includes/settings_page.php:332
+#: includes/settings_page.php:434 wp-live-chat-support.php:3356
+#: wp-live-chat-support.php:3483
+msgid "Date"
+msgstr "日期"
+
+#: functions.php:1508 functions.php:4264 wp-live-chat-support.php:3359
+msgid "URL"
+msgstr "网址"
+
+#: functions.php:1509 includes/wplc_custom_fields.php:83
+#: includes/wplc_data_triggers.php:470 includes/wplc_departments.php:177
+#: includes/wplc_roi.php:164 modules/webhooks_manager.php:251
+#: wp-live-chat-support.php:2378 wp-live-chat-support.php:3361
+msgid "Action"
+msgstr "动作"
+
+#: functions.php:1523
+msgid "You have not missed any chat requests."
+msgstr "您没有错过任何聊天请求."
+
+#: functions.php:1530 wp-live-chat-support.php:3381
+msgid "View Chat History"
+msgstr "查看聊天历史"
+
+#: functions.php:1530 wp-live-chat-support.php:3381
+msgid "Download Chat History"
+msgstr "下载聊天历史"
+
+#: functions.php:1724
+msgid "Open chat window via"
+msgstr "通过打开聊天窗口"
+
+#: functions.php:1728
+msgid "Click"
+msgstr "点击"
+
+#: functions.php:1729
+msgid "Hover"
+msgstr "悬停"
+
+#: functions.php:1731
+msgid "element with"
+msgstr "元素"
+
+#: functions.php:1733
+msgid "Class"
+msgstr "类"
+
+#: functions.php:1734 includes/wplc_custom_fields.php:78
+#: includes/wplc_data_triggers.php:464 includes/wplc_departments.php:175
+#: includes/wplc_roi.php:159
+msgid "ID"
+msgstr "ID"
+
+#: functions.php:2005 functions.php:2011 functions.php:2016
+#: includes/dashboard_page.php:58 modules/node_server.php:134
+#: modules/node_server.php:1022 wp-live-chat-support.php:3962
+msgid "Quick Responses"
+msgstr "快速响应"
+
+#: functions.php:2006 includes/settings_page.php:322
+msgid "Quick Response"
+msgstr "快速响应"
+
+#: functions.php:2007 functions.php:2010
+msgid "New Quick Response"
+msgstr "新的快速响应"
+
+#: functions.php:2008 modules/node_server.php:1031
+msgid "Add New Quick Response"
+msgstr "添加新的快速反应"
+
+#: functions.php:2009
+msgid "Edit Quick Response"
+msgstr "编辑快速响应"
+
+#: functions.php:2012
+msgid "View Quick Responses"
+msgstr "查看快速响应"
+
+#: functions.php:2013
+msgid "Search Quick Responses"
+msgstr "搜索快速响应"
+
+#: functions.php:2014
+msgid "No Quick Responses found"
+msgstr "未找到快速响应"
+
+#: functions.php:2015
+msgid "No Quick Responses found in the Trash"
+msgstr "在垃圾箱中找不到快速响应"
+
+#: functions.php:2020
+#, fuzzy
+#| msgid "Quick Responses for WP Live Chat Support Pro"
+msgid "Quick Responses for WP Live Chat by 3CX"
+msgstr "WP实时聊天专业版快速响应"
+
+#: functions.php:2054
+msgid "Sort Order"
+msgstr "排序"
+
+#: functions.php:2090 includes/settings_page.php:331
+msgid "Title"
+msgstr "标题"
+
+#: functions.php:2091
+msgid "Order"
+msgstr "订单"
+
+#: functions.php:2092 includes/settings_page.php:1182
+msgid "Author"
+msgstr "作者"
+
+#: functions.php:2135 wp-live-chat-support.php:461
+msgid "Press ENTER to send your message"
+msgstr "按 Enter 发送消息"
+
+#: functions.php:2174 functions.php:2178
+msgid "Assign Quick Response"
+msgstr "分配快速响应"
+
+#: functions.php:2181 includes/settings_page.php:1164
+msgid "Select"
+msgstr "选择"
+
+#: functions.php:2187
+msgid "What is this?"
+msgstr "这是什么?"
+
+#: functions.php:2229
+#, php-format
+msgid "Incoming chat from %s (%s) on %s"
+msgstr "来自 %s (%s) 在%s 上的来电聊天"
+
+#: functions.php:2235
+#, fuzzy, php-format
+#| msgid "%s (%s) wants to chat with you. <br /><br />Log in: %s"
+msgid "%s (%s) wants to chat with you."
+msgstr "%s (%s) 想和你聊天. <br /><br />Log in: %s"
+
+#: functions.php:2240
+#, fuzzy, php-format
+#| msgid "Log in"
+msgid "Log in: %s"
+msgstr "登录"
+
+#: functions.php:2567
+msgid "Status (Online)"
+msgstr "状态 (在线)"
+
+#: functions.php:2568
+msgid "Online"
+msgstr "在线"
+
+#: functions.php:2569
+msgid "Offline"
+msgstr "离线"
+
+#: functions.php:2570
+msgid "Status (Offline)"
+msgstr "状态 (离线)"
+
+#: functions.php:2581
+msgid ""
+"You have set your status to offline. To view visitors and accept chats "
+"please set your status to online using the switch above."
+msgstr ""
+"您已将状态设为离线状态. 查看访问者并接受聊天, 请使用上述开关将您的状态设置为"
+"在线."
+
+#: functions.php:2651
+msgid "Encryption"
+msgstr "加密"
+
+#: functions.php:2657 includes/settings_page.php:1225
+#: wp-live-chat-support.php:3977
+msgid "Business Hours"
+msgstr "营业时间"
+
+#: functions.php:2859
+msgid "Initiate Chat"
+msgstr "启动聊天"
+
+#: functions.php:2951
+msgid "Attempting to open the chat window... Please be patient."
+msgstr "正在打开聊天窗口... 请耐心等待."
+
+#: functions.php:2968
+msgid ""
+"You are not a chat agent. Please make yourself a chat agent before trying to "
+"chat to visitors"
+msgstr "你不是一个聊天客服. 在和访客聊天之前, 请先让自己成为一个聊天客服"
+
+#: functions.php:3163 functions.php:3179 functions.php:3194
+msgid "Chat Agent"
+msgstr "聊天客服"
+
+#: functions.php:3168 functions.php:3184
+msgid "Make this user a chat agent"
+msgstr "使这个用户成为一个聊天客服"
+
+#: functions.php:3198
+msgid "Your user role does not allow you to make yourself a chat agent."
+msgstr "您的用户角色不允许您创建聊天客服。"
+
+#: functions.php:3199
+msgid "Please contact the administrator of this website to change this."
+msgstr "请与本网站的管理员联系, 以更改此选项."
+
+#: functions.php:3218
+msgid "This chat has already been answered by another agent."
+msgstr "这次谈话已经被另一个客服回答了."
+
+#: functions.php:3460 wp-live-chat-support.php:2314
+msgid "Agent(s) online"
+msgstr "客服在线"
+
+#: functions.php:3514
+msgid "Chat Agent Online"
+msgstr "聊天客服在线"
+
+#: functions.php:3516 functions.php:3520
+msgid "Chat Agents Online"
+msgstr "实时聊天客服"
+
+#: functions.php:3628 includes/settings_page.php:1153
+#: wp-live-chat-support.php:2260
+msgid "Remove"
+msgstr "移除"
+
+#: functions.php:3631 wp-live-chat-support.php:2263
+msgid "Typing..."
+msgstr "输入..."
+
+#: functions.php:4001
+msgid "User Experience Ratings"
+msgstr "用户体验评级"
+
+#: functions.php:4008
+msgid "Agent Statistics"
+msgstr "客服统计"
+
+#: functions.php:4051 functions.php:4090
+msgid "Satisfaction Rating"
+msgstr "满意度评级"
+
+#: functions.php:4052 functions.php:4091
+msgid "Rating Count"
+msgstr "评分计数"
+
+#: functions.php:4052 functions.php:4091
+msgid "Good"
+msgstr "满意"
+
+#: functions.php:4052 functions.php:4091
+msgid "Bad"
+msgstr "不满意"
+
+#: functions.php:4162 includes/dashboard_page.php:56
+#: wp-live-chat-support.php:1015
+msgid "Reports"
+msgstr "报告"
+
+#: functions.php:4165 includes/wplc_roi.php:161
+msgid "Overview"
+msgstr "概述"
+
+#: functions.php:4166
+msgid "Popular Pages"
+msgstr "热门页面"
+
+#: functions.php:4184
+msgid "Total Agents"
+msgstr "总客服"
+
+#: functions.php:4184
+msgid "Total number of agents that used the live chat"
+msgstr "使用实时聊天的客服总数"
+
+#: functions.php:4185
+msgid "Total Chats"
+msgstr "总聊天"
+
+#: functions.php:4185
+msgid "Total number of chats received"
+msgstr "收到的聊天总数"
+
+#: functions.php:4186
+msgid "Total URLs"
+msgstr "总链接数"
+
+#: functions.php:4186
+msgid "Total number of URLs a chat was initiated on"
+msgstr "发起聊天的URL总数"
+
+#: functions.php:4187
+msgid "Chats per day"
+msgstr "每天聊天"
+
+#: functions.php:4188
+msgid "Popular pages a chat was initiated on"
+msgstr "发起聊天的热门页面"
+
+#: functions.php:4218 includes/wplc_custom_fields.php:304
+msgid "Unknown"
+msgstr "未知"
+
+#: functions.php:4265
+msgid "Count"
+msgstr "数量"
+
+#: functions.php:4291
+#, fuzzy
+#| msgid "Enable Google Analytics Integration"
+msgid "Enable Manual Chat Initiation:"
+msgstr "启用 Google Analytics 集成"
+
+#: functions.php:4291
+msgid ""
+"Enabling this feature will allow agents to start a chat with website "
+"visitors. This feature increases server load while enabled."
+msgstr ""
+
+#: functions.php:4295 modules/advanced_features.php:73
+msgid ""
+"This feature is only available when you select 3CX High Performance Cloud "
+"Servers in Advanced Features."
+msgstr ""
+
+#: functions.php:4382
+msgid "Thank you for inquiry. We will get back to you shortly"
+msgstr "谢谢你的询问. 我们会尽快回复您"
+
+#: functions.php:4560 wp-live-chat-support.php:4550
+#, fuzzy
+#| msgid ""
+#| "The Live Chat box is currently disabled on your website due to : <a href="
+#| "\"%s\">General Settings</a>"
+msgid "The Live Chat box is currently disabled on your website due to:"
+msgstr ""
+"由于以下原因, “实时会话”框当前在您的网站上被禁用: <a href=\"%s\">常规设置</a>"
+
+#: functions.php:4561 wp-live-chat-support.php:4551
+#, fuzzy
+#| msgid "Business Hours"
+msgid "Business Hours Settings"
+msgstr "营业时间"
+
+#: functions.php:4612
+msgid "Edit Profile"
+msgstr "编辑个人资料"
+
+#: functions.php:4623 modules/node_server.php:96 modules/node_server.php:878
+msgid "Drag Files Here"
+msgstr "在此处拖动文件"
+
+#: functions.php:4646 functions.php:4691 includes/wplc_custom_fields.php:107
+#: includes/wplc_data_triggers.php:478 includes/wplc_data_triggers.php:616
+#: includes/wplc_departments.php:185 includes/wplc_departments.php:475
+#: includes/wplc_roi.php:172 includes/wplc_roi.php:591
+#: modules/webhooks_manager.php:263
+msgid "Delete"
+msgstr "删除"
+
+#: functions.php:4647
+msgid "Send..."
+msgstr "发送..."
+
+#: functions.php:4648 functions.php:4693
+msgid "Play voice note"
+msgstr "播放语音笔记"
+
+#: functions.php:4692
+msgid "Save..."
+msgstr "保存..."
+
+#: functions.php:4780 wp-live-chat-support.php:1248
+#: wp-live-chat-support.php:2791
+msgid "is typing..."
+msgstr "正在输入..."
+
+#: functions.php:4782
+#, fuzzy
+#| msgid "No visitors on-line at the moment"
+msgid "There are no visitors on your site at the moment"
+msgstr "目前没有访客在线"
+
+#: functions.php:4783
+msgid "Connection to the server lost, reconnecting..."
+msgstr ""
+
+#: functions.php:4784
+#, fuzzy
+#| msgid "Skip intro and start accepting chats"
+msgid "Agent offline - not accepting chats"
+msgstr "跳过介绍并开始接受聊天"
+
+#: functions.php:4800
+msgid "An error has occured while fetching the news feed."
+msgstr ""
+
+#: functions.php:4897
+msgid "Default"
+msgstr "默认"
+
+#: functions.php:5200 functions.php:5204
+msgid "You do not have permission to perform this action"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:30
+#: includes/blocks/wplc-chat-box/index.php:51 wp-live-chat-support.php:3978
+msgid "Gutenberg Blocks"
+msgstr "古腾堡"
+
+#: includes/blocks/wplc-chat-box/index.php:55
+msgid "Enable Gutenberg Blocks"
+msgstr "启用古腾堡块"
+
+#: includes/blocks/wplc-chat-box/index.php:63
+#, fuzzy
+#| msgid "Block Text"
+msgid "Block size"
+msgstr "块文本"
+
+#: includes/blocks/wplc-chat-box/index.php:74
+#, fuzzy
+#| msgid "Block Logo"
+msgid "Set block logo"
+msgstr "块徽标"
+
+#: includes/blocks/wplc-chat-box/index.php:85
+#, fuzzy
+#| msgid "Text Field"
+msgid "Text in block"
+msgstr "文本字段"
+
+#: includes/blocks/wplc-chat-box/index.php:93
+msgid "Use icon"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:99
+msgid "Icon in block"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:107
+msgid "Preview block"
+msgstr ""
+
+#: includes/blocks/wplc-chat-box/index.php:115
+msgid "Custom HTML Template"
+msgstr "自定义 HTML 模板"
+
+#: includes/blocks/wplc-chat-box/index.php:117
+msgid "Displays the chosen logo"
+msgstr "禁用所选徽标"
+
+#: includes/blocks/wplc-chat-box/index.php:118
+msgid "Displays the chosen custom text"
+msgstr "禁用所选自定义文本"
+
+#: includes/blocks/wplc-chat-box/index.php:119
+msgid "Displays the chosen icon"
+msgstr "禁用所选图标"
+
+#: includes/blocks/wplc-chat-box/index.php:218 wp-live-chat-support.php:1256
+#: wp-live-chat-support.php:1899
+msgid "Type here"
+msgstr "在此输入"
+
+#: includes/blocks/wplc-chat-box/index.php:222 wp-live-chat-support.php:979
+msgid "Live Chat"
+msgstr "实时聊天"
+
+#: includes/dashboard_page.php:46 wp-live-chat-support.php:980
+#, fuzzy
+#| msgid "New Dashboard"
+msgid "Dashboard"
+msgstr "新仪表盘"
+
+#: includes/dashboard_page.php:49
+#, php-format
+msgid "Hi %s! Current activity: %s Active Visitor(s) and %s Active Agent(s)."
+msgstr ""
+
+#: includes/dashboard_page.php:53 includes/dashboard_page.php:67
+#, fuzzy
+#| msgid "Chat ID"
+msgid "Chats"
+msgstr "聊天 ID"
+
+#: includes/dashboard_page.php:54 includes/dashboard_page.php:68
+#, fuzzy
+#| msgid "Missed Chats"
+msgid "Missed"
+msgstr "错过聊天"
+
+#: includes/dashboard_page.php:55 wp-live-chat-support.php:988
+#: wp-live-chat-support.php:3420
+msgid "History"
+msgstr "历史"
+
+#: includes/dashboard_page.php:57 includes/settings_page.php:108
+#: includes/settings_page.php:704 modules/advanced_tools.php:84
+#: wp-live-chat-support.php:992 wp-live-chat-support.php:3466
+#: wp-live-chat-support.php:3963
+msgid "Offline Messages"
+msgstr "离线消息"
+
+#: includes/dashboard_page.php:59 modules/advanced_tools.php:14
+#: modules/advanced_tools.php:24
+msgid "Tools"
+msgstr ""
+
+#: includes/dashboard_page.php:60 includes/settings_page.php:71
+#: wp-live-chat-support.php:981
+msgid "Settings"
+msgstr "设置"
+
+#: includes/dashboard_page.php:69
+msgid "Engaged"
+msgstr ""
+
+#: includes/dashboard_page.php:70
+#, fuzzy
+#| msgid "Total URLs"
+msgid "Total"
+msgstr "总链接数"
+
+#: includes/dashboard_page.php:73
+msgid "Today"
+msgstr ""
+
+#: includes/dashboard_page.php:79
+#, fuzzy
+#| msgid "Last 30 Days"
+msgid "Last 30 days"
+msgstr "最近30天"
+
+#: includes/dashboard_page.php:85
+#, fuzzy
+#| msgid "Last 30 Days"
+msgid "Last 60 days"
+msgstr "最近30天"
+
+#: includes/dashboard_page.php:91
+#, fuzzy
+#| msgid "Last 30 Days"
+msgid "Last 90 days"
+msgstr "最近30天"
+
+#: includes/dashboard_page.php:107
+#, fuzzy
+#| msgid "Generate New"
+msgid "Latest News"
+msgstr "生成新的"
+
+#: includes/modal_control.php:27 modules/node_server.php:59
+#: modules/node_server.php:871
+msgid "Please Confirm"
+msgstr "请确认"
+
+#: includes/modal_control.php:31
+msgid "Are you sure?"
+msgstr "你确定吗?"
+
+#: includes/modal_control.php:39 includes/wplc_custom_fields.php:164
+#: includes/wplc_custom_fields.php:237 includes/wplc_data_triggers.php:617
+#: includes/wplc_departments.php:252 includes/wplc_departments.php:476
+#: includes/wplc_roi.php:268 includes/wplc_roi.php:592
+#: modules/node_server.php:63 modules/node_server.php:873
+#: modules/webhooks_manager.php:342
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/modal_control.php:40 modules/node_server.php:62
+#: modules/node_server.php:872 modules/webhooks_manager.php:341
+msgid "Confirm"
+msgstr "确定"
+
+#: includes/notification_control.php:27
+#, fuzzy
+#| msgid "browsing"
+msgid "User is browsing"
+msgstr "浏览中"
+
+#: includes/notification_control.php:34 includes/notification_control.php:70
+#: includes/notification_control.php:114 includes/wplc_transfer_chats.php:468
+#: includes/wplc_transfer_chats.php:489 includes/wplc_transfer_chats.php:551
+#: includes/wplc_transfer_chats.php:587
+msgid "System notification"
+msgstr "系统通知"
+
+#: includes/notification_control.php:109
+msgid "has joined the chat."
+msgstr "已经加入了聊天会话."
+
+#: includes/settings_page.php:98 includes/settings_page.php:136
+#: wp-live-chat-support.php:3974
+msgid "General Settings"
+msgstr "常规设置"
+
+#: includes/settings_page.php:103
+msgid "Chat Box"
+msgstr "聊天框"
+
+#: includes/settings_page.php:113 includes/settings_page.php:880
+msgid "Styling"
+msgstr "样式"
+
+#: includes/settings_page.php:118 modules/node_server.php:88
+#: modules/node_server.php:877
+msgid "Agents"
+msgstr "客服"
+
+#: includes/settings_page.php:123
+msgid "Blocked Visitors"
+msgstr "被阻止的访问者"
+
+#: includes/settings_page.php:139
+msgid "Chat enabled"
+msgstr "可以聊天"
+
+#: includes/settings_page.php:151
+msgid "Required Chat Box Fields"
+msgstr "必填的聊天框字段"
+
+#: includes/settings_page.php:151
+msgid "Set default fields that will be displayed when users starting a chat"
+msgstr "设置用户开始聊天时将显示的默认字段"
+
+#: includes/settings_page.php:156
+msgid "Name and email"
+msgstr "姓名和电子邮件"
+
+#: includes/settings_page.php:168
+msgid "No fields"
+msgstr "无字段"
+
+#: includes/settings_page.php:174
+msgid "Default visitor name"
+msgstr "默认访问者名称"
+
+#: includes/settings_page.php:174
+msgid "This name will be displayed for all not logged in visitors"
+msgstr "将为所有未登录的访问者显示此名称"
+
+#: includes/settings_page.php:177 wp-live-chat-support.php:460
+msgid "Guest"
+msgstr "访客"
+
+#: includes/settings_page.php:182
+msgid "Input Field Replacement Text"
+msgstr "输入字段替换文本"
+
+#: includes/settings_page.php:182
+msgid "This is the text that will show in place of the Name And Email fields"
+msgstr "这是将显示的文本, 以代替名称和电子邮件字段"
+
+#: includes/settings_page.php:190
+msgid "Use Logged In User Details"
+msgstr "使用登录用户的详细信息"
+
+#: includes/settings_page.php:190
+msgid ""
+"A user's Name and Email Address will be used by default if they are logged "
+"in."
+msgstr ""
+"如果用户的名字和电子邮件地址被登录, 他们的名字和电子邮件地址将被默认使用."
+
+#: includes/settings_page.php:200
+msgid "Play a sound when there is a new visitor"
+msgstr "有新访客时播放声音"
+
+#: includes/settings_page.php:200
+msgid ""
+"Disable this to mute the sound that is played when a new visitor arrives"
+msgstr "禁用此选项可将新访客时播放的声音静音"
+
+#: includes/settings_page.php:209
+msgid "Play a sound when a new message is received"
+msgstr "收到新消息时播放声音"
+
+#: includes/settings_page.php:209
+msgid ""
+"Disable this to mute the sound that is played when a new chat message is "
+"received"
+msgstr "禁用此选项以静音接收到新聊天消息时播放的声音"
+
+#: includes/settings_page.php:218
+msgid "Enable Font Awesome set"
+msgstr "启用 Font Awesome"
+
+#: includes/settings_page.php:218
+msgid "Disable this if you have Font Awesome set included with your theme"
+msgstr "如果您的主题包含 Font Awesome, 请禁用此选项"
+
+#: includes/settings_page.php:226
+msgid "Enable chat dashboard and notifications on all admin pages"
+msgstr "在所有管理页面上启用聊天仪表板和通知"
+
+#: includes/settings_page.php:226
+msgid "This will load the chat dashboard on every admin page."
+msgstr "这将在每个管理页面上加载聊天仪表板."
+
+#: includes/settings_page.php:234
+msgid "Delete database entries on uninstall"
+msgstr ""
+
+#: includes/settings_page.php:234
+msgid ""
+"This will delete all WP Live Chat by 3CX related database entries such as "
+"options and chats on uninstall."
+msgstr ""
+
+#: includes/settings_page.php:245
+msgid "Agents can set their online status"
+msgstr ""
+
+#: includes/settings_page.php:245
+msgid ""
+"Checking this will allow you to change your status to Online or Offline on "
+"the Live Chat page."
+msgstr "检查此选项将允许您在实时聊天页面上将状态更改为在线或离线状态."
+
+#: includes/settings_page.php:245
+msgid "If this option is disabled, agents will be always automatically online."
+msgstr ""
+
+#: includes/settings_page.php:256
+msgid "Exclude chat from 'Home' page:"
+msgstr "从“主页”中排除聊天:"
+
+#: includes/settings_page.php:256
+msgid ""
+"Leaving this unchecked will allow the chat window to display on your home "
+"page."
+msgstr "保留此选项将允许聊天窗口显示在您的主页上."
+
+#: includes/settings_page.php:264
+msgid "Exclude chat from 'Archive' pages:"
+msgstr "将聊天排除在“存档”页面之外:"
+
+#: includes/settings_page.php:264
+msgid ""
+"Leaving this unchecked will allow the chat window to display on your archive "
+"pages."
+msgstr "保留此选项将允许聊天窗口显示在存档页上."
+
+#: includes/settings_page.php:272
+msgid "Include chat window on the following pages:"
+msgstr "在以下页面中包含聊天窗口:"
+
+#: includes/settings_page.php:272
+msgid ""
+"Show the chat window on the following pages. Leave blank to show on all. "
+"(Use comma-separated Page ID's)"
+msgstr "在下面的页面上显示聊天窗口. 留空显示在所有的. (使用逗号分隔的页面ID)"
+
+#: includes/settings_page.php:280
+msgid "Exclude chat window on the following pages:"
+msgstr "排除以下页面上的聊天窗口:"
+
+#: includes/settings_page.php:280
+msgid ""
+"Do not show the chat window on the following pages. Leave blank to show on "
+"all. (Use comma-separated Page ID's)"
+msgstr ""
+"不要在下面的页面上显示聊天窗口. 留空显示在所有的. (使用逗号分隔的页面ID)"
+
+#: includes/settings_page.php:288
+msgid "Exclude chat window on selected post types"
+msgstr "排除选定帖子类型的聊天窗口"
+
+#: includes/settings_page.php:288
+msgid "Do not show the chat window on the following post types pages."
+msgstr "不要在以下的帖子类型页面上显示会话窗口."
+
+#: includes/settings_page.php:307
+msgid "No post types found."
+msgstr "找不到帖子类型."
+
+#: includes/settings_page.php:313
+#, fuzzy
+#| msgid "Allow any user to make themselves a chat agent"
+msgid "Allow WP users to self-assign as a chat agent"
+msgstr "允许任何用户使自己成为聊天客服"
+
+#: includes/settings_page.php:313
+msgid ""
+"Checking this will allow any of your users to make themselves a chat agent "
+"when editing their profile."
+msgstr "检查这将允许您的任何用户在编辑他们的个人资料时使自己成为一个聊天客服."
+
+#: includes/settings_page.php:327
+msgid "Order by"
+msgstr "排序"
+
+#: includes/settings_page.php:333
+msgid "Number"
+msgstr "数字"
+
+#: includes/settings_page.php:339
+msgid "Sort"
+msgstr ""
+
+#: includes/settings_page.php:343
+msgid "Descending"
+msgstr "降序"
+
+#: includes/settings_page.php:344
+msgid "Ascending"
+msgstr "升序"
+
+#: includes/settings_page.php:351
+#, fuzzy
+#| msgid "Play voice note"
+msgid "Voice Notes"
+msgstr "播放语音笔记"
+
+#: includes/settings_page.php:355
+msgid "Enable Voice Notes on admin side"
+msgstr "在管理端启用语音消息"
+
+#: includes/settings_page.php:357
+msgid ""
+"Enabling this will allow you to record the voice during the chat and send it "
+"to visitor once you hold on CTRL + SPACEBAR in main chat window"
+msgstr ""
+"启用此选项将允许您在聊天过程中录制语音, 并在主聊天窗口中按住 Ctrl + Space 后"
+"将其发送给访问者"
+
+#: includes/settings_page.php:365
+msgid "Enable Voice Notes on visitor side"
+msgstr "在访客端启用语音消息"
+
+#: includes/settings_page.php:367
+msgid ""
+"Enabling this will allow the visitors to record the voice during the chat "
+"and send it to agent once they hold on CTRL + SPACEBAR"
+msgstr ""
+"启用此功能将允许访问者在聊天过程中录制语音, 并在他们按住 Ctrl + Space 后将其"
+"发送给客服"
+
+#: includes/settings_page.php:381 wp-live-chat-support.php:3975
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Box Settings"
+msgstr "聊天窗口设置"
+
+#: includes/settings_page.php:384
+msgid "Alignment"
+msgstr ""
+
+#: includes/settings_page.php:387
+msgid "Bottom left"
+msgstr "左下角"
+
+#: includes/settings_page.php:388
+msgid "Bottom right"
+msgstr "右下角"
+
+#: includes/settings_page.php:389
+msgid "Left"
+msgstr "左侧"
+
+#: includes/settings_page.php:390
+msgid "Right"
+msgstr "右侧"
+
+#: includes/settings_page.php:396
+msgid "Auto Pop-up"
+msgstr "自动弹出"
+
+#: includes/settings_page.php:396
+msgid ""
+"Expand the chat box automatically (prompts the user to enter their name and "
+"email address)."
+msgstr "自动展开聊天室 (提示用户输入他们的姓名和电子邮件地址)."
+
+#: includes/settings_page.php:405
+#, fuzzy
+#| msgid "Display details in chat message"
+msgid "Display for chat message:"
+msgstr "在会话信息中显示详情"
+
+#: includes/settings_page.php:409
+#, fuzzy
+#| msgid "Show Avatar"
+msgid "Avatar"
+msgstr "显示头像"
+
+#: includes/settings_page.php:414
+msgid "Display typing indicator"
+msgstr "显示输入指示器"
+
+#: includes/settings_page.php:414
+#, fuzzy
+#| msgid ""
+#| "Display the \"typing...\" animation in the chat window as soon as an "
+#| "agent or visitor is typing."
+msgid ""
+"Display the 'typing...' animation in the chat window as soon as an agent or "
+"visitor is typing."
+msgstr "当客服或访问者输入时, 会在聊天窗口中显示“输入...”动画."
+
+#: includes/settings_page.php:418
+msgid ""
+"For non-cloud server users, please note that this will increase the amount "
+"of server resources required."
+msgstr "对于非云服务器用户, 请注意这将增加服务器所需资源的数量."
+
+#: includes/settings_page.php:423
+msgid "Chat box for logged in users only:"
+msgstr ""
+
+#: includes/settings_page.php:423
+msgid ""
+"By checking this, only users that are logged in will be able to chat with "
+"you."
+msgstr "通过检查, 只有已登录的用户才能与您聊天."
+
+#: includes/settings_page.php:431
+#, fuzzy
+#| msgid "Display a timestamp in the chat window"
+msgid "Display a timestamp in the chat window:"
+msgstr "在会话窗口中显示时间戳"
+
+#: includes/settings_page.php:435 wp-live-chat-support.php:2373
+msgid "Time"
+msgstr "时间"
+
+#: includes/settings_page.php:440
+#, fuzzy
+#| msgid "Redirect user to thank you page when chat is ended"
+msgid "Redirect to “Thank You” page on chat end:"
+msgstr "在用户会话结束时重定向到感谢您的页面"
+
+#: includes/settings_page.php:440
+msgid ""
+"By checking this, users will be redirected to your thank you page when a "
+"chat is completed."
+msgstr "通过检查会话完成后, 用户将被重定向到您的感谢页面."
+
+#: includes/settings_page.php:444
+msgid "Thank You Page URL"
+msgstr "感谢页面网址"
+
+#: includes/settings_page.php:454
+msgid "Disable Emojis"
+msgstr "禁用Emojis"
+
+#: includes/settings_page.php:471
+#, fuzzy
+#| msgid "User's name"
+msgid "User / Agent name"
+msgstr "用户名称"
+
+#: includes/settings_page.php:479
+#, fuzzy
+#| msgid "Use WordPress name instead"
+msgid "Use WordPress name"
+msgstr "使用 WordPress 名称代替"
+
+#: includes/settings_page.php:482
+msgid "Note: 'Name' field will be ignored"
+msgstr "注意: “名称”字段将被忽略"
+
+#: includes/settings_page.php:514
+msgid "Incoming chat ring tone"
+msgstr "发起聊天"
+
+#: includes/settings_page.php:530
+msgid "Incoming message tone"
+msgstr "传入的消息提示音"
+
+#: includes/settings_page.php:547
+msgid "Icon"
+msgstr "图标"
+
+#: includes/settings_page.php:555
+msgid "Upload Icon"
+msgstr "上传图标"
+
+#: includes/settings_page.php:556 includes/settings_page.php:562
+#, fuzzy
+#| msgid "Select Department"
+msgid "Select Default Icon"
+msgstr "选择部门"
+
+#: includes/settings_page.php:558
+msgid "Remove Icon"
+msgstr "删除图标"
+
+#: includes/settings_page.php:559
+msgid "Recommended Size 50px x 50px"
+msgstr "推荐尺寸 50px * 50px"
+
+#: includes/settings_page.php:602
+msgid "Picture"
+msgstr "图片"
+
+#: includes/settings_page.php:610
+msgid "Upload Image"
+msgstr "上传图片"
+
+#: includes/settings_page.php:612
+msgid "Remove Image"
+msgstr "删除图片"
+
+#: includes/settings_page.php:613
+#, fuzzy
+#| msgid "Recomended Size 60px x 60px"
+msgid "Recommended Size 60px x 60px"
+msgstr "推荐尺寸 60px * 60px"
+
+#: includes/settings_page.php:620
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/settings_page.php:628
+msgid "Upload Logo"
+msgstr "上传 Logo"
+
+#: includes/settings_page.php:630
+msgid "Remove Logo"
+msgstr "移除 Logo"
+
+#: includes/settings_page.php:631
+msgid "Recommended Size 250px x 40px"
+msgstr "推荐尺寸 250px * 40px"
+
+#: includes/settings_page.php:637
+#, fuzzy
+#| msgid "Chat delay (seconds)"
+msgid "Chat button delayed startup (seconds)"
+msgstr "聊天延迟 (秒)"
+
+#: includes/settings_page.php:637
+msgid "How long to delay showing the Live Chat button on a page"
+msgstr ""
+
+#: includes/settings_page.php:646
+msgid "Chat notifications"
+msgstr "聊天通知"
+
+#: includes/settings_page.php:646
+msgid "Alert me via email as soon as someone wants to chat (while online only)"
+msgstr "一旦有人想聊天, 就通过电子邮件提醒我 (仅在线状态)"
+
+#: includes/settings_page.php:655
+msgid "User Experience"
+msgstr "用户体验"
+
+#: includes/settings_page.php:659
+msgid "Share files"
+msgstr ""
+
+#: includes/settings_page.php:659
+msgid "Adds file sharing to your chat box!"
+msgstr "将文件共享添加到您的聊天框中!"
+
+#: includes/settings_page.php:663
+#, fuzzy
+#| msgid "User Experience Ratings"
+msgid "Visitor experience ratings"
+msgstr "用户体验评级"
+
+#: includes/settings_page.php:663
+msgid "Allows users to rate the chat experience with an agent."
+msgstr "允许用户对与客服的聊天体验进行评分."
+
+#: includes/settings_page.php:669 includes/settings_page.php:996
+msgid "Social"
+msgstr "社交"
+
+#: includes/settings_page.php:673
+msgid "Facebook URL"
+msgstr "Facebook网址"
+
+#: includes/settings_page.php:673
+msgid "Link your Facebook page here. Leave blank to hide"
+msgstr "把你的Facebook页面链接在这里. 留空白以隐藏"
+
+#: includes/settings_page.php:674
+msgid "Facebook URL..."
+msgstr "Facebook 网址…"
+
+#: includes/settings_page.php:685
+msgid "Twitter URL"
+msgstr "Twitter网址"
+
+#: includes/settings_page.php:685
+msgid "Link your Twitter page here. Leave blank to hide"
+msgstr "链接您的推特页面在这里. 留空白以隐藏"
+
+#: includes/settings_page.php:686
+msgid "Twitter URL..."
+msgstr "Twitter 网址..."
+
+#: includes/settings_page.php:708
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Disable offline messages"
+msgstr "离线消息"
+
+#: includes/settings_page.php:708
+msgid ""
+"The chat window will be hidden when it is offline. Users will not be able to "
+"send offline messages to you"
+msgstr "当聊天窗口离线时, 它将被隐藏. 用户将无法向您发送离线消息"
+
+#: includes/settings_page.php:715
+#, fuzzy
+#| msgid "Offline Chat Box Title"
+msgid "Offline Form Title"
+msgstr "离线聊天框标题"
+
+#: includes/settings_page.php:723
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Offline form initial message"
+msgstr "离线消息"
+
+#: includes/settings_page.php:729
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Offline form message on send"
+msgstr "离线消息"
+
+#: includes/settings_page.php:735
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Offline form finish message"
+msgstr "离线消息"
+
+#: includes/settings_page.php:741
+msgid "Offline Button Text"
+msgstr "离线按钮文本"
+
+#: includes/settings_page.php:747
+msgid "Offline Send Button Text"
+msgstr "离线发送按钮文本"
+
+#: includes/settings_page.php:755
+msgid "Email settings"
+msgstr "邮件设置"
+
+#: includes/settings_page.php:761
+msgid "Send to agent(s)"
+msgstr ""
+
+#: includes/settings_page.php:761
+msgid ""
+"Email address where offline messages are delivered to. Use comma separated "
+"email addresses to send to more than one email address"
+msgstr ""
+"发送离线消息的电子邮件地址. 使用逗号分隔的电子邮件地址发送到多个电子邮件地址"
+
+#: includes/settings_page.php:771
+msgid "Subject"
+msgstr "主题"
+
+#: includes/settings_page.php:771
+msgid "User name will be appended to the end of the subject."
+msgstr "用户名将追加到主题的末尾."
+
+#: includes/settings_page.php:784
+msgid "Auto-respond to visitor"
+msgstr ""
+
+#: includes/settings_page.php:784
+msgid "Send your visitors an email as soon as they send you an offline message"
+msgstr "在访客向您发送脱机消息后, 立即向他们发送电子邮件"
+
+#: includes/settings_page.php:790
+#, fuzzy
+#| msgid "Auto Responder 'From' Name"
+msgid "Auto-responder 'From' name"
+msgstr "自动响应 \"发件人\" 名称"
+
+#: includes/settings_page.php:796
+#, fuzzy
+#| msgid "Auto Responder 'From' Name"
+msgid "Auto-responder 'From' email"
+msgstr "自动响应 \"发件人\" 名称"
+
+#: includes/settings_page.php:802
+#, fuzzy
+#| msgid "Auto Responder Subject Line"
+msgid "Auto-responder subject"
+msgstr "自动响应标题"
+
+#: includes/settings_page.php:808
+#, fuzzy
+#| msgid "Auto Responder Body"
+msgid "Auto-responder body"
+msgstr "自动响应内容"
+
+#: includes/settings_page.php:811
+msgid "HTML and the following shortcodes can be used"
+msgstr "可以使用 HTML 和以下短代码"
+
+#: includes/settings_page.php:811
+msgid "User's name"
+msgstr "用户名称"
+
+#: includes/settings_page.php:811
+msgid "User's email address"
+msgstr "邮箱地址"
+
+#: includes/settings_page.php:887
+#, fuzzy
+#| msgid "Color Scheme"
+msgid "Color scheme"
+msgstr "配色方案"
+
+#: includes/settings_page.php:943
+#, fuzzy
+#| msgid "Custom JS"
+msgid "Custom Scheme"
+msgstr "自定义JS"
+
+#: includes/settings_page.php:964
+msgid "Palette Color 1"
+msgstr "调色板颜色1"
+
+#: includes/settings_page.php:970
+msgid "Palette Color 2"
+msgstr "调色板颜色2"
+
+#: includes/settings_page.php:976
+msgid "Palette Color 3"
+msgstr "调色板颜色3"
+
+#: includes/settings_page.php:982
+msgid "Palette Color 4"
+msgstr "调色板颜色4"
+
+#: includes/settings_page.php:989
+msgid "Chat background"
+msgstr "聊天背景"
+
+#: includes/settings_page.php:993
+msgid "Cloudy"
+msgstr "云朵"
+
+#: includes/settings_page.php:994
+msgid "Geometry"
+msgstr "几何"
+
+#: includes/settings_page.php:995
+msgid "Tech"
+msgstr "科技"
+
+#: includes/settings_page.php:997 includes/wplc_roi.php:178
+#: modules/node_server.php:928
+msgid "None"
+msgstr "无"
+
+#: includes/settings_page.php:1003
+#, fuzzy
+#| msgid "I'm using a localization plugin"
+msgid "Use localization plugin"
+msgstr "我正在使用本地化插件"
+
+#: includes/settings_page.php:1006
+#, php-format
+msgid ""
+"Enable this if you are using a localization plugin. Should you wish to "
+"change the below strings with this option enabled, please visit the "
+"documentation %s"
+msgstr ""
+"如果您使用的是本地化插件, 请启用此选项. 如果您希望在启用此选项的情况下更改以"
+"下字符串, 请访问文档 %s"
+
+#: includes/settings_page.php:1006 includes/wplc_departments.php:586
+#: modules/node_server.php:652 wp-live-chat-support.php:2297
+msgid "here"
+msgstr "这里"
+
+#: includes/settings_page.php:1012
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box title"
+msgstr "聊天窗口对齐"
+
+#: includes/settings_page.php:1018
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box sub-title"
+msgstr "聊天窗口对齐"
+
+#: includes/settings_page.php:1024
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box intro"
+msgstr "聊天窗口对齐"
+
+#: includes/settings_page.php:1030
+#, fuzzy
+#| msgid "Chat button text"
+msgid "Start chat button label"
+msgstr "聊天按钮文本"
+
+#: includes/settings_page.php:1036
+msgid "Start chat status message"
+msgstr ""
+
+#: includes/settings_page.php:1042
+#, fuzzy
+#| msgid "Leave a message"
+msgid "Re-activate chat message"
+msgstr "留言"
+
+#: includes/settings_page.php:1050
+msgid "Welcome message"
+msgstr "欢迎信息"
+
+#: includes/settings_page.php:1052
+msgid ""
+"This text is shown as soon as a user starts a chat and waits for an agent to "
+"join"
+msgstr "当用户启动聊天并等待客服加入时, 将立即显示此文本"
+
+#: includes/settings_page.php:1056
+msgid "Agent no answer message"
+msgstr ""
+
+#: includes/settings_page.php:1058
+#, fuzzy
+#| msgid ""
+#| "This text is shown to the user when an agent has failed to answer a chat "
+msgid ""
+"This text is shown to the user when an agent has failed to answer a chat"
+msgstr "当客服未能回答聊天时，会向用户显示此文本 "
+
+#: includes/settings_page.php:1062
+msgid "Other text"
+msgstr "其他文本"
+
+#: includes/settings_page.php:1065 wp-live-chat-support.php:454
+#: wp-live-chat-support.php:1202
+#, fuzzy
+#| msgid "The chat has been ended by the operator."
+msgid "The chat has been ended by the agent."
+msgstr "聊天会话已经由代理结束."
+
+#: includes/settings_page.php:1070
+#, fuzzy
+#| msgid "Chat box alignment"
+msgid "Chat box animation"
+msgstr "聊天窗口对齐"
+
+#: includes/settings_page.php:1078
+msgid "Slide Up"
+msgstr "向上滑动"
+
+#: includes/settings_page.php:1084
+msgid "Slide From The Side"
+msgstr "从侧面滑动"
+
+#: includes/settings_page.php:1090
+msgid "Fade In"
+msgstr "淡入"
+
+#: includes/settings_page.php:1096
+msgid "No Animation"
+msgstr "无动画"
+
+#: includes/settings_page.php:1114
+msgid "Auto-response to first message"
+msgstr ""
+
+#: includes/settings_page.php:1117
+msgid ""
+"This message will be sent automatically after the first message is sent from "
+"the user side. Leave empty to disable."
+msgstr ""
+
+#: includes/settings_page.php:1132
+msgid "Chat Agents"
+msgstr "聊天客服"
+
+#: includes/settings_page.php:1143
+msgid "Logged In"
+msgstr ""
+
+#: includes/settings_page.php:1162
+msgid "Add New Agent"
+msgstr "添加新的客服"
+
+#: includes/settings_page.php:1170
+msgid "Administrator"
+msgstr "管理员"
+
+#: includes/settings_page.php:1176
+msgid "Editor"
+msgstr "编辑"
+
+#: includes/settings_page.php:1186
+msgid "Add Agent"
+msgstr "添加客服"
+
+#: includes/settings_page.php:1192
+#, fuzzy, php-format
+#| msgid ""
+#| "Should you wish to add a user that has a role less than 'Author', please "
+#| "go to the <a href='./users.php'>Users</a> page, select the relevant user, "
+#| "click Edit and scroll to the bottom of the page and enable the 'Chat "
+#| "Agent' checkbox."
+msgid ""
+"Should you wish to add a user that has a role less than 'Author', please go "
+"to the %s page, select the relevant user, click Edit and scroll to the "
+"bottom of the page and enable the 'Chat Agent' checkbox."
+msgstr ""
+"如果您希望添加角色低于“作者”的用户，请转到 <a href='./users.php'>>用户</a>页"
+"面，选择相关用户，点击编辑并滚动至 页面底部并启用“聊天客服”复选框。"
+
+#: includes/settings_page.php:1192
+#, fuzzy
+#| msgid "User"
+msgid "Users"
+msgstr "用户"
+
+#: includes/settings_page.php:1193
+msgid "If there are no chat agents online, the chat will show as offline"
+msgstr "如果没有聊天客服在线, 聊天将显示为离线"
+
+#: includes/settings_page.php:1198
+#, fuzzy
+#| msgid "Blocked Visitors - Based on IP Address"
+msgid "Blocked Visitors / IP Addresses"
+msgstr "阻塞访客 - 基于IP地址"
+
+#: includes/settings_page.php:1202
+msgid "Enter each IP Address you would like to block on a new line"
+msgstr "输入您要在新线路上阻止的每个IP地址"
+
+#: includes/settings_page.php:1213
+msgid ""
+"Blocking a user's IP Address here will hide the chat window from them, "
+"preventing them from chatting with you. Each IP Address must be on a new line"
+msgstr ""
+"在这里阻止用户的IP地址会把聊天窗口隐藏起来, 防止他们和你聊天. 每个IP地址必须"
+"写在新的一行"
+
+#: includes/settings_page.php:1229
+msgid "Enable Business Hours"
+msgstr "启用营业时间"
+
+#: includes/settings_page.php:1234
+msgid "Active schedule"
+msgstr ""
+
+#: includes/settings_page.php:1238
+msgid "Daily"
+msgstr "每天"
+
+#: includes/settings_page.php:1239
+msgid "Week Days"
+msgstr "星期几"
+
+#: includes/settings_page.php:1240
+msgid "Weekends"
+msgstr "周末"
+
+#: includes/settings_page.php:1252
+#, fuzzy
+#| msgid " Between "
+msgid "Between"
+msgstr " 之间 "
+
+#: includes/settings_page.php:1263
+#, fuzzy
+#| msgid " and "
+msgid "and"
+msgstr " 和 "
+
+#: includes/settings_page.php:1280
+msgid "Current Site Time"
+msgstr "当前站点时间"
+
+#: includes/settings_page.php:1293
+msgid "Chat Encryption"
+msgstr "聊天加密"
+
+#: includes/settings_page.php:1296
+msgid "Enable Encryption"
+msgstr "启用加密"
+
+#: includes/settings_page.php:1296
+msgid ""
+"All messages will be encrypted when being sent to and from the user and "
+"agent."
+msgstr "在发送给用户和客服时, 所有的消息都将被加密."
+
+#: includes/settings_page.php:1305
+msgid ""
+"Once enabled, all messages sent will be encrypted. This cannot be undone."
+msgstr "启用后, 所有发送的消息都将加密. 这是无法挽回的."
+
+#: includes/settings_page.php:1315
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: includes/wplc_agent_data.php:11
+#, fuzzy
+#| msgid "WP Live Chat Support - User Fields"
+msgid "WP Live Chat by 3CX - User Fields"
+msgstr "WP实时聊天支持 - 用户字段"
+
+#: includes/wplc_agent_data.php:15
+msgid "User tagline"
+msgstr "用户标签"
+
+#: includes/wplc_agent_data.php:24
+msgid "This will show up at the top of the chatbox - Leave blank to disable."
+msgstr "这将显示在聊天框的顶部 - 留空以禁用."
+
+#: includes/wplc_custom_fields.php:67 includes/wplc_data_triggers.php:8
+#: includes/wplc_departments.php:140 includes/wplc_roi.php:115
+#: modules/webhooks_manager.php:60 modules/webhooks_manager.php:321
+msgid "Add New"
+msgstr "添加新的"
+
+#: includes/wplc_custom_fields.php:71 wp-live-chat-support.php:1017
+msgid "Custom Fields"
+msgstr "自定义字段"
+
+#: includes/wplc_custom_fields.php:80 includes/wplc_data_triggers.php:466
+#: wp-live-chat-support.php:2374
+msgid "Type"
+msgstr "类型"
+
+#: includes/wplc_custom_fields.php:81 includes/wplc_data_triggers.php:468
+msgid "Content"
+msgstr "内容"
+
+#: includes/wplc_custom_fields.php:82 includes/wplc_data_triggers.php:469
+#: wp-live-chat-support.php:2377 wp-live-chat-support.php:3360
+msgid "Status"
+msgstr "状态"
+
+#: includes/wplc_custom_fields.php:99 wp-live-chat-support.php:2570
+msgid "Active"
+msgstr "激活"
+
+#: includes/wplc_custom_fields.php:101
+msgid "Inactive"
+msgstr "未激活"
+
+#: includes/wplc_custom_fields.php:106 includes/wplc_data_triggers.php:477
+#: includes/wplc_departments.php:184 includes/wplc_roi.php:171
+#: modules/webhooks_manager.php:262
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/wplc_custom_fields.php:117
+msgid "Create your first custom field"
+msgstr "创建第一个自定义字段"
+
+#: includes/wplc_custom_fields.php:137
+msgid "Create a Custom Field"
+msgstr "创建自定义字段"
+
+#: includes/wplc_custom_fields.php:142 includes/wplc_custom_fields.php:213
+msgid "Field Name"
+msgstr "字段名称"
+
+#: includes/wplc_custom_fields.php:146 includes/wplc_custom_fields.php:217
+msgid "Field Type"
+msgstr "字段类型"
+
+#: includes/wplc_custom_fields.php:149 includes/wplc_custom_fields.php:222
+msgid "Text"
+msgstr "文本"
+
+#: includes/wplc_custom_fields.php:150 includes/wplc_custom_fields.php:223
+msgid "Drop Down"
+msgstr "下拉"
+
+#: includes/wplc_custom_fields.php:155 includes/wplc_custom_fields.php:228
+msgid "Default Field Value"
+msgstr "默认字段值"
+
+#: includes/wplc_custom_fields.php:159 includes/wplc_custom_fields.php:232
+msgid "Drop Down Contents"
+msgstr "下拉菜单内容"
+
+#: includes/wplc_custom_fields.php:160 includes/wplc_custom_fields.php:233
+msgid "Enter each option on a new line"
+msgstr "在新行上输入每个选项"
+
+#: includes/wplc_custom_fields.php:164
+msgid "Create Custom Field"
+msgstr "创建自定义字段"
+
+#: includes/wplc_custom_fields.php:208
+msgid "Edit a Custom Field"
+msgstr "编辑自定义字段"
+
+#: includes/wplc_custom_fields.php:237
+msgid "Update Custom Field"
+msgstr "更新自定义字段"
+
+#: includes/wplc_custom_fields.php:247
+msgid "Custom Field Not Found"
+msgstr "找不到自定义字段"
+
+#: includes/wplc_custom_fields.php:248
+msgid "Back"
+msgstr "返回"
+
+#: includes/wplc_custom_fields.php:262
+msgid "Are you sure you want to delete this custom field?"
+msgstr "确实要删除此自定义字段吗?"
+
+#: includes/wplc_custom_fields.php:298
+msgid "Text Field"
+msgstr "文本字段"
+
+#: includes/wplc_custom_fields.php:301
+msgid "Dropdown"
+msgstr "下拉"
+
+#: includes/wplc_custom_fields.php:367
+msgid "Custom Field Data"
+msgstr "自定义字段数据"
+
+#: includes/wplc_data_triggers.php:11 wp-live-chat-support.php:1016
+#: wp-live-chat-support.php:3949
+msgid "Triggers"
+msgstr "触发器"
+
+#: includes/wplc_data_triggers.php:18 includes/wplc_roi.php:142
+msgid "Update now"
+msgstr "现在更新"
+
+#: includes/wplc_data_triggers.php:72
+msgid "Trigger Name"
+msgstr "触发名称"
+
+#: includes/wplc_data_triggers.php:77
+msgid "Trigger Type"
+msgstr "触发类型"
+
+#: includes/wplc_data_triggers.php:81
+msgid "Page Trigger"
+msgstr "页面触发器"
+
+#: includes/wplc_data_triggers.php:82
+msgid "Time Trigger"
+msgstr "时间触发器"
+
+#: includes/wplc_data_triggers.php:83
+msgid "Scroll Trigger"
+msgstr "滚动触发器"
+
+#: includes/wplc_data_triggers.php:84
+msgid "Page Leave Trigger"
+msgstr "页面离开触发器"
+
+#: includes/wplc_data_triggers.php:85
+msgid ""
+"Note: When using page trigger with a the basic theme, no hovercard is shown "
+"by default. We suggest using the time trigger for this instead."
+msgstr ""
+"注意: 当使用带有基本主题的页面触发器时, 默认情况下不会显示名片. 我们建议用时"
+"间触发来代替."
+
+#: includes/wplc_data_triggers.php:91
+msgid "Page ID"
+msgstr "页面ID"
+
+#: includes/wplc_data_triggers.php:92
+msgid "Note: Leave empty for 'all' pages"
+msgstr "注意: 为“全部”页面留空"
+
+#: includes/wplc_data_triggers.php:96
+msgid "Show After"
+msgstr "显示之后"
+
+#: includes/wplc_data_triggers.php:97
+msgid "Seconds"
+msgstr "秒"
+
+#: includes/wplc_data_triggers.php:101
+msgid "Show After Scrolled"
+msgstr "滚动后显示"
+
+#: includes/wplc_data_triggers.php:102
+msgid "(%) Percent of page height"
+msgstr "(%) 页面高度的百分比"
+
+#: includes/wplc_data_triggers.php:106
+msgid "Content Replacement"
+msgstr "内容替换"
+
+#: includes/wplc_data_triggers.php:117
+msgid "Replace Content"
+msgstr "导入目录"
+
+#: includes/wplc_data_triggers.php:122
+msgid "Enable Trigger"
+msgstr "启用触发器"
+
+#: includes/wplc_data_triggers.php:128 modules/node_server.php:596
+#: wp-live-chat-support.php:4677
+msgid "Close"
+msgstr "关闭"
+
+#: includes/wplc_data_triggers.php:138 includes/wplc_departments.php:262
+#: includes/wplc_roi.php:278
+msgid "Please review your submission"
+msgstr "请检查你的提交内容"
+
+#: includes/wplc_data_triggers.php:286
+msgid "Trigger has been edited."
+msgstr "触发器已被编辑."
+
+#: includes/wplc_data_triggers.php:451
+msgid "Conflict with page"
+msgstr "与页面冲突"
+
+#: includes/wplc_data_triggers.php:453
+msgid "Trigger ID: "
+msgstr "触发ID: "
+
+#: includes/wplc_data_triggers.php:454
+msgid ""
+"It is possible that this trigger may override another trigger, or be "
+"overridden by another trigger."
+msgstr "此触发器可能会覆盖另一个触发器, 或被另一个触发器覆盖."
+
+#: includes/wplc_data_triggers.php:467 includes/wplc_roi.php:162
+#: modules/node_server.php:187 modules/node_server.php:895
+msgid "Page"
+msgstr "页面"
+
+#: includes/wplc_data_triggers.php:486 includes/wplc_roi.php:713
+msgid "All"
+msgstr "所有"
+
+#: includes/wplc_data_triggers.php:490
+msgid "Click to change trigger status"
+msgstr "点击以改变触发状态"
+
+#: includes/wplc_data_triggers.php:500
+msgid "No Triggers Found..."
+msgstr "找不到触发器..."
+
+#: includes/wplc_data_triggers.php:611
+msgid "Are you sure you would like to delete trigger"
+msgstr "您确定要删除触发器吗"
+
+#: includes/wplc_departments.php:60 includes/wplc_departments.php:64
+#: includes/wplc_departments.php:88 includes/wplc_departments.php:548
+#: includes/wplc_departments.php:653 includes/wplc_transfer_chats.php:96
+msgid "No Department"
+msgstr "无部门"
+
+#: includes/wplc_departments.php:84
+msgid "Chat Department"
+msgstr "聊天部门"
+
+#: includes/wplc_departments.php:129 includes/wplc_departments.php:145
+#: includes/wplc_departments.php:522 includes/wplc_departments.php:538
+msgid "Departments"
+msgstr "部门"
+
+#: includes/wplc_departments.php:129
+msgid "beta"
+msgstr ""
+
+#: includes/wplc_departments.php:142
+msgid "Department Settings"
+msgstr "部门设置"
+
+#: includes/wplc_departments.php:195
+msgid "No Departments Found..."
+msgstr "找不到部门..."
+
+#: includes/wplc_departments.php:246
+msgid "Department Name"
+msgstr "部门名称"
+
+#: includes/wplc_departments.php:331
+msgid "Department has been edited."
+msgstr "部门已被编辑."
+
+#: includes/wplc_departments.php:470
+msgid "Are you sure you would like to delete department"
+msgstr "你确定要删除部门吗"
+
+#: includes/wplc_departments.php:543
+msgid "Default Department"
+msgstr "默认部门"
+
+#: includes/wplc_departments.php:544
+msgid "Default department a new chat is assigned to"
+msgstr "将新聊天分配给的默认部门"
+
+#: includes/wplc_departments.php:559
+msgid "Create or Edit Departments"
+msgstr "创建或编辑部门"
+
+#: includes/wplc_departments.php:565
+msgid "User Department Selection"
+msgstr "用户部门选择"
+
+#: includes/wplc_departments.php:566
+msgid "Allow user to select a department before starting a chat?"
+msgstr "允许用户在开始聊天之前选择一个部门?"
+
+#: includes/wplc_departments.php:575
+msgid ""
+"Note: Chats will be transferred in the event that agents are not available "
+"within the selected department"
+msgstr "注意: 如果客服在所选部门内不可用, 则将转移聊天"
+
+#: includes/wplc_departments.php:586
+#, fuzzy, php-format
+#| msgid "Create or Edit Departments"
+msgid "Create departments %s."
+msgstr "创建或编辑部门"
+
+#: includes/wplc_departments.php:632
+msgid "Department you have been assigned to as an agent"
+msgstr "你被指派为客服部门"
+
+#: includes/wplc_departments.php:632 includes/wplc_transfer_chats.php:45
+#: modules/node_server.php:190 modules/node_server.php:897
+msgid "Department"
+msgstr "部门"
+
+#: includes/wplc_departments.php:739
+msgid "Select Department"
+msgstr "选择部门"
+
+#: includes/wplc_roi.php:104 includes/wplc_roi.php:119
+#: wp-live-chat-support.php:3951
+msgid "ROI Goals"
+msgstr "ROI目标"
+
+#: includes/wplc_roi.php:116
+msgid "View Reports"
+msgstr "查看报告"
+
+#: includes/wplc_roi.php:163
+msgid "Value"
+msgstr "值"
+
+#: includes/wplc_roi.php:185
+msgid "No ROI Goals Found..."
+msgstr "找不到 ROI 目标..."
+
+#: includes/wplc_roi.php:243
+msgid "Goal Name"
+msgstr "目标名称"
+
+#: includes/wplc_roi.php:248
+msgid "Goal Overview"
+msgstr "目标概述"
+
+#: includes/wplc_roi.php:253
+msgid "Goal Page"
+msgstr "目标页面"
+
+#: includes/wplc_roi.php:262
+msgid "Goal Value"
+msgstr "目标值"
+
+#: includes/wplc_roi.php:415
+msgid "Goal has been edited."
+msgstr "目标已被编辑."
+
+#: includes/wplc_roi.php:586
+msgid "Are you sure you would like to delete goal"
+msgstr "你确定要删除目标吗"
+
+#: includes/wplc_roi.php:673
+#, fuzzy
+#| msgid "ROI Reporting"
+msgid "ROI Reports"
+msgstr "ROI 报告"
+
+#: includes/wplc_roi.php:692
+msgid "Goal Statistics"
+msgstr "目标统计"
+
+#: includes/wplc_roi.php:704
+msgid "No Goals Found"
+msgstr "没有找到目标"
+
+#: includes/wplc_roi.php:714
+msgid "Last 30 Days"
+msgstr "最近30天"
+
+#: includes/wplc_roi.php:715
+msgid "Last 15 Days"
+msgstr "最近15天"
+
+#: includes/wplc_roi.php:716
+msgid "Last 7 Days"
+msgstr "最近7天"
+
+#: includes/wplc_roi.php:717
+msgid "Last 24 Hours"
+msgstr "最近24小时"
+
+#: includes/wplc_roi.php:769
+msgid "Value Per Conversion"
+msgstr "每次转换值"
+
+#: includes/wplc_roi.php:775
+msgid "Total Value"
+msgstr "总值"
+
+#: includes/wplc_roi.php:780
+msgid "Total Conversions"
+msgstr "总转化次数"
+
+#: includes/wplc_roi.php:812
+msgid "Value By Date"
+msgstr "值按日期"
+
+#: includes/wplc_roi.php:815
+msgid "Value By Agent"
+msgstr "值按客服"
+
+#: includes/wplc_roi.php:821
+msgid "No data available yet..."
+msgstr "目前没有聊天记录..."
+
+#: includes/wplc_transfer_chats.php:17 modules/node_server.php:884
+msgid "Transfer"
+msgstr "转移"
+
+#: includes/wplc_transfer_chats.php:29
+msgid "Transfer Chat"
+msgstr "转移聊天"
+
+#: includes/wplc_transfer_chats.php:43
+msgid "Would you like to transfer this chat to"
+msgstr "您是否要将此聊天转移到"
+
+#: includes/wplc_transfer_chats.php:44 modules/node_server.php:82
+msgid "Agent"
+msgstr "客服"
+
+#: includes/wplc_transfer_chats.php:50
+msgid "Please select an agent to transfer to"
+msgstr "请选择要转移到的客服"
+
+#: includes/wplc_transfer_chats.php:57
+msgid "Please select a department to transfer to"
+msgstr "请选择要转移到的部门"
+
+#: includes/wplc_transfer_chats.php:75
+msgid "No Agent"
+msgstr "无客服"
+
+#: includes/wplc_transfer_chats.php:81
+msgid "You"
+msgstr "你"
+
+#: includes/wplc_transfer_chats.php:122
+msgid "Checking if agent is online"
+msgstr "检查客服是否在线"
+
+#: includes/wplc_transfer_chats.php:123
+msgid "Agent is not online, transfer cannot be made"
+msgstr "客服不在线, 无法进行转移"
+
+#: includes/wplc_transfer_chats.php:125
+msgid "Checking if agents in department are online"
+msgstr "检查部门内的客服是否在线"
+
+#: includes/wplc_transfer_chats.php:126
+msgid ""
+"No agent within the department are available to accept the transfer, "
+"transfer cannot be made"
+msgstr "部门内没有客服可接受转移, 不能进行转移"
+
+#: includes/wplc_transfer_chats.php:128
+msgid "Agent(s) available, safe to transfer"
+msgstr "客服可用, 安全转移"
+
+#: includes/wplc_transfer_chats.php:130
+msgid "Transfer Complete. Closing Window..."
+msgstr "传输完成. 关闭窗口..."
+
+#: includes/wplc_transfer_chats.php:131
+msgid "Transfer Failed. Please try again later..."
+msgstr "传输失败. 请稍后再试..."
+
+#: includes/wplc_transfer_chats.php:374
+msgid "Transfer for"
+msgstr "转移"
+
+#: includes/wplc_transfer_chats.php:377
+msgid "Accept Transfer"
+msgstr "接受转移"
+
+#: includes/wplc_transfer_chats.php:455
+msgid ""
+"Department took too long to respond, we are transferring this chat to the "
+"next available agent."
+msgstr "部门花了很长时间回应，我们正在转移这个聊天到下一个可用的客服."
+
+#: includes/wplc_transfer_chats.php:457
+msgid ""
+"took too long to respond, we are transferring this chat to the next "
+"available agent."
+msgstr "花了很长时间回应，我们正在转移这个会话到下一个可用的客服."
+
+#: includes/wplc_transfer_chats.php:460
+msgid "has transferred the chat."
+msgstr "聊天会话被转移."
+
+#: includes/wplc_transfer_chats.php:483
+msgid "User received this message"
+msgstr "用户收到此消息"
+
+#: includes/wplc_transfer_chats.php:528
+msgid "No agents available in"
+msgstr "没有可用的客服"
+
+#: includes/wplc_transfer_chats.php:530
+msgid "selected department"
+msgstr "选定的部门"
+
+#: includes/wplc_transfer_chats.php:536
+msgid "automatically transferring you to"
+msgstr "自动将您转移到"
+
+#: includes/wplc_transfer_chats.php:538
+msgid "the next available department"
+msgstr "下一个可用的部门"
+
+#: includes/wplc_transfer_chats.php:566
+#, fuzzy
+#| msgid "User has been transfered from "
+msgid "User has been transferred from"
+msgstr "用户已被转移 "
+
+#: includes/wplc_transfer_chats.php:568
+msgid "department"
+msgstr "部门"
+
+#: includes/wplc_transfer_chats.php:577
+#, fuzzy
+#| msgid " to "
+msgid "to"
+msgstr " 到 "
+
+#: includes/wplc_transfer_chats.php:580
+msgid "as there were no agents online"
+msgstr "由于没有客服在线"
+
+#: modules/advanced_features.php:17
+msgid "Advanced Features"
+msgstr "高级功能"
+
+#: modules/advanced_features.php:33
+msgid "Chat Server"
+msgstr "会话服务器"
+
+#: modules/advanced_features.php:41
+#, fuzzy
+#| msgid "Select a survey"
+msgid "Select your chat server"
+msgstr "选择一个调查"
+
+#: modules/advanced_features.php:41
+msgid "Choose between 3CX servers or your Wordpress server for chat delivery"
+msgstr ""
+
+#: modules/advanced_features.php:47
+msgid ""
+"3CX Servers are high performance secure instances hosted on Google Cloud and "
+"are completely free to use. 3CX Servers don't log or store messages. "
+"Messages are simply forwarded between users and agents. Chat sessions are "
+"stored on your Wordpress database only."
+msgstr ""
+
+#: modules/advanced_features.php:48
+msgid ""
+"Using your own Wordpress server as a chat relay may cause performance "
+"slowdowns to your website, especially on shared hosts. Due to HTTP long poll "
+"mechanism, messages and events could be slightly delayed."
+msgstr ""
+
+#: modules/advanced_features.php:54
+msgid "Chat server token"
+msgstr "聊天服务器令牌"
+
+#: modules/advanced_features.php:54
+#, fuzzy
+#| msgid ""
+#| "Security token for accessing chats on the node server. Changing this will "
+#| "remove current chats"
+msgid ""
+"Security token for accessing chats on the node server. Changing this will "
+"close your currently active chat sessions."
+msgstr "用于访问节点服务器上的聊天的安全令牌. 改变这将删除当前的聊天"
+
+#: modules/advanced_features.php:59 modules/api/public/wplc-api.php:84
+msgid "Generate New"
+msgstr "生成新的"
+
+#: modules/advanced_features.php:64
+#, fuzzy
+#| msgid "Disable Typing Previews"
+msgid "Enable typing preview"
+msgstr "禁用键入预览"
+
+#: modules/advanced_features.php:64
+#, fuzzy
+#| msgid ""
+#| "This option disables the typing preview from showing up to agents, which "
+#| "means agents will not be able to see what the user is typing in realtime."
+msgid ""
+"This option enables the typing preview, which means agents will be able to "
+"see what the user is typing in realtime."
+msgstr ""
+"此选项将禁用键入预览显示给客服, 这意味着客服将无法实时看到用户正在键入的内容."
+
+#: modules/advanced_features.php:70
+msgid "Typing preview is not available when GDPR is enabled"
+msgstr ""
+
+#: modules/advanced_features.php:80
+#, fuzzy
+#| msgid "Total number of chats received"
+msgid "Number of chat rings"
+msgstr "收到的聊天总数"
+
+#: modules/advanced_features.php:80
+msgid "Limit the amount of time the new chat ringer will play"
+msgstr "限制新聊天铃声播放的时间"
+
+#: modules/advanced_tools.php:40
+#, fuzzy
+#| msgid "Chat ID"
+msgid "Chat Data"
+msgstr "聊天 ID"
+
+#: modules/advanced_tools.php:48
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Chat Settings"
+msgstr "聊天窗口设置"
+
+#: modules/advanced_tools.php:52
+#, fuzzy
+#| msgid "Department Settings"
+msgid "Export Settings"
+msgstr "部门设置"
+
+#: modules/advanced_tools.php:55 modules/advanced_tools.php:108
+#, fuzzy
+#| msgid "Department Settings"
+msgid "Import Settings"
+msgstr "部门设置"
+
+#: modules/advanced_tools.php:62 modules/node_server.php:876
+#: wp-live-chat-support.php:3964
+msgid "Chat History"
+msgstr "会话记录"
+
+#: modules/advanced_tools.php:66
+#, fuzzy
+#| msgid "Chat History"
+msgid "Export History"
+msgstr "会话记录"
+
+#: modules/advanced_tools.php:73
+#, fuzzy
+#| msgid "Chat Status"
+msgid "Chat Ratings"
+msgstr "会话状态"
+
+#: modules/advanced_tools.php:77
+#, fuzzy
+#| msgid "Experience Rating"
+msgid "Export Ratings"
+msgstr "体验评级"
+
+#: modules/advanced_tools.php:88
+#, fuzzy
+#| msgid "Offline Messages"
+msgid "Export Offline Messages"
+msgstr "离线消息"
+
+#: modules/advanced_tools.php:116
+msgid "CSV File"
+msgstr ""
+
+#: modules/advanced_tools.php:127
+msgid "Please note: Import CSV must have been exported using the Export tool"
+msgstr ""
+
+#: modules/advanced_tools.php:135
+#, fuzzy
+#| msgid "Support"
+msgid "Import"
+msgstr "支持"
+
+#: modules/advanced_tools.php:135
+msgid "This cannot be undone"
+msgstr ""
+
+#: modules/advanced_tools.php:193
+msgid "Import Failed - Could Not Process File"
+msgstr ""
+
+#: modules/advanced_tools.php:207
+msgid "Import Failed - Could Not Find File"
+msgstr ""
+
+#: modules/advanced_tools.php:219
+#, fuzzy
+#| msgid "Complete"
+msgid "Import Complete"
+msgstr "完成"
+
+#: modules/advanced_tools.php:227
+#, fuzzy
+#| msgid "Your settings have been saved."
+msgid "Thank you, all settings have been updated"
+msgstr "您的设置已经保存。"
+
+#: modules/api/agent/wplc-api-functions.php:193
+#: modules/api/agent/wplc-api-functions.php:520
+#: modules/api/public/wplc-api-functions.php:156 modules/node_server.php:366
+#: modules/node_server.php:434
+msgid "Action not set"
+msgstr "动作没有设置"
+
+#: modules/api/agent/wplc-api-functions.php:375
+msgid "IP Address not recorded"
+msgstr "没有记录IP地址"
+
+#: modules/api/agent/wplc-api-functions.php:1014
+#, fuzzy
+#| msgid "Upload Icon"
+msgid "Upload error"
+msgstr "上传图标"
+
+#: modules/api/agent/wplc-api-functions.php:1017
+msgid "Security Violation - File unsafe"
+msgstr "安全冲突 - 文件不安全"
+
+#: modules/api/public/wplc-api.php:47 modules/api/public/wplc-api.php:74
+msgid "REST API"
+msgstr "REST API"
+
+#: modules/api/public/wplc-api.php:64
+msgid ""
+"To make use of the REST API, please ensure you are using a version of "
+"WordPress with the REST API included."
+msgstr "要使用其余的API, 请确保您使用的是WordPress的版本, 其余的API也包括在内."
+
+#: modules/api/public/wplc-api.php:66
+msgid ""
+"Alternatively, please install the official Rest API plugin from WordPress."
+msgstr "或者, 请安装WordPress中的官方Rest API插件。"
+
+#: modules/api/public/wplc-api.php:79
+msgid "Secret Token"
+msgstr "秘密令牌"
+
+#: modules/api/public/wplc-api.php:82
+msgid "No secret token found"
+msgstr "沒有找到秘密令牌"
+
+#: modules/cta_animations.php:19
+#, fuzzy
+#| msgid "No Animation"
+msgid "Call To Action Animation"
+msgstr "无动画"
+
+#: modules/gdpr.php:22
+msgid "Enable privacy controls"
+msgstr ""
+
+#: modules/gdpr.php:22
+msgid "Disabling will disable all GDPR related options, this is not advised."
+msgstr "禁用将禁用所有与 GDPR 相关的选项, 不建议这样做."
+
+#: modules/gdpr.php:26
+msgid "Importance of GDPR Compliance"
+msgstr "GDPR 合规性的重要性"
+
+#: modules/gdpr.php:32
+msgid "Organization name"
+msgstr ""
+
+#: modules/gdpr.php:41
+#, fuzzy
+#| msgid "Retention Purpose"
+msgid "Data retention purpose"
+msgstr "保留目的"
+
+#: modules/gdpr.php:44 modules/gdpr.php:345 wp-live-chat-support.php:401
+msgid "Chat/Support"
+msgstr "聊天支持"
+
+#: modules/gdpr.php:50
+#, fuzzy
+#| msgid "Retention Period"
+msgid "Data retention period"
+msgstr "保留期限"
+
+#: modules/gdpr.php:53
+msgid "days"
+msgstr "天"
+
+#: modules/gdpr.php:59
+#, fuzzy
+#| msgid " Active visitors"
+msgid "GDPR notice to visitors"
+msgstr " 活跃的访客"
+
+#: modules/gdpr.php:60
+msgid ""
+"Users will be asked to accept the notice shown here, in the form of a check "
+"box."
+msgstr "用户将被要求接受此处显示的通知, 以复选框的形式."
+
+#: modules/gdpr.php:90 modules/gdpr.php:101
+#, fuzzy
+#| msgid "GDPR Notice"
+msgid "GDPR Control"
+msgstr "GDPR 通知"
+
+#: modules/gdpr.php:103
+msgid ""
+"Search is performed on chat sessions, messages, and offline messages. Data "
+"will also be deleted automatically per your retention policy."
+msgstr ""
+"搜索是在聊天会话, 消息和脱机消息上执行的. 数据也将根据您的保留策略自动删除."
+
+#: modules/gdpr.php:112
+msgid "Name, Email, Message"
+msgstr "姓名, 电子邮件, 信息"
+
+#: modules/gdpr.php:116 modules/node_server.php:218
+msgid "Search"
+msgstr "搜索"
+
+#: modules/gdpr.php:129
+#, php-format
+msgid "Search Results in %%TABLE%%"
+msgstr "搜索结果 %%TABLE%%"
+
+#: modules/gdpr.php:157
+#, php-format
+msgid "Delete Chat (%%CID%%)"
+msgstr "删除聊天 (%%CID%%)"
+
+#: modules/gdpr.php:158
+#, php-format
+msgid "Download Chat (%%CID%%)"
+msgstr "下载聊天 (%%CID%%)"
+
+#: modules/gdpr.php:162 wp-live-chat-support.php:4219
+#: wp-live-chat-support.php:4279
+msgid "Chat ID"
+msgstr "聊天 ID"
+
+#: modules/gdpr.php:183
+msgid "Please perform a search using the input field above"
+msgstr "请使用上面的输入字段执行搜索"
+
+#: modules/gdpr.php:257
+msgid "Data Deleted"
+msgstr "数据删除"
+
+#: modules/gdpr.php:343
+#, php-format
+msgid ""
+"I agree for my personal data to be processed and for the use of cookies in "
+"order to engage in a chat processed by %%COMPANY%%, for the purpose of "
+"%%PURPOSE%%, for the time of %%PERIOD%% day(s) as per the GDPR."
+msgstr ""
+"我同意对我的个人数据进行处理, 并使用 cookie 进行聊天处理%%COMPANY%% 目的"
+"是%%PURPOSE%%, 时间%%PERIOD%% (s) 根据 GDPR。"
+
+#: modules/gdpr.php:365 modules/gdpr.php:566 modules/gdpr.php:587
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: modules/gdpr.php:366
+#, fuzzy, php-format
+#| msgid ""
+#| "We use WP Live Chat Support as our live chat platform. By clicking below "
+#| "to submit this form, you acknowledge that the information you provide now "
+#| "and during the chat will be transferred to WP Live Chat Support for "
+#| "processing in accordance with their %%POLICY_LINK%%."
+msgid ""
+"We use WP Live Chat by 3CX as our live chat platform. By clicking below to "
+"submit this form, you acknowledge that the information you provide now and "
+"during the chat will be transferred to WP Live Chat by 3CX for processing in "
+"accordance with their %%POLICY_LINK%%."
+msgstr ""
+"我们使用WP实时聊天支持作为我们的实时聊天平台. 通过点击下面提交此表单, 您确认"
+"您现在和聊天期间提供的信息将被转移到WP实时聊天支持中, 以便按照其 "
+"%%POLICY_LINK%% 进行处理."
+
+#: modules/gdpr.php:388
+#, php-format
+msgid ""
+"Please note as per the GDPR settings you have selected, all chat data will "
+"be retained for %%PERIOD%% day(s)."
+msgstr "请注意, 根据您选择的 GDPR 设置, 所有聊天数据将保留 %%PERIOD%% 天."
+
+#: modules/gdpr.php:391
+#, fuzzy, php-format
+#| msgid ""
+#| "After this period of time, all chat data older than %%PERIOD%% day(s), "
+#| "will be permanently removed from your server. "
+msgid ""
+"After this period of time, all chat data older than %%PERIOD%% day(s), will "
+"be permanently removed from your server."
+msgstr "在此时间段后, 所有超过 %%PERIOD%% 的聊天数据将从服务器中永久删除. "
+
+#: modules/gdpr.php:395
+msgid "GDPR - Data Retention"
+msgstr "GDPR - 数据保留"
+
+#: modules/gdpr.php:401 modules/gdpr.php:568
+msgid "Privacy Settings"
+msgstr "隐私设置"
+
+#: modules/gdpr.php:416
+msgid "Once every 6 hours"
+msgstr "每6小时一次"
+
+#: modules/gdpr.php:534
+msgid "Chat Ended"
+msgstr "聊天结束"
+
+#: modules/gdpr.php:559
+msgid ""
+"GDPR compliance has been disabled, read more about the implications of this "
+"here"
+msgstr "GDPR 合规性已被禁用, 请在此处阅读更多有关此内容的含义"
+
+#: modules/gdpr.php:560
+#, fuzzy
+#| msgid "Additionally please take a look at WP Live Chat Support"
+msgid "Additionally please take a look at WP Live Chat by 3CX"
+msgstr "此外, 请查看WP实时聊天支持"
+
+#: modules/gdpr.php:561
+msgid ""
+"It is highly recommended that you enable GDPR compliance to ensure your user "
+"data is regulated."
+msgstr "强烈建议您启用 GDPR 合规性, 以确保您的用户数据受到监管."
+
+#: modules/gdpr.php:564
+msgid "Warning - GDPR Compliance Disabled - Action Required"
+msgstr "警告 - 禁用 GDPR 合规性 - 需要采取操作"
+
+#: modules/gdpr.php:565
+msgid "EU GDPR"
+msgstr "欧盟 GDPR"
+
+#: modules/gdpr.php:569
+msgid "Dismiss & Accept Responsibility"
+msgstr "解除并接受责任"
+
+#: modules/gdpr.php:586
+#, php-format
+msgid "Please refer to our %%PRIVACY_LINK%% for information on Data Processing"
+msgstr "有关数据处理的信息, 请参阅我们的 %%PRIVACY_LINK%%"
+
+#: modules/gdpr.php:634
+msgid "GDPR Compliance Enabled - Server Selection Limited to EU"
+msgstr "启用 GDPR 合规性 - 服务器选择仅限于欧盟"
+
+#: modules/gdpr.php:666
+msgid "Pro data will also be removed as a part of this automatic process."
+msgstr "作为此自动过程的一部分, 专业版数据也将被删除。"
+
+#: modules/google_analytics.php:17
+msgid "Google Analytics Integration"
+msgstr "Google Analytics 集成"
+
+#: modules/google_analytics.php:22
+msgid "Enable Google Analytics Integration"
+msgstr "启用 Google Analytics 集成"
+
+#: modules/node_server.php:45
+msgid "Toggle user list"
+msgstr ""
+
+#: modules/node_server.php:46
+msgid "Toggle WordPress Menu for a full screen experience"
+msgstr ""
+
+#: modules/node_server.php:78 modules/node_server.php:182
+#: modules/node_server.php:874 modules/node_server.php:892
+msgid "Active visitors"
+msgstr "活跃的访客"
+
+#: modules/node_server.php:100 wp-live-chat-support.php:1864
+#, fuzzy
+#| msgid "Minimize Chat Window"
+msgid "Minimize Chat"
+msgstr "最小化聊天窗口"
+
+#: modules/node_server.php:109 modules/node_server.php:879
+#, fuzzy
+#| msgid "Chat Agent"
+msgid "Invite Agent"
+msgstr "聊天客服"
+
+#: modules/node_server.php:110 modules/node_server.php:880
+#, fuzzy
+#| msgid "Chat Department"
+msgid "Invite Department"
+msgstr "聊天部门"
+
+#: modules/node_server.php:111 modules/node_server.php:881
+#: modules/node_server.php:885 wp-live-chat-support.php:4021
+msgid "Direct User To Page"
+msgstr "直接用户到页面"
+
+#: modules/node_server.php:113
+#, fuzzy
+#| msgid "Chat Transcript Settings"
+msgid "Transcript"
+msgstr "聊天记录设置"
+
+#: modules/node_server.php:114 modules/node_server.php:882
+msgid "Leave chat"
+msgstr "离开会话"
+
+#: modules/node_server.php:115 modules/node_server.php:883
+#: wp-live-chat-support.php:2582
+msgid "End chat"
+msgstr "结束会话"
+
+#: modules/node_server.php:126
+msgid "Something"
+msgstr ""
+
+#: modules/node_server.php:137 modules/node_server.php:887
+msgid "Join chat"
+msgstr "加入对话"
+
+#: modules/node_server.php:138
+#, fuzzy
+#| msgid "type here..."
+msgid "Type here..."
+msgstr "在此输入..."
+
+#: modules/node_server.php:139
+msgid "bold"
+msgstr ""
+
+#: modules/node_server.php:139
+msgid "italics"
+msgstr ""
+
+#: modules/node_server.php:139
+msgid "code"
+msgstr ""
+
+#: modules/node_server.php:139
+msgid "preformatted"
+msgstr ""
+
+#: modules/node_server.php:159
+msgid "Filter the user list based on activity."
+msgstr ""
+
+#: modules/node_server.php:164 modules/node_server.php:889
+msgid "New Visitors (3 Min)"
+msgstr "新访客 (3分钟)"
+
+#: modules/node_server.php:165 modules/node_server.php:890
+msgid "Active Chats"
+msgstr "主动聊天"
+
+#: modules/node_server.php:166
+#, fuzzy
+#| msgid "Target URL"
+msgid "Page URL"
+msgstr "目标网址"
+
+#: modules/node_server.php:167 modules/node_server.php:891
+msgid "Clear Filters"
+msgstr "清除过滤器"
+
+#: modules/node_server.php:178
+#, fuzzy
+#| msgid "Contact Us"
+msgid "Contains"
+msgstr "联系我们"
+
+#: modules/node_server.php:185 modules/node_server.php:893
+#: wp-live-chat-support.php:2372
+msgid "Visitor"
+msgstr "访客"
+
+#: modules/node_server.php:186 modules/node_server.php:894
+msgid "Info"
+msgstr "信息"
+
+#: modules/node_server.php:188 modules/node_server.php:896
+msgid "Chat Status"
+msgstr "会话状态"
+
+#: modules/node_server.php:219 modules/node_server.php:898
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: modules/node_server.php:221 modules/node_server.php:899
+msgid "No emoji found"
+msgstr "未找到表情符号"
+
+#: modules/node_server.php:352 modules/node_server.php:360
+#: modules/node_server.php:420 modules/node_server.php:428
+msgid "Success"
+msgstr "成功"
+
+#: modules/node_server.php:363 modules/node_server.php:431
+msgid "Message data is corrupt"
+msgstr "消息数据已损坏"
+
+#: modules/node_server.php:369 modules/node_server.php:437
+msgid "Message data array not set"
+msgstr "未设置消息数据数组"
+
+#: modules/node_server.php:372 modules/node_server.php:440
+msgid "Chat ID is not set"
+msgstr "会话ID未设置"
+
+#: modules/node_server.php:376 modules/node_server.php:444
+msgid "No security nonce found"
+msgstr "沒有找到安全秘密令牌"
+
+#: modules/node_server.php:460
+msgid "Error"
+msgstr "错误"
+
+#: modules/node_server.php:460
+msgid "Only chat agents can access this page."
+msgstr "只有会话客服才能访问此页面."
+
+#: modules/node_server.php:594 wp-live-chat-support.php:4675
+msgid "Sending transcript..."
+msgstr "正在发送聊天记录…"
+
+#: modules/node_server.php:595
+#, fuzzy
+#| msgid "Chat Transcript Settings"
+msgid "Chat Transcript"
+msgstr "聊天记录设置"
+
+#: modules/node_server.php:597 wp-live-chat-support.php:4678
+msgid "The chat transcript has been emailed."
+msgstr "聊天记录已通过电子邮件发送."
+
+#: modules/node_server.php:598 wp-live-chat-support.php:4679
+msgid "There was a problem emailing the chat."
+msgstr ""
+
+#: modules/node_server.php:612
+msgid "Connection Error"
+msgstr "连接错误"
+
+#: modules/node_server.php:613
+msgid ""
+"We are having some trouble contacting the server. Please try again later."
+msgstr "我们在连线服务器时遇到了一些问题. 请稍后再试."
+
+#: modules/node_server.php:651
+msgid "Chat is disabled in settings area, re-enable"
+msgstr "会话在设置区域被禁用, 重新启用"
+
+#: modules/node_server.php:678
+msgid "User received notification:"
+msgstr "用户收到通知:"
+
+#: modules/node_server.php:684 wp-live-chat-support.php:2191
+msgid "New chat received"
+msgstr "新聊天"
+
+#: modules/node_server.php:685 wp-live-chat-support.php:2193
+msgid ""
+"A new chat has been received. Please go the 'Live Chat' page to accept the "
+"chat"
+msgstr "我们收到了一个新的会话. 请在\"实时聊天”页面接受聊天"
+
+#: modules/node_server.php:797
+#, fuzzy
+#| msgid "Welcome to V8 of WP Live Chat Support"
+msgid "Welcome to V8 of WP Live Chat by 3CX"
+msgstr "欢迎来到 WP实时聊天支持 v8"
+
+#: modules/node_server.php:798
+msgid ""
+"Did you know, this version features high speed message delivery, agent to "
+"agent chat, and a single window layout?"
+msgstr ""
+"这个版本具有高速的信息传递, 客服到客服会话, 以及单一的窗口布局. 你知道吗?"
+
+#: modules/node_server.php:799
+#, fuzzy
+#| msgid ""
+#| "To activate this functionality please navigate to Live Chat -> Settings -"
+#| "> Advanced Features -> And enable our Chat Server option."
+msgid ""
+"To activate this functionality please navigate to Live Chat -> Settings -> "
+"Advanced Features -> And enable 3CX High Performance Chat Cloud Servers."
+msgstr ""
+"要激活此功能, 请导航到实时聊天-> 设置-> 高级功能-> 并启用我们的聊天服务器选"
+"项."
+
+#: modules/node_server.php:802
+msgid "Show me!"
+msgstr "告诉我!"
+
+#: modules/node_server.php:803 wp-live-chat-support.php:4646
+msgid "Don't Show This Again"
+msgstr "不要再显示这个"
+
+#: modules/node_server.php:870 wp-live-chat-support.php:428
+msgid "Connecting..."
+msgstr "连接中..."
+
+#: modules/node_server.php:875
+msgid "Agent(s) Online"
+msgstr "客服在线"
+
+#: modules/node_server.php:886
+msgid "Events"
+msgstr "事件"
+
+#: modules/node_server.php:888
+msgid "Filters"
+msgstr "过滤器"
+
+#: modules/node_server.php:974
+msgid ""
+"You can transfer chats from within a chat by clicking on the in chat menu, "
+"and selecting Transfer Chat or Transfer Department"
+msgstr ""
+"您可以通过点击聊天菜单, 然后选择 \"转移聊天\" 或 \"转移部门\", 从聊天中转移聊"
+"天"
+
+#: modules/node_server.php:975
+msgid ""
+"You can share files quickly when in a chat, by simply dragging a file into "
+"the chat window!"
+msgstr "您可以在聊天时快速共享文件, 只需将文件拖到聊天窗口即可!"
+
+#: modules/node_server.php:976
+msgid "You can now move between chats without ending/closing an open chat"
+msgstr "现在, 您可以在聊天之间切换, 而无需结束打开的聊天"
+
+#: modules/node_server.php:1031
+msgid "No quick responses found"
+msgstr "未找到快速响应"
+
+#: modules/privacy.php:20 modules/privacy.php:34
+msgid "Privacy"
+msgstr "隐私"
+
+#: modules/webhooks_manager.php:12
+msgid "Agent Login"
+msgstr "客服登录"
+
+#: modules/webhooks_manager.php:13
+msgid "New Visitor"
+msgstr "新访客"
+
+#: modules/webhooks_manager.php:14
+msgid "Chat Request"
+msgstr "聊天请求"
+
+#: modules/webhooks_manager.php:15
+msgid "Agent Accept"
+msgstr "客服接受"
+
+#: modules/webhooks_manager.php:16
+msgid "Settings Changed"
+msgstr "设置已更改"
+
+#: modules/webhooks_manager.php:49
+msgid "Webhooks"
+msgstr "网页钩子"
+
+#: modules/webhooks_manager.php:63 wp-live-chat-support.php:3950
+#, fuzzy
+#| msgid "Webhooks"
+msgid "Web Hooks"
+msgstr "网页钩子"
+
+#: modules/webhooks_manager.php:85
+msgid "Webhook created"
+msgstr "网页钩子创建完毕"
+
+#: modules/webhooks_manager.php:87
+msgid "Webhook could not be created"
+msgstr "无法创建网页钩子"
+
+#: modules/webhooks_manager.php:94
+msgid "Webhook edited"
+msgstr "网页钩子编辑完毕"
+
+#: modules/webhooks_manager.php:96
+msgid "Webhook could not be edited"
+msgstr "无法编辑网页钩子"
+
+#: modules/webhooks_manager.php:108
+msgid "Webhook deleted"
+msgstr "网页钩子删除完毕"
+
+#: modules/webhooks_manager.php:110
+msgid "Webhook could not be delete"
+msgstr "网页钩子无法删除"
+
+#: modules/webhooks_manager.php:248 modules/webhooks_manager.php:301
+msgid "Event"
+msgstr "事件"
+
+#: modules/webhooks_manager.php:249 modules/webhooks_manager.php:306
+msgid "Target URL"
+msgstr "目标网址"
+
+#: modules/webhooks_manager.php:250 modules/webhooks_manager.php:311
+msgid "Method"
+msgstr "方式"
+
+#: modules/webhooks_manager.php:271
+msgid "No Webhooks"
+msgstr "无网页钩子"
+
+#: modules/webhooks_manager.php:314
+msgid "GET"
+msgstr "GET"
+
+#: modules/webhooks_manager.php:315
+msgid "POST"
+msgstr "POST"
+
+#: modules/webhooks_manager.php:321
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: modules/webhooks_manager.php:337
+msgid "Are you sure you want to delete this webhook?"
+msgstr "你确定要删除这个网页钩子吗？"
+
+#: wp-live-chat-support.php:372
+msgid "close"
+msgstr "关闭"
+
+#: wp-live-chat-support.php:392
+#, fuzzy
+#| msgid "Via WP Live Chat Support"
+msgid "Thank you for chatting with us."
+msgstr "通过WP实时聊天支持"
+
+#: wp-live-chat-support.php:417 wp-live-chat-support.php:1932
+msgid "Questions?"
+msgstr "有问题吗?"
+
+#: wp-live-chat-support.php:418 wp-live-chat-support.php:1933
+msgid "Chat with us"
+msgstr "与我们聊天"
+
+#: wp-live-chat-support.php:419
+msgid "Start live chat"
+msgstr "开始实时聊天"
+
+#: wp-live-chat-support.php:420
+msgid "Complete the fields below to proceed."
+msgstr ""
+
+#: wp-live-chat-support.php:421
+msgid "Chat offline. Leave a message"
+msgstr "离线聊天. 请留言"
+
+#: wp-live-chat-support.php:422
+msgid ""
+"We are currently offline. Please leave a message and we'll get back to you "
+"shortly."
+msgstr "客服暂时离线. 请留言, 我们很快回复."
+
+#: wp-live-chat-support.php:423
+msgid "Sending message..."
+msgstr "正在发送消息…"
+
+#: wp-live-chat-support.php:424
+msgid "Thank you for your message. We will be in contact soon."
+msgstr "感谢您的留言. 我们将尽快回复."
+
+#: wp-live-chat-support.php:425
+msgid "Leave a message"
+msgstr "留言"
+
+#: wp-live-chat-support.php:426
+msgid "Send message"
+msgstr "发送信息"
+
+#: wp-live-chat-support.php:427
+msgid "Start Chat"
+msgstr "开始聊天"
+
+#: wp-live-chat-support.php:429 wp-live-chat-support.php:2073
+#: wp-live-chat-support.php:2120
+msgid "Reactivating your previous chat..."
+msgstr "重新发起您之前的聊天..."
+
+#: wp-live-chat-support.php:459
+msgid "Please click 'Start Chat' to initiate a chat with an agent"
+msgstr "请点击 ‘开始聊天 ‘开始与客服聊天"
+
+#: wp-live-chat-support.php:462
+#, fuzzy
+#| msgid "There is No Answer. Please Try Again Later."
+msgid "No answer. Try again later."
+msgstr "暂时没有回复. 请稍后再试."
+
+#: wp-live-chat-support.php:463
+msgid "Welcome. How may I help you?"
+msgstr "欢迎. 我怎样能帮助你?"
+
+#: wp-live-chat-support.php:467
+#, fuzzy
+#| msgid ""
+#| "Please standby for an agent. While you wait for the agent you may type "
+#| "your message."
+msgid "Please standby for an agent. Send your message while you wait."
+msgstr "请等待客服... 在等待客服时, 您可以輸入消息."
+
+#: wp-live-chat-support.php:698
+msgid ""
+"The additional WP Live Chat Support PRO plugin which you have installed is "
+"no longer needed, please uninstall it."
+msgstr ""
+
+#: wp-live-chat-support.php:989 wp-live-chat-support.php:3447
+msgid "Missed Chats"
+msgstr "错过聊天"
+
+#: wp-live-chat-support.php:997 wp-live-chat-support.php:3939
+msgid "Support"
+msgstr "支持"
+
+#: wp-live-chat-support.php:1199
+#, fuzzy
+#| msgid "Please enter your name"
+msgid "Please Enter Your Name"
+msgstr "请输入你的名字"
+
+#: wp-live-chat-support.php:1200
+#, fuzzy
+#| msgid "Please enter your email address"
+msgid "Please Enter Your Email Address"
+msgstr "请输入您的邮箱地址"
+
+#: wp-live-chat-support.php:1201
+#, fuzzy
+#| msgid "Connection to server lost. Please reload this page. Error: "
+msgid "Connection to Server Lost. Please Reload This Page. Error:"
+msgstr "服务器连接丢失. 请重新加载此页面. 错误: "
+
+#: wp-live-chat-support.php:1203
+#, fuzzy
+#| msgid "Please enter a message"
+msgid "Please Enter a Message"
+msgstr "请输入消息"
+
+#: wp-live-chat-support.php:1204
+#, fuzzy
+#| msgid "Disconnected, attempting to reconnect..."
+msgid "Disconnected, Attempting to Reconnect..."
+msgstr "连接断开, 尝试重新连接…"
+
+#: wp-live-chat-support.php:1251
+#, fuzzy
+#| msgid " has joined."
+msgid "has joined."
+msgstr " 已经加入."
+
+#: wp-live-chat-support.php:1252
+#, fuzzy
+#| msgid " has left."
+msgid "has left."
+msgstr " 已经离开了."
+
+#: wp-live-chat-support.php:1253
+#, fuzzy
+#| msgid " has ended the chat."
+msgid "has ended the chat."
+msgstr " 已经结束聊天会话."
+
+#: wp-live-chat-support.php:1254
+#, fuzzy
+#| msgid " has disconnected."
+msgid "has disconnected."
+msgstr " 已经断开连接."
+
+#: wp-live-chat-support.php:1255
+msgid "(edited)"
+msgstr "(已编辑)"
+
+#: wp-live-chat-support.php:1646 wp-live-chat-support.php:1665
+msgid "Start chat"
+msgstr "开始聊天"
+
+#: wp-live-chat-support.php:1911 wp-live-chat-support.php:2653
+msgid "Send"
+msgstr "发送"
+
+#: wp-live-chat-support.php:2293
+msgid "Congratulations"
+msgstr "恭喜"
+
+#: wp-live-chat-support.php:2294
+msgid "You are now accepting live chat requests on your site."
+msgstr "您现在正在接受您的网站上的实时聊天请求."
+
+#: wp-live-chat-support.php:2295
+#, fuzzy
+#| msgid "The live chat box has automatically been enabled on your website."
+msgid "The live chat box has automatically been enabled."
+msgstr "实时聊天框已自动在您的网站上启用."
+
+#: wp-live-chat-support.php:2296
+msgid "Chat notifications will start appearing once visitors send a request."
+msgstr "一旦访问者发送请求, 聊天通知就会出现."
+
+#: wp-live-chat-support.php:2297
+#, php-format
+msgid "You may modify your chat box settings %s"
+msgstr ""
+
+#: wp-live-chat-support.php:2298
+msgid "Experiencing issues?"
+msgstr "遇到问题?"
+
+#: wp-live-chat-support.php:2298
+msgid "Take a look at our how-to guides."
+msgstr ""
+
+#: wp-live-chat-support.php:2299
+msgid "Hide"
+msgstr "隐藏"
+
+#: wp-live-chat-support.php:2352
+msgid "Keep this window open to get notified of new chats."
+msgstr ""
+
+#: wp-live-chat-support.php:2358
+#, fuzzy
+#| msgid "Visitors online"
+msgid "Visitor(s) online"
+msgstr "访客在线"
+
+#: wp-live-chat-support.php:2375
+msgid "Device"
+msgstr "设备"
+
+#: wp-live-chat-support.php:2376
+msgid "Data"
+msgstr "日期"
+
+#: wp-live-chat-support.php:2409
+msgid "Chat Dashboard"
+msgstr "聊天仪表板"
+
+#: wp-live-chat-support.php:2412
+msgid "Oh no!"
+msgstr "奥不!"
+
+#: wp-live-chat-support.php:2414
+#, fuzzy, php-format
+#| msgid ""
+#| "You do not have access to this page as <strong>you are not a chat agent</"
+#| "strong>."
+msgid "You do not have access to this page as %s."
+msgstr "您不能访问此页面, 因为<strong>您不是聊天客服</strong>."
+
+#: wp-live-chat-support.php:2414
+#, fuzzy
+#| msgid "Make this user a chat agent"
+msgid "you are not a chat agent"
+msgstr "使这个用户成为一个聊天客服"
+
+#: wp-live-chat-support.php:2568
+msgid "Previous"
+msgstr "上一个"
+
+#: wp-live-chat-support.php:2575
+msgid "Chat with"
+msgstr "和...聊天"
+
+#: wp-live-chat-support.php:2592
+msgid "Starting Time:"
+msgstr "开始时间:"
+
+#: wp-live-chat-support.php:2593
+msgid "Ending Time:"
+msgstr "结束时间:"
+
+#: wp-live-chat-support.php:2613
+msgid "Chat initiated on:"
+msgstr "聊天通知:"
+
+#: wp-live-chat-support.php:2614
+msgid "Browser:"
+msgstr "浏览器:"
+
+#: wp-live-chat-support.php:2640 wp-live-chat-support.php:2679
+#, fuzzy
+#| msgid "Chat ID"
+msgid "Invalid Chat ID"
+msgstr "聊天 ID"
+
+#: wp-live-chat-support.php:2648
+msgid "type here..."
+msgstr "在此输入..."
+
+#: wp-live-chat-support.php:2806
+msgid "User has opened the chat window"
+msgstr "用户已打开聊天窗口"
+
+#: wp-live-chat-support.php:2807
+msgid "User has minimized the chat window"
+msgstr "用户已最小化聊天窗口"
+
+#: wp-live-chat-support.php:2808
+msgid "User has maximized the chat window"
+msgstr "用户已最大化聊天窗口"
+
+#: wp-live-chat-support.php:2809
+msgid "The chat has been ended"
+msgstr "聊天会话已结束"
+
+#: wp-live-chat-support.php:3350
+msgid "Delete History"
+msgstr "删除历史"
+
+#: wp-live-chat-support.php:3367
+msgid "No chats available at the moment"
+msgstr "目前没有可用的聊天"
+
+#: wp-live-chat-support.php:3487
+msgid "Actions"
+msgstr "动作"
+
+#: wp-live-chat-support.php:3501
+msgid "You have not received any offline messages."
+msgstr "您没有收到任何离线消息."
+
+#: wp-live-chat-support.php:3509
+msgid "Delete Message"
+msgstr "删除消息"
+
+#: wp-live-chat-support.php:3618
+msgid "You do not have permission to save settings."
+msgstr ""
+
+#: wp-live-chat-support.php:3884
+msgid "Your settings have been saved."
+msgstr "您的设置已经保存。"
+
+#: wp-live-chat-support.php:3913
+#, fuzzy
+#| msgid ""
+#| "WPLC: set_time_limit() is not enabled on this server. You may experience "
+#| "issues while using WP Live Chat Support as a result of this. Please get "
+#| "in contact your host to get this function enabled."
+msgid ""
+"WPLC: set_time_limit() is not enabled on this server. You may experience "
+"issues while using WP Live Chat by 3CX as a result of this. Please get in "
+"contact your host to get this function enabled."
+msgstr ""
+"WPLC: set_time_limit() 在此服务器上未启用. 在使用WP实时聊天支持时, 您可能会遇"
+"到问题. 请联系您的运营商启用此功能."
+
+#: wp-live-chat-support.php:3919
+#, fuzzy
+#| msgid ""
+#| "WPLC: Safe mode is enabled on this server. You may experience issues "
+#| "while using WP Live Chat Support as a result of this. Please contact your "
+#| "host to get safe mode disabled."
+msgid ""
+"WPLC: Safe mode is enabled on this server. You may experience issues while "
+"using WP Live Chat by 3CX as a result of this. Please contact your host to "
+"get safe mode disabled."
+msgstr ""
+"WPLC: 在此服务器上启用了安全模式. 因此,您在使用WP实时聊天支持时可能会遇到问"
+"题. 请联系您的运营商, 使安全模式禁用."
+
+#: wp-live-chat-support.php:3942 wp-live-chat-support.php:3946
+#, fuzzy
+#| msgid "Advanced Features"
+msgid "Plugin Features"
+msgstr "高级功能"
+
+#: wp-live-chat-support.php:3944
+msgid ""
+"Check out these features and get up to speed with what you can do with WP "
+"Live Chat:"
+msgstr ""
+
+#: wp-live-chat-support.php:3947
+msgid "Reporting"
+msgstr "报告"
+
+#: wp-live-chat-support.php:3948
+msgid "Localization"
+msgstr ""
+
+#: wp-live-chat-support.php:3956
+#, fuzzy
+#| msgid "Chat Agents"
+msgid "Chat FAQs"
+msgstr "聊天客服"
+
+#: wp-live-chat-support.php:3958
+msgid ""
+"Learn quickly the ins and outs of Chat and start chatting with visitors and "
+"agents:"
+msgstr ""
+
+#: wp-live-chat-support.php:3960
+#, fuzzy
+#| msgid "Chat with us"
+msgid "Chat with Visitors"
+msgstr "与我们聊天"
+
+#: wp-live-chat-support.php:3961
+#, fuzzy
+#| msgid "Chat Agents"
+msgid "Chat with Agents"
+msgstr "聊天客服"
+
+#: wp-live-chat-support.php:3965
+#, fuzzy
+#| msgid "Chat Agents"
+msgid "Chat Invites"
+msgstr "聊天客服"
+
+#: wp-live-chat-support.php:3970
+#, fuzzy
+#| msgid "Settings Changed"
+msgid "Settings & Customization"
+msgstr "设置已更改"
+
+#: wp-live-chat-support.php:3972
+msgid "Use these guides to learn how to configure and customize WP Live Chat:"
+msgstr ""
+
+#: wp-live-chat-support.php:3976
+#, fuzzy
+#| msgid "Chat Window Settings"
+msgid "Agent Settings"
+msgstr "聊天窗口设置"
+
+#: wp-live-chat-support.php:3983
+msgid "Troubleshooting"
+msgstr "疑难解答"
+
+#: wp-live-chat-support.php:3985
+msgid ""
+"Reference these troubleshooting guides to quickly resolve any WP Live Chat "
+"issues:"
+msgstr ""
+
+#: wp-live-chat-support.php:3987
+msgid "My Chat Box Is Not Showing"
+msgstr ""
+
+#: wp-live-chat-support.php:3988
+#, fuzzy
+#| msgid "I'm not getting any notifications of a new chat"
+msgid "Not Receiving Notifications of New Chats"
+msgstr "我没有收到任何关于新谈话的通知"
+
+#: wp-live-chat-support.php:3989
+#, fuzzy
+#| msgid "How do I check for JavaScript errors on my site?"
+msgid "Check for JavaScript Errors"
+msgstr "如何检查站点上的JavaScript错误?"
+
+#: wp-live-chat-support.php:4017
+msgid "Initiate Chats"
+msgstr "发起聊天"
+
+#: wp-live-chat-support.php:4018
+msgid "Multiple Chats"
+msgstr "多个聊天"
+
+#: wp-live-chat-support.php:4019
+msgid "Add unlimited agents"
+msgstr "添加无限客服"
+
+#: wp-live-chat-support.php:4020
+msgid "Transfer Chats"
+msgstr "转移会话"
+
+#: wp-live-chat-support.php:4039
+#, fuzzy, php-format
+#| msgid "Via WP Live Chat Support"
+msgid "Thank you for using %s! Please %s on %s"
+msgstr "通过WP实时聊天支持"
+
+#: wp-live-chat-support.php:4039
+msgid "rate us"
+msgstr ""
+
+#: wp-live-chat-support.php:4220 wp-live-chat-support.php:4280
+msgid "From"
+msgstr "从"
+
+#: wp-live-chat-support.php:4222 wp-live-chat-support.php:4282
+msgid "Timestamp"
+msgstr "时间戳"
+
+#: wp-live-chat-support.php:4223 wp-live-chat-support.php:4283
+msgid "Origin"
+msgstr "起源"
+
+#: wp-live-chat-support.php:4228 wp-live-chat-support.php:4288
+msgid "user"
+msgstr "用户"
+
+#: wp-live-chat-support.php:4230 wp-live-chat-support.php:4290
+msgid "agent"
+msgstr "客服"
+
+#: wp-live-chat-support.php:4385
+msgid "Advanced settings"
+msgstr "高级设置"
+
+#: wp-live-chat-support.php:4392
+msgid "Only change these settings if you are experiencing performance issues."
+msgstr "只有在您遇到性能问题时才更改这些设置."
+
+#: wp-live-chat-support.php:4399
+msgid "Website hosting type:"
+msgstr ""
+
+#: wp-live-chat-support.php:4403
+#, fuzzy
+#| msgid "Custom Scripts"
+msgid "Custom parameters"
+msgstr "自定义脚本"
+
+#: wp-live-chat-support.php:4404
+msgid "Shared hosting - low level plan"
+msgstr "共享主机 - 低级别计划"
+
+#: wp-live-chat-support.php:4405
+msgid "Shared hosting - normal plan"
+msgstr "共享主机 - 正常计划"
+
+#: wp-live-chat-support.php:4406
+msgid "VPS"
+msgstr "虚拟服务器"
+
+#: wp-live-chat-support.php:4407
+msgid "Dedicated server"
+msgstr "专用服务器"
+
+#: wp-live-chat-support.php:4413
+msgid "Long poll setup"
+msgstr "长时间投票设置"
+
+#: wp-live-chat-support.php:4413
+#, fuzzy
+#| msgid ""
+#| "Only change these if you are an experienced developer or if you have "
+#| "received these figures from the Code Cabin Support team."
+msgid ""
+"Only change these if you are an experienced developer or if you have "
+"received these figures from the WP Live Chat by 3CX team."
+msgstr ""
+"只有当您是一个有经验的开发人员或您从代码舱支持团队收到这些数字时, 才会更改这"
+"些数据."
+
+#: wp-live-chat-support.php:4418
+msgid "Iterations"
+msgstr "复述"
+
+#: wp-live-chat-support.php:4422
+#, fuzzy
+#| msgid "Sleep between iterations"
+msgid "Sleep between loops"
+msgstr "在迭代之间休眠"
+
+#: wp-live-chat-support.php:4425
+#, fuzzy
+#| msgid "microseconds"
+msgid "milliseconds"
+msgstr "微秒"
+
+#: wp-live-chat-support.php:4448
+#, fuzzy
+#| msgid "Display a 'Powered by' link in the chat box"
+msgid "Show 'Powered by' in chat box"
+msgstr "在会话框中显示“Powered by”链接"
+
+#: wp-live-chat-support.php:4448
+#, fuzzy
+#| msgid ""
+#| "Checking this will display a 'Powered by WP Live Chat Support' caption at "
+#| "the bottom of your chatbox."
+msgid ""
+"Checking this will display a 'Powered by WP Live Chat by 3CX' caption at the "
+"bottom of your chatbox."
+msgstr "选中此项将在会话框底部显示一个“由WP实时聊天支持提供技术支持”标题."
+
+#: wp-live-chat-support.php:4490
+#, fuzzy
+#| msgid "Powered by WP Live Chat Support"
+msgid "Powered by WP Live Chat by 3CX"
+msgstr "由WP实时聊天支持提供支持"
+
+#: wp-live-chat-support.php:4644
+msgid ""
+"Browser notifications will no longer function on insecure (non-SSL) sites."
+msgstr ""
+
+#: wp-live-chat-support.php:4645
+msgid ""
+"Please add an SSL certificate to your site to continue receiving chat "
+"notifications in your browser."
+msgstr ""
+
+#: wp-live-chat-support.php:4658
+msgid ""
+"Please deactivate WP Live Chat Suport - Email Transcript plugin. Since WP "
+"Live Chat Support 8.0.05 there is build in support for Email Transcript."
+msgstr ""
+"请停用WP实时聊天支持 - 电子邮件抄本插件. 因为WP实时聊天已支持 8.0.05 支持电子"
+"邮件抄本."
+
+#: wp-live-chat-support.php:4665
+msgid "Email transcript to user"
+msgstr "电子邮件抄录给用户"
+
+#: wp-live-chat-support.php:4676
+msgid "Sending Transcript"
+msgstr "发送聊天记录"
+
+#: wp-live-chat-support.php:4750
+#, php-format
+msgid "Your chat transcript from %1$s"
+msgstr "你的聊天记录 %1$s"
+
+#: wp-live-chat-support.php:4841
+msgid "Chat Transcript Settings"
+msgstr "聊天记录设置"
+
+#: wp-live-chat-support.php:4844
+msgid "Enable chat transcripts:"
+msgstr "启用聊天记录:"
+
+#: wp-live-chat-support.php:4852
+msgid "Send transcripts to:"
+msgstr "将副本发送至:"
+
+#: wp-live-chat-support.php:4859
+msgid "User"
+msgstr "用户"
+
+#: wp-live-chat-support.php:4870
+msgid "Send transcripts when chat ends:"
+msgstr "聊天结束时发送副本:"
+
+#: wp-live-chat-support.php:4878
+msgid "Email body"
+msgstr "邮件内容"
+
+#: wp-live-chat-support.php:4888
+msgid "Email header"
+msgstr "邮件页眉"
+
+#: wp-live-chat-support.php:4897
+msgid "Email footer"
+msgstr "邮件页脚"
+
+#: wp-live-chat-support.php:4973
+msgid ""
+"Please note, local message encryption and local server options will be "
+"deprecated in the next major release. All encryption and message delivery "
+"will handled by our external servers in future."
+msgstr ""
+
+#: wp-live-chat-support.php:4976
+msgid "Deprecation Notice - Message Encryption & Local Server"
+msgstr ""
+
+#: wp-live-chat-support.php:4978
+msgid "Dismiss"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+#| msgid "Via WP Live Chat Support"
+msgid "WP-Live Chat by 3CX"
+msgstr "通过WP实时聊天支持"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.3cx.com/wp-live-chat/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The easiest to use website live chat plugin. Let your visitors chat with you "
+"and increase sales conversion rates with WP-Live Chat by 3CX."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "3CX"
+msgstr ""
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Triggers"
+#~ msgid "WP Live Chat Trigger"
+#~ msgstr "WP实时聊天支持触发器"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support"
+#~ msgid "WP Live Chat Box"
+#~ msgstr "WP实时聊天支持"
+
+#, fuzzy
+#~| msgid "The chat window never goes offline"
+#~ msgid "The Chat Box Never Goes Offline"
+#~ msgstr "聊天窗口永远不会离线"
+
+#, fuzzy
+#~| msgid "This chat has already been answered by another agent."
+#~ msgid "Chat Has Already Been Answered"
+#~ msgstr "这次谈话已经被另一个客服回答了."
+
+#~ msgid "Request new chat"
+#~ msgstr "请求新聊天"
+
+#~ msgid "Whois for"
+#~ msgstr "谁是对于"
+
+#~ msgid "&laquo;"
+#~ msgstr "&laquo;"
+
+#~ msgid "&raquo;"
+#~ msgstr "&raquo;"
+
+#~ msgid "Experience Rating"
+#~ msgstr "体验评级"
+
+#, fuzzy
+#~| msgid "Disable initiate chat feature:"
+#~ msgid "Disable initiate chat:"
+#~ msgstr "禁用启动聊天功能:"
+
+#~ msgid ""
+#~ "This will substantially improve performance. If you are experiencing "
+#~ "performance issues on your site, you should disable the initiate chat "
+#~ "feature and only enable it when you need it."
+#~ msgstr ""
+#~ "这将极大地提高工作绩效. 如果您在网站上遇到了性能问题, 您应该禁用“启动”聊天"
+#~ "功能, 并只在需要时才启用它."
+
+#, php-format
+#~ msgid ""
+#~ "The Live Chat box is currently disabled on your website due to : <a href="
+#~ "\"%s\">Business Hours Settings</a>"
+#~ msgstr "由于<a href=\"%s\">营业时间设置</a>, 您的网站上已禁用实时聊天框"
+
+#, fuzzy
+#~| msgid "Active visitors"
+#~ msgid "Active Visitor(s)"
+#~ msgstr "活跃的访客"
+
+#, fuzzy
+#~| msgid "Active Chats"
+#~ msgid "Active Agent(s)."
+#~ msgstr "主动聊天"
+
+#, php-format
+#~ msgid "User is browsing <small><a href='%s' target='_BLANK'>%s</a></small>"
+#~ msgstr "用户正在浏览 <small><a href='%s' target='_BLANK'>%s</a></small>"
+
+#~ msgid "Enable On Mobile Devices"
+#~ msgstr "在移动设备上启用"
+
+#~ msgid ""
+#~ "Disabling this will mean that the Chat Box will not be displayed on "
+#~ "mobile devices. (Smartphones and Tablets)"
+#~ msgstr ""
+#~ "禁用此功能将意味着该聊天框将不会显示在移动设备上. (智能手机和平板电脑)"
+
+#~ msgid "Recomended Size 50px x 50px"
+#~ msgstr "推荐尺寸 50px * 50px"
+
+#~ msgid "Recomended Size 250px x 40px"
+#~ msgstr "可推荐尺寸 250px * 40px"
+
+#~ msgid "How long it takes for your chat window to pop up"
+#~ msgstr "你的聊天窗口弹出需要多长时间"
+
+#~ msgid "Custom fields"
+#~ msgstr "自定义字段"
+
+#, fuzzy
+#~| msgid "Theme 1"
+#~ msgid "Theme"
+#~ msgstr "主题1"
+
+#~ msgid "Classic"
+#~ msgstr "经典"
+
+#~ msgid "Modern"
+#~ msgstr "现代"
+
+#, fuzzy
+#~| msgid ""
+#~| "Please note: Chat messages will only be encrypted and decrypted if you "
+#~| "have inserted your WP Live Chat Support Pro API Key on the <a href="
+#~| "\"admin.php?page=wplivechat-menu-api-keys-page\">API Keys page</a>."
+#~ msgid ""
+#~ "Please note: Chat messages will only be encrypted and decrypted if you "
+#~ "have inserted your WP Live Chat by 3CX API Key with a previous version of "
+#~ "our Pro add-on as this key was required."
+#~ msgstr ""
+#~ "请注意: 聊天消息加密将只有当您已在 <a href=\"admin.php?page=wplivechat-"
+#~ "menu-api-keys-page\">API密钥页面 </a>插入您的WP实时聊天支持专业版API密钥"
+#~ "时, 才会被加密和解密."
+
+#~ msgid "Surveys & Lead Forms"
+#~ msgstr "调查和主要表格"
+
+#~ msgid "Enable Surveys & Lead Forms"
+#~ msgstr "启用调查和主要表格"
+
+#~ msgid ""
+#~ "Enable surveys and lead forms within your live chat box, either before or "
+#~ "after a live chat session."
+#~ msgstr ""
+#~ "在实时聊天框中启用调查和主要表格框, 无论是在实时聊天会话之前还是之后."
+
+#, fuzzy
+#~| msgid "Active visitors"
+#~ msgid "Active survey"
+#~ msgstr "活跃的访客"
+
+#~ msgid ""
+#~ "Choosing a survey will reset the lead form selection: the items are "
+#~ "alternatives, if you select a survey no lead form can be selected."
+#~ msgstr ""
+#~ "选择调查将重置潜在顾客窗体选择: 如果选择调查, 则无法选择潜在顾客窗体, 则项"
+#~ "目是替代项."
+
+#, php-format
+#~ msgid ""
+#~ "No surveys created. Please <a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">create a survey and then refresh this page.</a>"
+#~ msgstr ""
+#~ "没有创建调查. 请<a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel\">"
+#~ "创建调查, 然后刷新此页面.</a>"
+
+#, fuzzy
+#~| msgid "Select a lead form"
+#~ msgid "Active lead form"
+#~ msgstr "选择调查表"
+
+#~ msgid ""
+#~ "Choosing a lead form will reset the survey selection: the items are "
+#~ "alternatives, if you select a lead form no survey can be selected."
+#~ msgstr "选择调查表将重置调查选择: 如果选择调查表, 则项目是替代项。"
+
+#, php-format
+#~ msgid ""
+#~ "No lead forms created. Please <a href=\"%s\" target=\"_BLANK\" title="
+#~ "\"NimbleSquirrel\">create a lead form and then refresh this page.</a>"
+#~ msgstr ""
+#~ "未创建调查表. 请 <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel"
+#~ "\">创建一个调查框, 然后刷新此页 </a>"
+
+#~ msgid "Select a lead form"
+#~ msgstr "选择调查表"
+
+#~ msgid "Display survey/form"
+#~ msgstr "显示调查表"
+
+#~ msgid "Before chat"
+#~ msgstr "在聊天之前"
+
+#~ msgid "After chat"
+#~ msgstr "在聊天之后"
+
+#~ msgid "Chat button text"
+#~ msgstr "聊天按钮文本"
+
+#~ msgid "Change title of chat box when chat ended to"
+#~ msgstr "当聊天结束时, 将聊天框的标题更改为"
+
+#~ msgid "Or chat to an agent now"
+#~ msgstr "或现在就和客服聊天"
+
+#, fuzzy
+#~| msgid "WP Live Chat Surveys & Lead Forms with Nimble Squirrel"
+#~ msgid "Surveys & Lead Forms with Nimble Squirrel"
+#~ msgstr "WP实时聊天调查和潜在用户调查表"
+
+#~ msgid ""
+#~ "To view your responses, click the button below and log in to your "
+#~ "NimbleSquirrel account."
+#~ msgstr "要查看您的回复, 请单击下面的按钮并登录到您的 NimbleSquirrel 帐户."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Register on <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel"
+#~| "\">NimbleSquirrel</a>"
+#~ msgid ""
+#~ "Register on <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel"
+#~ "\">NimbleSquirrel</a> (It's free)"
+#~ msgstr ""
+#~ "注册 <a href=\"%s\" target=\"_BLANK\" title=\"NimbleSquirrel\"> "
+#~ "NimbleSquirrel </a>"
+
+#, php-format
+#~ msgid ""
+#~ "<a href=\"%s\" target=\"_BLANK\" title=\"Create a survey\">Create a "
+#~ "survey</a>."
+#~ msgstr ""
+#~ "<a href=\"%s\" target=\"_BLANK\" title=\"Create a survey\">创建一个调查</"
+#~ "a>."
+
+#~ msgid "Add a Survey to your live chat box"
+#~ msgstr "将调查结果添加到您的实时聊天框中"
+
+#~ msgid "Three simple steps:"
+#~ msgstr "三个简单的步骤:"
+
+#~ msgid ""
+#~ "Enable surveys in your live chat <a href='admin.php?page=wplivechat-menu-"
+#~ "settings#tabs-survey'>settings page</a>."
+#~ msgstr ""
+#~ "在您的实时聊天中启用调查 <a href='admin.php?page=wplivechat-menu-"
+#~ "settings#tabs-survey'>设置页面</a>."
+
+#~ msgid "User bio"
+#~ msgstr "用户简介"
+
+#~ msgid "User social accounts"
+#~ msgstr "用户社交帐户"
+
+#~ msgid "LinkedIn URL"
+#~ msgstr "LinkedIn网址"
+
+#~ msgid "Website URL"
+#~ msgstr "网站网址"
+
+#~ msgid ""
+#~ "This will show up at the top of the chatbox, in the agent's description - "
+#~ "Leave each item blank to disable it."
+#~ msgstr "这将显示在聊天框的顶部, 在客服的描述中 - 将每个项目留空以禁用它."
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Website"
+#~ msgstr "网站"
+
+#, php-format
+#~ msgid "Create departments <a href='%s'>here</a>."
+#~ msgstr "在这里创建部门 <a href='%s'>here</a>."
+
+#~ msgid "No token found"
+#~ msgstr "沒有找到秘密令牌"
+
+#~ msgid ""
+#~ "Disabling this will result in the plugin reverting back to using the "
+#~ "legacy chat dashboard."
+#~ msgstr "禁用这将导致插件恢复使用传统的聊天仪表板."
+
+#~ msgid "Copy"
+#~ msgstr "复制"
+
+#~ msgid "Did you know?"
+#~ msgstr "你知道吗?"
+
+#~ msgid ""
+#~ "You can copy this node server token to multiple sites in order to manage "
+#~ "more than one domain from a single chat dashboard"
+#~ msgstr ""
+#~ "您可以将此节点服务器令牌复制到多个站点, 以便从单个聊天仪表板管理多个域"
+
+#~ msgid "Supported API Calls"
+#~ msgstr "API 调用"
+
+#~ msgid "Try"
+#~ msgstr "重试"
+
+#~ msgid "API Response Codes"
+#~ msgstr "API 响应代码"
+
+#~ msgid "Rest Console "
+#~ msgstr "重置控制台 "
+
+#~ msgid "Try it!"
+#~ msgstr "再次重试!"
+
+#~ msgid "Doc Suggestions"
+#~ msgstr "文档建议"
+
+#~ msgid "Documentation Suggestions"
+#~ msgstr "文档建议"
+
+#~ msgid "Enable Documentation Suggestions"
+#~ msgstr "启用文档建议"
+
+#~ msgid ""
+#~ "When a user sends a message the plugin will automatically detect if there "
+#~ "are posts or pages that can be suggested to the user in order for the "
+#~ "user to get more information about what they are asking. This is useful "
+#~ "when the user has typed their message and is still waiting for an agent "
+#~ "to answer their chat."
+#~ msgstr ""
+#~ "当用户发送消息时, 插件将自动检测是否有可建议用户使用的帖子或页面, 以便用户"
+#~ "获得有关他们所询问的内容的更多信息. 当用户键入他们的消息, 并且仍在等待客服"
+#~ "回答他们的聊天时, 这很有用."
+
+#~ msgid "The following was sent to the user as suggested documents:"
+#~ msgstr "以下是作为建议的文档发送给用户的:"
+
+#~ msgid "While you wait for the agent, perhaps these documents may help?"
+#~ msgstr "在你等待客服的时候, 也许这些文档会有帮助?"
+
+#~ msgid "GDPR"
+#~ msgstr "GDPR"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support - GDPR"
+#~ msgid "WP Live Chat by 3CX - GDPR"
+#~ msgstr "WP实时聊天支持 - GDPR"
+
+#~ msgid ""
+#~ "Pro is active - Deleting a chat will resilt in user experience ratings "
+#~ "being deleted along with chat data"
+#~ msgstr ""
+#~ "专业版处于活动状态 - 删除聊天将在用户体验分级与聊天数据一起被删除中重置"
+
+#~ msgid "GIF Integration"
+#~ msgstr "GIF集成"
+
+#~ msgid "Enable GIF Integration"
+#~ msgstr "启用GIF集成"
+
+#~ msgid ""
+#~ "If you enable GIF Integration you're going to be able to send GIFs by "
+#~ "typing commands such as '/gif happy' when writing a message."
+#~ msgstr ""
+#~ "如果您启用GIF集成, 您将能够在编写消息时通过输入诸如’/ gif happy’的命令来发"
+#~ "送GIF."
+
+#~ msgid "Select a GIF provider"
+#~ msgstr "选择一个GIF提供商"
+
+#~ msgid ""
+#~ "A GIF provider is the source of the GIFs that are going to show when you "
+#~ "type a command like '/gif happy' on a message."
+#~ msgstr "GIF提供者是在您输入消息中的’/ gif happy’等命令时将显示的GIF的来源."
+
+#~ msgid "Giphy"
+#~ msgstr "Giphy"
+
+#~ msgid "Tenor"
+#~ msgstr "Tenor"
+
+#~ msgid "Giphy API key"
+#~ msgstr "Giphy API 密钥"
+
+#~ msgid "The API key created for you when you register an app on Giphy"
+#~ msgstr "在 Giphy 上注册应用程序时为您创建的API密钥"
+
+#~ msgid "Tenor API key"
+#~ msgstr "Tenor API 密钥"
+
+#~ msgid "The API key created for you when you register an app on Tenor"
+#~ msgstr "在 Tenor 上注册应用时为您创建的API密钥"
+
+#~ msgid " Active visitors"
+#~ msgstr " 活跃的访客"
+
+#, php-format
+#~ msgid ""
+#~ "Use the <a href='%s'>Contact Form Ready</a> plugin (free) in order to "
+#~ "customise the input fields of the offline message form.</a>"
+#~ msgstr ""
+#~ "使用 <a href='%s'>Contact Form Ready</a>插件(免费)来自定义离线消息表单的输"
+#~ "入字段.</a>"
+
+#~ msgid "Hello. Please input your details so that I may help you."
+#~ msgstr "你好. 请输入您的详细资料, 以便我可以帮助您."
+
+#~ msgid "Chat ended"
+#~ msgstr "聊天结束"
+
+#~ msgid "Connecting. Please be patient..."
+#~ msgstr "正在连接. 请耐心等待..."
+
+#~ msgid "Please click \\'Start Chat\\' to initiate a chat with an agent"
+#~ msgstr "请点击\\’开始聊天\\’开始与客服聊天"
+
+#~ msgid "Surveys"
+#~ msgstr "调查"
+
+#, fuzzy
+#~| msgid "The chat has been ended by the operator."
+#~ msgid "The Chat Has Been Ended By The Operator."
+#~ msgstr "聊天会话已经由代理结束."
+
+#~ msgid " is typing..."
+#~ msgstr " 正在输入…"
+
+#~ msgid ""
+#~ "You may <a href='?page=wplivechat-menu-settings' target='_BLANK'>modify "
+#~ "your chat box settings here."
+#~ msgstr ""
+#~ "您可以<a href='?page=wplivechat-menu-settings' target='_BLANK'>在这里修改"
+#~ "您的聊天框设置."
+
+#~ msgid "Site Info"
+#~ msgstr "网站信息"
+
+#~ msgid "Advanced Info"
+#~ msgstr "功能信息"
+
+#~ msgid "IP Address:"
+#~ msgstr "IP地址:"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Thank you for using <a href=\"%1$s\" target=\"_blank\">WP Live Chat "
+#~| "Support</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a "
+#~| "href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+#~ msgid ""
+#~ "Thank you for using <a href=\"%1$s\" target=\"_blank\">WP Live Chat by "
+#~ "3CX</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href="
+#~ "\"%2$s\" target=\"_blank\">WordPress.org</a>"
+#~ msgstr ""
+#~ "感谢您使用<a href=\"%1$s\" target=\"_blank\">WP实时聊天支持</a>! 请<a "
+#~ "href=\"%2$s\" target=\"_blank\">在WordPress.org上评分</a>"
+
+#~ msgid ""
+#~ "Your API Key is Invalid. You are not eligible for future updates. Please "
+#~ "enter your API key <a href=\"admin.php?page=wplivechat-menu-api-keys-page"
+#~ "\">here</a>."
+#~ msgstr ""
+#~ "您的API密钥无效. 您不符合将来更新的资格. 请输入您的API密钥<a href=\"admin."
+#~ "php?page=wplivechat-menu-api-keys-page\">这里</a>."
+
+#, php-format
+#~ msgid ""
+#~ "Thank you for chatting with us. If you have any questions, please <a href="
+#~ "\"%1$s\" target=\"_blank\" style=\"font-family: Arial, Helvetica, sans-"
+#~ "serif; font-size: 13px; color: #FFF; font-weight: bold; text-decoration: "
+#~ "underline;\">contact us</a>"
+#~ msgstr ""
+#~ "感谢您与我们聊天. 如果您有任何问题, 请<a href=\"%1$s\" target=\"_blank\" "
+#~ "style=\"font-family: Arial, Helvetica, sans-serif; font-size: 13px; "
+#~ "color: #FFF; font-weight: bold; text-decoration: underline;\">联系我们</a>"
+
+#~ msgid "No Ratings for this agent"
+#~ msgstr "该客服没有评级"
+
+#~ msgid "View"
+#~ msgstr "查看"
+
+#~ msgid "WP Live Chat Support Reporting"
+#~ msgstr "WP实时聊天支持评级报告"
+
+#~ msgid ""
+#~ "WP Live Chat Support is supported by an international team of developers."
+#~ msgstr "WP实时聊天支持由一个国际开发人员团队提供支持."
+
+#~ msgid "Project Leaders"
+#~ msgstr "项目负责人"
+
+#~ msgid "Founder"
+#~ msgstr "创始人"
+
+#~ msgid "Developer"
+#~ msgstr "开发人员"
+
+#~ msgid "Project Manager"
+#~ msgstr "项目管理"
+
+#~ msgid "Contributors"
+#~ msgstr "贡献者"
+
+#~ msgid "Testing"
+#~ msgstr "测试中"
+
+#~ msgid "Marketing"
+#~ msgstr "营销"
+
+#~ msgid "Marketing &amp; Support"
+#~ msgstr "营销 &amp; 支持"
+
+#~ msgid "Documentation"
+#~ msgstr "文档"
+
+#~ msgid "InfoSec"
+#~ msgstr "信息安全"
+
+#~ msgid "CSS"
+#~ msgstr "CSS"
+
+#~ msgid "Want to see your name on this page?"
+#~ msgstr "想在此页面上查看您的姓名吗?"
+
+#~ msgid "Get involved on GitHub."
+#~ msgstr "参与到 GitHub."
+
+#~ msgid "OK! Let's start"
+#~ msgstr "OK! 让我们开始"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support Dashboard"
+#~ msgstr "WP实时聊天支持专业版"
+
+#, fuzzy
+#~| msgid "Welcome"
+#~ msgid "Welcome, %s"
+#~ msgstr "欢迎"
+
+#, fuzzy
+#~| msgid "Chat Box"
+#~ msgid "Chat now"
+#~ msgstr "聊天框"
+
+#, fuzzy
+#~| msgid "Total Conversions"
+#~ msgid "Conversations"
+#~ msgstr "总转化次数"
+
+#~ msgid "WP Live Chat Support Settings"
+#~ msgstr "WP实时聊天支持设置"
+
+#~ msgid "Choose when I want to be online"
+#~ msgstr "选择我想要在线的时间"
+
+#~ msgid "Chat Window Settings"
+#~ msgstr "聊天窗口设置"
+
+#~ msgid "Show Name"
+#~ msgstr "显示名称"
+
+#~ msgid "Only show the chat window to users that are logged in"
+#~ msgstr "只向已登录的用户显示聊天窗口"
+
+#~ msgid "Show Date"
+#~ msgstr "显示日期"
+
+#~ msgid "Show Time"
+#~ msgstr "显示时间"
+
+#~ msgid "Name "
+#~ msgstr "昵称 "
+
+#~ msgid "Enable Text Editor"
+#~ msgstr "启用文本编辑器"
+
+#~ msgid ""
+#~ "Adds advanced text editor features, such as links, text styling, and more!"
+#~ msgstr "添加高级文本编辑器功能, 如链接, 文本样式 等等!"
+
+#~ msgid "Enable File Sharing"
+#~ msgstr "启用文件共享"
+
+#~ msgid "Enable Experience Ratings"
+#~ msgstr "聊天窗口设置"
+
+#~ msgid "Do not allow users to send offline messages"
+#~ msgstr "不允许用户发送离线消息"
+
+#~ msgid "Offline Text Fields"
+#~ msgstr "离线文字字段"
+
+#~ msgid "Email Address"
+#~ msgstr "邮箱地址"
+
+#~ msgid "Sending Method"
+#~ msgstr "发送方式"
+
+#~ msgid "WP Mail"
+#~ msgstr "WP邮件"
+
+#~ msgid "PHP Mailer"
+#~ msgstr "PHP Mailer"
+
+#~ msgid "Host"
+#~ msgstr "主机"
+
+#~ msgid "Port"
+#~ msgstr "端口"
+
+#~ msgid "Username"
+#~ msgstr "用户名"
+
+#~ msgid "Password"
+#~ msgstr "密码"
+
+#~ msgid "Enable an Auto Responder"
+#~ msgstr "启用自动响应"
+
+#~ msgid "Auto Responder 'From' Email Address"
+#~ msgstr "自动响应 \"发件人\" 电子邮件地址"
+
+#~ msgid "Choose a theme"
+#~ msgstr "选择主题"
+
+#~ msgid "Choose"
+#~ msgstr "选择"
+
+#~ msgid "Your"
+#~ msgstr "你的"
+
+#~ msgid "Colors"
+#~ msgstr "颜色"
+
+#~ msgid "Below"
+#~ msgstr "下面"
+
+#~ msgid "First Section Text"
+#~ msgstr "第一节文本"
+
+#~ msgid "Intro Text"
+#~ msgstr "文字介绍"
+
+#~ msgid "Second Section Text"
+#~ msgstr "第二节文本"
+
+#~ msgid "Reactivate Chat Section Text"
+#~ msgstr "重新激活聊天部分文本"
+
+#~ msgid "No answer"
+#~ msgstr "没有回复"
+
+#~ msgid "Choose an animation"
+#~ msgstr "选择动画"
+
+#~ msgid "Current Users that are Chat Agents"
+#~ msgstr "当前用户是聊天客服"
+
+#~ msgid "Display Interval"
+#~ msgstr "显示间隔"
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "API请求过程中发生了意外HTTP错误。</p> <p><a href=\"?\" onclick=\"document."
+#~ "location.reload(); return false;\">重试</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "发生未知错误"
+
+#~ msgid "Welcome to WP Live Chat Support v8"
+#~ msgstr "欢迎来到WP实时聊天支持 v8"
+
+#~ msgid ""
+#~ "WP Live Chat Support is the most cost effective, feature rich, amazingly "
+#~ "supported and most positively reviewed live chat plugin on WordPress!"
+#~ msgstr ""
+#~ "WP实时聊天支持是最具成本效益的, 功能丰富, 令人惊讶的支持和最积极的审查在"
+#~ "WordPress上的实时聊天插件!"
+
+#~ msgid "Welcome"
+#~ msgstr "欢迎"
+
+#~ msgid "Credits"
+#~ msgstr "信用"
+
+#~ msgid "Incredibly fast server"
+#~ msgstr "反正就是很快的服务器"
+
+#~ msgid ""
+#~ "Use our server to handle the load and save 1000%+ on server resources!"
+#~ msgstr "使用我们的服务器来处理负载, 节省1000%以上的服务器资源!"
+
+#~ msgid "New Dashboard"
+#~ msgstr "新仪表盘"
+
+#~ msgid "Handle all your chats in one area, on any admin page."
+#~ msgstr "在任何管理页面上处理您的所有聊天内容."
+
+#~ msgid "Emojis!"
+#~ msgstr "表情符号!"
+
+#~ msgid "Add a touch of your own personality with emojis!"
+#~ msgstr "添加你自己的个性Emojis!"
+
+#~ msgid "Typing Preview"
+#~ msgstr "输入预览"
+
+#~ msgid "See what your customers are typing before they even send it!"
+#~ msgstr "在客户发送之前, 看看他们在输入什么!"
+
+#~ msgid "Multiple Agents Per Chat"
+#~ msgstr "每个聊天多个客服"
+
+#~ msgid "More than one agent can join and be involved in a chat."
+#~ msgstr "多个客服可以加入并参与会话."
+
+#~ msgid "Agent to Agent Chat"
+#~ msgstr "客服到客服会话"
+
+#~ msgid "Chat directly to other agents on our new dashboard."
+#~ msgstr "在我们新的仪表板上直接与其他客服聊天."
+
+#~ msgid "Edit Messages"
+#~ msgstr "编辑信息"
+
+#~ msgid ""
+#~ "Simply press the UP arrow or use the EDIT link to edit a message that you "
+#~ "have already sent."
+#~ msgstr "只需按向上箭头或使用编辑链接即可编辑已发送的邮件."
+
+#~ msgid "Event Monitoring"
+#~ msgstr "事件监控"
+
+#~ msgid "Know exactly what the user is doing in real time."
+#~ msgstr "确切地知道用户正在做什么."
+
+#~ msgid "iOS app"
+#~ msgstr "iOS App"
+
+#~ msgid "The new iOS app is finally here!"
+#~ msgstr "新的 iOS 应用程序终于来了!"
+
+#~ msgid "New to WP Live Chat Support?"
+#~ msgstr "WP实时聊天支持新用户?"
+
+#~ msgid "You may want to"
+#~ msgstr "您可能需要"
+
+#~ msgid "review our documentation"
+#~ msgstr "查看我们的文档"
+
+#~ msgid ""
+#~ "before you get started. If you're a tech-savvy individual, you may skip "
+#~ "this step."
+#~ msgstr "在你开始之前. 如果你是一个精通技术的人, 你可以跳过这一步."
+
+#~ msgid "Help me!"
+#~ msgstr "请帮助我!"
+
+#~ msgid "WP Live Chat Support Custom Fields"
+#~ msgstr "WP 实时聊天支持自定义字段"
+
+#~ msgid "WP Live Chat Support Departments"
+#~ msgstr "WP实时聊天支持部门"
+
+#~ msgid "WP Live Chat Support ROI Goals"
+#~ msgstr "WP实时聊天支持ROI目标"
+
+#~ msgid "Use our server to handle chats"
+#~ msgstr "使用我们的服务器来处会话"
+
+#~ msgid ""
+#~ "Disabling this will revert the chat dashboard back to the legacy version."
+#~ msgstr "禁用此操作将会将聊天仪表板恢复为旧版本."
+
+#~ msgid "Server end point override"
+#~ msgstr "服务器端点覆盖"
+
+#~ msgid ""
+#~ "Do not change this unless advised to do so by a WP Live Chat Support "
+#~ "representative"
+#~ msgstr "除非WP实时聊天支持代表建议, 否则不要更改此内容"
+
+#~ msgid "Leave empty unless advised by a WP Live Chat Support representative"
+#~ msgstr "除非WP实时聊天支持代表建议, 否则留空"
+
+#~ msgid "Limit chat ring amount"
+#~ msgstr "限制会话环数量"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support - Webhooks"
+#~ msgid "WP Live Chat Support - Tools"
+#~ msgstr "WP实时聊天支持 - 网页钩子"
+
+#~ msgid "Security Violation - MIME Type not allowed"
+#~ msgstr "安全冲突 - 不允许 MIME类型"
+
+#~ msgid "File could not be uploaded"
+#~ msgstr "无法上传文件"
+
+#~ msgid "Security Violation - Does not match allowed file types"
+#~ msgstr "安全冲突 - 不允许的文件类型"
+
+#, fuzzy
+#~| msgid "Enbled GDPR Compliance"
+#~ msgid "Enabled GDPR Compliance"
+#~ msgstr "启用 GDPR 合规性"
+
+#~ msgid "Company Name"
+#~ msgstr "公司名称"
+
+#, fuzzy
+#~| msgid "Dear Pro User,"
+#~ msgid "Dear User,"
+#~ msgstr "尊敬的专业用户,"
+
+#~ msgid ""
+#~ "Your API Key could not be validated, some functionality may be limited"
+#~ msgstr "无法验证您的 API 密钥, 某些功能可能会受到限制"
+
+#~ msgid "You are not a verified agent, chat dashboard has been disabled"
+#~ msgstr "您不是经过验证的客服, 聊天仪表板已被禁用"
+
+#~ msgid "Department Transfer"
+#~ msgstr "部门转移"
+
+#~ msgid "WP Live Chat Support - Webhooks"
+#~ msgstr "WP实时聊天支持 - 网页钩子"
+
+#~ msgid "API Keys"
+#~ msgstr "API密钥"
+
+#, fuzzy
+#~| msgid "WP Live Chat Support Pro"
+#~ msgid "WP Live Chat Support API Key"
+#~ msgstr "WP实时聊天支持专业版"
+
+#, fuzzy
+#~| msgid ""
+#~| "To find and manage your premium API keys, please visit your <a "
+#~| "target='_BLANK' href='https://wp-livechat.com/my-account/'>my account</"
+#~| "a> page."
+#~ msgid ""
+#~ "To find and manage your API key, please visit your <a target='_BLANK' "
+#~ "href='https://wp-livechat.com/my-account/'>my account</a> page."
+#~ msgstr ""
+#~ "要查找和管理您的高级API密钥, 请访问 <a target='_BLANK' href='https://wp-"
+#~ "livechat.com/my-account/'>我的帐户</a> 页面."
+
+#~ msgid "Visit our troubleshooting section."
+#~ msgstr "访问我们的疑难解答."
+
+#~ msgid ""
+#~ "Please note: This window must be open in order to receive new chat "
+#~ "notifications."
+#~ msgstr "注意: 聊天窗口务必是打开状态, 以便接收新的聊天通知."
+
+#~ msgid "WP Live Chat History"
+#~ msgstr "WP实时聊天历史记录"
+
+#~ msgid "WP Live Chat Missed Chats"
+#~ msgstr "WP实时聊天 - 错过聊天"
+
+#~ msgid "WP Live Chat Offline Messages"
+#~ msgstr "WP实时聊天离线消息"
+
+#~ msgid "Thank You for your feedback!"
+#~ msgstr "谢谢你的反馈！"
+
+#~ msgid ""
+#~ "WP Live Chat Support  has a diverse and wide range of features which may, "
+#~ "from time to time, run into conflicts with the thousands of themes and "
+#~ "other plugins on the market."
+#~ msgstr ""
+#~ "WP实时聊天支持具有多种多样的特性, 这些特性有时会与市场上数以千计的主题和其"
+#~ "他插件发生冲突."
+
+#~ msgid "Common issues:"
+#~ msgstr "常见问题:"
+
+#, fuzzy
+#~| msgid "Messages only show when I refresh the chat window"
+#~ msgid "Messages Only Show When I Refresh"
+#~ msgstr "仅当我刷新聊天窗口时, 才会显示消息"
+
+#~ msgid "Still need help? Use one of these links below."
+#~ msgstr "仍然需要帮助? 使用下面的链接之一."
+
+#~ msgid "API Key"
+#~ msgstr "API密钥"
+
+#~ msgid "Verify"
+#~ msgstr "验证"
+
+#~ msgid "Status: "
+#~ msgstr "状态: "
+
+#~ msgid "Valid"
+#~ msgstr "有效"
+
+#, fuzzy
+#~| msgid "Manage this extension"
+#~ msgid "Manage this API Key"
+#~ msgstr "管理此扩展"
+
+#~ msgid "Invalid"
+#~ msgstr "无效"
+
+#~ msgid "Linked Domains"
+#~ msgstr "链接的域名"
+
+#~ msgid "What type of environment are you on?"
+#~ msgstr "你在什么环境下工作?"
+
+#~ msgid "Custom CSS"
+#~ msgstr "自定义CSS"
+
+#~ msgid "Mobile and Desktop App"
+#~ msgstr "移动和桌面应用程序"
+
+#~ msgid "Add Quick Responses to your Live Chat with our Pro Add-on"
+#~ msgstr "使用我们的专业附加组件为您的实时聊天添加快速响应"
+
+#~ msgid "Devices"
+#~ msgstr "设备"
+
+#~ msgid "WP Live Chat Support - Devices"
+#~ msgstr "WP实时聊天支持 - 设备"
+
+#~ msgid "Device Name Not Found"
+#~ msgstr "找不到设备名称"
+
+#~ msgid "Linked to"
+#~ msgstr "已链接到"
+
+#~ msgid "Add Device"
+#~ msgstr "添加设备"
+
+#~ msgid "Simply scan the QR code below"
+#~ msgstr "只需扫描下面的二维码"
+
+#~ msgid "Or enter data manually"
+#~ msgstr "或手动输入数据"
+
+#~ msgid "For Agent"
+#~ msgstr "对于客服"
+
+#~ msgid "Agent ID"
+#~ msgstr "客服 ID"
+
+#~ msgid "Rest End Point"
+#~ msgstr "休息终点"
+
+#~ msgid "Need a link to the app?"
+#~ msgstr "需要指向该应用程序的链接？"
+
+#~ msgid "Go to PlayStore"
+#~ msgstr "转到 PlayStore"
+
+#~ msgid "Go to Apple Store"
+#~ msgstr "转到 Apple Store"
+
+#~ msgid "Device Limit Reached"
+#~ msgstr "达到的设备限制"
+
+#~ msgid "Your maximum device limit has been reached"
+#~ msgstr "已达到您的最大设备限制"
+
+#~ msgid "Increase your device limit to add additional devices"
+#~ msgstr "增加设备限制以添加其他设备"
+
+#~ msgid "Increase Limit"
+#~ msgstr "增加限制"
+
+#~ msgid "New Chat from"
+#~ msgstr "新的聊天从"
+
+#~ msgid "Tap here to accept"
+#~ msgstr "点击此处接受"
+
+#~ msgid "New Message"
+#~ msgstr "新消息"
+
+#~ msgid "Mobile and Desktop App Settings"
+#~ msgstr "移动端和桌面端设置"
+
+#~ msgid "Enable mobile and desktop app"
+#~ msgstr "启用移动和桌面应用"
+
+#~ msgid "App"
+#~ msgstr "App"
+
+#~ msgid "Incoming Chat"
+#~ msgstr "来电聊天"
+
+#~ msgid "You have an incoming chat."
+#~ msgstr "您有一条新的消息."
+
+#~ msgid "Chat Active"
+#~ msgstr "聊天"
+
+#~ msgid "This chat is active"
+#~ msgstr "此聊天正在进行中"
+
+#~ msgid "You must be a chat agent to initiate chats"
+#~ msgstr "您必须是聊天客服才能发起聊天"
+
+#~ msgid "Visitors on site"
+#~ msgstr "网站访问者"
+
+#~ msgid "No chat sessions available at the moment"
+#~ msgstr "目前没有可用的聊天会话"
+
+#~ msgid "You must be a chat agent to answer chats"
+#~ msgstr "你必须是客服支持人员才能答复聊天"
+
+#~ msgid "Open Chat Window"
+#~ msgstr "打开聊天窗口"
+
+#~ msgid "Chat has been answered by another agent"
+#~ msgstr "聊天已被其他客服回答"
+
+#~ msgid "Chat answered by another agent"
+#~ msgstr "另一个客服在与您对话"
+
+#~ msgid "Alert: Someone wants to chat with you on "
+#~ msgstr "提醒:有人想和你发起聊天 "
+
+#~ msgid "Someone wants to chat with you on your website"
+#~ msgstr "有人想在你的网站上和你聊天"
+
+#~ msgid "Contributor"
+#~ msgstr "贡献者"
+
+#~ msgid "Subscriber"
+#~ msgstr "订阅者"
+
+#~ msgid "Dear Pro User"
+#~ msgstr "尊敬的专业用户"
+
+#~ msgid ""
+#~ "Please enter a valid API key on the 'Live Chat' -> 'Settings' page. "
+#~ "Failing to do this will result in you no longer receiving updates for "
+#~ "this plugin."
+#~ msgstr ""
+#~ "请在’实时聊天’ -> ‘设置”页面上输入一个有效的API密钥. 不这样做将导致你不再"
+#~ "接收这个插件的更新."
+
+#~ msgid "You can obtain a copy of your API key "
+#~ msgstr "您可以获得您的API key 副本 "
+
+#~ msgid ""
+#~ "An account has been created for you while purchasing the plugin. If you "
+#~ "have lost your password, please reset it "
+#~ msgstr "在购买插件时, 已为您创建了一个账户. 如果您丢失了密码, 请重置 "
+
+#~ msgid ""
+#~ "If you feel you are getting this message in error, please try refreshing "
+#~ "the page."
+#~ msgstr "如果你觉得你收到的信息是错误的, 请尝试刷新页面."
+
+#~ msgid "Chat Experience Ratings"
+#~ msgstr "聊天体验评级"
+
+#~ msgid "Main Settings"
+#~ msgstr "主要设置"
+
+#~ msgid "Find out more."
+#~ msgstr "查看更多."
+
+#~ msgid "Cloud Server"
+#~ msgstr "云服务器"
+
+#~ msgid "Use our server to host your chat server."
+#~ msgstr "使用我们的服务器来托管您的聊天服务器."
+
+#~ msgid "This API key is "
+#~ msgstr "这个API密钥 "
+
+#~ msgid "valid"
+#~ msgstr "有效"
+
+#~ msgid "invalid"
+#~ msgstr "无效"
+
+#~ msgid ""
+#~ "A valid API key means that you will be able to get the latest version of "
+#~ "the plugin as and when it is released, as well as get access to support "
+#~ "should you require it."
+#~ msgstr ""
+#~ "一个有效的api密钥意味着您将能够在插件发布时获得它的最新版本, 以及在您需要"
+#~ "时获得对支持的访问."
+
+#~ msgid "Hide Chat"
+#~ msgstr "隐藏聊天框"
+
+#~ msgid "Hides chat for 24hrs when user clicks X"
+#~ msgstr "当用户单击X时隐藏聊天时间为24小时"
+
+#~ msgid "Show name and email"
+#~ msgstr "显示名称和电子邮件"
+
+#~ msgid "Show email"
+#~ msgstr "显示电子邮件"
+
+#~ msgid "Show name"
+#~ msgstr "显示名称"
+
+#~ msgid "Record a visitor's IP Address"
+#~ msgstr "记录访客的IP地址"
+
+#~ msgid "Disable this to enable anonymity for your visitors"
+#~ msgstr "禁用此选项以使您的访问者匿名"
+
+#~ msgid "Recommended Size 40px x 40px"
+#~ msgstr "推荐尺寸 40px * 40px"
+
+#~ msgid "Display name and avatar in chat"
+#~ msgstr "在聊天中显示姓名和头像"
+
+#~ msgid ""
+#~ "Display the agent and user name above each message in the chat window."
+#~ msgstr "在聊天窗口中的每条消息上方显示客服和用户名."
+
+#~ msgid "Theme 2"
+#~ msgstr "主题 2"
+
+#~ msgid "Theme 3"
+#~ msgstr "主题 3"
+
+#~ msgid "Theme 4"
+#~ msgstr "主题4"
+
+#~ msgid "Theme 5"
+#~ msgstr "主题5"
+
+#~ msgid "Theme 6"
+#~ msgstr "主题 6"
+
+#~ msgid "Custom. Enter Colour Values Below"
+#~ msgstr "自定义. 在下面输入颜色值"
+
+#~ msgid "Chat box fill color"
+#~ msgstr "聊天框填充颜色"
+
+#~ msgid "Chat box font color"
+#~ msgstr "聊天框字体颜色"
+
+#~ msgid "documentation"
+#~ msgstr "文档"
+
+#~ msgid ""
+#~ "You will only be able to edit the strings shown in the chat window of the "
+#~ "code now. <br/> This has been done to accommodate as many localization "
+#~ "plugins as possible. <br/> For more information on how to change these "
+#~ "strings, please consult the "
+#~ msgstr ""
+#~ "您现在只能编辑代码的聊天窗口中显示的字符串.<br/>这样做的目的是为了容纳尽可"
+#~ "能多的本地化插件.<br/> 有关如何更改这些字符串的更多信息，请参阅 "
+
+#~ msgid "User chat welcome"
+#~ msgstr "欢迎用户文本"
+
+#~ msgid "This text is shown above the user chat input field"
+#~ msgstr "此文本显示在用户聊天输入字段的上方"
+
+#~ msgid "Close Button Text"
+#~ msgstr "关闭按钮文本"
+
+#~ msgid ""
+#~ "You are using an outdated version of WP Live Chat Support Basic. Please "
+#~ "update your plugin to allow for animations to function"
+#~ msgstr ""
+#~ "您正在使用一个过时版本的WP实时聊天支持基础版本. 请更新您的插件, 以允许动画"
+#~ "发挥作用"
+
+#~ msgid ""
+#~ "are only available in the WP Live Chat Support Chat Experience Ratings "
+#~ "add-on"
+#~ msgstr "只提供在WP实时聊天支持聊天体验的评分附加"
+
+#~ msgid ""
+#~ "Please ensure you are using version WP Live Chat Support 7.0.0 or newer, "
+#~ "to allow for full functionality of custom fields."
+#~ msgstr ""
+#~ "请确保您使用的是版本WP实时聊天支持 7.0.0 或更新版本, 以允许自定义字段的全"
+#~ "部功能."
+
+#~ msgid ""
+#~ "Departments are not currently supported with the Cloud Server of WP Live "
+#~ "Chat Support."
+#~ msgstr "WP实时聊天支持的云服务器目前不支持部门."
+
+#~ msgid ""
+#~ "WP Live Chat Support Pro requires WP Live Chat Support Version 7.0.0 or "
+#~ "greater in order for departments to function as expected. Please update "
+#~ "WP Live Chat Support %s"
+#~ msgstr ""
+#~ "WP实时聊天支持专业版需要WP实时聊天支持版本 7.0.0 或更高版本, 以便各部门按"
+#~ "预期运行. 请更新WP实时聊天支持 %s"
+
+#~ msgid "WP Live Chat Support - Update Suggested"
+#~ msgstr "WP实时聊天支持 - 建议更新"
+
+#~ msgid ""
+#~ "We have detected that you are using a heavily out-dated version of WP "
+#~ "Live Chat Support"
+#~ msgstr "我们检测到您使用的是一个严重过时的WP实时聊天支持版本"
+
+#~ msgid "It is highly recommended that you update to version 8 or above. "
+#~ msgstr "强烈建议您更新到版本 8 或 更高版本. "
+
+#~ msgid ""
+#~ "WP Live Chat Support Pro <strong>requires WP Live Chat Support version "
+#~ "6+</strong> (basic version). Please <strong><a href=\"%1$s\">update the "
+#~ "plugin</a></strong> in order for the plugin to continue working correctly."
+#~ msgstr ""
+#~ "WP实时聊天支持专业 <strong>需要WP实时聊天支持版本 6 以上</strong> (基础"
+#~ "版). 请 <strong><a href=\"%1$s\">更新插件</a></strong>, 以便插件继续正常工"
+#~ "作."
+
+#~ msgid "All Quick Responses"
+#~ msgstr "所有快速响应"
+
+#~ msgid ""
+#~ "Please update your <a href='%s'>basic version</a> to make use of this "
+#~ "feature."
+#~ msgstr "请更新您的<a href='%s'>基础版</a>以使用此功能."
+
+#~ msgid ""
+#~ "Please update your <a href='%s'>basic version</a> to make use of these "
+#~ "features."
+#~ msgstr "请更新您的<a href='%s'>基础版</a>以使用这些功能."
+
+#~ msgid "Get Pro Add-on to accept more chats"
+#~ msgstr "获取专业版接受更多的聊天"
+
+#~ msgid "WP Live Chat Trigger (WP Live Chat Support)"
+#~ msgstr "WP实时聊天触发器 (WP实时聊天支持)"
+
+#~ msgid "Gutenberg Block Size"
+#~ msgstr "古腾堡块尺寸"
+
+#~ msgid "Display Icon"
+#~ msgstr "禁用图标"
+
+#~ msgid "Block Icon"
+#~ msgstr "块图标"
+
+#~ msgid "Block Preview"
+#~ msgstr "块预览"
+
+#~ msgid "WP Live Chat Box (WP Live Chat Support)"
+#~ msgstr "WP实时聊天框 (WP实时聊天支持)"
+
+#~ msgid "Start Live Chat"
+#~ msgstr "开始实时聊天"
+
+#~ msgid "Connecting you to a sales person. Please be patient."
+#~ msgstr "正在打开聊天窗口... 请耐心等待."
+
+#~ msgid "Include chat window on the following pages"
+#~ msgstr "在下面的页面中包含聊天窗口"
+
+#~ msgid "available in the"
+#~ msgstr "可以在"
+
+#~ msgid "Pro Add-on"
+#~ msgstr "专业版"
+
+#~ msgid "only"
+#~ msgstr "只有"
+
+#~ msgid "Exclude chat window on the following pages"
+#~ msgstr "不包括下列页面上的聊天窗口"
+
+#~ msgid "Display a typing animation as soon as someone starts typing."
+#~ msgstr "一旦有人开始打字, 就会显示一个打字动画."
+
+#~ msgid "Alert me via email as soon as someone wants to chat"
+#~ msgstr "如果有人需要聊天, 通过邮箱进行通知"
+
+#~ msgid ""
+#~ "Need help? <a href='https://wp-livechat.com/contact-us/' "
+#~ "target='_BLANK'>Contact us</a> and we'll get back to you as soon as "
+#~ "possible!"
+#~ msgstr ""
+#~ "需要帮助吗? <a href='https://wp-livechat.com/contact-us/' target='_BLANK'>"
+#~ "联系我们 </a> 我们会尽快给您回复!"
+
+#~ msgid "How did you find us?"
+#~ msgstr "你是怎么找到我们的?"
+
+#~ msgid "WordPress.org plugin repository "
+#~ msgstr "WordPress.org 插件库 "
+
+#~ msgid "Search Term"
+#~ msgstr "搜索关键词"
+
+#~ msgid "Google or other search Engine"
+#~ msgstr "谷歌或其他搜索引擎"
+
+#~ msgid "Friend recommendation"
+#~ msgstr "好友推荐"
+
+#~ msgid "Other"
+#~ msgstr "其他"
+
+#~ msgid "Please Explain"
+#~ msgstr "请解释"
+
+#~ msgid "Submit"
+#~ msgstr "提交"
+
+#~ msgid "Skip"
+#~ msgstr "跳过"
+
+#~ msgid "Visit our"
+#~ msgstr "访问我们的"
+
+#~ msgid "Support Desk"
+#~ msgstr "支持服务"
+
+#~ msgid ""
+#~ "for quick and friendly help. We'll answer your request within 24hours."
+#~ msgstr "快速和友好的帮助. 我们将在24小时内回复您的请求."
+
+#~ msgid "Feedback"
+#~ msgstr "反馈"
+
+#~ msgid "We need you to help us make this plugin better."
+#~ msgstr "我们需要你帮助我们更好地制作这个插件."
+
+#~ msgid "Send us your feedback"
+#~ msgstr "向我们发送您的反馈"
+
+#~ msgid "and we'll act on it as soon as humanly possible."
+#~ msgstr "我们会尽快采取行动."
+
+#~ msgid "Server location"
+#~ msgstr "服务器位置"
+
+#~ msgid "Select a server location that is near to you."
+#~ msgstr "选择一个靠近你的服务器位置."
+
+#~ msgid "Automatic (suggested)"
+#~ msgstr "自动 (建议)"
+
+#~ msgid "United States - %s"
+#~ msgstr "美国 - %s"
+
+#~ msgid "Europe - %s"
+#~ msgstr "欧洲 - %s"
+
+#~ msgid ""
+#~ "Upgrade to the <a href='%s' taget='_BLANK'>pro version</a> to "
+#~ "automatically suggest relevant documentation pages on your own site while "
+#~ "users are waiting for the agent to join the chat. As soon as the user "
+#~ "sends a message, the system will locate relevant documents on your "
+#~ "website and provide links to the user."
+#~ msgstr ""
+#~ "升级到 <a href='%s' taget='_BLANK'>专业版</a> 在用户等待代理加入聊天时自动"
+#~ "建议您自己的网站上的相关文档页面. 一旦用户发送消息, 系统将在您的网站上找到"
+#~ "相关文档, 并提供与用户的链接."
+
+#~ msgid "Next Check"
+#~ msgstr "下一个检查"
+
+#~ msgid ""
+#~ "When the next cron will run to check for data which is older than our "
+#~ "retention period."
+#~ msgstr "当下一个 Cron 将运行以检查早于我们的保留期的数据时."
+
+#~ msgid "Delete Chat Data"
+#~ msgstr "删除聊天数据"
+
+#~ msgid "Download Chat Data"
+#~ msgstr "下载聊天数据"
+
+#~ msgid ""
+#~ "Thank you for using WP Live Chat Support - Need assistance? Please get in "
+#~ "touch here: "
+#~ msgstr "感谢您使用WP实时聊天支持 - 需要帮助吗？请与我们联系: "
+
+#~ msgid "Contact us"
+#~ msgstr "联系我们"
+
+#~ msgid ""
+#~ "There was a problem emailing the chat. Please <a target='_BLANK' "
+#~ "href='%s'>contact support</a>."
+#~ msgstr ""
+#~ "通过电子邮件向聊天室发送问题. 请 <a target='_BLANK' href='%s'>联系支持</"
+#~ "a>."
+
+#~ msgid " with the Pro add-on of WP Live Chat Support"
+#~ msgstr " 使用WP实时聊天支持的专业版附加组件"
+
+#~ msgid "(once off payment)."
+#~ msgstr "(一次性付款)."
+
+#~ msgid "With the Pro add-on of WP Live Chat Support, you can"
+#~ msgstr "使用WP实时聊天支持的专业版附加组件, 您可以"
+
+#~ msgid "see who's online and initiate chats"
+#~ msgstr "查看谁在网上并开始聊天"
+
+#~ msgid "initiate chats"
+#~ msgstr "发起聊天"
+
+#~ msgid "with your online visitors with the click of a button."
+#~ msgstr "只需点击一下按钮即可与您的访客联系."
+
+#~ msgid "Buy the Pro add-on now (once off payment)."
+#~ msgstr "现在购买专业版附加组件(一次性付款)"
+
+#~ msgid ""
+#~ "Chat to other agents with the <a href=\"%s\" target=\"_BLANK\">Pro "
+#~ "version</a>."
+#~ msgstr "使用<a href=\"%s\" target=\"_BLANK\">专业版</a>与其他客服聊天."
+
+#~ msgid "Buy the Pro add-on now."
+#~ msgstr "现在购买专业版附加组件."
+
+#~ msgid ""
+#~ "Get detailed visitor events with the <a target=\"_BLANK\" href=\"%s\">Pro "
+#~ "version</a>."
+#~ msgstr "使用<a target=\"_BLANK\" href=\"%s\">专业版</a>获取详细的访客事件."
+
+#~ msgid "WP Live Chat Support - Offline Mode"
+#~ msgstr "WP实时聊天支持 - 离线模式"
+
+#~ msgid ""
+#~ "Chat is now in offline mode, please <a href='%s' target='_BLANK'>upgrade "
+#~ "to Version 8</a> (or above) of the WP Live Chat Support Pro Add-on to "
+#~ "ensure all functionality works as expected."
+#~ msgstr ""
+#~ "会话现在处于离线模式, <a href='%s' target='_BLANK'>升级到版本 8</a>(或以"
+#~ "上)的WP实时聊天支持专业插件, 以确保所有功能按预期工作."
+
+#~ msgid ""
+#~ "Chat is now in offline mode, please renew your API key by visiting the <a "
+#~ "href='%s' target='_BLANK'>My Account</a> area, and receive updates."
+#~ msgstr ""
+#~ "聊天现在处于脱机模式, 请访问<a href='%s' target='_BLANK'> 我的帐户 </a> 区"
+#~ "域, 然后更新您的 API 密钥."
+
+#~ msgid ""
+#~ "Alternatively, please disable the node server option in the Live Chat "
+#~ "settings area (Live Chat -> Settings -> Advanced Features)"
+#~ msgstr ""
+#~ "或者请禁用 \"实时聊天设置\" 区域中的节点服务器选项 (实时聊天-> 设置-> 高级"
+#~ "功能)"
+
+#~ msgid "Upgrade"
+#~ msgstr "升级"
+
+#~ msgid "Renew License"
+#~ msgstr "更新授权"
+
+#~ msgid "Whats new in Version 8"
+#~ msgstr "版本 8 中的新增功能"
+
+#~ msgid "Chat has been ended."
+#~ msgstr "聊天会话已结束."
+
+#~ msgid "Device Linked"
+#~ msgstr "设备已链接"
+
+#~ msgid "Device Unlinked (Revoked)"
+#~ msgstr "未链接的设备 (已吊销)"
+
+#~ msgid "Push Devices"
+#~ msgstr "推送设备"
+
+#~ msgid ""
+#~ "This field can be left empty if you intend on using only push "
+#~ "notifications for online agents"
+#~ msgstr "如果您打算仅使用在线客服的推送通知, 则可以将该字段留空"
+
+#~ msgid "Push to Online Agent Devices"
+#~ msgstr "推送到在线客服设备"
+
+#~ msgid "Event Triggered"
+#~ msgstr "事件触发"
+
+#~ msgid "Extensions"
+#~ msgstr "扩展"
+
+#~ msgid "Premium Extension API Keys"
+#~ msgstr "高级扩展API Keys"
+
+#~ msgid ""
+#~ "You are using an outdated version of <strong>WP Live Chat Support Pro</"
+#~ "strong>. Please"
+#~ msgstr "您正在使用<strong>WP实时聊天支持专业版</strong>的过期版本. 请"
+
+#~ msgid "update to at least version"
+#~ msgstr "更新到最新版本"
+
+#~ msgid "to ensure all functionality is in working order"
+#~ msgstr "确保所有功能正常工作"
+
+#~ msgid ""
+#~ "You're live chat box on your website has been temporarily disabled until "
+#~ "the Pro plugin has been updated. This is to ensure a smooth and hassle-"
+#~ "free user experience for both yourself and your visitors."
+#~ msgstr ""
+#~ "您的网站上的实时聊天框已经暂时被禁用, 直到专业版插件更新. 这是为了确保您和"
+#~ "您的访问者都能享受到流畅和轻松的用户体验."
+
+#~ msgid ""
+#~ "You can update your plugin <a href='./update-core.php'>here</a>, <a "
+#~ "href='./plugins.php'>here</a> or <a href='https://wp-livechat.com/get-"
+#~ "updated-version/' target='_BLANK'>here</a>."
+#~ msgstr ""
+#~ "您可以在<a href='./update-core.php'>这里</a>更新您的插件, 也可以在<a "
+#~ "href='./plugins.php'>这里</a> 或 <a href='https://wp-livechat.com/get-"
+#~ "updated-version/' target='_BLANK'>这里</a>更新."
+
+#~ msgid "If you are having difficulty updating the plugin, please contact"
+#~ msgstr "如果您在更新插件时遇到困难, 请联系"
+
+#~ msgid ""
+#~ "You are using an outdated version of <strong>WP Live Chat Support Pro</"
+#~ "strong>."
+#~ msgstr "您正在使用<strong>WP实时聊天支持专业版</strong>的过期版本."
+
+#~ msgid "Please update to the latest version of WP Live Chat Support Pro"
+#~ msgstr "请更新到WP实时聊天支持专业版的最新版本"
+
+#~ msgid "Version 5.0.1"
+#~ msgstr "版本 5.0.1"
+
+#~ msgid "to ensure everything is working correctly."
+#~ msgstr "确保一切正常运行."
+
+#~ msgid "Need help? <a href=\"%s\" target=\"_BLANK\">contact us</a>."
+#~ msgstr "需要帮助吗? <a href=\"%s\" target=\"_BLANK\"> 联系我们 </a> ."
+
+#~ msgid "Add-ons"
+#~ msgstr "附加组件"
+
+#~ msgid "Get more add-ons"
+#~ msgstr "获取更多的附加組件"
+
+#~ msgid "Add Quick Responses to your Live Chat"
+#~ msgstr "在您的实时聊天中添加快速响应"
+
+#~ msgid "Pro version only"
+#~ msgstr "仅专业版"
+
+#~ msgid ""
+#~ "Please update to the latest version of WP Live Chat Support Pro to start "
+#~ "recording any offline messages."
+#~ msgstr "请更新到WP实时聊天支持专业版的最新版本, 开始记录任何离线消息."
+
+#~ msgid "This option is only available in the "
+#~ msgstr "此选项仅在 "
+
+#~ msgid "Suggested Plugins"
+#~ msgstr "建议插件"
+
+#~ msgid "Sola Support Tickets"
+#~ msgstr "支持"
+
+#~ msgid ""
+#~ "The easiest to use Help Desk & Support Ticket plugin. Create a support "
+#~ "help desk quickly and easily with Sola Support Tickets."
+#~ msgstr ""
+#~ "最简单易用的Help Desk＆Support Ticket插件,  使用Sola支持服务单快速轻松地创"
+#~ "建支持服务台."
+
+#~ msgid "Get this Plugin"
+#~ msgstr "获取此插件"
+
+#~ msgid "Nifty Newsletters"
+#~ msgstr "漂亮的通讯"
+
+#~ msgid ""
+#~ "Create and send newsletters, automatic post notifications and "
+#~ "autoresponders that are modern and beautiful with Nifty Newsletters."
+#~ msgstr "创建和发送通讯, 自动邮寄通知和自动响应是现代和美丽的漂亮的通讯."
+
+#~ msgid "Price:"
+#~ msgstr "价格:"
+
+#~ msgid "Free"
+#~ msgstr "免费"
+
+#~ msgid "Paid"
+#~ msgstr "已支付"
+
+#~ msgid "For:"
+#~ msgstr "对于："
+
+#~ msgid "Both"
+#~ msgstr "两者"
+
+#~ msgid "Free version"
+#~ msgstr "免费版本"
+
+#~ msgid "Pro version"
+#~ msgstr "专业版"
+
+#~ msgid "Already installed"
+#~ msgstr "已安装"
+
+#~ msgid ""
+#~ "Getting started? Read through some of these articles to help you along "
+#~ "your way."
+#~ msgstr "入门? 阅读这些文章, 以帮助你一路顺风."
+
+#~ msgid "Documentation:"
+#~ msgstr "文档:"
+
+#~ msgid "Minimum System Requirements"
+#~ msgstr "最低系统要求"
+
+#~ msgid "Do I have to be logged into the dashboard to chat with visitors?"
+#~ msgstr "我必须要登录到仪表板上才能和访客聊天吗?"
+
+#~ msgid "What are Quick Responses?"
+#~ msgstr "什么是快速响应?"
+
+#~ msgid "Can I use this plugin on my multi-site?"
+#~ msgstr "我可以在我的多站点上使用这个插件吗?"
+
+#~ msgid "How do I disable APC Object Cache?"
+#~ msgstr "如何禁用APC对象缓存?"
+
+#~ msgid "Do you have a mobile app?"
+#~ msgstr "你有手机App吗?"
+
+#~ msgid "The chat box doesnt show up"
+#~ msgstr "聊天框不显示"
+
+#~ msgid "The chat window disappears when I logout or go offline"
+#~ msgstr "当我注销或离线时, 聊天窗口就消失了"
+
+#~ msgid "This chat has already been answered. Please close the chat window"
+#~ msgstr "这次谈话已经有人回答了. 请关闭聊天窗口"
+
+#~ msgid "Support desk"
+#~ msgstr "支持"
+
+#~ msgid "accept and handle multiple chats."
+#~ msgstr "接受并处理多个聊天."
+
+#~ msgid "WP Live Chat Support is a product of"
+#~ msgstr "WP实时聊天支持是一个产品"
+
+#~ msgid "Add as many agents as you need with the "
+#~ msgstr "你需要多少客服就添加多少 "
+
+#~ msgid "Pro version."
+#~ msgstr "专业版."
+
+#~ msgid "Change the default chat agent from <strong>%1$s</strong> to "
+#~ msgstr "从中更改默认聊天客服 <strong>%1$s</strong> 到 "
+
+#~ msgid ""
+#~ "Get unlimited agents, initiate chats, advanced chat box control, "
+#~ "encryption and more with the Pro add-on."
+#~ msgstr ""
+#~ "获得无限的客服, 启动聊天, 高级的聊天室控制, 加密和更多的专业附加组件."
+
+#~ msgid "Get this extension"
+#~ msgstr "获取此扩展程序"
+
+#~ msgid "Mobile & Desktop App"
+#~ msgstr "移动和桌面应用程序"
+
+#~ msgid ""
+#~ "Answer chats directly from your mobile phone or desktop with our mobile "
+#~ "app and desktop client"
+#~ msgstr "使用我们的移动应用程序或桌面客户端聊天"
+
+#~ msgid "Relevant Extensions"
+#~ msgstr "相关的扩展"
+
+#~ msgid "Powered By WP Live Chat Support"
+#~ msgstr "由WP实时聊天支持提供支持"
+
+#~ msgid "View comprehensive reports regarding your chat and agent activity."
+#~ msgstr "查看有关您的聊天和客服活动的全面报告."
+
+#~ msgid "Chat statistics"
+#~ msgstr "聊天统计"
+
+#~ msgid "Popular pages"
+#~ msgstr "热门页面"
+
+#~ msgid ""
+#~ "ROI reporting and tracking (identify which agents produce the most sales)"
+#~ msgstr "ROI报告和跟踪（确定哪些客服的销售量最大）"
+
+#~ msgid ""
+#~ "User experience ratings (identify which agents produce the happiest "
+#~ "customers)"
+#~ msgstr "用户体验评分（确定哪些客服能产生最快乐的客户）"
+
+#~ msgid "Get all this and more in the "
+#~ msgstr "得到这一切和更多的在 "
+
+#~ msgid "Pro add-on"
+#~ msgstr "专业版附加组件"
+
+#~ msgid "Upgrade Now"
+#~ msgstr "现在升级"
+
+#~ msgid ""
+#~ "Create custom data triggers when users view a certain page, spend a "
+#~ "certain amount of time on a page, scroll past a certain point or when "
+#~ "their mouse leaves the window."
+#~ msgstr ""
+#~ "当用户查看某个页面, 在某个页面上花费一定的时间, 滚动到某个点或当他们的鼠标"
+#~ "离开窗口时, 创建自定义数据触发器."
+
+#~ msgid "Trigger Types"
+#~ msgstr "触发器类型"
+
+#~ msgid ""
+#~ "Create custom fields, allowing your visitors to enter the data you need "
+#~ "before starting a chat."
+#~ msgstr "创建自定义字段, 允许访问者在开始会话之前输入所需的数据."
+
+#~ msgid "Custom Field Types"
+#~ msgstr "自定义字段类型"
+
+#~ msgid "Text Fields"
+#~ msgstr "文本字段"
+
+#~ msgid "Dropdown Fields"
+#~ msgstr "下拉列表字段"
+
+#~ msgid ""
+#~ "WP Live Chat Support requires WP Live Chat Support Pro Version 7.0.0 or "
+#~ "greater in order for departments to function as expected. Please update "
+#~ "WP Live Chat Support %s"
+#~ msgstr ""
+#~ "WP实时聊天支持需要WP实时聊天支持专业版 7.0.0 或更高版本才能使部门按预期运"
+#~ "行. 请更新WP实时聊天支持 %s"
+
+#~ msgid "Please update your Pro version to create a department"
+#~ msgstr "请更新您的专业版以创建部门"
+
+#~ msgid "Deprecation Notice"
+#~ msgstr "弃用通知"
+
+#~ msgid ""
+#~ "Please note, missed chat functionality is being deprecated as we will be "
+#~ "moving to a customer oriented system in the near future. "
+#~ msgstr ""
+#~ "请注意, 错过的会话功能正在被弃用, 因为我们将在不久的将来转向面向客户的系"
+#~ "统. "
+
+#~ msgid ""
+#~ "The new system will offer more insight into your user base while "
+#~ "enhancing your experience when retrieving statistics and information. "
+#~ msgstr "新系统将提供更多洞察您的用户群, 同时提高您的经验检索统计和信息. "
+
+#~ msgid ""
+#~ "This area will remain active for the time being, however it is "
+#~ "recommended that you prepare for this change in the near future. "
+#~ msgstr "该区域暂时保持活动状态, 但建议您在不久的将来为此做好准备. "
+
+#~ msgid "WP Live Chat Support Feedback"
+#~ msgstr "WP实时聊天支持反馈"
+
+#~ msgid "Your Name"
+#~ msgstr "您的名字"
+
+#~ msgid "Option"
+#~ msgstr "选项"
+
+#~ msgid "Connecting. Please be patient."
+#~ msgstr "正在连接. 请耐心等待..."
+
+#~ msgid "Chat sessions"
+#~ msgstr "聊天会话"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "Chat Delay (seconds)"
+#~ msgstr "聊天延迟 (秒)"
+
+#~ msgid "(while online only)"
+#~ msgstr "(限同时在线)"
+
+#~ msgid "Email address where offline messages are delivered to"
+#~ msgstr "离线消息将会传送到电子邮件地址"

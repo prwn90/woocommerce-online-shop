@@ -1,0 +1,8 @@
+<wpml-config>
+    <taxonomies>
+        <taxonomy translate="1">yith_product_brand</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="yith_wcbr_brands_label" />
+    </admin-texts>
+</wpml-config>

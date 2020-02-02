@@ -1,0 +1,96 @@
+.wplc_row {
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+
+.wplc_row_col {
+  width: 90%;
+  float: left;
+  display: block;
+  overflow: auto;
+  margin: 0.25%;
+  padding: 0.2%;
+  min-height: 420px;
+}
+
+.wplc_row_col h2 {
+  font-weight: 900;
+}
+
+.wplc_row_col ul li {
+  margin: 0.3em 2.5em;
+}
+
+.wplc_row_col ul {
+  list-style-type: disc;
+}
+
+@media only screen and (min-width:480px) {
+  .wplc_row_col {
+    width: 28%;
+    float: left;
+    display: block;
+    overflow: auto;
+    margin: 1%;
+    padding: 1%;
+    min-height: 420px;
+  }
+}
+
+.wplc_row_col {
+  border-radius: 5px;
+  box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+  -webkit-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+  -moz-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+  -o-box-shadow: 0 0 40px 1px rgba(0, 0, 0, .07);
+}
+
+@media (min-width:600px) {
+  .wplc_row_support {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .wplc_row_col_support {
+    margin-right: 25px;
+  }
+}
+
+.wplc_row_col_support {
+  margin-bottom: 25px;
+}
+
+.wplc_row_col_support_inner {
+  padding: 15px;
+}
+
+.wplc_row_col_support ul {
+  list-style: none;
+}
+
+.wplc_row_col_support ul li {
+  list-style: none;
+}
+
+.wplc_panel_heading {
+  background-color: #333;
+  color: #FFF;
+  font-size: 16px;
+  padding: 7px;
+  font-weight: bold;
+}
+
+.wplc_row_col_support ul li::before {
+  content: "•";
+  color: #0596d4;
+  display: inline-block;
+  width: 15px;
+  font-size: 25px;
+  top: 3px;
+  position: relative;
+  margin-left: 0px;
+}
+
+.wplc_wrap h2 {
+  margin-bottom: 12px!important;
+}

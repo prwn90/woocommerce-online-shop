@@ -1,0 +1,57 @@
+.field-error, .change-mode .notice {
+	max-width: 370px;
+	padding: 15px;
+}
+
+.change-mode {
+	display: inline;
+}
+
+.change-mode.hidden {
+	display: none;
+}
+
+.woocommerce textarea[disabled=disabled]#woocommerce_cod_no_selections_made {
+    background: rgb(255, 237, 237) !important;
+	border-color: #cc8989 !important;
+	color: #8e2525;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.wc-smart-cod-field.forminp-radio li {
+	display: inline-block;
+}
+
+.wc-smart-cod-field.forminp-radio li:first-child {
+	margin-right: 10px;
+}
+
+a.wc-smart-cod-mode {
+	text-transform: capitalize;
+	border-bottom: 1px dashed #0073aa;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+a.wc-smart-cod-mode, a.wc-smart-cod-mode:hover, a.wc-smart-cod-mode:focus {
+	color: #0073aa;
+}
+
+.woocommerce table.form-table select.wc-smart-cod-percantage-switcher {
+	height: 33px;
+	line-height: normal;
+	vertical-align: middle;
+	padding: 0 10px;
+	width: auto;
+}
+
+.woocommerce table.form-table select {
+	height: auto;
+}
+
+.wc-smart-cod-percentage {
+	vertical-align: middle;
+}

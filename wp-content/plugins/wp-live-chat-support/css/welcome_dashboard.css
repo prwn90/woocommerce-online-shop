@@ -1,0 +1,158 @@
+.metrics-panel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.metrics-panel .metrics-inner {
+  line-height: 1.7em;
+}
+
+.metrics-panel .metrics-inner .information-data-set {
+  padding-left: 15px;
+}
+
+.news-panel,
+.status-page-panel {
+  padding: 20px;
+}
+
+.news-panel .podcast-container {
+  margin-bottom: 20px;
+}
+
+.panel-inner-title {
+  margin-bottom: 10px;
+}
+
+.news-panel .blog-container .post {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #eee;
+}
+
+.news-panel .blog-container .post .title {
+  font-weight: 800;
+}
+
+.news-panel .blog-container .post .excerpt {
+  font-size: 0.9em;
+  padding-top: 5px;
+}
+
+.status-page-panel .modules,
+.status-page-panel .incidents {
+  margin-bottom: 21px;
+  line-height: 1.7em;
+}
+
+.status-page-panel .modules .module .value,
+.status-page-panel .incidents .incident .value {
+  text-transform: capitalize;
+}
+
+.status-page-panel .incidents .incident .info {
+  font-size: 0.9em;
+  padding-top: 5px;
+}
+
+.status-page-panel .incidents .incident {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #eee;
+}
+
+.chart_holder {
+  max-width: 400px;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.chart_holder_seats {
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.input-group {
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border: 1px solid #e8eaed;
+  border-radius: 2px;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group__input {
+  border: 0;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-size: 16px;
+  line-height: inherit;
+  padding: 5px 45px 5px 15px;
+  text-transform: lowercase;
+}
+
+.input-group__suffix {
+  border-left: 1px solid #e8eaed;
+  color: #757575;
+  margin-left: 5px;
+  padding: 5px 25px;
+}
+
+.input-group__loader svg path,
+.input-group__loader_email svg path {
+  fill: #1a73e8;
+}
+
+.input-group__loader,
+.input-group__success,
+.input-group__fail {
+  height: 28px;
+  opacity: 0;
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  transition: opacity .3s linear;
+  width: 28px;
+  transform: scale(0.8);
+  margin-right: 130px;
+}
+
+.input-group__success {
+  top: -6px;
+  margin-right: 135px;
+}
+
+.input-group__fail {
+  top: 7px;
+  transform: scale(0.5);
+  margin-right: 127px;
+}
+
+.fail svg line,
+.fail_email svg line {
+  stroke: #a00000;
+}
+
+.checkmark,
+.checkmark_email {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: green;
+  stroke-miterlimit: 10;
+  stroke-dashoffset: 0;
+  margin: 10% auto;
+}

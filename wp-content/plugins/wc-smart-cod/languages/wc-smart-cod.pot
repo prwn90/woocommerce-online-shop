@@ -1,0 +1,328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Smart COD\n"
+"POT-Creation-Date: 2018-02-23 18:30+0200\n"
+"PO-Revision-Date: 2018-02-23 18:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-wc-smart-cod-admin.php:430
+msgid "Rest of the World"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:436
+msgid "Disable on specific shipping zones"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:439
+msgid "Select the shipping zones you want to restrict the COD method"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:443
+msgid "Select shipping zones"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:451
+msgid "Disable on specific countries"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:454
+msgid "Select the countries you want to restrict the COD method"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:458
+msgid "Select Countries"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:464
+msgid "Disable on specific states"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:467
+msgid "Select the states you want to restrict the COD method"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:471
+msgid "Select States"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:477
+msgid "Disable on specific postal codes"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:480
+msgid ""
+"Add the postal codes you want to restrict the COD method. Seperate with a "
+"comma. You can use fully numeric ranges as well (e."
+"g<code>55133,55134,55400...55600</code>). For ranges use <code>...</code> "
+"for delimiter."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:487
+msgid "Disable on specific cities"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:490
+msgid ""
+"Add the cities you want to restrict the COD method. Seperate with a comma. "
+"This cannot guarantee the cod restriction at all times, because the city "
+"field on checkout is a free text field and the user can make typos or use "
+"different characters / spelling for his city."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:497
+msgid "Disable if cart amount is greater than"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:500
+msgid ""
+"Add a price limit to restrict the COD method, if the customer's cart amount "
+"is greater or lower than this limit."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:501
+#: ../admin/class-wc-smart-cod-admin.php:628
+#: ../admin/class-wc-smart-cod-admin.php:665
+#: ../admin/class-wc-smart-cod-admin.php:680
+#: ../admin/class-wc-smart-cod-admin.php:704
+#: ../admin/class-wc-smart-cod-admin.php:742
+#: ../admin/class-wc-smart-cod-admin.php:781
+msgid "Enter Amount"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:508
+msgid "Disable on specific user roles"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:511
+msgid "Select the user roles you want to restrict the COD method"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:515
+msgid "Select Roles"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:521
+msgid "Product Category Restriction Mode"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:526
+#: ../admin/class-wc-smart-cod-admin.php:554
+#: ../admin/class-wc-smart-cod-admin.php:582
+msgid "At least one product"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:527
+#: ../admin/class-wc-smart-cod-admin.php:555
+#: ../admin/class-wc-smart-cod-admin.php:583
+msgid "All products"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:530
+msgid ""
+"Select \"at least one\", if you want the COD to be restricted when at least "
+"one product of the cart belongs to a restricted category. Select \"all\", if "
+"you want the COD to be restricted if all the cart product's belongs to "
+"restricted categories. Then add the restricted categories in the select "
+"field below."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:534
+msgid "Disable on specific product categories"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:537
+msgid "Select the product categories you want to restrict the COD method"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:541
+msgid "Select categories"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:549
+msgid "Product Restriction Mode"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:558
+msgid ""
+"Select \"at least one\", if you want the COD to be restricted when at least "
+"one product of the cart is restricted. Select \"all\", if you want the COD "
+"to be restricted if all of the cart's product's are restricted. Then add the "
+"restricted products in the select field below."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:562
+msgid "Disable on specific products"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:565
+msgid "Select the products you want to restrict the COD method"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:569
+msgid "Select products"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:577
+msgid "Shipping Class Restriction Mode"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:586
+msgid ""
+"Select \"at least one\", if you want the COD to be restricted when at least "
+"one product of the cart belongs to a restricted shipping class. Select \"all"
+"\", if you want the COD to be restricted if all of the cart's product's "
+"belongs to restricted shipping classes. Then add the restricted shipping "
+"classes in the select field below."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:590
+msgid "Disable on specific shipping classes"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:593
+msgid "Select the shipping classes you want to restrict the COD method"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:597
+msgid "Select Shipping Classes"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:603
+msgid "Disable on specific shipping methods of zones"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:606
+msgid ""
+"Select the shipping methods of specific zones, you want to restrict the COD "
+"method"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:610
+msgid "Select Shipping Methods"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:616
+msgid "COD Unavailable Message"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:619
+msgid ""
+"An informational text to display before the payment methods, when the COD "
+"method is not available for a customer. Leave it empty if you don't want to "
+"use this feature. You can define different messages per reason."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:623
+msgid "Extra Fee"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:626
+msgid ""
+"The extra amount you charging for cash on delivery (leave blank or zero if "
+"you don't charge extra)"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:632
+msgid "Percentage Rounding Settings"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:637
+msgid "Round Up"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:638
+msgid "Round Down"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:641
+msgid ""
+"Examples: Round up setting will transform 5.345&euro; to 6&euro;<br />Round "
+"down will transform it to 5&euro;."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:646
+msgid "Extra Fee Tax"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:651
+msgid "Enable"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:652
+msgid "Disable"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:655
+msgid ""
+"Is extra fee taxable? Use this option if you have taxes enabled in your shop "
+"and you want to include tax to COD method."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:660
+msgid "Disable extra fee if cart amount is greater than this limit."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:663
+msgid "Leave blank or zero if you want to charge for any amount"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:675
+msgid "Charge extra fee differently for shipping method: "
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:677
+msgid ""
+"Enter Amount to charge differently in this shipping method or leave it empty "
+"to charge the normal amount"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:699
+msgid "Charge extra fee differently for country: "
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:701
+msgid ""
+"Enter Amount to charge differently in this country or leave it empty to "
+"charge the normal amount. Use this field only if you want to have separate "
+"prices per country in the same shipping zone, otherwise enter the amount on "
+"the shipping zone field"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:737
+#: ../admin/class-wc-smart-cod-admin.php:776
+msgid "Charge extra fee differently for shipping zone: "
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:739
+msgid ""
+"Enter Amount to charge differently in this shipping zone or leave it empty "
+"to charge the normal amount"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:776
+msgid "and shipping method: "
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:778
+msgid ""
+"Enter Amount to charge differently in this shipping zone with this shipping "
+"method or leave it empty to charge the normal amount"
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:1050
+msgid "This field should be a number only."
+msgstr ""
+
+#: ../admin/class-wc-smart-cod-admin.php:1051
+msgid "Please save the changes to see the new settings"
+msgstr ""

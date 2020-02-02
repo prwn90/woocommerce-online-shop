@@ -1,0 +1,1308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Brands Add-On\n"
+"POT-Creation-Date: 2019-08-09 15:14+0200\n"
+"PO-Revision-Date: 2019-08-09 15:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-wcbr-admin.php:72
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../includes/class.yith-wcbr-admin.php:73
+msgid "Premium Version"
+msgstr "Premium Versie"
+
+#: ../includes/class.yith-wcbr-admin.php:117
+msgid "Choose an image"
+msgstr "Kies een afbeelding"
+
+#: ../includes/class.yith-wcbr-admin.php:118
+msgid "Use image"
+msgstr "Gebruik afbeelding"
+
+#: ../includes/class.yith-wcbr-admin.php:207
+msgid "Image"
+msgstr "Afbeelding"
+
+#: ../includes/class.yith-wcbr-admin.php:235
+#: ../templates/admin/add-brand-taxonomy-form.php:17
+#: ../templates/admin/edit-brand-taxonomy-form.php:16
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: ../includes/class.yith-wcbr-admin.php:249
+msgid ""
+"Product brands for your store can be managed here. To display more brands "
+"here, click on \"screen options\" link on top of the page."
+msgstr ""
+"Productmerken voor uw winkel kunnen hier worden beheerd. Om hier meer merken "
+"weer te geven, klik op de \"screen options\" link bovenaan de pagina."
+
+#: ../includes/class.yith-wcbr-admin.php:264
+#: ../includes/class.yith-wcbr-admin.php:265
+#: ../includes/class.yith-wcbr-shortcode.php:60
+#: ../includes/class.yith-wcbr.php:125 ../includes/class.yith-wcbr.php:141
+msgid "Brands"
+msgstr "Merken"
+
+#: ../includes/class.yith-wcbr-shortcode.php:57
+msgid "YITH Product Brand"
+msgstr "YITH Product Merk"
+
+#: ../includes/class.yith-wcbr-shortcode.php:59
+msgid "Adds brand name and logo for a specific product, wherever you want"
+msgstr "Voegtmerknaam en logo toe voor een specifiek produkt, wanneer u wilt"
+
+#: ../includes/class.yith-wcbr-shortcode.php:65
+#: ../includes/class.yith-wcbr-shortcode.php:128
+msgid "Title"
+msgstr "Titel"
+
+#: ../includes/class.yith-wcbr-shortcode.php:68
+msgid "Text to enter as shortcode title"
+msgstr "Tekst als shortcode titel"
+
+#: ../includes/class.yith-wcbr-shortcode.php:73
+msgid "Product_id"
+msgstr "Product_id"
+
+#: ../includes/class.yith-wcbr-shortcode.php:76
+msgid ""
+"Enter product ID that will be used to retrieve brands; leave empty to use "
+"global product (if defined)"
+msgstr ""
+"Vul het product ID in die gebruikt wordt om merken op te halen; laat leeg om "
+"algemeen product te gebruiken (indien gedefinieerd)"
+
+#: ../includes/class.yith-wcbr-shortcode.php:81
+#: ../includes/class.yith-wcbr-shortcode.php:138
+#, fuzzy
+#| msgid "Show count"
+msgid "Show logo"
+msgstr "Toon telling"
+
+#: ../includes/class.yith-wcbr-shortcode.php:84
+#, fuzzy
+#| msgid "Show count"
+msgid "Show Logo"
+msgstr "Toon telling"
+
+#: ../includes/class.yith-wcbr-shortcode.php:85
+#, fuzzy
+#| msgid "Do not show name"
+msgid "Do not show Logo"
+msgstr "Toon geen naam"
+
+#: ../includes/class.yith-wcbr-shortcode.php:87
+msgid ""
+"Whether to show logo or not. Please, note that if you don't mark at least "
+"one between Show Logo or Show Title, default option value will take effect"
+msgstr ""
+
+#: ../includes/class.yith-wcbr-shortcode.php:92
+#: ../includes/class.yith-wcbr-shortcode.php:147
+#, fuzzy
+#| msgid "Show filters"
+msgid "Show Title"
+msgstr "Toon filters"
+
+#: ../includes/class.yith-wcbr-shortcode.php:95
+#, fuzzy
+#| msgid "Show filters"
+msgid "Show title"
+msgstr "Toon filters"
+
+#: ../includes/class.yith-wcbr-shortcode.php:96
+#, fuzzy
+#| msgid "Do not show filters"
+msgid "Do not show title"
+msgstr "Toon geen filters"
+
+#: ../includes/class.yith-wcbr-shortcode.php:98
+msgid ""
+"Whether to show title or not. Please, note that if you don't mark at least "
+"one between Show Logo or Show Title, default option value will take effect"
+msgstr ""
+
+#: ../includes/class.yith-wcbr-shortcode.php:122
+#, fuzzy
+#| msgid "YITH Product Brand"
+msgctxt "[gutenberg]: block name"
+msgid "YITH Brands Product Brand"
+msgstr "YITH Product Merk"
+
+#: ../includes/class.yith-wcbr-shortcode.php:123
+#, fuzzy
+#| msgid "Adds brand name and logo for a specific product, wherever you want"
+msgctxt "[gutenberg]: block description"
+msgid "Adds brand name and logo for a specific product, wherever you want"
+msgstr "Voegtmerknaam en logo toe voor een specifiek produkt, wanneer u wilt"
+
+#: ../includes/class.yith-wcbr-shortcode.php:133
+#, fuzzy
+#| msgid "Select product ID, or let widget use global $product"
+msgid "Product_id (leave empty to use global product)"
+msgstr ""
+"Selecteer product ID, of laat de widget een algemeen $product gebruiken"
+
+#: ../includes/class.yith-wcbr-shortcode.php:141
+#, fuzzy
+#| msgid "Hide on loop"
+msgctxt "[gutenberg]: Help text"
+msgid "Hide logo"
+msgstr "Verbergen in vergrootglas"
+
+#: ../includes/class.yith-wcbr-shortcode.php:142
+#, fuzzy
+#| msgid "Show count"
+msgctxt "[gutenberg]: Help text"
+msgid "Show logo"
+msgstr "Toon telling"
+
+#: ../includes/class.yith-wcbr-shortcode.php:150
+#, fuzzy
+#| msgid "Product title"
+msgctxt "[gutenberg]: Help text"
+msgid "Hide title"
+msgstr "Producttitel"
+
+#: ../includes/class.yith-wcbr-shortcode.php:151
+#, fuzzy
+#| msgid "Show filters"
+msgctxt "[gutenberg]: Help text"
+msgid "Show title"
+msgstr "Toon filters"
+
+#: ../includes/class.yith-wcbr.php:126
+msgid "Brand"
+msgstr "Merk"
+
+#: ../includes/class.yith-wcbr.php:127
+msgid "All Brands"
+msgstr "Alle merken"
+
+#: ../includes/class.yith-wcbr.php:128
+msgid "Edit Brand"
+msgstr "Bewerk merken"
+
+#: ../includes/class.yith-wcbr.php:129
+msgid "View Brand"
+msgstr "Bekijk merken"
+
+#: ../includes/class.yith-wcbr.php:130
+msgid "Update Brand"
+msgstr "Update merk"
+
+#: ../includes/class.yith-wcbr.php:131
+msgid "Add New Brand"
+msgstr "Voeg nieuw merk toe"
+
+#: ../includes/class.yith-wcbr.php:132
+msgid "New Brand Name"
+msgstr "Nieuw merk naam"
+
+#: ../includes/class.yith-wcbr.php:133
+msgid "Parent Brand"
+msgstr "Bovenliggend merk"
+
+#: ../includes/class.yith-wcbr.php:134
+msgid "Parent Brand:"
+msgstr "Bovenliggend merk:"
+
+#: ../includes/class.yith-wcbr.php:135
+msgid "Search Brands"
+msgstr "Zoek merk"
+
+#: ../includes/class.yith-wcbr.php:136
+msgid "Separate brands with commas"
+msgstr "Scheid merken met komma's"
+
+#: ../includes/class.yith-wcbr.php:137
+msgid "No Brands Found"
+msgstr "Geen merken gevonden"
+
+#: ../init.php:116
+#, fuzzy, php-format
+#| msgid ""
+#| "YITH WooCommerce Brands Add-on is enabled but not effective. It requires "
+#| "WooCommerce in order to work."
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Brands Add-on is ingeschakeld, maar niet effectief. Het "
+"vereist WooCommerce om volledig te werken."
+
+#: ../init.php:126
+#, fuzzy, php-format
+#| msgid ""
+#| "You can't activate the free version of YITH WooCommerce Brands while you "
+#| "are using the premium one."
+msgid ""
+"You can't activate the free version of %s while you are using the premium "
+"one."
+msgstr ""
+"U kunt de gratis versie van YITH WooCommerce Brands niet activeren terwijl u "
+"de premium versie gebruikt."
+
+#: ../plugin-options/settings-options.php:20
+msgid "General"
+msgstr "Algemeen"
+
+#: ../plugin-options/settings-options.php:28
+msgid "Brand label"
+msgstr "Merk label"
+
+#: ../plugin-options/settings-options.php:30
+msgid "Label used for \"Brand\" link"
+msgstr "Label gebruikt voor \"Merk\" link"
+
+#: ../plugin-options/settings-options.php:31
+msgid "Brand:"
+msgstr "Merk:"
+
+#: ../templates/admin/add-brand-taxonomy-form.php:18
+#: ../templates/admin/edit-brand-taxonomy-form.php:18
+#, fuzzy
+#| msgid "Product brand taxonomy"
+msgid "Product brand thumbnail"
+msgstr "Product merk taxonomie"
+
+#: ../templates/admin/add-brand-taxonomy-form.php:21
+#: ../templates/admin/edit-brand-taxonomy-form.php:21
+msgid "Upload/Add image"
+msgstr "Upload/toevoegen afbeelding"
+
+#: ../templates/admin/add-brand-taxonomy-form.php:22
+#: ../templates/admin/edit-brand-taxonomy-form.php:22
+msgid "Remove image"
+msgstr "Verwijder afbeelding"
+
+#: ../templates/admin/brand-premium-panel.php:217
+#: ../templates/admin/brand-premium-panel.php:339
+#, php-format
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Brands Add-On%2$s "
+"to benefit from all features!"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:220
+#: ../templates/admin/brand-premium-panel.php:342
+msgid "UPGRADE"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:221
+#: ../templates/admin/brand-premium-panel.php:343
+msgid "to the premium version"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:227
+msgid "Premium Features"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:235
+msgid "Banners and links"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:238
+#, php-format
+msgid ""
+"Two additional details for each brand in your store: show a %1$sbanner%2$s "
+"to users when they access the page of the selected brand and specify a "
+"%1$slink%2$s redirecting users to a page different from brand archive page "
+"(e.g. brand official website)."
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:248
+msgid "Brand taxonomy"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:251
+msgid ""
+"With the premium version of the plugin, all taxonomies defined for products "
+"(usually categories, tags and attributes) can be turned into brands for "
+"products of your shop!"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:266
+msgid "Position"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:268
+msgid ""
+"Position of product brand is no longer static: it will be up to you to "
+"choose the most suitable position for brands in product detail page and in "
+"shop page."
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:278
+msgid "Content"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:281
+#, php-format
+msgid ""
+"Name, logo or both? You can decide what information to show to your users "
+"just with a click. Whether it is shown in %1$sshop page or in product detail "
+"page%2$s, decide the information you want to show about the selected brand."
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:297
+msgid "5 widgets"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:300
+#, php-format
+msgid ""
+"5 different solutions to add and show all your brands in your sidebars! "
+"Beautiful and useful, thanks to them, %1$syour brands will become dynamic"
+"%2$s and you will be able to further value them using the numerous options "
+"availble for each widget. Discover them now!"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:309
+msgid "8 shortcodes"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:312
+#, php-format
+msgid ""
+"8 new solutions to add brands to your e-commerce pages. %1$sEight different "
+"ways to value your brands and brand products:%2$s you can show them either "
+"in a slider or as a simple list and users will also be able to filter them "
+"and restrict seach results only to those they are interested in."
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:328
+msgid "Product URL"
+msgstr ""
+
+#: ../templates/admin/brand-premium-panel.php:331
+#, php-format
+msgid ""
+"Index your products on the web in the best possible way thanks to the "
+"possibility to dynamically insert the %1$sbrand name%2$s in the product URL."
+"%1$s Take advantage of this feature!"
+msgstr ""
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Plugin Documentatie"
+
+#~ msgid "Default brand taxonomy"
+#~ msgstr "Default merk taxonomie"
+
+#~ msgid ""
+#~ "Select the taxonomy whose terms will be used as brands; not all "
+#~ "taxonomies support all plugin features, so if you change this option it "
+#~ "is at your own risk"
+#~ msgstr ""
+#~ "Selecteer de taxonomie waarvan de termen als merken worden gebruikt; niet "
+#~ "alle taxonomieën ondersteunen alle plugin-functies, als u deze optie "
+#~ "wijzigt, is dit op eigen risico"
+
+#~ msgid "Single product brand position"
+#~ msgstr "Positie merk van een single product"
+
+#~ msgid "Hide on single product page"
+#~ msgstr "Verberg op single product pagina"
+
+#~ msgid "Before product title"
+#~ msgstr "Voor producttitel"
+
+#~ msgid "After product title"
+#~ msgstr "Na producttitel"
+
+#~ msgid "After product price"
+#~ msgstr "Na productprijs"
+
+#~ msgid "After product excerpt"
+#~ msgstr "Na productsamenvatting"
+
+#~ msgid "After single Add to Cart"
+#~ msgstr "Na toevoegen aan winkelwagen"
+
+#~ msgid "After product meta"
+#~ msgstr "Na product meta"
+
+#~ msgid "After product share"
+#~ msgstr "Na product delen"
+
+#~ msgid "Position for brand list"
+#~ msgstr "Positie van merklijst"
+
+#~ msgid "Single product brand content"
+#~ msgstr "Single product merk inhoud"
+
+#~ msgid "Both name and logo"
+#~ msgstr "Beide naam en logo"
+
+#~ msgid "Only logo"
+#~ msgstr "Alleen logo"
+
+#~ msgid "Only name"
+#~ msgstr "Alleen naam"
+
+#~ msgid "Content to show for brands in single product page"
+#~ msgstr "Inhoud van merken, weergegeven in single product pagina"
+
+#~ msgid "Standard size of brand images in product page"
+#~ msgstr "Standaardafmeting van merk afbeeldingen in product pagina"
+
+#~ msgid ""
+#~ "This is the size of images that will be used as brand thumbnails in "
+#~ "single product page"
+#~ msgstr ""
+#~ "Grootte van afbeeldingen die worden gebruikt als merk thumbnails in "
+#~ "single product pagina"
+
+#~ msgid "Product brand position in loop page"
+#~ msgstr "Product merk positie in vergrootglas pagina"
+
+#~ msgid "After \"Add to Cart\" in loop"
+#~ msgstr "Na \"toevoegen aan winkelwagen\" in vergrootglas"
+
+#~ msgid "Position of brand list"
+#~ msgstr "Positie van merklijst"
+
+#~ msgid "Standard size of brand images in shop page"
+#~ msgstr "Standaardafmeting van merk afbeeldingen in winkel pagina"
+
+#~ msgid ""
+#~ "This is the size of images that will be used as brand thumbnails in shop "
+#~ "page"
+#~ msgstr ""
+#~ "Grootte van afbeeldingen die worden gebruikt als merk thumbnails in "
+#~ "single product pagina"
+
+#~ msgid "Loop product brand content"
+#~ msgstr "Loop product merk inhoud"
+
+#~ msgid "Content to show for brands in loop page"
+#~ msgstr "Inhoud van merken, weergegeven in loop pagina"
+
+#~ msgid "Enable \"Sort by Brand\""
+#~ msgstr "Inschakelen \"Sorteren op merk\""
+
+#~ msgid "Enable \"Sort by Brand\" option in shop archive page"
+#~ msgstr "Inschakelen \"Sorteren op merk\" optie in archief pagina"
+
+#~ msgid "Use brand default logo"
+#~ msgstr "Gebruik default merk logo"
+
+#~ msgid "Use default image when no logo is selected or not"
+#~ msgstr "Gebruik default afbeelding wanneer er geen logo is geselecteerd"
+
+#~ msgid "Default logo"
+#~ msgstr "Default logo"
+
+#~ msgid "Import from CSV"
+#~ msgstr "Importeer van CSV"
+
+#~ msgid "YITH Brands (CSV)"
+#~ msgstr "YITH Merken (CSV)"
+
+#~ msgid "Import <strong>brands</strong> to your store via csv file."
+#~ msgstr "Importeer <strong>merken</strong> naar uw winkel via csv bestand."
+
+#~ msgid "Export CSV"
+#~ msgstr "Exporteer CSV"
+
+#~ msgid "Select a brand"
+#~ msgstr "Selecteer een merk"
+
+#~ msgid "Any Brand"
+#~ msgstr "Selecteer een merk"
+
+#~ msgid "Rated %s out of 5"
+#~ msgstr "Waardering %s van de 5"
+
+#~ msgid "out of 5"
+#~ msgstr "van de 5"
+
+#~ msgctxt "slug"
+#~ msgid "uncategorized"
+#~ msgstr "niet gecategoriseerd"
+
+#~ msgid "Sort by brand"
+#~ msgstr "Sorteren op merk"
+
+#~ msgid "YITH Brand Filter"
+#~ msgstr "YITH Merken Filter"
+
+#~ msgid "Adds a list of brands with js filter for name"
+#~ msgstr "Voegt een lijst met merken toe met js filter voor naam"
+
+#~ msgid "Pagination"
+#~ msgstr "Paginering"
+
+#~ msgid "Paginate items"
+#~ msgstr "Pagineer items"
+
+#~ msgid "Do not paginate items"
+#~ msgstr "Items niet pagineren"
+
+#~ msgid "Paginate brand elements or not"
+#~ msgstr "Pagineer merk elementen of niet"
+
+#~ msgid "Per page"
+#~ msgstr "Per pagina"
+
+#~ msgid "Number of elements to show for each page"
+#~ msgstr "Aantal elementen om weer te geven voor iedere pagina"
+
+#~ msgid "Categories"
+#~ msgstr "Categorieén"
+
+#~ msgid ""
+#~ "A list of valid comma separated category slugs, if you want to filter "
+#~ "brands by product cat"
+#~ msgstr ""
+#~ "Een lijst met geldige categorie slugs, gescheiden door komma. Als u "
+#~ "merken wilt filteren per product categorie"
+
+#~ msgid "Autosense Category"
+#~ msgstr "Autosense Categorie"
+
+#~ msgid "Autosense current category"
+#~ msgstr "Autosense huidige categorie"
+
+#~ msgid "Do nothing"
+#~ msgstr "Niets doen"
+
+#~ msgid ""
+#~ "If enabled, on product category page, ignores \"category\" param, and "
+#~ "shows only brands for current category"
+#~ msgstr ""
+#~ "Indien ingeschakeld, worden \"categorie\" parameters genegeerd op de "
+#~ "product categorie pagina. Uitsluitend merken van de huidige categorie "
+#~ "worden getoond"
+
+#~ msgid "Show letters to filter brands or not"
+#~ msgstr "Toon letters om merken te filteren, of niet"
+
+#~ msgid "Show reset"
+#~ msgstr "Toon reset"
+
+#~ msgid "Do not show reset"
+#~ msgstr "Toon geen reset"
+
+#~ msgid "Show \"All\" label to reset all filters or not"
+#~ msgstr "Toon het \"Alle\" label om de alle filters te resetten of niet"
+
+#~ msgid "Show all letters"
+#~ msgstr "Toon alle letters"
+
+#~ msgid "Do not show all letters"
+#~ msgstr "Toon niet alle letters"
+
+#~ msgid "Show all letters or only available letters"
+#~ msgstr "Toon alle letters, of alleen de beschikbare letters"
+
+#~ msgid "Show term count"
+#~ msgstr "Toon term telling"
+
+#~ msgid "Do not show term count"
+#~ msgstr "Toon geen term telling"
+
+#~ msgid "show term count or not"
+#~ msgstr "toon term telling of niet"
+
+#~ msgid "Hide if empty"
+#~ msgstr "Verberg indien leeg"
+
+#~ msgid "Do not hide even if empty"
+#~ msgstr "Verberg niet, ook al is het leeg"
+
+#~ msgid "Choose to show empty terms or not"
+#~ msgstr "Toon lege termen of niet"
+
+#~ msgid "Style"
+#~ msgstr "Stijl"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#~ msgid "Big Header"
+#~ msgstr "Groot hoofd"
+
+#~ msgid "Small Header"
+#~ msgstr "Klein hoofd"
+
+#~ msgid "Shadow"
+#~ msgstr "Schaduw"
+
+#~ msgid "Boxed"
+#~ msgstr "Omlijnd"
+
+#~ msgid "Highlight"
+#~ msgstr "Highlight"
+
+#~ msgid "Shortcode style"
+#~ msgstr "Shortcode stijl"
+
+#~ msgid "Highlight color"
+#~ msgstr "Highlight kleur"
+
+#~ msgid "Color to use as background in \"Highlight\" style"
+#~ msgstr "Achtergrondkleur in \"Highlight\" stijl"
+
+#~ msgid ""
+#~ "A list of valid comma separated brands slugs, if you want include only "
+#~ "some specific brands"
+#~ msgstr ""
+#~ "Een lijst met geldige merken slugs, gescheiden door komma. Als u "
+#~ "uitsluitend enkele specifieke merken wilt bijvoegen"
+
+#~ msgid "Parent"
+#~ msgstr "Bovenliggend"
+
+#~ msgid "The ID of the common parent for all retrieved brands"
+#~ msgstr ""
+#~ "De ID van de gemeenschappelijke bovenliggende voor alle opgehaalde merken"
+
+#~ msgid "Order by"
+#~ msgstr "Sorteer op"
+
+#~ msgid "Menu sorting"
+#~ msgstr "Menu sortering"
+
+#~ msgid "Name"
+#~ msgstr "Naam"
+
+#~ msgid "Slug"
+#~ msgstr "Slug"
+
+#~ msgid "Term's Group"
+#~ msgstr "Term's Groep"
+
+#~ msgid "Term's ID"
+#~ msgstr "Term's ID"
+
+#~ msgid "Description"
+#~ msgstr "Beschrijving"
+
+#~ msgid "Field to order terms by"
+#~ msgstr "Veld om termen te sorteren op"
+
+#~ msgid "Order"
+#~ msgstr "Volgorde"
+
+#~ msgid "Ascendant"
+#~ msgstr "Stijgen"
+
+#~ msgid "Descendant"
+#~ msgstr "Dalen"
+
+#~ msgid "Whether to order terms in ascending or descending order"
+#~ msgstr "Bepaal of items in stijgende of dalende volgorde worden gesorteerd"
+
+#~ msgid "YITH Brand Thumbnail"
+#~ msgstr "YITH Brand Thumbnail"
+
+#~ msgid "Adds a list of brand thumbnails"
+#~ msgstr "Voeg een lijst met merk thumbnails toe"
+
+#~ msgid "Hide terms without image"
+#~ msgstr "Verberg termen zonder afbeelding"
+
+#~ msgid "Do not hide terms even if without image"
+#~ msgstr "Verberg termen niet, zelfs als zij geen afbeelding hebben"
+
+#~ msgid "Choose to show terms without image or not"
+#~ msgstr "Toon termen zonder afbeelding, of niet"
+
+#~ msgid "Show name"
+#~ msgstr "Toon naam"
+
+#~ msgid "Show brand name or not"
+#~ msgstr "Toon merknaam of niet"
+
+#~ msgid "Show rating"
+#~ msgstr "Toon waardering"
+
+#~ msgid "Show average brand rating"
+#~ msgstr "Toon gemiddelde merkwaardering"
+
+#~ msgid "Do not show average brand rating"
+#~ msgstr "Toon geen gemiddelde merkwaardering"
+
+#~ msgid "Show average brand rating or not (based on brand's product rating)"
+#~ msgstr ""
+#~ "Toon gemiddelde merkwaardering of niet (gebaseerd op productwaardering "
+#~ "van het merk)"
+
+#~ msgid "Columns"
+#~ msgstr "Kolommen"
+
+#~ msgid "Number of elements per row"
+#~ msgstr "Aantal elementen per rij"
+
+#~ msgid "Without borders"
+#~ msgstr "Zonder kaders"
+
+#~ msgid "YITH Brand Thumbnail Carousel"
+#~ msgstr "YITH Merk Thumbnail Carrousel"
+
+#~ msgid "Adds a carousel of brand thumbnails"
+#~ msgstr "Voegt een carrousel van merken thumbnails toe"
+
+#~ msgid "Autoplay"
+#~ msgstr "Autoplay"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "No"
+#~ msgstr "Nee"
+
+#~ msgid "Start autoplay for carousel or not"
+#~ msgstr "Start autoplay voor carrousel of niet"
+
+#~ msgid "Direction"
+#~ msgstr "Richting"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horizontaal"
+
+#~ msgid "Vertical"
+#~ msgstr "Verticaal"
+
+#~ msgid "Show terms without image or not"
+#~ msgstr "Toon termen met afbeelding of niet"
+
+#~ msgid "Carousel pagination"
+#~ msgstr "Carrousel paginatie"
+
+#~ msgid "Show carousel pagination"
+#~ msgstr "Toon carrousel paginatie"
+
+#~ msgid "Do not show carousel pagination"
+#~ msgstr "Toon geen carrousel paginatie"
+
+#~ msgid "Show carousel pagination or not"
+#~ msgstr "Toon carrousel paginatie of niet"
+
+#~ msgid "Carousel pagination style"
+#~ msgstr "Carrousel paginatie stijl"
+
+#~ msgid "Square"
+#~ msgstr "Vierkant"
+
+#~ msgid "Round"
+#~ msgstr "Rond"
+
+#~ msgid "Style for Carousel pagination"
+#~ msgstr "Stijl voor carrousel paginatie"
+
+#~ msgid "Prev/Next button"
+#~ msgstr "Volgende/Vorige knop"
+
+#~ msgid "Show prev/next button"
+#~ msgstr "Toon vorige/volgende knop"
+
+#~ msgid "Do not show prev/next button"
+#~ msgstr "Toon geen vorige/volgende knop"
+
+#~ msgid "Show prev/next button or not"
+#~ msgstr "Toon vorige/volgende knop of niet"
+
+#~ msgid "Prev/Next button style"
+#~ msgstr "Vorige/volgende knop stijl"
+
+#~ msgid "Carousel prev/next button style"
+#~ msgstr "Carrousel vorige/volgende knop stijl"
+
+#~ msgid "Top border"
+#~ msgstr "Bovenrand"
+
+#~ msgid "Centered title"
+#~ msgstr "Gecentreerde titel"
+
+#~ msgid "Squared"
+#~ msgstr "Vierkant"
+
+#~ msgid "Background"
+#~ msgstr "Achtergrond"
+
+#~ msgid "YITH Brand Products"
+#~ msgstr "YITH Brand Products"
+
+#~ msgid "Adds a list of brand products"
+#~ msgstr "Voegt een lijst van merk producten toe"
+
+#~ msgid "Text to show as shortcode title"
+#~ msgstr "Tekst als shortcode titel"
+
+#~ msgid ""
+#~ "A list of valid comma separated brand slugs, if you want to filter "
+#~ "products by brand"
+#~ msgstr ""
+#~ "Een lijst met geldige merken slugs, gescheiden door komma. Als u "
+#~ "producten wilt filteren per merk"
+
+#~ msgid ""
+#~ "A list of valid comma separated categories slugs, if you want to filter "
+#~ "products by categories"
+#~ msgstr ""
+#~ "Een lijst met geldige categorie slugs, gescheiden door komma. Als u "
+#~ "producten wilt filteren per categorie"
+
+#~ msgid "Product type"
+#~ msgstr "Product type"
+
+#~ msgid "All products"
+#~ msgstr "Alle producten"
+
+#~ msgid "Featured products"
+#~ msgstr "Gerelateerde producten"
+
+#~ msgid "On sale products"
+#~ msgstr "On sale producten"
+
+#~ msgid "Type of products to show"
+#~ msgstr "Type producten om weer te geven"
+
+#~ msgid "Random order"
+#~ msgstr "Willekeurige volgorde"
+
+#~ msgid "\"Created at\" date"
+#~ msgstr "\"Gecreëerd op\" datum"
+
+#~ msgid "Product price"
+#~ msgstr "Productprijs"
+
+#~ msgid "Product sales"
+#~ msgstr "Productomzet"
+
+#~ msgid "Set order criteria for products"
+#~ msgstr "Bepaal de volgorde criteria voor producten"
+
+#~ msgid "Descending"
+#~ msgstr "Dalen"
+
+#~ msgid "Ascending"
+#~ msgstr "Stijgen"
+
+#~ msgid "Set order direction for products"
+#~ msgstr "Bepaal richting van volgorde voor producten"
+
+#~ msgid "Hide free products"
+#~ msgstr "Verberg gratis producten"
+
+#~ msgid "Do not hide free products"
+#~ msgstr "Verberg gratis producten niet"
+
+#~ msgid "Hide free products or not"
+#~ msgstr "Verberg gratis producten of niet"
+
+#~ msgid "Show hidden products"
+#~ msgstr "Toon verborgen producten"
+
+#~ msgid "Show products hidden in catalog"
+#~ msgstr "Toon producten verborgen in catalogus"
+
+#~ msgid "Do not show products hidden in catalog"
+#~ msgstr "Toon de producten verborgen in catalogus niet"
+
+#~ msgid "Show products hidden in catalog or not"
+#~ msgstr "Toon producten verborgen in catalogus, of niet"
+
+#~ msgid "Show brand box before shortcode"
+#~ msgstr "Toon merk box voor shortcode"
+
+#~ msgid "Show brand box"
+#~ msgstr "Toon merk box"
+
+#~ msgid "Do not show brand box"
+#~ msgstr "Toon geen merk box"
+
+#~ msgid "Show brand box or not"
+#~ msgstr "Toon merk box of niet"
+
+#~ msgid "YITH Brand Product Carousel"
+#~ msgstr "YITH Brand Product Carrousel"
+
+#~ msgid "Adds a carousel of products"
+#~ msgstr "Voegt een product carrousel toe"
+
+#~ msgid "Total products to show"
+#~ msgstr "Totaal producten om weer te geven"
+
+#~ msgid "Total number of products to show; -1 to show all products"
+#~ msgstr ""
+#~ "Totaal aantal producten om weer te geven; -1 om alle producten te tonen"
+
+#~ msgid ""
+#~ "A list of valid comma separated brands slugs, if you want to filter "
+#~ "products by brand"
+#~ msgstr ""
+#~ "Een lijst met geldige merken slugs, gescheiden door komma. Als u "
+#~ "producten wilt filteren op merk"
+
+#~ msgid "Select sorting criteria for products"
+#~ msgstr "Bepaal de volgorde criteria voor producten"
+
+#~ msgid "Select sorting direction for products"
+#~ msgstr "Bepaal richting van volgorde voor producten"
+
+#~ msgid "YITH Brand Select"
+#~ msgstr "YITH Merk Selectie"
+
+#~ msgid ""
+#~ "Adds a select with all brands that redirects to archive page on change"
+#~ msgstr ""
+#~ "Voegt een selectie toe met alle merken die u doorstuurt naar de archief "
+#~ "pagina op wijziging"
+
+#~ msgid "Hide empty"
+#~ msgstr "Verberg leeg"
+
+#~ msgid "Do not hide empty"
+#~ msgstr "Verberg leeg niet"
+
+#~ msgid "Show empty terms or not"
+#~ msgstr "Verberg lege termen of niet"
+
+#~ msgid "Show term count or not"
+#~ msgstr "Toon term telling of niet"
+
+#~ msgid "YITH Brand List"
+#~ msgstr "YITH Merklijst"
+
+#~ msgid "Prints a list of all brands"
+#~ msgstr "Print een lijst met alle merken"
+
+#~ msgid "HIghlight"
+#~ msgstr "Highlight"
+
+#~ msgid "YITH Brand Grid"
+#~ msgstr "YITH Merk Netwerk"
+
+#~ msgid "Prints a grid of all brands with js filters"
+#~ msgstr "Print een netwerk van alle merken met js filters"
+
+#~ msgid "Show image"
+#~ msgstr "Toon afbeelding"
+
+#~ msgid "Show term image"
+#~ msgstr "Toon term afbeelding"
+
+#~ msgid "Do not show term image"
+#~ msgstr "Toon geen term afbeelding"
+
+#~ msgid "Show term image or not"
+#~ msgstr "Toon term afbeelding of niet"
+
+#~ msgid "Show filtered"
+#~ msgstr "Toon gefilterd"
+
+#~ msgid "Show brands grouped by heading letter"
+#~ msgstr "Toon merken gegroepeerd op hoofdletter"
+
+#~ msgid "Show brands grouped by product category"
+#~ msgstr "Toon merken gegroepeerd op productcategorie"
+
+#~ msgid "Do not show brands filtered"
+#~ msgstr "Toon geen gefilterde merken"
+
+#~ msgid "Show brands grouped or not"
+#~ msgstr "Toon gegroepeerde merken of niet"
+
+#~ msgid "Show category filter"
+#~ msgstr "Toon categorie filter"
+
+#~ msgid "Show filters for product category"
+#~ msgstr "Toon filters voor productcategorie"
+
+#~ msgid "Do not show filters for product category"
+#~ msgstr "Toon geen filters voor product categorie"
+
+#~ msgid ""
+#~ "Show filters for product category or not (only when filtered by name)"
+#~ msgstr ""
+#~ "Toon filters voor productcategorie of niet (alleen indien gefilterd op "
+#~ "naam)"
+
+#~ msgid "Category filter type"
+#~ msgstr "Categorie filter type"
+
+#~ msgid "Multiselect"
+#~ msgstr "Multiselectie"
+
+#~ msgid "Dropdown"
+#~ msgstr "Dropdown"
+
+#~ msgid ""
+#~ "Show filters for product category as multiselect or as a dropdown (only "
+#~ "when filtered by name)"
+#~ msgstr ""
+#~ "Toon filters voor productcategorie als multiselectie of als dropdown "
+#~ "(alleen indien gefilterd op naam)"
+
+#~ msgid "Category filter style"
+#~ msgstr "Categorie filter stijl"
+
+#~ msgid "Border"
+#~ msgstr "Rand"
+
+#~ msgid "Category filter style (only when filtered by name)"
+#~ msgstr "Categorie filter stijl (alleen indien gefilterd op naam)"
+
+#~ msgid "Show name filters"
+#~ msgstr "Toon naam filters"
+
+#~ msgid "Show letters to filter brands"
+#~ msgstr "Toon letters om merken te filteren"
+
+#~ msgid "Do not show letters"
+#~ msgstr "Toon geen letters"
+
+#~ msgid "Show letters to filter brands (only when filtered by name)"
+#~ msgstr ""
+#~ "Toon letters om merken te filteren (alleen indien gefilterd op naam)"
+
+#~ msgid ""
+#~ "Whether to show all letters or only available letters (only when filtered "
+#~ "by name)"
+#~ msgstr ""
+#~ "Alle letters tonen of alleen de beschikbare letters (allen indien "
+#~ "gefilterd op naam)"
+
+#~ msgid "All"
+#~ msgstr "Alle"
+
+#~ msgid "The file does not exist, please try again."
+#~ msgstr "Bestand bestaat niet, probeer opnieuw."
+
+#~ msgid "Failed to import attachment %s"
+#~ msgstr "Importeren bijlage mislukt %s"
+
+#~ msgid "Failed to import %s %s"
+#~ msgstr "Importeren mislukt %s %s"
+
+#~ msgid "The CSV is invalid."
+#~ msgstr "De csv is ongeldig."
+
+#~ msgid "Import complete - imported <strong>%s</strong> brands."
+#~ msgstr "Import compleet - geïmporteerde <strong>%s</strong> merken."
+
+#~ msgid "Invalid file type"
+#~ msgstr "Ongeldig afbeeldingstype"
+
+#~ msgid "Remote server did not respond"
+#~ msgstr "Remote server reageert niet"
+
+#~ msgid "Remote server returned error response %1$d %2$s"
+#~ msgstr "Remote server geeft volgende error reactie %1$d %2$s"
+
+#~ msgid "Remote file is incorrect size"
+#~ msgstr "Remote bestand heeft onjuist formaat"
+
+#~ msgid "Zero size file downloaded"
+#~ msgstr "Nul afmeting bestand gedownload"
+
+#~ msgid "Remote file is too large, limit is %s"
+#~ msgstr "Remote bestand is te groot, limiet is %s"
+
+#~ msgid "All done!"
+#~ msgstr "Alles klaar!"
+
+#~ msgid "View Brands"
+#~ msgstr "Toon merken"
+
+#~ msgid "YITH Brands Importer"
+#~ msgstr "YITH Merk import"
+
+#~ msgid ""
+#~ "Hi there! Upload a CSV file containing brands to import the contents into "
+#~ "your shop. Choose a .csv file to upload, then click \"Upload file and "
+#~ "import\"."
+#~ msgstr ""
+#~ "Hallo daar! Upload een CSV bestand met merken, om de inhoud in uw winkel "
+#~ "te importeren. Kies een .csv bestand om te uploaden, en klik op \"Upload "
+#~ "file and import\"."
+
+#~ msgid ""
+#~ "Before uploading your import file, you need to fix the following error:"
+#~ msgstr ""
+#~ "Voor u uw import bestand upload, dient u de volgende fout op te lossen:"
+
+#~ msgid "Choose a file from your computer:"
+#~ msgstr "Kies een bestand van uw computer:"
+
+#~ msgid "Maximum size: %s"
+#~ msgstr "Maximumgrootte: %s"
+
+#~ msgid "OR enter path to file:"
+#~ msgstr "OF voer bestandspad in:"
+
+#~ msgid "Delimiter"
+#~ msgstr "Scheidingsteken"
+
+#~ msgid "Sorry, an error has occurred."
+#~ msgstr "Helaas, er is een fout opgetreden."
+
+#~ msgid "Add an A-Z filter for brands"
+#~ msgstr "Voeg een A-Z-filter toe voor merken"
+
+#~ msgid "Title:"
+#~ msgstr "Ttitel:"
+
+#~ msgid "Show letter filter"
+#~ msgstr "Toon letter filter"
+
+#~ msgid "Show reset:"
+#~ msgstr "Toon reset:"
+
+#~ msgid "Display \"Show all\" button within letter filter"
+#~ msgstr "Toon \"Toon alle\" knop in de letter filter"
+
+#~ msgid ""
+#~ "When filters are activated, show all letters instead of showing only "
+#~ "those of brands available"
+#~ msgstr ""
+#~ "Als filters zijn geactiveerd, toon alle letters in plaats van alleen "
+#~ "beschikbare letters"
+
+#~ msgid "Show number of products for each brand"
+#~ msgstr "Toon aantal producten per merk"
+
+#~ msgid "Hide brands without products associated"
+#~ msgstr "Verberg merken zonder gerelateerd product"
+
+#~ msgid "Autosense category"
+#~ msgstr "Autosense Categorie"
+
+#~ msgid ""
+#~ "On product category page, ignore category option and filter brands for "
+#~ "current category"
+#~ msgstr ""
+#~ "Op productcategorie pagina, negeer categorie optie en vilder merken op "
+#~ "huidige categorie"
+
+#~ msgid "Category:"
+#~ msgstr "Categorie:"
+
+#~ msgid ""
+#~ "Comma separated list of valid product category slugs, to filter brands; "
+#~ "leave empty if you don't want to filter brands by category"
+#~ msgstr ""
+#~ "Een lijst met geldige productcategorie slugs, gescheiden door komma. Als "
+#~ "u merken wilt filteren; laat leeg als u merken niet op categorie wilt "
+#~ "filteren"
+
+#~ msgid "Style:"
+#~ msgstr "Stijl:"
+
+#~ msgid "Highlight:"
+#~ msgstr "Highlight:"
+
+#~ msgid "Valid hex color code, to use as background in highlight style"
+#~ msgstr ""
+#~ "Geldige hex kleurcode, om te gebruiken als achtergrond in highligt stijl"
+
+#~ msgid "Add a list of brands"
+#~ msgstr "Voeg toe aan merklijst"
+
+#~ msgid "Show number for products for each brand"
+#~ msgstr "Toon aantal producten per merk"
+
+#~ msgid ""
+#~ "Comma separated list of valid product category slugs, to filter brands; "
+#~ "leave it empty if you don't want to filter brands by category"
+#~ msgstr ""
+#~ "Een lijst met geldige product categorie slugs, gescheiden door komma. Als "
+#~ "u merken wilt filteren; laat leeg als u merken niet op categorie wilt "
+#~ "filteren"
+
+#~ msgid "Empty"
+#~ msgstr "Leeg"
+
+#~ msgid "Add a select with all brands"
+#~ msgstr "Voeg een selectie toe met alle merken"
+
+#~ msgid "Add a carousel of brand thumbnails"
+#~ msgstr "Voeg een carrousel toe met merk thumbnails"
+
+#~ msgid "Show brand name for each element of the carousel"
+#~ msgstr "Toon merknaam voor elk element van de carrousel"
+
+#~ msgid ""
+#~ "Show brand rate for each element of the carousel (brand rate is "
+#~ "calculated as average rating for products of the same brand)"
+#~ msgstr ""
+#~ "Toon merkwaardering voor iedere element van de carrousel (merkwaardering "
+#~ "is berekend op de gemiddelde waardering van producten, van hetzelfde merk)"
+
+#~ msgid "Hide term without images"
+#~ msgstr "Verberg term zonder afbeelding"
+
+#~ msgid "Hide brands with no associated images"
+#~ msgstr "Verberg merken zonder gerelateerde afbeeldingen"
+
+#~ msgid "Autoplay carousel slides"
+#~ msgstr "Autoplay carrousel slides"
+
+#~ msgid "Direction:"
+#~ msgstr "Richting:"
+
+#~ msgid "Select sliding direction in carousel"
+#~ msgstr "Bepaal sliding richtin in carrousel"
+
+#~ msgid "Show pagination for the carousel"
+#~ msgstr "Toon paginatie voor de carrousel"
+
+#~ msgid "Carousel pagination style:"
+#~ msgstr "Carrousel paginatie stijl:"
+
+#~ msgid "Add a grid of brand thumbnails"
+#~ msgstr "Voeg een netwerk aan merk thumbnails toe"
+
+#~ msgid "Borderless"
+#~ msgstr "Zonder rand"
+
+#~ msgid "Top Border"
+#~ msgstr "Bovenrand"
+
+#~ msgid "Add product brand template"
+#~ msgstr "Voeg een productmerk template toe"
+
+#~ msgid "Product ID"
+#~ msgstr "Product ID"
+
+#~ msgid "Banner"
+#~ msgstr "Banner"
+
+#~ msgid "Custom URL"
+#~ msgstr "Aangepaste URL"
+
+#~ msgid "Set a custom URL for redirect. Default redirect is to archive page"
+#~ msgstr ""
+#~ "Stel een aangepaste URL in voor doorverwijzen. Default verwijst door naar "
+#~ "archief pagina"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "px"
+#~ msgstr "px"
+
+#~ msgid "Hard Crop?"
+#~ msgstr "Hard Crop?"
+
+#~ msgid "Products in Brands"
+#~ msgstr "Producten in Merken"

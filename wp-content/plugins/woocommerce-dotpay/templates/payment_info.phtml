@@ -1,0 +1,78 @@
+<link rel="stylesheet" type="text/css" href="<?php echo WOOCOMMERCE_DOTPAY_GATEWAY_URL . 'resources/css/instruction.css'; ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo WOOCOMMERCE_DOTPAY_GATEWAY_URL . 'resources/css/microBootstrap.css'; ?>">
+<script type="text/javascript">
+    
+    if (typeof jQuery != 'undefined') {
+      console.log("\n -------------------------------------------------------------------------------------\n");  	
+      console.log("%cWarning!","color:red;font-family:system-ui;font-size:3rem;-webkit-text-stroke: 1px black;font-weight:bold;");
+	  console.log("\n%cLoad jQuery first in your template! Then Dotpay plugin.", "background: red; color: yellow; font-size: 1.2rem");
+	  console.log("%cOtherwise the Dotpay plugin may not work properly!", "color: red; font-size: 1rem;font-weight: bold;");
+	  console.log("\n -------------------------------------------------------------------------------------\n"); 
+    }
+    jQuery(document).ready(function(){
+        jQuery('#instruction input').keypress(function(e){
+            e.preventDefault();
+        }).focus(function(e){
+            jQuery(this).select();
+        });
+	});
+</script>
+<div class="bootstrap-iso">
+<section id="instruction">
+    <div class="row">
+        <div class="col-xs-12">
+            <p id="instruction-content"><?php echo __('To pay by cash you need login to your bank system and make a money transfer, entering the following data:', 'dotpay-payment-gateway'); ?></p>
+        </div>
+        <div class="col-md-6">
+            <?php if($this->getBankAccount()!=null): ?>
+            <label class="row">
+                <?php echo __('Account number', 'dotpay-payment-gateway'); ?>
+                <input type="text" class="important" id="iban" value="<?php echo $this->getBankAccount(); ?>" />
+            </label>
+            <?php endif; ?>
+            <label class="row">
+                <?php echo __('Amount of payment', 'dotpay-payment-gateway'); ?>
+                <div class="input-group">
+                    <input type="text" class="important col-md-10" id="amount" value="<?php echo $this->getAmount(); ?>" aria-describedby="transfer-currency">
+                    <span class="input-group-addon col-md-2" id="transfer-currency"><?php echo $this->getCurrency(); ?></span>
+                </div>
+            </label>
+            <label class="row">
+                <?php echo __('Title of payment', 'dotpay-payment-gateway'); ?>
+                <input type="text" class="important" id="payment-title" value="<?php echo $this->getNumber(); ?>" />
+            </label>
+        </div>
+        <div class="col-md-6">
+            <label class="row">
+                <?php echo __('Name of recipient', 'dotpay-payment-gateway'); ?>
+                <input type="text" class="important" id="recipient" value="<?php echo $this->getRecipient(); ?>" />
+            </label>
+            <label class="row">
+                <?php echo __('Street', 'dotpay-payment-gateway'); ?>
+                <input type="text" class="important" id="street" value="<?php echo $this->getStreet(); ?>" />
+            </label>
+            <label class="row">
+                <?php echo __('Post code and city', 'dotpay-payment-gateway'); ?>
+                <input type="text" class="important" id="post-code-city" value="<?php echo $this->getCity(); ?>" />
+            </label>
+        </div>
+    </div>
+    <div class="row">
+        <section id="payment-form" class="col-xs-12">
+            <div id="blankiet-download-form">
+                <div id="channel_container_confirm">
+                    <a href="<?php echo $this->getAddress(); ?>" target="_blank" title="<?php echo $this->getCommand(); ?>">
+                        <div>
+                            <img src="<?php echo $this->getChannelLogo(); ?>" alt="<?php echo __('Payment channel logo', 'dotpay-payment-gateway'); ?>" />
+                            <span><?php echo $this->getCommand(); ?></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="col-xs-12">
+            <p class="alert alert-info"><?php echo __('Not following the above procedure (e.g. changing the amount or payment title) will make your payment not handled automatically, and therefore lengthen finalization time of the transaction.', 'dotpay-payment-gateway'); ?></p>
+        </div>
+    </div>
+</section>
+</div>

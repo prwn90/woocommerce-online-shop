@@ -1,0 +1,28 @@
+#wp-live-chat-header:not(.active) {
+    -webkit-animation: wplc-bounce 1.5s 5 !important;
+    -moz-animation: wplc-bounce 1.5s 5 !important;
+    -o-animation: wplc-bounce 1.5s 5 !important;
+    animation: wplc-bounce 1.5s 5 !important;
+    animation-name: wplc-bounce !important;
+    animation-duration: 1.5s !important;
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.31, 1) !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 5 !important;
+    animation-direction: normal !important;
+    animation-fill-mode: none !important;
+    animation-play-state: running !important;
+}
+
+@keyframes wplc-bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+       transform: translateY(-30%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,1160 @@
+# Translation of Plugins - WP-Live Chat by 3CX - Development (trunk) in Polish
+# This file is distributed under the same license as the Plugins - WP-Live Chat by 3CX - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-28 08:33:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - WP-Live Chat by 3CX - Development (trunk)\n"
+
+#: wp-live-chat-support.php:2668
+msgid "All"
+msgstr "Wszystko"
+
+#: wp-live-chat-support.php:2674
+msgid "Both"
+msgstr "Oba"
+
+#: wp-live-chat-support.php:2669
+msgid "Free"
+msgstr "Darmowy"
+
+#: wp-live-chat-support.php:2670
+msgid "Paid"
+msgstr "Zapłacone"
+
+#: wp-live-chat-support.php:2673
+msgid "For:"
+msgstr "Za"
+
+#: wp-live-chat-support.php:2675
+msgid "Free version"
+msgstr "Darmowa wersja"
+
+#: wp-live-chat-support.php:2676
+msgid "Pro version"
+msgstr "Płatna wersja"
+
+#: wp-live-chat-support.php:2704
+msgid "Already installed"
+msgstr "Już zainstalowany"
+
+#: wp-live-chat-support.php:2667
+msgid "Price:"
+msgstr "Cena:"
+
+#: includes/settings_page.php:140
+msgid "Do not show the chat window on the following pages. Leave blank to show on all. (Use comma-separated Page ID's)"
+msgstr "Nie ma pokazuj okna czatu na następujących stronach. Zostaw puste aby pokazywać na wszystkich. (Użyj ID Stron oddzielonych przecinkami)"
+
+#: includes/settings_page.php:160
+msgid "Chat Window Settings"
+msgstr "Ustawienia Okna Czatu"
+
+#: includes/settings_page.php:163
+msgid "Chat box alignment"
+msgstr "Wyrównanie Okna Czatu"
+
+#: includes/settings_page.php:166
+msgid "Bottom left"
+msgstr "Lewy dolny róg"
+
+#: includes/settings_page.php:167
+msgid "Bottom right"
+msgstr "Prawy dolny róg"
+
+#: includes/settings_page.php:168
+msgid "Left"
+msgstr "Lewo"
+
+#: includes/settings_page.php:169
+msgid "Right"
+msgstr "Prawo"
+
+#: includes/settings_page.php:175
+msgid "Auto Pop-up"
+msgstr "Automatyczne Pojawienie się"
+
+#: includes/settings_page.php:175
+msgid "Expand the chat box automatically (prompts the user to enter their name and email address)."
+msgstr "Rozwiń okno czatu automatycznie (podpowiada użytkownikowi aby wpisał swoje imię oraz adres e-mail)."
+
+#: includes/settings_page.php:200
+msgid "Picture"
+msgstr "Obraz"
+
+#: includes/settings_page.php:203 includes/settings_page.php:219
+msgid "Upload Image"
+msgstr "Prześlij Obraz"
+
+#: includes/settings_page.php:216
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/settings_page.php:232
+msgid "Chat delay (seconds)"
+msgstr "Opóźnienie Czatu (sekundy)"
+
+#: includes/settings_page.php:248
+msgid "Chat notifications"
+msgstr "Powiadomienia Czatu"
+
+#: includes/settings_page.php:252
+msgid "Alert me via email as soon as someone wants to chat"
+msgstr "Powiadom mnie poprzez e-mail jeśli ktoś chce czatować"
+
+#: includes/settings_page.php:264
+msgid "Display name and avatar in chat"
+msgstr "Pokaż imię i awatar na czacie"
+
+#: includes/settings_page.php:264
+msgid "Display the agent and user name above each message in the chat window."
+msgstr "Pokaż agenta i nazwę użytkownika powyżej każdej wiadomości w oknie czatu."
+
+#: includes/settings_page.php:274
+msgid "Only show the chat window to users that are logged in"
+msgstr "Pokaż tylko okno czatu użytkownikom którzy są zalogowani."
+
+#: includes/settings_page.php:274
+msgid "By checking this, only users that are logged in will be able to chat with you."
+msgstr "Zaznaczając to, tylko zalogowani użytkownicy będą mogli z Tobą czatować"
+
+#: includes/settings_page.php:321
+msgid "Do not allow users to send offline messages"
+msgstr "Nie pozwalaj użytkownikom na wysyłanie wiadomości offline"
+
+#: includes/settings_page.php:321
+msgid "The chat window will be hidden when it is offline. Users will not be able to send offline messages to you"
+msgstr "To okno czatu będzie ukryte kiedy jest offline. Użytkownicy nie będą mogli wysyłać wiadomości offline do Ciebie."
+
+#: includes/settings_page.php:292
+msgid "Email Address"
+msgstr "Adres E-mail"
+
+#: includes/settings_page.php:362
+msgid "Chat box fill color"
+msgstr "Kolor wypełnienia okna czatu"
+
+#: includes/settings_page.php:368
+msgid "Chat box font color"
+msgstr "Kolor czcionki okna czatu"
+
+#: includes/settings_page.php:495
+msgid "Current Users that are Chat Agents"
+msgstr "Aktualni Użytkownicy którzy są Agentami Czatu"
+
+#: includes/settings_page.php:439
+msgid "Slide Up"
+msgstr "Przesuń w Górę"
+
+#: includes/settings_page.php:443
+msgid "Slide From The Side"
+msgstr "Przesuń z Boku"
+
+#: includes/settings_page.php:447
+msgid "Fade In"
+msgstr "Zanikanie"
+
+#: includes/settings_page.php:451
+msgid "No Animation"
+msgstr "Brak Animacji"
+
+#: includes/settings_page.php:551
+msgid "Blocked Visitors - Based on IP Address"
+msgstr "Zablokowani Odwiedzający - Według Adresów IP"
+
+#: includes/settings_page.php:552
+msgid "Enter each IP Address you would like to block on a new line"
+msgstr "Wpisz poszczególny Adres IP który chciałbyś zablokować w nowej linijce"
+
+#: includes/settings_page.php:563
+msgid "Blocking a user's IP Address here will hide the chat window from them, preventing them from chatting with you. Each IP Address must be on a new line"
+msgstr "Blokowanie Adresu IP użytkownika tutaj zablokuje dla nich okienko czatu, powstrzymując ich od czatowania z Tobą. Każdy Adres IP musi być w nowej linijce"
+
+#: includes/settings_page.php:583
+msgid "Save Settings"
+msgstr "Zapisz Ustawienia"
+
+#: wp-live-chat-support.php:1698
+msgid "update to at least version"
+msgstr "zaaktualizuj przynajmniej do wersji"
+
+#: wp-live-chat-support.php:1698
+msgid "to ensure all functionality is in working order"
+msgstr "aby być zapewnionym że wszystkie funkcjonalności pracują prawidłowo"
+
+#: wp-live-chat-support.php:1701 wp-live-chat-support.php:1721
+msgid "If you are having difficulty updating the plugin, please contact"
+msgstr "Jeśli masz problemy z aktualizacją pluginu, proszę skontaktuj się z"
+
+#: wp-live-chat-support.php:1697 wp-live-chat-support.php:1712
+msgid "Dear Pro User"
+msgstr "Drogi Użytkowniku Pro"
+
+#: includes/settings_page.php:377 wp-live-chat-support.php:779
+#: wp-live-chat-support.php:960
+msgid "Questions?"
+msgstr "Pytania?"
+
+#: includes/settings_page.php:378 wp-live-chat-support.php:779
+#: wp-live-chat-support.php:960
+msgid "Chat with us"
+msgstr "Czatuj z nami"
+
+#: includes/settings_page.php:384 wp-live-chat-support.php:838
+#: wp-live-chat-support.php:1022
+msgid "Start Chat"
+msgstr "Rozpocznij Czat"
+
+#: includes/settings_page.php:393 wp-live-chat-support.php:844
+#: wp-live-chat-support.php:1028
+msgid "Reactivating your previous chat..."
+msgstr "Reaktywowanie Twojego poprzedniego czatu..."
+
+#: includes/settings_page.php:310
+msgid "Chat offline. Leave a message"
+msgstr "Czat jest offline. Zostaw wiadomość"
+
+#: wp-live-chat-support.php:849 wp-live-chat-support.php:1033
+#: wp-live-chat-support.php:1945
+msgid "Press ENTER to send your message"
+msgstr "Naciśnij ENTER aby wysłać Twoją wiadomość"
+
+#: wp-live-chat-support.php:1821
+msgid "Status"
+msgstr "Status"
+
+#: wp-live-chat-support.php:1822
+msgid "Action"
+msgstr "Akcja"
+
+#: wp-live-chat-support.php:853 wp-live-chat-support.php:1037
+#: wp-live-chat-support.php:1959
+msgid "Send"
+msgstr "Wyślij"
+
+#: wp-live-chat-support.php:2466
+msgid "Please click 'Start Chat' to initiate a chat with an agent"
+msgstr "Proszę kliknij 'Rozpocznij Czat' aby zainicjować czat z agentem"
+
+#: wp-live-chat-support.php:2509
+msgid "Your settings have been saved."
+msgstr "Twoje ustawienia zostały zapisane"
+
+#: wp-live-chat-support.php:1792
+msgid "Please note: This window must be open in order to receive new chat notifications."
+msgstr "Zauważ: To okno musi zostać otwarte aby otrzymywać nowe powiadomienia czatu."
+
+#: wp-live-chat-support.php:1910
+msgid "End chat"
+msgstr "Zakończ czat"
+
+#: wp-live-chat-support.php:2755
+msgid "This chat has already been answered. Please close the chat window"
+msgstr "Ten czat posiada już odpowiedź. Proszę zamknij okno"
+
+#: wp-live-chat-support.php:2080
+msgid "User has opened the chat window"
+msgstr "Użytkownik otworzył okno czatu"
+
+#: wp-live-chat-support.php:2085
+msgid "User has minimized the chat window"
+msgstr "Użytkownik zminimalizował okno czatu"
+
+#: wp-live-chat-support.php:2090
+msgid "User has maximized the chat window"
+msgstr "Użytkownik zmaksymalizował okno czatu"
+
+#: wp-live-chat-support.php:2095
+msgid "User has closed and ended the chat"
+msgstr "Użytkownik zamknął i zakończył czat"
+
+#: wp-live-chat-support.php:444
+msgid "Live Chat"
+msgstr "Live Czat"
+
+#: wp-live-chat-support.php:445
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: wp-live-chat-support.php:446
+msgid "History"
+msgstr "Historia"
+
+#: wp-live-chat-support.php:447
+msgid "Missed Chats"
+msgstr "Nieodebrane Czaty"
+
+#: wp-live-chat-support.php:449 wp-live-chat-support.php:2762
+msgid "Support"
+msgstr "Wsparcie"
+
+#: wp-live-chat-support.php:1946
+msgid "Assign Quick Response"
+msgstr "Przydziel Szybką Odpowiedź"
+
+#: includes/settings_page.php:516 wp-live-chat-support.php:1946
+msgid "Select"
+msgstr "Wybierz"
+
+#: includes/settings_page.php:298
+msgid "Get offline messages with the "
+msgstr "Uzyskaj wiadomości offline za pomocą"
+
+#: includes/settings_page.php:307
+msgid "Offline text"
+msgstr "Tekst offline"
+
+#: includes/settings_page.php:312 includes/settings_page.php:396
+msgid "Edit these text fields using the "
+msgstr "Edytuj te pola tekstowe za pomocą"
+
+#: includes/settings_page.php:346
+msgid "Choose a colour scheme. Only available in the"
+msgstr "Wybierz schemat kolorów. Tylko dostępny w"
+
+#: includes/settings_page.php:346
+msgid "Pro add-on"
+msgstr "Dodatek Pro"
+
+#: includes/settings_page.php:350
+msgid "Colour Scheme 1"
+msgstr "Schemat Kolorów 1"
+
+#: includes/settings_page.php:351
+msgid "Colour Scheme 2"
+msgstr "Schemat Kolorów 2"
+
+#: includes/settings_page.php:352
+msgid "Colour Scheme 3"
+msgstr "Schemat Kolorów 3"
+
+#: includes/settings_page.php:353
+msgid "Colour Scheme 4"
+msgstr "Schemat Kolorów 4"
+
+#: includes/settings_page.php:354
+msgid "Colour Scheme 5"
+msgstr "Schemat Kolorów 5"
+
+#: includes/settings_page.php:355
+msgid "Colour Scheme 6"
+msgstr "Schemat Kolorów 6"
+
+#: includes/settings_page.php:375
+msgid "First section text"
+msgstr "Pierwsza sekcja tekstu"
+
+#: includes/settings_page.php:382
+msgid "Second section text"
+msgstr "Druga sekcja tekstu"
+
+#: includes/settings_page.php:385 wp-live-chat-support.php:841
+#: wp-live-chat-support.php:1025
+msgid "Connecting you to a sales person. Please be patient."
+msgstr "Trwa łączenie z reprezentantem handlowym. Proszę o cierpliwość."
+
+#: includes/settings_page.php:391
+msgid "Reactivate chat section text"
+msgstr "Reaktywuj sekcję tekstową czatu"
+
+#: includes/welcome_page.php:4
+msgid "Welcome to "
+msgstr "Witaj w"
+
+#: includes/welcome_page.php:8
+msgid "Provide Instant Live Chat Support!"
+msgstr "Zapewnij Natychmiastowe Wsparcie Live Czat!"
+
+#: includes/welcome_page.php:10
+msgid "How did you find us?"
+msgstr "Jak nas znalazłeś?"
+
+#: includes/welcome_page.php:15
+msgid "WordPress.org plugin repository "
+msgstr "Magazyn pluginów Wordpress.org"
+
+#: includes/welcome_page.php:18
+msgid "Search Term"
+msgstr "Wyszukaj Termin"
+
+#: includes/welcome_page.php:22
+msgid "Google or other search Engine"
+msgstr "Google albo inny Silnik wyszukiwania"
+
+#: includes/welcome_page.php:28
+msgid "Friend recommendation"
+msgstr "Rekomendacja znajomego"
+
+#: includes/welcome_page.php:34
+msgid "Other"
+msgstr "Inne"
+
+#: includes/welcome_page.php:38
+msgid "Please Explain"
+msgstr "Wyjaśnij Proszę"
+
+#: includes/welcome_page.php:47
+msgid "Submit"
+msgstr "Zatwierdź"
+
+#: includes/welcome_page.php:49
+msgid "Skip"
+msgstr "Pomiń"
+
+#: wp-live-chat-support.php:407 wp-live-chat-support.php:2233
+msgid "Please click \\'Start Chat\\' to initiate a chat with an agent"
+msgstr "Proszę kliknij \\'Rozpocznij Czat\\' aby zainicjować rozmowę z agentem"
+
+#: wp-live-chat-support.php:786 wp-live-chat-support.php:967
+msgid "Start Live Chat"
+msgstr "Rozpocznij Live Czat"
+
+#: wp-live-chat-support.php:1698
+msgid "You are using an outdated version of <strong>WP Live Chat Support Pro</strong>. Please"
+msgstr "Używaj nieaktualnej wersji <strong> Wsparcia WP Live Czat Pro </strong>. Proszę"
+
+#: wp-live-chat-support.php:1699
+msgid "You're live chat box on your website has been temporarily disabled until the Pro plugin has been updated. This is to ensure a smooth and hassle-free user experience for both yourself and your visitors."
+msgstr "Twoje okno live czatu na Twojej stronie zostało tymczasowo wyłączone dopóki plugin Pro nie zostanie zaaktualizowany. Wszystko to aby zapewnić płynność i bezproblematyczne działanie dla Ciebie oraz Twoich odwiedzających."
+
+#: wp-live-chat-support.php:1700 wp-live-chat-support.php:1720
+msgid "You can update your plugin <a href='./update-core.php'>here</a>, <a href='./plugins.php'>here</a> or <a href='http://wp-livechat.com/get-updated-version/' target='_BLANK'>here</a>."
+msgstr "Możesz zaaktualizować plugin <a href='./update-core.php'>here</a>, <a href='./plugins.php'>here</a> or <a href='http://wp-livechat.com/get-updated-version/' target='_BLANK'>tutaj</a>."
+
+#: wp-live-chat-support.php:1713
+msgid "You are using an outdated version of <strong>WP Live Chat Support Pro</strong>."
+msgstr "Używasz nieaktualnej wersji <strong> Wsparcia WP Live Czat Pro</strong>."
+
+#: wp-live-chat-support.php:1715
+msgid "Please update to the latest version of WP Live Chat Support Pro"
+msgstr "Proszę zaaktualizuj do najnowszej wersji Wsparcie WP Live Czat Pro"
+
+#: wp-live-chat-support.php:1829 wp-live-chat-support.php:2782
+#: wp-live-chat-support.php:2783
+msgid "With the Pro add-on of WP Live Chat Support, you can"
+msgstr "Z dodatkiem Pro Wsparcia WP live Czat, możesz"
+
+#: wp-live-chat-support.php:1832 wp-live-chat-support.php:2782
+msgid "with your online visitors with the click of a button."
+msgstr "z Twoimi odwiedzającymi online za kliknięciem przycisku."
+
+#: wp-live-chat-support.php:1896
+msgid "Previous"
+msgstr "Poprzednie"
+
+#: wp-live-chat-support.php:1898
+msgid "Active"
+msgstr "Aktywne"
+
+#: wp-live-chat-support.php:1907
+msgid "Chat with"
+msgstr "Czatuj z"
+
+#: wp-live-chat-support.php:1946
+msgid "Add Quick Responses to your Live Chat"
+msgstr "Dodaj Szybkie Odpowiedzi do Twojego Live Czatu"
+
+#: wp-live-chat-support.php:1946
+msgid "Pro version only"
+msgstr "Tylko wersja Pro"
+
+#: wp-live-chat-support.php:1957
+msgid "type here..."
+msgstr "wpisz tutaj..."
+
+#: wp-live-chat-support.php:2362
+msgid "WP Live Chat History"
+msgstr "Historia WP Live Czatu"
+
+#: wp-live-chat-support.php:2369 wp-live-chat-support.php:2391
+msgid "This option is only available in the "
+msgstr "Ta opcja jest dostępna tylko w"
+
+#: wp-live-chat-support.php:2375
+msgid "WP Live Chat Missed Chats"
+msgstr "Nieodebrane Czaty WP Live Czat"
+
+#: wp-live-chat-support.php:2383
+msgid "WP Live Chat Offline Messages"
+msgstr "Wiadomości Offline WP Live Czat"
+
+#: wp-live-chat-support.php:2388
+msgid "Please update to the latest version of WP Live Chat Support Pro to start recording any offline messages."
+msgstr "Prosze zaaktualizuj Wsparcie WP Live Czat Pro do najnowszej wersji aby zacząć odnotowywać wiadomości offline."
+
+#: wp-live-chat-support.php:2524
+msgid "Thank You for your feedback!"
+msgstr "Dziękujemy za feedback!"
+
+#: wp-live-chat-support.php:2528 wp-live-chat-support.php:2541
+msgid "Thank you for your feedback. We will be in touch soon"
+msgstr "Dziękujemy za feedback. Wkrótce będziemy w kontakcie"
+
+#: wp-live-chat-support.php:2544
+msgid "There was a problem sending your feedback. Please log your feedback on "
+msgstr "Nastąpił problem podczas wysyłania Twojego feedbacku. Proszę zaloguj swój feedback"
+
+#: wp-live-chat-support.php:2578
+msgid "WPLC: set_time_limit() is not enabled on this server. You may experience issues while using WP Live Chat Support as a result of this. Please get in contact your host to get this function enabled."
+msgstr "WPLC:set_time_limit()nie jest włączony na Twoim serwerze. Z tego powodu mozesz doświadczać problemów podczas używania Wsparcia WP Live Czat. Skontaktuj się prosze ze swoim hostem aby uruchomić tą funkcję."
+
+#: wp-live-chat-support.php:2584
+msgid "WPLC: Safe mode is enabled on this server. You may experience issues while using WP Live Chat Support as a result of this. Please contact your host to get safe mode disabled."
+msgstr "WPLC:Safe mode jest włączony na Twoim serwerze. Z tego powodu mozesz doświadczać problemów podczas używania Wsparcia WP Live Czat. Skontaktuj się prosze ze swoim hostem aby uruchomić safe mode."
+
+#. #-#-#-#-#  tmp-wp-live-chat-support.pot (WP Live Chat Support 5.0.10) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: wp-live-chat-support.php:2730
+msgid "WP Live Chat Support"
+msgstr "Wsparcie WP Live Czat"
+
+#: wp-live-chat-support.php:2733
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: wp-live-chat-support.php:2735
+msgid "Getting started? Read through some of these articles to help you along your way."
+msgstr "Zaczynasz? Przeczytaj dokładnie niektóre z tych artykułów aby zapewnić sobie szybki start."
+
+#: wp-live-chat-support.php:2736
+msgid "Documentation:"
+msgstr "Dokumentacja:"
+
+#: wp-live-chat-support.php:2738
+msgid "Minimum System Requirements"
+msgstr "Minimalne Wymagania Systemowe"
+
+#: wp-live-chat-support.php:2744
+msgid "How do I check for JavaScript errors on my site?"
+msgstr "Jak sprawdzić czy na mojej stronie są błędy JavaScript?"
+
+#: wp-live-chat-support.php:2740
+msgid "What are Quick Responses?"
+msgstr "Co to są Szybkie Odpowiedzi?"
+
+#: wp-live-chat-support.php:2741
+msgid "Can I use this plugin on my multi-site?"
+msgstr "Czy mogę używać tego pluginu na mojej wielokrotnej stronie?"
+
+#: wp-live-chat-support.php:2742
+msgid "How do I disable APC Object Cache?"
+msgstr "Jak wyłączyć Pamięć Podręczną Obiektu APC?"
+
+#: wp-live-chat-support.php:2743
+msgid "Do you have a mobile app?"
+msgstr "Czy posiadacie aplikację mobilną?"
+
+#: wp-live-chat-support.php:2739
+msgid "Do I have to be logged into the dashboard to chat with visitors?"
+msgstr "Czy muszę być zalogowanym do panelu aby czatować z odwiedzającymi?"
+
+#: wp-live-chat-support.php:2748
+msgid "Troubleshooting"
+msgstr "Rozwiązywanie problemów"
+
+#: wp-live-chat-support.php:2751
+msgid "Common issues:"
+msgstr "Częste problemy:"
+
+#: wp-live-chat-support.php:2753
+msgid "The chat box doesnt show up"
+msgstr "Moje okno czatu się nie pokazuje"
+
+#: wp-live-chat-support.php:2754
+msgid "The chat window disappears when I logout or go offline"
+msgstr "Okno czatu znika gdu się wyloguję lub pójdę offline"
+
+#: wp-live-chat-support.php:2756
+msgid "Messages only show when I refresh the chat window"
+msgstr "Wiadomości pokazuja się tylko kiedy odświeżam okno czatu"
+
+#: wp-live-chat-support.php:2757
+msgid "I'm not getting any notifications of a new chat"
+msgstr "Nie dostaję żadnych powiadomien na nowym czacie"
+
+#: wp-live-chat-support.php:2758
+msgid "The chat window never goes offline"
+msgstr "Okno czatu nigdy nie przechodzi w tryb offline"
+
+#: wp-live-chat-support.php:2764
+msgid "Still need help? Use one of these links below."
+msgstr "Nadal potrzebujesz pomocy? Użyj jednego z linków poniżej."
+
+#: wp-live-chat-support.php:2766
+msgid "Support forum"
+msgstr "Forum wsparcia"
+
+#: wp-live-chat-support.php:2767
+msgid "Contact us"
+msgstr "Skontaktuj się z nami"
+
+#: includes/settings_page.php:535
+msgid "Author"
+msgstr "Autor"
+
+#: wp-live-chat-support.php:1819
+msgid "Type"
+msgstr "Typ"
+
+#: wp-live-chat-support.php:450
+msgid "Extensions"
+msgstr "Rozszerzenia"
+
+#: wp-live-chat-support.php:1818
+msgid "Time"
+msgstr "Czas"
+
+#: includes/settings_page.php:503
+msgid "Online"
+msgstr "Online"
+
+#: includes/settings_page.php:514
+msgid "Add New Agent"
+msgstr "Dodaj nowego agenta"
+
+#: includes/settings_page.php:523
+msgid "Administrator"
+msgstr "Administrator"
+
+#: includes/settings_page.php:529
+msgid "Editor"
+msgstr "Edytor"
+
+#: includes/settings_page.php:539
+msgid "Add Agent"
+msgstr "Dodaj Agenta"
+
+#: includes/welcome_page.php:6
+msgid "Version 5"
+msgstr "Wersja 5"
+
+#: wp-live-chat-support.php:1716
+msgid "Version 5.0.1"
+msgstr "Wersja 5.0.1"
+
+#: wp-live-chat-support.php:1748
+msgid "Congratulations"
+msgstr "Gratulacje"
+
+#: wp-live-chat-support.php:1755
+msgid "Hide"
+msgstr "Ukryj"
+
+#. #-#-#-#-#  tmp-wp-live-chat-support.pot (WP Live Chat Support 5.0.10) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-wp-live-chat-support.pot (WP Live Chat Support 5.0.10) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.wp-livechat.com"
+msgstr "http://www.wp-livechat.com"
+
+#: wp-live-chat-support.php:2803
+msgid "WP Live Chat Support is a product of"
+msgstr "WP Live Chat Support to produkt"
+
+#: wp-live-chat-support.php:2798
+msgid "Thank you for using <a href=\"%1$s\" target=\"_blank\">WP Live Chat Support</a>! Please <a href=\"%2$s\" target=\"_blank\">rate us</a> on <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+msgstr "Dziękujemy za korzystanie z <a href=\"%1$s\" target=\"_blank\">WP Live Chat Support</a>! Proszę <a href=\"%2$s\" target=\"_blank\"> oceń nas </a> na <a href=\"%2$s\" target=\"_blank\">WordPress.org</a>"
+
+#: wp-live-chat-support.php:2784
+msgid "for only $19.95 once off."
+msgstr "za jedyne $19.95."
+
+#: wp-live-chat-support.php:2784
+msgid "Add unlimited agents"
+msgstr "Dodaj nieograniczoną liczbę agentów"
+
+#: wp-live-chat-support.php:2783
+msgid "Multiple Chats"
+msgstr "wiele czatów"
+
+#: wp-live-chat-support.php:2750
+msgid "WP Live Chat Support  has a diverse and wide range of features which may, from time to time, run into conflicts with the thousands of themes and other plugins on the market."
+msgstr "WP Live Chat Support ma zróżnicowaną i szeroką gamę funkcji, które mogą co jakiś czas powodować konflikt z tysiącami tematów i innych wtyczek dostępnych na rynku."
+
+#: wp-live-chat-support.php:2633
+msgid "Create and send newsletters, automatic post notifications and autoresponders that are modern and beautiful with Nifty Newsletters."
+msgstr "Twórz i wysyłaj biuletyny, automatyczne powiadomienia o postach i autorespondery, które są nowoczesne i piękne dzięki Nifty Newsletters."
+
+#: wp-live-chat-support.php:2628 wp-live-chat-support.php:2629
+#: wp-live-chat-support.php:2630 wp-live-chat-support.php:2635
+msgid "Nifty Newsletters"
+msgstr "Nifty Newsletters"
+
+#: wp-live-chat-support.php:2624 wp-live-chat-support.php:2635
+msgid "Get this Plugin"
+msgstr "Pobierz tę wtyczkę"
+
+#: wp-live-chat-support.php:2622
+msgid "The easiest to use Help Desk & Support Ticket plugin. Create a support help desk quickly and easily with Sola Support Tickets."
+msgstr "Najłatwiejszy w użyciu dodatkowy plugin pomocy technicznej. Stwórz biuro pomocy technicznej szybko i łatwo z pomocą biletów do pomocy technicznej firmy Sola."
+
+#: wp-live-chat-support.php:2617 wp-live-chat-support.php:2618
+#: wp-live-chat-support.php:2619 wp-live-chat-support.php:2624
+msgid "Sola Support Tickets"
+msgstr "Wsparcie Sola Tickets"
+
+#: wp-live-chat-support.php:2606
+msgid "Suggested Plugins"
+msgstr "Sugerowane wtyczki"
+
+#: wp-live-chat-support.php:2606
+msgid "Add-ons"
+msgstr "Dodatki"
+
+#: includes/settings_page.php:569
+msgid "Enable Encryption"
+msgstr "Włącz szyfrowanie"
+
+#: includes/settings_page.php:566
+msgid "Chat Encryption"
+msgstr "Szyfrowanie czatu"
+
+#: wp-live-chat-support.php:1247
+msgid "A new chat has been received. Please go the 'Live Chat' page to accept the chat"
+msgstr "Został odebrany nowy czat. Przejdź do strony 'Live Chat;, aby go zaakceptować"
+
+#: wp-live-chat-support.php:1752
+msgid "You may <a href='?page=wplivechat-menu-settings' target='_BLANK'>modify your chat box settings here."
+msgstr "Możesz <a href='?page=wplivechat-menu-settings' target='_BLANK'>zmodyfikować ustawienia pola czatu."
+
+#: wp-live-chat-support.php:1750
+msgid "The live chat box has automatically been enabled on your website."
+msgstr "Pole czatu na żywo zostało automatycznie włączone w tej witrynie."
+
+#: wp-live-chat-support.php:1833 wp-live-chat-support.php:1835
+#: wp-live-chat-support.php:2782 wp-live-chat-support.php:2783
+msgid "Buy the Pro add-on now for only $19.95 once off."
+msgstr "Kup teraz dodatek Pro za jedyne $19.95."
+
+#: wp-live-chat-support.php:1831 wp-live-chat-support.php:2782
+msgid "initiate chats"
+msgstr "Inicjuj czaty"
+
+#: wp-live-chat-support.php:1820
+msgid "Data"
+msgstr "Dane"
+
+#: wp-live-chat-support.php:1817
+msgid "Visitor"
+msgstr "Gość"
+
+#: wp-live-chat-support.php:1807
+msgid "Agent(s) online"
+msgstr "Agent jest dostępny"
+
+#: wp-live-chat-support.php:2369
+msgid "Get it now for only $19.95"
+msgstr "Kup teraz za jedyne $19.95"
+
+#. Author of the plugin/theme
+msgid "WP-LiveChat"
+msgstr "WP-LiveChat"
+
+#. Description of the plugin/theme
+msgid "The easiest to use website live chat plugin. Let your visitors chat with you and increase sales conversion rates with WP Live Chat Support. No third party connection required!"
+msgstr "Najłatwiejszy w obsłudze plugin Live Chat. Pozwól odwiedzającym rozmawiać z Tobą i zwiększyć współczynniki konwersji sprzedaży dzięki wsparciu WP Live Chat. Żadne połączenie z osobą trzecią nie jest wymagane!"
+
+#: wp-live-chat-support.php:2784
+msgid " with the Pro add-on of WP Live Chat Support"
+msgstr "z dodatkiem płatnej wersji WP Live Chat Support."
+
+#: wp-live-chat-support.php:2783
+msgid "accept and handle multiple chats."
+msgstr "akceptuj i prowadź wiele czatów w jednym czasie."
+
+#: wp-live-chat-support.php:2782
+msgid "Initiate Chats"
+msgstr "Zainicjuj czaty"
+
+#: includes/settings_page.php:540
+msgid "Add as many agents as you need with the "
+msgstr "Dodaj tylu agentów ilu potrzebujesz z"
+
+#: includes/settings_page.php:540
+msgid "Pro version for only $19.95 once off."
+msgstr "Wersja profesjonalna tylko 19.95$, na zawsze."
+
+#: includes/settings_page.php:569
+msgid "All messages will be encrypted when being sent to and from the user and agent."
+msgstr "Wszystkie wiadomości zostaną zaszyfrowane podczas przesyłania od użytkownika do agenta i z powrotem."
+
+#: includes/settings_page.php:431
+msgid "Choose an animation. Only available in the"
+msgstr "Wybierz animacje. Dostępne tylko w"
+
+#: includes/settings_page.php:432
+msgid "Pro"
+msgstr "Profesjonalna"
+
+#: wp-live-chat-support.php:1830 wp-live-chat-support.php:2782
+msgid "see who's online and initiate chats"
+msgstr "zobacz kto jest online i rozpocznij czaty"
+
+#: wp-live-chat-support.php:1717
+msgid "to ensure everything is working correctly."
+msgstr "by upewnić się, że wszystko działa prawidłowo."
+
+#: wp-live-chat-support.php:1753
+msgid "Experiencing issues?"
+msgstr "Doświadczasz problemów?"
+
+#: wp-live-chat-support.php:1753
+msgid "Visit our troubleshooting section."
+msgstr "Odwiedź naszą sekcję rozwiązywania problemów."
+
+#: wp-live-chat-support.php:1749
+msgid "You are now accepting live chat requests on your site."
+msgstr "Teraz akceptujesz prośby czatu na żywo na twojej stronie"
+
+#: wp-live-chat-support.php:1751
+msgid "Chat notifications will start appearing once visitors send a request."
+msgstr "Powiadomienia z czatu zaczną się pojawiać kiedy użytkownik wyśle prośbę."
+
+#: wp-live-chat-support.php:1245
+msgid "New chat received"
+msgstr "Otrzymano nowy czat"
+
+#: includes/settings_page.php:573
+msgid "Encrypt your chat messages in the "
+msgstr "Zaszyfruj swoją wiadomość w "
+
+#: wp-live-chat-support.php:1789
+msgid "Chat Dashboard"
+msgstr "Tablica Czatu"
+
+#: wp-live-chat-support.php:1802
+msgid "Visitors online"
+msgstr "Użytkowników online"
+
+#: wp-live-chat-support.php:2391
+msgid "Get it now for only $19.95."
+msgstr "Pobierz teraz za $19.95."
+
+#: ajax_new.php:214
+msgid "Admin has closed and ended the chat"
+msgstr "Admin zakończył i zamknął czat"
+
+#: ajax_new.php:238
+msgid "There is No Answer. Please Try Again Later"
+msgstr "Nie ma odpowiedzi. Proszę spróbuj ponownie później"
+
+#: functions.php:467
+msgid "Initiate Chat"
+msgstr "Zainicjuj Czat"
+
+#: functions.php:288 functions.php:446 wp-live-chat-support.php:1902
+msgid "IP Address not recorded"
+msgstr "Adres IP nie odnotowany"
+
+#: functions.php:290 functions.php:448 wp-live-chat-support.php:1904
+msgid "Whois for"
+msgstr "Whois dla"
+
+#: functions.php:326 wp-live-chat-support.php:1927
+msgid "Site Info"
+msgstr "Informacja o stronie"
+
+#: functions.php:328 wp-live-chat-support.php:1929
+msgid "Chat initiated on:"
+msgstr "Czat zainicjowany na:"
+
+#: functions.php:332 wp-live-chat-support.php:1933
+msgid "Advanced Info"
+msgstr "Zaawansowane informacje"
+
+#: functions.php:334 wp-live-chat-support.php:1935
+msgid "Browser:"
+msgstr "Przeglądarka:"
+
+#: functions.php:335 wp-live-chat-support.php:1936
+msgid "IP Address:"
+msgstr "Adres IP:"
+
+#: functions.php:271
+msgid "No chat sessions available at the moment"
+msgstr "Aktualnie nie ma dostępnych żadnych sesji czatów"
+
+#: functions.php:273
+msgid "Active Chats"
+msgstr "Aktywne Czaty"
+
+#: functions.php:295 functions.php:453 functions.php:1036
+msgid "Accept Chat"
+msgstr "Zaakceptuj Czat"
+
+#: functions.php:297 functions.php:455
+msgid "Incoming Chat"
+msgstr "Czat Przychodzący"
+
+#: functions.php:297 functions.php:455
+msgid "You have an incoming chat."
+msgstr "Masz przychodzący czat."
+
+#: functions.php:301
+msgid "Open Chat Window"
+msgstr "Otwórz Okno Czatu"
+
+#: functions.php:303 functions.php:464
+msgid "Chat Active"
+msgstr "Czat Aktywny"
+
+#: functions.php:303 functions.php:464
+msgid "This chat is active"
+msgstr "Ten czat jest aktywny"
+
+#: functions.php:1254 includes/settings_page.php:184
+#: wp-live-chat-support.php:820 wp-live-chat-support.php:1003
+msgid "Name"
+msgstr "Imię"
+
+#: functions.php:1255 wp-live-chat-support.php:821
+#: wp-live-chat-support.php:1004
+msgid "Email"
+msgstr "E-mail"
+
+#: functions.php:1253
+msgid "Date"
+msgstr "Data"
+
+#: includes/settings_page.php:11
+msgid "WP Live Chat Support Settings"
+msgstr "Ustawienia Wsparcia WP Live Czat"
+
+#: includes/settings_page.php:25
+msgid "General Settings"
+msgstr "Ustawienia Ogólne"
+
+#: includes/settings_page.php:26
+msgid "Chat Box"
+msgstr "Okno Czatu"
+
+#: includes/settings_page.php:27 includes/settings_page.php:288
+msgid "Offline Messages"
+msgstr "Wiadomości Offline"
+
+#: includes/settings_page.php:28 includes/settings_page.php:342
+msgid "Styling"
+msgstr "Stylizacja"
+
+#: includes/settings_page.php:34
+msgid "Main Settings"
+msgstr "Ustawienia Główne"
+
+#: includes/settings_page.php:37
+msgid "Chat enabled"
+msgstr "Czat Włączony"
+
+#: includes/settings_page.php:40
+msgid "Yes"
+msgstr "Tak"
+
+#: includes/settings_page.php:41
+msgid "No"
+msgstr "NIe"
+
+#: includes/settings_page.php:46
+msgid "Choose when I want to be online"
+msgstr "Wybierz kiedy mam być online"
+
+#: includes/settings_page.php:61
+msgid "Hide Chat"
+msgstr "Ukryj Czat"
+
+#: includes/settings_page.php:61
+msgid "Hides chat for 24hrs when user clicks X"
+msgstr "Ukrywa czat na 24 godziny kiedy użytkownik kliknie X"
+
+#: includes/settings_page.php:77
+msgid "Require Name And Email"
+msgstr "Wymagaj Imienia Oraz E-maila"
+
+#: includes/settings_page.php:77
+msgid "Users will have to enter their Name and Email Address when starting a chat"
+msgstr "Użytkownicy będą musieli dodać ich Imię oraz adres E-mail kiedy używają czatu"
+
+#: includes/settings_page.php:85
+msgid "Input Field Replacement Text"
+msgstr "Wpisz Pole Zastępcze Tekstu"
+
+#: includes/settings_page.php:85
+msgid "This is the text that will show in place of the Name And Email fields"
+msgstr "To jest tekst który będzie widoczny na miejscu pól Imienia Oraz E-mail"
+
+#: includes/settings_page.php:93
+msgid "Use Logged In User Details"
+msgstr "Użyj Szczegółów Zalogowanych Użytkowników"
+
+#: includes/settings_page.php:93
+msgid "A user's Name and Email Address will be used by default if they are logged in."
+msgstr "Imię oraz Adres E-mail będą używane domyślnie jeśli są zalogowani."
+
+#: includes/settings_page.php:101
+msgid "Enable On Mobile Devices"
+msgstr "Włącz Dla Urządzeń Mobilnych"
+
+#: includes/settings_page.php:101
+msgid "Disabling this will mean that the Chat Box will not be displayed on mobile devices. (Smartphones and Tablets)"
+msgstr "Wyłączenie tego spowoduje że Okno Czatu nie będzie pokazywane na urządzeniach mobilnych. (Smartfonach i Tabletach)"
+
+#: includes/settings_page.php:109
+msgid "Record a visitor's IP Address"
+msgstr "Odnotowuj Adres IP odwiedzającego"
+
+#: includes/settings_page.php:109
+msgid "Disable this to enable anonymity for your visitors"
+msgstr "Wyłącz to aby włączyć anonimowość dla Twoich odwiedzających"
+
+#: includes/settings_page.php:125
+msgid "Show the chat window on the following pages. Leave blank to show on all. (Use comma-separated Page ID's)"
+msgstr "Pokaż okno czatu na następujących stronach. Zostaw puste aby pokazywać na wszystkich. (Użyj ID Stron oddzielonych przecinkami)"
+
+#: functions.php:1256
+msgid "URL"
+msgstr "Adres URL"
+
+#: includes/feedback-page.php:37 wp-live-chat-support.php:448
+msgid "Feedback"
+msgstr "Feedback"
+
+#: functions.php:878
+msgid "complete"
+msgstr "zakończono"
+
+#: functions.php:881
+msgid "pending"
+msgstr "w trakcie"
+
+#: functions.php:884
+msgid "active"
+msgstr "aktywne"
+
+#: functions.php:887
+msgid "deleted"
+msgstr "usunięte"
+
+#: functions.php:890
+msgid "browsing"
+msgstr "przeglądanie"
+
+#: functions.php:893
+msgid "requesting chat"
+msgstr "prośba czatu"
+
+#: functions.php:896
+msgid "Chat Ended - User still browsing"
+msgstr "Czat Zakończony - Użytkownik wciąż przegląda"
+
+#: functions.php:899
+msgid "User is browsing but doesn't want to chat"
+msgstr "Użytkownik przegląda ale nie chce czatować"
+
+#: functions.php:1036
+msgid "Get Pro Add-on to accept more chats"
+msgstr "Kup Dodatek Pro aby akceptować więcej czatów"
+
+#: functions.php:1283
+msgid "You have not missed any chat requests."
+msgstr "Nie ominąłeś żadnych próśb czatu."
+
+#: includes/feedback-page.php:7
+msgid "WP Live Chat Support Feedback"
+msgstr "Feedback Wsparcia WP Live Czat"
+
+#: includes/feedback-page.php:8
+msgid "We'd love to hear your comments and/or suggestions"
+msgstr "Chcielibyśmy poznać Twoje zdanie i/oraz sugestie."
+
+#: includes/feedback-page.php:13
+msgid "Your Name"
+msgstr "Twoje Imię"
+
+#: includes/feedback-page.php:21
+msgid "Your Email"
+msgstr "Twój E-mail"
+
+#: includes/feedback-page.php:29
+msgid "Your Website"
+msgstr "Twoja Strona"
+
+#: includes/feedback-page.php:48
+msgid "Send Feedback"
+msgstr "Wyślij Feedback"
+
+#: includes/settings_page.php:29
+msgid "Agents"
+msgstr "Agenci"
+
+#: includes/settings_page.php:52 includes/settings_page.php:67
+#: includes/settings_page.php:131 includes/settings_page.php:146
+#: includes/settings_page.php:190 includes/settings_page.php:206
+#: includes/settings_page.php:222 includes/settings_page.php:238
+#: includes/settings_page.php:255
+msgid "available in the"
+msgstr "dostępne w"
+
+#: includes/settings_page.php:53 includes/settings_page.php:68
+#: includes/settings_page.php:132 includes/settings_page.php:147
+#: includes/settings_page.php:191 includes/settings_page.php:207
+#: includes/settings_page.php:223 includes/settings_page.php:239
+#: includes/settings_page.php:256 includes/settings_page.php:299
+#: includes/settings_page.php:313 includes/settings_page.php:397
+#: includes/settings_page.php:574 wp-live-chat-support.php:2369
+#: wp-live-chat-support.php:2391
+msgid "Pro Add-on"
+msgstr "Dodatek Pro"
+
+#: includes/settings_page.php:54 includes/settings_page.php:69
+#: includes/settings_page.php:133 includes/settings_page.php:148
+#: includes/settings_page.php:192 includes/settings_page.php:208
+#: includes/settings_page.php:224 includes/settings_page.php:240
+#: includes/settings_page.php:257
+msgid "only"
+msgstr "tylko"
+
+#: functions.php:488
+msgid "New"
+msgstr "Nowość"
+
+#: functions.php:490
+msgid "Returning"
+msgstr "Powracający"
+
+#: functions.php:462
+msgid "Open Chat"
+msgstr "Otwórz czat"
+
+#: includes/settings_page.php:31
+msgid "Encryption"
+msgstr "Szyfrowanie"
+
+#: includes/settings_page.php:30
+msgid "Blocked Visitors"
+msgstr "Zablokowani odwiedzający"
+
+#: includes/settings_page.php:140
+msgid "Exclude chat window on the following pages"
+msgstr "Wyklucz okna czatu na następnych stronach"
+
+#: includes/settings_page.php:125
+msgid "Include chat window on the following pages"
+msgstr "Dołącz okna czatów na następnych stronach"
+
+#: includes/settings_page.php:117
+msgid "Disable this to mute the sound that is played when a new chat message is received"
+msgstr "Wyłącz tę opcję, aby wyciszyć dźwięk, który jest odtwarzany po odebraniu nowej wiadomości czatowej"
+
+#: includes/settings_page.php:117
+msgid "Play a sound when a new message is received"
+msgstr "Odtwarzanie dźwięku po odebraniu nowej wiadomości"
+
+#: includes/settings_page.php:46
+msgid "Checking this will allow you to change your status to Online or Offline on the Live Chat page."
+msgstr "Zaznaczenie tej pozycji umożliwi ci zmianę swojego statusu na Online lub Offline na stronie Live Chat."

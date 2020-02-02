@@ -1,0 +1,80 @@
+# Copyright (C) 2019 Claudio Sanches
+# This file is distributed under the GPL-3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: DOMINATION! Let WooCommerce take control of your "
+"dashboard 1.2.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/woocommerce-domination\n"
+"POT-Creation-Date: 2019-09-20 23:13:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/admin/class-wc-domination-admin.php:57
+#: includes/class-wc-domination-admin-bar.php:53
+msgid "Reports"
+msgstr ""
+
+#: includes/admin/class-wc-domination-admin.php:60
+#: includes/admin/class-wc-domination-admin.php:194
+#: includes/class-wc-domination-admin-bar.php:67
+msgid "Customers"
+msgstr ""
+
+#: includes/class-wc-domination-admin-bar.php:30
+msgid "Orders"
+msgstr ""
+
+#: includes/class-wc-domination-admin-bar.php:35
+#. translators: %d: amount of orders
+msgid "%d order pending"
+msgid_plural "%d orders pending"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wc-domination-admin-bar.php:55
+msgid "view reports"
+msgstr ""
+
+#: includes/class-wc-domination.php:72
+#. translators: %s: WooCommerce URL
+msgid "DOMINATION! is inactive."
+msgstr ""
+
+#: includes/class-wc-domination.php:72
+msgid "You must install and active the %s 2.1 or later for the DOMINATION! work."
+msgstr ""
+
+#: includes/class-wc-domination.php:72
+msgid "WooCommerce"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DOMINATION! Let WooCommerce take control of your dashboard"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/claudiosanches/woocommerce-domination"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allows the WooCommerce take the control of your WordPress admin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Claudio Sanches"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://claudiosanches.com"
+msgstr ""
+
+#: includes/admin/class-wc-domination-admin.php:47
+msgctxt "Admin menu name"
+msgid "Orders"
+msgstr ""

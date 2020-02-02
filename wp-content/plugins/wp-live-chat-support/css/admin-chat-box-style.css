@@ -1,0 +1,42 @@
+#wpcontent {
+  margin-left: 10px;
+}
+
+.typing_indicator {
+  height: 11px;
+  margin-left: 10px;
+  font-style: italic;
+  color: grey !important;
+}
+
+.admin_chat_box_inner span.timedate {
+  clear: both;
+  position: relative;
+  font-size: 0.8em;
+  font-style: italic
+}
+
+.wplc-msg-float-left {
+  left: 32px;
+  float: left;
+}
+
+.wplc-msg-float-right {
+  right: 32px;
+  float: right;
+}
+
+.typing_indicator {
+  background: inherit !important;
+}
+
+.wplc-admin-message-avatar,
+.wplc-user-message-avatar {
+  max-width: 29px;
+  max-height: 29px;
+}
+
+.admin_chat_box_inner_bottom .typing_indicator {
+  background-color: transparent !important;
+  color: #333 !important;
+}

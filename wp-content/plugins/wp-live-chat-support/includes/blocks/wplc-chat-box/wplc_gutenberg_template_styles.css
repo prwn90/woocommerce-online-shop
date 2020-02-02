@@ -1,0 +1,382 @@
+/* WPLC Gutenber Template Styles */
+
+#wplc-chat-box {
+  width: fit-content;
+  position: relative;
+  cursor: pointer;
+}
+
+.wplc_block {
+  position: relative;
+  display: inline-block;
+  background: #32373c;
+  color: #eee;
+  border-radius: 3px;
+  height: 35px;
+  padding-left: 45px;
+  margin: 5px 0 5px 0;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  border-bottom: 0px solid #111;
+  font-size: 17px;
+  line-height: 35px;
+}
+
+.wplc_block:hover {
+  transform: translateY(-2px);
+}
+
+.wplc_block:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.wplc_block:hover:after {
+  height: 3px;
+  opacity: .2;
+}
+
+#wplc-chat-box.disabled:first-child:after {
+  content: "Disabled";
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #0596d4;
+  opacity: .9;
+}
+
+.wplc_block_logo {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 0;
+  background: #e7e7e7;
+  display: inline-block;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-color: #0596d4 !important;
+  transition: all .2s ease-in-out;
+  box-sizing: border-box;
+  box-shadow: inset -2px 0px 0px 0px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: inset -2px 0px 0px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: inset -2px 0px 0px 0px rgba(0, 0, 0, 0.28);
+}
+
+.wplc_block_text {
+  display: inline-block;
+  height: 100%;
+  margin-right: 7px;
+}
+
+.wplc_block_icon {
+  height: 100%;
+  width: 35px;
+  background: transparent;
+  display: inline-block;
+}
+
+.wplc_block_icon.disabled {
+  display: none;
+}
+
+
+/* Block size styles: small */
+
+.wplc_block.sm {
+  height: 25px;
+  line-height: 25px;
+  padding-left: 30px;
+  font-size: 12px;
+}
+
+.wplc_block.sm:hover:after {
+  height: 2px;
+  opacity: .2;
+}
+
+.wplc_block.sm .wplc_block_logo {
+  height: 25px;
+  width: 25px;
+}
+
+.wplc_block.sm .wplc_block_text {
+  margin-right: 7px;
+}
+
+.wplc_block.sm .wplc_block_icon {
+  margin-right: 7px;
+  width: 13px;
+}
+
+
+/* Block size styles: large */
+
+.wplc_block.lg {
+  height: 80px;
+  line-height: 80px;
+  padding-left: 100px;
+  font-size: 25px;
+}
+
+.wplc_block.lg:hover:after {
+  height: 6px;
+  opacity: .2;
+}
+
+.wplc_block.lg .wplc_block_logo {
+  height: 80px;
+  width: 80px;
+}
+
+.wplc_block.lg .wplc_block_text {
+  margin-right: 13px;
+}
+
+.wplc_block.lg .wplc_block_icon {
+  margin-right: 13px;
+}
+
+
+/* Custom Templates: Default - Light */
+
+.wplc_block.light {
+  background: #ECEFF1;
+  color: #555;
+  border: 1px solid #ccc;
+}
+
+
+/*  Custom Templates: Circle */
+
+.wplc_block.circle {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  position: relative;
+}
+
+.wplc_block.circle:after {
+  display: none;
+}
+
+.wplc_block.circle .wplc_block_logo {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.wplc_block.sm.circle {
+  background: transparent;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+}
+
+.wplc_block.sm.circle:after {
+  display: none;
+}
+
+.wplc_block.sm.circle .wplc_block_logo {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.wplc_block.lg.circle {
+  background: transparent;
+  width: 65px;
+  height: 65px;
+  padding: 0;
+}
+
+.wplc_block.lg.circle:after {
+  display: none;
+}
+
+.wplc_block.lg.circle .wplc_block_logo {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+
+/* Custom Templates: Tooltip */
+
+.wplc_block:hover .wplc_block_tooltip {
+  top: -62px;
+  background: #333;
+  color: #fff;
+  opacity: .85;
+  display: inline-block;
+}
+
+.wplc_block_tooltip {
+  min-width: 100px;
+  border-radius: 3px;
+  color: transparent;
+  position: absolute;
+  line-height: 25px;
+  padding: 10px;
+  top: -50px;
+  left: 0;
+  opacity: 0;
+  transition: opacity .2s ease-in-out, top .2s ease-in-out;
+}
+
+.wplc_block.circle:hover .wplc_block_tooltip {
+  top: -75px;
+  display: block;
+}
+
+.wplc_block.circle.sm:hover .wplc_block_tooltip {
+  top: -50px;
+}
+
+.wplc_block.circle.lg:hover .wplc_block_tooltip {
+  top: -100px;
+}
+
+
+/* Custom Templates: Chat Bubble */
+
+.wplc_block.chat_bubble:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 0px;
+  bottom: -10px;
+  border: 8px solid;
+  border-color: #32373c transparent transparent #32373c;
+}
+
+.wplc_block.chat_bubble:hover:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.wplc_block.chat_bubble {
+  padding-left: 10px;
+  padding-right: 40px;
+  border-radius: 7px 7px 7px 0;
+}
+
+.wplc_block.chat_bubble .wplc_block_logo {
+  border: none;
+  right: 0px;
+  left: initial;
+  border-radius: 0 7px 7px 0;
+}
+
+.wplc_block.chat_bubble.sm {
+  padding-left: 10px;
+  padding-right: 25px;
+}
+
+.wplc_block.chat_bubble.lg {
+  padding-left: 20px;
+  padding-right: 80px;
+}
+
+
+/* Custom Templates: Rotating circle */
+
+.wplc_block.rotate {
+  transform: rotate(0deg);
+}
+
+.wplc_block.rotate:hover {
+  transition: all .3s ease-in-out;
+  transform: rotate(-90deg);
+}
+
+.wplc_block.rotate .wplc_block_icon {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  transform: rotate(90deg);
+  line-height: 150%;
+}
+
+.wplc_block.rotate .wplc_block_logo {
+  z-index: 10;
+  position: absolute;
+}
+
+.wplc_block.rotate {
+  border-radius: 50%;
+  background: #32373c;
+}
+
+.wplc_block.rotate .wplc_block_logo:hover {
+  opacity: 0;
+}
+
+.wplc_block.circle.rotate.lg .wplc_block_logo {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+.wplc_block.circle.rotate.lg {
+  background: #32373c;
+}
+
+.wplc_block.rotate.lg .wplc_block_icon {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  transform: rotate(90deg);
+  line-height: 225%;
+  padding-right: 10px;
+}
+
+.wplc_block.circle.rotate.sm .wplc_block_logo {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+.wplc_block.circle.rotate.sm {
+  background: #32373c;
+}
+
+.wplc_block.rotate.sm .wplc_block_icon {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  transform: rotate(90deg);
+  line-height: 100%;
+  right: 5px;
+}

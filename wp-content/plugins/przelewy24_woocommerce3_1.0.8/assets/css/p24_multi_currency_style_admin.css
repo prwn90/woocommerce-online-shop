@@ -1,0 +1,40 @@
+p.p24-info {
+	max-width: 40em;
+}
+
+nav.p24-horizontal-tab-menu {
+	margin-top: 1em;
+	display: table;
+	border-spacing: 1em 0;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 0 0 1px 0;
+	font-weight: bold;
+}
+
+nav.p24-horizontal-tab-menu a {
+	text-decoration: none;
+	color: #555;
+}
+
+nav.p24-horizontal-tab-menu span {
+	color: gray;
+}
+
+nav.p24-horizontal-tab-menu a,
+nav.p24-horizontal-tab-menu span {
+	background-color: #e5e5e5;
+	position: relative;
+	top: 1px;
+	display: table-cell;
+	padding: .4em;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 1px 1px 1px 1px;
+}
+
+nav.p24-horizontal-tab-menu .active {
+	background-color: #f1f1f1;
+	border-bottom-color: #f1f1f1;
+	color: black;
+}

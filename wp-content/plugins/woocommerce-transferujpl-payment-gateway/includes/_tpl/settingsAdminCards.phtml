@@ -1,0 +1,56 @@
+<h2><?php _e('Tpay credit cards', 'woocommerce'); ?></h2>
+<table class="form-table">
+    <?php $this->generate_settings_html(); ?>
+</table>
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        getValuesTpay();
+        for (var i = 1; i < 11; i++) {
+            jQuery("#woocommerce_tpaycards_midType" + i).change(function () {
+
+                showCurrency();
+            });
+        }
+
+        jQuery('#woocommerce_tpaycards_midNumber').change(function () {
+            getValuesTpay();
+        });
+
+    });
+    function showCurrency() {
+        var a = jQuery("#woocommerce_tpaycards_midNumber option:selected").val();
+        var b = jQuery("#woocommerce_tpaycards_midType" + a).val();
+        var c = jQuery("#woocommerce_tpaycards_midCurrnecy" + a);
+        if (b == 0) {
+            c.attr("style", "visibility: hidden ");
+        } else {
+            c.attr("style", "visibility: ");
+        }
+    }
+    var tr = document.getElementsByTagName('tr');
+    function getValuesTpay() {
+        var id = jQuery("#woocommerce_tpaycards_midNumber option:selected").val();
+        var mid = 0;
+        if (id == 1) {
+            mid = 7;
+        } else {
+            mid = (id - 1) * 13 + 7;
+        }
+
+        var maxMid = mid + 13;
+
+
+        for (var n = 7; n < tr.length; n++) {
+            tr[n].style.display = "none";
+        }
+        for (var o = mid; o < maxMid; o++) {
+            tr[o].style.display = "";
+
+        }
+    }
+</script>
+
+
+<?php
+

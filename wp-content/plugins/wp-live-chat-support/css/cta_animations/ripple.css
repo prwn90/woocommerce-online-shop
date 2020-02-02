@@ -1,0 +1,37 @@
+#wp-live-chat-header:not(.active) {
+    -webkit-animation: wplc-pulse 1s infinite !important;
+    -moz-animation: wplc-pulse 1s infinite !important;
+    -o-animation: wplc-pulse 1s infinite !important;
+    animation: wplc-pulse 1s infinite !important;
+    animation-name: wplc-pulse !important;
+    animation-duration: 1s !important;
+    animation-timing-function: ease !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: infinite !important;
+    animation-direction: normal !important;
+    animation-fill-mode: none !important;
+    animation-play-state: running !important;
+}
+
+@keyframes wplc-pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #75757575;
+        -moz-box-shadow: 0 0 0 0 #75757575;
+        -o-box-shadow: 0 0 0 0 #75757575;
+        box-shadow: 0 0 0 0 #75757575
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 15px rgba(218, 218, 218, 0);
+        -moz-box-shadow: 0 0 0 15px rgba(218, 218, 218, 0);
+        -o-box-shadow: 0 0 0 15px rgba(218, 218, 218, 0);
+        box-shadow: 0 0 0 15px rgba(218, 218, 218, 0)
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(228, 228, 228, 0);
+        -moz-box-shadow: 0 0 0 0 rgba(228, 228, 228, 0);
+        -o-box-shadow: 0 0 0 0 rgba(228, 228, 228, 0);
+        box-shadow: 0 0 0 0 rgba(228, 228, 228, 0)
+    }
+}
